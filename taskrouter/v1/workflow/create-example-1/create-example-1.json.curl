@@ -1,0 +1,44 @@
+CONFIGURATION=$(cat << EOF
+{
+    "task_routing": {
+        "default_filter": {
+            "queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        },
+        "filters": [
+            {
+                "expression": "type=='sales'",
+                "targets": [
+                    {
+                        "queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                    }
+                ]
+            },
+            {
+                "expression": "type=='marketing'",
+                "targets": [
+                    {
+                        "queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                    }
+                ]
+            },
+            {
+                "expression": "type=='support'",
+                "targets": [
+                    {
+                        "queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                    }
+                ]
+            }
+        ]
+    }
+}
+EOF
+)
+
+curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Workflows \
+--data-urlencode "Configuration=$CONFIGURATION" \
+--data-urlencode "FriendlyName=Sales, Marketing, Support Workflow" \
+--data-urlencode "AssignmentCallbackUrl=http://example.com" \
+--data-urlencode "FallbackAssignmentCallbackUrl=http://example2.com" \
+--data-urlencode "TaskReservationTimeout=30" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

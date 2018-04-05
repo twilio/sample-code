@@ -1,0 +1,2 @@
+curl -X GET https://chat.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

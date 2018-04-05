@@ -1,0 +1,5 @@
+{
+  "original_snippet_path": "video/rest/rooms/list-rooms-filtered-by-name/list-rooms-filtered-by-name.6.x.py",
+  "title": "Filter the list of Rooms by their UniqueName",
+  "type": "server"
+}

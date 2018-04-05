@@ -1,0 +1,2 @@
+curl -X GET https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Queries \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

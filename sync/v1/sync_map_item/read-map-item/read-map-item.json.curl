@@ -1,0 +1,2 @@
+curl -X GET https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Maps/MPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Items \
+    -u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

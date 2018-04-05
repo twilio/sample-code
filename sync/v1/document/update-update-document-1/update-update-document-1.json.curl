@@ -1,0 +1,17 @@
+DATA=$(cat << EOF
+{
+    "date_updated": "2018-02-14 12:24:33.889341",
+    "genre": "Romance",
+    "movie_title": "On The Line",
+    "show_times": null,
+    "starring": [
+        "Lance Bass",
+        "Joey Fatone"
+    ]
+}
+EOF
+)
+
+curl -X POST https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Documents/ETaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
+--data-urlencode "Data=$DATA" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

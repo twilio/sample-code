@@ -1,0 +1,6 @@
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/IncomingPhoneNumbers.json \
+--data-urlencode "FriendlyName=My Company Line" \
+--data-urlencode "PhoneNumber=+15105647903" \
+--data-urlencode "VoiceMethod=GET" \
+--data-urlencode "VoiceUrl=http://demo.twilio.com/docs/voice.xml" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

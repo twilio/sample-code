@@ -1,0 +1,5 @@
+curl -X POST https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Lists/ESaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Permissions/Identity \
+    --data-urlencode "Read=true" \
+    --data-urlencode "Write=true" \
+    --data-urlencode "Manage=true" \
+    -u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

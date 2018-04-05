@@ -1,0 +1,24 @@
+{
+  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "status": "processing",
+  "date_created": "2015-07-30T20:00:00Z",
+  "date_completed": null,
+  "date_deleted": null,
+  "sid": "CJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "audio_sources": [
+    "RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+  ],
+  "video_sources": [],
+  "video_layout": "GRID",
+  "resolution": "1280x720",
+  "format": "mp3",
+  "bitrate": 0,
+  "size": 0,
+  "duration": 1,
+  "room_sid": "RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "url": "https://video.twilio.com/v1/Compositions/CJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "links": {
+    "media": "https://video.twilio.com/v1/Compositions/CJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Media"
+  }
+}

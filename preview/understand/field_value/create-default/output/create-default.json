@@ -1,0 +1,11 @@
+{
+  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/FieldTypes/UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/FieldValues/UCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "field_type_sid": "UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "language": "language",
+  "service_sid": "UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "value": "value",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "date_created": "2015-07-30T20:00:00Z",
+  "sid": "UCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}

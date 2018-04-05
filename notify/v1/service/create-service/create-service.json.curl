@@ -1,0 +1,5 @@
+curl -X POST https://notify.twilio.com/v1/Services \
+--data-urlencode "ApnCredentialSid=CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "FcmCredentialSid=CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "FriendlyName=My Awesome Service" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

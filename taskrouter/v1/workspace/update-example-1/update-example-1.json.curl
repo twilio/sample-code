@@ -1,0 +1,4 @@
+curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
+--data-urlencode "EventCallbackUrl=http://requestb.in/vh9reovh" \
+--data-urlencode "FriendlyName=NewFriendlyName" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

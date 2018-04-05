@@ -1,0 +1,35 @@
+{
+  "faxes": [
+    {
+      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "api_version": "v1",
+      "date_created": "2015-07-30T20:00:00Z",
+      "date_updated": "2015-07-30T20:00:00Z",
+      "direction": "outbound",
+      "from": "+14155551234",
+      "media_url": "https://www.example.com/fax.pdf",
+      "media_sid": "MEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "num_pages": null,
+      "price": null,
+      "price_unit": null,
+      "quality": null,
+      "sid": "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "status": "queued",
+      "to": "+14155554321",
+      "duration": null,
+      "links": {
+        "media": "https://fax.twilio.com/v1/Faxes/FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Media"
+      },
+      "url": "https://fax.twilio.com/v1/Faxes/FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ],
+  "meta": {
+    "first_page_url": "https://fax.twilio.com/v1/Faxes?PageSize=50&Page=0",
+    "key": "faxes",
+    "next_page_url": null,
+    "page": 0,
+    "page_size": 50,
+    "previous_page_url": null,
+    "url": "https://fax.twilio.com/v1/Faxes?PageSize=50&Page=0"
+  }
+}

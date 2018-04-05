@@ -1,0 +1,27 @@
+{
+  "usage_records": [
+    {
+      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "commands": {},
+      "data": {},
+      "sim_sid": "DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "period": {}
+    },
+    {
+      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "commands": {},
+      "data": {},
+      "sim_sid": "DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "period": {}
+    }
+  ],
+  "meta": {
+    "first_page_url": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/UsageRecords?PageSize=50&Page=0",
+    "key": "usage_records",
+    "next_page_url": null,
+    "page": 0,
+    "page_size": 50,
+    "previous_page_url": null,
+    "url": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/UsageRecords?PageSize=50&Page=0"
+  }
+}

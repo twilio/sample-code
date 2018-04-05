@@ -1,0 +1,4 @@
+curl -X GET https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls.json \
+--data-urlencode "StartTime=2009-07-06T00:00:00Z" \
+--data-urlencode "Status=completed" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

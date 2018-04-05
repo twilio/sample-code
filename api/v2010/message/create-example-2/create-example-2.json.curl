@@ -1,0 +1,6 @@
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages.json \
+--data-urlencode "To=+12316851234" \
+--data-urlencode "Body=Hello there!" \
+--data-urlencode "From=+15555555555" \
+--data-urlencode "MediaUrl=https://demo.twilio.com/owl.png" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

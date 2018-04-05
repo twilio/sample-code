@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "key": "intents",
+    "page_size": 50,
+    "next_page_url": null,
+    "url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents?PageSize=50&Page=0",
+    "page": 0,
+    "first_page_url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents?PageSize=50&Page=0",
+    "previous_page_url": null
+  },
+  "intents": [
+    {
+      "unique_name": "unique_name",
+      "links": {
+        "fields": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Fields",
+        "named_entities": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/NamedEntities",
+        "samples": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Samples"
+      },
+      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "friendly_name": "friendly_name",
+      "url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "sid": "UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "date_updated": "2015-07-30T20:00:00Z",
+      "service_sid": "UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "date_created": "2015-07-30T20:00:00Z"
+    }
+  ]
+}

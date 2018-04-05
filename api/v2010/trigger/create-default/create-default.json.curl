@@ -1,0 +1,5 @@
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Usage/Triggers.json \
+--data-urlencode "CallbackUrl=https://example.com" \
+--data-urlencode "TriggerValue=TriggerValue" \
+--data-urlencode "UsageCategory=answering-machine-detection" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

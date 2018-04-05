@@ -1,0 +1,40 @@
+{
+  "queries": [
+    {
+      "language": "language",
+      "date_created": "2015-07-30T20:00:00Z",
+      "model_build_sid": "UGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "query": "query",
+      "date_updated": "2015-07-30T20:00:00Z",
+      "status": "status",
+      "sample_sid": "UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "service_sid": "UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "results": {
+        "intent": {
+          "name": "name",
+          "intent_sid": "UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "confidence": 0.9
+        },
+        "entities": [
+          {
+            "name": "name",
+            "value": "value",
+            "type": "type"
+          }
+        ]
+      },
+      "url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Queries/UHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "sid": "UHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ],
+  "meta": {
+    "previous_page_url": null,
+    "next_page_url": null,
+    "first_page_url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Queries?PageSize=50&Page=0",
+    "page": 0,
+    "key": "queries",
+    "url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Queries?PageSize=50&Page=0",
+    "page_size": 50
+  }
+}

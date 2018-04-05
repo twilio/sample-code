@@ -1,0 +1,7 @@
+curl -X POST https://trunking.twilio.com/v1/Trunks/TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/OriginationUrls \
+--data-urlencode "Weight=1" \
+--data-urlencode "Priority=1" \
+--data-urlencode "Enabled=True" \
+--data-urlencode "FriendlyName=FriendlyName" \
+--data-urlencode "SipUrl=https://example.com" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

@@ -1,0 +1,5 @@
+{
+  "original_snippet_path": "video/rest/rooms/retrieve-room-by-sid/retrieve-room-by-sid.6.x.py",
+  "title": "Retrieve an in-progress or completed Room instance by RoomSid",
+  "type": "server"
+}

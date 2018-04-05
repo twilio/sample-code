@@ -1,0 +1,6 @@
+curl -X POST https://video.twilio.com/v1/Rooms \
+--data-urlencode "StatusCallback=http://example.org" \
+--data-urlencode "Type=group" \
+--data-urlencode "UniqueName=DailyStandupWithH264Codec" \
+--data-urlencode "VideoCodecs=H264" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

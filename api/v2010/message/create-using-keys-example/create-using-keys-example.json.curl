@@ -1,0 +1,5 @@
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages.json \
+--data-urlencode "To=+15558675310" \
+--data-urlencode "Body=Never gonna give you up." \
+--data-urlencode "From=+15017122661" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

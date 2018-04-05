@@ -1,0 +1,4 @@
+curl -X POST https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Maps \
+--data-urlencode "Ttl=1814400" \
+--data-urlencode "UniqueName=Players" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

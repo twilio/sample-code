@@ -1,0 +1,24 @@
+{
+  "samples": [
+    {
+      "url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Samples/UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "intent_sid": "UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "sid": "UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "service_sid": "UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "date_created": "2015-07-30T20:00:00Z",
+      "language": "language",
+      "tagged_text": "tagged_text",
+      "date_updated": "2015-07-30T20:00:00Z"
+    }
+  ],
+  "meta": {
+    "first_page_url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Samples?PageSize=50&Page=0",
+    "previous_page_url": null,
+    "key": "samples",
+    "next_page_url": null,
+    "url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Samples?PageSize=50&Page=0",
+    "page": 0,
+    "page_size": 50
+  }
+}

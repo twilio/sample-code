@@ -1,0 +1,6 @@
+{
+  "description": "Configure the NewMessage Push Notification for a Service instance",
+  "original_snippet_path": "ip-messaging/push-config/new-message-push-config/new-message-push-config.6.x.py",
+  "title": "Configure NewMessage Push Notifications",
+  "type": "server"
+}

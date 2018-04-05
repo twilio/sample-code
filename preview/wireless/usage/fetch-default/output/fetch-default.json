@@ -1,0 +1,11 @@
+{
+  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "commands_costs": {},
+  "commands_usage": {},
+  "data_costs": {},
+  "data_usage": {},
+  "sim_unique_name": "sim_unique_name",
+  "sim_sid": "DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "period": {},
+  "url": "https://preview.twilio.com/wireless/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Usage"
+}

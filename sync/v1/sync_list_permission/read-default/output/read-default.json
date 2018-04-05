@@ -1,0 +1,23 @@
+{
+  "permissions": [
+    {
+      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "service_sid": "ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "list_sid": "ESaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "identity": "identity",
+      "read": true,
+      "write": true,
+      "manage": true,
+      "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Lists/ESaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Permissions/identity"
+    }
+  ],
+  "meta": {
+    "first_page_url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Lists/sidOrUniqueName/Permissions?PageSize=50&Page=0",
+    "key": "permissions",
+    "next_page_url": null,
+    "page": 0,
+    "page_size": 50,
+    "previous_page_url": null,
+    "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Lists/sidOrUniqueName/Permissions?PageSize=50&Page=0"
+  }
+}

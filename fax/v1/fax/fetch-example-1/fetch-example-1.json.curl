@@ -1,0 +1,2 @@
+curl -X GET https://fax.twilio.com/v1/Faxes/FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
+    -u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

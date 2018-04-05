@@ -1,0 +1,2 @@
+curl -X GET https://proxy.twilio.com/v1/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions \
+    -u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

@@ -1,0 +1,11 @@
+{
+  "description": "Look up a phone number including the Payfone TCPA Compliance Add-on results.",
+  "original_snippet_path": "lookups/lookup-get-addon-payfone-example-1/lookup-get-addon-payfone-1.6.x.py",
+  "tags": [
+    "lookup",
+    "phone number"
+  ],
+  "testable": false,
+  "title": "Lookup with Add-on enabled",
+  "type": "server"
+}

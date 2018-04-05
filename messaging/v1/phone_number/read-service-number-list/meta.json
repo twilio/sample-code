@@ -1,0 +1,8 @@
+{
+  "original_snippet_path": "messaging/services/service-number-list/service-number-list.6.x.py",
+  "tags": [
+    "messaging"
+  ],
+  "title": "List all Phone Numbers in a Messaging Service",
+  "type": "server"
+}

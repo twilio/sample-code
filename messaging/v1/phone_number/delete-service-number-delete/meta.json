@@ -1,0 +1,8 @@
+{
+  "original_snippet_path": "messaging/services/service-number-delete/service-number-delete.6.x.py",
+  "tags": [
+    "messaging"
+  ],
+  "title": "Delete a Phone Number from a Messaging Service",
+  "type": "server"
+}

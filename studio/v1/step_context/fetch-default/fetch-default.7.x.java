@@ -1,0 +1,21 @@
+// Install the Java helper library from twilio.com/docs/java/install
+
+import com.twilio.Twilio;
+import com.twilio.rest.studio.v1.flow.engagement.step.StepContext;
+
+public class Example {
+    // Find your Account Sid and Token at twilio.com/console
+    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String AUTH_TOKEN = "your_auth_token";
+
+    public static void main(String[] args) {
+        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
+        StepContext stepContext = StepContext.fetcher(
+                "FWaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "FNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "FTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+            .fetch();
+
+        System.out.println(stepContext.getAccountSid());
+    }
+}

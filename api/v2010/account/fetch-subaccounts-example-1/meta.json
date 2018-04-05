@@ -1,0 +1,5 @@
+{
+  "original_snippet_path": "rest/subaccounts/listing-subaccounts-example-1/listing-subaccounts-example-1.6.x.py",
+  "title": "Return a subaccount resource by its account SID",
+  "type": "server"
+}

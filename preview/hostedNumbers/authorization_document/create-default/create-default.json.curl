@@ -1,0 +1,5 @@
+curl -X POST https://preview.twilio.com/HostedNumbers/AuthorizationDocuments \
+--data-urlencode "HostedNumberOrderSids=['HostedNumberOrderSids']" \
+--data-urlencode "AddressSid=ADaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" \
+--data-urlencode "Email=Email" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

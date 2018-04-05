@@ -1,0 +1,11 @@
+{
+  "sid": "SCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "service_sid": "KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "date_created": "2015-07-30T20:00:00Z",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "short_code": "12345",
+  "country_code": "US",
+  "capabilities": [],
+  "url": "https://preview.twilio.com/Proxy/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/ShortCodes/SCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}

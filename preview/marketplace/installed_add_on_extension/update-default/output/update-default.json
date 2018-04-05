@@ -1,0 +1,9 @@
+{
+  "sid": "XFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "installed_add_on_sid": "XEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "friendly_name": "Incoming Voice Call",
+  "product_name": "Programmable Voice",
+  "unique_name": "voice-incoming",
+  "enabled": false,
+  "url": "https://preview.twilio.com/marketplace/InstalledAddOns/XEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Extensions/XFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}

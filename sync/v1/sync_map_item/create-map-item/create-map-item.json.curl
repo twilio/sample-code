@@ -1,0 +1,14 @@
+DATA=$(cat << EOF
+{
+    "level": 30,
+    "name": "Stephen Curry",
+    "username": "spicy_curry"
+}
+EOF
+)
+
+curl -X POST https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Maps/MPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Items \
+--data-urlencode "Data=$DATA" \
+--data-urlencode "Key=steph_curry" \
+--data-urlencode "Ttl=864000" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

@@ -1,0 +1,5 @@
+{
+  "original_snippet_path": "video/rest/recordings/list-recordings-for-participant-in-room/list-recordings-for-participant-in-room.6.x.py",
+  "title": "Get the list of Recordings for the specified Participant in a given Room",
+  "type": "server"
+}

@@ -1,0 +1,5 @@
+curl -X GET https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages.json \
+--data-urlencode "DateSent=2016-08-31T00:00:00Z" \
+--data-urlencode "From=+15017122661" \
+--data-urlencode "To=+15558675310" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

@@ -1,0 +1,5 @@
+curl -X POST https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Roles \
+--data-urlencode "FriendlyName=new_role" \
+--data-urlencode "Permission=createChannel" \
+--data-urlencode "Type=deployment" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

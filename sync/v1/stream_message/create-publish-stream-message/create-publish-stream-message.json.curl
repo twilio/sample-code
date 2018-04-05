@@ -1,0 +1,12 @@
+DATA=$(cat << EOF
+{
+    "id": "bob",
+    "x": 256,
+    "y": 42
+}
+EOF
+)
+
+curl -X POST https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Streams/TOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages \
+--data-urlencode "Data=$DATA" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

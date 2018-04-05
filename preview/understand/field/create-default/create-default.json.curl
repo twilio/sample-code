@@ -1,0 +1,4 @@
+curl -X POST https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Fields \
+--data-urlencode "FieldType=FieldType" \
+--data-urlencode "UniqueName=UniqueName" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

@@ -1,0 +1,10 @@
+DATA=$(cat << EOF
+{
+    "led": "ON"
+}
+EOF
+)
+
+curl -X POST https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Documents/ETaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
+--data-urlencode "Data=$DATA" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

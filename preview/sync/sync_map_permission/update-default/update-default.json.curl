@@ -1,0 +1,5 @@
+curl -X POST https://preview.twilio.com/Sync/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Maps/MPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Permissions/Identity \
+--data-urlencode "Read=True" \
+--data-urlencode "Write=True" \
+--data-urlencode "Manage=True" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

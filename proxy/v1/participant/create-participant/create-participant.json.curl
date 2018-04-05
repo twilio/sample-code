@@ -1,0 +1,4 @@
+curl -X POST https://proxy.twilio.com/v1/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions/KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Participants \
+--data-urlencode "Identifier=+15558675310" \
+--data-urlencode "FriendlyName=Alice" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

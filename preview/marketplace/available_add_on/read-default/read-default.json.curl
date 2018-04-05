@@ -1,0 +1,2 @@
+curl -X GET https://preview.twilio.com/marketplace/AvailableAddOns \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

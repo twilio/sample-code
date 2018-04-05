@@ -1,0 +1,7 @@
+{
+  "description": "Record an outbound call with the Twilio REST API",
+  "original_snippet_path": "guides/voice/record-calls-guide/record-outgoing-call/example-1.6.x.py",
+  "testable": true,
+  "title": "Record an outbound call",
+  "type": "server"
+}

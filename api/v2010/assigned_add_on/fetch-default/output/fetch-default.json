@@ -1,0 +1,17 @@
+{
+  "sid": "XEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "resource_sid": "PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "friendly_name": "VoiceBase High Accuracy Transcription",
+  "description": "Automatic Transcription and Keyword Extract...",
+  "configuration": {
+    "bad_words": true
+  },
+  "unique_name": "voicebase_high_accuracy_transcription",
+  "date_created": "Thu, 07 Apr 2016 23:52:28 +0000",
+  "date_updated": "Thu, 07 Apr 2016 23:52:28 +0000",
+  "uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/IncomingPhoneNumbers/PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/AssignedAddOns/XEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.json",
+  "subresource_uris": {
+    "extensions": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/IncomingPhoneNumbers/PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/AssignedAddOns/XEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Extensions.json"
+  }
+}

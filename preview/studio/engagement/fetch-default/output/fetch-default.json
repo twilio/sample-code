@@ -1,0 +1,15 @@
+{
+  "sid": "FNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "flow_sid": "FWaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "contact_sid": "FCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "contact_channel_address": "+14155555555",
+  "status": "ended",
+  "context": {},
+  "date_created": "2017-11-06T12:00:00Z",
+  "date_updated": null,
+  "url": "https://preview.twilio.com/Studio/Flows/FWaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Engagements/FNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "links": {
+    "steps": "https://preview.twilio.com/Studio/Flows/FWaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Engagements/FNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Steps"
+  }
+}

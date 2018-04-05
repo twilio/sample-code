@@ -1,0 +1,11 @@
+{
+  "publisher_sid": null,
+  "subscriber_sid": "PAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "room_sid": "RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "date_created": null,
+  "date_updated": null,
+  "sid": null,
+  "name": "bob-track",
+  "kind": "data",
+  "enabled": null
+}

@@ -1,0 +1,8 @@
+{
+  "original_snippet_path": "messaging/services/service-list/service-list.6.x.py",
+  "tags": [
+    "messaging"
+  ],
+  "title": "List all Messaging Services",
+  "type": "server"
+}

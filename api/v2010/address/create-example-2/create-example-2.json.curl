@@ -1,0 +1,8 @@
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Addresses.json \
+    --data-urlencode "CustomerName=CustomerName" \
+    --data-urlencode "Street=Street" \
+    --data-urlencode "City=City" \
+    --data-urlencode "Region=Region" \
+    --data-urlencode "PostalCode=PostalCode" \
+    --data-urlencode "IsoCountry=US" \
+    -u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

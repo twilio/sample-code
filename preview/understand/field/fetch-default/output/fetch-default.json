@@ -1,0 +1,11 @@
+{
+  "url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Fields/UEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "unique_name": "unique_name",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "service_sid": "UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "intent_sid": "UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "date_created": "2015-07-30T20:00:00Z",
+  "sid": "UEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "field_type": "field_type"
+}

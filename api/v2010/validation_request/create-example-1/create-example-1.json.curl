@@ -1,0 +1,4 @@
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/OutgoingCallerIds.json \
+--data-urlencode "PhoneNumber=+14158675310" \
+--data-urlencode "FriendlyName=My Home Phone Number" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

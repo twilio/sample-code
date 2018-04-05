@@ -1,0 +1,5 @@
+{
+  "original_snippet_path": "rest/messages/send-sms-callback/send-sms-callback.6.x.py",
+  "title": "Send an SMS with a StatusCallback URL",
+  "type": "server"
+}

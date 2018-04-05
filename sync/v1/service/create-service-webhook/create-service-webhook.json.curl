@@ -1,0 +1,4 @@
+curl -X POST https://sync.twilio.com/v1/Services \
+--data-urlencode "FriendlyName=MySyncServiceInstance" \
+--data-urlencode "WebhookUrl=https://example.com/sync" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

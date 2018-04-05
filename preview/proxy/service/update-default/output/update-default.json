@@ -1,0 +1,15 @@
+{
+  "friendly_name": "friendly_name",
+  "date_created": "2015-07-30T20:00:00Z",
+  "url": "https://preview.twilio.com/Proxy/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "sid": "KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "links": {
+    "sessions": "https://preview.twilio.com/Proxy/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions",
+    "phone_numbers": "https://preview.twilio.com/Proxy/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/PhoneNumbers",
+    "short_codes": "https://preview.twilio.com/Proxy/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/ShortCodes"
+  },
+  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "callback_url": "http://www.example.com",
+  "auto_create": false
+}

@@ -1,0 +1,6 @@
+curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/TaskQueues \
+--data-urlencode "AssignmentActivitySid=WA21d51f4c72583766988f9860de3e130a" \
+--data-urlencode "FriendlyName=English" \
+--data-urlencode "ReservationActivitySid=WAea296a56ebce4bfbff0e99abadf16934" \
+--data-urlencode "TargetWorkers=languages HAS "english"" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

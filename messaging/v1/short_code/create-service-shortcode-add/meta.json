@@ -1,0 +1,8 @@
+{
+  "original_snippet_path": "messaging/services/service-shortcode-add/service-shortcode-add.6.x.py",
+  "tags": [
+    "messaging"
+  ],
+  "title": "Add a Short Code to a Messaging Service",
+  "type": "server"
+}

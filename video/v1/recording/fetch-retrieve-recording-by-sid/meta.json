@@ -1,0 +1,5 @@
+{
+  "original_snippet_path": "video/rest/recordings/retrieve-recording-by-sid/retrieve-recording-by-sid.6.x.py",
+  "title": "Returns a representation of the Recording metadata.",
+  "type": "server"
+}

@@ -1,0 +1,16 @@
+# Download the helper library from https://www.twilio.com/docs/ruby/install
+require 'rubygems'
+require 'twilio-ruby'
+
+# Your Account Sid and Auth Token from twilio.com/console
+account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+auth_token = 'your_auth_token'
+@client = Twilio::REST::Client.new(account_sid, auth_token)
+
+phone_number = @client.messaging.services('MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+                      .phone_numbers
+                      .create(
+                         phone_number_sid: 'PN557ce644e5ab84fa21cc21112e22c485'
+                       )
+
+puts phone_number.sid

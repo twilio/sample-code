@@ -1,0 +1,5 @@
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls.json \
+--data-urlencode "From=+15017122661" \
+--data-urlencode "To=+14155551212" \
+--data-urlencode "Url=http://demo.twilio.com/docs/voice.xml" \
+-u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

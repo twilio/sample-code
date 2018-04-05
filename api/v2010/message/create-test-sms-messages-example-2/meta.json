@@ -1,0 +1,5 @@
+{
+  "original_snippet_path": "rest/test-credentials/test-sms-messages-example-2/test-sms-messages-example-2.6.x.py",
+  "title": "Attempt to send a message to a non-mobile number",
+  "type": "server"
+}

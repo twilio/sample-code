@@ -1,0 +1,21 @@
+{
+  "sid": "XBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "friendly_name": "VoiceBase High Accuracy Transcription",
+  "description": "Automatic Transcription and Keyword Extract...",
+  "pricing_type": "per minute",
+  "configuration_schema": {
+    "type": "object",
+    "properties": {
+      "bad_words": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "bad_words"
+    ]
+  },
+  "url": "https://preview.twilio.com/marketplace/AvailableAddOns/XBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "links": {
+    "extensions": "https://preview.twilio.com/marketplace/AvailableAddOns/XBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Extensions"
+  }
+}

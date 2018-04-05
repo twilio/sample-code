@@ -1,0 +1,11 @@
+{
+  "url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Samples/UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "intent_sid": "UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sid": "UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "service_sid": "UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "date_created": "2015-07-30T20:00:00Z",
+  "language": "language",
+  "tagged_text": "tagged_text",
+  "date_updated": "2015-07-30T20:00:00Z"
+}

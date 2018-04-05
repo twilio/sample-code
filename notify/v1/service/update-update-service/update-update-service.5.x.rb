@@ -1,0 +1,17 @@
+# Download the helper library from https://www.twilio.com/docs/ruby/install
+require 'rubygems'
+require 'twilio-ruby'
+
+# Your Account Sid and Auth Token from twilio.com/console
+account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+auth_token = 'your_auth_token'
+@client = Twilio::REST::Client.new(account_sid, auth_token)
+
+service = @client.notify.services('ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+                 .update(
+                    facebook_messenger_page_id: 'your_page_id',
+                    friendly_name: 'Another Awesome Service',
+                    messaging_service_sid: 'your_twilio_messaging_service_sid'
+                  )
+
+puts service.sid

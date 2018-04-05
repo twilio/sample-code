@@ -1,0 +1,8 @@
+{
+  "original_snippet_path": "messaging/services/service-alpha-delete/service-alpha-delete.6.x.py",
+  "tags": [
+    "messaging"
+  ],
+  "title": "Delete an Alpha Sender ID from a Messaging Service",
+  "type": "server"
+}

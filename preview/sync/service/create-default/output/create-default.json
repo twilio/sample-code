@@ -1,0 +1,16 @@
+{
+  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "date_created": "2015-07-30T20:00:00Z",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "friendly_name": "friendly_name",
+  "links": {
+    "documents": "https://preview.twilio.com/Sync/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Documents",
+    "lists": "https://preview.twilio.com/Sync/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Lists",
+    "maps": "https://preview.twilio.com/Sync/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Maps"
+  },
+  "sid": "ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "url": "https://preview.twilio.com/Sync/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "webhook_url": "http://www.example.com",
+  "reachability_webhooks_enabled": false,
+  "acl_enabled": true
+}
