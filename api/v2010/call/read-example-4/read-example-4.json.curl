@@ -1,3 +1,6 @@
-curl -X GET https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls.json \
---data-urlencode "Status=in-progress" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+curl -X GET https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json \
+--data-urlencode "account_sid=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "start_time<=2009-07-06T00:00:00Z" \
+--data-urlencode "start_time>=2009-07-04T00:00:00Z" \
+--data-urlencode "status=in-progress" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token

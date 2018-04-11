@@ -7,12 +7,12 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $syncMapItems = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                 ->syncMaps("MPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+                                 ->syncMaps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->syncMapItems
                                  ->read(array(
                                             'from' => "steph_curry",

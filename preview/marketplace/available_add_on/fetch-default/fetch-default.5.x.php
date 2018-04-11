@@ -7,11 +7,11 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$available_add_on = $twilio->preview->marketplace->availableAddOns("XBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+$available_add_on = $twilio->preview->marketplace->availableAddOns("XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                  ->fetch();
 
 print($available_add_on.sid);

@@ -1,5 +1,5 @@
 curl -X GET https://monitor.twilio.com/v1/Events \
---data-urlencode "EndDate=2015-04-25" \
---data-urlencode "SourceIpAddress=104.14.155.29" \
---data-urlencode "StartDate=2015-04-25" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+--data-urlencode "end_date=2015-04-25" \
+--data-urlencode "source_ip_address=104.14.155.29" \
+--data-urlencode "start_date=2015-04-25" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

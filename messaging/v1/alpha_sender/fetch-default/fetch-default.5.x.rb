@@ -3,12 +3,12 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-alpha_sender = @client.messaging.services('MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                      .alpha_senders('AIaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+alpha_sender = @client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                      .alpha_senders('AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .fetch
 
 puts alpha_sender.sid

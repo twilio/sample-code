@@ -11,14 +11,14 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var member = MemberResource.Update(
-            pathQueueSid: "QUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-            pathCallSid: "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            pathQueueSid: "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             url: new Uri("https://example.com"),
             method: Twilio.Http.HttpMethod.Get
         );

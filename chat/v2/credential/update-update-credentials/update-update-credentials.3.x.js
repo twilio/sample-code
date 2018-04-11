@@ -1,10 +1,14 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.chat.credentials('CRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-           .update({apiKey: 'xxxxxx', friendlyName: 'MyCredential'})
+client.chat.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .update({
+              apiKey: 'xxxxxx',
+              friendlyName: 'MyCredential',
+              sid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+            })
            .then(credential => console.log(credential.sid))
            .done();

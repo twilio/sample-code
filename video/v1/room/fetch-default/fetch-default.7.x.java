@@ -5,12 +5,12 @@ import com.twilio.rest.video.v1.Room;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Room room = Room.fetcher("RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa").fetch();
+        Room room = Room.fetcher("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch();
 
         System.out.println(room.getSid());
     }

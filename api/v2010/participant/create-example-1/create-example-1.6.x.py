@@ -3,11 +3,11 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-participant = client.conferences("CFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
+participant = client.conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .participants \
                     .create(from_="+18180021216", to="+15624421212")
 

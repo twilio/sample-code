@@ -5,14 +5,14 @@ import com.twilio.rest.taskrouter.v1.workspace.taskqueue.TaskQueueStatistics;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         TaskQueueStatistics taskQueueStatistics = TaskQueueStatistics.fetcher(
-                "WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                "WQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+                "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
         System.out.println(taskQueueStatistics.getAccountSid());

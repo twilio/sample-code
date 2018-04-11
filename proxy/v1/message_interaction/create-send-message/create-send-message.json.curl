@@ -1,3 +1,6 @@
-curl -X POST https://proxy.twilio.com/v1/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions/KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Participants/KPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/MessageInteractions \
---data-urlencode "Body=Reply to this message to chat!" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+curl -X POST https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/MessageInteractions \
+--data-urlencode "body=Reply to this message to chat!" \
+--data-urlencode "participant_sid=KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "service_sid=KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "session_sid=KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

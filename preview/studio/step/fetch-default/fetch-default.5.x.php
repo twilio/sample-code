@@ -7,13 +7,13 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$step = $twilio->preview->studio->flows("FWaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                ->engagements("FNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                ->steps("FTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+$step = $twilio->preview->studio->flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                ->engagements("FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                ->steps("FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->fetch();
 
 print($step.sid);

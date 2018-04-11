@@ -7,14 +7,18 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $stream_message = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                   ->syncStreams("TOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+                                   ->syncStreams("TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->streamMessages
-                                   ->create("{\"id\": \"bob\", \"x\": 256, \"y\": 42}"
+                                   ->create(array(
+                                                "id" => "bob",
+                                                "x" => "256",
+                                                "y" => "42"
+                                            )
                                    );
 
 print($stream_message.sid);

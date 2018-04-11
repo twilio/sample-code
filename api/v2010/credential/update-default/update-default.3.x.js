@@ -1,11 +1,14 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.sip.credentialLists('CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-          .credentials('CRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-          .update({password: 'password'})
+client.sip.credentialLists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+          .credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+          .update({
+             credentialListSid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+             sid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+           })
           .then(credential => console.log(credential.sid))
           .done();

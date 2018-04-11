@@ -1,11 +1,14 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.chat.services('ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-           .bindings('BSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-           .fetch()
+client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .bindings('BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .fetch({
+              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+              sid: 'BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+            })
            .then(binding => console.log(binding.sid))
            .done();

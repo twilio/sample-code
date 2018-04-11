@@ -1,4 +1,6 @@
-curl -X POST https://preview.twilio.com/DeployedDevices/Fleets/FLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Certificates/CYaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
---data-urlencode "DeviceSid=THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "FriendlyName=My New Certificate" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+curl -X POST https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates/CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+--data-urlencode "device_sid=THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "fleet_sid=FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "friendly_name=My New Certificate" \
+--data-urlencode "sid=CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

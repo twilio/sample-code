@@ -1,3 +1,2 @@
 curl -X POST https://preview.twilio.com/BulkExports/Exports/ResourceType/Configuration \
---data-urlencode "Enabled=True" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

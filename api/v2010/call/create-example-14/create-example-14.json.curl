@@ -1,8 +1,9 @@
-curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls.json \
---data-urlencode "From=+18668675310" \
---data-urlencode "To=+14155551212" \
---data-urlencode "Method=GET" \
---data-urlencode "StatusCallback=https://www.myapp.com/events" \
---data-urlencode "StatusCallbackMethod=POST" \
---data-urlencode "Url=http://demo.twilio.com/docs/voice.xml" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json \
+--data-urlencode "account_sid=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "from=+18668675310" \
+--data-urlencode "method=GET" \
+--data-urlencode "status_callback=https://www.myapp.com/events" \
+--data-urlencode "status_callback_method=POST" \
+--data-urlencode "to=+14155551212" \
+--data-urlencode "url=http://demo.twilio.com/docs/voice.xml" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token

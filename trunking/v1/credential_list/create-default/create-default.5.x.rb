@@ -3,12 +3,12 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-credential_list = @client.trunking.trunks('TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+credential_list = @client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .credentials_lists
-  .create(credential_list_sid: 'CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+  .create(credential_list_sid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
 puts credential_list.sid

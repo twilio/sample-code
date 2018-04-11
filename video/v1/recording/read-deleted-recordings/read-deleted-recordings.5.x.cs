@@ -10,7 +10,7 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
@@ -19,7 +19,8 @@ class Program
             status: RecordingResource.StatusEnum.Deleted
         );
 
-        foreach(var record in recordings) {
+        foreach(var record in recordings)
+        {
            Console.WriteLine(record.Sid);
         }
     }

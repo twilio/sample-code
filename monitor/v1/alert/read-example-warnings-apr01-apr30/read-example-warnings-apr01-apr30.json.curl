@@ -1,5 +1,5 @@
 curl -X GET https://monitor.twilio.com/v1/Alerts \
---data-urlencode "EndDate=2015-04-30" \
---data-urlencode "LogLevel=warning" \
---data-urlencode "StartDate=2015-04-01" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+--data-urlencode "end_date=2015-04-30" \
+--data-urlencode "log_level=warning" \
+--data-urlencode "start_date=2015-04-01" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -1,9 +1,13 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.proxy.services('KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .sessions
-                    .each(sessions => console.log(sessions.sid));
+                    .each({
+                       serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                     },
+                         sessions => console.log(sessions.sid)
+                     );

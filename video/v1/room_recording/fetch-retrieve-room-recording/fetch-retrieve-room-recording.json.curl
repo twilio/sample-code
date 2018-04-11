@@ -1,2 +1,4 @@
-curl -X GET https://video.twilio.com/v1/Rooms/RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings/RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+curl -X GET https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+--data-urlencode "room_sid=RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "sid=RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

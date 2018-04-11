@@ -7,13 +7,13 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$worker_channel = $twilio->taskrouter->v1->workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                         ->workers("WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                         ->workerChannels("WCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+$worker_channel = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                         ->workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                         ->workerChannels("WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->fetch();
 
 print($worker_channel.accountSid);

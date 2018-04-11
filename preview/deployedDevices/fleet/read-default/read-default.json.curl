@@ -1,2 +1,2 @@
 curl -X GET https://preview.twilio.com/DeployedDevices/Fleets \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -1,9 +1,10 @@
-curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Addresses.json \
---data-urlencode "City=Berlin" \
---data-urlencode "CustomerName=Customer 123" \
---data-urlencode "IsoCountry=DE" \
---data-urlencode "PostalCode=10875" \
---data-urlencode "Region=Berlin" \
---data-urlencode "Street=1 Hasselhoff Lane" \
---data-urlencode "FriendlyName=Billing - Customer 123" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses.json \
+--data-urlencode "account_sid=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "city=Berlin" \
+--data-urlencode "customer_name=Customer 123" \
+--data-urlencode "friendly_name=Billing - Customer 123" \
+--data-urlencode "iso_country=DE" \
+--data-urlencode "postal_code=10875" \
+--data-urlencode "region=Berlin" \
+--data-urlencode "street=1 Hasselhoff Lane" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token

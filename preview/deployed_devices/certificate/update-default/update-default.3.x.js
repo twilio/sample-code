@@ -1,11 +1,14 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.deployed_devices.fleets('FLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-              .certificates('CYaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-              .update({friendlyName: 'friendlyName'})
+client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .certificates('CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .update({
+                 fleetSid: 'FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                 sid: 'CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+               })
               .then(certificate => console.log(certificate.sid))
               .done();

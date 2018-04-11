@@ -3,11 +3,9 @@
 import com.twilio.Twilio;
 import com.twilio.rest.sync.v1.service.syncmap.SyncMapItem;
 
-import java.util.HashMap;
-
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
@@ -16,7 +14,14 @@ public class Example {
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "Players",
                 "steph_curry")
-            .setData(new HashMap<String, Object>()).update();
+            .setData(
+                new java.util.HashMap<String, Object>()
+                {{
+                    put("name", "Stephen Curry");
+                    put("level", "31");
+                    put("username", "spicy_curry");
+                }})
+            .update();
 
         System.out.println(syncMapItem.getKey());
     }

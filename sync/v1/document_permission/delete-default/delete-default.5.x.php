@@ -7,11 +7,11 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$document_permission = $twilio->sync->v1->services("ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                        ->documents("ETaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                        ->documentPermissions("identity")
-                                        ->delete();
+$twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                 ->documents("ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                 ->documentPermissions("identity")
+                 ->delete();

@@ -1,4 +1,6 @@
-curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Tasks/WTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
---data-urlencode "AssignmentStatus=canceled" \
---data-urlencode "Reason=waiting too long" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks/WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+--data-urlencode "assignment_status=canceled" \
+--data-urlencode "reason=waiting too long" \
+--data-urlencode "sid=WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "workspace_sid=WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

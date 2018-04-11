@@ -3,11 +3,11 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-queue = client.queues("QUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
+queue = client.queues("QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
               .update(max_size=123)
 
 print(queue.account_sid)

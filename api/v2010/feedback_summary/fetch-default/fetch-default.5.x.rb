@@ -3,12 +3,12 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 feedback_summary = @client.calls
-  .feedback_summaries('FSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+  .feedback_summaries('FSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
 puts feedback_summary.account_sid

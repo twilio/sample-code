@@ -7,14 +7,16 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $document = $twilio->sync->v1->services("default")
                              ->documents
                              ->create(array(
-                                          'data' => "{\"led\": \"OFF\"}",
+                                          'data' => array(
+                                              "led" => "OFF"
+                                          ),
                                           'uniqueName' => "BoardLED"
                                       )
                              );

@@ -6,14 +6,14 @@ import com.twilio.rest.api.v2010.account.recording.addonresult.Payload;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Payload> payloads = Payload.reader(
-                "REaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                "XRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+                "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                "XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .read();
 
         for(Payload record : payloads) {

@@ -1,11 +1,15 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.chat.services('ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-           .channels('CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-           .update({friendlyName: 'NEW_FRIENDLY_NAME'})
+client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .update({
+              friendlyName: 'NEW_FRIENDLY_NAME',
+              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+              sid: 'CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+            })
            .then(channel => console.log(channel.sid))
            .done();

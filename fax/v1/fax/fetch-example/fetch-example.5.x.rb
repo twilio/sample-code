@@ -3,10 +3,10 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-fax = @client.fax.faxes('FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa').fetch
+fax = @client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
 puts fax.sid

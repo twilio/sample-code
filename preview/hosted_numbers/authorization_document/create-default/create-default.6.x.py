@@ -3,7 +3,7 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
@@ -11,7 +11,7 @@ authorization_document = client.preview.hosted_numbers \
     .authorization_documents \
     .create(
          hosted_number_order_sids=['hosted_number_order_sids'],
-         address_sid="ADaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+         address_sid="ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
          email="email"
      )
 

@@ -1,9 +1,13 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.fax.faxes('FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .media
-          .each(media => console.log(media.sid));
+          .each({
+             faxSid: 'FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+           },
+               media => console.log(media.sid)
+           );

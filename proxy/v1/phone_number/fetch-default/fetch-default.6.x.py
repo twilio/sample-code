@@ -3,12 +3,12 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-phone_number = client.proxy.services("KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
-                     .phone_numbers("PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
+phone_number = client.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                     .phone_numbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .fetch()
 
 print(phone_number.sid)

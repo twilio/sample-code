@@ -1,4 +1,2 @@
 curl -X POST https://preview.twilio.com/marketplace/InstalledAddOns \
---data-urlencode "AvailableAddOnSid=XBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" \
---data-urlencode "AcceptTermsOfService=True" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

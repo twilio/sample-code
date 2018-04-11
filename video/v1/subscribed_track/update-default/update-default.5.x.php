@@ -7,15 +7,15 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$subscribed_track = $twilio->video->v1->rooms("RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                      ->participants("PAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+$subscribed_track = $twilio->video->v1->rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                      ->participants("PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->subscribedTracks
                                       ->update(array(
-                                                   'track' => "MTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                                   'track' => "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                                )
                                       );
 

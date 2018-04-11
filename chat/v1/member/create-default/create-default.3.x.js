@@ -1,12 +1,16 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.chat.v1.services('ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-              .channels('CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .members
-              .create({identity: 'identity'})
+              .create({
+                 serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                 channelSid: 'CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                 identity: 'identity'
+               })
               .then(member => console.log(member.sid))
               .done();

@@ -3,14 +3,14 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 message_interaction = @client.proxy
-  .services('KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-  .sessions('KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-  .participants('KPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+  .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .message_interactions
   .create(body: 'Reply to this message to chat!')
 

@@ -7,9 +7,9 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$hosted_number_order = $twilio->preview->hostedNumbers->hostedNumberOrders("HRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                                      ->delete();
+$twilio->preview->hostedNumbers->hostedNumberOrders("HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                               ->delete();

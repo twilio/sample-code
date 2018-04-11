@@ -3,11 +3,11 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-workspace = @client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-  .update(default_activity_sid: 'WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+workspace = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  .update(default_activity_sid: 'WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
 puts workspace.account_sid

@@ -3,14 +3,14 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 participant = client.preview.proxy \
-                    .services("KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
-                    .sessions("KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
-                    .participants("KPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
+                    .services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                    .sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                    .participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .fetch()
 
 print(participant.sid)

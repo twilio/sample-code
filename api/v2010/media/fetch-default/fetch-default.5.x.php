@@ -7,12 +7,12 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$media = $twilio->messages("MMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                ->media("MEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+$media = $twilio->messages("MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                ->media("MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                 ->fetch();
 
 print($media.accountSid);

@@ -7,13 +7,13 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$workspace = $twilio->taskrouter->v1->workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+$workspace = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->update(array(
-                                                 'defaultActivitySid' => "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                                 'defaultActivitySid' => "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                              )
                                     );
 

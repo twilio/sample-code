@@ -3,10 +3,10 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-event = client.monitor.events("AEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa").fetch()
+event = client.monitor.events("AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
 print(event.account_sid)

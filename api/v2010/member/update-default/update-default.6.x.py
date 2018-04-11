@@ -3,12 +3,12 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-member = client.queues("QUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
-               .members("CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
+member = client.queues("QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+               .members("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                .update(url="https://example.com", method="GET")
 
 print(member.call_sid)

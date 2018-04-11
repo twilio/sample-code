@@ -1,6 +1,6 @@
 curl -X POST https://video.twilio.com/v1/Rooms \
---data-urlencode "EnableTurn=True" \
---data-urlencode "StatusCallback=http://example.org" \
---data-urlencode "Type=peer-to-peer" \
---data-urlencode "UniqueName=DailyStandup" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+--data-urlencode "enable_turn=True" \
+--data-urlencode "status_callback=http://example.org" \
+--data-urlencode "type=peer-to-peer" \
+--data-urlencode "unique_name=DailyStandup" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

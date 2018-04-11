@@ -1,10 +1,15 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.studio.flows('FWaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-             .engagements('FNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+             .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .steps
-             .each(steps => console.log(steps.sid));
+             .each({
+                flowSid: 'FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                engagementSid: 'FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+              },
+                  steps => console.log(steps.sid)
+              );

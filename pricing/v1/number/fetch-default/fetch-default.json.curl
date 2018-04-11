@@ -1,2 +1,2 @@
 curl -X GET https://pricing.twilio.com/v1/Voice/Numbers/+15017122661 \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

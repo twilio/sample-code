@@ -1,15 +1,17 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.sync.services('ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-           .syncMaps('MPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMapItems
            .each({
               from: 'steph_curry',
-              order: 'asc'
+              mapSid: 'Players',
+              order: 'asc',
+              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
             },
                 syncMapItems => console.log(syncMapItems.key)
             );

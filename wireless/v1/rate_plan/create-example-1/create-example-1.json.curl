@@ -1,5 +1,5 @@
 curl -X POST https://wireless.twilio.com/v1/RatePlans \
---data-urlencode "FriendlyName=California SmartMeter Plan" \
---data-urlencode "MessagingEnabled=True" \
---data-urlencode "UniqueName=SmartMeterCA" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+--data-urlencode "friendly_name=California SmartMeter Plan" \
+--data-urlencode "messaging_enabled=True" \
+--data-urlencode "unique_name=SmartMeterCA" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

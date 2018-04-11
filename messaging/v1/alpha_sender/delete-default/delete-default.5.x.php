@@ -7,10 +7,10 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$alpha_sender = $twilio->messaging->v1->services("MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                      ->alphaSenders("AIaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                      ->delete();
+$twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                      ->alphaSenders("AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                      ->delete();
