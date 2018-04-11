@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls('CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
       .update({method: 'POST', url: 'http://demo.twilio.com/docs/voice.xml'})
-      .then(call => console.log(call.sid))
+      .then(call => console.log(call.accountSid))
       .done();

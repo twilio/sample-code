@@ -12,4 +12,4 @@ intent = client.preview.understand \
                        .intents("UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                        .update(friendly_name="friendly_name")
 
-print(intent.sid)
+print(intent.account_sid)

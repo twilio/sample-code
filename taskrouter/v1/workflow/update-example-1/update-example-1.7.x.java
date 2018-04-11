@@ -15,6 +15,6 @@ public class Example {
                 "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setTaskReservationTimeout(20).update();
 
-        System.out.println(workflow.getSid());
+        System.out.println(workflow.getAccountSid());
     }
 }

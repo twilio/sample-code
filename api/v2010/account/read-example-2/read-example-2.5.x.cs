@@ -18,7 +18,7 @@ class Program
         var accounts = AccountResource.Read(status: AccountResource.StatusEnum.Active);
 
         foreach(var record in accounts) {
-           Console.WriteLine(record.AuthToken);
+           Console.WriteLine(record.Sid);
         }
     }
 }

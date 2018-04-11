@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $call = $twilio->calls("CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                ->update(array('url' => "https://example.com"));
 
-print($call.sid);
+print($call.accountSid);

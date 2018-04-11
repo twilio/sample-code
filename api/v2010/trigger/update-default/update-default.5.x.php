@@ -15,4 +15,4 @@ $trigger = $twilio->usage
                   ->triggers("UTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                   ->update(array('callbackMethod' => "GET"));
 
-print($trigger.sid);
+print($trigger.accountSid);

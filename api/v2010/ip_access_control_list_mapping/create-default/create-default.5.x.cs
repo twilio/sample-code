@@ -20,6 +20,6 @@ class Program
             ipAccessControlListSid: "ALaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         );
 
-        Console.WriteLine(ipAccessControlListMapping.AccountSid);
+        Console.WriteLine(ipAccessControlListMapping.Sid);
     }
 }

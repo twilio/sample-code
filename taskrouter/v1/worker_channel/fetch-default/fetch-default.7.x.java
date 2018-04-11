@@ -16,6 +16,6 @@ public class Example {
                 "WCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(workerChannel.getSid());
+        System.out.println(workerChannel.getAccountSid());
     }
 }

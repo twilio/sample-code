@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 application = client.applications("APaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                     .update(friendly_name="friendly_name")
 
-print(application.sid)
+print(application.account_sid)

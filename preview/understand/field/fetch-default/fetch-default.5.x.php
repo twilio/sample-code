@@ -16,4 +16,4 @@ $field = $twilio->preview->understand->services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                      ->fields("UEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                      ->fetch();
 
-print($field.sid);
+print($field.accountSid);

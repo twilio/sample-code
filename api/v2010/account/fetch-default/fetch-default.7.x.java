@@ -13,6 +13,6 @@ public class Example {
         Account account = Account.fetcher("ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(account.getSid());
+        System.out.println(account.getAuthToken());
     }
 }

@@ -21,6 +21,6 @@ class Program
             voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml")
         );
 
-        Console.WriteLine(incomingPhoneNumber.AccountSid);
+        Console.WriteLine(incomingPhoneNumber.Sid);
     }
 }

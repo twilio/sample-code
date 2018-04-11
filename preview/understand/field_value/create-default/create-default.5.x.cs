@@ -22,6 +22,6 @@ class Program
             value: "Value"
         );
 
-        Console.WriteLine(fieldValue.AccountSid);
+        Console.WriteLine(fieldValue.Sid);
     }
 }

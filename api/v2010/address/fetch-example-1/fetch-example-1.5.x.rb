@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 address = @client.addresses('ADaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa').fetch
 
-puts address.sid
+puts address.account_sid

@@ -14,6 +14,6 @@ public class Example {
             Workspace.fetcher("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(workspace.getSid());
+        System.out.println(workspace.getAccountSid());
     }
 }

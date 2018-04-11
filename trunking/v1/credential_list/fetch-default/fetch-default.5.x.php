@@ -15,4 +15,4 @@ $credential_list = $twilio->trunking->v1->trunks("TRaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                         ->credentialsLists("CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                         ->fetch();
 
-print($credential_list.sid);
+print($credential_list.accountSid);

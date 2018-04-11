@@ -11,4 +11,4 @@ worker = @client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                 .workers('WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                 .update(activity_sid: 'WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
 
-puts worker.sid
+puts worker.account_sid

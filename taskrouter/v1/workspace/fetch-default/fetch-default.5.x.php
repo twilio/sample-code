@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $workspace = $twilio->taskrouter->v1->workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                     ->fetch();
 
-print($workspace.sid);
+print($workspace.accountSid);

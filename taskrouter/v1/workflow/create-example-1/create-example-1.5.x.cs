@@ -25,6 +25,6 @@ class Program
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workflow.AccountSid);
+        Console.WriteLine(workflow.Sid);
     }
 }

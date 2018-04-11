@@ -18,4 +18,4 @@ $query = $twilio->preview->understand->services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                               )
                                      );
 
-print($query.sid);
+print($query.accountSid);

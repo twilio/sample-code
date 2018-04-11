@@ -17,6 +17,6 @@ class Program
 
         var account = AccountResource.Create(friendlyName: "Submarine");
 
-        Console.WriteLine(account.AuthToken);
+        Console.WriteLine(account.Sid);
     }
 }

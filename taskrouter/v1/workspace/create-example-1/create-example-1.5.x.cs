@@ -22,6 +22,6 @@ class Program
             template: "FIFO"
         );
 
-        Console.WriteLine(workspace.AccountSid);
+        Console.WriteLine(workspace.Sid);
     }
 }

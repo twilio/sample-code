@@ -12,4 +12,4 @@ task_channel = @client.taskrouter
                       .task_channels('TCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                       .fetch
 
-puts task_channel.sid
+puts task_channel.account_sid

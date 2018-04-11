@@ -15,4 +15,4 @@ $origination_url = $twilio->trunking->v1->trunks("TRaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                         ->originationUrls("OUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                         ->fetch();
 
-print($origination_url.sid);
+print($origination_url.accountSid);

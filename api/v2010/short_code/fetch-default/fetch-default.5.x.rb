@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 short_code = @client.short_codes('SCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa').fetch
 
-puts short_code.sid
+puts short_code.account_sid

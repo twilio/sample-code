@@ -12,4 +12,4 @@ query = client.preview.understand \
                       .queries("UHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                       .fetch()
 
-print(query.sid)
+print(query.account_sid)

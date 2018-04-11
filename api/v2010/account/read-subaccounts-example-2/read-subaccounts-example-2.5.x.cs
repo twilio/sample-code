@@ -18,7 +18,7 @@ class Program
         var accounts = AccountResource.Read(friendlyName: "MySubaccount");
 
         foreach(var record in accounts) {
-           Console.WriteLine(record.AuthToken);
+           Console.WriteLine(record.Sid);
         }
     }
 }

@@ -19,6 +19,6 @@ class Program
             pathServiceSid: "UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         );
 
-        Console.WriteLine(modelBuild.AccountSid);
+        Console.WriteLine(modelBuild.Sid);
     }
 }

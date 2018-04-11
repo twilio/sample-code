@@ -14,6 +14,6 @@ public class Example {
             Feedback.fetcher("CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(feedback.getSid());
+        System.out.println(feedback.getAccountSid());
     }
 }

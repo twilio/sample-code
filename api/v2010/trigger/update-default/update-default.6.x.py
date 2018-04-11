@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 trigger = client.usage.triggers("UTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                       .update(callback_method="GET")
 
-print(trigger.sid)
+print(trigger.account_sid)

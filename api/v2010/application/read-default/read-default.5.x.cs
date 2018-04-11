@@ -18,7 +18,7 @@ class Program
         var applications = ApplicationResource.Read();
 
         foreach(var record in applications) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

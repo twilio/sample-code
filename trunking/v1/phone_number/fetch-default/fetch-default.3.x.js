@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.trunking.trunks('TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                .phoneNumbers('PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                .fetch()
-               .then(phone_number => console.log(phone_number.sid))
+               .then(phone_number => console.log(phone_number.accountSid))
                .done();

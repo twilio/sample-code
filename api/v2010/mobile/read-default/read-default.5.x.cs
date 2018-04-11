@@ -18,7 +18,7 @@ class Program
         var mobile = MobileResource.Read();
 
         foreach(var record in mobile) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

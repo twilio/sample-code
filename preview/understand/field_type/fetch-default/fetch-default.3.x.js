@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.understand.services('UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                         .fieldTypes('UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                         .fetch()
-                         .then(field_type => console.log(field_type.sid))
-                         .done();
+              .fieldTypes('UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+              .fetch()
+              .then(field_type => console.log(field_type.accountSid))
+              .done();

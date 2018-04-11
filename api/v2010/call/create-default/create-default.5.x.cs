@@ -23,6 +23,6 @@ class Program
             url: new Uri("https://example.com")
         );
 
-        Console.WriteLine(call.AccountSid);
+        Console.WriteLine(call.Sid);
     }
 }

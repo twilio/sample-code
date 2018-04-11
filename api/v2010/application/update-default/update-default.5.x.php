@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $application = $twilio->applications("APaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                       ->update(array('friendlyName' => "friendlyName"));
 
-print($application.sid);
+print($application.accountSid);

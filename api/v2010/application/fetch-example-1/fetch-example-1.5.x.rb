@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 application = @client.applications('APaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa').fetch
 
-puts application.sid
+puts application.account_sid

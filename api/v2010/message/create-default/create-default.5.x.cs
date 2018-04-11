@@ -21,6 +21,6 @@ class Program
             body: "Body"
         );
 
-        Console.WriteLine(message.AccountSid);
+        Console.WriteLine(message.Sid);
     }
 }

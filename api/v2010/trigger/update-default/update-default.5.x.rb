@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 trigger = @client.usage.triggers('UTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                        .update(callback_method: 'GET')
 
-puts trigger.sid
+puts trigger.account_sid

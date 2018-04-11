@@ -11,4 +11,4 @@ activity = @client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                              .activities('WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                              .fetch
 
-puts activity.sid
+puts activity.account_sid

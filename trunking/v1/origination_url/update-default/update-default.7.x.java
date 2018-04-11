@@ -15,6 +15,6 @@ public class Example {
                 "OUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setWeight(1).update();
 
-        System.out.println(originationUrl.getSid());
+        System.out.println(originationUrl.getAccountSid());
     }
 }

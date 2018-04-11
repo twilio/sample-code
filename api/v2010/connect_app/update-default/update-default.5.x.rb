@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 connect_app = @client.connect_apps('CNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                      .update(authorize_redirect_url: 'https://example.com')
 
-puts connect_app.sid
+puts connect_app.account_sid

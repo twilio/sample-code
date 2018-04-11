@@ -13,4 +13,4 @@ reservation = @client.taskrouter
                      .reservations('WRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                      .update(reservation_status: 'pending')
 
-puts reservation.sid
+puts reservation.account_sid

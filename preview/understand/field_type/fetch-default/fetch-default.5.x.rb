@@ -12,4 +12,4 @@ field_type = @client.preview.understand
                             .field_types('UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                             .fetch
 
-puts field_type.sid
+puts field_type.account_sid

@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 notification = client.notifications("NOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                      .fetch()
 
-print(notification.sid)
+print(notification.account_sid)

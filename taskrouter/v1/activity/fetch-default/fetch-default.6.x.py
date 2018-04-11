@@ -11,4 +11,4 @@ activity = client.taskrouter.workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                             .activities("WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                             .fetch()
 
-print(activity.sid)
+print(activity.account_sid)

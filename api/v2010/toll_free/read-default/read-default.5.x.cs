@@ -18,7 +18,7 @@ class Program
         var tollFree = TollFreeResource.Read();
 
         foreach(var record in tollFree) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

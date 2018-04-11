@@ -18,7 +18,7 @@ class Program
         var connectApps = ConnectAppResource.Read();
 
         foreach(var record in connectApps) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

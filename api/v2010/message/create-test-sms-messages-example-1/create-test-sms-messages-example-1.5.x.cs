@@ -21,6 +21,6 @@ class Program
             to: new Twilio.Types.PhoneNumber("+5571981265131")
         );
 
-        Console.WriteLine(message.AccountSid);
+        Console.WriteLine(message.Sid);
     }
 }

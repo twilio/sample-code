@@ -23,6 +23,6 @@ class Program
             url: new Uri("http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount")
         );
 
-        Console.WriteLine(call.AccountSid);
+        Console.WriteLine(call.Sid);
     }
 }

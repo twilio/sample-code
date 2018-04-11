@@ -24,6 +24,6 @@ class Program
             street: "Elm Street"
         );
 
-        Console.WriteLine(address.AccountSid);
+        Console.WriteLine(address.Sid);
     }
 }

@@ -19,4 +19,4 @@ $incoming_phone_number = $twilio->incomingPhoneNumbers("PN2a0747eba6abf96b7e3c3f
                                          )
                                 );
 
-print($incoming_phone_number.sid);
+print($incoming_phone_number.accountSid);

@@ -13,6 +13,6 @@ public class Example {
         Event event = Event.fetcher("AE21f24380625e4aa4abec76e39b14458d")
             .fetch();
 
-        System.out.println(event.getSid());
+        System.out.println(event.getAccountSid());
     }
 }

@@ -12,4 +12,4 @@ credential_list_mapping = client.sip \
     .credential_list_mappings("CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
     .fetch()
 
-print(credential_list_mapping.sid)
+print(credential_list_mapping.account_sid)

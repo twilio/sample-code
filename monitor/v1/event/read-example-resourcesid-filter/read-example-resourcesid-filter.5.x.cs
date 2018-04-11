@@ -18,7 +18,7 @@ class Program
         var events = EventResource.Read(resourceSid: "PN4aa51b930717ea83c91971b86d99018f");
 
         foreach(var record in events) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

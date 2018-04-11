@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.understand.services('UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .update({friendlyName: 'friendlyName'})
-                         .then(service => console.log(service.sid))
+                         .then(service => console.log(service.accountSid))
                          .done();

@@ -12,4 +12,4 @@ task_queue = client.taskrouter \
                    .task_queues("WQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                    .update(friendly_name="friendly_name")
 
-print(task_queue.sid)
+print(task_queue.account_sid)

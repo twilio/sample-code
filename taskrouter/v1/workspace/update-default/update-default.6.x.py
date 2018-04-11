@@ -11,4 +11,4 @@ workspace = client.taskrouter \
     .workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
     .update(default_activity_sid="WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
 
-print(workspace.sid)
+print(workspace.account_sid)

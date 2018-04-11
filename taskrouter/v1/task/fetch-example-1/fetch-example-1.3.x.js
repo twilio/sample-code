@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .tasks('WTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .fetch()
-                 .then(task => console.log(task.sid))
+                 .then(task => console.log(task.accountSid))
                  .done();

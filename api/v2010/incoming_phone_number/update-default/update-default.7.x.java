@@ -15,6 +15,6 @@ public class Example {
             .setAccountSid("ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .update();
 
-        System.out.println(incomingPhoneNumber.getSid());
+        System.out.println(incomingPhoneNumber.getAccountSid());
     }
 }

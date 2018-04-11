@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 conference = client.conferences("CFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                    .update(status="completed")
 
-print(conference.sid)
+print(conference.account_sid)

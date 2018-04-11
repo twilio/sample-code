@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-               .originationUrls('OUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-               .update({weight: 1})
-               .then(origination_url => console.log(origination_url.sid))
-               .done();
+      .originationUrls('OUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+      .update({weight: 1})
+      .then(origination_url => console.log(origination_url.accountSid))
+      .done();

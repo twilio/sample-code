@@ -12,4 +12,4 @@ intent = @client.preview.understand
                         .intents('UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                         .fetch
 
-puts intent.sid
+puts intent.account_sid

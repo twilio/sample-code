@@ -17,4 +17,4 @@ $short_code = $twilio->shortCodes("SC6b20cb705c1e8f00210049b20b70fce3")
                               )
                      );
 
-print($short_code.sid);
+print($short_code.accountSid);

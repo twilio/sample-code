@@ -12,4 +12,4 @@ task_queue = @client.taskrouter
                     .task_queues('WQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                     .update(target_workers: 'languages HAS "english"')
 
-puts task_queue.sid
+puts task_queue.account_sid

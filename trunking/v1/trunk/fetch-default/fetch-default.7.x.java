@@ -13,6 +13,6 @@ public class Example {
         Trunk trunk = Trunk.fetcher("TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(trunk.getSid());
+        System.out.println(trunk.getAccountSid());
     }
 }

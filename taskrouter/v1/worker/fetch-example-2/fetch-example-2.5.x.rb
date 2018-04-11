@@ -11,4 +11,4 @@ worker = @client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                            .workers('WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                            .fetch
 
-puts worker.sid
+puts worker.account_sid

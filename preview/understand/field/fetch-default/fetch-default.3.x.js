@@ -8,5 +8,5 @@ client.preview.understand.services('UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .intents('UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .fields('UEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .fetch()
-                         .then(field => console.log(field.sid))
+                         .then(field => console.log(field.accountSid))
                          .done();

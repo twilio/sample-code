@@ -24,6 +24,6 @@ class Program
             isoCountry: "US"
         );
 
-        Console.WriteLine(address.AccountSid);
+        Console.WriteLine(address.Sid);
     }
 }

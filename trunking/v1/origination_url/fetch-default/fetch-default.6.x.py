@@ -12,4 +12,4 @@ origination_url = client.trunking \
     .origination_urls("OUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
     .fetch()
 
-print(origination_url.sid)
+print(origination_url.account_sid)

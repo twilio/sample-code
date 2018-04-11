@@ -16,6 +16,6 @@ public class Example {
                 "WRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(reservation.getSid());
+        System.out.println(reservation.getAccountSid());
     }
 }

@@ -11,4 +11,4 @@ origination_url = @client.trunking.trunks('TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
   .origination_urls('OUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
   .fetch
 
-puts origination_url.sid
+puts origination_url.account_sid

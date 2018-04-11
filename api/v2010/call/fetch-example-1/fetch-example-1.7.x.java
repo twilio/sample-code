@@ -12,6 +12,6 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Call call = Call.fetcher("CA42ed11f93dc08b952027ffbc406d0868").fetch();
 
-        System.out.println(call.getSid());
+        System.out.println(call.getTo());
     }
 }

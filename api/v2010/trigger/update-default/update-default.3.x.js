@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.usage.triggers('UTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
             .update({callbackMethod: 'GET'})
-            .then(trigger => console.log(trigger.sid))
+            .then(trigger => console.log(trigger.accountSid))
             .done();

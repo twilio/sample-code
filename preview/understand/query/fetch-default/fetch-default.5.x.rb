@@ -12,4 +12,4 @@ query = @client.preview.understand
                        .queries('UHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                        .fetch
 
-puts query.sid
+puts query.account_sid

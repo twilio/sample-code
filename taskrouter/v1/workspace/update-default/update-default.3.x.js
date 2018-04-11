@@ -8,5 +8,5 @@ client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .update({
                     defaultActivitySid: 'WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
                   })
-                 .then(workspace => console.log(workspace.sid))
+                 .then(workspace => console.log(workspace.accountSid))
                  .done();

@@ -18,7 +18,7 @@ class Program
         var services = ServiceResource.Read();
 
         foreach(var record in services) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

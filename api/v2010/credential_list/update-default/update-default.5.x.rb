@@ -11,4 +11,4 @@ credential_list = @client.sip
   .credential_lists('CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
   .update(friendly_name: 'friendly_name')
 
-puts credential_list.sid
+puts credential_list.account_sid

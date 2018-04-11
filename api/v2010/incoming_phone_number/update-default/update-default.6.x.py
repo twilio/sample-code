@@ -11,4 +11,4 @@ incoming_phone_number = client \
     .incoming_phone_numbers("PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
     .update(account_sid="ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
 
-print(incoming_phone_number.sid)
+print(incoming_phone_number.account_sid)

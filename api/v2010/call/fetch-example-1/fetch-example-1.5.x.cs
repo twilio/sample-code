@@ -17,6 +17,6 @@ class Program
 
         var call = CallResource.Fetch(pathSid: "CA42ed11f93dc08b952027ffbc406d0868");
 
-        Console.WriteLine(call.AccountSid);
+        Console.WriteLine(call.To);
     }
 }

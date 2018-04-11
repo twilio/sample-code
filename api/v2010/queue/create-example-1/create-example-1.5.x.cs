@@ -17,6 +17,6 @@ class Program
 
         var queue = QueueResource.Create(friendlyName: "newqueue");
 
-        Console.WriteLine(queue.AccountSid);
+        Console.WriteLine(queue.Sid);
     }
 }

@@ -14,6 +14,6 @@ public class Example {
         Trigger trigger = Trigger.updater("UTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setCallbackMethod(HttpMethod.GET).update();
 
-        System.out.println(trigger.getSid());
+        System.out.println(trigger.getAccountSid());
     }
 }

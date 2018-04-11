@@ -20,7 +20,7 @@ class Program
         );
 
         foreach(var record in phoneNumbers) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

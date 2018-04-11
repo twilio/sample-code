@@ -14,6 +14,6 @@ public class Example {
             ShortCode.fetcher("SCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(shortCode.getSid());
+        System.out.println(shortCode.getAccountSid());
     }
 }

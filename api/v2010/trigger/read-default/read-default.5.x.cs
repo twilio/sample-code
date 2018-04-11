@@ -18,7 +18,7 @@ class Program
         var triggers = TriggerResource.Read();
 
         foreach(var record in triggers) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

@@ -25,6 +25,6 @@ class Program
             sipUrl: new Uri("https://example.com")
         );
 
-        Console.WriteLine(originationUrl.AccountSid);
+        Console.WriteLine(originationUrl.Sid);
     }
 }

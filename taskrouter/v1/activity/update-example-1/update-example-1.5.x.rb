@@ -11,4 +11,4 @@ activity = @client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                              .activities('WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                              .update(friendly_name: 'another_name')
 
-puts activity.sid
+puts activity.account_sid

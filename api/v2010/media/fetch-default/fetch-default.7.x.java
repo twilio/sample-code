@@ -15,6 +15,6 @@ public class Example {
                 "MEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(media.getSid());
+        System.out.println(media.getAccountSid());
     }
 }

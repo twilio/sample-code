@@ -14,4 +14,4 @@ query = @client.preview.understand
                           sample_sid: 'UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
                         )
 
-puts query.sid
+puts query.account_sid

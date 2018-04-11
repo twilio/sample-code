@@ -18,6 +18,6 @@ public class Example {
                 URI.create("https://example.com"))
             .update();
 
-        System.out.println(connectApp.getSid());
+        System.out.println(connectApp.getAccountSid());
     }
 }

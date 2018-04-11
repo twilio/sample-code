@@ -17,6 +17,6 @@ class Program
 
         var application = ApplicationResource.Create(friendlyName: "FriendlyName");
 
-        Console.WriteLine(application.AccountSid);
+        Console.WriteLine(application.Sid);
     }
 }

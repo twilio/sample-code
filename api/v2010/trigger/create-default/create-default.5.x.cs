@@ -22,6 +22,6 @@ class Program
             usageCategory: TriggerResource.UsageCategoryEnum.AnsweringMachineDetection
         );
 
-        Console.WriteLine(trigger.AccountSid);
+        Console.WriteLine(trigger.Sid);
     }
 }

@@ -11,4 +11,4 @@ credential_list = @client.trunking.trunks('TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
   .credentials_lists('CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
   .fetch
 
-puts credential_list.sid
+puts credential_list.account_sid

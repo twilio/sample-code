@@ -20,6 +20,6 @@ class Program
             friendlyName: "FriendlyName"
         );
 
-        Console.WriteLine(activity.AccountSid);
+        Console.WriteLine(activity.Sid);
     }
 }

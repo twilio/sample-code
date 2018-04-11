@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 connect_app = client.connect_apps("CNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa").fetch()
 
-print(connect_app.sid)
+print(connect_app.account_sid)

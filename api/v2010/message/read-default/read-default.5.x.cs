@@ -18,7 +18,7 @@ class Program
         var messages = MessageResource.Read();
 
         foreach(var record in messages) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

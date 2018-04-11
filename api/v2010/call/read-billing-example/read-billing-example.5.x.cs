@@ -19,7 +19,7 @@ class Program
         var calls = CallResource.Read(startTime: new DateTime(2018, 1, 15, 0, 0, 0));
 
         foreach(var record in calls) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

@@ -12,4 +12,4 @@ model_build = @client.preview.understand
                      .model_builds('UGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                      .fetch
 
-puts model_build.sid
+puts model_build.account_sid

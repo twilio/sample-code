@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 transcription = client.transcriptions("TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                       .fetch()
 
-print(transcription.sid)
+print(transcription.account_sid)

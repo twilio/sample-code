@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $queue = $twilio->queues("QUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                 ->fetch();
 
-print($queue.sid);
+print($queue.accountSid);

@@ -12,4 +12,4 @@ model_build = @client.preview.understand
                      .model_builds('UGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                      .update(unique_name: 'unique_name')
 
-puts model_build.sid
+puts model_build.account_sid

@@ -11,4 +11,4 @@ task = @client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .tasks('WTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .update(attributes: 'attributes')
 
-puts task.sid
+puts task.account_sid

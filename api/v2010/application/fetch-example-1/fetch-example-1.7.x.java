@@ -14,6 +14,6 @@ public class Example {
             Application.fetcher("AP2a0747eba6abf96b7e3c3ff0b4530f6e")
             .fetch();
 
-        System.out.println(application.getSid());
+        System.out.println(application.getAccountSid());
     }
 }

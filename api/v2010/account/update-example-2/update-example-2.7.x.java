@@ -13,6 +13,6 @@ public class Example {
         Account account = Account.updater("ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setStatus(Account.Status.ACTIVE).update();
 
-        System.out.println(account.getSid());
+        System.out.println(account.getAuthToken());
     }
 }

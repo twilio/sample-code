@@ -13,6 +13,6 @@ public class Example {
         Service service = Service.updater("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(service.getSid());
+        System.out.println(service.getAccountSid());
     }
 }

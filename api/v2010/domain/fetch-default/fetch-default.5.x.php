@@ -15,4 +15,4 @@ $domain = $twilio->sip
                  ->domains("SDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                  ->fetch();
 
-print($domain.sid);
+print($domain.accountSid);

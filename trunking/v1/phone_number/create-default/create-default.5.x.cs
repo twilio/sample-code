@@ -20,6 +20,6 @@ class Program
             phoneNumberSid: "PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         );
 
-        Console.WriteLine(phoneNumber.AccountSid);
+        Console.WriteLine(phoneNumber.Sid);
     }
 }

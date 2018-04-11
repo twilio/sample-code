@@ -8,5 +8,5 @@ client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .workers('WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .reservations('WRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .fetch()
-                 .then(reservation => console.log(reservation.sid))
+                 .then(reservation => console.log(reservation.accountSid))
                  .done();

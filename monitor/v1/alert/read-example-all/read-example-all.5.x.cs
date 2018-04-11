@@ -18,7 +18,7 @@ class Program
         var alerts = AlertResource.Read();
 
         foreach(var record in alerts) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

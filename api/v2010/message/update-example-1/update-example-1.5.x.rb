@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 message = @client.messages('MMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .update(body: 'body')
 
-puts message.sid
+puts message.account_sid

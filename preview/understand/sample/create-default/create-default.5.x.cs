@@ -22,6 +22,6 @@ class Program
             taggedText: "TaggedText"
         );
 
-        Console.WriteLine(sample.AccountSid);
+        Console.WriteLine(sample.Sid);
     }
 }

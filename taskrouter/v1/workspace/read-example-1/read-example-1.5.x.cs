@@ -18,7 +18,7 @@ class Program
         var workspaces = WorkspaceResource.Read();
 
         foreach(var record in workspaces) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.understand.services('UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .queries('UHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .fetch()
-                         .then(query => console.log(query.sid))
+                         .then(query => console.log(query.accountSid))
                          .done();

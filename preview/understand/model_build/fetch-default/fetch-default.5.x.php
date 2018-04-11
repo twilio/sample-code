@@ -15,4 +15,4 @@ $model_build = $twilio->preview->understand->services("UAaaaaaaaaaaaaaaaaaaaaaaa
                                            ->modelBuilds("UGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                            ->fetch();
 
-print($model_build.sid);
+print($model_build.accountSid);

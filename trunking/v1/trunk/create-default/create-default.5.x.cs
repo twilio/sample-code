@@ -17,6 +17,6 @@ class Program
 
         var trunk = TrunkResource.Create();
 
-        Console.WriteLine(trunk.AccountSid);
+        Console.WriteLine(trunk.Sid);
     }
 }

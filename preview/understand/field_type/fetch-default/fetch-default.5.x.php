@@ -15,4 +15,4 @@ $field_type = $twilio->preview->understand->services("UAaaaaaaaaaaaaaaaaaaaaaaaa
                                           ->fieldTypes("UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                           ->fetch();
 
-print($field_type.sid);
+print($field_type.accountSid);

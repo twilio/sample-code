@@ -21,7 +21,7 @@ class Program
         );
 
         foreach(var record in samples) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

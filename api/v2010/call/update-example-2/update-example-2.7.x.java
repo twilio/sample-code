@@ -13,6 +13,6 @@ public class Example {
         Call call = Call.updater("CAe1644a7eed5088b159577c5802d8be38")
             .setStatus(Call.UpdateStatus.COMPLETED).update();
 
-        System.out.println(call.getSid());
+        System.out.println(call.getAccountSid());
     }
 }

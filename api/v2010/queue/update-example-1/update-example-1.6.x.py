@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 queue = client.queues("QUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
               .update(max_size=123)
 
-print(queue.sid)
+print(queue.account_sid)

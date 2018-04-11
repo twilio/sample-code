@@ -16,4 +16,4 @@ $sample = $twilio->preview->understand->services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                       ->samples("UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                       ->update(array('language' => "language"));
 
-print($sample.sid);
+print($sample.accountSid);

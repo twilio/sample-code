@@ -18,7 +18,7 @@ class Program
         var shortCodes = ShortCodeResource.Read(shortCode: "67898");
 
         foreach(var record in shortCodes) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

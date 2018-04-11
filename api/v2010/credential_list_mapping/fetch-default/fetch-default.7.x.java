@@ -16,6 +16,6 @@ public class Example {
                 "CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(credentialListMapping.getSid());
+        System.out.println(credentialListMapping.getAccountSid());
     }
 }

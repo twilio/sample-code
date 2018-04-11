@@ -15,4 +15,4 @@ $room_recording = $twilio->video->v1->rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                     ->recordings("RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->fetch();
 
-print($room_recording.sid);
+print($room_recording.accountSid);

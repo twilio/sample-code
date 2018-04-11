@@ -17,6 +17,6 @@ class Program
 
         var domain = DomainResource.Create(domainName: "DomainName");
 
-        Console.WriteLine(domain.AccountSid);
+        Console.WriteLine(domain.Sid);
     }
 }

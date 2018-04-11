@@ -14,6 +14,6 @@ public class Example {
             Transcription.fetcher("TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(transcription.getSid());
+        System.out.println(transcription.getAccountSid());
     }
 }

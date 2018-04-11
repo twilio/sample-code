@@ -12,4 +12,4 @@ field_type = client.preview.understand \
                            .field_types("UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                            .fetch()
 
-print(field_type.sid)
+print(field_type.account_sid)

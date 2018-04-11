@@ -12,4 +12,4 @@ model_build = client.preview.understand \
                     .model_builds("UGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                     .fetch()
 
-print(model_build.sid)
+print(model_build.account_sid)

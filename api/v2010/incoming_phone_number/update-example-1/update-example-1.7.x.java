@@ -19,6 +19,6 @@ public class Example {
             .setVoiceUrl(URI.create("http://demo.twilio.com/docs/voice.xml"))
             .update();
 
-        System.out.println(incomingPhoneNumber.getSid());
+        System.out.println(incomingPhoneNumber.getAccountSid());
     }
 }

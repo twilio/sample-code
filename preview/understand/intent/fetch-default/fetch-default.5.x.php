@@ -15,4 +15,4 @@ $intent = $twilio->preview->understand->services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                       ->intents("UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                       ->fetch();
 
-print($intent.sid);
+print($intent.accountSid);

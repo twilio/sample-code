@@ -11,4 +11,4 @@ service = client.preview.understand \
                         .services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                         .fetch()
 
-print(service.sid)
+print(service.account_sid)

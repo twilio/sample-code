@@ -17,6 +17,6 @@ class Program
 
         var credentialList = CredentialListResource.Create(friendlyName: "FriendlyName");
 
-        Console.WriteLine(credentialList.AccountSid);
+        Console.WriteLine(credentialList.Sid);
     }
 }

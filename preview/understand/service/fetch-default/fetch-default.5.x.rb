@@ -11,4 +11,4 @@ service = @client.preview.understand
                          .services('UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .fetch
 
-puts service.sid
+puts service.account_sid

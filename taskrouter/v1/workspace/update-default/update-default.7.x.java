@@ -16,6 +16,6 @@ public class Example {
                 "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .update();
 
-        System.out.println(workspace.getSid());
+        System.out.println(workspace.getAccountSid());
     }
 }

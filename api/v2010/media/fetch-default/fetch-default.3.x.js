@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.messages('MMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
       .media('MEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
       .fetch()
-      .then(media => console.log(media.sid))
+      .then(media => console.log(media.accountSid))
       .done();

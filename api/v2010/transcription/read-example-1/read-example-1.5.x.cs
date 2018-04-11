@@ -18,7 +18,7 @@ class Program
         var transcriptions = TranscriptionResource.Read();
 
         foreach(var record in transcriptions) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

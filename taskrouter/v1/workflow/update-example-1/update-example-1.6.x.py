@@ -11,4 +11,4 @@ workflow = client.taskrouter.workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                             .workflows("WWaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                             .update(task_reservation_timeout=20)
 
-print(workflow.sid)
+print(workflow.account_sid)

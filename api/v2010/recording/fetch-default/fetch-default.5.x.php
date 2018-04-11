@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $recording = $twilio->recordings("REaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                     ->fetch();
 
-print($recording.sid);
+print($recording.accountSid);

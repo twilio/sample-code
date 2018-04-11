@@ -15,6 +15,6 @@ public class Example {
                 "UGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setUniqueName("uniqueName").update();
 
-        System.out.println(modelBuild.getSid());
+        System.out.println(modelBuild.getAccountSid());
     }
 }

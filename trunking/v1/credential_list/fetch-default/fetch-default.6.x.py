@@ -12,4 +12,4 @@ credential_list = client.trunking \
     .credentials_lists("CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
     .fetch()
 
-print(credential_list.sid)
+print(credential_list.account_sid)

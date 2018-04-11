@@ -14,6 +14,6 @@ public class Example {
             Recording.fetcher("RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(recording.getSid());
+        System.out.println(recording.getAccountSid());
     }
 }

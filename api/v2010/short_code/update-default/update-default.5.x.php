@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $short_code = $twilio->shortCodes("SCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                      ->update(array('friendlyName' => "friendlyName"));
 
-print($short_code.sid);
+print($short_code.accountSid);

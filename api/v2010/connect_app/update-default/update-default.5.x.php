@@ -17,4 +17,4 @@ $connect_app = $twilio->connectApps("CNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                )
                       );
 
-print($connect_app.sid);
+print($connect_app.accountSid);

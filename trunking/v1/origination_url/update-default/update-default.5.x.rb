@@ -11,4 +11,4 @@ origination_url = @client.trunking.trunks('TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
   .origination_urls('OUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
   .update(weight: 1)
 
-puts origination_url.sid
+puts origination_url.account_sid

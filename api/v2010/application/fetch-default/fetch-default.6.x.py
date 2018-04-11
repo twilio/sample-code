@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 application = client.applications("APaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa").fetch()
 
-print(application.sid)
+print(application.account_sid)

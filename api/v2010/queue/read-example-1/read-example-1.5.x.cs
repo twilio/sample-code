@@ -18,7 +18,7 @@ class Program
         var queues = QueueResource.Read();
 
         foreach(var record in queues) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

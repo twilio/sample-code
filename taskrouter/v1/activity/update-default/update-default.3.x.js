@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .activities('WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .update({friendlyName: 'friendlyName'})
-                 .then(activity => console.log(activity.sid))
+                 .then(activity => console.log(activity.accountSid))
                  .done();

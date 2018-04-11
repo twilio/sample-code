@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $transcription = $twilio->transcriptions("TR8c61027b709ffb038236612dc5af8723")
                         ->fetch();
 
-print($transcription.sid);
+print($transcription.accountSid);

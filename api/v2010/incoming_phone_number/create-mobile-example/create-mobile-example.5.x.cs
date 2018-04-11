@@ -19,6 +19,6 @@ class Program
             phoneNumber: new Twilio.Types.PhoneNumber("+4759440374")
         );
 
-        Console.WriteLine(incomingPhoneNumber.AccountSid);
+        Console.WriteLine(incomingPhoneNumber.Sid);
     }
 }

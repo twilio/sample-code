@@ -22,6 +22,6 @@ class Program
             uniqueName: "UniqueName"
         );
 
-        Console.WriteLine(field.AccountSid);
+        Console.WriteLine(field.Sid);
     }
 }

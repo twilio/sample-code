@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 connect_app = @client.connect_apps('CNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa').fetch
 
-puts connect_app.sid
+puts connect_app.account_sid

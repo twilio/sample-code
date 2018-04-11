@@ -8,5 +8,5 @@ client.preview.understand.services('UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .intents('UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .samples('UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .update({language: 'language'})
-                         .then(sample => console.log(sample.sid))
+                         .then(sample => console.log(sample.accountSid))
                          .done();

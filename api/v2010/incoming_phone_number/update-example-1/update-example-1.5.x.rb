@@ -15,4 +15,4 @@ incoming_phone_number = @client
      voice_url: 'http://demo.twilio.com/docs/voice.xml'
    )
 
-puts incoming_phone_number.sid
+puts incoming_phone_number.account_sid

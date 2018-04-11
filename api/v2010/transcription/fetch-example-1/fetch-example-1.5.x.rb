@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 transcription = @client.transcriptions('TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                        .fetch
 
-puts transcription.sid
+puts transcription.account_sid

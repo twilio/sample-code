@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $message = $twilio->messages("MMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                   ->fetch();
 
-print($message.sid);
+print($message.accountSid);

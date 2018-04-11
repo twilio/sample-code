@@ -20,6 +20,6 @@ class Program
             credentialListSid: "CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         );
 
-        Console.WriteLine(credentialListMapping.AccountSid);
+        Console.WriteLine(credentialListMapping.Sid);
     }
 }

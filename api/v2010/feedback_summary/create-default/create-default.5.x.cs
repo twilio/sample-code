@@ -21,6 +21,6 @@ class Program
             endDate: MarshalConverter.DateTimeFromString("2008-01-02")
         );
 
-        Console.WriteLine(feedbackSummary.AccountSid);
+        Console.WriteLine(feedbackSummary.Sid);
     }
 }

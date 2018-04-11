@@ -16,4 +16,4 @@ $sample = $twilio->preview->understand->services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                       ->samples("UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                       ->fetch();
 
-print($sample.sid);
+print($sample.accountSid);

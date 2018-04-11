@@ -10,5 +10,5 @@ client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                     assignmentStatus: 'canceled',
                     reason: 'waiting too long'
                   })
-                 .then(task => console.log(task.sid))
+                 .then(task => console.log(task.accountSid))
                  .done();

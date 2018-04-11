@@ -22,6 +22,6 @@ class Program
             voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml")
         );
 
-        Console.WriteLine(application.AccountSid);
+        Console.WriteLine(application.Sid);
     }
 }

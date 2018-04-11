@@ -14,6 +14,6 @@ public class Example {
             ConnectApp.fetcher("CNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(connectApp.getSid());
+        System.out.println(connectApp.getAccountSid());
     }
 }

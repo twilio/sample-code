@@ -11,4 +11,4 @@ service = client.preview.understand \
                         .services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                         .update(friendly_name="friendly_name")
 
-print(service.sid)
+print(service.account_sid)

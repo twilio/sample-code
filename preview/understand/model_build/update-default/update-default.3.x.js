@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.understand.services('UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                         .modelBuilds('UGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                         .update({uniqueName: 'uniqueName'})
-                         .then(model_build => console.log(model_build.sid))
-                         .done();
+              .modelBuilds('UGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+              .update({uniqueName: 'uniqueName'})
+              .then(model_build => console.log(model_build.accountSid))
+              .done();

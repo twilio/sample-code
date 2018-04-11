@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $service = $twilio->preview->understand->services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                        ->fetch();
 
-print($service.sid);
+print($service.accountSid);

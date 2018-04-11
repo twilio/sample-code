@@ -14,6 +14,6 @@ public class Example {
             Composition.fetcher("CJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(composition.getSid());
+        System.out.println(composition.getAccountSid());
     }
 }

@@ -15,4 +15,4 @@ $task = $twilio->taskrouter->v1->workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
                                ->tasks("WTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                ->update(array('attributes' => "attributes"));
 
-print($task.sid);
+print($task.accountSid);

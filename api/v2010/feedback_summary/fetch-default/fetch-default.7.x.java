@@ -14,6 +14,6 @@ public class Example {
                 "FSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(feedbackSummary.getSid());
+        System.out.println(feedbackSummary.getAccountSid());
     }
 }

@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $trunk = $twilio->trunking->v1->trunks("TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                               ->update(array('friendlyName' => "friendlyName"));
 
-print($trunk.sid);
+print($trunk.accountSid);

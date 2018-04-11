@@ -16,6 +16,6 @@ public class Example {
                 "ALaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(ipAccessControlListMapping.getSid());
+        System.out.println(ipAccessControlListMapping.getAccountSid());
     }
 }

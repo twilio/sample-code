@@ -12,4 +12,4 @@ query = client.preview.understand \
                       .queries("UHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                       .update(sample_sid="UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
 
-print(query.sid)
+print(query.account_sid)

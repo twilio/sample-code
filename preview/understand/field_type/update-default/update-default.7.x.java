@@ -15,6 +15,6 @@ public class Example {
                 "UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(fieldType.getSid());
+        System.out.println(fieldType.getAccountSid());
     }
 }

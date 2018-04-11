@@ -25,6 +25,6 @@ class Program
             street: "1 Hasselhoff Lane"
         );
 
-        Console.WriteLine(address.AccountSid);
+        Console.WriteLine(address.Sid);
     }
 }

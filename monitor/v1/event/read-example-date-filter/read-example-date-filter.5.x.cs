@@ -22,7 +22,7 @@ class Program
         );
 
         foreach(var record in events) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

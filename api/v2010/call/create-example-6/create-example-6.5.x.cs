@@ -25,6 +25,6 @@ class Program
             url: new Uri("http://www.example.com/sipdial.xml")
         );
 
-        Console.WriteLine(call.AccountSid);
+        Console.WriteLine(call.Sid);
     }
 }

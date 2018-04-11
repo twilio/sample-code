@@ -13,4 +13,4 @@ sample = client.preview.understand \
                        .samples("UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                        .update(language="language")
 
-print(sample.sid)
+print(sample.account_sid)

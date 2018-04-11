@@ -15,6 +15,6 @@ public class Example {
             .setStreet("2 Hasselhoff Lane")
             .update();
 
-        System.out.println(address.getSid());
+        System.out.println(address.getAccountSid());
     }
 }

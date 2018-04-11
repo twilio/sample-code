@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 notification = @client.notifications('NOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                       .fetch
 
-puts notification.sid
+puts notification.account_sid

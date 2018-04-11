@@ -18,7 +18,7 @@ class Program
         var credentialLists = CredentialListResource.Read();
 
         foreach(var record in credentialLists) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

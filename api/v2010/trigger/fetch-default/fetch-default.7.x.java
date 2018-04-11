@@ -13,6 +13,6 @@ public class Example {
         Trigger trigger = Trigger.fetcher("UTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(trigger.getSid());
+        System.out.println(trigger.getAccountSid());
     }
 }

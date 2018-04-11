@@ -15,6 +15,6 @@ public class Example {
                 "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(worker.getSid());
+        System.out.println(worker.getAccountSid());
     }
 }

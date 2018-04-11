@@ -15,6 +15,6 @@ public class Example {
             .setStatus(Conference.UpdateStatus.COMPLETED)
             .update();
 
-        System.out.println(conference.getSid());
+        System.out.println(conference.getAccountSid());
     }
 }

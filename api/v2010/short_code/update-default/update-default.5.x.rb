@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 short_code = @client.short_codes('SCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                     .update(friendly_name: 'friendly_name')
 
-puts short_code.sid
+puts short_code.account_sid

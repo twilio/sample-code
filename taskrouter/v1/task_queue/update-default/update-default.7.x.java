@@ -15,6 +15,6 @@ public class Example {
                 "WQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(taskQueue.getSid());
+        System.out.println(taskQueue.getAccountSid());
     }
 }

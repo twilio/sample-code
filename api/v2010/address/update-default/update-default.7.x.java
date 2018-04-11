@@ -13,6 +13,6 @@ public class Example {
         Address address = Address.updater("ADaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(address.getSid());
+        System.out.println(address.getAccountSid());
     }
 }

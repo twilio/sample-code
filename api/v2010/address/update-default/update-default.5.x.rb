@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 address = @client.addresses('ADaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .update(friendly_name: 'friendly_name')
 
-puts address.sid
+puts address.account_sid

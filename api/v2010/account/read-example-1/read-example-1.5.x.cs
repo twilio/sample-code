@@ -18,7 +18,7 @@ class Program
         var accounts = AccountResource.Read();
 
         foreach(var record in accounts) {
-           Console.WriteLine(record.AuthToken);
+           Console.WriteLine(record.Sid);
         }
     }
 }

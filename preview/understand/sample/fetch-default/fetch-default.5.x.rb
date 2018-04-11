@@ -13,4 +13,4 @@ sample = @client.preview.understand
                         .samples('UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                         .fetch
 
-puts sample.sid
+puts sample.account_sid

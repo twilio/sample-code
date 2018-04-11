@@ -18,7 +18,7 @@ class Program
         var addresses = AddressResource.Read();
 
         foreach(var record in addresses) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

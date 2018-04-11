@@ -15,6 +15,6 @@ public class Example {
                 "WTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setAttributes("attributes").update();
 
-        System.out.println(task.getSid());
+        System.out.println(task.getAccountSid());
     }
 }

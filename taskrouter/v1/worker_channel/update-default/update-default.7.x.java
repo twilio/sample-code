@@ -16,6 +16,6 @@ public class Example {
                 "WCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setCapacity(1).update();
 
-        System.out.println(workerChannel.getSid());
+        System.out.println(workerChannel.getAccountSid());
     }
 }

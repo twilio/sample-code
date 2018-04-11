@@ -22,6 +22,6 @@ class Program
             assignmentActivitySid: "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         );
 
-        Console.WriteLine(taskQueue.AccountSid);
+        Console.WriteLine(taskQueue.Sid);
     }
 }

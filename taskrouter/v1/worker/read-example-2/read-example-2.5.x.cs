@@ -21,7 +21,7 @@ class Program
         );
 
         foreach(var record in workers) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 trigger = @client.usage.triggers('UTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa').fetch
 
-puts trigger.sid
+puts trigger.account_sid

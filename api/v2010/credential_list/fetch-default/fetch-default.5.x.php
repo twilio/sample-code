@@ -15,4 +15,4 @@ $credential_list = $twilio->sip
                           ->credentialLists("CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                           ->fetch();
 
-print($credential_list.sid);
+print($credential_list.accountSid);

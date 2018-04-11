@@ -13,4 +13,4 @@ sample = @client.preview.understand
                         .samples('UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                         .update(language: 'language')
 
-puts sample.sid
+puts sample.account_sid

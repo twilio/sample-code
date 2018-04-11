@@ -23,6 +23,6 @@ class Program
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(taskQueue.AccountSid);
+        Console.WriteLine(taskQueue.Sid);
     }
 }

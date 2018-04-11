@@ -9,5 +9,5 @@ client.preview.understand.services('UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                          .update({
                             sampleSid: 'UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
                           })
-                         .then(query => console.log(query.sid))
+                         .then(query => console.log(query.accountSid))
                          .done();

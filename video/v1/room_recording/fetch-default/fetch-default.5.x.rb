@@ -11,4 +11,4 @@ room_recording = @client.video.rooms('RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                               .recordings('RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                               .fetch
 
-puts room_recording.sid
+puts room_recording.account_sid

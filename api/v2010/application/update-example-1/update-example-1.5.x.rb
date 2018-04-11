@@ -13,4 +13,4 @@ application = @client.applications('APaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                         voice_url: 'http://demo.twilio.com/docs/voice.xml'
                       )
 
-puts application.sid
+puts application.account_sid

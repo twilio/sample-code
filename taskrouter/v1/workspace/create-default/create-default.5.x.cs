@@ -17,6 +17,6 @@ class Program
 
         var workspace = WorkspaceResource.Create(friendlyName: "FriendlyName");
 
-        Console.WriteLine(workspace.AccountSid);
+        Console.WriteLine(workspace.Sid);
     }
 }

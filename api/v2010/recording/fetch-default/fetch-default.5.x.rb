@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 recording = @client.recordings('REaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa').fetch
 
-puts recording.sid
+puts recording.account_sid

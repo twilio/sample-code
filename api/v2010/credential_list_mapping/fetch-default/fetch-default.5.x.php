@@ -16,4 +16,4 @@ $credential_list_mapping = $twilio->sip
                                   ->credentialListMappings("CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                   ->fetch();
 
-print($credential_list_mapping.sid);
+print($credential_list_mapping.accountSid);

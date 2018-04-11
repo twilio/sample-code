@@ -15,6 +15,6 @@ public class Example {
                 "WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setActivitySid("WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa").update();
 
-        System.out.println(worker.getSid());
+        System.out.println(worker.getAccountSid());
     }
 }

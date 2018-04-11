@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 account = @client.api.accounts('ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                      .update(status: 'suspended')
 
-puts account.sid
+puts account.auth_token

@@ -15,4 +15,4 @@ $event = $twilio->taskrouter->v1->workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                 ->events("EVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                 ->fetch();
 
-print($event.sid);
+print($event.accountSid);

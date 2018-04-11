@@ -18,7 +18,7 @@ class Program
         var local = LocalResource.Read();
 
         foreach(var record in local) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

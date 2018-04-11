@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 queue = @client.queues('QUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                .update(max_size: 123)
 
-puts queue.sid
+puts queue.account_sid

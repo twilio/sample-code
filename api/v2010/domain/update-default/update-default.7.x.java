@@ -13,6 +13,6 @@ public class Example {
         Domain domain = Domain.updater("SDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setAuthType("authType").update();
 
-        System.out.println(domain.getSid());
+        System.out.println(domain.getAccountSid());
     }
 }

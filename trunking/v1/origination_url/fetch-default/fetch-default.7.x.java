@@ -15,6 +15,6 @@ public class Example {
                 "OUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(originationUrl.getSid());
+        System.out.println(originationUrl.getAccountSid());
     }
 }

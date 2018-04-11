@@ -15,4 +15,4 @@ $task_queue = $twilio->taskrouter->v1->workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                      ->taskQueues("WQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                      ->fetch();
 
-print($task_queue.sid);
+print($task_queue.accountSid);

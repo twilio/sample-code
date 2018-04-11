@@ -14,6 +14,6 @@ public class Example {
                 "PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .fetch();
 
-        System.out.println(incomingPhoneNumber.getSid());
+        System.out.println(incomingPhoneNumber.getAccountSid());
     }
 }

@@ -15,4 +15,4 @@ $domain = $twilio->sip
                  ->domains("SDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                  ->update(array('authType' => "authType"));
 
-print($domain.sid);
+print($domain.accountSid);

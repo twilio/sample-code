@@ -12,4 +12,4 @@ ip_access_control_list = @client.trunking
   .ip_access_control_lists('ALaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
   .fetch
 
-puts ip_access_control_list.sid
+puts ip_access_control_list.account_sid

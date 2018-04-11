@@ -21,6 +21,6 @@ class Program
             configuration: "Configuration"
         );
 
-        Console.WriteLine(workflow.AccountSid);
+        Console.WriteLine(workflow.Sid);
     }
 }

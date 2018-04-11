@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 queue = client.queues("QUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa").fetch()
 
-print(queue.sid)
+print(queue.account_sid)

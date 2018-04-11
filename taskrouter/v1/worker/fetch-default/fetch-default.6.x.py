@@ -11,4 +11,4 @@ worker = client.taskrouter.workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                           .workers("WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                           .fetch()
 
-print(worker.sid)
+print(worker.account_sid)

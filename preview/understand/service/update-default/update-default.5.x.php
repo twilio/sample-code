@@ -17,4 +17,4 @@ $service = $twilio->preview->understand->services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                                 )
                                        );
 
-print($service.sid);
+print($service.accountSid);

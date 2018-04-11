@@ -18,7 +18,7 @@ class Program
         var notifications = NotificationResource.Read();
 
         foreach(var record in notifications) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

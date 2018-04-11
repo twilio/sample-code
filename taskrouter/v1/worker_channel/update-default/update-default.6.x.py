@@ -13,4 +13,4 @@ worker_channel = client.taskrouter \
                        .worker_channels("WCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                        .update(capacity=1)
 
-print(worker_channel.sid)
+print(worker_channel.account_sid)

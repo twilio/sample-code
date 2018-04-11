@@ -11,4 +11,4 @@ incoming_phone_number = client \
     .incoming_phone_numbers("PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
     .fetch()
 
-print(incoming_phone_number.sid)
+print(incoming_phone_number.account_sid)

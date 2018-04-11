@@ -15,4 +15,4 @@ $phone_number = $twilio->trunking->v1->trunks("TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                                      ->phoneNumbers("PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                                      ->fetch();
 
-print($phone_number.sid);
+print($phone_number.accountSid);

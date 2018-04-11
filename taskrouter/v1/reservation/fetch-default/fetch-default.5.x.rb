@@ -13,4 +13,4 @@ reservation = @client.taskrouter
                      .reservations('WRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                      .fetch
 
-puts reservation.sid
+puts reservation.account_sid

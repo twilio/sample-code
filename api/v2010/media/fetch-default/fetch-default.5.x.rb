@@ -11,4 +11,4 @@ media = @client.messages('MMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                .media('MEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                .fetch
 
-puts media.sid
+puts media.account_sid

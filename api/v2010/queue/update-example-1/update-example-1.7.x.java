@@ -13,6 +13,6 @@ public class Example {
         Queue queue = Queue.updater("QU32a3c49700934481addd5ce1659f04d2")
             .setMaxSize(123).update();
 
-        System.out.println(queue.getSid());
+        System.out.println(queue.getAccountSid());
     }
 }

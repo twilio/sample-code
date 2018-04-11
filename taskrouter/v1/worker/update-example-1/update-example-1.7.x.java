@@ -15,6 +15,6 @@ public class Example {
                 "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setAttributes("{\"type\":\"support\"}").update();
 
-        System.out.println(worker.getSid());
+        System.out.println(worker.getAccountSid());
     }
 }

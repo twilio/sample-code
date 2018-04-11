@@ -20,6 +20,6 @@ class Program
             uniqueName: "UniqueName"
         );
 
-        Console.WriteLine(intent.AccountSid);
+        Console.WriteLine(intent.Sid);
     }
 }

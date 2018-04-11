@@ -11,4 +11,4 @@ incoming_phone_number = @client
   .incoming_phone_numbers('PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
   .update(account_sid: 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
 
-puts incoming_phone_number.sid
+puts incoming_phone_number.account_sid

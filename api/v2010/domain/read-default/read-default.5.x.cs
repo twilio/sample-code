@@ -18,7 +18,7 @@ class Program
         var domains = DomainResource.Read();
 
         foreach(var record in domains) {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.Sid);
         }
     }
 }

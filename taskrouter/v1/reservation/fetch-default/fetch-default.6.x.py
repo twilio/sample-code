@@ -13,4 +13,4 @@ reservation = client.taskrouter \
                     .reservations("WRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                     .fetch()
 
-print(reservation.sid)
+print(reservation.account_sid)

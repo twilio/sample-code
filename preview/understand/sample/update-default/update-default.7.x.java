@@ -16,6 +16,6 @@ public class Example {
                 "UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
             .setLanguage("language").update();
 
-        System.out.println(sample.getSid());
+        System.out.println(sample.getAccountSid());
     }
 }

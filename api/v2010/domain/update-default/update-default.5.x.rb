@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 domain = @client.sip.domains('SDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                     .update(auth_type: 'auth_type')
 
-puts domain.sid
+puts domain.account_sid

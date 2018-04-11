@@ -8,5 +8,5 @@ client.taskrouter.workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .workers('WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .reservations('WRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                  .update({reservationStatus: 'pending'})
-                 .then(reservation => console.log(reservation.sid))
+                 .then(reservation => console.log(reservation.accountSid))
                  .done();

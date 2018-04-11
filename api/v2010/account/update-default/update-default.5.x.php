@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $account = $twilio->api->v2010->accounts("ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
                               ->update(array('friendlyName' => "friendlyName"));
 
-print($account.sid);
+print($account.authToken);

@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 call = @client.calls('CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
               .update(status: 'completed')
 
-puts call.sid
+puts call.account_sid

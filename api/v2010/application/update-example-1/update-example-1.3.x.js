@@ -9,5 +9,5 @@ client.applications('APaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
          smsUrl: 'http://demo.twilio.com/docs/sms.xml',
          voiceUrl: 'http://demo.twilio.com/docs/voice.xml'
        })
-      .then(application => console.log(application.sid))
+      .then(application => console.log(application.accountSid))
       .done();

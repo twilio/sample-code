@@ -17,6 +17,6 @@ class Program
 
         var service = ServiceResource.Create();
 
-        Console.WriteLine(service.AccountSid);
+        Console.WriteLine(service.Sid);
     }
 }

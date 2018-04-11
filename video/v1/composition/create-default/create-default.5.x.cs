@@ -17,6 +17,6 @@ class Program
 
         var composition = CompositionResource.Create();
 
-        Console.WriteLine(composition.AccountSid);
+        Console.WriteLine(composition.Sid);
     }
 }

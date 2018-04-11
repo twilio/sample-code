@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.domains('SDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
           .update({authType: 'authType'})
-          .then(domain => console.log(domain.sid))
+          .then(domain => console.log(domain.accountSid))
           .done();

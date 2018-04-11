@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 alert = @client.monitor.alerts('NOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa').fetch
 
-puts alert.sid
+puts alert.account_sid

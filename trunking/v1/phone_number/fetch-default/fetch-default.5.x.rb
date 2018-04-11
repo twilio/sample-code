@@ -11,4 +11,4 @@ phone_number = @client.trunking.trunks('TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                       .phone_numbers('PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
                       .fetch
 
-puts phone_number.sid
+puts phone_number.account_sid

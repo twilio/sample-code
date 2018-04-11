@@ -21,6 +21,6 @@ class Program
             query: "Query"
         );
 
-        Console.WriteLine(query.AccountSid);
+        Console.WriteLine(query.Sid);
     }
 }
