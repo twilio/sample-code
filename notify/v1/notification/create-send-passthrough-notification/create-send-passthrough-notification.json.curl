@@ -1,4 +1,4 @@
-TO_BINDING=$(cat << EOF
+TOBINDING=$(cat << EOF
 {
     "address": "+15555555555",
     "binding_type": "sms"
@@ -7,7 +7,7 @@ EOF
 )
 
 curl -X POST https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications \
---data-urlencode "body=Hello Bob" \
---data-urlencode "service_sid=ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "to_binding=$TO_BINDING" \
+--data-urlencode "Body=Hello Bob" \
+--data-urlencode "ToBinding=$TOBINDING" \
+--data-urlencode "Identity=['Identity']" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

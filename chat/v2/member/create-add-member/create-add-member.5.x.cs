@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var member = MemberResource.Create(
-            pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             identity: "IDENTITY",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(member.Sid);

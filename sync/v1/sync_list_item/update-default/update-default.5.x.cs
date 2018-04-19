@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncListItem = SyncListItemResource.Update(
+            data: "{}",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathListSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathIndex: 1

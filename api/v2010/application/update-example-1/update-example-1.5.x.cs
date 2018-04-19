@@ -17,9 +17,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var application = ApplicationResource.Update(
-            pathSid: "AP2a0747eba6abf96b7e3c3ff0b4530f6e",
             smsUrl: new Uri("http://demo.twilio.com/docs/sms.xml"),
-            voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml")
+            voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "AP2a0747eba6abf96b7e3c3ff0b4530f6e"
         );
 
         Console.WriteLine(application.AccountSid);

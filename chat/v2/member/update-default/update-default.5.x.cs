@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var member = MemberResource.Update(
+            roleSid: "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

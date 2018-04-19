@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var participant = ParticipantResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathConferenceSid: "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

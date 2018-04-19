@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .members('MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .update({
-                 serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 channelSid: 'CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 sid: 'MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-               })
+              .update({roleSid: 'RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
               .then(member => console.log(member.sid))
               .done();

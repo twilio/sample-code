@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Preview.Sync.Service;
 
 
@@ -17,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var document = DocumentResource.Update(
+            data: "{}",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            data: "{}"
+            pathSid: "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(document.Sid);

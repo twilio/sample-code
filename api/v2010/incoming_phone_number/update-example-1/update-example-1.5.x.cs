@@ -17,9 +17,11 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var incomingPhoneNumber = IncomingPhoneNumberResource.Update(
-            pathSid: "PN2a0747eba6abf96b7e3c3ff0b4530f6e",
+            accountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             smsUrl: new Uri("http://demo.twilio.com/docs/sms.xml"),
-            voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml")
+            voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "PN2a0747eba6abf96b7e3c3ff0b4530f6e"
         );
 
         Console.WriteLine(incomingPhoneNumber.AccountSid);

@@ -4,10 +4,8 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.services('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .modelBuilds
-                         .create({
-                            serviceSid: 'UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                          })
+                         .create()
                          .then(model_build => console.log(model_build.sid))
                          .done();

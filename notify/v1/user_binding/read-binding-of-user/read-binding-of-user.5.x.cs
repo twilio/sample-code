@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var bindings = UserBindingResource.Read(
-            pathIdentity: "User0001",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathIdentity: "User0001"
         );
 
         foreach(var record in bindings)

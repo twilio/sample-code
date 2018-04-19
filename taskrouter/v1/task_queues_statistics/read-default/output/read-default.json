@@ -10,7 +10,7 @@
   },
   "task_queues_statistics": [
     {
-      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "cumulative": {
         "avg_task_acceptance_time": 0.0,
         "end_time": "2015-08-18T08:46:15Z",
@@ -71,8 +71,8 @@
         "total_eligible_workers": 0,
         "total_tasks": 0
       },
-      "task_queue_sid": "WQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "workspace_sid": "WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "task_queue_sid": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ]
 }

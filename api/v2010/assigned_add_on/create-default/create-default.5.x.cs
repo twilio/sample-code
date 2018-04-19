@@ -16,8 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var assignedAddOn = AssignedAddOnResource.Create(
-            pathResourceSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            installedAddOnSid: "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            installedAddOnSid: "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathResourceSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(assignedAddOn.Sid);

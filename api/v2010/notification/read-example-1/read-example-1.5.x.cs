@@ -15,7 +15,9 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var notifications = NotificationResource.Read();
+        var notifications = NotificationResource.Read(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
         foreach(var record in notifications)
         {

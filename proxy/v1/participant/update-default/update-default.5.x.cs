@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var participant = ParticipantResource.Update(
+            identifier: "Identifier",
             pathServiceSid: "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSessionSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

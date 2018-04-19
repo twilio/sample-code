@@ -1,2 +1,3 @@
-curl -X POST https://preview.twilio.com/understand/Services/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents \
+curl -X POST https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents \
+--data-urlencode "UniqueName=UniqueName" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

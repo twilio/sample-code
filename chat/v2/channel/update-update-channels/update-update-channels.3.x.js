@@ -6,10 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .update({
-              friendlyName: 'NEW_FRIENDLY_NAME',
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              sid: 'CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            })
+           .update({friendlyName: 'NEW_FRIENDLY_NAME'})
            .then(channel => console.log(channel.sid))
            .done();

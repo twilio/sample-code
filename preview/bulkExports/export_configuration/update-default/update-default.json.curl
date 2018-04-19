@@ -1,2 +1,0 @@
-curl -X POST https://preview.twilio.com/BulkExports/Exports/ResourceType/Configuration \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

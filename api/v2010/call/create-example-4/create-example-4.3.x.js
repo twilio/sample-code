@@ -6,13 +6,13 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls
       .create({
-         from: '+18668675310',
          method: 'GET',
          statusCallback: 'https://www.myapp.com/events',
          statusCallbackEvent: 'initiated',
          statusCallbackMethod: 'POST',
-         to: '+14155551212',
-         url: 'http://demo.twilio.com/docs/voice.xml'
+         url: 'http://demo.twilio.com/docs/voice.xml',
+         from: '+18668675310',
+         to: '+14155551212'
        })
       .then(call => console.log(call.sid))
       .done();

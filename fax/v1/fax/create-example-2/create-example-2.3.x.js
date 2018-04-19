@@ -7,9 +7,9 @@ const client = require('twilio')(accountSid, authToken);
 client.fax.faxes
   .create({
      from: 'Jack',
-     mediaUrl: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf',
      sipAuthPassword: 'secret',
      sipAuthUsername: 'jack',
+     mediaUrl: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf',
      to: 'sip:kate@example.com'
    })
   .then(fax => console.log(fax.sid))

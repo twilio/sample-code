@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var documentPermission = DocumentPermissionResource.Fetch(
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathDocumentSid: "MyFirstDocument",
-            pathIdentity: "bob",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathIdentity: "bob"
         );
 
         Console.WriteLine(documentPermission.AccountSid);

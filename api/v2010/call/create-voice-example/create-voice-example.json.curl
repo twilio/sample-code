@@ -1,6 +1,5 @@
 curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json \
---data-urlencode "account_sid=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "from=+14158141829" \
---data-urlencode "to=+16518675310" \
---data-urlencode "url=http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token
+--data-urlencode "Url=http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount" \
+--data-urlencode "From=+14158141829" \
+--data-urlencode "To=+16518675310" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

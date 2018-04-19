@@ -21,7 +21,8 @@ class Program
             city: "City",
             region: "Region",
             postalCode: "PostalCode",
-            isoCountry: "US"
+            isoCountry: "US",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(address.Sid);

@@ -8,6 +8,6 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .documents
            .create({data: {
                 led: "OFF"
-            }, serviceSid: 'default', uniqueName: 'BoardLED'})
+            }, uniqueName: 'BoardLED'})
            .then(document => console.log(document.sid))
            .done();

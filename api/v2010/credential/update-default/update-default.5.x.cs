@@ -16,6 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var credential = CredentialResource.Update(
+            password: "Password",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathCredentialListSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

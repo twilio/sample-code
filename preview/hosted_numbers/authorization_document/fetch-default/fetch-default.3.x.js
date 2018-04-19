@@ -6,6 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.hosted_numbers
       .authorizationDocuments('PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .fetch({sid: 'PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+      .fetch()
       .then(authorization_document => console.log(authorization_document.sid))
       .done();

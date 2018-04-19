@@ -1,12 +1,12 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "command": "command",
-  "command_mode": "text",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "command": "SGVsbG8sIE1hY2hpbmUh==",
+  "command_mode": "binary",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
-  "sim_sid": "DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "direction": "from_sim",
-  "sid": "DCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sid": "DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "queued",
-  "url": "https://wireless.twilio.com/v1/Commands/DCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://wireless.twilio.com/v1/Commands/DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -4,11 +4,8 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.services('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .update({
-                            serviceSid: 'UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                            sid: 'UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                          })
+                         .update({friendlyName: 'friendlyName'})
                          .then(intent => console.log(intent.accountSid))
                          .done();

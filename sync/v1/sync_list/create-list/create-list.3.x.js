@@ -6,10 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncLists
-           .create({
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              ttl: 1814400,
-              uniqueName: 'MyCollection'
-            })
+           .create({ttl: 1814400, uniqueName: 'MyCollection'})
            .then(sync_list => console.log(sync_list.sid))
            .done();

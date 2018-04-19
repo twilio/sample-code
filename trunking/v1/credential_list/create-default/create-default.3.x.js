@@ -7,7 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .credentialsLists
                .create({
-                  trunkSid: 'TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                   credentialListSid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
                 })
                .then(credential_list => console.log(credential_list.sid))

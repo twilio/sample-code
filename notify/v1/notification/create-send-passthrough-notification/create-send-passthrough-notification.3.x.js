@@ -8,8 +8,8 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .notifications
              .create({
                 body: 'Hello Bob',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                toBinding: `{"binding_type":"sms","address":"+15555555555"}`
+                toBinding: `{"binding_type":"sms","address":"+15555555555"}`,
+                identity: ['identity']
               })
              .then(notification => console.log(notification.sid))
              .done();

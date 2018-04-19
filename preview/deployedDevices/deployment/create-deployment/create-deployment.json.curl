@@ -1,4 +1,0 @@
-curl -X POST https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Deployments \
---data-urlencode "fleet_sid=FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "friendly_name=My Device Deployment" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

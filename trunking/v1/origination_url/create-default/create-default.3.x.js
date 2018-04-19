@@ -7,7 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .originationUrls
                .create({
-                  trunkSid: 'TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                   weight: 1,
                   priority: 1,
                   enabled: true,

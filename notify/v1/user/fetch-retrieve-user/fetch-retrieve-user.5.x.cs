@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var user = UserResource.Fetch(
-            pathIdentity: "User0001",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathIdentity: "User0001"
         );
 
         Console.WriteLine(user.Sid);

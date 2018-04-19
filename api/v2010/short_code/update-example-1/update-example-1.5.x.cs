@@ -17,8 +17,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var shortCode = ShortCodeResource.Update(
-            pathSid: "SC6b20cb705c1e8f00210049b20b70fce3",
-            smsUrl: new Uri("http://demo.twilio.com/docs/sms.xml")
+            smsUrl: new Uri("http://demo.twilio.com/docs/sms.xml"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "SC6b20cb705c1e8f00210049b20b70fce3"
         );
 
         Console.WriteLine(shortCode.AccountSid);

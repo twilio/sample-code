@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .credentialsLists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .remove({
-                  trunkSid: 'TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                  sid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                })
+               .remove()
                .then(credential_list => console.log(credential_list.sid))
                .done();

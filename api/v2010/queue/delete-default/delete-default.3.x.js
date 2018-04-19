@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .remove({sid: 'QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+      .remove()
       .then(queue => console.log(queue.sid))
       .done();

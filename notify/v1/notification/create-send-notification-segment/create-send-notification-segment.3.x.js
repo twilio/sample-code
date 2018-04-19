@@ -9,7 +9,7 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .create({
                 body: 'Hello New Users',
                 segment: 'new_user',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                identity: ['identity']
               })
              .then(notification => console.log(notification.sid))
              .done();

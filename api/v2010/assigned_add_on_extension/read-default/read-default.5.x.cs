@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var extensions = AssignedAddOnExtensionResource.Read(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathResourceSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathAssignedAddOnSid: "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

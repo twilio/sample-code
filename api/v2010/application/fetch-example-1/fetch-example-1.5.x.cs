@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var application = ApplicationResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "AP2a0747eba6abf96b7e3c3ff0b4530f6e"
         );
 

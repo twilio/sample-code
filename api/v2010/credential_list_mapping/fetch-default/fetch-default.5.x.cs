@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var credentialListMapping = CredentialListMappingResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathDomainSid: "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

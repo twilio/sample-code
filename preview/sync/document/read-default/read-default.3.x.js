@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .documents
-                   .each({
-                      serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                    },
-                        documents => console.log(documents.sid)
-                    );
+                   .each(documents => console.log(documents.sid));

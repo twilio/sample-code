@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Preview.Understand.Service.FieldType;
+using Twilio.Rest.Preview.Understand.Assistant.FieldType;
 
 
 class Program 
@@ -16,10 +16,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var fieldValue = FieldValueResource.Create(
-            pathServiceSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathFieldTypeSid: "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             language: "Language",
-            value: "Value"
+            value: "Value",
+            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathFieldTypeSid: "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(fieldValue.Sid);

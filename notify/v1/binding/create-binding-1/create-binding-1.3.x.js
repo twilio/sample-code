@@ -9,8 +9,7 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .create({
                 address: '+1651000000000',
                 bindingType: 'sms',
-                identity: '00000001',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                identity: '00000001'
               })
              .then(binding => console.log(binding.sid))
              .done();

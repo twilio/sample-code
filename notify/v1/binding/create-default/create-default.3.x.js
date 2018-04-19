@@ -7,7 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .bindings
              .create({
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                 identity: 'identity',
                 bindingType: 'apn',
                 address: 'address'

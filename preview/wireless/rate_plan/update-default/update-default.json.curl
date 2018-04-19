@@ -1,2 +1,3 @@
 curl -X POST https://preview.twilio.com/wireless/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+--data-urlencode "UniqueName=UniqueName" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

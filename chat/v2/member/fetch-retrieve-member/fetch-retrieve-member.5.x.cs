@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var member = MemberResource.Fetch(
-            pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

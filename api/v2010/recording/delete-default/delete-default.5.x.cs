@@ -15,6 +15,9 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        RecordingResource.Delete(pathSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        RecordingResource.Delete(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
     }
 }

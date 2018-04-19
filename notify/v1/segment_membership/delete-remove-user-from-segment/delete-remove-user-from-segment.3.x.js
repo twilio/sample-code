@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .users('NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .segmentMemberships('segment')
-      .remove({
-         identity: 'User0001',
-         segment: 'premium',
-         serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       })
+      .remove()
       .then(segment_membership => console.log(segment_membership.accountSid))
       .done();

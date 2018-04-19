@@ -7,9 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .members
-           .each({
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              channelSid: 'CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            },
-                members => console.log(members.sid)
-            );
+           .each(members => console.log(members.sid));

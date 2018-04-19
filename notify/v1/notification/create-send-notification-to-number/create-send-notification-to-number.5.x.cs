@@ -19,8 +19,9 @@ class Program
 
         var notification = NotificationResource.Create(
             body: "Knok-Knok! This is your first Notify SMS",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            toBinding: Promoter.ListOfOne("{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}")
+            toBinding: Promoter.ListOfOne("{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}"),
+            identity: Promoter.ListOfOne("Identity"),
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(notification.Sid);

@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         WorkerResource.Delete(
-            pathSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
     }
 }

@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Preview.Understand.Service.FieldType;
+using Twilio.Rest.Preview.Understand.Assistant.FieldType;
 
 
 class Program 
@@ -16,7 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         FieldValueResource.Delete(
-            pathServiceSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathFieldTypeSid: "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

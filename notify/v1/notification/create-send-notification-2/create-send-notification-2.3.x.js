@@ -9,7 +9,6 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .create({
                 body: 'Hello Bob',
                 identity: '00000001',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                 tag: 'preferred_device'
               })
              .then(notification => console.log(notification.sid))

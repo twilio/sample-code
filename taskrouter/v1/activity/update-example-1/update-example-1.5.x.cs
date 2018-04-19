@@ -17,8 +17,8 @@ class Program
 
         var activity = ActivityResource.Update(
             friendlyName: "another_name",
-            pathSid: "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(activity.AccountSid);

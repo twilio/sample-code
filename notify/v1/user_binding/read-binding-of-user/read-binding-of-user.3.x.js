@@ -7,9 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .users('NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .bindings
-             .each({
-                identity: 'User0001',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-              },
-                  bindings => console.log(bindings.sid)
-              );
+             .each(bindings => console.log(bindings.sid));

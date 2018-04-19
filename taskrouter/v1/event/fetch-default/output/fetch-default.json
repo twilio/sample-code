@@ -1,8 +1,8 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "actor_sid": "WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "actor_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "actor_type": "workspace",
-  "actor_url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "actor_url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "description": "Worker JustinWorker updated to Idle Activity",
   "event_data": {
     "worker_activity_name": "Offline",
@@ -16,11 +16,11 @@
   },
   "event_date": "2015-02-07T00:32:41Z",
   "event_type": "worker.activity",
-  "resource_sid": "WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "resource_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "resource_type": "worker",
-  "resource_url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Workers/WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "sid": "EVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "resource_url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "EVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "source": "twilio",
   "source_ip_address": "1.2.3.4",
-  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Events/EVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Events/EVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

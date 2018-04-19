@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var shortCode = ShortCodeResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

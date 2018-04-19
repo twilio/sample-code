@@ -8,8 +8,6 @@ EOF
 )
 
 curl -X POST https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items \
---data-urlencode "data=$DATA" \
---data-urlencode "list_sid=MyCollection" \
---data-urlencode "service_sid=ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "ttl=864000" \
+--data-urlencode "Ttl=864000" \
+--data-urlencode "Data=$DATA" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

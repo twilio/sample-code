@@ -1,4 +1,3 @@
 curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers.json \
---data-urlencode "account_sid=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "phone_number=33" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token
+--data-urlencode "PhoneNumber=33" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

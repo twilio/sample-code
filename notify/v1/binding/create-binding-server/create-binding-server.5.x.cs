@@ -18,12 +18,12 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var binding = BindingResource.Create(
+            endpoint: "XXXXXXXXXXXXXXX",
+            tag: Promoter.ListOfOne("premium"),
             address: "gcm_device_token",
             bindingType: BindingResource.BindingTypeEnum.Gcm,
-            endpoint: "XXXXXXXXXXXXXXX",
             identity: "00000001",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            tag: Promoter.ListOfOne("premium")
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(binding.Sid);

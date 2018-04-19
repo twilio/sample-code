@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                 .remove({
-                    sid: 'WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                    workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                  })
+                 .remove()
                  .then(worker => console.log(worker.sid))
                  .done();

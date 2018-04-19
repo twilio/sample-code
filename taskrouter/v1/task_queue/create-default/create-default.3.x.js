@@ -7,7 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .taskQueues
       .create({
-         workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
          friendlyName: 'friendlyName',
          reservationActivitySid: 'WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
          assignmentActivitySid: 'WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'

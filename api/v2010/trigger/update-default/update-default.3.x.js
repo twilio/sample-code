@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.usage.triggers('UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .update({sid: 'UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+            .update({callbackMethod: 'GET'})
             .then(trigger => console.log(trigger.accountSid))
             .done();

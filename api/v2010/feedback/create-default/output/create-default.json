@@ -1,8 +1,8 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "Thu, 30 Jul 2015 20:00:00 +0000",
   "date_updated": "Thu, 30 Jul 2015 20:00:00 +0000",
-  "message_sid": "MMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "message_sid": "MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "outcome": "confirmed",
   "uri": "uri"
 }

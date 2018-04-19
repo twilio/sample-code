@@ -15,7 +15,9 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var yearly = YearlyResource.Read();
+        var yearly = YearlyResource.Read(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
         foreach(var record in yearly)
         {

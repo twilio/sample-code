@@ -15,6 +15,9 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        DomainResource.Delete(pathSid: "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        DomainResource.Delete(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
     }
 }

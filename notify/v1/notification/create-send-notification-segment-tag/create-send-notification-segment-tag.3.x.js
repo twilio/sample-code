@@ -9,7 +9,6 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .create({
                 body: 'Hello New Users',
                 segment: 'new_user',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                 tag: 'preferred_device'
               })
              .then(notification => console.log(notification.sid))

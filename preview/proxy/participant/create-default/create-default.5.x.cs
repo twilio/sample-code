@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var participant = ParticipantResource.Create(
+            identifier: "Identifier",
             pathServiceSid: "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSessionSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            identifier: "Identifier"
+            pathSessionSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(participant.Sid);

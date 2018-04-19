@@ -7,11 +7,10 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .taskQueues
       .create({
+         targetWorkers: `languages HAS "english"`,
          assignmentActivitySid: 'WA21d51f4c72583766988f9860de3e130a',
          friendlyName: 'English',
-         reservationActivitySid: 'WAea296a56ebce4bfbff0e99abadf16934',
-         targetWorkers: `languages HAS "english"`,
-         workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+         reservationActivitySid: 'WAea296a56ebce4bfbff0e99abadf16934'
        })
       .then(task_queue => console.log(task_queue.sid))
       .done();

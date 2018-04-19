@@ -18,9 +18,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var call = CallResource.Create(
+            url: new Uri("http://www.example.com/sipdial.xml"),
             from: new Twilio.Types.PhoneNumber("Jack"),
             to: new Twilio.Types.PhoneNumber("sip:kate@example.com?hatchkey=4815162342"),
-            url: new Uri("http://www.example.com/sipdial.xml")
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(call.Sid);

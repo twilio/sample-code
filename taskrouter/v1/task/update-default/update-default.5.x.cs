@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var task = TaskResource.Update(
+            attributes: "Attributes",
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

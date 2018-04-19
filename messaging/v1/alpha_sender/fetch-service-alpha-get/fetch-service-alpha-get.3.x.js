@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .alphaSenders('AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                .fetch({
-                   serviceSid: 'MG2172dd2db502e20dd981ef0d67850e1a',
-                   sid: 'AIc781610ec0b3400c9e0cab8e757da937'
-                 })
+                .fetch()
                 .then(alpha_sender => console.log(alpha_sender.sid))
                 .done();

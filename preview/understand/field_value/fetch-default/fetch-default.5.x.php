@@ -11,7 +11,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$field_value = $twilio->preview->understand->services("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+$field_value = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                            ->fieldTypes("UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                            ->fieldValues("UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                            ->fetch();

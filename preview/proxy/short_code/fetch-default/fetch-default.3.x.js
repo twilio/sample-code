@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .shortCodes('SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                    .fetch({
-                       serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                       sid: 'SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                     })
+                    .fetch()
                     .then(short_code => console.log(short_code.sid))
                     .done();

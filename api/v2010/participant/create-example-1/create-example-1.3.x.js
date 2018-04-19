@@ -6,10 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .participants
-      .create({
-         conferenceSid: 'AgentConf12',
-         from: '+18180021216',
-         to: '+15624421212'
-       })
+      .create({from: '+18180021216', to: '+15624421212'})
       .then(participant => console.log(participant.accountSid))
       .done();

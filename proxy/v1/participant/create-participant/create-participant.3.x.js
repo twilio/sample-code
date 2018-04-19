@@ -7,11 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants
-            .create({
-               friendlyName: 'Alice',
-               identifier: '+15558675310',
-               serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               sessionSid: 'KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             })
+            .create({friendlyName: 'Alice', identifier: '+15558675310'})
             .then(participant => console.log(participant.sid))
             .done();

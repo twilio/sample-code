@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({sid: 'QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+      .update({friendlyName: 'friendlyName'})
       .then(queue => console.log(queue.accountSid))
       .done();

@@ -9,7 +9,6 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .create({
               friendlyName: 'new_role',
               permission: 'createChannel',
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
               type: 'deployment'
             })
            .then(role => console.log(role.sid))

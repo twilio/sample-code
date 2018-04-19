@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncStream = SyncStreamResource.Update(
+            ttl: 864000,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "MyStream",
-            ttl: 864000
+            pathSid: "MyStream"
         );
 
         Console.WriteLine(syncStream.Sid);

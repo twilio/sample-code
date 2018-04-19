@@ -2,7 +2,7 @@
 
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
-import com.twilio.rest.preview.understand.service.Intent;
+import com.twilio.rest.preview.understand.assistant.Intent;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console

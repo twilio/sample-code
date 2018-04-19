@@ -16,6 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var signingKey = SigningKeyResource.Update(
+            friendlyName: "FriendlyName",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var worker = WorkerResource.Update(
+            activitySid: "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

@@ -20,6 +20,7 @@ class Program
         var notification = NotificationResource.Create(
             body: "Hello New Users",
             segment: Promoter.ListOfOne("new_user"),
+            identity: Promoter.ListOfOne("Identity"),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

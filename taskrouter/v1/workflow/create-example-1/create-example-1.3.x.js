@@ -8,11 +8,10 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .workflows
   .create({
      assignmentCallbackUrl: 'http://example.com',
-     configuration: `{"task_routing": {"filters": [{"expression": "type=='sales'", "targets": [{"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}]}, {"expression": "type=='marketing'", "targets": [{"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}]}, {"expression": "type=='support'", "targets": [{"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}]}], "default_filter": {"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}}}`,
      fallbackAssignmentCallbackUrl: 'http://example2.com',
-     friendlyName: 'Sales, Marketing, Support Workflow',
      taskReservationTimeout: 30,
-     workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+     configuration: `{"task_routing": {"filters": [{"expression": "type=='sales'", "targets": [{"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}]}, {"expression": "type=='marketing'", "targets": [{"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}]}, {"expression": "type=='support'", "targets": [{"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}]}], "default_filter": {"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}}}`,
+     friendlyName: 'Sales, Marketing, Support Workflow'
    })
   .then(workflow => console.log(workflow.sid))
   .done();

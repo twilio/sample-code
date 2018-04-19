@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var taskQueue = TaskQueueResource.Update(
-            pathSid: "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             targetWorkers: "languages HAS \"english\"",
-            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(taskQueue.AccountSid);

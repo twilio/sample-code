@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                 .update({
-                    workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                    sid: 'WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                  })
+                 .update({friendlyName: 'friendlyName'})
                  .then(workflow => console.log(workflow.accountSid))
                  .done();

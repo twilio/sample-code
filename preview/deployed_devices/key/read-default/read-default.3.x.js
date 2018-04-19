@@ -5,9 +5,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .keys
-              .each({
-                 fleetSid: 'FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-               },
-                   keys => console.log(keys.sid)
-               );
+                               .keys
+                               .each(keys => console.log(keys.sid));

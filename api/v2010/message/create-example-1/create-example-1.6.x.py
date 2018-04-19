@@ -3,14 +3,14 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+account_sid = '"ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-                              to="+12316851234",
                               body="Hello there!",
-                              from_="+15555555555"
+                              from_="+15555555555",
+                              to="+12316851234"
                           )
 
 print(message.sid)

@@ -1,2 +1,3 @@
 curl -X POST https://accounts.twilio.com/v1/Credentials/AWS \
+--data-urlencode "Credentials=AKIAIOSFODNN7EXAMPLE:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

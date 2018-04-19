@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .shortCodes('SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                .remove({
-                   serviceSid: 'MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                   sid: 'SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                 })
+                .remove()
                 .then(short_code => console.log(short_code.sid))
                 .done();

@@ -1,12 +1,12 @@
 {
   "language": "language",
   "date_created": "2015-07-30T20:00:00Z",
-  "model_build_sid": "UGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "model_build_sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "query": "query",
   "date_updated": "2015-07-30T20:00:00Z",
   "status": "status",
-  "sample_sid": "UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "service_sid": "UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sample_sid": "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "results": {
     "intent": {
       "name": "name",
@@ -21,7 +21,8 @@
       }
     ]
   },
-  "url": "https://preview.twilio.com/understand/Services/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Queries/UHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "sid": "UHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries/UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "source_channel": "sms"
 }

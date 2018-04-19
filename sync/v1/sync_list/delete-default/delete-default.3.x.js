@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .remove({
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              sid: 'ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            })
+           .remove()
            .then(sync_list => console.log(sync_list.sid))
            .done();

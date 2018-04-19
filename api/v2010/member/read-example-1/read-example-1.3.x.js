@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .members
-      .each({
-         queueSid: 'QU5ef8732a3c49700934481addd5ce1659'
-       },
-           members => console.log(members.callSid)
-       );
+      .each(members => console.log(members.callSid));

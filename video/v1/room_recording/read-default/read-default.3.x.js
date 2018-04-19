@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .recordings
-            .each({
-               roomSid: 'RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             },
-                 recordings => console.log(recordings.sid)
-             );
+            .each(recordings => console.log(recordings.sid));

@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         DocumentPermissionResource.Delete(
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathDocumentSid: "MyFirstDocument",
-            pathIdentity: "bob",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathIdentity: "bob"
         );
     }
 }

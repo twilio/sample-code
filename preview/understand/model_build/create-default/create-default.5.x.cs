@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Preview.Understand.Service;
+using Twilio.Rest.Preview.Understand.Assistant;
 
 
 class Program 
@@ -16,7 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var modelBuild = ModelBuildResource.Create(
-            pathServiceSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(modelBuild.Sid);

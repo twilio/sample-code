@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .originationUrls('OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({
-         trunkSid: 'TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         sid: 'OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       })
+      .update({weight: 1})
       .then(origination_url => console.log(origination_url.accountSid))
       .done();

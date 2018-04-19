@@ -16,12 +16,12 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var documentPermission = DocumentPermissionResource.Update(
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathDocumentSid: "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "PathIdentity",
             read: true,
             write: true,
-            manage: true
+            manage: true,
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathDocumentSid: "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathIdentity: "PathIdentity"
         );
 
         Console.WriteLine(documentPermission.AccountSid);

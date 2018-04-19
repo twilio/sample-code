@@ -1,20 +1,20 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "address": "a7c658f4111ec4ff5a1a647f9d0edd819025b9f20522d2fae897049f32873e73",
-  "binding_type": "apn",
-  "credential_sid": null,
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "address": "gcm_device_token",
+  "binding_type": "gcm",
+  "credential_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
-  "endpoint": "26607274",
-  "identity": "24987039",
+  "endpoint": "XXXXXXXXXXXXXXX",
+  "identity": "00000001",
   "notification_protocol_version": "3",
-  "service_sid": "ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "sid": "BSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "tags": [
     "26607274"
   ],
   "links": {
-    "user": "https://notify.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users/24987039"
+    "user": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/24987039"
   },
-  "url": "https://notify.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Bindings/BSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Bindings/BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

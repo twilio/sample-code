@@ -9,9 +9,9 @@ auth_token = 'your_auth_token'
 
 workspace = @client.taskrouter.workspaces
                    .create(
-                      friendly_name: 'NewWorkspace',
                       event_callback_url: 'http://requestb.in/vh9reovh',
-                      template: 'FIFO'
+                      template: 'FIFO',
+                      friendly_name: 'NewWorkspace'
                     )
 
 puts workspace.sid

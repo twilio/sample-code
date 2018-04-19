@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .remove({sid: 'RE557ce644e5ab84fa21cc21112e22c485'})
+      .remove()
       .then(recording => console.log(recording.sid))
       .done();

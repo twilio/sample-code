@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .users
-           .create({
-              identity: 'IDENTITY',
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            })
+           .create({identity: 'IDENTITY'})
            .then(user => console.log(user.sid))
            .done();

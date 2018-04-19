@@ -1,5 +1,3 @@
 curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json \
---data-urlencode "account_sid=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "sid=CAe1644a7eed5088b159577c5802d8be38" \
---data-urlencode "status=completed" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token
+--data-urlencode "Status=completed" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

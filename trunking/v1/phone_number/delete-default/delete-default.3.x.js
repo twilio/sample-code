@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .phoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .remove({
-                  trunkSid: 'TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                  sid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                })
+               .remove()
                .then(phone_number => console.log(phone_number.sid))
                .done();

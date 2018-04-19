@@ -1,2 +1,3 @@
-curl -X POST https://preview.twilio.com/understand/Services/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes \
+curl -X POST https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes \
+--data-urlencode "UniqueName=UniqueName" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

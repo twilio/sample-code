@@ -1,14 +1,14 @@
 {
   "permissions": [
     {
-      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "service_sid": "ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "document_sid": "ETaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "document_sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "identity": "identity",
       "read": true,
       "write": true,
       "manage": true,
-      "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Documents/ETaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Permissions/identity"
+      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions/identity"
     }
   ],
   "meta": {

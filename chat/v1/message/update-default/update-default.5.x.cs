@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var message = MessageResource.Update(
+            body: "Body",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

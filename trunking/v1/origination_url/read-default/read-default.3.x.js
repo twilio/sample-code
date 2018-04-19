@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .originationUrls
-               .each({
-                  trunkSid: 'TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                },
-                    originationUrls => console.log(originationUrls.sid)
-                );
+               .each(originationUrls => console.log(originationUrls.sid));

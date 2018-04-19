@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .credentialListMappings
-      .each({
-         domainSid: 'SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       },
-           credentialListMappings => console.log(credentialListMappings.sid)
-       );
+      .each(credentialListMappings => console.log(credentialListMappings.sid));

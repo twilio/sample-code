@@ -5,8 +5,4 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.availablePhoneNumbers('US').national
-      .each({
-         countryCode: 'US'
-       },
-           national => console.log(national.friendlyName)
-       );
+      .each(national => console.log(national.friendlyName));

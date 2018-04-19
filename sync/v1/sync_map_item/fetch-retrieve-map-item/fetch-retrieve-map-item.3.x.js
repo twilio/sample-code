@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMapItems('key')
-           .fetch({
-              key: 'steph_curry',
-              mapSid: 'Players',
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            })
+           .fetch()
            .then(sync_map_item => console.log(sync_map_item.key))
            .done();

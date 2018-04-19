@@ -1,2 +1,3 @@
 curl -X POST https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers \
+--data-urlencode "PhoneNumberSid=PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

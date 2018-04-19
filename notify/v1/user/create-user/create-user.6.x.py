@@ -9,6 +9,6 @@ client = Client(account_sid, auth_token)
 
 user = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .users \
-                    .create(identity="User0001", segment="premium")
+                    .create(segment="premium", identity="User0001")
 
 print(user.sid)

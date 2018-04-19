@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var subscribedTrack = SubscribedTrackResource.Update(
+            track: "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathRoomSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSubscriberSid: "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

@@ -9,10 +9,10 @@ auth_token = 'your_auth_token'
 
 message = @client.messages
                  .create(
-                    to: '+15558675310',
                     body: "Let's grab lunch at Milliways tomorrow!",
                     from: '+14158141829',
-                    media_url: 'http://www.example.com/cheeseburger.png'
+                    media_url: 'http://www.example.com/cheeseburger.png',
+                    to: '+15558675310'
                   )
 
 puts message.sid

@@ -18,8 +18,8 @@ class Program
 
         var document = DocumentResource.Create(
             data: "{\"led\": \"OFF\"}",
-            pathServiceSid: "default",
-            uniqueName: "BoardLED"
+            uniqueName: "BoardLED",
+            pathServiceSid: "default"
         );
 
         Console.WriteLine(document.Sid);

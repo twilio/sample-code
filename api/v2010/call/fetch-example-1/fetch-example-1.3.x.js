@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .fetch({sid: 'CA42ed11f93dc08b952027ffbc406d0868'})
-      .then(call => console.log(call.to))
+      .fetch()
+      .then(call => console.log(call.accountSid))
       .done();

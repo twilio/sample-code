@@ -1,5 +1,3 @@
 curl -X POST https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Members \
---data-urlencode "channel_sid=CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "identity=IDENTITY" \
---data-urlencode "service_sid=ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "Identity=IDENTITY" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

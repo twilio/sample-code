@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.ipAccessControlLists('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .ipAddresses
-          .each({
-             ipAccessControlListSid: 'ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-           },
-               ipAddresses => console.log(ipAddresses.sid)
-           );
+          .each(ipAddresses => console.log(ipAddresses.sid));

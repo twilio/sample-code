@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.addresses('ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .dependentPhoneNumbers
-      .each({
-         addressSid: 'AD2a0747eba6abf96b7e3c3ff0b4530f6e'
-       },
-           dependentPhoneNumbers => console.log(dependentPhoneNumbers.sid)
-       );
+      .each(dependentPhoneNumbers => console.log(dependentPhoneNumbers.sid));

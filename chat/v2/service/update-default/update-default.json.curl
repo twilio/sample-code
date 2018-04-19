@@ -1,2 +1,3 @@
 curl -X POST https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+--data-urlencode "FriendlyName=FriendlyName" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

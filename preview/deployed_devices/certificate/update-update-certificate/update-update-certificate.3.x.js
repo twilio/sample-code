@@ -8,9 +8,7 @@ client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .certificates('CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .update({
                  deviceSid: 'THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 fleetSid: 'FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 friendlyName: 'My New Certificate',
-                 sid: 'CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                 friendlyName: 'My New Certificate'
                })
               .then(certificate => console.log(certificate.sid))
               .done();

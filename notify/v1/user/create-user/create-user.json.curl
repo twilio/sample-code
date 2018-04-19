@@ -1,5 +1,4 @@
 curl -X POST https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users \
---data-urlencode "identity=User0001" \
---data-urlencode "segment=premium" \
---data-urlencode "service_sid=ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "Segment=premium" \
+--data-urlencode "Identity=User0001" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

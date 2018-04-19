@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncListItems = SyncListItemResource.Read(
-            pathListSid: "MyCollection",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathListSid: "MyCollection"
         );
 
         foreach(var record in syncListItems)

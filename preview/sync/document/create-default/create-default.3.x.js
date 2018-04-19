@@ -6,6 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .documents
-                   .create({serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+                   .create()
                    .then(document => console.log(document.sid))
                    .done();

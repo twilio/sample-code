@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.incomingPhoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .assignedAddOns
-      .each({
-         resourceSid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       },
-           assignedAddOns => console.log(assignedAddOns.sid)
-       );
+      .each(assignedAddOns => console.log(assignedAddOns.sid));

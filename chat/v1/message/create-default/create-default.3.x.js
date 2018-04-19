@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .messages
-              .create({
-                 serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 channelSid: 'CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 body: 'body'
-               })
+              .create({body: 'body'})
               .then(message => console.log(message.sid))
               .done();

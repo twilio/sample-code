@@ -1,2 +1,3 @@
 curl -X POST https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+--data-urlencode "UniqueName=UniqueName" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -6,7 +6,6 @@ EOF
 )
 
 curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers \
---data-urlencode "attributes=$ATTRIBUTES" \
---data-urlencode "friendly_name=Support Worker 1" \
---data-urlencode "workspace_sid=WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "Attributes=$ATTRIBUTES" \
+--data-urlencode "FriendlyName=Support Worker 1" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

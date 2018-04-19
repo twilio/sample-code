@@ -1,4 +1,3 @@
 curl -X GET https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses.json \
---data-urlencode "account_sid=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "customer_name=Customer 123" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token
+--data-urlencode "CustomerName=Customer 123" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

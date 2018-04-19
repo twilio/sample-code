@@ -1,6 +1,5 @@
 curl -X POST https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications \
---data-urlencode "body=Hello Bob" \
---data-urlencode "identity=00000001" \
---data-urlencode "service_sid=ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "tag=preferred_device" \
+--data-urlencode "Body=Hello Bob" \
+--data-urlencode "Identity=00000001" \
+--data-urlencode "Tag=preferred_device" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

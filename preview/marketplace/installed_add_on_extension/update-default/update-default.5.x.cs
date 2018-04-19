@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var installedAddOnExtension = InstalledAddOnExtensionResource.Update(
+            enabled: true,
             pathInstalledAddOnSid: "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            enabled: true
+            pathSid: "XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(installedAddOnExtension.Sid);

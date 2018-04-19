@@ -11,10 +11,10 @@ task_queue = @client.taskrouter
   .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .task_queues
   .create(
+     target_workers: 'languages HAS "english"',
      assignment_activity_sid: 'WA21d51f4c72583766988f9860de3e130a',
      friendly_name: 'English',
-     reservation_activity_sid: 'WAea296a56ebce4bfbff0e99abadf16934',
-     target_workers: 'languages HAS "english"'
+     reservation_activity_sid: 'WAea296a56ebce4bfbff0e99abadf16934'
    )
 
 puts task_queue.sid

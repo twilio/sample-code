@@ -19,7 +19,6 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                   notification: "{'title': 'New alert', 'body': 'Hello Bob!'}"
               },
                 identity: '00000001',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                 title: 'Generic loooooooong title for all Bindings'
               })
              .then(notification => console.log(notification.sid))

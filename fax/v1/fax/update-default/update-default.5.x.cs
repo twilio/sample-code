@@ -15,7 +15,10 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var fax = FaxResource.Update(pathSid: "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        var fax = FaxResource.Update(
+            status: FaxResource.UpdateStatusEnum.Canceled,
+            pathSid: "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
         Console.WriteLine(fax.Sid);
     }

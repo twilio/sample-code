@@ -21,7 +21,8 @@ class Program
             body: "McAvoy or Stewart? These timelines can get so confusing.",
             from: new Twilio.Types.PhoneNumber("+15017122661"),
             statusCallback: new Uri("http://requestb.in/1234abcd"),
-            to: new Twilio.Types.PhoneNumber("+15558675310")
+            to: new Twilio.Types.PhoneNumber("+15558675310"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(message.Sid);

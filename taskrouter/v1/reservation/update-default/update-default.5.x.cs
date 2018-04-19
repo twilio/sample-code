@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var reservation = ReservationResource.Update(
+            reservationStatus: ReservationResource.StatusEnum.Pending,
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathWorkerSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

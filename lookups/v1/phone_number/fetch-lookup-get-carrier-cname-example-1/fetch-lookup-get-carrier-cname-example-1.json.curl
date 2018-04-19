@@ -1,4 +1,3 @@
 curl -X GET https://lookups.twilio.com/v1/PhoneNumbers/+15017122661 \
---data-urlencode "phone_number=15108675310" \
---data-urlencode "type=carrier" \
+--data-urlencode "Type=carrier" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

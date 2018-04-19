@@ -8,11 +8,6 @@ client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .messageInteractions
-            .create({
-               body: 'Reply to this message to chat!',
-               participantSid: 'KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               sessionSid: 'KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             })
+            .create({body: 'Reply to this message to chat!'})
             .then(message_interaction => console.log(message_interaction.sid))
             .done();

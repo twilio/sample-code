@@ -18,8 +18,7 @@ EOF
 )
 
 curl -X POST https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents \
---data-urlencode "data=$DATA" \
---data-urlencode "service_sid=ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "ttl=1814400" \
---data-urlencode "unique_name=MyFirstDocument" \
+--data-urlencode "Data=$DATA" \
+--data-urlencode "Ttl=1814400" \
+--data-urlencode "UniqueName=MyFirstDocument" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

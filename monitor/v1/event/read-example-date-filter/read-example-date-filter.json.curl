@@ -1,4 +1,4 @@
 curl -X GET https://monitor.twilio.com/v1/Events \
---data-urlencode "end_date=2015-04-01" \
---data-urlencode "start_date=2015-03-01" \
+--data-urlencode "EndDate=2015-04-01" \
+--data-urlencode "StartDate=2015-03-01" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

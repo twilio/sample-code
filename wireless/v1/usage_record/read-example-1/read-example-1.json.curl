@@ -1,3 +1,2 @@
 curl -X GET https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/UsageRecords \
---data-urlencode "sim_sid=DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

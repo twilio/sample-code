@@ -15,7 +15,10 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var call = CallResource.Fetch(pathSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        var call = CallResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
         Console.WriteLine(call.AccountSid);
     }

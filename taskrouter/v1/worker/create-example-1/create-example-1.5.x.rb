@@ -10,8 +10,8 @@ auth_token = 'your_auth_token'
 worker = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .workers
                            .create(
-                              friendly_name: 'Support Worker 1',
-                              attributes: '{"type":"support"}'
+                              attributes: '{"type":"support"}',
+                              friendly_name: 'Support Worker 1'
                             )
 
 puts worker.sid

@@ -1,3 +1,3 @@
 curl -X GET https://video.twilio.com/v1/Rooms \
---data-urlencode "unique_name=DailyStandup" \
+--data-urlencode "UniqueName=DailyStandup" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

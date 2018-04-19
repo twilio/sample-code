@@ -9,8 +9,8 @@ auth_token = 'your_auth_token'
 
 validation_request = @client.validation_requests
                             .create(
-                               phone_number: '+14158675310',
-                               friendly_name: 'My Home Phone Number'
+                               friendly_name: 'My Home Phone Number',
+                               phone_number: '+14158675310'
                              )
 
 puts validation_request.account_sid

@@ -1,8 +1,7 @@
 curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json \
---data-urlencode "account_sid=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "from=Jack" \
---data-urlencode "sip_auth_password=secret" \
---data-urlencode "sip_auth_username=jack" \
---data-urlencode "to=sip:kate@example.com" \
---data-urlencode "url=http://www.example.com/sipdial.xml" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token
+--data-urlencode "SipAuthPassword=secret" \
+--data-urlencode "SipAuthUsername=jack" \
+--data-urlencode "Url=http://www.example.com/sipdial.xml" \
+--data-urlencode "From=Jack" \
+--data-urlencode "To=sip:kate@example.com" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

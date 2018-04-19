@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Sync.V1.Service.SyncList;
 
 
@@ -17,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncListItem = SyncListItemResource.Create(
+            data: "{}",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathListSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            data: "{}"
+            pathListSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(syncListItem.Index);

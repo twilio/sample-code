@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Api.V2010.Account;
 
 
@@ -18,8 +17,7 @@ class Program
 
         var notifications = NotificationResource.Read(
             log: 1,
-            messageDateBefore: MarshalConverter.DateTimeFromString("2009-07-08"),
-            messageDateAfter: MarshalConverter.DateTimeFromString("2009-07-06")
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         foreach(var record in notifications)

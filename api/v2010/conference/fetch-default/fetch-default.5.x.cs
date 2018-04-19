@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var conference = ConferenceResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

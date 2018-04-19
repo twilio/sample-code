@@ -5,9 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .update({
-               sid: 'RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               status: 'completed'
-             })
+            .update({status: 'completed'})
             .then(room => console.log(room.sid))
             .done();

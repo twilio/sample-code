@@ -7,9 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .syncMapPermissions
-      .each({
-         mapSid: 'Players',
-         serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       },
-           syncMapPermissions => console.log(syncMapPermissions.accountSid)
-       );
+      .each(syncMapPermissions => console.log(syncMapPermissions.accountSid));

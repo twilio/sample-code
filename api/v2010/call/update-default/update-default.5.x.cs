@@ -15,7 +15,11 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var call = CallResource.Update(pathSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        var call = CallResource.Update(
+            url: new Uri("https://example.com"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
         Console.WriteLine(call.AccountSid);
     }

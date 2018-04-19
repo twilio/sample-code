@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .documentPermissions('identity')
-      .fetch({
-         serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         documentSid: 'ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         identity: 'identity'
-       })
+      .fetch()
       .then(document_permission => console.log(document_permission.accountSid))
       .done();

@@ -6,9 +6,9 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls
       .create({
+         url: 'http://www.example.com/sipdial.xml',
          from: 'Jack',
-         to: 'sip:kate@example.com?hatchkey=4815162342',
-         url: 'http://www.example.com/sipdial.xml'
+         to: 'sip:kate@example.com?hatchkey=4815162342'
        })
       .then(call => console.log(call.sid))
       .done();

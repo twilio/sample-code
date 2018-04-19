@@ -20,8 +20,8 @@ class Program
         var notification = NotificationResource.Create(
             body: "Hello Bob",
             identity: Promoter.ListOfOne("00000001"),
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            tag: Promoter.ListOfOne("preferred_device")
+            tag: Promoter.ListOfOne("preferred_device"),
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(notification.Sid);

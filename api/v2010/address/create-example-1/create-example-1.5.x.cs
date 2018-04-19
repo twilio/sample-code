@@ -16,13 +16,14 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var address = AddressResource.Create(
+            friendlyName: "Billing - Customer 123",
             city: "Berlin",
             customerName: "Customer 123",
-            friendlyName: "Billing - Customer 123",
             isoCountry: "DE",
             postalCode: "10875",
             region: "Berlin",
-            street: "1 Hasselhoff Lane"
+            street: "1 Hasselhoff Lane",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(address.Sid);

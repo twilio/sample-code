@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.credentialLists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-          .remove({
-             credentialListSid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-             sid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-           })
+          .remove()
           .then(credential => console.log(credential.sid))
           .done();

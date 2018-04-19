@@ -16,7 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var recordings = RecordingResource.Read(
-            callSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            callSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         foreach(var record in recordings)

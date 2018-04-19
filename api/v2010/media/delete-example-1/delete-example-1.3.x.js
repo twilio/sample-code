@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .media('MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .remove({
-         messageSid: 'MM800f449d0399ed014aae2bcc0cc2f2ec',
-         sid: 'ME557ce644e5ab84fa21cc21112e22c485'
-       })
+      .remove()
       .then(media => console.log(media.sid))
       .done();

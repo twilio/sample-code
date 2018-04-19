@@ -5,7 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.conferences.each({
-                     dateCreatedAfter: new Date(Date.UTC(2009, 6, 6)),
                      status: 'in-progress'
                    },
                        conferences => console.log(conferences.sid)

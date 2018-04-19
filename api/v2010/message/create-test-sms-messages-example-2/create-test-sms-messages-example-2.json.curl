@@ -1,6 +1,5 @@
 curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages.json \
---data-urlencode "account_sid=ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "body=Hey Mr Nugget, you the bomb!" \
---data-urlencode "from=+15005550006" \
---data-urlencode "to=+15005550009" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token
+--data-urlencode "Body=Hey Mr Nugget, you the bomb!" \
+--data-urlencode "From=+15005550006" \
+--data-urlencode "To=+15005550009" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

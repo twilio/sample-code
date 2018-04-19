@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Preview.Understand.Service.Intent;
+using Twilio.Rest.Preview.Understand.Assistant.Intent;
 
 
 class Program 
@@ -16,7 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var sample = SampleResource.Update(
-            pathServiceSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            language: "Language",
+            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathIntentSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

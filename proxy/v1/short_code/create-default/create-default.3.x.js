@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .shortCodes
-            .create({
-               serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               sid: 'SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             })
+            .create({sid: 'SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
             .then(short_code => console.log(short_code.sid))
             .done();

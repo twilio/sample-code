@@ -18,8 +18,8 @@ class Program
         var task = TaskResource.Update(
             assignmentStatus: TaskResource.StatusEnum.Canceled,
             reason: "waiting too long",
-            pathSid: "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(task.AccountSid);

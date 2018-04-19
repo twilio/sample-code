@@ -1,7 +1,6 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
-using System.Collections.Generic;
 using Twilio;
 using Twilio.Converters;
 using Twilio.Rest.Chat.V2.Service;
@@ -18,9 +17,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var role = RoleResource.Update(
+            permission: Promoter.ListOfOne("Permission"),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            permission: Promoter.ListOfOne("Permission")
+            pathSid: "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(role.Sid);

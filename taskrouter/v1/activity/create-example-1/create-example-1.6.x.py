@@ -10,8 +10,8 @@ client = Client(account_sid, auth_token)
 activity = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                             .activities \
                             .create(
-                                 friendly_name="NewAvailableActivity",
-                                 available=True
+                                 available=True,
+                                 friendly_name="NewAvailableActivity"
                              )
 
 print(activity.sid)

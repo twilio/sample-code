@@ -18,7 +18,8 @@ class Program
         var message = MessageResource.Create(
             body: "Phantom Menace was clearly the best of the prequel trilogy.",
             messagingServiceSid: "MG9752274e9e519418a7406176694466fa",
-            to: new Twilio.Types.PhoneNumber("+441632960675")
+            to: new Twilio.Types.PhoneNumber("+441632960675"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(message.Sid);

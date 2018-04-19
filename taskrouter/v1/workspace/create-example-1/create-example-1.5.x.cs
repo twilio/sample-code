@@ -18,8 +18,8 @@ class Program
 
         var workspace = WorkspaceResource.Create(
             eventCallbackUrl: new Uri("http://requestb.in/vh9reovh"),
-            friendlyName: "NewWorkspace",
-            template: "FIFO"
+            template: "FIFO",
+            friendlyName: "NewWorkspace"
         );
 
         Console.WriteLine(workspace.Sid);

@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.signingKeys('SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .remove({sid: 'SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+      .remove()
       .then(signing_key => console.log(signing_key.sid))
       .done();

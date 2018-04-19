@@ -17,10 +17,11 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var member = MemberResource.Update(
-            pathCallSid: "Front",
             method: Twilio.Http.HttpMethod.Post,
+            url: new Uri("http://demo.twilio.com/docs/voice.xml"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathQueueSid: "QU5ef8732a3c49700934481addd5ce1659",
-            url: new Uri("http://demo.twilio.com/docs/voice.xml")
+            pathCallSid: "Front"
         );
 
         Console.WriteLine(member.CallSid);

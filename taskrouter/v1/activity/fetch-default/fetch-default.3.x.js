@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .activities('WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                 .fetch({
-                    workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                    sid: 'WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                  })
+                 .fetch()
                  .then(activity => console.log(activity.accountSid))
                  .done();

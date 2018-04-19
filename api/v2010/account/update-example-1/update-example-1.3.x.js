@@ -5,9 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.api.accounts('ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-          .update({
-             sid: 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-             status: 'suspended'
-           })
+          .update({status: 'suspended'})
           .then(account => console.log(account.authToken))
           .done();

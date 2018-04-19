@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Api.V2010.Account.Queue;
 
 
@@ -17,10 +16,11 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var member = MemberResource.Update(
-            pathQueueSid: "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             url: new Uri("https://example.com"),
-            method: Twilio.Http.HttpMethod.Get
+            method: Twilio.Http.HttpMethod.Get,
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathQueueSid: "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(member.CallSid);

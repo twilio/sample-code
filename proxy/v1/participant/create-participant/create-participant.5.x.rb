@@ -11,8 +11,8 @@ participant = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .participants
                            .create(
-                              identifier: '+15558675310',
-                              friendly_name: 'Alice'
+                              friendly_name: 'Alice',
+                              identifier: '+15558675310'
                             )
 
 puts participant.sid

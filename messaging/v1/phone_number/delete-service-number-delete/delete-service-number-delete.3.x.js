@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .phoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                .remove({
-                   serviceSid: 'MG2172dd2db502e20dd981ef0d67850e1a',
-                   sid: 'PN557ce644e5ab84fa21cc21112e22c485'
-                 })
+                .remove()
                 .then(phone_number => console.log(phone_number.sid))
                 .done();

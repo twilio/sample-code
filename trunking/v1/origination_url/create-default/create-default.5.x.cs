@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Trunking.V1.Trunk;
 
 
@@ -17,12 +16,12 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var originationUrl = OriginationUrlResource.Create(
-            pathTrunkSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             weight: 1,
             priority: 1,
             enabled: true,
             friendlyName: "FriendlyName",
-            sipUrl: new Uri("https://example.com")
+            sipUrl: new Uri("https://example.com"),
+            pathTrunkSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(originationUrl.Sid);

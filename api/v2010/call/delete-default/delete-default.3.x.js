@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .remove({sid: 'CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+      .remove()
       .then(call => console.log(call.sid))
       .done();

@@ -7,6 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .cumulativeStatistics()
-  .fetch({workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+  .fetch()
   .then(workers_cumulative_statistics => console.log(workers_cumulative_statistics.accountSid))
   .done();

@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .update({
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              sid: 'ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            })
+           .update({data: {}})
            .then(document => console.log(document.sid))
            .done();

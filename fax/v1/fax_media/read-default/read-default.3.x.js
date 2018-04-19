@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .media
-          .each({
-             faxSid: 'FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-           },
-               media => console.log(media.sid)
-           );
+          .each(media => console.log(media.sid));

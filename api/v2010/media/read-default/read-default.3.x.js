@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .media
-      .each({
-         messageSid: 'MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       },
-           media => console.log(media.sid)
-       );
+      .each(media => console.log(media.sid));

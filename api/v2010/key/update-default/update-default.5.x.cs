@@ -15,7 +15,11 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var key = KeyResource.Update(pathSid: "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        var key = KeyResource.Update(
+            friendlyName: "FriendlyName",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
         Console.WriteLine(key.Sid);
     }

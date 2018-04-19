@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var session = SessionResource.Update(
+            uniqueName: "UniqueName",
             pathServiceSid: "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

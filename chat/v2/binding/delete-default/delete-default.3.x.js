@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .bindings('BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .remove({
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              sid: 'BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            })
+           .remove()
            .then(binding => console.log(binding.sid))
            .done();

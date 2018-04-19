@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.notifications('NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .fetch({sid: 'NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+      .fetch()
       .then(notification => console.log(notification.accountSid))
       .done();

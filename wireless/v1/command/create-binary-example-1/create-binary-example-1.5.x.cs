@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var command = CommandResource.Create(
-            command: "SGVsbG8sIE1hY2hpbmUh==",
             commandMode: CommandResource.CommandModeEnum.Binary,
-            sim: "AliceSmithSmartMeter"
+            sim: "AliceSmithSmartMeter",
+            command: "SGVsbG8sIE1hY2hpbmUh=="
         );
 
         Console.WriteLine(command.Sid);

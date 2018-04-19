@@ -6,10 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .deployments('DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .update({
-                 fleetSid: 'FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 friendlyName: 'My New Device Deployment',
-                 sid: 'DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-               })
+              .update({friendlyName: 'My New Device Deployment'})
               .then(deployment => console.log(deployment.sid))
               .done();

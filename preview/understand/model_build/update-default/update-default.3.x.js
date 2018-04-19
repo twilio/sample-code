@@ -4,11 +4,8 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.services('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .modelBuilds('UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .update({
-                 serviceSid: 'UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 sid: 'UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-               })
+              .update({uniqueName: 'uniqueName'})
               .then(model_build => console.log(model_build.accountSid))
               .done();

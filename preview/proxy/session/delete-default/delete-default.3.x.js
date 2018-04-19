@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                    .remove({
-                       serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                       sid: 'KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                     })
+                    .remove()
                     .then(session => console.log(session.sid))
                     .done();

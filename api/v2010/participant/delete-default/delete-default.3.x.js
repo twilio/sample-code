@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .participants('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .remove({
-         conferenceSid: 'CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         callSid: 'CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       })
+      .remove()
       .then(participant => console.log(participant.accountSid))
       .done();

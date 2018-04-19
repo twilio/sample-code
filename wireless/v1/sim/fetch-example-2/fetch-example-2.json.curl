@@ -1,3 +1,2 @@
 curl -X GET https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "sid=AliceSmithSmartMeter" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

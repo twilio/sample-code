@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 call = @client.calls.create(
+                       url: 'http://www.example.com/sipdial.xml',
                        from: 'Jack',
-                       to: 'sip:kate@example.com',
-                       url: 'http://www.example.com/sipdial.xml'
+                       to: 'sip:kate@example.com'
                      )
 
 puts call.sid

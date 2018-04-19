@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var segmentMembership = SegmentMembershipResource.Create(
-            pathIdentity: "User0001",
             segment: "premium",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathIdentity: "User0001"
         );
 
         Console.WriteLine(segmentMembership.AccountSid);

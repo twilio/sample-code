@@ -10,11 +10,11 @@ auth_token = 'your_auth_token'
 binding = @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .bindings
                         .create(
+                           endpoint: 'endpoint_id',
+                           tag: 'new user',
                            address: 'device_token',
                            binding_type: 'apn',
-                           identity: '00000001',
-                           endpoint: 'endpoint_id',
-                           tag: 'new user'
+                           identity: '00000001'
                          )
 
 puts binding.sid

@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .members('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .fetch({
-         queueSid: 'QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         callSid: 'CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       })
+      .fetch()
       .then(member => console.log(member.callSid))
       .done();

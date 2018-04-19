@@ -16,6 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var shortCode = ShortCodeResource.Update(
+            friendlyName: "FriendlyName",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

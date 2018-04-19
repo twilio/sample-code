@@ -5,8 +5,4 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.availablePhoneNumbers('US').sharedCost
-      .each({
-         countryCode: 'US'
-       },
-           sharedCost => console.log(sharedCost.friendlyName)
-       );
+      .each(sharedCost => console.log(sharedCost.friendlyName));

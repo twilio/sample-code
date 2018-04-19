@@ -1,7 +1,7 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.rest.preview.understand.service.Query;
+import com.twilio.rest.preview.understand.assistant.Query;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console

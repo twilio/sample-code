@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 call = @client.calls.create(
+                       url: 'http://demo.twilio.com/docs/voice.xml',
                        from: '+987654321',
-                       to: '+123456789',
-                       url: 'http://demo.twilio.com/docs/voice.xml'
+                       to: '+123456789'
                      )
 
 puts call.sid

@@ -16,6 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var conference = ConferenceResource.Update(
+            status: ConferenceResource.UpdateStatusEnum.Completed,
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

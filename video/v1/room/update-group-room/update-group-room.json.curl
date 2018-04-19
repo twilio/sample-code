@@ -1,3 +1,0 @@
-curl -X POST https://video.twilio.com/v1/Rooms/RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
-    --data-urlencode "Status=in-progress" \
-    -u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

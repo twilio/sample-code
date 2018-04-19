@@ -18,9 +18,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var bindings = BindingResource.Read(
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             startDate: MarshalConverter.DateTimeFromString("2015-08-25"),
-            tag: Promoter.ListOfOne("new user")
+            tag: Promoter.ListOfOne("new user"),
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         foreach(var record in bindings)

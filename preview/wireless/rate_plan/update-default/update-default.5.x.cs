@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var ratePlan = RatePlanResource.Update(
+            uniqueName: "UniqueName",
             pathSid: "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

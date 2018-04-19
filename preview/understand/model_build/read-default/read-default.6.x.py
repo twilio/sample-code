@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 model_builds = client.preview.understand \
-                             .services("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                             .model_builds \
-                             .list()
+                     .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                     .model_builds \
+                     .list()
 
 for record in model_builds:
     print(record.sid)

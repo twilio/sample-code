@@ -8,11 +8,6 @@ client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .messageInteractions('KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .fetch({
-               serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               sessionSid: 'KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               participantSid: 'KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               sid: 'KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             })
+            .fetch()
             .then(message_interaction => console.log(message_interaction.sid))
             .done();

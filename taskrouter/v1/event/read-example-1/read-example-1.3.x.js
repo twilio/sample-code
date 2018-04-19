@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .events
-                 .each({
-                    workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                  },
-                      events => console.log(events.sid)
-                  );
+                 .each(events => console.log(events.sid));

@@ -11,7 +11,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$modelBuilds = $twilio->preview->understand->services("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+$modelBuilds = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                            ->modelBuilds
                                            ->read();
 

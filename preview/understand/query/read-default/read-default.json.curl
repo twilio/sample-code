@@ -1,2 +1,2 @@
-curl -X GET https://preview.twilio.com/understand/Services/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries \
+curl -X GET https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

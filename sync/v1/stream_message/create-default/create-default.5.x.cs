@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Sync.V1.Service.SyncStream;
 
 
@@ -17,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var streamMessage = StreamMessageResource.Create(
+            data: "{}",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathStreamSid: "TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            data: "{}"
+            pathStreamSid: "TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(streamMessage.Sid);

@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.addresses('ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({sid: 'ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+      .update({friendlyName: 'friendlyName'})
       .then(address => console.log(address.accountSid))
       .done();

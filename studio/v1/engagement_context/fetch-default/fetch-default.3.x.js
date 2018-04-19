@@ -7,9 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .engagementContext()
-      .fetch({
-         flowSid: 'FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         engagementSid: 'FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       })
+      .fetch()
       .then(engagement_context => console.log(engagement_context.accountSid))
       .done();

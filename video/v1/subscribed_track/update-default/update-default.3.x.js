@@ -7,9 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .subscribedTracks
-            .update({
-               roomSid: 'RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               subscriberSid: 'PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             })
+            .update({track: 'MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
             .then(subscribed_track => console.log(subscribed_track.sid))
             .done();

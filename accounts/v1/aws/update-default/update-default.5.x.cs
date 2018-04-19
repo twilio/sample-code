@@ -15,7 +15,10 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var aws = AwsResource.Update(pathSid: "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        var aws = AwsResource.Update(
+            friendlyName: "FriendlyName",
+            pathSid: "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
         Console.WriteLine(aws.Sid);
     }

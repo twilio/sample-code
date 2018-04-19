@@ -18,8 +18,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var user = UserResource.Create(
-            identity: "User0001",
             segment: Promoter.ListOfOne("premium"),
+            identity: "User0001",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

@@ -17,9 +17,9 @@ class Program
 
         var syncMapItems = SyncMapItemResource.Read(
             from: "steph_curry",
-            pathMapSid: "Players",
             order: SyncMapItemResource.QueryResultOrderEnum.Asc,
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathMapSid: "Players"
         );
 
         foreach(var record in syncMapItems)

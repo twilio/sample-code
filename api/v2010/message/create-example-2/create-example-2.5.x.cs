@@ -21,7 +21,8 @@ class Program
             body: "Hello there!",
             from: new Twilio.Types.PhoneNumber("+15555555555"),
             mediaUrl: Promoter.ListOfOne(new Uri("https://demo.twilio.com/owl.png")),
-            to: new Twilio.Types.PhoneNumber("+12316851234")
+            to: new Twilio.Types.PhoneNumber("+12316851234"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(message.Sid);

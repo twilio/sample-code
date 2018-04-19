@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Preview.Sync.Service.SyncMap;
 
 
@@ -17,10 +16,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncMapItem = SyncMapItemResource.Create(
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             key: "Key",
-            data: "{}"
+            data: "{}",
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(syncMapItem.Key);

@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                     .fetch({sid: 'FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+                     .fetch()
                      .then(flow => console.log(flow.sid))
                      .done();

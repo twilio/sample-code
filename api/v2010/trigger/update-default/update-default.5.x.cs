@@ -16,6 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var trigger = TriggerResource.Update(
+            callbackMethod: Twilio.Http.HttpMethod.Get,
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

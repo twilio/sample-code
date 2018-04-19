@@ -1,8 +1,8 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "api_version": "2010-04-01",
-  "call_sid": "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "conference_sid": "CFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "conference_sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "channels": 1,
   "date_created": "Fri, 14 Oct 2016 21:56:34 +0000",
   "date_updated": "Fri, 14 Oct 2016 21:56:38 +0000",
@@ -11,14 +11,14 @@
   "price": "-0.00250",
   "price_unit": "USD",
   "duration": "4",
-  "sid": "REaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "source": "StartConferenceRecordingAPI",
   "status": "completed",
   "error_code": null,
-  "uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings/REaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.json",
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
   "subresource_uris": {
-    "add_on_results": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings/REaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/AddOnResults.json",
-    "transcriptions": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings/REaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Transcriptions.json"
+    "add_on_results": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AddOnResults.json",
+    "transcriptions": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Transcriptions.json"
   },
   "encryption_details": {
     "encryption_public_key_sid": "CRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",

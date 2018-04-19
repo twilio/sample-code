@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-          .update({sid: 'FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+          .update({status: 'canceled'})
           .then(fax => console.log(fax.sid))
           .done();

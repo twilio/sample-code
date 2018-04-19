@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .alphaSenders('AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                .remove({
-                   serviceSid: 'MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                   sid: 'AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                 })
+                .remove()
                 .then(alpha_sender => console.log(alpha_sender.sid))
                 .done();

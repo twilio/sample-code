@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                 .remove({sid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+                 .remove()
                  .then(workspace => console.log(workspace.sid))
                  .done();

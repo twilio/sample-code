@@ -4,14 +4,9 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.services('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .fieldTypes('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .fieldValues
-                         .create({
-                            serviceSid: 'UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                            fieldTypeSid: 'UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                            language: 'language',
-                            value: 'value'
-                          })
+                         .create({language: 'language', value: 'value'})
                          .then(field_value => console.log(field_value.sid))
                          .done();

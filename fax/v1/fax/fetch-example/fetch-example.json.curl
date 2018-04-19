@@ -1,3 +1,2 @@
 curl -X GET https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "sid=FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -5,9 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.shortCodes('SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({
-         sid: 'SC6b20cb705c1e8f00210049b20b70fce3',
-         smsUrl: 'http://demo.twilio.com/docs/sms.xml'
-       })
+      .update({smsUrl: 'http://demo.twilio.com/docs/sms.xml'})
       .then(short_code => console.log(short_code.accountSid))
       .done();

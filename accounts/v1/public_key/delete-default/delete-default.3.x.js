@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.accounts.credentials.publicKey('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                           .remove({sid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+                           .remove()
                            .then(public_key => console.log(public_key.sid))
                            .done();

@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.incomingPhoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .assignedAddOns('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .remove({
-         resourceSid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         sid: 'XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       })
+      .remove()
       .then(assigned_add_on => console.log(assigned_add_on.sid))
       .done();

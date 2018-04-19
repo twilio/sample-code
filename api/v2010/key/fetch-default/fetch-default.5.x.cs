@@ -15,7 +15,10 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var key = KeyResource.Fetch(pathSid: "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        var key = KeyResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
         Console.WriteLine(key.Sid);
     }

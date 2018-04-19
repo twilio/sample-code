@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .remove({
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              sid: 'MyFirstDocument'
-            })
+           .remove()
            .then(document => console.log(document.sid))
            .done();

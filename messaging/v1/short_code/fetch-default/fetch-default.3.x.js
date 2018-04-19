@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .shortCodes('SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                .fetch({
-                   serviceSid: 'MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                   sid: 'SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                 })
+                .fetch()
                 .then(short_code => console.log(short_code.sid))
                 .done();

@@ -17,7 +17,8 @@ class Program
 
         var validationRequest = ValidationRequestResource.Create(
             friendlyName: "My Home Phone Number",
-            phoneNumber: new Twilio.Types.PhoneNumber("+14158675310")
+            phoneNumber: new Twilio.Types.PhoneNumber("+14158675310"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(validationRequest.AccountSid);

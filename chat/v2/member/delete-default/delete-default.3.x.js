@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .members('MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .remove({
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              channelSid: 'CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              sid: 'MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            })
+           .remove()
            .then(member => console.log(member.sid))
            .done();

@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .fetch({
-               roomSid: 'RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               sid: 'PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             })
+            .fetch()
             .then(participant => console.log(participant.sid))
             .done();

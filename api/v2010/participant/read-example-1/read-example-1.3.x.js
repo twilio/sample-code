@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .participants
-      .each({
-         conferenceSid: 'CFbbe4632a3c49700934481addd5ce1659'
-       },
-           participants => console.log(participants.accountSid)
-       );
+      .each(participants => console.log(participants.accountSid));

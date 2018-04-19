@@ -16,6 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var incomingPhoneNumber = IncomingPhoneNumberResource.Update(
+            accountSid: "ACzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+            pathAccountSid: "ACzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
             pathSid: "PNyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
         );
 

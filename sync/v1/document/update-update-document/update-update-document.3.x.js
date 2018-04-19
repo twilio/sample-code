@@ -8,6 +8,6 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .update({data: {
                 led: "ON"
-            }, serviceSid: 'default', sid: 'BoardLED'})
+            }})
            .then(document => console.log(document.sid))
            .done();

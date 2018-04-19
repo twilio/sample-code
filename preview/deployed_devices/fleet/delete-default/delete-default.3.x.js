@@ -5,8 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                               .remove({
-                                  sid: 'FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                                })
+                               .remove()
                                .then(fleet => console.log(fleet.sid))
                                .done();

@@ -4,11 +4,10 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.services('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .queries('UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .update({
-                            serviceSid: 'UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                            sid: 'UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                            sampleSid: 'UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
                           })
                          .then(query => console.log(query.accountSid))
                          .done();

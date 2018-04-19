@@ -8,9 +8,7 @@ client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .keys('KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .update({
                  deviceSid: 'THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 fleetSid: 'FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 friendlyName: 'My New Device Key',
-                 sid: 'KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                 friendlyName: 'My New Device Key'
                })
               .then(key => console.log(key.sid))
               .done();

@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 field_type = @client.preview.understand
-                            .services('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                            .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .field_types('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .update(friendly_name: 'friendly_name')
 

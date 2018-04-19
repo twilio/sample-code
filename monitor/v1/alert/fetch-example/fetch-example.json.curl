@@ -1,3 +1,2 @@
 curl -X GET https://monitor.twilio.com/v1/Alerts/NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "sid=NO5a7a84730f529f0a76b3e30c01315d1a" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

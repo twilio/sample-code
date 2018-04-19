@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var originationUrl = OriginationUrlResource.Update(
+            weight: 1,
             pathTrunkSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

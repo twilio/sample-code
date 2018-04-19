@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .users('NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-             .fetch({
-                identity: 'User0001',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-              })
+             .fetch()
              .then(user => console.log(user.sid))
              .done();

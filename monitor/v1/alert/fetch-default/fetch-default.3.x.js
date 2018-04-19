@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.monitor.alerts('NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .fetch({sid: 'NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+              .fetch()
               .then(alert => console.log(alert.accountSid))
               .done();

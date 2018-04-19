@@ -7,8 +7,7 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .update({
                     eventCallbackUrl: 'http://requestb.in/vh9reovh',
-                    friendlyName: 'NewFriendlyName',
-                    sid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                    friendlyName: 'NewFriendlyName'
                   })
                  .then(workspace => console.log(workspace.accountSid))
                  .done();

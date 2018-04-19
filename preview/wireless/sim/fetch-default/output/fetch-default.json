@@ -1,5 +1,5 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "unique_name",
   "commands_callback_method": "http_method",
   "commands_callback_url": "http://www.example.com",
@@ -15,13 +15,13 @@
   "voice_method": "http_method",
   "voice_url": "http://www.example.com",
   "links": {
-    "usage": "https://preview.twilio.com/wireless/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Usage",
-    "rate_plan": "https://preview.twilio.com/wireless/RatePlans/WPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    "usage": "https://preview.twilio.com/wireless/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage",
+    "rate_plan": "https://preview.twilio.com/wireless/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
   },
-  "rate_plan_sid": "WPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "sid": "DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "rate_plan_sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "iccid": "iccid",
   "e_id": "e_id",
   "status": "status",
-  "url": "https://preview.twilio.com/wireless/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://preview.twilio.com/wireless/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

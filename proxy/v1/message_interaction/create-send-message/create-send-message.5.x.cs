@@ -17,9 +17,9 @@ class Program
 
         var messageInteraction = MessageInteractionResource.Create(
             body: "Reply to this message to chat!",
-            pathParticipantSid: "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathServiceSid: "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSessionSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathSessionSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathParticipantSid: "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(messageInteraction.Sid);

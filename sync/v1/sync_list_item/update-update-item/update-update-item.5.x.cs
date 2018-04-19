@@ -18,9 +18,9 @@ class Program
 
         var syncListItem = SyncListItemResource.Update(
             data: "{\"number\": \"001\", \"name\": \"Bulbasaur\", \"attack\": 50}",
-            pathIndex: 0,
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathListSid: "MyCollection",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathIndex: 0
         );
 
         Console.WriteLine(syncListItem.Index);

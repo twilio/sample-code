@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                    .fetch({sid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+                    .fetch()
                     .then(service => console.log(service.sid))
                     .done();

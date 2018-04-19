@@ -8,8 +8,7 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .update({
      "notifications.addedToChannel.enabled": true,
      "notifications.addedToChannel.sound": 'default',
-     "notifications.addedToChannel.template": 'A New message in ${CHANNEL} from ${USER}: ${MESSAGE}',
-     sid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+     "notifications.addedToChannel.template": 'A New message in ${CHANNEL} from ${USER}: ${MESSAGE}'
    })
   .then(service => console.log(service.sid))
   .done();

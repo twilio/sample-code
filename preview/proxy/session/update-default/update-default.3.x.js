@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                    .update({
-                       serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                       sid: 'KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                     })
+                    .update({uniqueName: 'uniqueName'})
                     .then(session => console.log(session.sid))
                     .done();

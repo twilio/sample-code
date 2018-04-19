@@ -8,8 +8,7 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .notifications
              .create({
                 body: 'Knok-Knok! This is your first Notify SMS',
-                identity: '00000001',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                identity: '00000001'
               })
              .then(notification => console.log(notification.sid))
              .done();

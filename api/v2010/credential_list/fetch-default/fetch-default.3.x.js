@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sip.credentialLists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-          .fetch({sid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+          .fetch()
           .then(credential_list => console.log(credential_list.accountSid))
           .done();

@@ -16,10 +16,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var userBinding = UserBindingResource.Create(
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             bindingType: UserBindingResource.BindingTypeEnum.Apn,
-            address: "Address"
+            address: "Address",
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathIdentity: "NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(userBinding.Sid);

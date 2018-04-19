@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .addOnResults('XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .remove({
-         referenceSid: 'REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         sid: 'XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       })
+      .remove()
       .then(add_on_result => console.log(add_on_result.sid))
       .done();

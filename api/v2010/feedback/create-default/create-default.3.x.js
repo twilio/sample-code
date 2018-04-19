@@ -6,6 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .feedback
-      .create({messageSid: 'MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+      .create()
       .then(feedback => console.log(feedback.accountSid))
       .done();

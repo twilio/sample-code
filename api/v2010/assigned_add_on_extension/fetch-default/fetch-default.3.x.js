@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.incomingPhoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .assignedAddOns('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .extensions('XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  .fetch({
-     resourceSid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-     assignedAddOnSid: 'XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-     sid: 'XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-   })
+  .fetch()
   .then(assigned_add_on_extension => console.log(assigned_add_on_extension.sid))
   .done();

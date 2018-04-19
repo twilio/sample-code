@@ -6,6 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .feedback()
-      .update({callSid: 'CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', qualityScore: 1})
+      .update({issue: ['audio-latency'], qualityScore: 1})
       .then(feedback => console.log(feedback.accountSid))
       .done();

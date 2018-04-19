@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .update({sid: 'TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+               .update({friendlyName: 'friendlyName'})
                .then(trunk => console.log(trunk.accountSid))
                .done();

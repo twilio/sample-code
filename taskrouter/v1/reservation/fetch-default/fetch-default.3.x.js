@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .reservations('WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                 .fetch({
-                    workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                    workerSid: 'WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                    sid: 'WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                  })
+                 .fetch()
                  .then(reservation => console.log(reservation.accountSid))
                  .done();

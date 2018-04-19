@@ -16,9 +16,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var participant = ParticipantResource.Create(
-            pathConferenceSid: "AgentConf12",
             from: new Twilio.Types.PhoneNumber("+18180021216"),
-            to: new Twilio.Types.PhoneNumber("+15624421212")
+            to: new Twilio.Types.PhoneNumber("+15624421212"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathConferenceSid: "AgentConf12"
         );
 
         Console.WriteLine(participant.AccountSid);

@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         MediaResource.Delete(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMessageSid: "MM800f449d0399ed014aae2bcc0cc2f2ec",
             pathSid: "ME557ce644e5ab84fa21cc21112e22c485"
         );

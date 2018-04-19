@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .invites
-              .create({
-                 serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 channelSid: 'CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 identity: 'identity'
-               })
+              .create({identity: 'identity'})
               .then(invite => console.log(invite.sid))
               .done();

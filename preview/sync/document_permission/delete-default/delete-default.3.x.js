@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .documentPermissions('identity')
-      .remove({
-         serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         documentSid: 'ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         identity: 'identity'
-       })
+      .remove()
       .then(document_permission => console.log(document_permission.accountSid))
       .done();

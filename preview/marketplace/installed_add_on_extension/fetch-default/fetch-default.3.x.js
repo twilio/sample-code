@@ -7,9 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.marketplace
   .installedAddOns('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .extensions('XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  .fetch({
-     installedAddOnSid: 'XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-     sid: 'XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-   })
+  .fetch()
   .then(installed_add_on_extension => console.log(installed_add_on_extension.sid))
   .done();

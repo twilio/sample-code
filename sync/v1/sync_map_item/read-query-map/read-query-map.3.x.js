@@ -9,9 +9,7 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMapItems
            .each({
               from: 'steph_curry',
-              mapSid: 'Players',
-              order: 'asc',
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+              order: 'asc'
             },
                 syncMapItems => console.log(syncMapItems.key)
             );

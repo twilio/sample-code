@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .users('NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .segmentMemberships
-      .create({
-         serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         identity: 'NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         segment: 'segment'
-       })
+      .create({segment: 'segment'})
       .then(segment_membership => console.log(segment_membership.accountSid))
       .done();

@@ -1,6 +1,5 @@
 curl -X POST https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "callback_method=POST" \
---data-urlencode "callback_url=https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter" \
---data-urlencode "sid=DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" \
---data-urlencode "status=active" \
+--data-urlencode "CallbackMethod=POST" \
+--data-urlencode "CallbackUrl=https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter" \
+--data-urlencode "Status=active" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

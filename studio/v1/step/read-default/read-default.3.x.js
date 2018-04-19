@@ -7,9 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .steps
-             .each({
-                flowSid: 'FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                engagementSid: 'FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-              },
-                  steps => console.log(steps.sid)
-              );
+             .each(steps => console.log(steps.sid));

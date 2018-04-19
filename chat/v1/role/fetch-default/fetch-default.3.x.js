@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .roles('RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .fetch({
-                 serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 sid: 'RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-               })
+              .fetch()
               .then(role => console.log(role.sid))
               .done();

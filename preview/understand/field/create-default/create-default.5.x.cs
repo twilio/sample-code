@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Preview.Understand.Service.Intent;
+using Twilio.Rest.Preview.Understand.Assistant.Intent;
 
 
 class Program 
@@ -16,10 +16,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var field = FieldResource.Create(
-            pathServiceSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIntentSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             fieldType: "FieldType",
-            uniqueName: "UniqueName"
+            uniqueName: "UniqueName",
+            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathIntentSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(field.Sid);

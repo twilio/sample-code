@@ -18,12 +18,12 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var binding = BindingResource.Create(
+            endpoint: "endpoint_id",
+            tag: Promoter.ListOfOne("preferred device"),
             address: "apn_device_token",
             bindingType: BindingResource.BindingTypeEnum.Apn,
-            endpoint: "endpoint_id",
             identity: "00000001",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            tag: Promoter.ListOfOne("preferred device")
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(binding.Sid);

@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var recording = RecordingResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

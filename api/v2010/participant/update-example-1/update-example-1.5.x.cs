@@ -16,9 +16,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var participant = ParticipantResource.Update(
-            pathCallSid: "CA386025c9bf5d6052a1d1ea42b4d16662",
+            muted: true,
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathConferenceSid: "CFbbe4632a3c49700934481addd5ce1659",
-            muted: true
+            pathCallSid: "CA386025c9bf5d6052a1d1ea42b4d16662"
         );
 
         Console.WriteLine(participant.AccountSid);

@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .interactions('KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                    .fetch({
-                       serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                       sessionSid: 'KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                       sid: 'KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                     })
+                    .fetch()
                     .then(interaction => console.log(interaction.sid))
                     .done();

@@ -15,7 +15,10 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var sim = SimResource.Update(pathSid: "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        var sim = SimResource.Update(
+            uniqueName: "UniqueName",
+            pathSid: "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
         Console.WriteLine(sim.Sid);
     }

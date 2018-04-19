@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .syncListItems(1)
-                   .fetch({
-                      serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                      listSid: 'ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                      index: 1
-                    })
+                   .fetch()
                    .then(sync_list_item => console.log(sync_list_item.index))
                    .done();

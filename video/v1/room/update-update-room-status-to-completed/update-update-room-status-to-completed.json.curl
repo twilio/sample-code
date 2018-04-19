@@ -1,4 +1,3 @@
 curl -X POST https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "sid=RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "status=completed" \
+--data-urlencode "Status=completed" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

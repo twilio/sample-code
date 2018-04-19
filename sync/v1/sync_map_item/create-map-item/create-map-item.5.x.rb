@@ -10,10 +10,10 @@ auth_token = 'your_auth_token'
 sync_map_item = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .sync_map_items
-                            .create(data: {
+                            .create(ttl: 864000, data: {
                                  "name" => "Stephen Curry",
                                  "level" => "30",
                                  "username" => "spicy_curry"
-                             }, key: 'steph_curry', ttl: 864000)
+                             }, key: 'steph_curry')
 
 puts sync_map_item.key

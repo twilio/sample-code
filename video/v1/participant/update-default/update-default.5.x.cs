@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var participant = ParticipantResource.Update(
+            status: ParticipantResource.StatusEnum.Connected,
             pathRoomSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

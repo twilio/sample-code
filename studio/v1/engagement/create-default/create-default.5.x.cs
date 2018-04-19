@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var engagement = EngagementResource.Create(
-            pathFlowSid: "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             to: new Twilio.Types.PhoneNumber("+15017122661"),
-            from: new Twilio.Types.PhoneNumber("+15017122661")
+            from: new Twilio.Types.PhoneNumber("+15017122661"),
+            pathFlowSid: "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(engagement.Sid);

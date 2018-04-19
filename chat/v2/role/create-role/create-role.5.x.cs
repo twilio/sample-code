@@ -20,8 +20,8 @@ class Program
         var role = RoleResource.Create(
             friendlyName: "new_role",
             permission: Promoter.ListOfOne("createChannel"),
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            type: RoleResource.RoleTypeEnum.Deployment
+            type: RoleResource.RoleTypeEnum.Deployment,
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(role.Sid);

@@ -6,11 +6,11 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls
       .create({
-         from: 'Jack',
          sipAuthPassword: 'secret',
          sipAuthUsername: 'jack',
-         to: 'sip:kate@example.com',
-         url: 'http://www.example.com/sipdial.xml'
+         url: 'http://www.example.com/sipdial.xml',
+         from: 'Jack',
+         to: 'sip:kate@example.com'
        })
       .then(call => console.log(call.sid))
       .done();

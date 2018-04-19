@@ -15,7 +15,10 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var trunk = TrunkResource.Update(pathSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        var trunk = TrunkResource.Update(
+            friendlyName: "FriendlyName",
+            pathSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
         Console.WriteLine(trunk.AccountSid);
     }

@@ -8,10 +8,10 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 message = @client.messages.create(
-                             to: '+12316851234',
                              body: 'Hello there!',
                              from: '+15555555555',
-                             media_url: 'https://demo.twilio.com/owl.png'
+                             media_url: 'https://demo.twilio.com/owl.png',
+                             to: '+12316851234'
                            )
 
 puts message.sid

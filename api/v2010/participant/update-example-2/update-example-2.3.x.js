@@ -6,11 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .participants('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({
-         callSid: 'CA386025c9bf5d6052a1d1ea42b4d16662',
-         conferenceSid: 'CFbbe4632a3c49700934481addd5ce1659',
-         hold: true,
-         holdUrl: 'http://www.myapp.com/hold'
-       })
+      .update({hold: true, holdUrl: 'http://www.myapp.com/hold'})
       .then(participant => console.log(participant.accountSid))
       .done();

@@ -6,9 +6,9 @@ const client = require('twilio')(accountSid, authToken);
 
 client.addresses
       .create({
+         friendlyName: 'Billing - Customer 123',
          city: 'Berlin',
          customerName: 'Customer 123',
-         friendlyName: 'Billing - Customer 123',
          isoCountry: 'DE',
          postalCode: '10875',
          region: 'Berlin',

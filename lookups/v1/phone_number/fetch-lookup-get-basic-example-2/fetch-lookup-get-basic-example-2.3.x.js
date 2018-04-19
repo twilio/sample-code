@@ -5,10 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.lookups.phoneNumbers('+15017122661')
-              .fetch({
-                 countryCode: 'US',
-                 phoneNumber: '+15108675310',
-                 type: 'carrier'
-               })
+              .fetch({countryCode: 'US', type: 'carrier'})
               .then(phone_number => console.log(phone_number.callerName))
               .done();

@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.calls.feedbackSummaries('FSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .remove({sid: 'FSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+            .remove()
             .then(feedback_summary => console.log(feedback_summary.sid))
             .done();

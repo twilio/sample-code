@@ -1,2 +1,0 @@
-curl -X GET https://monitor.twilio.com/v1/Alerts \
-    -u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

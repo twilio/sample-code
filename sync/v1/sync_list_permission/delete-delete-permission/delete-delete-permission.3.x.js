@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .syncListPermissions('identity')
-  .remove({
-     identity: 'bob',
-     listSid: 'MyFirstList',
-     serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-   })
+  .remove()
   .then(sync_list_permission => console.log(sync_list_permission.accountSid))
   .done();

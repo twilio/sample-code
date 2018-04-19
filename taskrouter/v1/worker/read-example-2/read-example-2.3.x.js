@@ -7,8 +7,7 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .workers
                  .each({
-                    targetWorkersExpression: `type == 'leads'`,
-                    workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                    targetWorkersExpression: `type == 'leads'`
                   },
                       workers => console.log(workers.sid)
                   );

@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .workerChannels('WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({
-         workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         workerSid: 'WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         sid: 'WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       })
+      .update({capacity: 1})
       .then(worker_channel => console.log(worker_channel.accountSid))
       .done();

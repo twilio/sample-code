@@ -17,8 +17,8 @@ class Program
 
         var message = MessageResource.Update(
             body: "MESSAGE",
-            pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

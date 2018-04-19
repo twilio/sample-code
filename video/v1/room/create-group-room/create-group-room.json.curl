@@ -1,6 +1,6 @@
 curl -X POST https://video.twilio.com/v1/Rooms \
---data-urlencode "record_participants_on_connect=True" \
---data-urlencode "status_callback=http://example.org" \
---data-urlencode "type=group" \
---data-urlencode "unique_name=DailyStandup" \
+--data-urlencode "RecordParticipantsOnConnect=True" \
+--data-urlencode "StatusCallback=http://example.org" \
+--data-urlencode "Type=group" \
+--data-urlencode "UniqueName=DailyStandup" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

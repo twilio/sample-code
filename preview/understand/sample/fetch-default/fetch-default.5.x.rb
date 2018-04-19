@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 sample = @client.preview.understand
-                        .services('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .fetch

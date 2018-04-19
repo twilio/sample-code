@@ -7,9 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .addOnResults('XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .payloads
-      .each({
-         referenceSid: 'REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         addOnResultSid: 'XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       },
-           payloads => console.log(payloads.sid)
-       );
+      .each(payloads => console.log(payloads.sid));

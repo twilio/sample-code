@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncListPermission = SyncListPermissionResource.Fetch(
-            pathIdentity: "bob",
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathListSid: "MyFirstList",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathIdentity: "bob"
         );
 
         Console.WriteLine(syncListPermission.AccountSid);

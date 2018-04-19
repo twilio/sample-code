@@ -10,11 +10,11 @@ client = Client(account_sid, auth_token)
 binding = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                        .bindings \
                        .create(
+                            endpoint="XXXXXXXXXXXXXXX",
+                            tag="premium",
                             address="gcm_device_token",
                             binding_type="gcm",
-                            identity="00000001",
-                            endpoint="XXXXXXXXXXXXXXX",
-                            tag="premium"
+                            identity="00000001"
                         )
 
 print(binding.sid)

@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .media('MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .fetch({
-         messageSid: 'MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         sid: 'MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       })
+      .fetch()
       .then(media => console.log(media.accountSid))
       .done();

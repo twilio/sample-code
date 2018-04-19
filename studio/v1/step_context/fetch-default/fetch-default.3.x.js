@@ -8,10 +8,6 @@ client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .steps('FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .stepContext()
-             .fetch({
-                flowSid: 'FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                engagementSid: 'FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                stepSid: 'FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-              })
+             .fetch()
              .then(step_context => console.log(step_context.accountSid))
              .done();

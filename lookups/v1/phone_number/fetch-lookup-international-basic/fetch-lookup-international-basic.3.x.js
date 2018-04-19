@@ -4,7 +4,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.lookups.phoneNumbers('+15017122661')
-              .fetch({phoneNumber: '+4402077651182'})
+client.lookups.phoneNumbers('+15017122661').fetch()
               .then(phone_number => console.log(phone_number.callerName))
               .done();

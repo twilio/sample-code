@@ -5,9 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sip.credentialLists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-          .update({
-             sid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-             friendlyName: 'friendlyName'
-           })
+          .update({friendlyName: 'friendlyName'})
           .then(credential_list => console.log(credential_list.accountSid))
           .done();

@@ -6,9 +6,9 @@ const client = require('twilio')(accountSid, authToken);
 
 client.wireless.commands
                .create({
-                  command: 'SGVsbG8sIE1hY2hpbmUh==',
                   commandMode: 'binary',
-                  sim: 'AliceSmithSmartMeter'
+                  sim: 'AliceSmithSmartMeter',
+                  command: 'SGVsbG8sIE1hY2hpbmUh=='
                 })
                .then(command => console.log(command.sid))
                .done();

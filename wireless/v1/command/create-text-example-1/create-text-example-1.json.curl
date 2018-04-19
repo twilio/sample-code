@@ -1,4 +1,4 @@
 curl -X POST https://wireless.twilio.com/v1/Commands \
---data-urlencode "command=wakeup" \
---data-urlencode "sim=AliceSmithSmartMeter" \
+--data-urlencode "Sim=AliceSmithSmartMeter" \
+--data-urlencode "Command=wakeup" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

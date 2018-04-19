@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .phoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .fetch({
-                  trunkSid: 'TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                  sid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                })
+               .fetch()
                .then(phone_number => console.log(phone_number.accountSid))
                .done();

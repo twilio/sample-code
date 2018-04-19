@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .keys
-              .create({
-                 deviceSid: 'THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 fleetSid: 'FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-               })
+              .create({deviceSid: 'THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
               .then(key => console.log(key.sid))
               .done();

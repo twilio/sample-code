@@ -15,6 +15,9 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        QueueResource.Delete(pathSid: "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        QueueResource.Delete(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
     }
 }

@@ -7,15 +7,10 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncListItems
-           .create({
-              data: {
+           .create({ttl: 864000, data: {
                 number: "001",
                 name: "Bulbasaur",
                 attack: "49"
-            },
-              listSid: 'MyCollection',
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              ttl: 864000
-            })
+            }})
            .then(sync_list_item => console.log(sync_list_item.index))
            .done();

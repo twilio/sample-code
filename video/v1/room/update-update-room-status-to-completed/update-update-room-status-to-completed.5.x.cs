@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var room = RoomResource.Update(
-            pathSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            status: RoomResource.RoomStatusEnum.Completed
+            status: RoomResource.RoomStatusEnum.Completed,
+            pathSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(room.Sid);

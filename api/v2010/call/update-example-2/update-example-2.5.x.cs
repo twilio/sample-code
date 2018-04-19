@@ -16,8 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var call = CallResource.Update(
-            pathSid: "CAe1644a7eed5088b159577c5802d8be38",
-            status: CallResource.UpdateStatusEnum.Completed
+            status: CallResource.UpdateStatusEnum.Completed,
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "CAe1644a7eed5088b159577c5802d8be38"
         );
 
         Console.WriteLine(call.AccountSid);

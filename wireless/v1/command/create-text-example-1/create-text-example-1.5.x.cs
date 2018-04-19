@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var command = CommandResource.Create(
-            command: "wakeup",
-            sim: "AliceSmithSmartMeter"
+            sim: "AliceSmithSmartMeter",
+            command: "wakeup"
         );
 
         Console.WriteLine(command.Sid);

@@ -1,2 +1,3 @@
 curl -X POST https://preview.twilio.com/wireless/Commands \
+--data-urlencode "Command=Command" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

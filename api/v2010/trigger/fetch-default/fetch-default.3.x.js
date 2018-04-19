@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.usage.triggers('UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .fetch({sid: 'UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+            .fetch()
             .then(trigger => console.log(trigger.accountSid))
             .done();

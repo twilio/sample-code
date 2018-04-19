@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.video.compositions('CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .remove({sid: 'CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+            .remove()
             .then(composition => console.log(composition.sid))
             .done();

@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.wireless.commands
-               .create({command: 'wakeup', sim: 'AliceSmithSmartMeter'})
+               .create({sim: 'AliceSmithSmartMeter', command: 'wakeup'})
                .then(command => console.log(command.sid))
                .done();

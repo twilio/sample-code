@@ -1,4 +1,3 @@
 curl -X POST https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions \
---data-urlencode "service_sid=KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "unique_name=MyFirstSession" \
+--data-urlencode "UniqueName=MyFirstSession" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

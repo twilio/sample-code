@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .addOnResults('XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .payloads('XHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .remove({
-         referenceSid: 'REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         addOnResultSid: 'XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         sid: 'XHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       })
+      .remove()
       .then(payload => console.log(payload.sid))
       .done();

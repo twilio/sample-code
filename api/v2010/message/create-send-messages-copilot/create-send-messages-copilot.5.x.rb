@@ -9,9 +9,9 @@ auth_token = 'your_auth_token'
 
 message = @client.messages
   .create(
-     to: '+441632960675',
      body: 'Phantom Menace was clearly the best of the prequel trilogy.',
-     messaging_service_sid: 'MG9752274e9e519418a7406176694466fa'
+     messaging_service_sid: 'MG9752274e9e519418a7406176694466fa',
+     to: '+441632960675'
    )
 
 puts message.sid

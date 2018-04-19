@@ -5,11 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .documentPermissions
-      .each({
-         documentSid: 'MyFirstDocument',
-         serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       },
-           documentPermissions => console.log(documentPermissions.accountSid)
-       );
+  .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  .documentPermissions
+  .each(documentPermissions => console.log(documentPermissions.accountSid));

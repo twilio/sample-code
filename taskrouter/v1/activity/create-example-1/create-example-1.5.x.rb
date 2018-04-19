@@ -10,8 +10,8 @@ auth_token = 'your_auth_token'
 activity = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .activities
                              .create(
-                                friendly_name: 'NewAvailableActivity',
-                                available: true
+                                available: true,
+                                friendly_name: 'NewAvailableActivity'
                               )
 
 puts activity.sid

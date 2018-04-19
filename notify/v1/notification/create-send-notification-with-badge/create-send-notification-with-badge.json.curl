@@ -12,7 +12,6 @@ EOF
 )
 
 curl -X POST https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications \
---data-urlencode "apn=$APN" \
---data-urlencode "identity=00000001" \
---data-urlencode "service_sid=ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "Apn=$APN" \
+--data-urlencode "Identity=00000001" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

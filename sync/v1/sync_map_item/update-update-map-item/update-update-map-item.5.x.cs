@@ -18,9 +18,9 @@ class Program
 
         var syncMapItem = SyncMapItemResource.Update(
             data: "{\"name\": \"Stephen Curry\", \"level\": 31, \"username\": \"spicy_curry\"}",
-            pathKey: "steph_curry",
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "Players",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathKey: "steph_curry"
         );
 
         Console.WriteLine(syncMapItem.Key);

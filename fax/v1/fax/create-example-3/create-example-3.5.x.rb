@@ -9,9 +9,9 @@ auth_token = 'your_auth_token'
 
 fax = @client.fax.faxes
   .create(
+     from: 'Jack',
      media_url: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf',
-     to: 'sip:kate@example.com?hatchkey=4815162342;transport=TCP',
-     from: 'Jack'
+     to: 'sip:kate@example.com?hatchkey=4815162342;transport=TCP'
    )
 
 puts fax.sid

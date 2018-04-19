@@ -4,12 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.services('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .fieldTypes('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .fieldValues
-                         .each({
-                            serviceSid: 'UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                            fieldTypeSid: 'UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                          },
-                              fieldValues => console.log(fieldValues.sid)
-                          );
+                         .each(fieldValues => console.log(fieldValues.sid));

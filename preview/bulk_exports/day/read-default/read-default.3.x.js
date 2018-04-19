@@ -5,8 +5,4 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.bulk_exports.exports('resourceType').days
-                           .each({
-                              resourceType: 'resourceType'
-                            },
-                                days => console.log(days.redirectTo)
-                            );
+                           .each(days => console.log(days.redirectTo));

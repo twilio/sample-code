@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.addresses('ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .remove({sid: 'ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+      .remove()
       .then(address => console.log(address.sid))
       .done();

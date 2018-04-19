@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .phoneNumbers
-                .each({
-                   serviceSid: 'MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                 },
-                     phoneNumbers => console.log(phoneNumbers.sid)
-                 );
+                .each(phoneNumbers => console.log(phoneNumbers.sid));

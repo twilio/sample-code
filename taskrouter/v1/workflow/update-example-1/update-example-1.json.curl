@@ -1,5 +1,3 @@
 curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows/WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "sid=WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "task_reservation_timeout=20" \
---data-urlencode "workspace_sid=WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "TaskReservationTimeout=20" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

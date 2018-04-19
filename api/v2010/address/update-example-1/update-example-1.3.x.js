@@ -5,10 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.addresses('ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({
-         customerName: 'Customer 456',
-         sid: 'AD2a0747eba6abf96b7e3c3ff0b4530f6e',
-         street: '2 Hasselhoff Lane'
-       })
+      .update({customerName: 'Customer 456', street: '2 Hasselhoff Lane'})
       .then(address => console.log(address.accountSid))
       .done();

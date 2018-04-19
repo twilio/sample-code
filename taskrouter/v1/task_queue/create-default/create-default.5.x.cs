@@ -16,10 +16,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var taskQueue = TaskQueueResource.Create(
-            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             friendlyName: "FriendlyName",
             reservationActivitySid: "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            assignmentActivitySid: "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            assignmentActivitySid: "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(taskQueue.Sid);

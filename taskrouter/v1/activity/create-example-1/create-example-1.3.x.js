@@ -8,8 +8,7 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .activities
                  .create({
                     available: true,
-                    friendlyName: 'NewAvailableActivity',
-                    workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                    friendlyName: 'NewAvailableActivity'
                   })
                  .then(activity => console.log(activity.sid))
                  .done();

@@ -1,12 +1,12 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "unique_name": "unique_name",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "unique_name": "SmartMeterCA",
   "data_enabled": true,
   "data_limit": 1000,
   "data_metering": "pooled",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
-  "friendly_name": "friendly_name",
+  "friendly_name": "California SmartMeter Plan",
   "messaging_enabled": true,
   "voice_enabled": true,
   "national_roaming_enabled": true,
@@ -17,6 +17,6 @@
     "voice"
   ],
   "international_roaming_data_limit": 1000,
-  "sid": "WPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "url": "https://wireless.twilio.com/v1/RatePlans/WPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

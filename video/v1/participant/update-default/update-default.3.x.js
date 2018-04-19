@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .update({
-               roomSid: 'RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               sid: 'PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             })
+            .update({status: 'connected'})
             .then(participant => console.log(participant.sid))
             .done();

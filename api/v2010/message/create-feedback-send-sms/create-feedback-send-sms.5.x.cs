@@ -19,7 +19,8 @@ class Program
             body: "Open to confirm: http://yourserver.com/confirm?id=1234567890",
             from: new Twilio.Types.PhoneNumber("+15017122661"),
             provideFeedback: true,
-            to: new Twilio.Types.PhoneNumber("+15558675310")
+            to: new Twilio.Types.PhoneNumber("+15558675310"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(message.Sid);

@@ -1,4 +1,3 @@
 curl -X POST https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "inbound_request_url=http://www.example.com" \
---data-urlencode "sid=MG2172dd2db502e20dd981ef0d67850e1a" \
+--data-urlencode "InboundRequestUrl=http://www.example.com" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -17,9 +17,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var application = ApplicationResource.Create(
-            friendlyName: "Phone Me",
             voiceMethod: Twilio.Http.HttpMethod.Get,
-            voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml")
+            voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml"),
+            friendlyName: "Phone Me",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(application.Sid);

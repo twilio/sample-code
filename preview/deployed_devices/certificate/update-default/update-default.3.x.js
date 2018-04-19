@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .certificates('CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .update({
-                 fleetSid: 'FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 sid: 'CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-               })
+              .update({friendlyName: 'friendlyName'})
               .then(certificate => console.log(certificate.sid))
               .done();

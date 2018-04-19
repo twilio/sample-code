@@ -18,10 +18,11 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var call = CallResource.Create(
-            from: new Twilio.Types.PhoneNumber("+18180000000"),
             machineDetection: "Enable",
+            url: new Uri("https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16"),
+            from: new Twilio.Types.PhoneNumber("+18180000000"),
             to: new Twilio.Types.PhoneNumber("+1562300000"),
-            url: new Uri("https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16")
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(call.Sid);

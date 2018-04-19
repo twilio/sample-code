@@ -8,10 +8,4 @@ client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .messageInteractions
-            .each({
-               serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               sessionSid: 'KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               participantSid: 'KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             },
-                 messageInteractions => console.log(messageInteractions.sid)
-             );
+            .each(messageInteractions => console.log(messageInteractions.sid));

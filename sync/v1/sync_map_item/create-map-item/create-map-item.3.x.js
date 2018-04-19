@@ -7,16 +7,10 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMapItems
-           .create({
-              data: {
+           .create({ttl: 864000, data: {
                 name: "Stephen Curry",
                 level: "30",
                 username: "spicy_curry"
-            },
-              key: 'steph_curry',
-              mapSid: 'Players',
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-              ttl: 864000
-            })
+            }, key: 'steph_curry'})
            .then(sync_map_item => console.log(sync_map_item.key))
            .done();

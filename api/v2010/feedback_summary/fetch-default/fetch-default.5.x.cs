@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var feedbackSummary = FeedbackSummaryResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "FSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

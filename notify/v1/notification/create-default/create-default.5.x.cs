@@ -2,6 +2,7 @@
 
 using System;
 using Twilio;
+using Twilio.Converters;
 using Twilio.Rest.Notify.V1.Service;
 
 
@@ -16,6 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var notification = NotificationResource.Create(
+            identity: Promoter.ListOfOne("Identity"),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

@@ -4,11 +4,8 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.services('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .queries('UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .fetch({
-                            serviceSid: 'UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                            sid: 'UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                          })
+                         .fetch()
                          .then(query => console.log(query.accountSid))
                          .done();

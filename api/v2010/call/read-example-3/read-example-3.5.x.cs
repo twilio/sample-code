@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Api.V2010.Account;
 
 
@@ -17,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var calls = CallResource.Read(
-            startTimeAfter: new DateTime(2009, 7, 6, 0, 0, 0),
-            status: CallResource.StatusEnum.Completed
+            status: CallResource.StatusEnum.Completed,
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         foreach(var record in calls)

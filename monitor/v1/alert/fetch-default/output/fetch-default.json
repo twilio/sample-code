@@ -1,5 +1,5 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "alert_text": "alert_text",
   "api_version": "2010-04-01",
   "date_created": "2015-07-30T20:00:00Z",
@@ -11,9 +11,9 @@
   "request_method": "GET",
   "request_url": "http://www.example.com",
   "request_variables": "request_variables",
-  "resource_sid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "resource_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "response_body": "response_body",
   "response_headers": "response_headers",
-  "sid": "NOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "http://www.example.com"
 }

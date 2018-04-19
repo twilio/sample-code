@@ -1,6 +1,6 @@
 {
-  "sid": "XEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sid": "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "VoiceBase High Accuracy Transcription",
   "description": "Automatic Transcription and Keyword Extract...",
   "configuration": {
@@ -9,9 +9,9 @@
   "unique_name": "voicebase_high_accuracy_transcription",
   "date_created": "2016-04-07T23:52:28Z",
   "date_updated": "2016-04-07T23:52:28Z",
-  "url": "https://preview.twilio.com/marketplace/InstalledAddOns/XEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "url": "https://preview.twilio.com/marketplace/InstalledAddOns/XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
-    "extensions": "https://preview.twilio.com/marketplace/InstalledAddOns/XEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Extensions",
-    "available_add_on": "https://preview.twilio.com/marketplace/AvailableAddOns/XBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    "extensions": "https://preview.twilio.com/marketplace/InstalledAddOns/XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Extensions",
+    "available_add_on": "https://preview.twilio.com/marketplace/AvailableAddOns/XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
   }
 }

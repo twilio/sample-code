@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var ipAccessControlList = IpAccessControlListResource.Create(
-            pathTrunkSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            ipAccessControlListSid: "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            ipAccessControlListSid: "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathTrunkSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(ipAccessControlList.Sid);

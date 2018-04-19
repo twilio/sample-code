@@ -1,6 +1,4 @@
 curl -X GET https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items \
---data-urlencode "from=steph_curry" \
---data-urlencode "map_sid=Players" \
---data-urlencode "order=asc" \
---data-urlencode "service_sid=ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "From=steph_curry" \
+--data-urlencode "Order=asc" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

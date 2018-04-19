@@ -36,10 +36,9 @@ EOF
 )
 
 curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows \
---data-urlencode "assignment_callback_url=http://example.com" \
---data-urlencode "configuration=$CONFIGURATION" \
---data-urlencode "fallback_assignment_callback_url=http://example2.com" \
---data-urlencode "friendly_name=Sales, Marketing, Support Workflow" \
---data-urlencode "task_reservation_timeout=30" \
---data-urlencode "workspace_sid=WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "AssignmentCallbackUrl=http://example.com" \
+--data-urlencode "FallbackAssignmentCallbackUrl=http://example2.com" \
+--data-urlencode "TaskReservationTimeout=30" \
+--data-urlencode "Configuration=$CONFIGURATION" \
+--data-urlencode "FriendlyName=Sales, Marketing, Support Workflow" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

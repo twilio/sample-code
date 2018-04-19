@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .certificates
-              .create({
-                 fleetSid: 'FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 certificateData: 'certificateData'
-               })
+              .create({certificateData: 'certificateData'})
               .then(certificate => console.log(certificate.sid))
               .done();

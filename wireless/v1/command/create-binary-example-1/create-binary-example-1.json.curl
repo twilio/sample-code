@@ -1,5 +1,5 @@
 curl -X POST https://wireless.twilio.com/v1/Commands \
---data-urlencode "command=SGVsbG8sIE1hY2hpbmUh==" \
---data-urlencode "command_mode=binary" \
---data-urlencode "sim=AliceSmithSmartMeter" \
+--data-urlencode "CommandMode=binary" \
+--data-urlencode "Sim=AliceSmithSmartMeter" \
+--data-urlencode "Command=SGVsbG8sIE1hY2hpbmUh==" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

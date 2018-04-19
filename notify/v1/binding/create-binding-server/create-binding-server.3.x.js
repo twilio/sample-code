@@ -7,12 +7,11 @@ const client = require('twilio')(accountSid, authToken);
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .bindings
              .create({
+                endpoint: 'XXXXXXXXXXXXXXX',
+                tag: 'premium',
                 address: 'gcm_device_token',
                 bindingType: 'gcm',
-                endpoint: 'XXXXXXXXXXXXXXX',
-                identity: '00000001',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                tag: 'premium'
+                identity: '00000001'
               })
              .then(binding => console.log(binding.sid))
              .done();

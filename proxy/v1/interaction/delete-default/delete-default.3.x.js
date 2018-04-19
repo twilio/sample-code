@@ -7,10 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .interactions('KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .remove({
-               serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               sessionSid: 'KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-               sid: 'KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             })
+            .remove()
             .then(interaction => console.log(interaction.sid))
             .done();

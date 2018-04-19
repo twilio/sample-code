@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .phoneNumbers
-                    .create({
-                       serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                       sid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                     })
+                    .create({sid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
                     .then(phone_number => console.log(phone_number.sid))
                     .done();

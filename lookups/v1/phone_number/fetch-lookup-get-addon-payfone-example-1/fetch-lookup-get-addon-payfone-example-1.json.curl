@@ -1,6 +1,5 @@
 curl -X GET https://lookups.twilio.com/v1/PhoneNumbers/+15017122661 \
---data-urlencode "add_ons=payfone_tcpa_compliance" \
---data-urlencode "add_ons_data=OrderedDict([('payfone_tcpa_compliance.right_party_contacted_date', '20160101')])" \
---data-urlencode "phone_number=+15108675310" \
---data-urlencode "type=carrier" \
+--data-urlencode "AddOns=payfone_tcpa_compliance" \
+--data-urlencode "AddOnsData=OrderedDict([('payfone_tcpa_compliance.right_party_contacted_date', '20160101')])" \
+--data-urlencode "Type=carrier" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

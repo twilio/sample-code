@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .update({sid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+            .update({uniqueName: 'uniqueName'})
             .then(service => console.log(service.sid))
             .done();

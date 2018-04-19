@@ -1,5 +1,5 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "unique_name",
   "commands_callback_method": "http_method",
   "commands_callback_url": "http://www.example.com",
@@ -7,12 +7,12 @@
   "date_updated": "2015-07-30T20:00:00Z",
   "friendly_name": "friendly_name",
   "links": {
-    "data_sessions": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/DataSessions",
-    "rate_plan": "https://wireless.twilio.com/v1/RatePlans/WPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-    "usage_records": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/UsageRecords"
+    "data_sessions": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DataSessions",
+    "rate_plan": "https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "usage_records": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/UsageRecords"
   },
-  "rate_plan_sid": "WPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "sid": "DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "rate_plan_sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "iccid": "iccid",
   "e_id": "e_id",
   "status": "new",
@@ -24,6 +24,6 @@
   "voice_fallback_url": "http://www.example.com",
   "voice_method": "http_method",
   "voice_url": "http://www.example.com",
-  "url": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "ip_address": "192.168.1.30"
 }

@@ -11,7 +11,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$query = $twilio->preview->understand->services("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+$query = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->queries("UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->update(array(
                                                   'sampleSid' => "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

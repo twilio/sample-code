@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var credentialList = CredentialListResource.Create(
-            pathTrunkSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            credentialListSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            credentialListSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathTrunkSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(credentialList.Sid);

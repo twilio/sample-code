@@ -9,9 +9,9 @@ auth_token = 'your_auth_token'
 
 fax = @client.fax.faxes
   .create(
+     from: '+15017122661',
      media_url: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf',
-     to: '+15558675310',
-     from: '+15017122661'
+     to: '+15558675310'
    )
 
 puts fax.sid

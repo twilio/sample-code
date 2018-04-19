@@ -15,7 +15,10 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var message = MessageResource.Fetch(pathSid: "SM800f449d0399ed014aae2bcc0cc2f2ec");
+        var message = MessageResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "SM800f449d0399ed014aae2bcc0cc2f2ec"
+        );
 
         Console.WriteLine(message.AccountSid);
     }

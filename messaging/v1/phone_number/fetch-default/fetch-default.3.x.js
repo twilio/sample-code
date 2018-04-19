@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .phoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                .fetch({
-                   serviceSid: 'MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                   sid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                 })
+                .fetch()
                 .then(phone_number => console.log(phone_number.sid))
                 .done();

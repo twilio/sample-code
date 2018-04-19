@@ -16,6 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var authorizedConnectApp = AuthorizedConnectAppResource.Fetch(
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathConnectAppSid: "CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

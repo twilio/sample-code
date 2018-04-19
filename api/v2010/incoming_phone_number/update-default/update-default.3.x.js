@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.incomingPhoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  .update({sid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+  .update({accountSid: 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
   .then(incoming_phone_number => console.log(incoming_phone_number.accountSid))
   .done();

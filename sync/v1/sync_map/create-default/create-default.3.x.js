@@ -6,6 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMaps
-           .create({serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+           .create()
            .then(sync_map => console.log(sync_map.sid))
            .done();

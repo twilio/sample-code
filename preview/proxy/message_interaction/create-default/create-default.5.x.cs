@@ -16,10 +16,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var messageInteraction = MessageInteractionResource.Create(
+            body: "Body",
             pathServiceSid: "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSessionSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathParticipantSid: "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            body: "Body"
+            pathParticipantSid: "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(messageInteraction.Sid);

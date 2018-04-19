@@ -5,6 +5,8 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                 .update({sid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+                 .update({
+                    defaultActivitySid: 'WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                  })
                  .then(workspace => console.log(workspace.accountSid))
                  .done();

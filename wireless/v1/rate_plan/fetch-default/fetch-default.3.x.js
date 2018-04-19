@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.wireless.ratePlans('WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .fetch({sid: 'WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+               .fetch()
                .then(rate_plan => console.log(rate_plan.sid))
                .done();

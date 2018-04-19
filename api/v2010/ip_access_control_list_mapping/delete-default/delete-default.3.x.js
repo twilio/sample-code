@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .ipAccessControlListMappings('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  .remove({
-     domainSid: 'SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-     sid: 'ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-   })
+  .remove()
   .then(ip_access_control_list_mapping => console.log(ip_access_control_list_mapping.sid))
   .done();

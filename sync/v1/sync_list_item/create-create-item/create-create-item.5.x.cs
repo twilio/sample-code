@@ -17,10 +17,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncListItem = SyncListItemResource.Create(
+            ttl: 864000,
             data: "{\"number\": \"001\", \"name\": \"Bulbasaur\", \"attack\": 49}",
-            pathListSid: "MyCollection",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            ttl: 864000
+            pathListSid: "MyCollection"
         );
 
         Console.WriteLine(syncListItem.Index);

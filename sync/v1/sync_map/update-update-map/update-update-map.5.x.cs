@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncMap = SyncMapResource.Update(
+            ttl: 864000,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "Players",
-            ttl: 864000
+            pathSid: "Players"
         );
 
         Console.WriteLine(syncMap.Sid);

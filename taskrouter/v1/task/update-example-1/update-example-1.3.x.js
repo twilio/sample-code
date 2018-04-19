@@ -8,9 +8,7 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .tasks('WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .update({
                     assignmentStatus: 'canceled',
-                    reason: 'waiting too long',
-                    sid: 'WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                    workspaceSid: 'WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                    reason: 'waiting too long'
                   })
                  .then(task => console.log(task.accountSid))
                  .done();

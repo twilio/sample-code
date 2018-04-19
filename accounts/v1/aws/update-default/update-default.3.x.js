@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.accounts.credentials.aws('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                           .update({sid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+                           .update({friendlyName: 'friendlyName'})
                            .then(aws => console.log(aws.sid))
                            .done();

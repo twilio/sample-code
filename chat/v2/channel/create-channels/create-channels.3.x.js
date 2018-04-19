@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels
-           .create({
-              friendlyName: 'MyChannel',
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            })
+           .create({friendlyName: 'MyChannel'})
            .then(channel => console.log(channel.sid))
            .done();

@@ -10,10 +10,10 @@ auth_token = 'your_auth_token'
 sync_list_item = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .sync_lists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .sync_list_items
-                             .create(data: {
+                             .create(ttl: 864000, data: {
                                   "number" => "001",
                                   "name" => "Bulbasaur",
                                   "attack" => "49"
-                              }, ttl: 864000)
+                              })
 
 puts sync_list_item.index

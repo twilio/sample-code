@@ -7,15 +7,10 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMapItems('key')
-           .update({
-              data: {
+           .update({data: {
                 name: "Stephen Curry",
                 level: "31",
                 username: "spicy_curry"
-            },
-              key: 'steph_curry',
-              mapSid: 'Players',
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            })
+            }})
            .then(sync_map_item => console.log(sync_map_item.key))
            .done();

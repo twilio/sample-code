@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Api.V2010.Account;
 
 
@@ -17,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var conferences = ConferenceResource.Read(
-            dateCreatedAfter: MarshalConverter.DateTimeFromString("2009-07-06"),
-            status: ConferenceResource.StatusEnum.InProgress
+            status: ConferenceResource.StatusEnum.InProgress,
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         foreach(var record in conferences)

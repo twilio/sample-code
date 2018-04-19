@@ -6,10 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .users
-             .create({
-                identity: 'User0001',
-                segment: 'premium',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-              })
+             .create({segment: 'premium', identity: 'User0001'})
              .then(user => console.log(user.sid))
              .done();

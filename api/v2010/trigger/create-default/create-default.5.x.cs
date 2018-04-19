@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Api.V2010.Account.Usage;
 
 
@@ -19,7 +18,8 @@ class Program
         var trigger = TriggerResource.Create(
             callbackUrl: new Uri("https://example.com"),
             triggerValue: "TriggerValue",
-            usageCategory: TriggerResource.UsageCategoryEnum.AnsweringMachineDetection
+            usageCategory: TriggerResource.UsageCategoryEnum.AnsweringMachineDetection,
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(trigger.Sid);

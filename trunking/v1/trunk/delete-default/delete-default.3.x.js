@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .remove({sid: 'TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+               .remove()
                .then(trunk => console.log(trunk.sid))
                .done();

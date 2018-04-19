@@ -6,6 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.marketplace
               .availableAddOns('XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .fetch({sid: 'XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+              .fetch()
               .then(available_add_on => console.log(available_add_on.sid))
               .done();

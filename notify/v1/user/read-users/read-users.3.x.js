@@ -6,9 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .users
-             .each({
-                segment: 'premium',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-              },
-                  users => console.log(users.sid)
-              );
+             .each({segment: 'premium'}, users => console.log(users.sid));

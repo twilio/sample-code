@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions
-            .each({
-               serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-             },
-                 sessions => console.log(sessions.sid)
-             );
+            .each(sessions => console.log(sessions.sid));

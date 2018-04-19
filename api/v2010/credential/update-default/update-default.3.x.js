@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.credentialLists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-          .update({
-             credentialListSid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-             sid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-           })
+          .update({password: 'password'})
           .then(credential => console.log(credential.sid))
           .done();

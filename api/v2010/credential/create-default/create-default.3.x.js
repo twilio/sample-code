@@ -6,10 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.credentialLists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .credentials
-          .create({
-             credentialListSid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-             username: 'username',
-             password: 'password'
-           })
+          .create({username: 'username', password: 'password'})
           .then(credential => console.log(credential.sid))
           .done();

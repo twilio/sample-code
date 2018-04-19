@@ -1,3 +1,2 @@
 curl -X DELETE https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "sid=MG2172dd2db502e20dd981ef0d67850e1a" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

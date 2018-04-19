@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 model_builds = @client.preview.understand
-                              .services('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                              .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               .model_builds
                               .list
 

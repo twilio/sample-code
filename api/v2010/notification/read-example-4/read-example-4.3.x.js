@@ -5,9 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.notifications.each({
-                       log: 1,
-                       messageDateBefore: new Date(Date.UTC(2009, 6, 8)),
-                       messageDateAfter: new Date(Date.UTC(2009, 6, 6))
+                       log: 1
                      },
                          notifications => console.log(notifications.sid)
                      );

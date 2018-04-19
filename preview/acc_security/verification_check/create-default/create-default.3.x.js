@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.acc_security.services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .verificationChecks
-              .create({
-                 serviceSid: 'VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 code: 'code'
-               })
+              .create({code: 'code'})
               .then(verification_check => console.log(verification_check.sid))
               .done();

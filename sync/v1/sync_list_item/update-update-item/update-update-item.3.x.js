@@ -7,15 +7,10 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncListItems(1)
-           .update({
-              data: {
+           .update({data: {
                 number: "001",
                 name: "Bulbasaur",
                 attack: "50"
-            },
-              index: 0,
-              listSid: 'MyCollection',
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            })
+            }})
            .then(sync_list_item => console.log(sync_list_item.index))
            .done();

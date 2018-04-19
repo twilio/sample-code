@@ -5,13 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .messageInteractions
-              .each({
-                 serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 sessionSid: 'KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                 participantSid: 'KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-               },
-                   messageInteractions => console.log(messageInteractions.sid)
-               );
+      .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+      .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+      .messageInteractions
+      .each(messageInteractions => console.log(messageInteractions.sid));

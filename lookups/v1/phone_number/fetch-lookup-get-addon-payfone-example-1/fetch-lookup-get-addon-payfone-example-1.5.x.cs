@@ -25,8 +25,8 @@ class Program
         var phoneNumber = PhoneNumberResource.Fetch(
             addOns: Promoter.ListOfOne("payfone_tcpa_compliance"),
             addOnsData: addOnsData,
-            pathPhoneNumber: new Twilio.Types.PhoneNumber("+15108675310"),
-            type: Promoter.ListOfOne("carrier")
+            type: Promoter.ListOfOne("carrier"),
+            pathPhoneNumber: new Twilio.Types.PhoneNumber("+15108675310")
         );
 
         Console.WriteLine(phoneNumber.CallerName);

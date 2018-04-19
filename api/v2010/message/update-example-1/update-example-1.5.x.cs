@@ -17,6 +17,7 @@ class Program
 
         var message = MessageResource.Update(
             body: "Body",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "MM800f449d0399ed014aae2bcc0cc2f2ec"
         );
 

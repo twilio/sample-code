@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 query = client.preview.understand \
-                      .services("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                      .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .queries \
                       .create(language="language", query="query")
 

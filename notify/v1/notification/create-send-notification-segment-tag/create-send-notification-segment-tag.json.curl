@@ -1,6 +1,5 @@
 curl -X POST https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications \
---data-urlencode "body=Hello New Users" \
---data-urlencode "segment=new_user" \
---data-urlencode "service_sid=ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "tag=preferred_device" \
+--data-urlencode "Body=Hello New Users" \
+--data-urlencode "Segment=new_user" \
+--data-urlencode "Tag=preferred_device" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

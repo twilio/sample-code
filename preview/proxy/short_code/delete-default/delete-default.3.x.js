@@ -6,9 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .shortCodes('SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                    .remove({
-                       serviceSid: 'KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                       sid: 'SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                     })
+                    .remove()
                     .then(short_code => console.log(short_code.sid))
                     .done();

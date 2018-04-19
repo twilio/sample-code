@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .fetch({sid: 'CFbbe46ff1274e283f7e3ac1df0072ab39'})
+      .fetch()
       .then(conference => console.log(conference.accountSid))
       .done();

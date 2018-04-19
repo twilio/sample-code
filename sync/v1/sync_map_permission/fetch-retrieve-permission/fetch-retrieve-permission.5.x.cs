@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncMapPermission = SyncMapPermissionResource.Fetch(
-            pathIdentity: "bob",
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "Players",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathIdentity: "bob"
         );
 
         Console.WriteLine(syncMapPermission.AccountSid);

@@ -2,7 +2,7 @@
 
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
-import com.twilio.rest.preview.understand.service.ModelBuild;
+import com.twilio.rest.preview.understand.assistant.ModelBuild;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console

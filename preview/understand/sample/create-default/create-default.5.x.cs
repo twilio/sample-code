@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Preview.Understand.Service.Intent;
+using Twilio.Rest.Preview.Understand.Assistant.Intent;
 
 
 class Program 
@@ -16,10 +16,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var sample = SampleResource.Create(
-            pathServiceSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIntentSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             language: "Language",
-            taggedText: "TaggedText"
+            taggedText: "TaggedText",
+            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathIntentSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(sample.Sid);

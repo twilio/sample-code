@@ -1,4 +1,4 @@
 curl -X GET https://monitor.twilio.com/v1/Events \
---data-urlencode "actor_sid=USd0afd67cddff4ec7cb0022771a203cb1" \
---data-urlencode "resource_sid=PN4aa51b930717ea83c91971b86d99018f" \
+--data-urlencode "ActorSid=USd0afd67cddff4ec7cb0022771a203cb1" \
+--data-urlencode "ResourceSid=PN4aa51b930717ea83c91971b86d99018f" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

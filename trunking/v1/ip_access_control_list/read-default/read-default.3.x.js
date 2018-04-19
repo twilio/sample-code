@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .ipAccessControlLists
-      .each({
-         trunkSid: 'TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-       },
-           ipAccessControlLists => console.log(ipAccessControlLists.sid)
-       );
+      .each(ipAccessControlLists => console.log(ipAccessControlLists.sid));

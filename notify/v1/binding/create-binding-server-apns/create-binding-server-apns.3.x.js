@@ -7,12 +7,11 @@ const client = require('twilio')(accountSid, authToken);
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .bindings
              .create({
+                endpoint: 'endpoint_id',
+                tag: 'preferred device',
                 address: 'apn_device_token',
                 bindingType: 'apn',
-                endpoint: 'endpoint_id',
-                identity: '00000001',
-                serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-                tag: 'preferred device'
+                identity: '00000001'
               })
              .then(binding => console.log(binding.sid))
              .done();

@@ -1,4 +1,2 @@
 curl -X GET https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AlphaSenders/AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "service_sid=MG2172dd2db502e20dd981ef0d67850e1a" \
---data-urlencode "sid=AIc781610ec0b3400c9e0cab8e757da937" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -18,8 +18,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var phoneNumber = PhoneNumberResource.Fetch(
-            pathPhoneNumber: new Twilio.Types.PhoneNumber("+16502530000"),
-            type: Promoter.ListOfOne("caller-name")
+            type: Promoter.ListOfOne("caller-name"),
+            pathPhoneNumber: new Twilio.Types.PhoneNumber("+16502530000")
         );
 
         Console.WriteLine(phoneNumber.CallerName);

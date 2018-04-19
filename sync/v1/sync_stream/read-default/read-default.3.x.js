@@ -6,8 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncStreams
-           .each({
-              serviceSid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-            },
-                syncStreams => console.log(syncStreams.sid)
-            );
+           .each(syncStreams => console.log(syncStreams.sid));

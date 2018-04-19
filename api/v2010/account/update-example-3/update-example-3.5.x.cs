@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var account = AccountResource.Update(
-            pathSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            status: AccountResource.StatusEnum.Closed
+            status: AccountResource.StatusEnum.Closed,
+            pathSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(account.AuthToken);

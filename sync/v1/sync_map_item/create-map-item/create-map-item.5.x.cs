@@ -17,11 +17,11 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncMapItem = SyncMapItemResource.Create(
+            ttl: 864000,
             data: "{\"name\": \"Stephen Curry\", \"level\": 30, \"username\": \"spicy_curry\"}",
             key: "steph_curry",
-            pathMapSid: "Players",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            ttl: 864000
+            pathMapSid: "Players"
         );
 
         Console.WriteLine(syncMapItem.Key);

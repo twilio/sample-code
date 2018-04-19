@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncMapItem = SyncMapItemResource.Fetch(
-            pathKey: "steph_curry",
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "Players",
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathKey: "steph_curry"
         );
 
         Console.WriteLine(syncMapItem.Key);

@@ -8,8 +8,7 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .update({
                 facebookMessengerPageId: 'your_page_id',
                 friendlyName: 'Another Awesome Service',
-                messagingServiceSid: 'your_twilio_messaging_service_sid',
-                sid: 'ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                messagingServiceSid: 'your_twilio_messaging_service_sid'
               })
              .then(service => console.log(service.sid))
              .done();
