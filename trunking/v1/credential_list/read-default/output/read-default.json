@@ -1,13 +1,13 @@
 {
   "credential_lists": [
     {
-      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "trunk_sid": "TKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "Wed, 11 Sep 2013 17:51:38 -0000",
       "date_updated": "Wed, 11 Sep 2013 17:51:38 -0000",
       "friendly_name": "Low Rises",
-      "sid": "CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "url": "https://trunking.twilio.com/v1/Trunks/TKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/CredentialLists/CLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "sid": "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "url": "https://trunking.twilio.com/v1/Trunks/TKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/CredentialLists/CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {

@@ -10,16 +10,17 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var media = FaxMediaResource.Read(
-            pathFaxSid: "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            pathFaxSid: "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        foreach(var record in media) {
+        foreach(var record in media)
+        {
            Console.WriteLine(record.Sid);
         }
     }

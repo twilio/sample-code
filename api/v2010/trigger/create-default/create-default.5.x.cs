@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Api.V2010.Account.Usage;
 
 
@@ -11,7 +10,7 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
@@ -19,9 +18,10 @@ class Program
         var trigger = TriggerResource.Create(
             callbackUrl: new Uri("https://example.com"),
             triggerValue: "TriggerValue",
-            usageCategory: TriggerResource.UsageCategoryEnum.AnsweringMachineDetection
+            usageCategory: TriggerResource.UsageCategoryEnum.AnsweringMachineDetection,
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(trigger.AccountSid);
+        Console.WriteLine(trigger.Sid);
     }
 }

@@ -3,13 +3,13 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 sync_map_permission = @client.sync
-                             .services('ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                             .sync_maps('MPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+                             .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                             .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .sync_map_permissions('identity')
                              .update(read: true, write: true, manage: true)
 

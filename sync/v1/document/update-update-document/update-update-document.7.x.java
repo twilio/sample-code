@@ -3,17 +3,20 @@
 import com.twilio.Twilio;
 import com.twilio.rest.sync.v1.service.Document;
 
-import java.util.HashMap;
-
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Document document = Document.updater("default", "BoardLED")
-            .setData(new HashMap<String, Object>()).update();
+            .setData(
+                new java.util.HashMap<String, Object>()
+                {{
+                    put("led", "ON");
+                }})
+            .update();
 
         System.out.println(document.getSid());
     }

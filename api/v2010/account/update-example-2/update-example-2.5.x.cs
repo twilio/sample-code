@@ -10,14 +10,14 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var account = AccountResource.Update(
-            pathSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            status: AccountResource.StatusEnum.Active
+            status: AccountResource.StatusEnum.Active,
+            pathSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(account.AuthToken);

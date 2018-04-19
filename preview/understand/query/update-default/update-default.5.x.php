@@ -7,15 +7,15 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$query = $twilio->preview->understand->services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                                     ->queries("UHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+$query = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                     ->queries("UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->update(array(
-                                                  'sampleSid' => "UFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                                  'sampleSid' => "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                               )
                                      );
 
-print($query.sid);
+print($query.accountSid);

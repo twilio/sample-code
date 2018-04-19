@@ -3,12 +3,12 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-event = client.taskrouter.workspaces("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
-                         .events("EVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
+event = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                         .events("EVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                          .fetch()
 
-print(event.sid)
+print(event.account_sid)

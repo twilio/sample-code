@@ -6,13 +6,13 @@ import com.twilio.rest.taskrouter.v1.workspace.Workflow;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Workflow> workflows = 
-            Workflow.reader("WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+            Workflow.reader("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .read();
 
         for(Workflow record : workflows) {

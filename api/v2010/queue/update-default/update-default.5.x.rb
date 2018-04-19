@@ -3,11 +3,11 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-queue = @client.queues('QUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+queue = @client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .update(friendly_name: 'friendly_name')
 
-puts queue.sid
+puts queue.account_sid

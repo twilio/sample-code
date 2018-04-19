@@ -1,13 +1,13 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "command": "command",
   "command_mode": "command_mode",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
-  "device_sid": "DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "sim_sid": "DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "device_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "direction": "direction",
-  "sid": "DCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sid": "DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "status",
-  "url": "https://preview.twilio.com/wireless/Commands/DCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://preview.twilio.com/wireless/Commands/DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -3,14 +3,14 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 model_builds = client.preview.understand \
-                             .services("UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
-                             .model_builds \
-                             .list()
+                     .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                     .model_builds \
+                     .list()
 
 for record in model_builds:
     print(record.sid)

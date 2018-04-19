@@ -5,7 +5,7 @@ import com.twilio.rest.api.v2010.account.Recording;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
@@ -14,6 +14,6 @@ public class Example {
             Recording.fetcher("RE557ce644e5ab84fa21cc21112e22c485")
             .fetch();
 
-        System.out.println(recording.getSid());
+        System.out.println(recording.getAccountSid());
     }
 }

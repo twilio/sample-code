@@ -11,7 +11,7 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
@@ -19,11 +19,13 @@ class Program
         var messages = MessageResource.Read(
             dateSent: new DateTime(2016, 8, 31, 0, 0, 0),
             from: new Twilio.Types.PhoneNumber("+15017122661"),
-            to: new Twilio.Types.PhoneNumber("+15558675310")
+            to: new Twilio.Types.PhoneNumber("+15558675310"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        foreach(var record in messages) {
-           Console.WriteLine(record.AccountSid);
+        foreach(var record in messages)
+        {
+           Console.WriteLine(record.Sid);
         }
     }
 }

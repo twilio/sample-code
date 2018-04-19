@@ -10,14 +10,15 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var validationRequest = ValidationRequestResource.Create(
             friendlyName: "My Home Phone Number",
-            phoneNumber: new Twilio.Types.PhoneNumber("+14158675310")
+            phoneNumber: new Twilio.Types.PhoneNumber("+14158675310"),
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(validationRequest.AccountSid);

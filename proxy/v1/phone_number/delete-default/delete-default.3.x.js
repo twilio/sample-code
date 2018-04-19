@@ -1,11 +1,11 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.proxy.services('KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-            .phoneNumbers('PNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+            .phoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .remove()
             .then(phone_number => console.log(phone_number.sid))
             .done();

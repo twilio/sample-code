@@ -3,4 +3,4 @@ curl -X POST https://video.twilio.com/v1/Rooms \
 --data-urlencode "StatusCallback=http://example.org" \
 --data-urlencode "Type=group" \
 --data-urlencode "UniqueName=DailyStandup" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -7,14 +7,16 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->notifications
                                    ->create(array(
-                                                'apn' => "{\"aps\" : { \"alert\": {\"title\":\"Bob alert\",\"body\" :\"Bob, you just received a badge\"}, \"badge\" : 1 }}",
+                                                'apn' => array(
+                                                    "aps" => "{'alert': {'title': 'Bob alert', 'body': 'Bob, you just received a badge'}, 'badge': 1}"
+                                                ),
                                                 'identity' => "00000001"
                                             )
                                    );

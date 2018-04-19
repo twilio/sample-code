@@ -3,14 +3,14 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 credential = client.notify.credentials.create(
-                                           type="gcm",
                                            api_key="gcm_api_key",
-                                           friendly_name="MyGCMCredential"
+                                           friendly_name="MyGCMCredential",
+                                           type="gcm"
                                        )
 
 print(credential.sid)

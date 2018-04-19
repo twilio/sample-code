@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Preview.Sync.Service.SyncList;
 
 
@@ -11,16 +10,16 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var syncListItem = SyncListItemResource.Update(
-            pathServiceSid: "ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-            pathListSid: "ESaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-            pathIndex: 1,
-            data: "{}"
+            data: "{}",
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathListSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathIndex: 1
         );
 
         Console.WriteLine(syncListItem.Index);

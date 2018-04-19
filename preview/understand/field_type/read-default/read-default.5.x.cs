@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Preview.Understand.Service;
+using Twilio.Rest.Preview.Understand.Assistant;
 
 
 class Program 
@@ -10,17 +10,18 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var fieldTypes = FieldTypeResource.Read(
-            pathServiceSid: "UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        foreach(var record in fieldTypes) {
-           Console.WriteLine(record.AccountSid);
+        foreach(var record in fieldTypes)
+        {
+           Console.WriteLine(record.Sid);
         }
     }
 }

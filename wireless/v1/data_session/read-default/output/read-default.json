@@ -1,9 +1,9 @@
 {
   "data_sessions": [
     {
-      "sid": "WNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "sim_sid": "DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "sid": "WNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "radio_link": "LTE",
       "operator_mcc": "",
       "operator_mnc": "",
@@ -18,9 +18,9 @@
       "end": null
     },
     {
-      "sid": "WNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "sim_sid": "DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "sid": "WNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "radio_link": "3G",
       "operator_mcc": "",
       "operator_mnc": "",

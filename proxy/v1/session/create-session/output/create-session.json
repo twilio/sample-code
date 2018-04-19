@@ -1,7 +1,7 @@
 {
-  "service_sid": "KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "in-progress",
-  "unique_name": "unique_name",
+  "unique_name": "MyFirstSession",
   "date_started": "2015-07-30T20:00:00Z",
   "date_ended": "2015-07-30T20:00:00Z",
   "date_last_interaction": "2015-07-30T20:00:00Z",
@@ -9,13 +9,13 @@
   "ttl": 3600,
   "mode": "message-only",
   "closed_reason": "",
-  "sid": "KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_updated": "2015-07-30T20:00:00Z",
   "date_created": "2015-07-30T20:00:00Z",
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "url": "https://proxy.twilio.com/v1/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions/KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
-    "interactions": "https://proxy.twilio.com/v1/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions/KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Interactions",
-    "participants": "https://proxy.twilio.com/v1/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions/KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Participants"
+    "interactions": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Interactions",
+    "participants": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants"
   }
 }

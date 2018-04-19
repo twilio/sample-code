@@ -1,11 +1,11 @@
 {
-  "room_sid": "RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
-  "participant_sid": "PAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "sid": "MTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "participant_sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "name": "bob-track",
   "kind": "data",
   "enabled": true,
-  "url": "https://video.twilio.com/v1/Rooms/RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Participants/PAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/PublishedTracks/MTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PublishedTracks/MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -5,15 +5,15 @@ import com.twilio.rest.chat.v2.service.User;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         User user = User.updater(
-                "ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                "USaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-            .setRoleSid("RLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa").update();
+                "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .setRoleSid("RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").update();
 
         System.out.println(user.getSid());
     }

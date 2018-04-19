@@ -7,7 +7,7 @@ import java.net.URI;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
@@ -18,6 +18,6 @@ public class Example {
             .setVoiceUrl(URI.create("http://demo.twilio.com/docs/voice.xml"))
             .update();
 
-        System.out.println(application.getSid());
+        System.out.println(application.getAccountSid());
     }
 }

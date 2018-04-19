@@ -11,7 +11,7 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
@@ -19,8 +19,8 @@ class Program
         var sim = SimResource.Update(
             callbackMethod: Twilio.Http.HttpMethod.Post,
             callbackUrl: new Uri("https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter"),
-            pathSid: "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-            status: SimResource.StatusEnum.Active
+            status: SimResource.StatusEnum.Active,
+            pathSid: "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         );
 
         Console.WriteLine(sim.Sid);

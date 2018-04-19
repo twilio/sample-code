@@ -5,7 +5,7 @@ import com.twilio.rest.api.v2010.account.Call;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
@@ -13,6 +13,6 @@ public class Example {
         Call call = Call.updater("CAe1644a7eed5088b159577c5802d8be38")
             .setStatus(Call.UpdateStatus.COMPLETED).update();
 
-        System.out.println(call.getSid());
+        System.out.println(call.getAccountSid());
     }
 }

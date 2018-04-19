@@ -3,13 +3,13 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 alpha_sender = client.messaging \
-                     .services("MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
-                     .alpha_senders("AIaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
+                     .services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                     .alpha_senders("AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .fetch()
 
 print(alpha_sender.sid)

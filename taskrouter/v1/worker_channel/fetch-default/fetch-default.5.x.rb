@@ -3,14 +3,14 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 worker_channel = @client.taskrouter
-                        .workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                        .workers('WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                        .worker_channels('WCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+                        .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .worker_channels('WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .fetch
 
-puts worker_channel.sid
+puts worker_channel.account_sid

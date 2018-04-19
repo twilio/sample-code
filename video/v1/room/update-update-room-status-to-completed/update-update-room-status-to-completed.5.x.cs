@@ -10,14 +10,14 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var room = RoomResource.Update(
-            pathSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            status: RoomResource.RoomStatusEnum.Completed
+            status: RoomResource.RoomStatusEnum.Completed,
+            pathSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(room.Sid);

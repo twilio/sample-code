@@ -11,17 +11,17 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var workspace = WorkspaceResource.Create(
             eventCallbackUrl: new Uri("http://requestb.in/vh9reovh"),
-            friendlyName: "NewWorkspace",
-            template: "FIFO"
+            template: "FIFO",
+            friendlyName: "NewWorkspace"
         );
 
-        Console.WriteLine(workspace.AccountSid);
+        Console.WriteLine(workspace.Sid);
     }
 }

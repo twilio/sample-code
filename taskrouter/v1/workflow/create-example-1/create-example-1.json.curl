@@ -35,10 +35,10 @@ CONFIGURATION=$(cat << EOF
 EOF
 )
 
-curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Workflows \
---data-urlencode "Configuration=$CONFIGURATION" \
---data-urlencode "FriendlyName=Sales, Marketing, Support Workflow" \
+curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows \
 --data-urlencode "AssignmentCallbackUrl=http://example.com" \
 --data-urlencode "FallbackAssignmentCallbackUrl=http://example2.com" \
 --data-urlencode "TaskReservationTimeout=30" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+--data-urlencode "Configuration=$CONFIGURATION" \
+--data-urlencode "FriendlyName=Sales, Marketing, Support Workflow" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

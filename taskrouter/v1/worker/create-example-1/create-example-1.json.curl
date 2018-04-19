@@ -5,7 +5,7 @@ ATTRIBUTES=$(cat << EOF
 EOF
 )
 
-curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Workers \
---data-urlencode "FriendlyName=Support Worker 1" \
+curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers \
 --data-urlencode "Attributes=$ATTRIBUTES" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+--data-urlencode "FriendlyName=Support Worker 1" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

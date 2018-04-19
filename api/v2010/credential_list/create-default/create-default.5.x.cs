@@ -10,13 +10,16 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
-        var credentialList = CredentialListResource.Create(friendlyName: "FriendlyName");
+        var credentialList = CredentialListResource.Create(
+            friendlyName: "FriendlyName",
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
 
-        Console.WriteLine(credentialList.AccountSid);
+        Console.WriteLine(credentialList.Sid);
     }
 }

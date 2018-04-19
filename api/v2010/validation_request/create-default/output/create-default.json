@@ -1,7 +1,7 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "call_sid": "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "friendly_name",
-  "phone_number": "+18001234567",
+  "phone_number": "+15017122661",
   "validation_code": 100
 }

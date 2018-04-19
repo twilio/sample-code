@@ -3,13 +3,13 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-step = client.preview.studio.flows("FWaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
-                     .engagements("FNaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
-                     .steps("FTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
+step = client.preview.studio.flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                     .engagements("FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                     .steps("FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .fetch()
 
 print(step.sid)

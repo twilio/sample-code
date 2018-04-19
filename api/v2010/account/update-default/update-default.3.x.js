@@ -1,10 +1,10 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.api.accounts('ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+client.api.accounts('ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .update({friendlyName: 'friendlyName'})
-          .then(account => console.log(account.sid))
+          .then(account => console.log(account.authToken))
           .done();

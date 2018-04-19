@@ -12,19 +12,20 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var call = CallResource.Create(
-            from: new Twilio.Types.PhoneNumber("Jack"),
             sipAuthPassword: "secret",
             sipAuthUsername: "jack",
+            url: new Uri("http://www.example.com/sipdial.xml"),
+            from: new Twilio.Types.PhoneNumber("Jack"),
             to: new Twilio.Types.PhoneNumber("sip:kate@example.com"),
-            url: new Uri("http://www.example.com/sipdial.xml")
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(call.AccountSid);
+        Console.WriteLine(call.Sid);
     }
 }

@@ -1,3 +1,3 @@
 curl -X GET https://api.twilio.com/2010-04-01/Accounts.json \
 --data-urlencode "FriendlyName=MySubaccount" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

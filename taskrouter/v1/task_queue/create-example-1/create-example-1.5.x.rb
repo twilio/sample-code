@@ -3,18 +3,18 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 task_queue = @client.taskrouter
-  .workspaces('WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+  .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .task_queues
   .create(
+     target_workers: 'languages HAS "english"',
      assignment_activity_sid: 'WA21d51f4c72583766988f9860de3e130a',
      friendly_name: 'English',
-     reservation_activity_sid: 'WAea296a56ebce4bfbff0e99abadf16934',
-     target_workers: 'languages HAS "english"'
+     reservation_activity_sid: 'WAea296a56ebce4bfbff0e99abadf16934'
    )
 
 puts task_queue.sid

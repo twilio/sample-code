@@ -1,11 +1,11 @@
 {
   "recordings": [
     {
-      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "status": "completed",
       "date_created": "2015-07-30T20:00:00Z",
-      "sid": "RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "source_sid": "MTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "sid": "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "source_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "size": 23,
       "type": "audio",
       "duration": 10,
@@ -15,10 +15,10 @@
         "room_sid": "RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
         "participant_sid": "PAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
       },
-      "room_sid": "RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "url": "https://video.twilio.com/v1/Rooms/RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings/RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "links": {
-        "media": "https://video.twilio.com/v1/Rooms/RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings/RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Media"
+        "media": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
       }
     }
   ],

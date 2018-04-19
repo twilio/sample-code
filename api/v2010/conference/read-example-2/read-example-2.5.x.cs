@@ -10,18 +10,20 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var conferences = ConferenceResource.Read(
             friendlyName: "MyRoom",
-            status: ConferenceResource.StatusEnum.InProgress
+            status: ConferenceResource.StatusEnum.InProgress,
+            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        foreach(var record in conferences) {
-           Console.WriteLine(record.AccountSid);
+        foreach(var record in conferences)
+        {
+           Console.WriteLine(record.Sid);
         }
     }
 }

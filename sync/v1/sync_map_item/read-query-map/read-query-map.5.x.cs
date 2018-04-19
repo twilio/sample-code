@@ -10,19 +10,20 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var syncMapItems = SyncMapItemResource.Read(
             from: "steph_curry",
-            pathMapSid: "Players",
             order: SyncMapItemResource.QueryResultOrderEnum.Asc,
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathMapSid: "Players"
         );
 
-        foreach(var record in syncMapItems) {
+        foreach(var record in syncMapItems)
+        {
            Console.WriteLine(record.Key);
         }
     }

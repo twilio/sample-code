@@ -1,2 +1,2 @@
 curl -X POST https://wireless.twilio.com/v1/RatePlans \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -3,16 +3,16 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 credential = @client.notify.credentials.create(
-                                          type: 'apn',
                                           certificate: 'cert.pem_content',
                                           friendly_name: 'MyAPNCredential',
                                           private_key: 'key.pem_content',
-                                          sandbox: true
+                                          sandbox: true,
+                                          type: 'apn'
                                         )
 
 puts credential.sid

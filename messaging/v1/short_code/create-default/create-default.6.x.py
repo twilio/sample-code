@@ -3,12 +3,12 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-short_code = client.messaging.services("MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
+short_code = client.messaging.services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                    .short_codes \
-                   .create(short_code_sid="SCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+                   .create(short_code_sid="SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
 print(short_code.sid)

@@ -1,12 +1,12 @@
 {
   "extensions": [
     {
-      "sid": "XFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "available_add_on_sid": "XBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "sid": "XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "available_add_on_sid": "XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "friendly_name": "Incoming Voice Call",
       "product_name": "Programmable Voice",
       "unique_name": "voice-incoming",
-      "url": "https://preview.twilio.com/marketplace/AvailableAddOns/XBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Extensions/XFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "url": "https://preview.twilio.com/marketplace/AvailableAddOns/XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Extensions/XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {

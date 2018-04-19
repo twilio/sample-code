@@ -1,2 +1,0 @@
-curl -X POST https://preview.twilio.com/understand/Services \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token

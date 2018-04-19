@@ -3,12 +3,12 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-document = client.sync.services("ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
-    .documents("ETaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
+document = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .documents("ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .update(
          data={"date_updated": "2018-02-14 12:24:33.889341", "movie_title": "On The Line", "show_times": None, "starring": ["Lance Bass", "Joey Fatone"], "genre": "Romance"}
      )

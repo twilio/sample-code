@@ -3,15 +3,17 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-stream_message = @client.sync.services('ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                        .sync_streams('TOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+stream_message = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .sync_streams('TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .stream_messages
-                        .create(
-                           data: JSON.parse('{"id": "bob", "x": 256, "y": 42}')
-                         )
+                        .create(data: {
+                             "id" => "bob",
+                             "x" => "256",
+                             "y" => "42"
+                         })
 
 puts stream_message.sid

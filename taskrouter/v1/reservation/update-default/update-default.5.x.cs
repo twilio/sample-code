@@ -10,15 +10,16 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var reservation = ReservationResource.Update(
-            pathWorkspaceSid: "WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-            pathWorkerSid: "WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-            pathSid: "WRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            reservationStatus: ReservationResource.StatusEnum.Pending,
+            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathWorkerSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         Console.WriteLine(reservation.AccountSid);

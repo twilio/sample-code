@@ -5,7 +5,7 @@ import com.twilio.rest.api.v2010.account.Queue;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
@@ -13,6 +13,6 @@ public class Example {
         Queue queue = Queue.fetcher("QU5ef8732a3c49700934481addd5ce1659")
             .fetch();
 
-        System.out.println(queue.getSid());
+        System.out.println(queue.getAccountSid());
     }
 }

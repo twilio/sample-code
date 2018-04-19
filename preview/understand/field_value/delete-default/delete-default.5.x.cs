@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Preview.Understand.Service.FieldType;
+using Twilio.Rest.Preview.Understand.Assistant.FieldType;
 
 
 class Program 
@@ -10,15 +10,15 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
-        var fieldValue = FieldValueResource.Delete(
-            pathServiceSid: "UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-            pathFieldTypeSid: "UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-            pathSid: "UCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        FieldValueResource.Delete(
+            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathFieldTypeSid: "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
     }
 }

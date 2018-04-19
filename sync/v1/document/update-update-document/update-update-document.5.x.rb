@@ -3,12 +3,14 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-document = @client.sync.services('ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                       .documents('ETaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                       .update(data: JSON.parse('{"led": "ON"}'))
+document = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                       .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                       .update(data: {
+                            "led" => "ON"
+                        })
 
 puts document.sid

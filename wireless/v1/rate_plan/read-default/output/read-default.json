@@ -10,7 +10,7 @@
   },
   "rate_plans": [
     {
-      "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "unique_name": "unique_name",
       "data_enabled": true,
       "data_limit": 1000,
@@ -28,8 +28,8 @@
         "voice"
       ],
       "international_roaming_data_limit": 1000,
-      "sid": "WPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "url": "https://wireless.twilio.com/v1/RatePlans/WPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "url": "https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ]
 }

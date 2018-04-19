@@ -1,4 +1,4 @@
 {
-  "sid": "TZaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "data": {}
+  "sid": "TZXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "data": "{\"id\": \"bob\", \"x\": 256, \"y\": 42}"
 }

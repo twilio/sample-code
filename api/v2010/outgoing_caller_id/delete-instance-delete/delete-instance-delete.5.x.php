@@ -7,9 +7,9 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
-$sid    = "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$outgoing_caller_id = $twilio->outgoingCallerIds("PNe536d32a3c49700934481addd5ce1659")
-                             ->delete();
+$twilio->outgoingCallerIds("PNe536d32a3c49700934481addd5ce1659")
+       ->delete();

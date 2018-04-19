@@ -1,22 +1,22 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "api_version": "v1",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "direction": "outbound",
-  "from": "+14155551234",
-  "media_url": null,
-  "media_sid": null,
+  "from": "+15017122661",
+  "media_url": "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
+  "media_sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "num_pages": null,
   "price": null,
   "price_unit": null,
   "quality": "superfine",
-  "sid": "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "queued",
-  "to": "+14155554321",
+  "to": "+15558675310",
   "duration": null,
   "links": {
-    "media": "https://fax.twilio.com/v1/Faxes/FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Media"
+    "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   },
-  "url": "https://fax.twilio.com/v1/Faxes/FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

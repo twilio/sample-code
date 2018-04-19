@@ -1,13 +1,13 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.applications('APaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+client.applications('APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .update({
          smsUrl: 'http://demo.twilio.com/docs/sms.xml',
          voiceUrl: 'http://demo.twilio.com/docs/voice.xml'
        })
-      .then(application => console.log(application.sid))
+      .then(application => console.log(application.accountSid))
       .done();

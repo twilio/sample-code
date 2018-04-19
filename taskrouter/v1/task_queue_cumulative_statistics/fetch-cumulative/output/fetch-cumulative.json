@@ -1,15 +1,15 @@
 {
   "reservations_created": 100,
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "reservations_rejected": 100,
   "tasks_completed": 100,
   "end_time": "2015-07-30T20:00:00Z",
   "tasks_entered": 100,
   "tasks_canceled": 100,
   "reservations_accepted": 100,
-  "task_queue_sid": "WQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "task_queue_sid": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "reservations_timed_out": 100,
-  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/TaskQueues/WQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/CumulativeStatistics",
+  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskQueues/WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/CumulativeStatistics",
   "wait_duration_until_canceled": {
     "avg": 0,
     "min": 0,
@@ -47,7 +47,7 @@
   "start_time": "2015-07-30T20:00:00Z",
   "tasks_moved": 100,
   "reservations_canceled": 100,
-  "workspace_sid": "WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "tasks_deleted": 100,
   "reservations_rescinded": 100,
   "avg_task_acceptance_time": 100

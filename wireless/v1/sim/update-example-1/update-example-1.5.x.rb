@@ -3,11 +3,11 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-sim = @client.wireless.sims('DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+sim = @client.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .update(
      callback_method: 'POST',
      callback_url: 'https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter',

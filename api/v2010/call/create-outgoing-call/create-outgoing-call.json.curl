@@ -1,6 +1,6 @@
-curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls.json \
---data-urlencode "From=+18180000000" \
---data-urlencode "To=+1562300000" \
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json \
 --data-urlencode "MachineDetection=Enable" \
 --data-urlencode "Url=https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16" \
--u ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:your_auth_token
+--data-urlencode "From=+18180000000" \
+--data-urlencode "To=+1562300000" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

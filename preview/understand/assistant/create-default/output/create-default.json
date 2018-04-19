@@ -1,0 +1,21 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created": "2017-07-04T08:34:00Z",
+  "date_updated": "2017-07-04T08:34:00Z",
+  "friendly_name": "so so friendly",
+  "latest_model_build_sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "log_queries": true,
+  "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "ttl": 3600,
+  "unique_name": "so-so-unique",
+  "links": {
+    "field_types": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes",
+    "intents": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents",
+    "model_builds": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ModelBuilds",
+    "queries": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries"
+  },
+  "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "response_url": "https://example.com/response_url",
+  "callback_url": "https://example.com/callback_url",
+  "callback_events": "model_build_completed model_build_failed"
+}

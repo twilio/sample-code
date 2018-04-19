@@ -3,16 +3,16 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = 'ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-participant = @client.proxy.services('KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
-                           .sessions('KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
+participant = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                           .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .participants
                            .create(
-                              identifier: '+15558675310',
-                              friendly_name: 'Alice'
+                              friendly_name: 'Alice',
+                              identifier: '+15558675310'
                             )
 
 puts participant.sid

@@ -1,16 +1,12 @@
 {
-  "account_sid": "ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "completed",
   "date_created": "2015-07-30T20:00:00Z",
   "date_completed": "2015-07-30T20:01:33Z",
   "date_deleted": null,
-  "sid": "CJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "audio_sources": [
-    "RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-  ],
-  "video_sources": [
-    "RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-  ],
+  "sid": "CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "audio_sources": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "video_sources": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "video_layout": "GRID",
   "resolution": "1280x720",
   "format": "webm",
@@ -18,8 +14,8 @@
   "size": 4,
   "duration": 6,
   "room_sid": "RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "url": "https://video.twilio.com/v1/Compositions/CJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "url": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
-    "media": "https://video.twilio.com/v1/Compositions/CJaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Media"
+    "media": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   }
 }
