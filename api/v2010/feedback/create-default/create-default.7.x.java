@@ -14,6 +14,6 @@ public class Example {
             Feedback.creator("MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .create();
 
-        System.out.println(feedback.getAccountSid());
+        System.out.println(feedback.getMessageSid());
     }
 }

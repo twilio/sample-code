@@ -12,4 +12,4 @@ deployment = @client.preview.deployed_devices
                             .deployments('DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .update(friendly_name: 'My New Device Deployment')
 
-puts deployment.sid
+puts deployment.friendly_name

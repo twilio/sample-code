@@ -15,4 +15,4 @@ certificate = client.preview.deployed_devices \
                          friendly_name="My New Certificate"
                      )
 
-print(certificate.sid)
+print(certificate.friendly_name)

@@ -13,4 +13,4 @@ document_permission = client.sync \
                             .document_permissions("bob") \
                             .fetch()
 
-print(document_permission.account_sid)
+print(document_permission.service_sid)

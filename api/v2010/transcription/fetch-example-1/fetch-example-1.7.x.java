@@ -14,6 +14,6 @@ public class Example {
             Transcription.fetcher("TR8c61027b709ffb038236612dc5af8723")
             .fetch();
 
-        System.out.println(transcription.getAccountSid());
+        System.out.println(transcription.getDateCreated());
     }
 }

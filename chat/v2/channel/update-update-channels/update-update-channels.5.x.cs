@@ -21,6 +21,6 @@ class Program
             pathSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(channel.Sid);
+        Console.WriteLine(channel.FriendlyName);
     }
 }

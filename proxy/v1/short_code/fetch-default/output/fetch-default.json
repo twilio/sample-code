@@ -10,5 +10,5 @@
     "sms_outbound": true,
     "voice_inbound": false
   },
-  "url": "https://proxy.twilio.com/v1/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://proxy.twilio.com/v1/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/ShortCodes/SCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 }

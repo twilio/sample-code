@@ -11,4 +11,4 @@ credential_list = @client.sip
   .credential_lists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts credential_list.account_sid
+puts credential_list.friendly_name

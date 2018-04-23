@@ -13,6 +13,6 @@ public class Example {
         Usage usage = Usage.fetcher("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(usage.getSimSid());
+        System.out.println(usage.getSimUniqueName());
     }
 }

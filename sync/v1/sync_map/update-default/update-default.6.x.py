@@ -11,4 +11,4 @@ sync_map = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .sync_maps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .update(ttl=1)
 
-print(sync_map.sid)
+print(sync_map.unique_name)

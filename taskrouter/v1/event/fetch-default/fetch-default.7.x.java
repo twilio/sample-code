@@ -15,6 +15,6 @@ public class Example {
                 "EVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(event.getAccountSid());
+        System.out.println(event.getActorSid());
     }
 }

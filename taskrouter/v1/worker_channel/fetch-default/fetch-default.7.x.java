@@ -16,6 +16,6 @@ public class Example {
                 "WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(workerChannel.getAccountSid());
+        System.out.println(workerChannel.getTaskChannelUniqueName());
     }
 }

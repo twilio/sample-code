@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.monitor.events('AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
-              .then(event => console.log(event.accountSid))
+              .then(event => console.log(event.actorSid))
               .done();

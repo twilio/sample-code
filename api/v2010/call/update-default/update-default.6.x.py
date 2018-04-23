@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 call = client.calls("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
              .update(url="https://example.com")
 
-print(call.account_sid)
+print(call.to)

@@ -12,4 +12,4 @@ subscribed_track = @client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                           .subscribed_tracks
                           .update(track: 'MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
-puts subscribed_track.sid
+puts subscribed_track.name

@@ -20,6 +20,6 @@ class Program
             pathSid: "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(activity.AccountSid);
+        Console.WriteLine(activity.FriendlyName);
     }
 }

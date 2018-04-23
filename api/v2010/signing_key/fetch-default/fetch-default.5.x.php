@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $signing_key = $twilio->signingKeys("SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                       ->fetch();
 
-print($signing_key.sid);
+print($signing_key.friendlyName);

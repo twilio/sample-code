@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 address = client.addresses("ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                 .update(friendly_name="friendly_name")
 
-print(address.account_sid)
+print(address.customer_name)

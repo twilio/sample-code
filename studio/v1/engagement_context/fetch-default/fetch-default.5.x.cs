@@ -20,6 +20,6 @@ class Program
             pathEngagementSid: "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(engagementContext.AccountSid);
+        Console.WriteLine(engagementContext.Context);
     }
 }

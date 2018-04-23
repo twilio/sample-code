@@ -14,6 +14,6 @@ public class Example {
             Feedback.fetcher("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(feedback.getAccountSid());
+        System.out.println(feedback.getDateCreated());
     }
 }

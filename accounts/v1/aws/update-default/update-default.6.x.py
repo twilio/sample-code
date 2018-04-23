@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 aws = client.accounts.credentials.aws("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                                  .update(friendly_name="friendly_name")
 
-print(aws.sid)
+print(aws.friendly_name)

@@ -14,6 +14,6 @@ public class Example {
             Conference.fetcher("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(conference.getAccountSid());
+        System.out.println(conference.getFriendlyName());
     }
 }

@@ -14,4 +14,4 @@ document_permissions = client.sync \
                              .list()
 
 for record in document_permissions:
-    print(record.account_sid)
+    print(record.service_sid)

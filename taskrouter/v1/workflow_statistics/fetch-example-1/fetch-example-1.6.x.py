@@ -13,4 +13,4 @@ workflow_statistics = client.taskrouter \
                             .statistics() \
                             .fetch()
 
-print(workflow_statistics.account_sid)
+print(workflow_statistics.cumulative)

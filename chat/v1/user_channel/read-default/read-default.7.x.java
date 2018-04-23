@@ -17,7 +17,7 @@ public class Example {
             .read();
 
         for(UserChannel record : userChannels) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getServiceSid());
         }
     }
 }

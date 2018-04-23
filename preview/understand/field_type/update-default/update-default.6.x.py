@@ -12,4 +12,4 @@ field_type = client.preview.understand \
                            .field_types("UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                            .update(friendly_name="friendly_name")
 
-print(field_type.account_sid)
+print(field_type.friendly_name)

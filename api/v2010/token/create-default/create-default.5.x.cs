@@ -19,6 +19,6 @@ class Program
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(token.AccountSid);
+        Console.WriteLine(token.Username);
     }
 }

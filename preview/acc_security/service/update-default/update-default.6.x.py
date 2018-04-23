@@ -11,4 +11,4 @@ service = client.preview.acc_security \
                         .services("VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                         .update(name="name")
 
-print(service.sid)
+print(service.name)

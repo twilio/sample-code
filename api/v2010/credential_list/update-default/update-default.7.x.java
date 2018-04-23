@@ -15,6 +15,6 @@ public class Example {
                 "friendlyName")
             .update();
 
-        System.out.println(credentialList.getAccountSid());
+        System.out.println(credentialList.getFriendlyName());
     }
 }

@@ -13,4 +13,4 @@ task_queue_real_time_statistics = client.taskrouter \
     .real_time_statistics() \
     .fetch()
 
-print(task_queue_real_time_statistics.account_sid)
+print(task_queue_real_time_statistics.activity_statistics)

@@ -15,4 +15,4 @@ $model_build = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXX
                                            ->modelBuilds("UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                            ->fetch();
 
-print($model_build.accountSid);
+print($model_build.uniqueName);

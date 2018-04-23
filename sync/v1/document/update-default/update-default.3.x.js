@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .update({data: {}})
-           .then(document => console.log(document.sid))
+           .then(document => console.log(document.uniqueName))
            .done();

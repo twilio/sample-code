@@ -24,6 +24,6 @@ public class Example {
                 }})
             .update();
 
-        System.out.println(document.getSid());
+        System.out.println(document.getUniqueName());
     }
 }

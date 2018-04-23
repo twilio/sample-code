@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 call = client.calls("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(call.account_sid)
+print(call.to)

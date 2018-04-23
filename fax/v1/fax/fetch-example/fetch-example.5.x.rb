@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 fax = @client.fax.faxes('FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa').fetch
 
-puts fax.sid
+puts fax.to

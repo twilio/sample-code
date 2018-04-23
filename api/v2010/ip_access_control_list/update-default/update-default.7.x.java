@@ -15,6 +15,6 @@ public class Example {
                 "friendlyName")
             .update();
 
-        System.out.println(ipAccessControlList.getSid());
+        System.out.println(ipAccessControlList.getFriendlyName());
     }
 }

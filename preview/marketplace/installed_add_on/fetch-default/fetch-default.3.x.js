@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.marketplace
-              .installedAddOns('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .fetch()
-              .then(installed_add_on => console.log(installed_add_on.sid))
-              .done();
+      .installedAddOns('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+      .fetch()
+      .then(installed_add_on => console.log(installed_add_on.friendlyName))
+      .done();

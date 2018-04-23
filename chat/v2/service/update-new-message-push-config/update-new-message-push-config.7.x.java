@@ -19,6 +19,6 @@ public class Example {
                 "A New message in ${CHANNEL} from ${USER}: ${MESSAGE}")
             .update();
 
-        System.out.println(service.getSid());
+        System.out.println(service.getFriendlyName());
     }
 }

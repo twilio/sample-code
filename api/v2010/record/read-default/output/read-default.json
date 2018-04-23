@@ -32,7 +32,7 @@
         "yearly": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records/Yearly.json?Category=totalprice",
         "yesterday": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records/Yesterday.json?Category=totalprice"
       },
-      "uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Usage/Records?Category=totalprice&StartDate=2011-08-23&EndDate=2015-09-04",
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records?Category=totalprice&StartDate=2011-08-23&EndDate=2015-09-04",
       "usage": "2192.84855",
       "usage_unit": "usd"
     }

@@ -14,6 +14,6 @@ public class Example {
             Message.updater("MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "body")
             .update();
 
-        System.out.println(message.getAccountSid());
+        System.out.println(message.getTo());
     }
 }

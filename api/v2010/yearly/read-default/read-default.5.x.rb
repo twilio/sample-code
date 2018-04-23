@@ -10,5 +10,5 @@ auth_token = 'your_auth_token'
 yearly = @client.usage.records.yearly.list
 
 yearly.each do |record|
-  puts record.account_sid
+  puts record.category
 end

@@ -16,4 +16,4 @@ $reservation = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->reservations("WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->fetch();
 
-print($reservation.accountSid);
+print($reservation.workerName);

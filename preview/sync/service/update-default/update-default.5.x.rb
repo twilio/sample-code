@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 service = @client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               .update(webhook_url: 'https://example.com')
 
-puts service.sid
+puts service.friendly_name

@@ -15,6 +15,6 @@ public class Example {
                 "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(workspaceRealTimeStatistics.getAccountSid());
+        System.out.println(workspaceRealTimeStatistics.getActivityStatistics());
     }
 }

@@ -16,4 +16,4 @@ $ip_address = $twilio->sip
                      ->ipAddresses("IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                      ->update(array('ipAddress' => "ipAddress"));
 
-print($ip_address.sid);
+print($ip_address.friendlyName);

@@ -11,4 +11,4 @@ sync_map = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .sync_maps('Players')
                        .fetch
 
-puts sync_map.sid
+puts sync_map.unique_name

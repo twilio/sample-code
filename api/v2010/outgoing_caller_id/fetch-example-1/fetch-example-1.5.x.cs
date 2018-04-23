@@ -20,6 +20,6 @@ class Program
             pathSid: "PNe905d7e6b410746a0fb08c57e5a186f3"
         );
 
-        Console.WriteLine(outgoingCallerId.Sid);
+        Console.WriteLine(outgoingCallerId.FriendlyName);
     }
 }

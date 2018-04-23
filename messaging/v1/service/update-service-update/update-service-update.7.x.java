@@ -16,6 +16,6 @@ public class Example {
             .setInboundRequestUrl(URI.create("http://www.example.com"))
             .update();
 
-        System.out.println(service.getSid());
+        System.out.println(service.getFriendlyName());
     }
 }

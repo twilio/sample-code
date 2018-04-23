@@ -13,4 +13,4 @@ task_queue_statistics = client.taskrouter \
     .statistics() \
     .fetch()
 
-print(task_queue_statistics.account_sid)
+print(task_queue_statistics.cumulative)

@@ -15,6 +15,6 @@ public class Example {
                 "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(intent.getAccountSid());
+        System.out.println(intent.getFriendlyName());
     }
 }

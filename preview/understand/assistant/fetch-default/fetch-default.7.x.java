@@ -14,6 +14,6 @@ public class Example {
             Assistant.fetcher("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(assistant.getAccountSid());
+        System.out.println(assistant.getFriendlyName());
     }
 }

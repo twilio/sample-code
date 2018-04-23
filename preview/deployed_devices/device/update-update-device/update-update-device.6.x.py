@@ -15,4 +15,4 @@ device = client.preview.deployed_devices \
                             identity="bob@twilio.com"
                         )
 
-print(device.sid)
+print(device.unique_name)

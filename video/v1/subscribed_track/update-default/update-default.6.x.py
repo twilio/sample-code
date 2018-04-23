@@ -12,4 +12,4 @@ subscribed_track = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                          .subscribed_tracks \
                          .update(track="MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-print(subscribed_track.sid)
+print(subscribed_track.name)

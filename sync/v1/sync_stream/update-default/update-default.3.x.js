@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncStreams('TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .update({ttl: 1})
-           .then(sync_stream => console.log(sync_stream.sid))
+           .then(sync_stream => console.log(sync_stream.uniqueName))
            .done();

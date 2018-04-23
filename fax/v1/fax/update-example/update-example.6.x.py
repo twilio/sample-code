@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 fax = client.fax.faxes("FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") \
                 .update(status="canceled")
 
-print(fax.sid)
+print(fax.to)

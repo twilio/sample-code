@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 token = @client.tokens.create(ttl: 3600)
 
-puts token.account_sid
+puts token.username

@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 recording = client.video.recordings("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(recording.account_sid)
+print(recording.track_name)

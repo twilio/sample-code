@@ -15,4 +15,4 @@ $installed_add_on_extension = $twilio->preview->marketplace->installedAddOns("XE
                                                            ->extensions("XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                            ->fetch();
 
-print($installed_add_on_extension.sid);
+print($installed_add_on_extension.friendlyName);

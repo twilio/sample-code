@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 rate_plan = client.wireless.rate_plans("WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                            .update(unique_name="unique_name")
 
-print(rate_plan.sid)
+print(rate_plan.unique_name)

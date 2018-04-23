@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $room = $twilio->video->v1->rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                           ->update("completed");
 
-print($room.sid);
+print($room.uniqueName);

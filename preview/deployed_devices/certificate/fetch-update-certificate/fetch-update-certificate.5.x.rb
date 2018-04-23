@@ -12,4 +12,4 @@ certificate = @client.preview.deployed_devices
                      .certificates('CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .fetch
 
-puts certificate.sid
+puts certificate.friendly_name

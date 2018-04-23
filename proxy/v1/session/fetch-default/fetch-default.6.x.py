@@ -11,4 +11,4 @@ session = client.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .fetch()
 
-print(session.sid)
+print(session.unique_name)

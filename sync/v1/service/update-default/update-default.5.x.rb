@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 service = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .update(webhook_url: 'https://example.com')
 
-puts service.sid
+puts service.unique_name

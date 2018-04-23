@@ -22,6 +22,6 @@ class Program
             pathSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(service.Sid);
+        Console.WriteLine(service.FriendlyName);
     }
 }

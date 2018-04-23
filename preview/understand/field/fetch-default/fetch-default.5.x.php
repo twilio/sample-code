@@ -16,4 +16,4 @@ $field = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                      ->fields("UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->fetch();
 
-print($field.accountSid);
+print($field.uniqueName);

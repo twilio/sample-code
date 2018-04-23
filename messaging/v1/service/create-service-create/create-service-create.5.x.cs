@@ -2,6 +2,7 @@
 
 using System;
 using Twilio;
+using Twilio.Converters;
 using Twilio.Rest.Messaging.V1;
 
 
@@ -15,7 +16,10 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var service = ServiceResource.Create(friendlyName: "My First Service");
+        var service = ServiceResource.Create(
+            statusCallback: new Uri("http://requestb.in/1234abcd"),
+            friendlyName: "My First Service"
+        );
 
         Console.WriteLine(service.Sid);
     }

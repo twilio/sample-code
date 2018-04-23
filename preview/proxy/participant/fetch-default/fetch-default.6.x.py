@@ -13,4 +13,4 @@ participant = client.preview.proxy \
                     .participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .fetch()
 
-print(participant.sid)
+print(participant.friendly_name)

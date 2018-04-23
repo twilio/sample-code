@@ -11,4 +11,4 @@ user = @client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .update(role_sid: 'RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
-puts user.sid
+puts user.friendly_name

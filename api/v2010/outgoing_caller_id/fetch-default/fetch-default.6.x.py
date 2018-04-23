@@ -11,4 +11,4 @@ outgoing_caller_id = client \
     .outgoing_caller_ids("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .fetch()
 
-print(outgoing_caller_id.sid)
+print(outgoing_caller_id.friendly_name)

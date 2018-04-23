@@ -15,6 +15,6 @@ public class Example {
                 "MyFirstDocument")
             .fetch();
 
-        System.out.println(document.getSid());
+        System.out.println(document.getUniqueName());
     }
 }

@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $event = $twilio->monitor->v1->events("AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->fetch();
 
-print($event.accountSid);
+print($event.actorSid);

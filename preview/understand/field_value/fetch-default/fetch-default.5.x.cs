@@ -21,6 +21,6 @@ class Program
             pathSid: "UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(fieldValue.AccountSid);
+        Console.WriteLine(fieldValue.DateCreated);
     }
 }

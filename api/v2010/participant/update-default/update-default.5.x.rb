@@ -11,4 +11,4 @@ participant = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .participants('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .update(muted: true)
 
-puts participant.account_sid
+puts participant.call_sid

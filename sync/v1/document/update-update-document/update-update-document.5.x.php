@@ -20,4 +20,4 @@ $document = $twilio->sync->v1->services("default")
                                       )
                              );
 
-print($document.sid);
+print($document.uniqueName);

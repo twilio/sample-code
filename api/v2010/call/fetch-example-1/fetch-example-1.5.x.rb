@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 call = @client.calls('CA42ed11f93dc08b952027ffbc406d0868').fetch
 
-puts call.account_sid
+puts call.to

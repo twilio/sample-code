@@ -16,4 +16,4 @@ $sync_map_permission = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXX
                                              ->syncMapPermissions("identity")
                                              ->update(True, True, True);
 
-print($sync_map_permission.accountSid);
+print($sync_map_permission.serviceSid);

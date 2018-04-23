@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $key = $twilio->keys("SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
               ->update(array('friendlyName' => "friendlyName"));
 
-print($key.sid);
+print($key.friendlyName);

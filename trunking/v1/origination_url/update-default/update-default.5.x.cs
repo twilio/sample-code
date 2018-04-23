@@ -21,6 +21,6 @@ class Program
             pathSid: "OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(originationUrl.AccountSid);
+        Console.WriteLine(originationUrl.FriendlyName);
     }
 }

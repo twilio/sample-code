@@ -12,4 +12,4 @@ ip_address = client.sip \
     .ip_addresses("IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .fetch()
 
-print(ip_address.sid)
+print(ip_address.friendly_name)

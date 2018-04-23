@@ -17,6 +17,6 @@ class Program
 
         var room = RoomResource.Fetch(pathSid: "DailyStandup");
 
-        Console.WriteLine(room.Sid);
+        Console.WriteLine(room.UniqueName);
     }
 }

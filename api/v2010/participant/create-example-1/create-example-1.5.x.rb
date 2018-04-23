@@ -13,4 +13,4 @@ participant = @client.conferences('AgentConf12').participants
                                                    to: '+15624421212'
                                                  )
 
-puts participant.account_sid
+puts participant.call_sid

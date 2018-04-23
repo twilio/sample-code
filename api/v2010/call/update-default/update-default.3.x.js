@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .update({url: 'https://example.com'})
-      .then(call => console.log(call.accountSid))
+      .then(call => console.log(call.to))
       .done();

@@ -13,4 +13,4 @@ sync_list_permission = client.sync \
     .sync_list_permissions("identity") \
     .update(read=True, write=True, manage=True)
 
-print(sync_list_permission.account_sid)
+print(sync_list_permission.service_sid)

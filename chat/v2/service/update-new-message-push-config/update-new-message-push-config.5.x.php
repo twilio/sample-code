@@ -19,4 +19,4 @@ $service = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      )
                             );
 
-print($service.sid);
+print($service.friendlyName);

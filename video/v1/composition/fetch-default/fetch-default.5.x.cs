@@ -19,6 +19,6 @@ class Program
             pathSid: "CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(composition.AccountSid);
+        Console.WriteLine(composition.Status);
     }
 }

@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 credential = @client.chat.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .update(friendly_name: 'friendly_name')
 
-puts credential.sid
+puts credential.friendly_name

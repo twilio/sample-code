@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages('MM800f449d0399ed014aae2bcc0cc2f2ec')
       .update({body: 'body'})
-      .then(message => console.log(message.accountSid))
+      .then(message => console.log(message.to))
       .done();

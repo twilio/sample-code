@@ -21,6 +21,6 @@ class Program
             pathSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(intent.AccountSid);
+        Console.WriteLine(intent.FriendlyName);
     }
 }

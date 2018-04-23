@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 trunk = client.trunking.trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(trunk.account_sid)
+print(trunk.domain_name)

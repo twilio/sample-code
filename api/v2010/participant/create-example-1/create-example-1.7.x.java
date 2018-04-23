@@ -17,6 +17,6 @@ public class Example {
                 new PhoneNumber("+15624421212"))
             .create();
 
-        System.out.println(participant.getAccountSid());
+        System.out.println(participant.getCallSid());
     }
 }

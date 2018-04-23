@@ -11,4 +11,4 @@ participant = client.conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .participants("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .update(muted=True)
 
-print(participant.account_sid)
+print(participant.call_sid)

@@ -12,4 +12,4 @@ device = client.preview.deployed_devices \
                        .devices("THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                        .update(friendly_name="friendly_name")
 
-print(device.sid)
+print(device.unique_name)

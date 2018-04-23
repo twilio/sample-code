@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.signingKeys('SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .fetch()
-      .then(signing_key => console.log(signing_key.sid))
+      .then(signing_key => console.log(signing_key.friendlyName))
       .done();

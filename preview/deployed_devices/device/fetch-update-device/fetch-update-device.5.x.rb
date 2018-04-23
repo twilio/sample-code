@@ -12,4 +12,4 @@ device = @client.preview.deployed_devices
                         .devices('THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .fetch
 
-puts device.sid
+puts device.unique_name

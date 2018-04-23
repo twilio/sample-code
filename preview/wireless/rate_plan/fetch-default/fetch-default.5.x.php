@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $rate_plan = $twilio->preview->wireless->ratePlans("WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        ->fetch();
 
-print($rate_plan.sid);
+print($rate_plan.uniqueName);

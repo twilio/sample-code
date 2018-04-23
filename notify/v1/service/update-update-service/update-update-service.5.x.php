@@ -19,4 +19,4 @@ $service = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        )
                               );
 
-print($service.sid);
+print($service.friendlyName);

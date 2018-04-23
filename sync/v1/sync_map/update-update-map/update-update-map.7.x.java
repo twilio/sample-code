@@ -15,6 +15,6 @@ public class Example {
             .setTtl(864000)
             .update();
 
-        System.out.println(syncMap.getSid());
+        System.out.println(syncMap.getUniqueName());
     }
 }

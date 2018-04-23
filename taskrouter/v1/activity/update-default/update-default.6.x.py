@@ -11,4 +11,4 @@ activity = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                             .activities("WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                             .update(friendly_name="friendly_name")
 
-print(activity.account_sid)
+print(activity.friendly_name)

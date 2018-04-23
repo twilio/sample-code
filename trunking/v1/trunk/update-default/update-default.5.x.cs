@@ -20,6 +20,6 @@ class Program
             pathSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(trunk.AccountSid);
+        Console.WriteLine(trunk.DomainName);
     }
 }

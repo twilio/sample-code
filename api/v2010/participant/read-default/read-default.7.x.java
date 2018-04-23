@@ -16,7 +16,7 @@ public class Example {
             .read();
 
         for(Participant record : participants) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getCallSid());
         }
     }
 }

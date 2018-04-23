@@ -21,6 +21,6 @@ class Program
             pathSid: "MyFirstList"
         );
 
-        Console.WriteLine(syncList.Sid);
+        Console.WriteLine(syncList.UniqueName);
     }
 }

@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 signing_key = client.signing_keys("SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .update(friendly_name="friendly_name")
 
-print(signing_key.sid)
+print(signing_key.friendly_name)

@@ -16,6 +16,6 @@ public class Example {
                 "FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(stepContext.getAccountSid());
+        System.out.println(stepContext.getContext());
     }
 }

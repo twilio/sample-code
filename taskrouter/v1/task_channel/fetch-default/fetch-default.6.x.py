@@ -12,4 +12,4 @@ task_channel = client.taskrouter \
                      .task_channels("TCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .fetch()
 
-print(task_channel.account_sid)
+print(task_channel.friendly_name)

@@ -11,4 +11,4 @@ role = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                   .roles("RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                   .update(permission=['permission'])
 
-print(role.sid)
+print(role.friendly_name)

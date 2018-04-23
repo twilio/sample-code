@@ -18,4 +18,4 @@ $credential = $twilio->chat->v2->credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                         )
                                );
 
-print($credential.sid);
+print($credential.friendlyName);

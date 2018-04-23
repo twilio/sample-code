@@ -12,6 +12,6 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Aws aws = Aws.fetcher("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch();
 
-        System.out.println(aws.getSid());
+        System.out.println(aws.getFriendlyName());
     }
 }

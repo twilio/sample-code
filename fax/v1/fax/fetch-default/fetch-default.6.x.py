@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 fax = client.fax.faxes("FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(fax.sid)
+print(fax.to)

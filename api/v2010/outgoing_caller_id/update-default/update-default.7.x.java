@@ -14,6 +14,6 @@ public class Example {
                 "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(outgoingCallerId.getSid());
+        System.out.println(outgoingCallerId.getFriendlyName());
     }
 }

@@ -11,4 +11,4 @@ hosted_number_order = client.preview.hosted_numbers \
     .hosted_number_orders("HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .fetch()
 
-print(hosted_number_order.sid)
+print(hosted_number_order.friendly_name)

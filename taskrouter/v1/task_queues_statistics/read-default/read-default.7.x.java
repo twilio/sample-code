@@ -17,7 +17,7 @@ public class Example {
             .read();
 
         for(TaskQueuesStatistics record : statistics) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getCumulative());
         }
     }
 }

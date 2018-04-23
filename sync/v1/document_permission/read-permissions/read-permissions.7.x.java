@@ -18,7 +18,7 @@ public class Example {
             .read();
 
         for(DocumentPermission record : documentPermissions) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getServiceSid());
         }
     }
 }

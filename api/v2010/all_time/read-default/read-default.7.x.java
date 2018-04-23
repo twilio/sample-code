@@ -14,7 +14,7 @@ public class Example {
         ResourceSet<AllTime> allTime = AllTime.reader().read();
 
         for(AllTime record : allTime) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getCategory());
         }
     }
 }

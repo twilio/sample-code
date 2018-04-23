@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 short_code = client.short_codes("SC6b20cb705c1e8f00210049b20b70fce3") \
                    .update(sms_url="http://demo.twilio.com/docs/sms.xml")
 
-print(short_code.account_sid)
+print(short_code.friendly_name)

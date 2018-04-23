@@ -13,4 +13,4 @@ worker_channel = @client.taskrouter
                         .worker_channels('WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .fetch
 
-puts worker_channel.account_sid
+puts worker_channel.task_channel_unique_name

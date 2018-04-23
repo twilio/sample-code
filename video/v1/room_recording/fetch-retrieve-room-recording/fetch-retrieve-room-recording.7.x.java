@@ -15,6 +15,6 @@ public class Example {
                 "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(roomRecording.getAccountSid());
+        System.out.println(roomRecording.getTrackName());
     }
 }

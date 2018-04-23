@@ -21,6 +21,6 @@ class Program
             pathSid: "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(publishedTrack.Sid);
+        Console.WriteLine(publishedTrack.Name);
     }
 }

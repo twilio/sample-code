@@ -11,4 +11,4 @@ hosted_number_order = @client.preview.hosted_numbers
   .hosted_number_orders('HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts hosted_number_order.sid
+puts hosted_number_order.friendly_name

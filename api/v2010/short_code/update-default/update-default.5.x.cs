@@ -21,6 +21,6 @@ class Program
             pathSid: "SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(shortCode.AccountSid);
+        Console.WriteLine(shortCode.FriendlyName);
     }
 }

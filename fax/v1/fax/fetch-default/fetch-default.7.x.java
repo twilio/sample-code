@@ -12,6 +12,6 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Fax fax = Fax.fetcher("FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch();
 
-        System.out.println(fax.getSid());
+        System.out.println(fax.getTo());
     }
 }

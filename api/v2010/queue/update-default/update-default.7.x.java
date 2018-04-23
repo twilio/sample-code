@@ -13,6 +13,6 @@ public class Example {
         Queue queue = Queue.updater("QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(queue.getAccountSid());
+        System.out.println(queue.getFriendlyName());
     }
 }

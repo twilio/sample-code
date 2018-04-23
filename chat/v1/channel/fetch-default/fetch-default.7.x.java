@@ -15,6 +15,6 @@ public class Example {
                 "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(channel.getSid());
+        System.out.println(channel.getFriendlyName());
     }
 }

@@ -13,4 +13,4 @@ credential = @client.notify.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               sandbox: true
                             )
 
-puts credential.sid
+puts credential.friendly_name

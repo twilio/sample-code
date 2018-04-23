@@ -16,4 +16,4 @@ $task_queue_statistics = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXX
                                                 ->statistics()
                                                 ->fetch();
 
-print($task_queue_statistics.accountSid);
+print($task_queue_statistics.cumulative);

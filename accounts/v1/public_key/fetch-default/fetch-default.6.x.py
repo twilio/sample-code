@@ -11,4 +11,4 @@ public_key = client.accounts.credentials \
                             .public_key("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                             .fetch()
 
-print(public_key.sid)
+print(public_key.friendly_name)

@@ -21,6 +21,6 @@ class Program
             pathSid: "UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(trigger.AccountSid);
+        Console.WriteLine(trigger.FriendlyName);
     }
 }

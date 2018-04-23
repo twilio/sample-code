@@ -14,7 +14,7 @@ public class Example {
         ResourceSet<LastMonth> lastMonth = LastMonth.reader().read();
 
         for(LastMonth record : lastMonth) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getCategory());
         }
     }
 }

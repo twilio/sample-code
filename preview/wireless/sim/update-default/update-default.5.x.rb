@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 sim = @client.preview.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .update(unique_name: 'unique_name')
 
-puts sim.sid
+puts sim.unique_name

@@ -20,6 +20,6 @@ class Program
             pathSid: "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(role.Sid);
+        Console.WriteLine(role.FriendlyName);
     }
 }

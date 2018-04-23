@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.tokens
       .create({ttl: 3600})
-      .then(token => console.log(token.accountSid))
+      .then(token => console.log(token.username))
       .done();

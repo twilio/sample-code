@@ -11,4 +11,4 @@ participant = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .participants('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .fetch
 
-puts participant.account_sid
+puts participant.call_sid

@@ -17,6 +17,6 @@ public class Example {
                 true)
             .update();
 
-        System.out.println(installedAddOnExtension.getSid());
+        System.out.println(installedAddOnExtension.getFriendlyName());
     }
 }

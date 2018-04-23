@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 service = client.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .update(unique_name="unique_name")
 
-print(service.sid)
+print(service.unique_name)

@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls('CA42ed11f93dc08b952027ffbc406d0868')
       .fetch()
-      .then(call => console.log(call.accountSid))
+      .then(call => console.log(call.to))
       .done();

@@ -23,6 +23,6 @@ class Program
             pathSid: "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         );
 
-        Console.WriteLine(sim.Sid);
+        Console.WriteLine(sim.UniqueName);
     }
 }

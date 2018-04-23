@@ -13,4 +13,4 @@ participant = @client.preview.proxy
                      .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .fetch
 
-puts participant.sid
+puts participant.friendly_name

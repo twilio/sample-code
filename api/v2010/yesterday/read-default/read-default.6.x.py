@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 yesterday = client.usage.records.yesterday.list()
 
 for record in yesterday:
-    print(record.account_sid)
+    print(record.category)

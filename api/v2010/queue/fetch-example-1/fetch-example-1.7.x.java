@@ -13,6 +13,6 @@ public class Example {
         Queue queue = Queue.fetcher("QU5ef8732a3c49700934481addd5ce1659")
             .fetch();
 
-        System.out.println(queue.getAccountSid());
+        System.out.println(queue.getFriendlyName());
     }
 }

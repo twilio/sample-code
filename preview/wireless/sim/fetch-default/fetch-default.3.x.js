@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
-              .then(sim => console.log(sim.sid))
+              .then(sim => console.log(sim.uniqueName))
               .done();

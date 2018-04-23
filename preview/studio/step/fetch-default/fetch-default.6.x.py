@@ -12,4 +12,4 @@ step = client.preview.studio.flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .steps("FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .fetch()
 
-print(step.sid)
+print(step.name)

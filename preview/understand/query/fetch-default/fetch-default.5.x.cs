@@ -20,6 +20,6 @@ class Program
             pathSid: "UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(query.AccountSid);
+        Console.WriteLine(query.DateCreated);
     }
 }

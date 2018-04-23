@@ -17,6 +17,6 @@ public class Example {
                 "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setData(new HashMap<String, Object>()).update();
 
-        System.out.println(document.getSid());
+        System.out.println(document.getUniqueName());
     }
 }

@@ -11,4 +11,4 @@ user = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                   .users("USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                   .update(role_sid="RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
-print(user.sid)
+print(user.friendly_name)

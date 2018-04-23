@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 last_month = client.usage.records.last_month.list()
 
 for record in last_month:
-    print(record.account_sid)
+    print(record.category)

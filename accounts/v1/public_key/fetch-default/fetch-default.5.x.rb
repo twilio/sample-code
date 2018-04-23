@@ -11,4 +11,4 @@ public_key = @client.accounts.credentials
                              .public_key('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .fetch
 
-puts public_key.sid
+puts public_key.friendly_name

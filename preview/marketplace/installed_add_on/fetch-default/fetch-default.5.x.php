@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $installed_add_on = $twilio->preview->marketplace->installedAddOns("XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                  ->fetch();
 
-print($installed_add_on.sid);
+print($installed_add_on.friendlyName);

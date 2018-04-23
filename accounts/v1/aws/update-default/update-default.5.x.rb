@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 aws = @client.accounts.credentials.aws('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                   .update(friendly_name: 'friendly_name')
 
-puts aws.sid
+puts aws.friendly_name

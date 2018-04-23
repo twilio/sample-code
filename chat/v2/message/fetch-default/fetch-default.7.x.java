@@ -16,6 +16,6 @@ public class Example {
                 "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(message.getSid());
+        System.out.println(message.getTo());
     }
 }

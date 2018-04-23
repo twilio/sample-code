@@ -13,4 +13,4 @@ workspace = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       friendly_name: 'NewFriendlyName'
                     )
 
-puts workspace.account_sid
+puts workspace.default_activity_name

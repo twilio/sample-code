@@ -10,5 +10,5 @@ auth_token = 'your_auth_token'
 authorized_connect_apps = @client.authorized_connect_apps.list
 
 authorized_connect_apps.each do |record|
-  puts record.account_sid
+  puts record.connect_app_company_name
 end

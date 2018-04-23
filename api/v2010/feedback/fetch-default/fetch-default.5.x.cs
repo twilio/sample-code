@@ -20,6 +20,6 @@ class Program
             pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(feedback.AccountSid);
+        Console.WriteLine(feedback.DateCreated);
     }
 }

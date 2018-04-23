@@ -11,4 +11,4 @@ participant = client.conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .participants \
                     .create(from_="+15017122661", to="+15558675310")
 
-print(participant.account_sid)
+print(participant.call_sid)

@@ -15,4 +15,4 @@ $sync_map = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->syncMaps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->fetch();
 
-print($sync_map.sid);
+print($sync_map.uniqueName);

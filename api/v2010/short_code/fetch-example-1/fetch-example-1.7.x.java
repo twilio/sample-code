@@ -14,6 +14,6 @@ public class Example {
             ShortCode.fetcher("SC6b20cb705c1e8f00210049b20b70fce2")
             .fetch();
 
-        System.out.println(shortCode.getAccountSid());
+        System.out.println(shortCode.getFriendlyName());
     }
 }

@@ -9,5 +9,5 @@ client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .steps('FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .stepContext()
              .fetch()
-             .then(step_context => console.log(step_context.accountSid))
+             .then(step_context => console.log(step_context.context))
              .done();

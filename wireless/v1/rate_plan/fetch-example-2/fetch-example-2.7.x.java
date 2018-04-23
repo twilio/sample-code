@@ -12,6 +12,6 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         RatePlan ratePlan = RatePlan.fetcher("us-automotive").fetch();
 
-        System.out.println(ratePlan.getSid());
+        System.out.println(ratePlan.getUniqueName());
     }
 }

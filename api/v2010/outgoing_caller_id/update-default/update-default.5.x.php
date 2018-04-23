@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $outgoing_caller_id = $twilio->outgoingCallerIds("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->update(array('friendlyName' => "friendlyName"));
 
-print($outgoing_caller_id.sid);
+print($outgoing_caller_id.friendlyName);

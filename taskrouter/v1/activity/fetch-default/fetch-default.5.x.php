@@ -15,4 +15,4 @@ $activity = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->activities("WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->fetch();
 
-print($activity.accountSid);
+print($activity.friendlyName);

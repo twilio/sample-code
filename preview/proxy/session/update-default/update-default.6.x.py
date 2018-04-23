@@ -11,4 +11,4 @@ session = client.preview.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                               .sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                               .update(unique_name="unique_name")
 
-print(session.sid)
+print(session.unique_name)

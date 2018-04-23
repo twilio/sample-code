@@ -12,4 +12,4 @@ device = @client.preview.deployed_devices
                         .devices('THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .update(friendly_name: 'friendly_name')
 
-puts device.sid
+puts device.unique_name

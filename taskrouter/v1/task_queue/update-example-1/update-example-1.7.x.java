@@ -15,6 +15,6 @@ public class Example {
                 "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setTargetWorkers("languages HAS \"english\"").update();
 
-        System.out.println(taskQueue.getAccountSid());
+        System.out.println(taskQueue.getAssignmentActivityName());
     }
 }

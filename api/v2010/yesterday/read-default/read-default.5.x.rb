@@ -10,5 +10,5 @@ auth_token = 'your_auth_token'
 yesterday = @client.usage.records.yesterday.list
 
 yesterday.each do |record|
-  puts record.account_sid
+  puts record.category
 end

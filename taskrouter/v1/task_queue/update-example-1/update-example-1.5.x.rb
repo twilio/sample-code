@@ -12,4 +12,4 @@ task_queue = @client.taskrouter
                     .task_queues('WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .update(target_workers: 'languages HAS "english"')
 
-puts task_queue.account_sid
+puts task_queue.assignment_activity_name

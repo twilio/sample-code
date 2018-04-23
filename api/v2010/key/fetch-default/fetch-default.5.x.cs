@@ -20,6 +20,6 @@ class Program
             pathSid: "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(key.Sid);
+        Console.WriteLine(key.FriendlyName);
     }
 }

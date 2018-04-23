@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 short_code = client.short_codes("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                    .update(friendly_name="friendly_name")
 
-print(short_code.account_sid)
+print(short_code.friendly_name)

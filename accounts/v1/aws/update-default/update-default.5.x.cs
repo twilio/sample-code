@@ -20,6 +20,6 @@ class Program
             pathSid: "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(aws.Sid);
+        Console.WriteLine(aws.FriendlyName);
     }
 }

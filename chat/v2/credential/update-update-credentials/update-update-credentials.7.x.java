@@ -16,6 +16,6 @@ public class Example {
             .setFriendlyName("MyCredential")
             .update();
 
-        System.out.println(credential.getSid());
+        System.out.println(credential.getFriendlyName());
     }
 }

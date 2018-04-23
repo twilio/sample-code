@@ -13,6 +13,6 @@ public class Example {
         Trunk trunk = Trunk.fetcher("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(trunk.getAccountSid());
+        System.out.println(trunk.getDomainName());
     }
 }

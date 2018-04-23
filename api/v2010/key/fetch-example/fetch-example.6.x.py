@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 key = client.keys("SK2a0747eba6abf96b7e3c3ff0b4530f6e").fetch()
 
-print(key.sid)
+print(key.friendly_name)

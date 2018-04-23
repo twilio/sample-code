@@ -22,7 +22,7 @@ class Program
 
         foreach(var record in documentPermissions)
         {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.ServiceSid);
         }
     }
 }

@@ -11,4 +11,4 @@ channel = @client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .fetch
 
-puts channel.sid
+puts channel.friendly_name

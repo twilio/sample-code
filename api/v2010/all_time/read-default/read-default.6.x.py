@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 all_time = client.usage.records.all_time.list()
 
 for record in all_time:
-    print(record.account_sid)
+    print(record.category)

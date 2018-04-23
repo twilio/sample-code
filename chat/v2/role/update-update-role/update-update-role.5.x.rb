@@ -11,4 +11,4 @@ role = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .roles('RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .update(permission: 'sendMediaMessage')
 
-puts role.sid
+puts role.friendly_name

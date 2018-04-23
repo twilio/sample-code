@@ -16,4 +16,4 @@ $worker_channel = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXX
                                          ->workerChannels("WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->fetch();
 
-print($worker_channel.accountSid);
+print($worker_channel.taskChannelUniqueName);

@@ -15,6 +15,6 @@ public class Example {
                 "UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setSampleSid("UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").update();
 
-        System.out.println(query.getAccountSid());
+        System.out.println(query.getDateCreated());
     }
 }

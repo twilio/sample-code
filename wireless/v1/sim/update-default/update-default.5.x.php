@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $sim = $twilio->wireless->v1->sims("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->update(array('uniqueName' => "uniqueName"));
 
-print($sim.sid);
+print($sim.uniqueName);

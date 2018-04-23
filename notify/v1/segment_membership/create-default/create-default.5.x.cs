@@ -21,6 +21,6 @@ class Program
             pathIdentity: "NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(segmentMembership.AccountSid);
+        Console.WriteLine(segmentMembership.ServiceSid);
     }
 }

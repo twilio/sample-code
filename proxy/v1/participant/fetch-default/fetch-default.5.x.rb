@@ -12,4 +12,4 @@ participant = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .fetch
 
-puts participant.sid
+puts participant.friendly_name

@@ -8,5 +8,5 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .documents('MyFirstDocument')
       .documentPermissions('bob')
       .update({manage: true, read: true, write: true})
-      .then(document_permission => console.log(document_permission.accountSid))
+      .then(document_permission => console.log(document_permission.serviceSid))
       .done();

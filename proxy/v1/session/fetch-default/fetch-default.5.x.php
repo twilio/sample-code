@@ -15,4 +15,4 @@ $session = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->fetch();
 
-print($session.sid);
+print($session.uniqueName);

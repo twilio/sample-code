@@ -11,4 +11,4 @@ channel = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .fetch()
 
-print(channel.sid)
+print(channel.friendly_name)

@@ -8,5 +8,5 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .cumulativeStatistics()
   .fetch()
-  .then(workflow_cumulative_statistics => console.log(workflow_cumulative_statistics.accountSid))
+  .then(workflow_cumulative_statistics => console.log(workflow_cumulative_statistics.avgTaskAcceptanceTime))
   .done();

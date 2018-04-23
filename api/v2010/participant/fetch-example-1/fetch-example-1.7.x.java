@@ -15,6 +15,6 @@ public class Example {
                 "CA386025c9bf5d6052a1d1ea42b4d16662")
             .fetch();
 
-        System.out.println(participant.getAccountSid());
+        System.out.println(participant.getCallSid());
     }
 }

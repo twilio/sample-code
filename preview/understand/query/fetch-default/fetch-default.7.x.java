@@ -15,6 +15,6 @@ public class Example {
                 "UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(query.getAccountSid());
+        System.out.println(query.getDateCreated());
     }
 }

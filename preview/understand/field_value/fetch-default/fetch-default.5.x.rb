@@ -13,4 +13,4 @@ field_value = @client.preview.understand
                      .field_values('UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .fetch
 
-puts field_value.account_sid
+puts field_value.date_created

@@ -15,6 +15,6 @@ public class Example {
                 "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(fieldType.getAccountSid());
+        System.out.println(fieldType.getFriendlyName());
     }
 }

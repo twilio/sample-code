@@ -20,6 +20,6 @@ class Program
             pathSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(account.AuthToken);
+        Console.WriteLine(account.FriendlyName);
     }
 }

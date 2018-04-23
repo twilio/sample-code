@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 credential = client.chat.credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                         .update(api_key="xxxxxx", friendly_name="MyCredential")
 
-print(credential.sid)
+print(credential.friendly_name)

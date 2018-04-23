@@ -21,6 +21,6 @@ class Program
             pathSid: "PNyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
         );
 
-        Console.WriteLine(incomingPhoneNumber.AccountSid);
+        Console.WriteLine(incomingPhoneNumber.FriendlyName);
     }
 }

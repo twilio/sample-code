@@ -12,4 +12,4 @@ deployment = client.preview.deployed_devices \
                            .deployments("DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                            .update(friendly_name="friendly_name")
 
-print(deployment.sid)
+print(deployment.friendly_name)

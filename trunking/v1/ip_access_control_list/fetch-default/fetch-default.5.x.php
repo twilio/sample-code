@@ -15,4 +15,4 @@ $ip_access_control_list = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXX
                                                ->ipAccessControlLists("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                ->fetch();
 
-print($ip_access_control_list.accountSid);
+print($ip_access_control_list.friendlyName);

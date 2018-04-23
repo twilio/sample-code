@@ -12,4 +12,4 @@ ip_address = @client.sip
   .ip_addresses('IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .update(ip_address: 'ip_address')
 
-puts ip_address.sid
+puts ip_address.friendly_name

@@ -5,4 +5,4 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.usage.records.yesterday
-                    .each(yesterday => console.log(yesterday.accountSid));
+                    .each(yesterday => console.log(yesterday.category));

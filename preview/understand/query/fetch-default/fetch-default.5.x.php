@@ -15,4 +15,4 @@ $query = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                      ->queries("UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->fetch();
 
-print($query.accountSid);
+print($query.dateCreated);

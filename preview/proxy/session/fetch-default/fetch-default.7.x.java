@@ -15,6 +15,6 @@ public class Example {
                 "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(session.getSid());
+        System.out.println(session.getUniqueName());
     }
 }

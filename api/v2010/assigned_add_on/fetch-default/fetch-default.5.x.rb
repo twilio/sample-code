@@ -12,4 +12,4 @@ assigned_add_on = @client
   .assigned_add_ons('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts assigned_add_on.sid
+puts assigned_add_on.friendly_name

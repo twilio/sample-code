@@ -11,4 +11,4 @@ event = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                           .events('EVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                           .fetch
 
-puts event.account_sid
+puts event.actor_sid

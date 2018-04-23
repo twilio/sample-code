@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 composition = @client.video.compositions('CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .fetch
 
-puts composition.account_sid
+puts composition.status

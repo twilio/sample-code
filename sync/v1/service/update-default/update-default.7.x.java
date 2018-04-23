@@ -15,6 +15,6 @@ public class Example {
         Service service = Service.updater("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setWebhookUrl(URI.create("https://example.com")).update();
 
-        System.out.println(service.getSid());
+        System.out.println(service.getUniqueName());
     }
 }

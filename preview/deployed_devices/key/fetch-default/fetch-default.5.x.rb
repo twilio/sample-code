@@ -12,4 +12,4 @@ key = @client.preview.deployed_devices
                      .keys('KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .fetch
 
-puts key.sid
+puts key.friendly_name

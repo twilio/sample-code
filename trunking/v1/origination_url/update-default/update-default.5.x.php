@@ -15,4 +15,4 @@ $origination_url = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                         ->originationUrls("OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->update(array('weight' => 1));
 
-print($origination_url.accountSid);
+print($origination_url.friendlyName);

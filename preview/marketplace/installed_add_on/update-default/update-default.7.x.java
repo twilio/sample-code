@@ -17,6 +17,6 @@ public class Example {
             .setConfiguration(new HashMap<String, Object>())
             .update();
 
-        System.out.println(installedAddOn.getSid());
+        System.out.println(installedAddOn.getFriendlyName());
     }
 }

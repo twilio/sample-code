@@ -16,4 +16,4 @@ $document_permission = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXX
                                         ->documentPermissions("identity")
                                         ->update(True, True, True);
 
-print($document_permission.accountSid);
+print($document_permission.serviceSid);

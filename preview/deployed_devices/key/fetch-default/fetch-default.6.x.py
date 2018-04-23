@@ -12,4 +12,4 @@ key = client.preview.deployed_devices \
                     .keys("KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .fetch()
 
-print(key.sid)
+print(key.friendly_name)

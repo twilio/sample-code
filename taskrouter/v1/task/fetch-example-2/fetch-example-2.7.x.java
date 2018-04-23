@@ -15,6 +15,6 @@ public class Example {
                 "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(task.getAccountSid());
+        System.out.println(task.getTaskQueueFriendlyName());
     }
 }

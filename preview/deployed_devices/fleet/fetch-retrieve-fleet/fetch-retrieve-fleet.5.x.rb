@@ -11,4 +11,4 @@ fleet = @client.preview.deployed_devices
                        .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .fetch
 
-puts fleet.sid
+puts fleet.unique_name

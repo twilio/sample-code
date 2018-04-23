@@ -9,5 +9,5 @@ client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .update({
                             sampleSid: 'UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
                           })
-                         .then(query => console.log(query.accountSid))
+                         .then(query => console.log(query.dateCreated))
                          .done();

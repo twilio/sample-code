@@ -10,5 +10,5 @@ client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  deviceSid: 'THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                  friendlyName: 'My New Device Key'
                })
-              .then(key => console.log(key.sid))
+              .then(key => console.log(key.friendlyName))
               .done();

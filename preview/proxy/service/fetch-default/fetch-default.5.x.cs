@@ -17,6 +17,6 @@ class Program
 
         var service = ServiceResource.Fetch(pathSid: "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
-        Console.WriteLine(service.Sid);
+        Console.WriteLine(service.FriendlyName);
     }
 }

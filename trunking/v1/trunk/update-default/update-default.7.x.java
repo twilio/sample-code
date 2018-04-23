@@ -13,6 +13,6 @@ public class Example {
         Trunk trunk = Trunk.updater("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(trunk.getAccountSid());
+        System.out.println(trunk.getDomainName());
     }
 }

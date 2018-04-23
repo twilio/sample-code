@@ -12,4 +12,4 @@ credential = client.sip \
                    .credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                    .update(password="password")
 
-print(credential.sid)
+print(credential.username)

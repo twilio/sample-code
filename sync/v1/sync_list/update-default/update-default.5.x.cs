@@ -21,6 +21,6 @@ class Program
             pathSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(syncList.Sid);
+        Console.WriteLine(syncList.UniqueName);
     }
 }

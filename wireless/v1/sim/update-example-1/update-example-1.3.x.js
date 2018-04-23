@@ -10,5 +10,5 @@ client.wireless.sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
      callbackUrl: 'https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter',
      status: 'active'
    })
-  .then(sim => console.log(sim.sid))
+  .then(sim => console.log(sim.uniqueName))
   .done();

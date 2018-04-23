@@ -17,5 +17,5 @@ $userChannels = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                  ->read();
 
 foreach ($userChannels as $record) {
-    print($record->accountSid);
+    print($record->serviceSid);
 }

@@ -11,4 +11,4 @@ available_add_on = client.preview.marketplace \
     .available_add_ons("XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .fetch()
 
-print(available_add_on.sid)
+print(available_add_on.friendly_name)

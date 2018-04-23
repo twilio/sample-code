@@ -13,6 +13,6 @@ public class Example {
         Address address = Address.fetcher("ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(address.getAccountSid());
+        System.out.println(address.getCustomerName());
     }
 }

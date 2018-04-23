@@ -8,5 +8,5 @@ client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .publishedTracks('MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .fetch()
-            .then(published_track => console.log(published_track.sid))
+            .then(published_track => console.log(published_track.name))
             .done();

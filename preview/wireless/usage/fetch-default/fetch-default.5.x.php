@@ -15,4 +15,4 @@ $usage = $twilio->preview->wireless->sims("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->usage()
                                    ->fetch();
 
-print($usage.simSid);
+print($usage.simUniqueName);

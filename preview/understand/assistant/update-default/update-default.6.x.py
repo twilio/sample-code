@@ -11,4 +11,4 @@ assistant = client.preview.understand \
                           .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                           .update(friendly_name="friendly_name")
 
-print(assistant.account_sid)
+print(assistant.friendly_name)

@@ -17,5 +17,5 @@ $today = $twilio->usage
                 ->read();
 
 foreach ($today as $record) {
-    print($record->accountSid);
+    print($record->category);
 }

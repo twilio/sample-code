@@ -19,6 +19,6 @@ class Program
             pathSid: "WPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         );
 
-        Console.WriteLine(ratePlan.Sid);
+        Console.WriteLine(ratePlan.UniqueName);
     }
 }

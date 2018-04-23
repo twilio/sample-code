@@ -12,5 +12,5 @@ participants = @client.conferences('CFbbe4632a3c49700934481addd5ce1659')
                       .list
 
 participants.each do |record|
-  puts record.account_sid
+  puts record.call_sid
 end

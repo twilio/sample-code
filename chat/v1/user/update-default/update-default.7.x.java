@@ -15,6 +15,6 @@ public class Example {
                 "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setRoleSid("RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").update();
 
-        System.out.println(user.getSid());
+        System.out.println(user.getFriendlyName());
     }
 }

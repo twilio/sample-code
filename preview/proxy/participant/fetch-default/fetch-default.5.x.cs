@@ -21,6 +21,6 @@ class Program
             pathSid: "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(participant.Sid);
+        Console.WriteLine(participant.FriendlyName);
     }
 }

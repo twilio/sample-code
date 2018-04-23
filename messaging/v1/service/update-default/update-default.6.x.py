@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 service = client.messaging.services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                           .update(friendly_name="friendly_name")
 
-print(service.sid)
+print(service.friendly_name)

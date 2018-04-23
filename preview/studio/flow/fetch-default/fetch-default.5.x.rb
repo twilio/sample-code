@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 flow = @client.preview.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
-puts flow.sid
+puts flow.friendly_name

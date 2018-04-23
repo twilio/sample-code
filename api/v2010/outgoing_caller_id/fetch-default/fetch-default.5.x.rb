@@ -11,4 +11,4 @@ outgoing_caller_id = @client
   .outgoing_caller_ids('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts outgoing_caller_id.sid
+puts outgoing_caller_id.friendly_name

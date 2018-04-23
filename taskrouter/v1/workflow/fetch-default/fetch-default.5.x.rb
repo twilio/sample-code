@@ -11,4 +11,4 @@ workflow = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .fetch
 
-puts workflow.account_sid
+puts workflow.friendly_name

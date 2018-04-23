@@ -15,4 +15,4 @@ key = client.preview.deployed_devices \
                          friendly_name="My New Device Key"
                      )
 
-print(key.sid)
+print(key.friendly_name)

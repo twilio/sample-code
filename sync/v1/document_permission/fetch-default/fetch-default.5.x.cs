@@ -21,6 +21,6 @@ class Program
             pathIdentity: "PathIdentity"
         );
 
-        Console.WriteLine(documentPermission.AccountSid);
+        Console.WriteLine(documentPermission.ServiceSid);
     }
 }

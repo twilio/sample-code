@@ -13,6 +13,6 @@ public class Example {
         Fax fax = Fax.updater("FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setStatus(Fax.UpdateStatus.CANCELED).update();
 
-        System.out.println(fax.getSid());
+        System.out.println(fax.getTo());
     }
 }

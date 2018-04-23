@@ -11,4 +11,4 @@ media = client.messages("MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
               .media("MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
               .fetch()
 
-print(media.account_sid)
+print(media.content_type)

@@ -11,4 +11,4 @@ channel = client.chat.v1.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                         .channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                         .update(friendly_name="friendly_name")
 
-print(channel.sid)
+print(channel.friendly_name)

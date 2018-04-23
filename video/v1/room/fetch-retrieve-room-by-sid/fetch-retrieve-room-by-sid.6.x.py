@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 room = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(room.sid)
+print(room.unique_name)

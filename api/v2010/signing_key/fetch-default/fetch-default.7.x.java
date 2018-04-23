@@ -14,6 +14,6 @@ public class Example {
             SigningKey.fetcher("SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(signingKey.getSid());
+        System.out.println(signingKey.getFriendlyName());
     }
 }

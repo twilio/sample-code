@@ -17,6 +17,6 @@ class Program
 
         var _event = EventResource.Fetch(pathSid: "AE21f24380625e4aa4abec76e39b14458d");
 
-        Console.WriteLine(_event.AccountSid);
+        Console.WriteLine(_event.ActorSid);
     }
 }

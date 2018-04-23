@@ -11,4 +11,4 @@ credential = @client.sip.credential_lists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .update(password: 'password')
 
-puts credential.sid
+puts credential.username

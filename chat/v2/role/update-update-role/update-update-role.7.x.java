@@ -17,6 +17,6 @@ public class Example {
                 Promoter.listOfOne("sendMediaMessage"))
             .update();
 
-        System.out.println(role.getSid());
+        System.out.println(role.getFriendlyName());
     }
 }

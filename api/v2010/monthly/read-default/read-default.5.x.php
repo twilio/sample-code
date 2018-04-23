@@ -17,5 +17,5 @@ $monthly = $twilio->usage
                   ->read();
 
 foreach ($monthly as $record) {
-    print($record->accountSid);
+    print($record->category);
 }

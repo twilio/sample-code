@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 event = @client.monitor.events('AE21f24380625e4aa4abec76e39b14458d').fetch
 
-puts event.account_sid
+puts event.actor_sid

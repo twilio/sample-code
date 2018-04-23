@@ -15,6 +15,6 @@ public class Example {
                 "OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(originationUrl.getAccountSid());
+        System.out.println(originationUrl.getFriendlyName());
     }
 }

@@ -11,4 +11,4 @@ workflow = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                             .workflows("WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                             .update(friendly_name="friendly_name")
 
-print(workflow.account_sid)
+print(workflow.friendly_name)

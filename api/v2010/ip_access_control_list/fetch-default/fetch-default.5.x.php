@@ -15,4 +15,4 @@ $ip_access_control_list = $twilio->sip
                                  ->ipAccessControlLists("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->fetch();
 
-print($ip_access_control_list.sid);
+print($ip_access_control_list.friendlyName);

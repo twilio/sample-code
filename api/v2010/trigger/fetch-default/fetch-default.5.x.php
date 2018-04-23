@@ -15,4 +15,4 @@ $trigger = $twilio->usage
                   ->triggers("UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                   ->fetch();
 
-print($trigger.accountSid);
+print($trigger.friendlyName);

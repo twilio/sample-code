@@ -4,4 +4,4 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.usage.records.monthly.each(monthly => console.log(monthly.accountSid));
+client.usage.records.monthly.each(monthly => console.log(monthly.category));

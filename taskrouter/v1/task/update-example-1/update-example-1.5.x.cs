@@ -22,6 +22,6 @@ class Program
             pathSid: "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(task.AccountSid);
+        Console.WriteLine(task.TaskQueueFriendlyName);
     }
 }

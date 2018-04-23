@@ -13,4 +13,4 @@ segment_membership = @client.notify
                             .segment_memberships
                             .create(segment: 'segment')
 
-puts segment_membership.account_sid
+puts segment_membership.service_sid

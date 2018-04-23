@@ -19,6 +19,6 @@ class Program
             pathSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(assistant.AccountSid);
+        Console.WriteLine(assistant.FriendlyName);
     }
 }

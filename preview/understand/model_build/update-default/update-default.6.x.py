@@ -12,4 +12,4 @@ model_build = client.preview.understand \
                     .model_builds("UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .update(unique_name="unique_name")
 
-print(model_build.account_sid)
+print(model_build.unique_name)

@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 service = @client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .fetch
 
-puts service.sid
+puts service.friendly_name

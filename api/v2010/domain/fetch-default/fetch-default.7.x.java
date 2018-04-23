@@ -13,6 +13,6 @@ public class Example {
         Domain domain = Domain.fetcher("SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(domain.getAccountSid());
+        System.out.println(domain.getDomainName());
     }
 }

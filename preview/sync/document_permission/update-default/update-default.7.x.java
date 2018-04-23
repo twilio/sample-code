@@ -19,6 +19,6 @@ public class Example {
                 true)
             .update();
 
-        System.out.println(documentPermission.getAccountSid());
+        System.out.println(documentPermission.getServiceSid());
     }
 }

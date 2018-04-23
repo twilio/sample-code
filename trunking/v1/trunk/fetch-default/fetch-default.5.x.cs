@@ -17,6 +17,6 @@ class Program
 
         var trunk = TrunkResource.Fetch(pathSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
-        Console.WriteLine(trunk.AccountSid);
+        Console.WriteLine(trunk.DomainName);
     }
 }

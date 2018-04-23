@@ -20,6 +20,6 @@ class Program
             pathSid: "CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(connectApp.AccountSid);
+        Console.WriteLine(connectApp.CompanyName);
     }
 }

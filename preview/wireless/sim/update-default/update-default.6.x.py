@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 sim = client.preview.sims("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .update(unique_name="unique_name")
 
-print(sim.sid)
+print(sim.unique_name)

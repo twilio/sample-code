@@ -12,4 +12,4 @@ participants = client.conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .list()
 
 for record in participants:
-    print(record.account_sid)
+    print(record.call_sid)

@@ -15,6 +15,6 @@ public class Example {
                 "CN47260e643654388faabe8aaa18ea6756")
             .fetch();
 
-        System.out.println(authorizedConnectApp.getAccountSid());
+        System.out.println(authorizedConnectApp.getConnectAppCompanyName());
     }
 }

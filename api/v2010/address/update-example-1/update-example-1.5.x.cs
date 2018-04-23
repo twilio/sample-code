@@ -22,6 +22,6 @@ class Program
             pathSid: "AD2a0747eba6abf96b7e3c3ff0b4530f6e"
         );
 
-        Console.WriteLine(address.AccountSid);
+        Console.WriteLine(address.CustomerName);
     }
 }

@@ -21,6 +21,6 @@ class Program
             pathSid: "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(taskQueue.AccountSid);
+        Console.WriteLine(taskQueue.AssignmentActivityName);
     }
 }

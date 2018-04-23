@@ -13,4 +13,4 @@ task_queue_cumulative_statistics = @client.taskrouter
   .cumulative_statistics
   .fetch
 
-puts task_queue_cumulative_statistics.account_sid
+puts task_queue_cumulative_statistics.avg_task_acceptance_time

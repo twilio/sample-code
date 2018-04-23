@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 message = client.messages("MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(message.account_sid)
+print(message.to)

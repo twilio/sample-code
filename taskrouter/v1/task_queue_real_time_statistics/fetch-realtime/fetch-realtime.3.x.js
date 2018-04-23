@@ -8,5 +8,5 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .taskQueues('WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .realTimeStatistics()
   .fetch()
-  .then(task_queue_real_time_statistics => console.log(task_queue_real_time_statistics.accountSid))
+  .then(task_queue_real_time_statistics => console.log(task_queue_real_time_statistics.activityStatistics))
   .done();

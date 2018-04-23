@@ -14,6 +14,6 @@ public class Example {
             PublicKey.fetcher("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(publicKey.getSid());
+        System.out.println(publicKey.getFriendlyName());
     }
 }

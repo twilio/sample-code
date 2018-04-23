@@ -11,4 +11,4 @@ document = @client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                .fetch
 
-puts document.sid
+puts document.unique_name

@@ -10,5 +10,5 @@ auth_token = 'your_auth_token'
 this_month = @client.usage.records.this_month.list
 
 this_month.each do |record|
-  puts record.account_sid
+  puts record.category
 end

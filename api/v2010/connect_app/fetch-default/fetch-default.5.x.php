@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $connect_app = $twilio->connectApps("CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                       ->fetch();
 
-print($connect_app.accountSid);
+print($connect_app.companyName);

@@ -21,6 +21,6 @@ class Program
             pathSid: "MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(message.AccountSid);
+        Console.WriteLine(message.To);
     }
 }

@@ -13,4 +13,4 @@ document_permission = client.sync \
                             .document_permissions("identity") \
                             .update(read=True, write=True, manage=True)
 
-print(document_permission.account_sid)
+print(document_permission.service_sid)

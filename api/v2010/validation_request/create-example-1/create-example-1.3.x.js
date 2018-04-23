@@ -9,5 +9,5 @@ client.validationRequests
          friendlyName: 'My Home Phone Number',
          phoneNumber: '+14158675310'
        })
-      .then(validation_request => console.log(validation_request.accountSid))
+      .then(validation_request => console.log(validation_request.friendlyName))
       .done();

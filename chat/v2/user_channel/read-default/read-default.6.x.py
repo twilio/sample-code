@@ -13,4 +13,4 @@ user_channels = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                            .list()
 
 for record in user_channels:
-    print(record.account_sid)
+    print(record.service_sid)

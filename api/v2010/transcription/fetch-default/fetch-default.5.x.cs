@@ -20,6 +20,6 @@ class Program
             pathSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(transcription.AccountSid);
+        Console.WriteLine(transcription.DateCreated);
     }
 }

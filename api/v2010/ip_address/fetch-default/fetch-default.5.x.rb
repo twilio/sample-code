@@ -12,4 +12,4 @@ ip_address = @client.sip
   .ip_addresses('IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts ip_address.sid
+puts ip_address.friendly_name

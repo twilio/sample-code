@@ -16,4 +16,4 @@ $assigned_add_on_extension = $twilio->incomingPhoneNumbers("PNXXXXXXXXXXXXXXXXXX
                                     ->extensions("XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->fetch();
 
-print($assigned_add_on_extension.sid);
+print($assigned_add_on_extension.friendlyName);

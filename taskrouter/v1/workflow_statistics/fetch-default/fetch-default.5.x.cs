@@ -20,6 +20,6 @@ class Program
             pathWorkflowSid: "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workflowStatistics.AccountSid);
+        Console.WriteLine(workflowStatistics.Cumulative);
     }
 }

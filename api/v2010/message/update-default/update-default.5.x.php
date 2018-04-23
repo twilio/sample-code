@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $message = $twilio->messages("MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                   ->update("body");
 
-print($message.accountSid);
+print($message.to);

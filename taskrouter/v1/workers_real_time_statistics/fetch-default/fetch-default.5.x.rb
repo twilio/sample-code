@@ -13,4 +13,4 @@ workers_real_time_statistics = @client.taskrouter
   .real_time_statistics
   .fetch
 
-puts workers_real_time_statistics.account_sid
+puts workers_real_time_statistics.activity_statistics

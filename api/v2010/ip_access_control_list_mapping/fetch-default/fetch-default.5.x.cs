@@ -21,6 +21,6 @@ class Program
             pathSid: "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(ipAccessControlListMapping.AccountSid);
+        Console.WriteLine(ipAccessControlListMapping.FriendlyName);
     }
 }

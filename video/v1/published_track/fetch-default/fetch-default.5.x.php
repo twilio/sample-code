@@ -16,4 +16,4 @@ $published_track = $twilio->video->v1->rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                      ->publishedTracks("MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->fetch();
 
-print($published_track.sid);
+print($published_track.name);

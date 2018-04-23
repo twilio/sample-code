@@ -10,5 +10,5 @@ auth_token = 'your_auth_token'
 daily = @client.usage.records.daily.list
 
 daily.each do |record|
-  puts record.account_sid
+  puts record.category
 end

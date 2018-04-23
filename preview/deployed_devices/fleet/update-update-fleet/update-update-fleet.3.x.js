@@ -8,5 +8,5 @@ client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                .update({
                                   friendlyName: 'My New Fleet of Devices'
                                 })
-                               .then(fleet => console.log(fleet.sid))
+                               .then(fleet => console.log(fleet.uniqueName))
                                .done();

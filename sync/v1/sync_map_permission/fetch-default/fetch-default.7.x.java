@@ -16,6 +16,6 @@ public class Example {
                 "pathIdentity")
             .fetch();
 
-        System.out.println(syncMapPermission.getAccountSid());
+        System.out.println(syncMapPermission.getServiceSid());
     }
 }

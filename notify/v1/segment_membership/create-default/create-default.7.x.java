@@ -16,6 +16,6 @@ public class Example {
                 "segment")
             .create();
 
-        System.out.println(segmentMembership.getAccountSid());
+        System.out.println(segmentMembership.getServiceSid());
     }
 }

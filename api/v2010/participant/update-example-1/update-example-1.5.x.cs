@@ -22,6 +22,6 @@ class Program
             pathCallSid: "CA386025c9bf5d6052a1d1ea42b4d16662"
         );
 
-        Console.WriteLine(participant.AccountSid);
+        Console.WriteLine(participant.CallSid);
     }
 }

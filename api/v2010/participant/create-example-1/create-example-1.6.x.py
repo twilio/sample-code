@@ -13,4 +13,4 @@ participant = client.conferences("AgentConf12").participants \
                                                     to="+15624421212"
                                                 )
 
-print(participant.account_sid)
+print(participant.call_sid)

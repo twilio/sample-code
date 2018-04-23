@@ -15,6 +15,6 @@ public class Example {
                 "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(workflow.getAccountSid());
+        System.out.println(workflow.getFriendlyName());
     }
 }

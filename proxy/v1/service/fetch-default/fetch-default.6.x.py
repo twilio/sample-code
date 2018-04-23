@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 service = client.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(service.sid)
+print(service.unique_name)

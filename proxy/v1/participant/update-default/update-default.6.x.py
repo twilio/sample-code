@@ -12,4 +12,4 @@ participant = client.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                           .participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                           .update(identifier="identifier")
 
-print(participant.sid)
+print(participant.friendly_name)

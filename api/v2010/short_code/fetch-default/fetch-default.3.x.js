@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.shortCodes('SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .fetch()
-      .then(short_code => console.log(short_code.accountSid))
+      .then(short_code => console.log(short_code.friendlyName))
       .done();

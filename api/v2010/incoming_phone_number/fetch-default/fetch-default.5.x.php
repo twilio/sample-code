@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $incoming_phone_number = $twilio->incomingPhoneNumbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->fetch();
 
-print($incoming_phone_number.accountSid);
+print($incoming_phone_number.friendlyName);

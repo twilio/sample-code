@@ -15,6 +15,6 @@ public class Example {
                 "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setUniqueName("uniqueName").update();
 
-        System.out.println(session.getSid());
+        System.out.println(session.getUniqueName());
     }
 }

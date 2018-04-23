@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 workspace = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .update(default_activity_sid: 'WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
-puts workspace.account_sid
+puts workspace.default_activity_name

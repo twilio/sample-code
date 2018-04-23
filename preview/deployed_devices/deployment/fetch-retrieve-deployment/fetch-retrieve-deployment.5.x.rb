@@ -12,4 +12,4 @@ deployment = @client.preview.deployed_devices
                             .deployments('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .fetch
 
-puts deployment.sid
+puts deployment.friendly_name

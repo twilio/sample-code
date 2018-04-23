@@ -17,4 +17,4 @@ document = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             "genre" => "Romance"
                         })
 
-puts document.sid
+puts document.unique_name

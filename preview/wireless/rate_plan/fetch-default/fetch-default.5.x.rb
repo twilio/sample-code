@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 rate_plan = @client.preview.rate_plans('WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .fetch
 
-puts rate_plan.sid
+puts rate_plan.unique_name

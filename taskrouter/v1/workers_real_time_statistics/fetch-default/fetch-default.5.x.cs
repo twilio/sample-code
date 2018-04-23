@@ -19,6 +19,6 @@ class Program
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workersRealTimeStatistics.AccountSid);
+        Console.WriteLine(workersRealTimeStatistics.ActivityStatistics);
     }
 }

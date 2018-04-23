@@ -19,6 +19,6 @@ public class Example {
                 true)
             .update();
 
-        System.out.println(syncListPermission.getAccountSid());
+        System.out.println(syncListPermission.getServiceSid());
     }
 }

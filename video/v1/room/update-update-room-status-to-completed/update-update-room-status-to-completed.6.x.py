@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 room = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                    .update(status="completed")
 
-print(room.sid)
+print(room.unique_name)

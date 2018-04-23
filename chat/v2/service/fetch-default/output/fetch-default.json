@@ -26,7 +26,7 @@
   "read_status_enabled": false,
   "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "typing_indicator_timeout": 100,
-  "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
   "webhook_filters": [
     "webhook_filters"
   ],

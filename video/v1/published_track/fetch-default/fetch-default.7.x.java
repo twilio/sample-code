@@ -16,6 +16,6 @@ public class Example {
                 "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(publishedTrack.getSid());
+        System.out.println(publishedTrack.getName());
     }
 }

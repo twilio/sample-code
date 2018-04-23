@@ -15,6 +15,6 @@ public class Example {
                 "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(workflow.getAccountSid());
+        System.out.println(workflow.getFriendlyName());
     }
 }

@@ -19,4 +19,4 @@ $subscribed_track = $twilio->video->v1->rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                )
                                       );
 
-print($subscribed_track.sid);
+print($subscribed_track.name);

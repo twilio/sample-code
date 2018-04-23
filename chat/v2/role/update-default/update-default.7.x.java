@@ -17,6 +17,6 @@ public class Example {
                 Promoter.listOfOne("permission"))
             .update();
 
-        System.out.println(role.getSid());
+        System.out.println(role.getFriendlyName());
     }
 }

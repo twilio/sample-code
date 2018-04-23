@@ -15,6 +15,6 @@ public class Example {
                 "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(syncList.getSid());
+        System.out.println(syncList.getUniqueName());
     }
 }

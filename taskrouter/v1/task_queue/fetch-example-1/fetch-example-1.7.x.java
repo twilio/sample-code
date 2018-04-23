@@ -15,6 +15,6 @@ public class Example {
                 "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(taskQueue.getAccountSid());
+        System.out.println(taskQueue.getAssignmentActivityName());
     }
 }

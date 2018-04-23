@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .update({taskReservationTimeout: 20})
-                 .then(workflow => console.log(workflow.accountSid))
+                 .then(workflow => console.log(workflow.friendlyName))
                  .done();

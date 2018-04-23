@@ -13,6 +13,6 @@ public class Example {
         Service service = Service.fetcher("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(service.getSid());
+        System.out.println(service.getFriendlyName());
     }
 }

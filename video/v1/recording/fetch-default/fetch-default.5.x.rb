@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 recording = @client.video.recordings('RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .fetch
 
-puts recording.account_sid
+puts recording.track_name

@@ -15,6 +15,6 @@ public class Example {
                 "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(modelBuild.getAccountSid());
+        System.out.println(modelBuild.getUniqueName());
     }
 }

@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 service = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
-puts service.sid
+puts service.unique_name

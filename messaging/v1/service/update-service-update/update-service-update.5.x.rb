@@ -12,4 +12,4 @@ service = @client.messaging.services('MG2172dd2db502e20dd981ef0d67850e1a')
                               inbound_request_url: 'http://www.example.com'
                             )
 
-puts service.sid
+puts service.friendly_name

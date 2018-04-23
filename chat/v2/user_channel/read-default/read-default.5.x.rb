@@ -13,5 +13,5 @@ user_channels = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .list
 
 user_channels.each do |record|
-  puts record.account_sid
+  puts record.service_sid
 end

@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 service = @client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .update(friendly_name: 'friendly_name')
 
-puts service.sid
+puts service.friendly_name

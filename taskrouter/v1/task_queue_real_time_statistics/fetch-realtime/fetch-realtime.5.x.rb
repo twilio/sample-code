@@ -13,4 +13,4 @@ task_queue_real_time_statistics = @client.taskrouter
   .real_time_statistics
   .fetch
 
-puts task_queue_real_time_statistics.account_sid
+puts task_queue_real_time_statistics.activity_statistics

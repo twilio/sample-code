@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 service = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .update(friendly_name: 'NEW_FRIENDLY_NAME')
 
-puts service.sid
+puts service.friendly_name

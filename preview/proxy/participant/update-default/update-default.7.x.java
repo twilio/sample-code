@@ -17,6 +17,6 @@ public class Example {
             .setParticipantType(Participant.ParticipantType.SMS)
             .update();
 
-        System.out.println(participant.getSid());
+        System.out.println(participant.getFriendlyName());
     }
 }

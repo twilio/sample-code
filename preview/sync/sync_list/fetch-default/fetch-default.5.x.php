@@ -15,4 +15,4 @@ $sync_list = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->syncLists("ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->fetch();
 
-print($sync_list.sid);
+print($sync_list.uniqueName);

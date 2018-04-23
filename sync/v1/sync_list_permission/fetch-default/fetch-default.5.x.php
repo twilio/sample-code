@@ -16,4 +16,4 @@ $sync_list_permission = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXX
                                          ->syncListPermissions("identity")
                                          ->fetch();
 
-print($sync_list_permission.accountSid);
+print($sync_list_permission.serviceSid);

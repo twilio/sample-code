@@ -17,6 +17,6 @@ class Program
 
         var sim = SimResource.Fetch(pathSid: "AliceSmithSmartMeter");
 
-        Console.WriteLine(sim.Sid);
+        Console.WriteLine(sim.UniqueName);
     }
 }

@@ -21,6 +21,6 @@ class Program
             pathSid: "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(credential.Sid);
+        Console.WriteLine(credential.Username);
     }
 }

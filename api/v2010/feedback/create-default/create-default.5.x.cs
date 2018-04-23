@@ -20,6 +20,6 @@ class Program
             pathMessageSid: "MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(feedback.AccountSid);
+        Console.WriteLine(feedback.MessageSid);
     }
 }

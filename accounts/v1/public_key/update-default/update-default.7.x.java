@@ -15,6 +15,6 @@ public class Example {
             .setFriendlyName("friendlyName")
             .update();
 
-        System.out.println(publicKey.getSid());
+        System.out.println(publicKey.getFriendlyName());
     }
 }

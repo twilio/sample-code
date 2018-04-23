@@ -16,4 +16,4 @@ $ip_access_control_list_mapping = $twilio->sip
                                          ->ipAccessControlListMappings("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->fetch();
 
-print($ip_access_control_list_mapping.accountSid);
+print($ip_access_control_list_mapping.friendlyName);

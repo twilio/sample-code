@@ -21,6 +21,6 @@ class Program
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(validationRequest.AccountSid);
+        Console.WriteLine(validationRequest.FriendlyName);
     }
 }

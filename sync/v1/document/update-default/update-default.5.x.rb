@@ -11,4 +11,4 @@ document = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .update(data: {})
 
-puts document.sid
+puts document.unique_name

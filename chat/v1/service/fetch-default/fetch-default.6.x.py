@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 service = client.chat.v1.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(service.sid)
+print(service.friendly_name)

@@ -14,4 +14,4 @@ statistics = client.taskrouter \
                    .list()
 
 for record in statistics:
-    print(record.account_sid)
+    print(record.cumulative)

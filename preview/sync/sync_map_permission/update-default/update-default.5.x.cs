@@ -24,6 +24,6 @@ class Program
             pathIdentity: "PathIdentity"
         );
 
-        Console.WriteLine(syncMapPermission.AccountSid);
+        Console.WriteLine(syncMapPermission.ServiceSid);
     }
 }

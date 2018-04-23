@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.api.accounts('ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .update({status: 'active'})
-          .then(account => console.log(account.authToken))
+          .then(account => console.log(account.friendlyName))
           .done();

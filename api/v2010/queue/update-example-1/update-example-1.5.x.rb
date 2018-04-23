@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 queue = @client.queues('QU32a3c49700934481addd5ce1659f04d2')
                .update(max_size: 123)
 
-puts queue.account_sid
+puts queue.friendly_name

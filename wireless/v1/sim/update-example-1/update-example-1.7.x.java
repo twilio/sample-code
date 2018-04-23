@@ -21,6 +21,6 @@ public class Example {
             .setStatus(Sim.Status.ACTIVE)
             .update();
 
-        System.out.println(sim.getSid());
+        System.out.println(sim.getUniqueName());
     }
 }

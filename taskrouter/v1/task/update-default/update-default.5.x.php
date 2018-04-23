@@ -15,4 +15,4 @@ $task = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                ->tasks("WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->update(array('attributes' => "attributes"));
 
-print($task.accountSid);
+print($task.taskQueueFriendlyName);

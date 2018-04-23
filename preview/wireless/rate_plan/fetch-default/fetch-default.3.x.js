@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.ratePlans('WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
-              .then(rate_plan => console.log(rate_plan.sid))
+              .then(rate_plan => console.log(rate_plan.uniqueName))
               .done();

@@ -9,5 +9,5 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     eventCallbackUrl: 'http://requestb.in/vh9reovh',
                     friendlyName: 'NewFriendlyName'
                   })
-                 .then(workspace => console.log(workspace.accountSid))
+                 .then(workspace => console.log(workspace.defaultActivityName))
                  .done();

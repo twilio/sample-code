@@ -14,6 +14,6 @@ public class Example {
                 "PNe536d32a3c49700934481addd5ce1659")
             .setFriendlyName("My Second Line").update();
 
-        System.out.println(outgoingCallerId.getSid());
+        System.out.println(outgoingCallerId.getFriendlyName());
     }
 }

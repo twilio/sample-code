@@ -8,5 +8,5 @@ client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .update({participantType: 'sms'})
-                    .then(participant => console.log(participant.sid))
+                    .then(participant => console.log(participant.friendlyName))
                     .done();

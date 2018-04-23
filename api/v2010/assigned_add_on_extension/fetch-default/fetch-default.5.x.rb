@@ -13,4 +13,4 @@ assigned_add_on_extension = @client
   .extensions('XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts assigned_add_on_extension.sid
+puts assigned_add_on_extension.friendly_name

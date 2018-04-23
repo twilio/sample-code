@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 connect_app = client.connect_apps("CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .update(authorize_redirect_url="https://example.com")
 
-print(connect_app.account_sid)
+print(connect_app.company_name)

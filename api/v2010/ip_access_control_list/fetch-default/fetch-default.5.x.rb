@@ -11,4 +11,4 @@ ip_access_control_list = @client.sip
   .ip_access_control_lists('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts ip_access_control_list.sid
+puts ip_access_control_list.friendly_name

@@ -14,7 +14,7 @@ public class Example {
         ResourceSet<Yesterday> yesterday = Yesterday.reader().read();
 
         for(Yesterday record : yesterday) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getCategory());
         }
     }
 }

@@ -22,6 +22,6 @@ class Program
             pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(participant.AccountSid);
+        Console.WriteLine(participant.CallSid);
     }
 }

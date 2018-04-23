@@ -19,6 +19,6 @@ class Program
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workersCumulativeStatistics.AccountSid);
+        Console.WriteLine(workersCumulativeStatistics.StartTime);
     }
 }

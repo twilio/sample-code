@@ -11,4 +11,4 @@ document = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .documents('MyFirstDocument')
                        .fetch
 
-puts document.sid
+puts document.unique_name

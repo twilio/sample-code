@@ -11,4 +11,4 @@ fleet = client.preview.deployed_devices \
                       .fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .update(friendly_name="My New Fleet of Devices")
 
-print(fleet.sid)
+print(fleet.unique_name)

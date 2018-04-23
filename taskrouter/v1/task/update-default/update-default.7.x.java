@@ -15,6 +15,6 @@ public class Example {
                 "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setAttributes("attributes").update();
 
-        System.out.println(task.getAccountSid());
+        System.out.println(task.getTaskQueueFriendlyName());
     }
 }

@@ -20,6 +20,6 @@ class Program
             pathWorkflowSid: "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workflowRealTimeStatistics.AccountSid);
+        Console.WriteLine(workflowRealTimeStatistics.LongestTaskWaitingAge);
     }
 }

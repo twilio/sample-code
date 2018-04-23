@@ -8,5 +8,5 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .syncLists('MyFirstList')
   .syncListPermissions('bob')
   .remove()
-  .then(sync_list_permission => console.log(sync_list_permission.accountSid))
+  .then(sync_list_permission => console.log(sync_list_permission.serviceSid))
   .done();

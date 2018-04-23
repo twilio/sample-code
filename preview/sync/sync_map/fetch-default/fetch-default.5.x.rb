@@ -11,4 +11,4 @@ sync_map = @client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                .fetch
 
-puts sync_map.sid
+puts sync_map.unique_name

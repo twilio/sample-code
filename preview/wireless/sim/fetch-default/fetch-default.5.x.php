@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $sim = $twilio->preview->wireless->sims("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->fetch();
 
-print($sim.sid);
+print($sim.uniqueName);

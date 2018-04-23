@@ -13,4 +13,4 @@ sample = @client.preview.understand
                         .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .update(language: 'language')
 
-puts sample.account_sid
+puts sample.date_created

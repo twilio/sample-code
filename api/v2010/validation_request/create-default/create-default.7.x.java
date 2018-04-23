@@ -15,6 +15,6 @@ public class Example {
                 new PhoneNumber("+15017122661"))
             .create();
 
-        System.out.println(validationRequest.getAccountSid());
+        System.out.println(validationRequest.getFriendlyName());
     }
 }

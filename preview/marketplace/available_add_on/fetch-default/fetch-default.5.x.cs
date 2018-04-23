@@ -19,6 +19,6 @@ class Program
             pathSid: "XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(availableAddOn.Sid);
+        Console.WriteLine(availableAddOn.FriendlyName);
     }
 }

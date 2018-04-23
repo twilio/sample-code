@@ -13,4 +13,4 @@ sample = client.preview.understand \
                        .samples("UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                        .fetch()
 
-print(sample.account_sid)
+print(sample.date_created)

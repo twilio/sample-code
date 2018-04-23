@@ -15,6 +15,6 @@ public class Example {
                 "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(workspaceCumulativeStatistics.getAccountSid());
+        System.out.println(workspaceCumulativeStatistics.getAvgTaskAcceptanceTime());
     }
 }

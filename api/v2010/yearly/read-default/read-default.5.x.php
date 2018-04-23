@@ -17,5 +17,5 @@ $yearly = $twilio->usage
                  ->read();
 
 foreach ($yearly as $record) {
-    print($record->accountSid);
+    print($record->category);
 }

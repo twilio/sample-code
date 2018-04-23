@@ -12,4 +12,4 @@ intent = @client.preview.understand
                         .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .fetch
 
-puts intent.account_sid
+puts intent.friendly_name

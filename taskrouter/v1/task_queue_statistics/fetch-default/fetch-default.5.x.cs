@@ -20,6 +20,6 @@ class Program
             pathTaskQueueSid: "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(taskQueueStatistics.AccountSid);
+        Console.WriteLine(taskQueueStatistics.Cumulative);
     }
 }

@@ -13,4 +13,4 @@ step_context = @client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .step_context
                              .fetch
 
-puts step_context.account_sid
+puts step_context.context

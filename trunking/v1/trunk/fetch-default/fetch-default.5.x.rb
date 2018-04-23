@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 trunk = @client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
-puts trunk.account_sid
+puts trunk.domain_name

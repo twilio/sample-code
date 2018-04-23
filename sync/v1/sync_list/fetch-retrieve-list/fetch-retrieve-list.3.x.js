@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncLists('MyCollection')
            .fetch()
-           .then(sync_list => console.log(sync_list.sid))
+           .then(sync_list => console.log(sync_list.uniqueName))
            .done();

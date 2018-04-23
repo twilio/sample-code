@@ -11,4 +11,4 @@ outgoing_caller_id = @client
   .outgoing_caller_ids('PNe536d32a3c49700934481addd5ce1659')
   .update(friendly_name: 'My Second Line')
 
-puts outgoing_caller_id.sid
+puts outgoing_caller_id.friendly_name

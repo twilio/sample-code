@@ -11,4 +11,4 @@ authorized_connect_app = client \
     .authorized_connect_apps("CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .fetch()
 
-print(authorized_connect_app.account_sid)
+print(authorized_connect_app.connect_app_company_name)

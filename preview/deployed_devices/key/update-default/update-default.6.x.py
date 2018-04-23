@@ -12,4 +12,4 @@ key = client.preview.deployed_devices \
                     .keys("KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .update(friendly_name="friendly_name")
 
-print(key.sid)
+print(key.friendly_name)

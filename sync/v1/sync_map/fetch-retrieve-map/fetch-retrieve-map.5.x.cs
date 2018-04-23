@@ -20,6 +20,6 @@ class Program
             pathSid: "Players"
         );
 
-        Console.WriteLine(syncMap.Sid);
+        Console.WriteLine(syncMap.UniqueName);
     }
 }

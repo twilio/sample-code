@@ -15,6 +15,6 @@ public class Example {
         Call call = Call.updater("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setUrl(URI.create("https://example.com")).update();
 
-        System.out.println(call.getAccountSid());
+        System.out.println(call.getTo());
     }
 }

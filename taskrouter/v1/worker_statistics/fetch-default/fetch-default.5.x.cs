@@ -20,6 +20,6 @@ class Program
             pathWorkerSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workerStatistics.AccountSid);
+        Console.WriteLine(workerStatistics.Cumulative);
     }
 }

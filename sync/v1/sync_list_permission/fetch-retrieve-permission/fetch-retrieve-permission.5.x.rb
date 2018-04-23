@@ -13,4 +13,4 @@ sync_list_permission = @client.sync
                               .sync_list_permissions('bob')
                               .fetch
 
-puts sync_list_permission.account_sid
+puts sync_list_permission.service_sid

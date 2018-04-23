@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 queue = client.queues("QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
               .update(friendly_name="friendly_name")
 
-print(queue.account_sid)
+print(queue.friendly_name)

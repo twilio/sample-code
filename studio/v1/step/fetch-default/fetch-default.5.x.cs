@@ -21,6 +21,6 @@ class Program
             pathSid: "FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(step.Sid);
+        Console.WriteLine(step.Name);
     }
 }

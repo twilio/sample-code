@@ -21,6 +21,6 @@ class Program
             pathStepSid: "FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(stepContext.AccountSid);
+        Console.WriteLine(stepContext.Context);
     }
 }

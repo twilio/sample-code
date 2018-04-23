@@ -11,4 +11,4 @@ sync_list = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                        .sync_lists("MyCollection") \
                        .fetch()
 
-print(sync_list.sid)
+print(sync_list.unique_name)

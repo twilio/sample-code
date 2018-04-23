@@ -20,6 +20,6 @@ class Program
             pathSid: "CFbbe46ff1274e283f7e3ac1df0072ab39"
         );
 
-        Console.WriteLine(conference.AccountSid);
+        Console.WriteLine(conference.FriendlyName);
     }
 }

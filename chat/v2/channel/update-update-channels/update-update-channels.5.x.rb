@@ -11,4 +11,4 @@ channel = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .update(friendly_name: 'NEW_FRIENDLY_NAME')
 
-puts channel.sid
+puts channel.friendly_name

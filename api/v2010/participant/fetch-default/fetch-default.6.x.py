@@ -11,4 +11,4 @@ participant = client.conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .participants("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .fetch()
 
-print(participant.account_sid)
+print(participant.call_sid)

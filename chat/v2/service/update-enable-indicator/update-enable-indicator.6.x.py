@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 service = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .update(reachability_enabled=False)
 
-print(service.sid)
+print(service.friendly_name)

@@ -17,4 +17,4 @@ $assistant = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXX
                                                   )
                                          );
 
-print($assistant.accountSid);
+print($assistant.friendlyName);

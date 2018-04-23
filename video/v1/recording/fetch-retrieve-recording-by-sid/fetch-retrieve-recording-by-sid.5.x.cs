@@ -19,6 +19,6 @@ class Program
             pathSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(recording.AccountSid);
+        Console.WriteLine(recording.TrackName);
     }
 }
