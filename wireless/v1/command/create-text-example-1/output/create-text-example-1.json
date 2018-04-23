@@ -9,10 +9,5 @@
   "sid": "DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "queued",
   "url": "https://wireless.twilio.com/v1/Commands/DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "wireless/commands/create-text-example-1/create-text-example-1.6.x.py",
-    "title": "Create a text Command",
-    "type": "server"
-  },
   "sim": "AliceSmithSmartMeter"
 }

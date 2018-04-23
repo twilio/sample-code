@@ -16,10 +16,5 @@
   "links": {
     "user": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/24987039"
   },
-  "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Bindings/BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "notifications/sms-quickstart/create-binding/create-binding.6.x.py",
-    "title": "Create a Binding for SMS",
-    "type": "server"
-  }
+  "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Bindings/BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

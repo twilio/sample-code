@@ -28,12 +28,7 @@
       },
       "to": "+15558675310",
       "to_formatted": "(555) 867-5310",
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-      "_meta": {
-        "original_snippet_path": "rest/call/list-get-example-6/list-get-example-6.6.x.py",
-        "title": "Retrieve Busy Calls To Specific Number Example",
-        "type": "server"
-      }
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
     }
   ],
   "end": 0,
@@ -44,11 +39,6 @@
   "previous_page_uri": null,
   "start": 0,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0",
-  "_meta": {
-    "original_snippet_path": "rest/call/list-get-example-6/list-get-example-6.6.x.py",
-    "title": "Retrieve Busy Calls To Specific Number Example",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "busy",
   "to": "+15558675310"

@@ -21,10 +21,5 @@
   "sms": null,
   "facebook_messenger": null,
   "alexa": null,
-  "_meta": {
-    "original_snippet_path": "notifications/sms-quickstart/send-notification-to-number/send-notification-to-number.6.x.py",
-    "title": "Send SMS Notification To a Number",
-    "type": "server"
-  },
   "to_binding": "{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}"
 }

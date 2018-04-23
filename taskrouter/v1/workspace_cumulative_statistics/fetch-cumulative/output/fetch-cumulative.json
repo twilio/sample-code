@@ -50,10 +50,5 @@
   "reservations_created": 100,
   "reservations_rejected": 100,
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "rest/taskrouter/statistics/workspace/cumulative/example-1.6.x.py",
-    "title": "Retrieve workspace cumulative statistics",
-    "type": "server"
-  }
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

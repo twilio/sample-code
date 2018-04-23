@@ -17,21 +17,11 @@
       "friendly_name": "0.361280134646222",
       "max_size": 100,
       "sid": "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queues/QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-      "_meta": {
-        "original_snippet_path": "rest/queue/list-get-example-1/list-get-example-1.6.x.py",
-        "title": "List all Queues",
-        "type": "server"
-      }
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queues/QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
     }
   ],
   "start": 0,
   "total": 12858,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queues.json?PageSize=1&Page=0",
-  "_meta": {
-    "original_snippet_path": "rest/queue/list-get-example-1/list-get-example-1.6.x.py",
-    "title": "List all Queues",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

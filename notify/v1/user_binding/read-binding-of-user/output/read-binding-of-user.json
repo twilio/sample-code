@@ -18,12 +18,7 @@
       "tags": [
         "tag"
       ],
-      "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/Bindings/BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "notifications/rest/users/list-binding-of-user/list-binding-of-user.6.x.py",
-        "title": "List Bindings of a User",
-        "type": "server"
-      }
+      "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/Bindings/BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {
@@ -34,11 +29,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://notify.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users/identity/Bindings?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "notifications/rest/users/list-binding-of-user/list-binding-of-user.6.x.py",
-    "title": "List Bindings of a User",
-    "type": "server"
   },
   "identity": "User0001",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

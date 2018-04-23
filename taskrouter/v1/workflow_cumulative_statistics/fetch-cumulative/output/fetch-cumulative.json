@@ -51,10 +51,5 @@
   "tasks_deleted": 100,
   "tasks_timed_out_in_workflow": 100,
   "tasks_completed": 100,
-  "reservations_timed_out": 100,
-  "_meta": {
-    "original_snippet_path": "rest/taskrouter/statistics/workflow/cumulative/example-1.6.x.py",
-    "title": "Retrieve Workflow Cumulative Statistics",
-    "type": "server"
-  }
+  "reservations_timed_out": 100
 }

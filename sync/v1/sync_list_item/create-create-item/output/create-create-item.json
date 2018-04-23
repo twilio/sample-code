@@ -10,10 +10,5 @@
   "revision": "revision",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/MyCollection/Items/100",
-  "_meta": {
-    "original_snippet_path": "sync/rest/lists/create-list-item/create-list-item.6.x.py",
-    "title": "Create a Sync List Item",
-    "type": "server"
-  },
   "ttl": "864000"
 }

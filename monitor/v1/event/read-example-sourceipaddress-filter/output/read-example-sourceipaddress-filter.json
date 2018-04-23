@@ -23,11 +23,6 @@
       "source": "api",
       "source_ip_address": "104.14.155.29",
       "url": "https://monitor.twilio.com/v1/Events/AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "monitor/events/list-get-example-sourceipaddress-filter/list-get-example-sourceipaddress-filter.6.x.py",
-        "title": "Filter for an IP address",
-        "type": "server"
-      },
       "end_date": "2015-04-25",
       "start_date": "2015-04-25"
     }
@@ -40,11 +35,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://monitor.twilio.com/v1/Events?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "monitor/events/list-get-example-sourceipaddress-filter/list-get-example-sourceipaddress-filter.6.x.py",
-    "title": "Filter for an IP address",
-    "type": "server"
   },
   "end_date": "2015-04-25",
   "source_ip_address": "104.14.155.29",

@@ -12,10 +12,5 @@
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sid": "MyCollection",
   "unique_name": "unique_name",
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/MyCollection",
-  "_meta": {
-    "original_snippet_path": "sync/rest/lists/retrieve-list/retrieve-list.6.x.py",
-    "title": "Retrieve a Sync List",
-    "type": "server"
-  }
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/MyCollection"
 }

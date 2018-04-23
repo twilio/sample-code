@@ -11,12 +11,7 @@
       "list_sid": "MyCollection",
       "revision": "revision",
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/MyCollection/Items/100",
-      "_meta": {
-        "original_snippet_path": "sync/rest/lists/query-list/query-list.6.x.py",
-        "title": "Query a Sync List",
-        "type": "server"
-      }
+      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/MyCollection/Items/100"
     }
   ],
   "meta": {
@@ -27,11 +22,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Lists/ESaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Items?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "sync/rest/lists/query-list/query-list.6.x.py",
-    "title": "Query a Sync List",
-    "type": "server"
   },
   "list_sid": "MyCollection",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

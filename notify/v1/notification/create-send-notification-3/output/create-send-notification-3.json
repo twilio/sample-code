@@ -21,10 +21,5 @@
   "sms": null,
   "facebook_messenger": null,
   "alexa": null,
-  "_meta": {
-    "original_snippet_path": "notifications/sms-quickstart/send-notification/send-notification.6.x.py",
-    "title": "Send SMS Notification Using Identity",
-    "type": "server"
-  },
   "identity": "00000001"
 }

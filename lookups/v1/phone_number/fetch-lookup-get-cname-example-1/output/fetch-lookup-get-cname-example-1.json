@@ -21,10 +21,5 @@
     "results": {}
   },
   "url": "https://lookups.twilio.com/v1/PhoneNumbers/phone_number",
-  "_meta": {
-    "original_snippet_path": "lookups/lookup-get-cname-example-1/lookup-get-cname-example-1.6.x.py",
-    "title": "Lookup with Caller Name",
-    "type": "server"
-  },
   "type": "caller-name"
 }

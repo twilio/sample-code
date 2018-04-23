@@ -11,11 +11,6 @@
       "parent_sid": "MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media/MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-      "_meta": {
-        "original_snippet_path": "rest/media/list-get-example-1/list-get-example-1.6.x.py",
-        "title": "Get a Media",
-        "type": "server"
-      },
       "message_sid": "MM800f449d0399ed014aae2bcc0cc2f2ec"
     }
   ],
@@ -27,11 +22,6 @@
   "start": 0,
   "total": 1,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media.json?PageSize=50&Page=0",
-  "_meta": {
-    "original_snippet_path": "rest/media/list-get-example-1/list-get-example-1.6.x.py",
-    "title": "Get a Media",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "message_sid": "MM800f449d0399ed014aae2bcc0cc2f2ec"
 }

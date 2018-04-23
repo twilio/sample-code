@@ -13,12 +13,7 @@
         "participants": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants.json",
         "recordings": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json"
       },
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-      "_meta": {
-        "original_snippet_path": "rest/conference/list-get-example-1/list-get-example-1.6.x.py",
-        "title": "List All Conferences Example",
-        "type": "server"
-      }
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
     }
   ],
   "end": 0,
@@ -29,10 +24,5 @@
   "previous_page_uri": null,
   "start": 0,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?PageSize=1",
-  "_meta": {
-    "original_snippet_path": "rest/conference/list-get-example-1/list-get-example-1.6.x.py",
-    "title": "List All Conferences Example",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -22,7 +22,7 @@
   "signing_document_sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "received",
   "unique_name": "foobar",
-  "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "verification_attempts": 0,
   "verification_call_sids": [
     "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",

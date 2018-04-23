@@ -32,10 +32,5 @@
   "voice_fallback_method": "POST",
   "voice_fallback_url": null,
   "voice_method": "POST",
-  "voice_url": null,
-  "_meta": {
-    "original_snippet_path": "rest/available-phone-numbers/local-basic-example-8/local-get-basic-example-8.6.x.py",
-    "title": "Find local phone numbers that have no address requirements",
-    "type": "server"
-  }
+  "voice_url": null
 }

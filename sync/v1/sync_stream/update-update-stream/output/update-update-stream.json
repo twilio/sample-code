@@ -11,10 +11,5 @@
   "sid": "MyStream",
   "unique_name": "unique_name",
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Streams/MyStream",
-  "_meta": {
-    "original_snippet_path": "sync/rest/streams/update-stream/update-stream.6.x.py",
-    "title": "Update a Message Stream",
-    "type": "server"
-  },
   "ttl": "864000"
 }

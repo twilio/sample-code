@@ -25,12 +25,7 @@
       "index": 0,
       "type": "text",
       "media": null,
-      "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "ip-messaging/rest/messages/list-messages/list-messages.6.x.py",
-        "title": "List all Messages",
-        "type": "server"
-      }
+      "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "sid": "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -53,19 +48,9 @@
         "content_type": "application/pdf",
         "filename": "hello.pdf"
       },
-      "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "ip-messaging/rest/messages/list-messages/list-messages.6.x.py",
-        "title": "List all Messages",
-        "type": "server"
-      }
+      "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
-  "_meta": {
-    "original_snippet_path": "ip-messaging/rest/messages/list-messages/list-messages.6.x.py",
-    "title": "List all Messages",
-    "type": "server"
-  },
   "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

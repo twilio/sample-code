@@ -6,10 +6,5 @@
   "friendly_name": "New Activity",
   "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Activities/WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "rest/taskrouter/activities/instance/get/example-1/example-1.6.x.py",
-    "title": "Retrieve an Activity",
-    "type": "server"
-  }
+  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

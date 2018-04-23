@@ -12,12 +12,7 @@
       "date_created": "2016-07-30T20:00:00Z",
       "date_updated": "2016-07-30T20:00:00Z",
       "date_authenticated": null,
-      "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices/THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "deployed-devices/rest/devices/list-devices/list-devices.6.x.py",
-        "title": "Retrieve a list of Devices",
-        "type": "server"
-      }
+      "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices/THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {
@@ -28,11 +23,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Devices?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "deployed-devices/rest/devices/list-devices/list-devices.6.x.py",
-    "title": "Retrieve a list of Devices",
-    "type": "server"
   },
   "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

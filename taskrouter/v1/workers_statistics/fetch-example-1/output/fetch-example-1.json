@@ -71,10 +71,5 @@
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/Statistics",
-  "_meta": {
-    "original_snippet_path": "rest/taskrouter/statistics/worker/example-1/example-1.6.x.py",
-    "title": "Retrieve Worker Statistics",
-    "type": "server"
-  },
   "worker_sid": "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

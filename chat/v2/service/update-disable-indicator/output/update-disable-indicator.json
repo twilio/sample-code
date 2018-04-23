@@ -53,10 +53,5 @@
   "media": {
     "size_limit_mb": 150,
     "compatibility_message": "new media compatibility message"
-  },
-  "_meta": {
-    "original_snippet_path": "ip-messaging/reachability-indicator/disable-indicator/disable-indicator.6.x.py",
-    "title": "Disable the Reachability Indicator",
-    "type": "server"
   }
 }

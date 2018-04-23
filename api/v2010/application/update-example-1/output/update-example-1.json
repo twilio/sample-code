@@ -18,10 +18,5 @@
   "voice_fallback_method": "GET",
   "voice_fallback_url": "http://www.example.com/voice-callback",
   "voice_method": "GET",
-  "voice_url": "http://demo.twilio.com/docs/voice.xml",
-  "_meta": {
-    "original_snippet_path": "rest/applications/instance-post-example-1/instance-post-example-1.6.x.py",
-    "title": "Set the VoiceUrl and SmsUrl on an application",
-    "type": "server"
-  }
+  "voice_url": "http://demo.twilio.com/docs/voice.xml"
 }

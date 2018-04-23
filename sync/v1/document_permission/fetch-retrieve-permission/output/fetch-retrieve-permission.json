@@ -6,10 +6,5 @@
   "read": true,
   "write": true,
   "manage": true,
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/MyFirstDocument/Permissions/identity",
-  "_meta": {
-    "original_snippet_path": "sync/rest/document-permissions/retrieve-permission/retrieve-permission.6.x.py",
-    "title": "Fetch a Document Permission by Identity",
-    "type": "server"
-  }
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/MyFirstDocument/Permissions/identity"
 }

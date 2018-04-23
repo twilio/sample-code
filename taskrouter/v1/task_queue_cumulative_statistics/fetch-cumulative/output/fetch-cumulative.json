@@ -50,10 +50,5 @@
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "tasks_deleted": 100,
   "reservations_rescinded": 100,
-  "avg_task_acceptance_time": 100,
-  "_meta": {
-    "original_snippet_path": "rest/taskrouter/statistics/taskqueue/cumulative/example-1.6.x.py",
-    "title": "Retrieving TaskQueue Cumulative Statistics",
-    "type": "server"
-  }
+  "avg_task_acceptance_time": 100
 }

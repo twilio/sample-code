@@ -18,12 +18,7 @@
       "request_method": null,
       "request_url": "",
       "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications/NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "rest/notification/list-get-example-2/list-get-example-2.6.x.py",
-        "title": "Filter Notifications using a Param",
-        "type": "server"
-      }
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications/NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "num_pages": 101,
@@ -33,11 +28,6 @@
   "start": 0,
   "total": 101,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json?PageSize=1&Page=0",
-  "_meta": {
-    "original_snippet_path": "rest/notification/list-get-example-2/list-get-example-2.6.x.py",
-    "title": "Filter Notifications using a Param",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "log": "1",
   "message_date": "2009-07-06"

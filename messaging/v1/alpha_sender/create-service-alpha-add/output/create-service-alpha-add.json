@@ -6,13 +6,5 @@
   "date_updated": "2015-07-30T20:12:33Z",
   "alpha_sender": "My company",
   "capabilities": [],
-  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/AlphaSenders/AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "messaging/services/service-alpha-add/service-alpha-add.6.x.py",
-    "tags": [
-      "messaging"
-    ],
-    "title": "Add an Alpha Sender to a Messaging Service",
-    "type": "server"
-  }
+  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/AlphaSenders/AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

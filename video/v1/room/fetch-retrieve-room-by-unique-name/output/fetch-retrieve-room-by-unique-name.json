@@ -21,10 +21,5 @@
   "links": {
     "participants": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants",
     "recordings": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings"
-  },
-  "_meta": {
-    "original_snippet_path": "video/rest/rooms/retrieve-room-by-unique-name/retrieve-room-by-unique-name.6.x.py",
-    "title": "Retrieve an in-progress Room instance by UniqueName",
-    "type": "server"
   }
 }

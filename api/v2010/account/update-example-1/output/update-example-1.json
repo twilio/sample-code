@@ -18,10 +18,5 @@
     "transcriptions": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Transcriptions.json"
   },
   "type": "Full",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-  "_meta": {
-    "original_snippet_path": "rest/accounts/instance-post-example-1/instance-post-example-1.6.x.py",
-    "title": "Suspend a Subaccount",
-    "type": "server"
-  }
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

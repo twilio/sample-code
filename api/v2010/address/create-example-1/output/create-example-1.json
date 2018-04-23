@@ -12,10 +12,5 @@
   "sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "street": "1 Hasselhoff Lane",
   "validated": false,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses/ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-  "_meta": {
-    "original_snippet_path": "rest/addresses/list-post-example-1/list-post-example-1.6.x.py",
-    "title": "List Post Example 1",
-    "type": "server"
-  }
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses/ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

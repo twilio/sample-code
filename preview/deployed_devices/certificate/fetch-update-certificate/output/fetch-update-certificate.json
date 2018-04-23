@@ -7,10 +7,5 @@
   "thumbprint": "1234567890",
   "date_created": "2016-07-30T20:00:00Z",
   "date_updated": null,
-  "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates/CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "deployed-devices/rest/certificates/update-certificate/update-certificate.6.x.py",
-    "title": "Update a Certificate",
-    "type": "server"
-  }
+  "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates/CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

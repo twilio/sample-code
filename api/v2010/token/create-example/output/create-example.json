@@ -14,10 +14,5 @@
   ],
   "password": "5SR2x8mZK1lTFJW3NVgLGw6UM9C0dja4jI/Hdw3xr+w=",
   "ttl": "86400",
-  "username": "cda92e5006c7810494639fc466ecc80182cef8183fdf400f84c4126f3b59d0bb",
-  "_meta": {
-    "original_snippet_path": "rest/token/list-post-example/list-post-example.6.x.py",
-    "title": "Create a Token Resource",
-    "type": "server"
-  }
+  "username": "cda92e5006c7810494639fc466ecc80182cef8183fdf400f84c4126f3b59d0bb"
 }

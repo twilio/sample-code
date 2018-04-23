@@ -12,12 +12,7 @@
       "friendly_name": "(415) 867-5309",
       "phone_number": "+15017122661",
       "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/OutgoingCallerIds/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-      "_meta": {
-        "original_snippet_path": "rest/outgoing-caller-ids/list-get-example-1/list-get-example-1.6.x.py",
-        "title": "List an Account's Outgoing Caller IDs",
-        "type": "server"
-      }
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/OutgoingCallerIds/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
     }
   ],
   "page": 0,
@@ -26,10 +21,5 @@
   "start": 0,
   "total": 1,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/OutgoingCallerIds.json",
-  "_meta": {
-    "original_snippet_path": "rest/outgoing-caller-ids/list-get-example-1/list-get-example-1.6.x.py",
-    "title": "List an Account's Outgoing Caller IDs",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

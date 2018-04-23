@@ -12,10 +12,5 @@
     "segment1"
   ],
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity",
-  "_meta": {
-    "original_snippet_path": "notifications/rest/users/retrieve-user/retrieve-user.6.x.py",
-    "title": "Retrieve a User",
-    "type": "server"
-  }
+  "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity"
 }

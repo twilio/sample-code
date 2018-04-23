@@ -1,11 +1,6 @@
 {
   "sid": "TZXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "data": "{\"id\": \"bob\", \"x\": 256, \"y\": 42}",
-  "_meta": {
-    "original_snippet_path": "sync/rest/streams/publish-stream-message/publish-stream-message.6.x.py",
-    "title": "Publish a Stream Message",
-    "type": "server"
-  },
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "stream_sid": "MyStream"
 }

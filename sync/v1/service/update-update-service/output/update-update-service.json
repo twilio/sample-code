@@ -14,10 +14,5 @@
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "webhook_url": "http://www.example.com",
   "reachability_webhooks_enabled": false,
-  "acl_enabled": true,
-  "_meta": {
-    "original_snippet_path": "sync/rest/services/update-service/update-service.6.x.py",
-    "title": "Update a Service",
-    "type": "server"
-  }
+  "acl_enabled": true
 }

@@ -36,12 +36,7 @@
       "voice_fallback_method": "POST",
       "voice_fallback_url": null,
       "voice_method": "POST",
-      "voice_url": null,
-      "_meta": {
-        "original_snippet_path": "rest/incoming-phone-numbers/list-get-example-1/list-get-example-1.6.x.py",
-        "title": "List all IncomingPhoneNumber of your Account",
-        "type": "server"
-      }
+      "voice_url": null
     }
   ],
   "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers.json?PageSize=1&Page=2",
@@ -53,10 +48,5 @@
   "start": 0,
   "total": 3,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers.json?PageSize=1",
-  "_meta": {
-    "original_snippet_path": "rest/incoming-phone-numbers/list-get-example-1/list-get-example-1.6.x.py",
-    "title": "List all IncomingPhoneNumber of your Account",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

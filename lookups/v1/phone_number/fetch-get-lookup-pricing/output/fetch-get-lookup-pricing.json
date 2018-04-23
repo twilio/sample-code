@@ -20,10 +20,5 @@
     "code": null,
     "results": {}
   },
-  "url": "https://lookups.twilio.com/v1/PhoneNumbers/phone_number",
-  "_meta": {
-    "original_snippet_path": "pricing/get-lookup-pricing/get-lookup-pricing.6.x.py",
-    "title": "Lookup SMS Price by Phone Number",
-    "type": "server"
-  }
+  "url": "https://lookups.twilio.com/v1/PhoneNumbers/phone_number"
 }

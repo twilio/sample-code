@@ -9,10 +9,5 @@
   "homepage_url": "http://example.com/home",
   "permissions": [],
   "sid": "CNb989fdd207b04d16aee578018ef5fd93",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ConnectApps/CNb989fdd207b04d16aee578018ef5fd93.json",
-  "_meta": {
-    "original_snippet_path": "rest/connect-apps/instance-get-example-1/instance-get-example-1.6.x.py",
-    "title": "Retrieve a Connect App",
-    "type": "server"
-  }
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ConnectApps/CNb989fdd207b04d16aee578018ef5fd93.json"
 }

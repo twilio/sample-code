@@ -15,11 +15,6 @@
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity",
-      "_meta": {
-        "original_snippet_path": "notifications/rest/users/list-users/list-users.6.x.py",
-        "title": "List Users",
-        "type": "server"
-      },
       "segment": "premium"
     }
   ],
@@ -31,11 +26,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://notify.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "notifications/rest/users/list-users/list-users.6.x.py",
-    "title": "List Users",
-    "type": "server"
   },
   "segment": "premium",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

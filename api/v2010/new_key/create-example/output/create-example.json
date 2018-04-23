@@ -4,10 +4,5 @@
   "date_created": "Mon, 13 Jun 2016 22:50:08 +0000",
   "date_updated": "Mon, 13 Jun 2016 22:50:08 +0000",
   "secret": "foobar",
-  "_meta": {
-    "original_snippet_path": "rest/keys/list-post-example/list-post-example.6.x.py",
-    "title": "Create an API Key",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

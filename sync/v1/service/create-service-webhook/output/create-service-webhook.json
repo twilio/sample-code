@@ -14,10 +14,5 @@
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "webhook_url": "https://example.com/sync",
   "reachability_webhooks_enabled": false,
-  "acl_enabled": true,
-  "_meta": {
-    "original_snippet_path": "sync/rest/services/create-service-webhook/create-service-webhook.6.x.py",
-    "title": "Create a Service with a Webhook URL",
-    "type": "server"
-  }
+  "acl_enabled": true
 }

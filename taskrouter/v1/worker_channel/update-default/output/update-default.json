@@ -9,7 +9,7 @@
   "sid": "WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "task_channel_sid": "TCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "task_channel_unique_name": "default",
-  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Workers/WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "worker_sid": "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

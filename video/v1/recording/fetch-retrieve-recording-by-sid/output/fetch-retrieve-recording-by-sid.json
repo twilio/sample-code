@@ -20,10 +20,5 @@
   "encryption_key": "public_key",
   "links": {
     "media": "https://video.twilio.com/v1/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
-  },
-  "_meta": {
-    "original_snippet_path": "video/rest/recordings/retrieve-recording-by-sid/retrieve-recording-by-sid.6.x.py",
-    "title": "Returns a representation of the Recording metadata.",
-    "type": "server"
   }
 }

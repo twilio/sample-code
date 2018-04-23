@@ -27,11 +27,6 @@
   "to": "+14158675309",
   "to_formatted": "(415) 867-5309",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAe1644a7eed5088b159577c5802d8be38.json",
-  "_meta": {
-    "original_snippet_path": "rest/change-call-state/example-1/example-1.6.x.py",
-    "title": "Redirect a Running Call to a New URL",
-    "type": "server"
-  },
   "method": "POST",
   "url": "http://demo.twilio.com/docs/voice.xml"
 }

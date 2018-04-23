@@ -21,10 +21,5 @@
   },
   "to": "+12316851234",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-  "_meta": {
-    "original_snippet_path": "quickstart/python/sms/example-2/send_notifications.6.x.py",
-    "title": "Send MMS using Twilio",
-    "type": "server"
-  },
   "media_url": "https://demo.twilio.com/owl.png"
 }

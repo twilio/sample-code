@@ -32,10 +32,5 @@
   "voice_fallback_method": "POST",
   "voice_fallback_url": null,
   "voice_method": "POST",
-  "voice_url": "http://demo.twilio.com/docs/voice.xml",
-  "_meta": {
-    "original_snippet_path": "rest/incoming-phone-numbers/instance-post-example-1/instance-post-example-1.6.x.py",
-    "title": "Update an IncomingPhoneNumber",
-    "type": "server"
-  }
+  "voice_url": "http://demo.twilio.com/docs/voice.xml"
 }

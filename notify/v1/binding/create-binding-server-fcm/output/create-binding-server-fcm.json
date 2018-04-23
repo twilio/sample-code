@@ -17,11 +17,5 @@
     "user": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/24987039"
   },
   "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Bindings/BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "notifications/register/create-binding-server-fcm/create-binding-server-fcm.6.x.py",
-    "testable": true,
-    "title": "Create a Binding (Server-side)",
-    "type": "server"
-  },
   "tag": "preferred device"
 }

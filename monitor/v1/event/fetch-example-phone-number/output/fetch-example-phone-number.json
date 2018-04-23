@@ -20,10 +20,5 @@
   "sid": "AE21f24380625e4aa4abec76e39b14458d",
   "source": "api",
   "source_ip_address": "10.86.6.250",
-  "url": "https://monitor.twilio.com/v1/Events/AE21f24380625e4aa4abec76e39b14458d",
-  "_meta": {
-    "original_snippet_path": "monitor/events/instance-get-example-phone-number/instance-get-example-phone-number.6.x.py",
-    "title": "Record VoiceUrl modification",
-    "type": "server"
-  }
+  "url": "https://monitor.twilio.com/v1/Events/AE21f24380625e4aa4abec76e39b14458d"
 }

@@ -7,13 +7,5 @@
   "phone_number": "+15017122661",
   "country_code": "US",
   "capabilities": [],
-  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/PhoneNumbers/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "messaging/services/service-number-get/service-number-get.6.x.py",
-    "tags": [
-      "messaging"
-    ],
-    "title": "View a Phone Number in a Messaging Service",
-    "type": "server"
-  }
+  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/PhoneNumbers/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -21,11 +21,5 @@
   "sms": null,
   "facebook_messenger": null,
   "alexa": null,
-  "_meta": {
-    "original_snippet_path": "notifications/register/send-notification/send-notification.6.x.py",
-    "testable": true,
-    "title": "Send a Notification (identity)",
-    "type": "server"
-  },
   "identity": "00000001"
 }

@@ -29,11 +29,6 @@
   "to": "+14155551212",
   "to_formatted": "(415) 555-1212",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-  "_meta": {
-    "original_snippet_path": "rest/voice/outbound-calls/example-4/example-4.6.x.py",
-    "title": "Example 4",
-    "type": "server"
-  },
   "method": "GET",
   "status_callback": "https://www.myapp.com/events",
   "status_callback_method": "POST",

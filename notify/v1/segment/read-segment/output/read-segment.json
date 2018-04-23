@@ -6,12 +6,7 @@
       "date_updated": "2017-02-14T14:36:41Z",
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "GSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "unique_name": "segment",
-      "_meta": {
-        "original_snippet_path": "notifications/rest/segments/list-segment/list-segment.6.x.py",
-        "title": "List Segments",
-        "type": "server"
-      }
+      "unique_name": "segment"
     }
   ],
   "meta": {
@@ -22,11 +17,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://notify.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Segments?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "notifications/rest/segments/list-segment/list-segment.6.x.py",
-    "title": "List Segments",
-    "type": "server"
   },
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

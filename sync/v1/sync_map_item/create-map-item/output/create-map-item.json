@@ -10,10 +10,5 @@
   "revision": "revision",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/Players/Items/key",
-  "_meta": {
-    "original_snippet_path": "sync/rest/maps/create-map-item/create-map-item.6.x.py",
-    "title": "Create a Sync Map Item",
-    "type": "server"
-  },
   "ttl": "864000"
 }

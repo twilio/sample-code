@@ -9,12 +9,7 @@
       "thumbprint": "1234567890",
       "date_created": "2016-07-30T20:00:00Z",
       "date_updated": null,
-      "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates/CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "deployed-devices/rest/certificates/list-certificates/list-certificates.6.x.py",
-        "title": "Retrieve a list of Certificates",
-        "type": "server"
-      }
+      "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates/CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {
@@ -25,11 +20,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Certificates?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "deployed-devices/rest/certificates/list-certificates/list-certificates.6.x.py",
-    "title": "Retrieve a list of Certificates",
-    "type": "server"
   },
   "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

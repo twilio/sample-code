@@ -8,10 +8,5 @@
   "direction": "from_sim",
   "sid": "DCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
   "status": "queued",
-  "url": "https://wireless.twilio.com/v1/Commands/DCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-  "_meta": {
-    "original_snippet_path": "wireless/commands/instance-get-example-1/instance-get-example-1.6.x.py",
-    "title": "Get a Command",
-    "type": "server"
-  }
+  "url": "https://wireless.twilio.com/v1/Commands/DCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 }

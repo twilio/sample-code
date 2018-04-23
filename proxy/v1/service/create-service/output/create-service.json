@@ -15,10 +15,5 @@
     "sessions": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions",
     "phone_numbers": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers",
     "short_codes": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes"
-  },
-  "_meta": {
-    "original_snippet_path": "proxy/quickstart/create-service/create-service.6.x.py",
-    "title": "Create a Service",
-    "type": "server"
   }
 }

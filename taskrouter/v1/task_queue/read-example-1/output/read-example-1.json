@@ -32,18 +32,8 @@
       "target_workers": null,
       "task_order": "FIFO",
       "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskQueues/WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "rest/taskrouter/taskqueues/list/get/example-1/example-1.6.x.py",
-        "title": "List All TaskQueues",
-        "type": "server"
-      }
+      "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
-  "_meta": {
-    "original_snippet_path": "rest/taskrouter/taskqueues/list/get/example-1/example-1.6.x.py",
-    "title": "List All TaskQueues",
-    "type": "server"
-  },
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

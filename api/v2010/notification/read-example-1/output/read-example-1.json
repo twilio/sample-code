@@ -18,12 +18,7 @@
       "request_method": null,
       "request_url": "",
       "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications/NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "rest/notification/list-get-example-1/list-get-example-1.6.x.py",
-        "title": "Filter Notifications",
-        "type": "server"
-      }
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications/NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "num_pages": 101,
@@ -33,10 +28,5 @@
   "start": 0,
   "total": 101,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json?PageSize=1&Page=0",
-  "_meta": {
-    "original_snippet_path": "rest/notification/list-get-example-1/list-get-example-1.6.x.py",
-    "title": "Filter Notifications",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

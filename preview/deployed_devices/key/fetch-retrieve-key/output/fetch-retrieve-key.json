@@ -7,10 +7,5 @@
   "secret": null,
   "date_created": "2016-07-30T20:00:00Z",
   "date_updated": null,
-  "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Keys/KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "deployed-devices/rest/keys/retrieve-key/retrieve-key.6.x.py",
-    "title": "Retrieve a Device Key",
-    "type": "server"
-  }
+  "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Keys/KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -15,12 +15,7 @@
       "packets_downloaded": 0,
       "last_updated": "2015-07-30T20:00:00Z",
       "start": "2015-07-30T20:00:00Z",
-      "end": null,
-      "_meta": {
-        "original_snippet_path": "wireless/sims-data-session/list-example-1/list-example-1.6.x.py",
-        "title": "Get SIM Data Sessions List",
-        "type": "server"
-      }
+      "end": null
     },
     {
       "sid": "WNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -37,12 +32,7 @@
       "packets_downloaded": 0,
       "last_updated": "2015-07-30T20:00:00Z",
       "start": "2015-07-30T20:00:00Z",
-      "end": "2015-07-30T20:00:00Z",
-      "_meta": {
-        "original_snippet_path": "wireless/sims-data-session/list-example-1/list-example-1.6.x.py",
-        "title": "Get SIM Data Sessions List",
-        "type": "server"
-      }
+      "end": "2015-07-30T20:00:00Z"
     }
   ],
   "meta": {
@@ -53,11 +43,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/DataSessions?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "wireless/sims-data-session/list-example-1/list-example-1.6.x.py",
-    "title": "Get SIM Data Sessions List",
-    "type": "server"
   },
   "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 }

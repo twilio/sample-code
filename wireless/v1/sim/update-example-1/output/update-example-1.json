@@ -26,11 +26,6 @@
   "voice_url": "http://www.example.com",
   "url": "https://wireless.twilio.com/v1/Sims/DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
   "ip_address": "192.168.1.30",
-  "_meta": {
-    "original_snippet_path": "wireless/sims/instance-post-example-1/instance-post-example-1.6.x.py",
-    "title": "Update a SIM",
-    "type": "server"
-  },
   "callback_method": "POST",
   "callback_url": "https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter"
 }

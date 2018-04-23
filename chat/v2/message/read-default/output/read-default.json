@@ -25,7 +25,7 @@
       "index": 0,
       "type": "text",
       "media": null,
-      "url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "sid": "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -48,7 +48,7 @@
         "content_type": "application/pdf",
         "filename": "hello.pdf"
       },
-      "url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ]
 }

@@ -22,13 +22,5 @@
     "short_codes": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes",
     "alpha_senders": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AlphaSenders"
   },
-  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a",
-  "_meta": {
-    "original_snippet_path": "messaging/services/service-get/service-get.6.x.py",
-    "tags": [
-      "messaging"
-    ],
-    "title": "View a Messaging Service",
-    "type": "server"
-  }
+  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a"
 }

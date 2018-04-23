@@ -62,10 +62,5 @@
     "total_tasks": 0
   },
   "task_queue_sid": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "rest/taskrouter/statistics/taskqueue/example-1/example-1.6.x.py",
-    "title": "Retrieving TaskQueue Statistics",
-    "type": "server"
-  }
+  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

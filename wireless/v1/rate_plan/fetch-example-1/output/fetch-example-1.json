@@ -18,10 +18,5 @@
   ],
   "international_roaming_data_limit": 1000,
   "sid": "WPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-  "url": "https://wireless.twilio.com/v1/RatePlans/WPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-  "_meta": {
-    "original_snippet_path": "wireless/rateplans/instance-get-example-1/instance-get-example-1.6.x.py",
-    "title": "Get a Rate Plan",
-    "type": "server"
-  }
+  "url": "https://wireless.twilio.com/v1/RatePlans/WPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 }

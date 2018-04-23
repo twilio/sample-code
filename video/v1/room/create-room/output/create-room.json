@@ -21,10 +21,5 @@
   "links": {
     "participants": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants",
     "recordings": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings"
-  },
-  "_meta": {
-    "original_snippet_path": "video/rest/rooms/create-room/create-room.6.x.py",
-    "title": "Create a Room called DailyStandup",
-    "type": "server"
   }
 }

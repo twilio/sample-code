@@ -4,11 +4,6 @@
   "position": 1,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queues/QU5ef8732a3c49700934481addd5ce1659/Members/CA5ef8732a3c49700934481addd5ce1659.json",
   "wait_time": 143,
-  "_meta": {
-    "original_snippet_path": "rest/member/instance-post-example-2/instance-post-example-2.6.x.py",
-    "title": "Dequeuing a Call",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "method": "POST",
   "queue_sid": "QU5ef8732a3c49700934481addd5ce1659",

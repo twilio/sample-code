@@ -32,10 +32,5 @@
   "voice_fallback_method": "POST",
   "voice_fallback_url": null,
   "voice_method": "POST",
-  "voice_url": null,
-  "_meta": {
-    "original_snippet_path": "rest/test-credentials/test-post-example-3/test-post-example-3.6.x.py",
-    "title": "Attempt to purchase an invalid number",
-    "type": "server"
-  }
+  "voice_url": null
 }

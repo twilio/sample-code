@@ -16,10 +16,5 @@
   "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "media": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
-  },
-  "_meta": {
-    "original_snippet_path": "video/rest/rooms/retrieve-room-recording/retrieve-room-recording.6.x.py",
-    "title": "Returns a representation of the Recording metadata.",
-    "type": "server"
   }
 }

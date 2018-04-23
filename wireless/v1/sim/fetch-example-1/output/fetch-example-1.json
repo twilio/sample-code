@@ -25,10 +25,5 @@
   "e_id": "e_id",
   "status": "new",
   "url": "https://wireless.twilio.com/v1/Sims/DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-  "ip_address": "192.168.1.1",
-  "_meta": {
-    "original_snippet_path": "wireless/sims/instance-get-example-1/instance-get-example-1.6.x.py",
-    "title": "Get a SIM",
-    "type": "server"
-  }
+  "ip_address": "192.168.1.1"
 }

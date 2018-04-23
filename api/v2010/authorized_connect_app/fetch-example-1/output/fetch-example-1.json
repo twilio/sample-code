@@ -10,10 +10,5 @@
   "permissions": [
     "get-all"
   ],
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AuthorizedConnectApps/CN47260e643654388faabe8aaa18ea6756.json",
-  "_meta": {
-    "original_snippet_path": "rest/authorized-connect-apps/instance-get-example-1/instance-get-example-1.6.x.py",
-    "title": "Retrieve an Authorized Connect App",
-    "type": "server"
-  }
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AuthorizedConnectApps/CN47260e643654388faabe8aaa18ea6756.json"
 }

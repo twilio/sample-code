@@ -11,10 +11,5 @@
     "sms_outbound": true,
     "voice_inbound": false
   },
-  "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "proxy/quickstart/add-phone-number/add-phone-number.6.x.py",
-    "title": "Add a Phone Number",
-    "type": "server"
-  }
+  "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

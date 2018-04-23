@@ -14,11 +14,6 @@
         "deployments": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Deployments",
         "certificates": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates",
         "keys": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Keys"
-      },
-      "_meta": {
-        "original_snippet_path": "deployed-devices/rest/fleets/list-fleets/list-fleets.6.x.py",
-        "title": "List Device Fleets",
-        "type": "server"
       }
     }
   ],
@@ -30,10 +25,5 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://preview.twilio.com/DeployedDevices/Fleets?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "deployed-devices/rest/fleets/list-fleets/list-fleets.6.x.py",
-    "title": "List Device Fleets",
-    "type": "server"
   }
 }

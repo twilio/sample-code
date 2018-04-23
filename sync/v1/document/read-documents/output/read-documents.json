@@ -14,11 +14,6 @@
       "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "links": {
         "permissions": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions"
-      },
-      "_meta": {
-        "original_snippet_path": "sync/rest/documents/list-documents/list-documents.6.x.py",
-        "title": "Retrieve a list of Documents",
-        "type": "server"
       }
     }
   ],
@@ -30,11 +25,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Documents?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "sync/rest/documents/list-documents/list-documents.6.x.py",
-    "title": "Retrieve a list of Documents",
-    "type": "server"
   },
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

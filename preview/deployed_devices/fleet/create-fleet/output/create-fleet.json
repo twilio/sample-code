@@ -12,10 +12,5 @@
     "deployments": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Deployments",
     "certificates": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates",
     "keys": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Keys"
-  },
-  "_meta": {
-    "original_snippet_path": "deployed-devices/rest/fleets/create-fleet/create-fleet.6.x.py",
-    "title": "Create a Device Fleet",
-    "type": "server"
   }
 }

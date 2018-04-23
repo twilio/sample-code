@@ -27,12 +27,7 @@
       "voice_method": "http_method",
       "voice_url": "http://www.example.com",
       "url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "ip_address": "192.168.1.30",
-      "_meta": {
-        "original_snippet_path": "wireless/sims/list-example-1/list-example-1.6.x.py",
-        "title": "List all SIMs",
-        "type": "server"
-      }
+      "ip_address": "192.168.1.30"
     }
   ],
   "meta": {
@@ -43,10 +38,5 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://wireless.twilio.com/v1/Sims?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "wireless/sims/list-example-1/list-example-1.6.x.py",
-    "title": "List all SIMs",
-    "type": "server"
   }
 }

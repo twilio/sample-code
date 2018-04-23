@@ -19,11 +19,6 @@
       "request_url": "",
       "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications/NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "rest/notification/list-get-example-3/list-get-example-3.6.x.py",
-        "title": "Filter Notifications using a Limit",
-        "type": "server"
-      },
       "message_date>": "2009-07-06"
     }
   ],
@@ -34,11 +29,6 @@
   "start": 0,
   "total": 101,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json?PageSize=1&Page=0",
-  "_meta": {
-    "original_snippet_path": "rest/notification/list-get-example-3/list-get-example-3.6.x.py",
-    "title": "Filter Notifications using a Limit",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "log": "1",
   "message_date>": "2009-07-06"

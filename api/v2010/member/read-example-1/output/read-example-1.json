@@ -14,11 +14,6 @@
       "position": 1,
       "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queues/QU5ef8732a3c49700934481addd5ce1659/Members/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
       "wait_time": 124,
-      "_meta": {
-        "original_snippet_path": "rest/member/list-get-example-1/list-get-example-1.6.x.py",
-        "title": "List all Members from a Queue",
-        "type": "server"
-      },
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "queue_sid": "QU5ef8732a3c49700934481addd5ce1659"
     }
@@ -26,11 +21,6 @@
   "start": 0,
   "total": 1,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queues/QU5ef8732a3c49700934481addd5ce1659/Members.json",
-  "_meta": {
-    "original_snippet_path": "rest/member/list-get-example-1/list-get-example-1.6.x.py",
-    "title": "List all Members from a Queue",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "queue_sid": "QU5ef8732a3c49700934481addd5ce1659"
 }

@@ -8,13 +8,5 @@
   "country_code": "US",
   "capabilities": [],
   "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "_meta": {
-    "original_snippet_path": "messaging/services/service-number-add/service-number-add.6.x.py",
-    "tags": [
-      "messaging"
-    ],
-    "title": "Add a Phone Number to a Messaging Service",
-    "type": "server"
-  },
   "phone_number_sid": "PN557ce644e5ab84fa21cc21112e22c485"
 }

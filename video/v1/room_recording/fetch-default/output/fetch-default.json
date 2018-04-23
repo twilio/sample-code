@@ -13,7 +13,7 @@
     "room_sid": "RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
   },
   "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "url": "https://video.twilio.com/v1/Rooms/RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "media": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   }

@@ -24,11 +24,6 @@
       "links": {
         "media": "https://video.twilio.com/v1/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
       },
-      "_meta": {
-        "original_snippet_path": "video/rest/recordings/list-recordings-for-room/list-recordings-for-room.6.x.py",
-        "title": "Get the list of Recordings for the specified Room",
-        "type": "server"
-      },
       "grouping_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
@@ -40,11 +35,6 @@
     "url": "https://video.twilio.com/v1/Recordings?PageSize=50&Page=0",
     "next_page_url": null,
     "key": "recordings"
-  },
-  "_meta": {
-    "original_snippet_path": "video/rest/recordings/list-recordings-for-room/list-recordings-for-room.6.x.py",
-    "title": "Get the list of Recordings for the specified Room",
-    "type": "server"
   },
   "grouping_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

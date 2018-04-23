@@ -7,13 +7,5 @@
   "short_code": "12345",
   "country_code": "US",
   "capabilities": [],
-  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/ShortCodes/SC3f94c94562ac88dccf16f8859a1a8b25",
-  "_meta": {
-    "original_snippet_path": "messaging/services/service-shortcode-get/service-shortcode-get.6.x.py",
-    "tags": [
-      "messaging"
-    ],
-    "title": "Get a Short Code to a Messaging Service",
-    "type": "server"
-  }
+  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/ShortCodes/SC3f94c94562ac88dccf16f8859a1a8b25"
 }

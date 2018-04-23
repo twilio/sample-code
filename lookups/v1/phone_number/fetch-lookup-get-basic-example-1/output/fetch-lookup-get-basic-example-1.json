@@ -21,15 +21,5 @@
     "results": {}
   },
   "url": "https://lookups.twilio.com/v1/PhoneNumbers/phone_number",
-  "_meta": {
-    "description": "Look up a phone number in the E.164 format",
-    "original_snippet_path": "lookups/lookup-get-basic-example-1/lookup-get-basic-example-1.6.x.py",
-    "tags": [
-      "lookup",
-      "phone number"
-    ],
-    "title": "Lookup with E.164 Formatted Number",
-    "type": "server"
-  },
   "type": "carrier"
 }

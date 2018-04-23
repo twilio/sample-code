@@ -31,11 +31,6 @@
       "emergency_status": "Inactive",
       "emergency_address_sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-      "_meta": {
-        "original_snippet_path": "rest/addresses/list-dependent-pns-example-1/list-dependent-pns-example-1.6.x.py",
-        "title": "List Dependent PNS Example 1",
-        "type": "server"
-      },
       "address_sid": "AD2a0747eba6abf96b7e3c3ff0b4530f6e"
     }
   ],
@@ -45,11 +40,6 @@
   "page_size": 50,
   "previous_page_uri": null,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses/AD2a0747eba6abf96b7e3c3ff0b4530f6e/DependentPhoneNumbers.json",
-  "_meta": {
-    "original_snippet_path": "rest/addresses/list-dependent-pns-example-1/list-dependent-pns-example-1.6.x.py",
-    "title": "List Dependent PNS Example 1",
-    "type": "server"
-  },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "address_sid": "AD2a0747eba6abf96b7e3c3ff0b4530f6e"
 }

@@ -20,15 +20,7 @@
       "links": {
         "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
       },
-      "url": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "fax/list-get-example/list-get-example.6.x.py",
-        "tags": [
-          "fax"
-        ],
-        "title": "Lists faxes in your Twilio account",
-        "type": "server"
-      }
+      "url": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {
@@ -39,13 +31,5 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://fax.twilio.com/v1/Faxes?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "fax/list-get-example/list-get-example.6.x.py",
-    "tags": [
-      "fax"
-    ],
-    "title": "Lists faxes in your Twilio account",
-    "type": "server"
   }
 }

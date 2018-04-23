@@ -28,10 +28,5 @@
   "total_workers": 100,
   "total_tasks": 100,
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "tasks_by_status": {},
-  "_meta": {
-    "original_snippet_path": "rest/taskrouter/statistics/workspace/realtime/example-1.6.x.py",
-    "title": "Retrieve workspace real time statistics",
-    "type": "server"
-  }
+  "tasks_by_status": {}
 }

@@ -22,12 +22,7 @@
       "sid": "AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "source": "api",
       "source_ip_address": "10.86.6.250",
-      "url": "https://monitor.twilio.com/v1/Events/AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "_meta": {
-        "original_snippet_path": "monitor/events/list-get-example-actorsid-resourcesid-error/list-get-example-actorsid-resourcesid-error.6.x.py",
-        "title": "Only use one filter property at a time!",
-        "type": "server"
-      }
+      "url": "https://monitor.twilio.com/v1/Events/AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {
@@ -38,11 +33,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://monitor.twilio.com/v1/Events?PageSize=50&Page=0"
-  },
-  "_meta": {
-    "original_snippet_path": "monitor/events/list-get-example-actorsid-resourcesid-error/list-get-example-actorsid-resourcesid-error.6.x.py",
-    "title": "Only use one filter property at a time!",
-    "type": "server"
   },
   "actor_sid": "USd0afd67cddff4ec7cb0022771a203cb1",
   "resource_sid": "PN4aa51b930717ea83c91971b86d99018f"
