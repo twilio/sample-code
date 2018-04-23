@@ -1,3 +1,0 @@
-curl -X POST https://preview.twilio.com/Verification/Services \
---data-urlencode "Name=Name" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

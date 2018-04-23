@@ -1,4 +1,0 @@
-curl -X POST https://preview.twilio.com/HostedNumbers/HostedNumberOrders \
---data-urlencode "PhoneNumber=+15017122661" \
---data-urlencode "SmsCapability=True" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

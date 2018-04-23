@@ -1,2 +1,0 @@
-curl -X GET https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -1,3 +1,0 @@
-curl -X POST https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "FriendlyName=FriendlyName" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
