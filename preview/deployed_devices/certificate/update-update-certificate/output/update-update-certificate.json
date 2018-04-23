@@ -1,0 +1,16 @@
+{
+  "sid": "CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "friendly_name": "My New Certificate",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "device_sid": "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "thumbprint": "1234567890",
+  "date_created": "2016-07-30T20:00:00Z",
+  "date_updated": "2016-07-30T20:00:00Z",
+  "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates/CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "_meta": {
+    "original_snippet_path": "deployed-devices/rest/certificates/update-certificate/update-certificate.6.x.py",
+    "title": "Update a Certificate",
+    "type": "server"
+  }
+}

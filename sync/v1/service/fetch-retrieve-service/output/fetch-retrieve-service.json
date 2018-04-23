@@ -14,5 +14,10 @@
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "webhook_url": "http://www.example.com",
   "reachability_webhooks_enabled": false,
-  "acl_enabled": false
+  "acl_enabled": false,
+  "_meta": {
+    "original_snippet_path": "sync/rest/services/retrieve-service/retrieve-service.6.x.py",
+    "title": "Retrieve a Service",
+    "type": "server"
+  }
 }

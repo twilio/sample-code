@@ -6,8 +6,14 @@
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "key": "steph_curry",
-  "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "map_sid": "Players",
   "revision": "revision",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items/key"
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/Players/Items/key",
+  "_meta": {
+    "original_snippet_path": "sync/rest/maps/create-map-item/create-map-item.6.x.py",
+    "title": "Create a Sync Map Item",
+    "type": "server"
+  },
+  "ttl": "864000"
 }

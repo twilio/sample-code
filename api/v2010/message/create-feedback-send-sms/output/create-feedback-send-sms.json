@@ -20,5 +20,11 @@
     "media": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media.json"
   },
   "to": "+15558675310",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+  "_meta": {
+    "original_snippet_path": "rest/messages/feedback-send-sms/feedback-send-sms.6.x.py",
+    "title": "Send an SMS for which to provide Feedback",
+    "type": "server"
+  },
+  "provide_feedback": true
 }

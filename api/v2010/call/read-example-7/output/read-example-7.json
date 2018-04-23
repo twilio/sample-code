@@ -28,7 +28,12 @@
       },
       "to": "sip:kevin@example.com",
       "to_formatted": "sip:kevin@example.com",
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+      "_meta": {
+        "original_snippet_path": "rest/call/list-get-example-7/list-get-example-7.6.x.py",
+        "title": "Retrieve Calls From Charlie Example",
+        "type": "server"
+      }
     }
   ],
   "end": 0,
@@ -38,5 +43,12 @@
   "page_size": 1,
   "previous_page_uri": null,
   "start": 0,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0",
+  "_meta": {
+    "original_snippet_path": "rest/call/list-get-example-7/list-get-example-7.6.x.py",
+    "title": "Retrieve Calls From Charlie Example",
+    "type": "server"
+  },
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "from": "client:charlie"
 }

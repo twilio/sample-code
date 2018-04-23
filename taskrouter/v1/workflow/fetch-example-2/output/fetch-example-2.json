@@ -15,5 +15,10 @@
     "statistics": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows/WFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Statistics",
     "real_time_statistics": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows/WFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RealTimeStatistics",
     "cumulative_statistics": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows/WFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/CumulativeStatistics"
+  },
+  "_meta": {
+    "original_snippet_path": "rest/taskrouter/workflows/instance/post/example-1/example-1.6.x.py",
+    "title": "Update a Workflow",
+    "type": "server"
   }
 }

@@ -17,7 +17,7 @@
   "identity_sid": "RIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "origin": "origin",
   "phone_number": "+15017122661",
-  "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "PN2a0747eba6abf96b7e3c3ff0b4530f6e",
   "sms_application_sid": "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sms_fallback_method": "POST",
   "sms_fallback_url": "",
@@ -26,11 +26,16 @@
   "status_callback": "",
   "status_callback_method": "POST",
   "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers/PN2a0747eba6abf96b7e3c3ff0b4530f6e.json",
   "voice_application_sid": "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "voice_caller_id_lookup": false,
   "voice_fallback_method": "POST",
   "voice_fallback_url": null,
   "voice_method": "POST",
-  "voice_url": null
+  "voice_url": null,
+  "_meta": {
+    "original_snippet_path": "rest/incoming-phone-numbers/instance-get-example-1/instance-get-example-1.6.x.py",
+    "title": "Get an IncomingPhoneNumber",
+    "type": "server"
+  }
 }

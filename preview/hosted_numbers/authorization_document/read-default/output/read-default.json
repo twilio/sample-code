@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "first_page_url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments?PageSize=50&Page=0",
+    "key": "items",
+    "next_page_url": null,
+    "page": 0,
+    "page_size": 50,
+    "previous_page_url": null,
+    "url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments?PageSize=50&Page=0"
+  },
+  "items": [
+    {
+      "address_sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "cc_emails": [
+        "test1@twilio.com",
+        "test2@twilio.com"
+      ],
+      "date_created": "2017-03-28T20:06:39Z",
+      "date_updated": "2017-03-28T20:06:39Z",
+      "email": "test+hosted@twilio.com",
+      "links": {
+        "dependent_hosted_number_orders": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DependentHostedNumberOrders"
+      },
+      "sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "status": "signing",
+      "url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    }
+  ]
+}

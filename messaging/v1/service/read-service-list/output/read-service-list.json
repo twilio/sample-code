@@ -33,7 +33,23 @@
         "short_codes": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes",
         "alpha_senders": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AlphaSenders"
       },
-      "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "_meta": {
+        "original_snippet_path": "messaging/services/service-list/service-list.6.x.py",
+        "tags": [
+          "messaging"
+        ],
+        "title": "List all Messaging Services",
+        "type": "server"
+      }
     }
-  ]
+  ],
+  "_meta": {
+    "original_snippet_path": "messaging/services/service-list/service-list.6.x.py",
+    "tags": [
+      "messaging"
+    ],
+    "title": "List all Messaging Services",
+    "type": "server"
+  }
 }

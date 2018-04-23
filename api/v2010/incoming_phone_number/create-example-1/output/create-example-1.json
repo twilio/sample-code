@@ -32,5 +32,10 @@
   "voice_fallback_method": "POST",
   "voice_fallback_url": null,
   "voice_method": "GET",
-  "voice_url": "http://demo.twilio.com/docs/voice.xml"
+  "voice_url": "http://demo.twilio.com/docs/voice.xml",
+  "_meta": {
+    "original_snippet_path": "rest/incoming-phone-numbers/list-post-example-1/list-post-example-1.6.x.py",
+    "title": "Create a New IncomingPhoneNumber",
+    "type": "server"
+  }
 }

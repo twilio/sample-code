@@ -8,7 +8,12 @@
       "friendly_name": "New Activity",
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Activities/WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "_meta": {
+        "original_snippet_path": "rest/taskrouter/activities/list/get/example-1/example-1.6.x.py",
+        "title": "List All Activities",
+        "type": "server"
+      }
     }
   ],
   "meta": {
@@ -20,5 +25,11 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Activities?PageSize=50&Page=0"
-  }
+  },
+  "_meta": {
+    "original_snippet_path": "rest/taskrouter/activities/list/get/example-1/example-1.6.x.py",
+    "title": "List All Activities",
+    "type": "server"
+  },
+  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

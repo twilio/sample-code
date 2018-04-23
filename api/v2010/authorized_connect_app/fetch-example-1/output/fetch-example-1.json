@@ -4,11 +4,16 @@
   "connect_app_description": "alksjdfl;ajseifj;alsijfl;ajself;jasjfjas;lejflj",
   "connect_app_friendly_name": "aaa",
   "connect_app_homepage_url": "http://www.google.com",
-  "connect_app_sid": "CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "connect_app_sid": "CN47260e643654388faabe8aaa18ea6756",
   "date_created": "Tue, 31 Aug 2010 20:36:28 +0000",
   "date_updated": "Tue, 31 Aug 2010 20:36:44 +0000",
   "permissions": [
     "get-all"
   ],
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AuthorizedConnectApps/CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AuthorizedConnectApps/CN47260e643654388faabe8aaa18ea6756.json",
+  "_meta": {
+    "original_snippet_path": "rest/authorized-connect-apps/instance-get-example-1/instance-get-example-1.6.x.py",
+    "title": "Retrieve an Authorized Connect App",
+    "type": "server"
+  }
 }

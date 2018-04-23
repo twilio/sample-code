@@ -11,14 +11,31 @@
   "short_codes": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a",
       "sid": "SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "2015-07-30T20:12:31Z",
       "date_updated": "2015-07-30T20:12:33Z",
       "short_code": "12345",
       "country_code": "US",
       "capabilities": [],
-      "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "_meta": {
+        "original_snippet_path": "messaging/services/service-shortcode-list/service-shortcode-list.6.x.py",
+        "tags": [
+          "messaging"
+        ],
+        "title": "List all Short Codes in a Messaging Service",
+        "type": "server"
+      }
     }
-  ]
+  ],
+  "_meta": {
+    "original_snippet_path": "messaging/services/service-shortcode-list/service-shortcode-list.6.x.py",
+    "tags": [
+      "messaging"
+    ],
+    "title": "List all Short Codes in a Messaging Service",
+    "type": "server"
+  },
+  "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a"
 }

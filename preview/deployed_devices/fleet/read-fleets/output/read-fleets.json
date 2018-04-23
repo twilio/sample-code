@@ -1,0 +1,39 @@
+{
+  "fleets": [
+    {
+      "sid": "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "unique_name": "unique_name",
+      "friendly_name": "friendly_name",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "default_deployment_sid": "DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "date_created": "2016-07-30T20:00:00Z",
+      "date_updated": null,
+      "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "links": {
+        "devices": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices",
+        "deployments": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Deployments",
+        "certificates": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates",
+        "keys": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Keys"
+      },
+      "_meta": {
+        "original_snippet_path": "deployed-devices/rest/fleets/list-fleets/list-fleets.6.x.py",
+        "title": "List Device Fleets",
+        "type": "server"
+      }
+    }
+  ],
+  "meta": {
+    "first_page_url": "https://preview.twilio.com/DeployedDevices/Fleets?PageSize=50&Page=0",
+    "key": "fleets",
+    "next_page_url": null,
+    "page": 0,
+    "page_size": 50,
+    "previous_page_url": null,
+    "url": "https://preview.twilio.com/DeployedDevices/Fleets?PageSize=50&Page=0"
+  },
+  "_meta": {
+    "original_snippet_path": "deployed-devices/rest/fleets/list-fleets/list-fleets.6.x.py",
+    "title": "List Device Fleets",
+    "type": "server"
+  }
+}

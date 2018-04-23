@@ -1,0 +1,34 @@
+{
+  "deployments": [
+    {
+      "sid": "DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "friendly_name": "friendly_name",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sync_service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "date_created": "2016-07-30T20:00:00Z",
+      "date_updated": "2016-07-30T20:00:00Z",
+      "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Deployments/DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "_meta": {
+        "original_snippet_path": "deployed-devices/rest/deployments/list-deployments/list-deployments.6.x.py",
+        "title": "Retrieve a list of Device Deployments",
+        "type": "server"
+      }
+    }
+  ],
+  "meta": {
+    "first_page_url": "https://preview.twilio.com/DeployedDevices/Fleets/FLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Deployments?PageSize=50&Page=0",
+    "key": "deployments",
+    "next_page_url": null,
+    "page": 0,
+    "page_size": 50,
+    "previous_page_url": null,
+    "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Deployments?PageSize=50&Page=0"
+  },
+  "_meta": {
+    "original_snippet_path": "deployed-devices/rest/deployments/list-deployments/list-deployments.6.x.py",
+    "title": "Retrieve a list of Device Deployments",
+    "type": "server"
+  },
+  "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}

@@ -11,12 +11,20 @@
   "price": null,
   "price_unit": null,
   "quality": null,
-  "sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
   "status": "queued",
   "to": "+14155554321",
   "duration": null,
   "links": {
     "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   },
-  "url": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://fax.twilio.com/v1/Faxes/FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "_meta": {
+    "original_snippet_path": "fax/instance-get-example/instance-get-example.6.x.py",
+    "tags": [
+      "fax"
+    ],
+    "title": "Fetch fax in your Twilio account",
+    "type": "server"
+  }
 }

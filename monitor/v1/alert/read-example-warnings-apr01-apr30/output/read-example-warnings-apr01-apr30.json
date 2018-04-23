@@ -14,7 +14,14 @@
       "request_url": "http://www.example.com",
       "resource_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "url": "http://www.example.com"
+      "url": "http://www.example.com",
+      "_meta": {
+        "original_snippet_path": "monitor/alerts/list-get-example-warnings-apr01-apr30/list-get-example-warnings-apr01-apr30.6.x.py",
+        "title": "Only warnings in a date range",
+        "type": "server"
+      },
+      "end_date": "2015-04-30",
+      "start_date": "2015-04-01"
     }
   ],
   "meta": {
@@ -25,5 +32,13 @@
     "page_size": 1,
     "previous_page_url": null,
     "url": "https://monitor.twilio.com/v1/Alerts"
-  }
+  },
+  "_meta": {
+    "original_snippet_path": "monitor/alerts/list-get-example-warnings-apr01-apr30/list-get-example-warnings-apr01-apr30.6.x.py",
+    "title": "Only warnings in a date range",
+    "type": "server"
+  },
+  "end_date": "2015-04-30",
+  "log_level": "warning",
+  "start_date": "2015-04-01"
 }

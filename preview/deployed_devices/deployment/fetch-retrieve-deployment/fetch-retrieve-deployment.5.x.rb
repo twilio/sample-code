@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 
 deployment = @client.preview.deployed_devices
                             .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                            .deployments('DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                            .deployments('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .fetch
 
 puts deployment.sid

@@ -1,10 +1,15 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "identity": "identity",
+  "map_sid": "Players",
+  "identity": "bob",
   "read": true,
   "write": true,
   "manage": true,
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions/identity"
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/Players/Permissions/identity",
+  "_meta": {
+    "original_snippet_path": "sync/rest/map-permissions/retrieve-permission/retrieve-permission.6.x.py",
+    "title": "Fetch a Map Permission by Identity",
+    "type": "server"
+  }
 }

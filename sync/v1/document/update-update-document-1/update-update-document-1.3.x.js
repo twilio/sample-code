@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .documents('MyFirstDocument')
            .update({data: {
                 date_updated: "2018-02-14 12:24:33.889341",
                 movie_title: "On The Line",

@@ -1,7 +1,12 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "identity": "identity",
+  "identity": "User0001",
   "segment": "premium",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/SegmentMemberships/segment"
+  "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/SegmentMemberships/segment",
+  "_meta": {
+    "original_snippet_path": "notifications/rest/users/add-user-to-segment/add-user-to-segment.6.x.py",
+    "title": "Add a User to a Segment",
+    "type": "server"
+  }
 }

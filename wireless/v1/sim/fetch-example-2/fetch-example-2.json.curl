@@ -1,2 +1,2 @@
-curl -X GET https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+curl -X GET https://wireless.twilio.com/v1/Sims/AliceSmithSmartMeter \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

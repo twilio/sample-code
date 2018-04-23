@@ -23,7 +23,18 @@
       ],
       "date_created": "2016-03-03T19:47:15Z",
       "date_updated": "2016-03-03T19:47:15Z",
-      "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Roles/RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Roles/RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "_meta": {
+        "original_snippet_path": "ip-messaging/rest/roles/list-roles/list-roles.6.x.py",
+        "title": "List all Roles",
+        "type": "server"
+      }
     }
-  ]
+  ],
+  "_meta": {
+    "original_snippet_path": "ip-messaging/rest/roles/list-roles/list-roles.6.x.py",
+    "title": "List all Roles",
+    "type": "server"
+  },
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

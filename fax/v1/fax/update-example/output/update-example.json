@@ -11,12 +11,20 @@
   "price": null,
   "price_unit": null,
   "quality": null,
-  "sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
   "status": "canceled",
   "to": "+14155554321",
   "duration": null,
   "links": {
     "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   },
-  "url": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://fax.twilio.com/v1/Faxes/FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "_meta": {
+    "original_snippet_path": "fax/instance-post-example/instance-post-example.6.x.py",
+    "tags": [
+      "fax"
+    ],
+    "title": "Cancel a fax",
+    "type": "server"
+  }
 }

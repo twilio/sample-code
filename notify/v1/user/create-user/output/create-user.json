@@ -12,5 +12,11 @@
   ],
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sid": "NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity"
+  "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity",
+  "_meta": {
+    "original_snippet_path": "notifications/rest/users/create-user/create-user.6.x.py",
+    "title": "Create a User",
+    "type": "server"
+  },
+  "segment": "premium"
 }

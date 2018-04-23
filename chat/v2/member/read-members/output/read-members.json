@@ -20,7 +20,19 @@
       "last_consumption_timestamp": null,
       "date_created": "2016-03-24T21:05:50Z",
       "date_updated": "2016-03-24T21:05:50Z",
-      "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Members/MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Members/MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "_meta": {
+        "original_snippet_path": "ip-messaging/rest/members/list-members/list-members.6.x.py",
+        "title": "List all Members",
+        "type": "server"
+      }
     }
-  ]
+  ],
+  "_meta": {
+    "original_snippet_path": "ip-messaging/rest/members/list-members/list-members.6.x.py",
+    "title": "List all Members",
+    "type": "server"
+  },
+  "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 
 sync_map_item = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                            .sync_map_items('key')
+                            .sync_map_items('steph_curry')
                             .fetch
 
 puts sync_map_item.key

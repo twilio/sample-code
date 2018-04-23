@@ -21,5 +21,10 @@
   "target_workers": "languages HAS \"english\"",
   "task_order": "FIFO",
   "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskQueues/WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "_meta": {
+    "original_snippet_path": "rest/taskrouter/taskqueues/instance/post/example-1/example-1.6.x.py",
+    "title": "Update a TaskQueue",
+    "type": "server"
+  }
 }

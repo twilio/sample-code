@@ -12,5 +12,10 @@
   "sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "street": "Elm Street",
   "validated": false,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses/ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses/ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+  "_meta": {
+    "original_snippet_path": "rest/addresses/instance-create-example/instance-create-example.6.x.py",
+    "title": "Instance Create Example",
+    "type": "server"
+  }
 }

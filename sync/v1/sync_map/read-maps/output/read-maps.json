@@ -14,7 +14,12 @@
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "unique_name": "unique_name",
-      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "_meta": {
+        "original_snippet_path": "sync/rest/maps/list-maps/list-maps.6.x.py",
+        "title": "Retrieve a list of Sync Maps",
+        "type": "server"
+      }
     }
   ],
   "meta": {
@@ -25,5 +30,11 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Maps?PageSize=50&Page=0"
-  }
+  },
+  "_meta": {
+    "original_snippet_path": "sync/rest/maps/list-maps/list-maps.6.x.py",
+    "title": "Retrieve a list of Sync Maps",
+    "type": "server"
+  },
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

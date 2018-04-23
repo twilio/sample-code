@@ -29,7 +29,17 @@
       ],
       "international_roaming_data_limit": 1000,
       "sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "url": "https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "_meta": {
+        "original_snippet_path": "wireless/rateplans/list-example-1/list-example-1.6.x.py",
+        "title": "List all Rate Plans",
+        "type": "server"
+      }
     }
-  ]
+  ],
+  "_meta": {
+    "original_snippet_path": "wireless/rateplans/list-example-1/list-example-1.6.x.py",
+    "title": "List all Rate Plans",
+    "type": "server"
+  }
 }

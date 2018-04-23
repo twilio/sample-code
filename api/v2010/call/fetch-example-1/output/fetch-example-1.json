@@ -17,7 +17,7 @@
   "phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "price": "-0.03000",
   "price_unit": "USD",
-  "sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "CA42ed11f93dc08b952027ffbc406d0868",
   "start_time": "Tue, 31 Aug 2010 20:36:29 +0000",
   "status": "completed",
   "subresource_uris": {
@@ -26,5 +26,10 @@
   },
   "to": "+14158675309",
   "to_formatted": "(415) 867-5309",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CA42ed11f93dc08b952027ffbc406d0868.json",
+  "_meta": {
+    "original_snippet_path": "rest/call/instance-get-example-1/instance-get-example-1.6.x.py",
+    "title": "Retrieve Call By Id Example",
+    "type": "server"
+  }
 }

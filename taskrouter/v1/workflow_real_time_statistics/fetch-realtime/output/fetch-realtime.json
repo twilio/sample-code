@@ -11,5 +11,10 @@
   },
   "workflow_sid": "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "total_tasks": 100,
-  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "_meta": {
+    "original_snippet_path": "rest/taskrouter/statistics/workflow/realtime/example-1.6.x.py",
+    "title": "Retrieve Workflow RealTime Statistics",
+    "type": "server"
+  }
 }

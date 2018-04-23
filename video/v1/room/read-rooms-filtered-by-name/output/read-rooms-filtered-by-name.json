@@ -23,6 +23,11 @@
       "links": {
         "participants": "https://video.twilio.com/v1/Rooms/RM4070b618362c1682b2385b1f9982833c/Participants",
         "recordings": "https://video.twilio.com/v1/Rooms/RM4070b618362c1682b2385b1f9982833c/Recordings"
+      },
+      "_meta": {
+        "original_snippet_path": "video/rest/rooms/list-rooms-filtered-by-name/list-rooms-filtered-by-name.6.x.py",
+        "title": "Filter the list of Rooms by their UniqueName",
+        "type": "server"
       }
     }
   ],
@@ -34,5 +39,11 @@
     "url": "https://video.twilio.com/v1/Rooms?PageSize=50&Page=0",
     "next_page_url": null,
     "key": "rooms"
-  }
+  },
+  "_meta": {
+    "original_snippet_path": "video/rest/rooms/list-rooms-filtered-by-name/list-rooms-filtered-by-name.6.x.py",
+    "title": "Filter the list of Rooms by their UniqueName",
+    "type": "server"
+  },
+  "unique_name": "DailyStandup"
 }

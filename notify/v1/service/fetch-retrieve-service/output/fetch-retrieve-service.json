@@ -22,5 +22,10 @@
     "notifications": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications",
     "segments": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Segments",
     "users": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users"
+  },
+  "_meta": {
+    "original_snippet_path": "notifications/rest/services/retrieve-service/retrieve-service.6.x.py",
+    "title": "Retrieve a Service",
+    "type": "server"
   }
 }

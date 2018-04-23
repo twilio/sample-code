@@ -9,5 +9,5 @@ client = Client(account_sid, auth_token)
 
 client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
            .sync_maps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-           .sync_map_items("key") \
+           .sync_map_items("steph_curry") \
            .delete()

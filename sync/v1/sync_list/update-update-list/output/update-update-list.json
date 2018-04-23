@@ -10,7 +10,13 @@
   },
   "revision": "revision",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "MyFirstList",
   "unique_name": "unique_name",
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/MyFirstList",
+  "_meta": {
+    "original_snippet_path": "sync/rest/lists/update-list/update-list.6.x.py",
+    "title": "Update a Sync List",
+    "type": "server"
+  },
+  "ttl": "864000"
 }

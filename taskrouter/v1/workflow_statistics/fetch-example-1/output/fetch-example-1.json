@@ -25,5 +25,10 @@
     "total_tasks": 1
   },
   "workflow_sid": "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "_meta": {
+    "original_snippet_path": "rest/taskrouter/statistics/workflow/example-1/example-1.6.x.py",
+    "title": "Retrieve Workflow Statistics",
+    "type": "server"
+  }
 }

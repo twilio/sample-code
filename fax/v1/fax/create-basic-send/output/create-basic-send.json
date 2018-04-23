@@ -18,5 +18,13 @@
   "links": {
     "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   },
-  "url": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "_meta": {
+    "original_snippet_path": "fax/basic-send/basic-send.6.x.py",
+    "tags": [
+      "fax"
+    ],
+    "title": "Send an outbound fax",
+    "type": "server"
+  }
 }

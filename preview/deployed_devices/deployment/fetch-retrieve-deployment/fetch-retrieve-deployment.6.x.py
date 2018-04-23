@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 deployment = client.preview.deployed_devices \
                            .fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                           .deployments("DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                           .deployments("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                            .fetch()
 
 print(deployment.sid)

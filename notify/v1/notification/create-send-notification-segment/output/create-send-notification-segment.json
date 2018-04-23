@@ -20,5 +20,12 @@
   "gcm": null,
   "sms": null,
   "facebook_messenger": null,
-  "alexa": null
+  "alexa": null,
+  "_meta": {
+    "original_snippet_path": "notifications/register/send-notification-segment/send-notification-segment.6.x.py",
+    "testable": true,
+    "title": "Send a Notification (segment)",
+    "type": "server"
+  },
+  "segment": "new_user"
 }

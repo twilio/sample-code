@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.transcriptions('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.transcriptions('TR8c61027b709ffb038236612dc5af8723')
       .remove()
       .then(transcription => console.log(transcription.sid))
       .done();

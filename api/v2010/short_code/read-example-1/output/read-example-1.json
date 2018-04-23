@@ -20,10 +20,21 @@
       "sms_fallback_url": null,
       "sms_method": "POST",
       "sms_url": null,
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SMS/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SMS/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+      "_meta": {
+        "original_snippet_path": "rest/short-codes/list-get-example-1/list-get-example-1.6.x.py",
+        "title": "List all ShortCodes",
+        "type": "server"
+      }
     }
   ],
   "start": 0,
   "total": 1,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SMS/ShortCodes.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SMS/ShortCodes.json",
+  "_meta": {
+    "original_snippet_path": "rest/short-codes/list-get-example-1/list-get-example-1.6.x.py",
+    "title": "List all ShortCodes",
+    "type": "server"
+  },
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

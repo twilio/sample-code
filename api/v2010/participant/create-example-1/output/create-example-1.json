@@ -1,7 +1,7 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "conference_sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "conference_sid": "AgentConf12",
   "date_created": "Fri, 18 Feb 2011 21:07:19 +0000",
   "date_updated": "Fri, 18 Feb 2011 21:07:19 +0000",
   "end_conference_on_exit": false,
@@ -9,5 +9,12 @@
   "hold": false,
   "status": "complete",
   "start_conference_on_enter": true,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/AgentConf12/Participants/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+  "_meta": {
+    "original_snippet_path": "rest/participant/list-post-example-1/list-post-example-1.6.x.py",
+    "title": "Make Outbound Conference Call",
+    "type": "server"
+  },
+  "from": "+18180021216",
+  "to": "+15624421212"
 }

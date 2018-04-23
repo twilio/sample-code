@@ -32,7 +32,20 @@
         "worker_statistics": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Statistics",
         "worker_channels": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels",
         "reservations": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Reservations"
-      }
+      },
+      "_meta": {
+        "original_snippet_path": "rest/taskrouter/workers/list/get/example-2/example-2.6.x.py",
+        "title": "List Filters",
+        "type": "server"
+      },
+      "target_workers_expression": "type == 'leads'"
     }
-  ]
+  ],
+  "_meta": {
+    "original_snippet_path": "rest/taskrouter/workers/list/get/example-2/example-2.6.x.py",
+    "title": "List Filters",
+    "type": "server"
+  },
+  "target_workers_expression": "type == 'leads'",
+  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

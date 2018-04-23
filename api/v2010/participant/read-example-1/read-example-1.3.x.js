@@ -4,6 +4,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.conferences('CFbbe4632a3c49700934481addd5ce1659')
       .participants
       .each(participants => console.log(participants.accountSid));

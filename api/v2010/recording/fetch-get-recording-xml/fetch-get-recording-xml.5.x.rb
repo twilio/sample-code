@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-recording = @client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
+recording = @client.recordings('RE557ce644e5ab84fa21cc21112e22c485').fetch
 
 puts recording.account_sid

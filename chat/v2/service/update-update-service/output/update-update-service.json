@@ -53,5 +53,10 @@
   "media": {
     "size_limit_mb": 150,
     "compatibility_message": "new media compatibility message"
+  },
+  "_meta": {
+    "original_snippet_path": "ip-messaging/rest/services/update-service/update-service.6.x.py",
+    "title": "Update a Service",
+    "type": "server"
   }
 }

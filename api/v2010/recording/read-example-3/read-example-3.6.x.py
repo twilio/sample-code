@@ -1,4 +1,5 @@
 # Download the helper library from https://www.twilio.com/docs/python/install
+from datetime import datetime
 from twilio.rest import Client
 
 
@@ -7,7 +8,8 @@ account_sid = '"ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-recordings = client.recordings.list()
+recordings = client.recordings \
+                   .list(date_created_after=datetime(2009, 7, 6, 0, 0))
 
 for record in recordings:
     print(record.sid)

@@ -9,8 +9,8 @@ auth_token = 'your_auth_token'
 
 document_permission = @client.sync
                              .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .document_permissions('identity')
+                             .documents('MyFirstDocument')
+                             .document_permissions('bob')
                              .fetch
 
 puts document_permission.account_sid

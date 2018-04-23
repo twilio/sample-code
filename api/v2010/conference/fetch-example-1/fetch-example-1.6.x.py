@@ -7,6 +7,6 @@ account_sid = '"ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-conference = client.conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
+conference = client.conferences("CFbbe46ff1274e283f7e3ac1df0072ab39").fetch()
 
 print(conference.account_sid)

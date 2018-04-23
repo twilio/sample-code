@@ -19,6 +19,11 @@
         "messages": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages",
         "invites": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Invites",
         "last_message": null
+      },
+      "_meta": {
+        "original_snippet_path": "ip-messaging/rest/channels/list-channels/list-channels.6.x.py",
+        "title": "List all Channels",
+        "type": "server"
       }
     }
   ],
@@ -30,5 +35,11 @@
     "url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels?PageSize=50&Page=0",
     "next_page_url": null,
     "key": "channels"
-  }
+  },
+  "_meta": {
+    "original_snippet_path": "ip-messaging/rest/channels/list-channels/list-channels.6.x.py",
+    "title": "List all Channels",
+    "type": "server"
+  },
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

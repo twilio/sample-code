@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .documents('MyFirstDocument')
            .fetch()
            .then(document => console.log(document.sid))
            .done();

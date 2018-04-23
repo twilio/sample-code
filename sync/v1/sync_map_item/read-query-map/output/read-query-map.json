@@ -8,10 +8,17 @@
       "date_created": "2015-07-30T20:00:00Z",
       "date_updated": "2015-07-30T20:00:00Z",
       "key": "key",
-      "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "map_sid": "Players",
       "revision": "revision",
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items/key"
+      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/Players/Items/key",
+      "_meta": {
+        "original_snippet_path": "sync/rest/maps/query-map/query-map.6.x.py",
+        "title": "Query a Sync Map",
+        "type": "server"
+      },
+      "from": "steph_curry",
+      "order": "asc"
     }
   ],
   "meta": {
@@ -22,5 +29,14 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Maps/MPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Items?PageSize=50&Page=0"
-  }
+  },
+  "_meta": {
+    "original_snippet_path": "sync/rest/maps/query-map/query-map.6.x.py",
+    "title": "Query a Sync Map",
+    "type": "server"
+  },
+  "from": "steph_curry",
+  "map_sid": "Players",
+  "order": "asc",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

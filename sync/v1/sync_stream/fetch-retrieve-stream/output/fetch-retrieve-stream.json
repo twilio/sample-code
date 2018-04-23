@@ -8,7 +8,12 @@
     "messages": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Streams/TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages"
   },
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "MyStream",
   "unique_name": "unique_name",
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Streams/TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Streams/MyStream",
+  "_meta": {
+    "original_snippet_path": "sync/rest/streams/retrieve-stream/retrieve-stream.6.x.py",
+    "title": "Retrieve a Message Stream",
+    "type": "server"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "conference_sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "call_sid": "CA386025c9bf5d6052a1d1ea42b4d16662",
+  "conference_sid": "CFbbe4632a3c49700934481addd5ce1659",
   "date_created": "Fri, 18 Feb 2011 21:07:19 +0000",
   "date_updated": "Fri, 18 Feb 2011 21:07:19 +0000",
   "end_conference_on_exit": false,
@@ -9,5 +9,10 @@
   "hold": false,
   "status": "complete",
   "start_conference_on_enter": true,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFbbe4632a3c49700934481addd5ce1659/Participants/CA386025c9bf5d6052a1d1ea42b4d16662.json",
+  "_meta": {
+    "original_snippet_path": "rest/participant/instance-get-example-1/instance-get-example-1.6.x.py",
+    "title": "Retrieve a participant",
+    "type": "server"
+  }
 }

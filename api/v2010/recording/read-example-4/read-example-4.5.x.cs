@@ -2,6 +2,7 @@
 
 using System;
 using Twilio;
+using Twilio.Converters;
 using Twilio.Rest.Api.V2010.Account;
 
 
@@ -16,6 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var recordings = RecordingResource.Read(
+            dateCreatedBefore: new DateTime(2016, 10, 15, 0, 0, 0),
+            dateCreatedAfter: new DateTime(2016, 10, 12, 0, 0, 0),
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

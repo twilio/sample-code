@@ -1,11 +1,20 @@
 {
   "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a",
   "date_created": "2015-07-30T20:12:31Z",
   "date_updated": "2015-07-30T20:12:33Z",
   "phone_number": "+15017122661",
   "country_code": "US",
   "capabilities": [],
-  "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "_meta": {
+    "original_snippet_path": "messaging/services/service-multiple-number-add/service-multiple-number-add.6.x.py",
+    "tags": [
+      "messaging"
+    ],
+    "title": "Add multiple phone numbers to Messaging Services",
+    "type": "server"
+  },
+  "phone_number_sid": "PN2a0747eba6abf96b7e3c3ff0b4530f6e"
 }

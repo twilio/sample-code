@@ -1,0 +1,15 @@
+{
+  "sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "friendly_name": "friendly_name",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sync_service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created": "2016-07-30T20:00:00Z",
+  "date_updated": "2016-07-30T20:00:00Z",
+  "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Deployments/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "_meta": {
+    "original_snippet_path": "deployed-devices/rest/deployments/retrieve-deployment/retrieve-deployment.6.x.py",
+    "title": "Retrieve a Device Deployment",
+    "type": "server"
+  }
+}

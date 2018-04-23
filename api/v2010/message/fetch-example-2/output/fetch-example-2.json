@@ -14,11 +14,16 @@
   "num_segments": "1",
   "price": "-0.00750",
   "price_unit": "USD",
-  "sid": "MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "SM800f449d0399ed014aae2bcc0cc2f2ec",
   "status": "sent",
   "subresource_uris": {
     "media": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media.json"
   },
   "to": "+14155552345",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+  "_meta": {
+    "original_snippet_path": "rest/sms/instance-get-example-1/instance-get-example-1.6.x.py",
+    "title": "Retrieve an SMS",
+    "type": "server"
+  }
 }

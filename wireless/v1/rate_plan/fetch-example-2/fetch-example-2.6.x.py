@@ -7,7 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-rate_plan = client.wireless.rate_plans("WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                           .fetch()
+rate_plan = client.wireless.rate_plans("us-automotive").fetch()
 
 print(rate_plan.sid)

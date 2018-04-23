@@ -17,6 +17,11 @@
     "voice"
   ],
   "international_roaming_data_limit": 1000,
-  "sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "sid": "us-automotive",
+  "url": "https://wireless.twilio.com/v1/RatePlans/us-automotive",
+  "_meta": {
+    "original_snippet_path": "wireless/rateplans/instance-get-example-2/instance-get-example-2.6.x.py",
+    "title": "Get a Rate Plan by UniqueName",
+    "type": "server"
+  }
 }

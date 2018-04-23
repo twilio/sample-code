@@ -7,7 +7,7 @@ account_sid = '"ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-notification = client.notifications("NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+notification = client.notifications("NO5a7a84730f529f0a76b3e30c01315d1a") \
                      .fetch()
 
 print(notification.account_sid)

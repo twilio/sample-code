@@ -1,7 +1,7 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "assignment_activity_name": "817ca1c5-3a05-11e5-9292-98e0d9a1eb73",
-  "assignment_activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "assignment_activity_sid": "WA21d51f4c72583766988f9860de3e130a",
   "date_created": "2015-08-04T01:31:41Z",
   "date_updated": "2015-08-04T01:31:41Z",
   "friendly_name": "English",
@@ -16,10 +16,15 @@
     "list_statistics": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskQueues/Statistics"
   },
   "reservation_activity_name": "80fa2beb-3a05-11e5-8fc8-98e0d9a1eb73",
-  "reservation_activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "reservation_activity_sid": "WAea296a56ebce4bfbff0e99abadf16934",
   "sid": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "target_workers": "languages HAS \"english\"",
   "task_order": "FIFO",
   "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskQueues/WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "_meta": {
+    "original_snippet_path": "rest/taskrouter/taskqueues/list/post/example-1/example-1.6.x.py",
+    "title": "Create a TaskQueue",
+    "type": "server"
+  }
 }

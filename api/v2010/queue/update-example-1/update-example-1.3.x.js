@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.queues('QU32a3c49700934481addd5ce1659f04d2')
       .update({maxSize: 123})
       .then(queue => console.log(queue.accountSid))
       .done();

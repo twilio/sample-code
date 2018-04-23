@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-room = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
+room = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
 print(room.sid)

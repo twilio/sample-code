@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sync_stream = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                         .sync_streams("TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                         .sync_streams("MyStream") \
                          .update(ttl=864000)
 
 print(sync_stream.sid)

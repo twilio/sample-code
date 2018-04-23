@@ -7,10 +7,15 @@
   "date_updated": "2015-07-30T20:00:00Z",
   "revision": "revision",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "MyFirstDocument",
   "unique_name": "unique_name",
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/MyFirstDocument",
   "links": {
     "permissions": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions"
+  },
+  "_meta": {
+    "original_snippet_path": "sync/rest/documents/update-document/update-document.6.x.py",
+    "title": "Update a Document",
+    "type": "server"
   }
 }

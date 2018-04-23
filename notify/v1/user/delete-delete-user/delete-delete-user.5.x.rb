@@ -8,5 +8,5 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .users('NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .users('User0001')
               .delete

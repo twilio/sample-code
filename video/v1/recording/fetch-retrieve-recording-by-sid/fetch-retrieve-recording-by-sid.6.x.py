@@ -7,7 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-recording = client.video.recordings("RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                        .fetch()
+recording = client.video.recordings("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
 print(recording.account_sid)

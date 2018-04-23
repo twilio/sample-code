@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.applications('APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.applications('AP2a0747eba6abf96b7e3c3ff0b4530f6e')
       .update({
          smsUrl: 'http://demo.twilio.com/docs/sms.xml',
          voiceUrl: 'http://demo.twilio.com/docs/voice.xml'

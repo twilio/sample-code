@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.fax.faxes('FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')
           .fetch()
           .then(fax => console.log(fax.sid))
           .done();

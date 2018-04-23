@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 sync_map_item = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .sync_maps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .sync_map_items("key") \
+    .sync_map_items("steph_curry") \
     .update(
          data={"name": "Stephen Curry", "level": 31, "username": "spicy_curry"}
      )

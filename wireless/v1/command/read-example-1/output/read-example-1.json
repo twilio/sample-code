@@ -10,7 +10,12 @@
       "direction": "from_sim",
       "sid": "DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "status": "queued",
-      "url": "https://wireless.twilio.com/v1/Commands/DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://wireless.twilio.com/v1/Commands/DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "_meta": {
+        "original_snippet_path": "wireless/commands/list-example-1/list-example-1.6.x.py",
+        "title": "List all Commands in the account",
+        "type": "server"
+      }
     }
   ],
   "meta": {
@@ -21,5 +26,10 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://wireless.twilio.com/v1/Commands?PageSize=50&Page=0"
+  },
+  "_meta": {
+    "original_snippet_path": "wireless/commands/list-example-1/list-example-1.6.x.py",
+    "title": "List all Commands in the account",
+    "type": "server"
   }
 }

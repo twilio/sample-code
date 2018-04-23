@@ -8,5 +8,5 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-           .documents("ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+           .documents("MyFirstDocument") \
            .delete()

@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-sim = @client.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
+sim = @client.wireless.sims('AliceSmithSmartMeter').fetch
 
 puts sim.sid

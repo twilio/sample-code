@@ -4,7 +4,7 @@
   "date_updated": "2015-07-30T20:00:00Z",
   "status": "in-progress",
   "type": "peer-to-peer",
-  "sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "DailyStandup",
   "enable_turn": true,
   "unique_name": "unique_name",
   "max_participants": 10,
@@ -17,9 +17,14 @@
   ],
   "media_region": "us1",
   "end_time": "2015-07-30T20:00:00Z",
-  "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://video.twilio.com/v1/Rooms/DailyStandup",
   "links": {
     "participants": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants",
     "recordings": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings"
+  },
+  "_meta": {
+    "original_snippet_path": "video/rest/rooms/retrieve-room-by-unique-name/retrieve-room-by-unique-name.6.x.py",
+    "title": "Retrieve an in-progress Room instance by UniqueName",
+    "type": "server"
   }
 }

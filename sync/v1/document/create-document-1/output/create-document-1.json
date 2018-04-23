@@ -12,5 +12,11 @@
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "permissions": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions"
-  }
+  },
+  "_meta": {
+    "original_snippet_path": "sync/rest/documents/create-document/create-document.6.x.py",
+    "title": "Create a Document",
+    "type": "server"
+  },
+  "ttl": "1814400"
 }

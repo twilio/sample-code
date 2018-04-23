@@ -6,5 +6,10 @@
   "friendly_name": "another_name",
   "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Activities/WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "_meta": {
+    "original_snippet_path": "rest/taskrouter/activities/instance/post/example-1/example-1.6.x.py",
+    "title": "Update an Activity",
+    "type": "server"
+  }
 }

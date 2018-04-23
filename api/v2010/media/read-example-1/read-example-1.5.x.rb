@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-media = @client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').media.list
+media = @client.messages('MM800f449d0399ed014aae2bcc0cc2f2ec').media.list
 
 media.each do |record|
   puts record.sid

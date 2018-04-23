@@ -35,7 +35,17 @@
       "sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "timeout_activity_name": "Offline",
       "timeout_activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "_meta": {
+        "original_snippet_path": "rest/taskrouter/workspaces/list/get/example-1/example-1.6.x.py",
+        "title": "List All Workspaces",
+        "type": "server"
+      }
     }
-  ]
+  ],
+  "_meta": {
+    "original_snippet_path": "rest/taskrouter/workspaces/list/get/example-1/example-1.6.x.py",
+    "title": "List All Workspaces",
+    "type": "server"
+  }
 }

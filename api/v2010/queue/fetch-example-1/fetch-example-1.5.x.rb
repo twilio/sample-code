@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-queue = @client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
+queue = @client.queues('QU5ef8732a3c49700934481addd5ce1659').fetch
 
 puts queue.account_sid

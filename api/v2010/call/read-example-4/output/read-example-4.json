@@ -28,7 +28,14 @@
       },
       "to": "sip:kevin@example.com",
       "to_formatted": "sip:kevin@example.com",
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+      "_meta": {
+        "original_snippet_path": "rest/call/list-get-example-4/list-get-example-4.6.x.py",
+        "title": "Retrieve Completed Calls in Period Example",
+        "type": "server"
+      },
+      "start_time<": "2009-07-06T00:00:00Z",
+      "start_time>": "2009-07-04T00:00:00Z"
     }
   ],
   "end": 0,
@@ -38,5 +45,14 @@
   "page_size": 1,
   "previous_page_uri": null,
   "start": 0,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0",
+  "_meta": {
+    "original_snippet_path": "rest/call/list-get-example-4/list-get-example-4.6.x.py",
+    "title": "Retrieve Completed Calls in Period Example",
+    "type": "server"
+  },
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "start_time<": "2009-07-06T00:00:00Z",
+  "start_time>": "2009-07-04T00:00:00Z",
+  "status": "in-progress"
 }

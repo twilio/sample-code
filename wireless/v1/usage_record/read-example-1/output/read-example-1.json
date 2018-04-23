@@ -4,15 +4,25 @@
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "commands": {},
       "data": {},
-      "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "period": {}
+      "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "period": {},
+      "_meta": {
+        "original_snippet_path": "wireless/sims-usage-record/list-example-1/list-example-1.6.x.py",
+        "title": "Get SIM Usage Records List",
+        "type": "server"
+      }
     },
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "commands": {},
       "data": {},
-      "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "period": {}
+      "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "period": {},
+      "_meta": {
+        "original_snippet_path": "wireless/sims-usage-record/list-example-1/list-example-1.6.x.py",
+        "title": "Get SIM Usage Records List",
+        "type": "server"
+      }
     }
   ],
   "meta": {
@@ -23,5 +33,11 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/UsageRecords?PageSize=50&Page=0"
-  }
+  },
+  "_meta": {
+    "original_snippet_path": "wireless/sims-usage-record/list-example-1/list-example-1.6.x.py",
+    "title": "Get SIM Usage Records List",
+    "type": "server"
+  },
+  "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 }

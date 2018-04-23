@@ -28,5 +28,13 @@
   },
   "to": "sip:kate@example.com",
   "to_formatted": "sip:kate@example.com",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+  "_meta": {
+    "original_snippet_path": "rest/sip/example-2/example-2.6.x.py",
+    "title": "example-2",
+    "type": "server"
+  },
+  "sip_auth_password": "secret",
+  "sip_auth_username": "jack",
+  "url": "http://www.example.com/sipdial.xml"
 }

@@ -17,5 +17,10 @@
   "links": {
     "interactions": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Interactions",
     "participants": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants"
+  },
+  "_meta": {
+    "original_snippet_path": "proxy/quickstart/create-session/create-session.6.x.py",
+    "title": "Create a Session",
+    "type": "server"
   }
 }

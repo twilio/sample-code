@@ -1,2 +1,2 @@
-curl -X GET https://monitor.twilio.com/v1/Events/AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+curl -X GET https://monitor.twilio.com/v1/Events/AE21f24380625e4aa4abec76e39b14458d \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -28,5 +28,10 @@
     "messages": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages.json"
   },
   "type": "Full",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+  "_meta": {
+    "original_snippet_path": "rest/accounts/instance-get-example-1/instance-get-example-1.6.x.py",
+    "title": "Get Account Details",
+    "type": "server"
+  }
 }

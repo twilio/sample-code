@@ -1,0 +1,34 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "address_sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "call_delay": 15,
+  "capabilities": {
+    "sms": true,
+    "voice": false
+  },
+  "cc_emails": [
+    "test1@twilio.com",
+    "test2@twilio.com"
+  ],
+  "date_created": "2017-03-28T20:06:39Z",
+  "date_updated": "2017-03-28T20:06:39Z",
+  "email": "test+hosted@twilio.com",
+  "extension": "1234",
+  "failure_reason": "",
+  "friendly_name": "new friendly name",
+  "incoming_phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "phone_number": "+15017122661",
+  "sid": "HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "signing_document_sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "status": "pending-loa",
+  "unique_name": "new unique name",
+  "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "verification_attempts": 1,
+  "verification_call_sids": [
+    "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+  ],
+  "verification_code": "8794",
+  "verification_document_sid": "RIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "verification_type": "phone-call"
+}

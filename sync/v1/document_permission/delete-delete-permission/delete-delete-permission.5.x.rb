@@ -8,6 +8,6 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .document_permissions('identity')
+            .documents('MyFirstDocument')
+            .document_permissions('bob')
             .delete

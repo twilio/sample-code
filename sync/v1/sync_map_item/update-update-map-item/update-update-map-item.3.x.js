@@ -6,7 +6,7 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .syncMapItems('key')
+           .syncMapItems('steph_curry')
            .update({data: {
                 name: "Stephen Curry",
                 level: "31",

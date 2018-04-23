@@ -34,5 +34,10 @@
   "media": {
     "size_limit_mb": 150,
     "compatibility_message": "media compatibility message"
+  },
+  "_meta": {
+    "original_snippet_path": "ip-messaging/rest/services/create-service/create-service.6.x.py",
+    "title": "Create a Service",
+    "type": "server"
   }
 }
