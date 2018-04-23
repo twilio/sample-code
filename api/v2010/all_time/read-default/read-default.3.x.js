@@ -4,4 +4,4 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.usage.records.allTime.each(allTime => console.log(allTime.apiVersion));
+client.usage.records.allTime.each(allTime => console.log(allTime.category));

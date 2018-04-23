@@ -20,6 +20,6 @@ class Program
             pathSid: "TR8c61027b709ffb038236612dc5af8723"
         );
 
-        Console.WriteLine(transcription.ApiVersion);
+        Console.WriteLine(transcription.DateCreated);
     }
 }

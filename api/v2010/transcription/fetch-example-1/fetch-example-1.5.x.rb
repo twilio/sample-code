@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 transcription = @client.transcriptions('TR8c61027b709ffb038236612dc5af8723')
                        .fetch
 
-puts transcription.api_version
+puts transcription.date_created

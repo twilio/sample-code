@@ -11,7 +11,7 @@
   },
   "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "unique_name",
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
   "webhook_url": "http://www.example.com",
   "reachability_webhooks_enabled": false,
   "acl_enabled": true

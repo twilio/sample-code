@@ -10,5 +10,5 @@ auth_token = 'your_auth_token'
 last_month = @client.usage.records.last_month.list
 
 last_month.each do |record|
-  puts record.api_version
+  puts record.category
 end

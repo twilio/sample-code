@@ -17,5 +17,5 @@ $lastMonth = $twilio->usage
                     ->read();
 
 foreach ($lastMonth as $record) {
-    print($record->apiVersion);
+    print($record->category);
 }

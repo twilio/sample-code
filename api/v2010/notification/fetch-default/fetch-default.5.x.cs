@@ -20,6 +20,6 @@ class Program
             pathSid: "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(notification.ApiVersion);
+        Console.WriteLine(notification.CallSid);
     }
 }

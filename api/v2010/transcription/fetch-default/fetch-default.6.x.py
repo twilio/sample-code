@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 transcription = client.transcriptions("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .fetch()
 
-print(transcription.api_version)
+print(transcription.date_created)

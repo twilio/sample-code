@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 records = client.usage.records.list()
 
 for record in records:
-    print(record.api_version)
+    print(record.category)

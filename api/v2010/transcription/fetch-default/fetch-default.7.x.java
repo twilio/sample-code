@@ -14,6 +14,6 @@ public class Example {
             Transcription.fetcher("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(transcription.getApiVersion());
+        System.out.println(transcription.getDateCreated());
     }
 }

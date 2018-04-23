@@ -21,7 +21,7 @@ class Program
 
         foreach(var record in yearly)
         {
-           Console.WriteLine(record.ApiVersion);
+           Console.WriteLine(record.Category);
         }
     }
 }

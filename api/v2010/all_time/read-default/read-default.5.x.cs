@@ -21,7 +21,7 @@ class Program
 
         foreach(var record in allTime)
         {
-           Console.WriteLine(record.ApiVersion);
+           Console.WriteLine(record.Category);
         }
     }
 }

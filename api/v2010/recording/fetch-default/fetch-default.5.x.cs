@@ -20,6 +20,6 @@ class Program
             pathSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(recording.ApiVersion);
+        Console.WriteLine(recording.CallSid);
     }
 }

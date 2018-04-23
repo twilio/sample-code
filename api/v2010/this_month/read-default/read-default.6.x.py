@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 this_month = client.usage.records.this_month.list()
 
 for record in this_month:
-    print(record.api_version)
+    print(record.category)

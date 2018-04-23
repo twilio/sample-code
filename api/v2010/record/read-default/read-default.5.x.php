@@ -16,5 +16,5 @@ $records = $twilio->usage
                   ->read();
 
 foreach ($records as $record) {
-    print($record->apiVersion);
+    print($record->category);
 }

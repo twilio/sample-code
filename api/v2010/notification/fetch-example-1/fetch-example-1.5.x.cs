@@ -20,6 +20,6 @@ class Program
             pathSid: "NO5a7a84730f529f0a76b3e30c01315d1a"
         );
 
-        Console.WriteLine(notification.ApiVersion);
+        Console.WriteLine(notification.CallSid);
     }
 }

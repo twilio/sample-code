@@ -17,5 +17,5 @@ $daily = $twilio->usage
                 ->read();
 
 foreach ($daily as $record) {
-    print($record->apiVersion);
+    print($record->category);
 }

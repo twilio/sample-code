@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.transcriptions('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .fetch()
-      .then(transcription => console.log(transcription.apiVersion))
+      .then(transcription => console.log(transcription.dateCreated))
       .done();

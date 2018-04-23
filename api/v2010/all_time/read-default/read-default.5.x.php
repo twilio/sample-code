@@ -17,5 +17,5 @@ $allTime = $twilio->usage
                   ->read();
 
 foreach ($allTime as $record) {
-    print($record->apiVersion);
+    print($record->category);
 }

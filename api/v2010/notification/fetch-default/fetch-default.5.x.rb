@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 notification = @client.notifications('NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .fetch
 
-puts notification.api_version
+puts notification.call_sid
