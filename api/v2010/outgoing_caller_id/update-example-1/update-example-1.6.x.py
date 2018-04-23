@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 outgoing_caller_id = client \
-    .outgoing_caller_ids("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .outgoing_caller_ids("PNe536d32a3c49700934481addd5ce1659") \
     .update(friendly_name="My Second Line")
 
 print(outgoing_caller_id.sid)

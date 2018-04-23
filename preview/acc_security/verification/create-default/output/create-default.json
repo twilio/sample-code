@@ -1,0 +1,11 @@
+{
+  "sid": "VEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "to": "+15558675310",
+  "channel": "sms",
+  "status": "pending",
+  "valid": null,
+  "date_created": "2015-07-30T20:00:00Z",
+  "date_updated": "2015-07-30T20:00:00Z"
+}

@@ -9,5 +9,5 @@ auth_token = 'your_auth_token'
 
 @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .members('MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+            .members('IDENTITY')
             .delete

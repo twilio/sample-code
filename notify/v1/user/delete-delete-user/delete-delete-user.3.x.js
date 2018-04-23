@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-             .users('NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+             .users('User0001')
              .remove()
              .then(user => console.log(user.sid))
              .done();

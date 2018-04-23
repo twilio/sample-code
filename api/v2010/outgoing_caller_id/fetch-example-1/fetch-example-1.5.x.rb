@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 outgoing_caller_id = @client
-  .outgoing_caller_ids('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  .outgoing_caller_ids('PNe905d7e6b410746a0fb08c57e5a186f3')
   .fetch
 
 puts outgoing_caller_id.sid

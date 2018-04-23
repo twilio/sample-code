@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .syncLists('MyCollection')
            .syncListItems
            .each(syncListItems => console.log(syncListItems.index));

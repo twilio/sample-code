@@ -38,5 +38,8 @@
   "page_size": 1,
   "previous_page_uri": null,
   "start": 0,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "status": "busy",
+  "to": "+15558675310"
 }

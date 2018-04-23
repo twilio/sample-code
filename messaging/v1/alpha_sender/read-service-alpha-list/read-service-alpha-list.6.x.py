@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 alpha_senders = client.messaging \
-                      .services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                      .services("MG2172dd2db502e20dd981ef0d67850e1a") \
                       .alpha_senders \
                       .list()
 

@@ -3,12 +3,12 @@
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "map_sid": "Players",
       "identity": "identity",
       "read": true,
       "write": true,
       "manage": true,
-      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions/identity"
+      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/Players/Permissions/identity"
     }
   ],
   "meta": {
@@ -19,5 +19,7 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Maps/sidOrUniqueName/Permissions?PageSize=50&Page=0"
-  }
+  },
+  "map_sid": "Players",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -34,5 +34,6 @@
     "url": "https://video.twilio.com/v1/Recordings?PageSize=50&Page=0",
     "next_page_url": null,
     "key": "recordings"
-  }
+  },
+  "status": "deleted"
 }

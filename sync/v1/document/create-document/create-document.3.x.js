@@ -4,10 +4,9 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .documents
-           .create({data: {
-                led: "OFF"
-            }, uniqueName: 'BoardLED'})
-           .then(document => console.log(document.sid))
-           .done();
+client.sync.services('default').documents
+                               .create({data: {
+                                    led: "OFF"
+                                }, uniqueName: 'BoardLED'})
+                               .then(document => console.log(document.sid))
+                               .done();

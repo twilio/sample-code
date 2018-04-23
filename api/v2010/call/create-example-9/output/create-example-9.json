@@ -28,5 +28,8 @@
   },
   "to": "sip:kate@example.com",
   "to_formatted": "sip:kate@example.com",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+  "sip_auth_password": "secret",
+  "sip_auth_username": "jack",
+  "url": "http://www.example.com/sipdial.xml"
 }

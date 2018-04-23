@@ -5,8 +5,8 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .syncListItems(1)
+           .syncLists('MyCollection')
+           .syncListItems(0)
            .update({data: {
                 number: "001",
                 name: "Bulbasaur",

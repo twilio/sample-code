@@ -4,12 +4,12 @@
   "date_created": "Fri, 18 Feb 2011 19:26:50 +0000",
   "date_updated": "Fri, 18 Feb 2011 19:27:33 +0000",
   "friendly_name": "AHH YEAH",
-  "sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "CFbbe46ff1274e283f7e3ac1df0072ab39",
   "region": "us1",
   "status": "completed",
   "subresource_uris": {
     "participants": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants.json",
     "recordings": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json"
   },
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFbbe46ff1274e283f7e3ac1df0072ab39.json"
 }

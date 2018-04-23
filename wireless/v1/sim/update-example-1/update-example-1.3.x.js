@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.wireless.sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
   .update({
      callbackMethod: 'POST',
      callbackUrl: 'https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter',

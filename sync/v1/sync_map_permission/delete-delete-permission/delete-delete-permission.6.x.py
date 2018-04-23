@@ -9,5 +9,5 @@ client = Client(account_sid, auth_token)
 
 client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
            .sync_maps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-           .sync_map_permissions("identity") \
+           .sync_map_permissions("bob") \
            .delete()

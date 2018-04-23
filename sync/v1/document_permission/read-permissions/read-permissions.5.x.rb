@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 
 document_permissions = @client.sync
                               .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                              .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                              .documents('MyFirstDocument')
                               .document_permissions
                               .list
 

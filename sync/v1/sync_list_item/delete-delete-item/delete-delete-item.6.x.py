@@ -8,6 +8,6 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-           .sync_lists("ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-           .sync_list_items(1) \
+           .sync_lists("MyCollection") \
+           .sync_list_items(0) \
            .delete()

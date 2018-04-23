@@ -9,5 +9,5 @@ auth_token = 'your_auth_token'
 
 @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .users('NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .segment_memberships('segment')
+              .segment_memberships('premium')
               .delete

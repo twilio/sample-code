@@ -7,7 +7,7 @@ account_sid = '"ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-queue = client.queues("QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+queue = client.queues("QU32a3c49700934481addd5ce1659f04d2") \
               .update(max_size=123)
 
 print(queue.account_sid)

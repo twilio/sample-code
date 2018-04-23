@@ -7,8 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-participant = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                     .participants
-                     .create(from: '+18180021216', to: '+15624421212')
+participant = @client.conferences('AgentConf12').participants
+                                                .create(
+                                                   from: '+18180021216',
+                                                   to: '+15624421212'
+                                                 )
 
 puts participant.account_sid

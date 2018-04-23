@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 document = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                       .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                       .documents('MyFirstDocument')
                        .fetch
 
 puts document.sid

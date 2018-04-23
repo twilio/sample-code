@@ -9,5 +9,5 @@ client = Client(account_sid, auth_token)
 
 client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
              .users("NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-             .segment_memberships("segment") \
+             .segment_memberships("premium") \
              .delete()

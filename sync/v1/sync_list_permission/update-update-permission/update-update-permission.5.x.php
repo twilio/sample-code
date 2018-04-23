@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $sync_list_permission = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                         ->syncLists("ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                         ->syncLists("MyFirstList")
                                          ->syncListPermissions("bob")
                                          ->update(True, False, False);
 

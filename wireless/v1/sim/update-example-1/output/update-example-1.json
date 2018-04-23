@@ -12,7 +12,7 @@
     "usage_records": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/UsageRecords"
   },
   "rate_plan_sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
   "iccid": "iccid",
   "e_id": "e_id",
   "status": "active",
@@ -24,6 +24,8 @@
   "voice_fallback_url": "http://www.example.com",
   "voice_method": "http_method",
   "voice_url": "http://www.example.com",
-  "url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "ip_address": "192.168.1.30"
+  "url": "https://wireless.twilio.com/v1/Sims/DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "ip_address": "192.168.1.30",
+  "callback_method": "POST",
+  "callback_url": "https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter"
 }

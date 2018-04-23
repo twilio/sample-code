@@ -1,0 +1,16 @@
+{
+  "address_sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "cc_emails": [
+    "aaa@twilio.com",
+    "bbb@twilio.com"
+  ],
+  "date_created": "2017-03-28T20:06:39Z",
+  "date_updated": "2017-03-28T20:06:39Z",
+  "email": "test@twilio.com",
+  "links": {
+    "dependent_hosted_number_orders": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DependentHostedNumberOrders"
+  },
+  "sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "status": "signing",
+  "url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}

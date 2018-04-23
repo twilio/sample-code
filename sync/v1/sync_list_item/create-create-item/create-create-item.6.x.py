@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sync_list_item = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .sync_lists("ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .sync_lists("MyCollection") \
     .sync_list_items \
     .create(
          ttl=864000,

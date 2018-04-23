@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 user = @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                     .users('NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                     .users('User0001')
                      .fetch
 
 puts user.sid

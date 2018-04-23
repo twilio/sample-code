@@ -25,9 +25,9 @@
       "sid": "UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "trigger_by": "price",
       "trigger_value": "50",
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Triggers/UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Usage/Triggers/UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "usage_category": "totalprice",
-      "usage_record_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records?Category=totalprice"
+      "usage_record_uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Usage/Records?Category=totalprice"
     }
   ]
 }

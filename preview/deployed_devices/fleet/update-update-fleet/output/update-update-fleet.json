@@ -1,0 +1,16 @@
+{
+  "sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "unique_name": "unique_name",
+  "friendly_name": "My New Fleet of Devices",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "default_deployment_sid": "DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created": "2016-07-30T20:00:00Z",
+  "date_updated": "2016-07-30T20:00:00Z",
+  "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "links": {
+    "devices": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices",
+    "deployments": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Deployments",
+    "certificates": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates",
+    "keys": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Keys"
+  }
+}

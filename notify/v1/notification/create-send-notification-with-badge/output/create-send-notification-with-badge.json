@@ -20,5 +20,6 @@
   "gcm": null,
   "sms": null,
   "facebook_messenger": null,
-  "alexa": null
+  "alexa": null,
+  "identity": "00000001"
 }

@@ -7,4 +7,4 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-@client.wireless.rate_plans('WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').delete
+@client.wireless.rate_plans('WPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA').delete

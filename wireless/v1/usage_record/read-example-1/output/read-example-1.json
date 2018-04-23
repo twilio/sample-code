@@ -4,14 +4,14 @@
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "commands": {},
       "data": {},
-      "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
       "period": {}
     },
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "commands": {},
       "data": {},
-      "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
       "period": {}
     }
   ],
@@ -23,5 +23,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/UsageRecords?PageSize=50&Page=0"
-  }
+  },
+  "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 }

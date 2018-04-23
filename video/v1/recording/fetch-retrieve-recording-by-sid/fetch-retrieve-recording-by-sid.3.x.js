@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.video.recordings('RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.video.recordings('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .fetch()
             .then(recording => console.log(recording.accountSid))
             .done();

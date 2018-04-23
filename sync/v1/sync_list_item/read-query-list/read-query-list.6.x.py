@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sync_list_items = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                        .sync_lists("ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                        .sync_list_items \
-                        .list()
+                             .sync_lists("MyCollection") \
+                             .sync_list_items \
+                             .list()
 
 for record in sync_list_items:
     print(record.index)

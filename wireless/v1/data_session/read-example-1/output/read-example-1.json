@@ -2,7 +2,7 @@
   "data_sessions": [
     {
       "sid": "WNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "radio_link": "LTE",
       "operator_mcc": "",
@@ -19,7 +19,7 @@
     },
     {
       "sid": "WNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "radio_link": "3G",
       "operator_mcc": "",
@@ -43,5 +43,6 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/DataSessions?PageSize=50&Page=0"
-  }
+  },
+  "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 }

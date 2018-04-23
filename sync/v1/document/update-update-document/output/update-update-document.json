@@ -6,10 +6,10 @@
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "revision": "revision",
-  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "default",
+  "sid": "BoardLED",
   "unique_name": "unique_name",
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://sync.twilio.com/v1/Services/default/Documents/BoardLED",
   "links": {
     "permissions": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions"
   }

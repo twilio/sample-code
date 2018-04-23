@@ -3,6 +3,7 @@
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
 import com.twilio.rest.api.v2010.account.Recording;
+import org.joda.time.DateTime;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -11,7 +12,9 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ResourceSet<Recording> recordings = Recording.reader().read();
+        ResourceSet<Recording> recordings = Recording.reader()
+            .setDateCreatedAfter(new DateTime(2009, 7, 6, 0, 0))
+            .read();
 
         for(Recording record : recordings) {
             System.out.println(record.getSid());

@@ -5,7 +5,7 @@ DATA=$(cat << EOF
 EOF
 )
 
-curl -X POST https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents \
+curl -X POST https://sync.twilio.com/v1/Services/default/Documents \
 --data-urlencode "Data=$DATA" \
 --data-urlencode "UniqueName=BoardLED" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

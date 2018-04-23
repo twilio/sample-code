@@ -6,8 +6,9 @@
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "key": "steph_curry",
-  "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "map_sid": "Players",
   "revision": "revision",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items/key"
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/Players/Items/key",
+  "ttl": "864000"
 }

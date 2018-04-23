@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-alert = @client.monitor.alerts('NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
+alert = @client.monitor.alerts('NO5a7a84730f529f0a76b3e30c01315d1a').fetch
 
 puts alert.account_sid

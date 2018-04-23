@@ -28,5 +28,6 @@
   },
   "to": "+16518675310",
   "to_formatted": "(651) 867-5310",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+  "url": "http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount"
 }

@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .syncMaps('Players')
            .fetch()
            .then(sync_map => console.log(sync_map.sid))
            .done();

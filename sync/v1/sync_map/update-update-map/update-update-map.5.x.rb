@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 sync_map = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                       .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                       .sync_maps('Players')
                        .update(ttl: 864000)
 
 puts sync_map.sid

@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.wireless.commands('DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.wireless.commands('DCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
                .fetch()
                .then(command => console.log(command.sid))
                .done();

@@ -20,5 +20,7 @@
   "gcm": null,
   "sms": null,
   "facebook_messenger": null,
-  "alexa": null
+  "alexa": null,
+  "segment": "new_user",
+  "tag": "preferred_device"
 }

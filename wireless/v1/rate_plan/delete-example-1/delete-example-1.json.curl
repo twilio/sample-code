@@ -1,2 +1,2 @@
-curl -X DELETE https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+curl -X DELETE https://wireless.twilio.com/v1/RatePlans/WPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

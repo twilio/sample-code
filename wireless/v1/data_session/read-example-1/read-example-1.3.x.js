@@ -4,6 +4,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.wireless.sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
                .dataSessions
                .each(dataSessions => console.log(dataSessions.sid));

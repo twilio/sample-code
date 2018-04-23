@@ -9,8 +9,8 @@ auth_token = 'your_auth_token'
 
 sync_list_permission = @client.sync
                               .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                              .sync_lists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                              .sync_list_permissions('identity')
+                              .sync_lists('MyFirstList')
+                              .sync_list_permissions('bob')
                               .fetch
 
 puts sync_list_permission.account_sid

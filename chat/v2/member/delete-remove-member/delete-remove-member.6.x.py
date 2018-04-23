@@ -9,5 +9,5 @@ client = Client(account_sid, auth_token)
 
 client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
            .channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-           .members("MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+           .members("IDENTITY") \
            .delete()

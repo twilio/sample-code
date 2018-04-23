@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-message = @client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+message = @client.messages('MM800f449d0399ed014aae2bcc0cc2f2ec')
                  .update(body: 'body')
 
 puts message.account_sid

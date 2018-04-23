@@ -11,14 +11,15 @@
   "phone_numbers": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a",
       "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "2015-07-30T20:12:31Z",
       "date_updated": "2015-07-30T20:12:33Z",
       "phone_number": "+15017122661",
       "country_code": "US",
       "capabilities": [],
-      "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
-  ]
+  ],
+  "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a"
 }

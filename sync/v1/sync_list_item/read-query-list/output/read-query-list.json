@@ -8,10 +8,10 @@
       "date_created": "2015-07-30T20:00:00Z",
       "date_updated": "2015-07-30T20:00:00Z",
       "index": 100,
-      "list_sid": "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "list_sid": "MyCollection",
       "revision": "revision",
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items/100"
+      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/MyCollection/Items/100"
     }
   ],
   "meta": {
@@ -22,5 +22,7 @@
     "page_size": 50,
     "previous_page_url": null,
     "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Lists/ESaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Items?PageSize=50&Page=0"
-  }
+  },
+  "list_sid": "MyCollection",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

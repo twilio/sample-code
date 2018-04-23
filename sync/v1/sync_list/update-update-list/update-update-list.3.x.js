@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .syncLists('MyFirstList')
            .update({ttl: 864000})
            .then(sync_list => console.log(sync_list.sid))
            .done();

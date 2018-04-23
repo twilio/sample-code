@@ -8,10 +8,10 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 sync_list_permissions = @client.sync
-  .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  .sync_lists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  .sync_list_permissions
-  .list
+                               .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                               .sync_lists('MyFirstList')
+                               .sync_list_permissions
+                               .list
 
 sync_list_permissions.each do |record|
   puts record.account_sid
