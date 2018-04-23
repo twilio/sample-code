@@ -17,6 +17,6 @@ class Program
 
         var flow = FlowResource.Fetch(pathSid: "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
-        Console.WriteLine(flow.Sid);
+        Console.WriteLine(flow.FriendlyName);
     }
 }

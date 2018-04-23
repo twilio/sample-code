@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $conference = $twilio->conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                      ->fetch();
 
-print($conference.accountSid);
+print($conference.friendlyName);

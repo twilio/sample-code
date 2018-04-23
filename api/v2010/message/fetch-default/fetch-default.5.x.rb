@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 message = @client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
-puts message.account_sid
+puts message.to

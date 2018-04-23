@@ -11,4 +11,4 @@ feedback = @client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                   .feedback
                   .create
 
-puts feedback.account_sid
+puts feedback.message_sid

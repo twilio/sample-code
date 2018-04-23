@@ -10,5 +10,5 @@ auth_token = 'your_auth_token'
 monthly = @client.usage.records.monthly.list
 
 monthly.each do |record|
-  puts record.account_sid
+  puts record.api_version
 end

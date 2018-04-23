@@ -12,4 +12,4 @@ ip_access_control_list = client.trunking \
     .ip_access_control_lists("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .fetch()
 
-print(ip_access_control_list.account_sid)
+print(ip_access_control_list.friendly_name)

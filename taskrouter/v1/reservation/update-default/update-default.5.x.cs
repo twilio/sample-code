@@ -22,6 +22,6 @@ class Program
             pathSid: "WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(reservation.AccountSid);
+        Console.WriteLine(reservation.WorkerName);
     }
 }

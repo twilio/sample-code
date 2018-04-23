@@ -20,6 +20,6 @@ class Program
             pathSid: "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(roomRecording.AccountSid);
+        Console.WriteLine(roomRecording.TrackName);
     }
 }

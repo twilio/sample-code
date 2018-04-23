@@ -15,6 +15,6 @@ public class Example {
                 "TCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(taskChannel.getAccountSid());
+        System.out.println(taskChannel.getFriendlyName());
     }
 }

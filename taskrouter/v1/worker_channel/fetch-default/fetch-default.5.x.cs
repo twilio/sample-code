@@ -21,6 +21,6 @@ class Program
             pathSid: "WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workerChannel.AccountSid);
+        Console.WriteLine(workerChannel.TaskChannelUniqueName);
     }
 }

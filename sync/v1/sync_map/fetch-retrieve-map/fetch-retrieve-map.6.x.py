@@ -11,4 +11,4 @@ sync_map = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .sync_maps("Players") \
                       .fetch()
 
-print(sync_map.sid)
+print(sync_map.unique_name)

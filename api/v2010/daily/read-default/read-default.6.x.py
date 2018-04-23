@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 daily = client.usage.records.daily.list()
 
 for record in daily:
-    print(record.account_sid)
+    print(record.api_version)

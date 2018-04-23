@@ -12,4 +12,4 @@ ip_access_control_list_mapping = @client.sip
   .ip_access_control_list_mappings('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts ip_access_control_list_mapping.account_sid
+puts ip_access_control_list_mapping.friendly_name

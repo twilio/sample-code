@@ -11,7 +11,7 @@
       "homepage_url": "http://example.com/home",
       "permissions": [],
       "sid": "CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/ConnectApps/CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ConnectApps/CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
     }
   ],
   "end": 0,

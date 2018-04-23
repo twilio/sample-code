@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sip.ipAccessControlLists('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({friendlyName: 'friendlyName'})
-      .then(ip_access_control_list => console.log(ip_access_control_list.sid))
-      .done();
+  .update({friendlyName: 'friendlyName'})
+  .then(ip_access_control_list => console.log(ip_access_control_list.friendlyName))
+  .done();

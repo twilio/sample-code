@@ -13,6 +13,6 @@ public class Example {
         Sim sim = Sim.updater("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setUniqueName("uniqueName").update();
 
-        System.out.println(sim.getSid());
+        System.out.println(sim.getUniqueName());
     }
 }

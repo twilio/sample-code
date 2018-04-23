@@ -16,6 +16,6 @@ public class Example {
             .setFriendlyName("My Home Phone Number")
             .create();
 
-        System.out.println(validationRequest.getAccountSid());
+        System.out.println(validationRequest.getFriendlyName());
     }
 }

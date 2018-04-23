@@ -16,4 +16,4 @@ $credential = $twilio->sip
                      ->credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                      ->update(array('password' => "password"));
 
-print($credential.sid);
+print($credential.username);

@@ -12,4 +12,4 @@ sync_list = client.preview.sync \
                           .sync_lists("ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                           .fetch()
 
-print(sync_list.sid)
+print(sync_list.unique_name)

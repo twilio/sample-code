@@ -8,5 +8,5 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .users('NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .segmentMemberships('premium')
       .remove()
-      .then(segment_membership => console.log(segment_membership.accountSid))
+      .then(segment_membership => console.log(segment_membership.serviceSid))
       .done();

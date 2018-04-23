@@ -15,6 +15,6 @@ public class Example {
                 "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(media.getAccountSid());
+        System.out.println(media.getContentType());
     }
 }

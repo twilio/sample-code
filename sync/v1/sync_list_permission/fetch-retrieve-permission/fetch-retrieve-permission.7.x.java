@@ -16,6 +16,6 @@ public class Example {
                 "bob")
             .fetch();
 
-        System.out.println(syncListPermission.getAccountSid());
+        System.out.println(syncListPermission.getServiceSid());
     }
 }

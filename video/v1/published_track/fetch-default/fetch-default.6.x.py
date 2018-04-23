@@ -12,4 +12,4 @@ published_track = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .published_tracks("MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .fetch()
 
-print(published_track.sid)
+print(published_track.name)

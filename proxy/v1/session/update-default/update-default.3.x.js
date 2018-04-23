@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .update({uniqueName: 'uniqueName'})
-            .then(session => console.log(session.sid))
+            .then(session => console.log(session.uniqueName))
             .done();

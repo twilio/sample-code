@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 usage = @client.preview.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').usage.fetch
 
-puts usage.sim_sid
+puts usage.sim_unique_name

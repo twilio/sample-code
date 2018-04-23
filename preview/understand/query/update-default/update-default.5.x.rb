@@ -14,4 +14,4 @@ query = @client.preview.understand
                           sample_sid: 'UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
                         )
 
-puts query.account_sid
+puts query.date_created

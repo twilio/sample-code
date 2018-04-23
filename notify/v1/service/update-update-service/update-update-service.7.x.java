@@ -17,6 +17,6 @@ public class Example {
                 "your_twilio_messaging_service_sid")
             .update();
 
-        System.out.println(service.getSid());
+        System.out.println(service.getFriendlyName());
     }
 }

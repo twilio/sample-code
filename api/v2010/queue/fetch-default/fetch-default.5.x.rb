@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 queue = @client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
-puts queue.account_sid
+puts queue.friendly_name

@@ -11,4 +11,4 @@ task = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                         .tasks("WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                         .update(attributes="attributes")
 
-print(task.account_sid)
+print(task.task_queue_friendly_name)

@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $composition = $twilio->video->v1->compositions("CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->fetch();
 
-print($composition.accountSid);
+print($composition.status);

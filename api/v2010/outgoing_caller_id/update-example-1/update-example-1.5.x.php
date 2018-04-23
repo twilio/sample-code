@@ -15,4 +15,4 @@ $outgoing_caller_id = $twilio->outgoingCallerIds("PNe536d32a3c49700934481addd5ce
                              ->update(array('friendlyName' => "My Second Line")
                              );
 
-print($outgoing_caller_id.sid);
+print($outgoing_caller_id.friendlyName);

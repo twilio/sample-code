@@ -8,7 +8,7 @@
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "unique_name",
-  "url": "https://preview.twilio.com/Sync/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://preview.twilio.com/Sync/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "permissions": "https://preview.twilio.com/Sync/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions"
   }

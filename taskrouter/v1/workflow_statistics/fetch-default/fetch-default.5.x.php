@@ -16,4 +16,4 @@ $workflow_statistics = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXX
                                               ->statistics()
                                               ->fetch();
 
-print($workflow_statistics.accountSid);
+print($workflow_statistics.cumulative);

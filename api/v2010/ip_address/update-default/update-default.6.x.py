@@ -12,4 +12,4 @@ ip_address = client.sip \
     .ip_addresses("IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .update(ip_address="ip_address")
 
-print(ip_address.sid)
+print(ip_address.friendly_name)

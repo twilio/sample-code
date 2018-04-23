@@ -17,5 +17,5 @@ $syncListPermissions = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXX
                                              ->read();
 
 foreach ($syncListPermissions as $record) {
-    print($record->accountSid);
+    print($record->serviceSid);
 }

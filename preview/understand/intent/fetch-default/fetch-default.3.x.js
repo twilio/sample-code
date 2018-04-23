@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .fetch()
-                         .then(intent => console.log(intent.accountSid))
+                         .then(intent => console.log(intent.friendlyName))
                          .done();

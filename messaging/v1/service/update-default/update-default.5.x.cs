@@ -20,6 +20,6 @@ class Program
             pathSid: "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(service.Sid);
+        Console.WriteLine(service.FriendlyName);
     }
 }

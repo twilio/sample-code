@@ -11,4 +11,4 @@ assistant = client.preview.understand \
                           .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                           .fetch()
 
-print(assistant.account_sid)
+print(assistant.friendly_name)

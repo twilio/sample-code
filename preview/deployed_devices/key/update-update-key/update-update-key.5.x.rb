@@ -15,4 +15,4 @@ key = @client.preview.deployed_devices
                         friendly_name: 'My New Device Key'
                       )
 
-puts key.sid
+puts key.friendly_name

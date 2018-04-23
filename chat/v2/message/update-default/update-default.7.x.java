@@ -16,6 +16,6 @@ public class Example {
                 "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setBody("body").update();
 
-        System.out.println(message.getSid());
+        System.out.println(message.getTo());
     }
 }

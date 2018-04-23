@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 room = @client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .update(status: 'completed')
 
-puts room.sid
+puts room.unique_name

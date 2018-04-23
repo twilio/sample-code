@@ -13,4 +13,4 @@ segment_membership = client.notify \
                            .segment_memberships("segment") \
                            .fetch()
 
-print(segment_membership.account_sid)
+print(segment_membership.service_sid)

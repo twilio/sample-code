@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 domain = client.sip.domains("SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                    .update(auth_type="auth_type")
 
-print(domain.account_sid)
+print(domain.domain_name)

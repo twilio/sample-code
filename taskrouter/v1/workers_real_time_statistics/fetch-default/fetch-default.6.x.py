@@ -13,4 +13,4 @@ workers_real_time_statistics = client.taskrouter \
     .real_time_statistics() \
     .fetch()
 
-print(workers_real_time_statistics.account_sid)
+print(workers_real_time_statistics.activity_statistics)

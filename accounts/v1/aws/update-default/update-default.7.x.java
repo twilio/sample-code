@@ -13,6 +13,6 @@ public class Example {
         Aws aws = Aws.updater("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(aws.getSid());
+        System.out.println(aws.getFriendlyName());
     }
 }

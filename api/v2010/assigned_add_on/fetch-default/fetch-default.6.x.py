@@ -12,4 +12,4 @@ assigned_add_on = client \
     .assigned_add_ons("XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .fetch()
 
-print(assigned_add_on.sid)
+print(assigned_add_on.friendly_name)

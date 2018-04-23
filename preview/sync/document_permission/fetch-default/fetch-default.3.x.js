@@ -8,5 +8,5 @@ client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .documentPermissions('identity')
       .fetch()
-      .then(document_permission => console.log(document_permission.accountSid))
+      .then(document_permission => console.log(document_permission.serviceSid))
       .done();

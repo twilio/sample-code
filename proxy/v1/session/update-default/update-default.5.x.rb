@@ -11,4 +11,4 @@ session = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .update(unique_name: 'unique_name')
 
-puts session.sid
+puts session.unique_name

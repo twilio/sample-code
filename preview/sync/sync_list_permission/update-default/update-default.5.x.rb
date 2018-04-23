@@ -13,4 +13,4 @@ sync_list_permission = @client.preview.sync
                               .sync_list_permissions('identity')
                               .update(read: true, write: true, manage: true)
 
-puts sync_list_permission.account_sid
+puts sync_list_permission.service_sid

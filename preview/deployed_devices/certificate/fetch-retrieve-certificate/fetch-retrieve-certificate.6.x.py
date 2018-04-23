@@ -12,4 +12,4 @@ certificate = client.preview.deployed_devices \
                     .certificates("CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .fetch()
 
-print(certificate.sid)
+print(certificate.friendly_name)

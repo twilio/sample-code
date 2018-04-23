@@ -12,4 +12,4 @@ certificate = @client.preview.deployed_devices
                      .certificates('CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .update(friendly_name: 'friendly_name')
 
-puts certificate.sid
+puts certificate.friendly_name

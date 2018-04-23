@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .fetch()
-          .then(domain => console.log(domain.accountSid))
+          .then(domain => console.log(domain.domainName))
           .done();

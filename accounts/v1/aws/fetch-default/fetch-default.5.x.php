@@ -15,4 +15,4 @@ $aws = $twilio->accounts->v1->credentials
                             ->aws("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->fetch();
 
-print($aws.sid);
+print($aws.friendlyName);

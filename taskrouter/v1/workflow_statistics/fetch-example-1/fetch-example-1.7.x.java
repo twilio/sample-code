@@ -15,6 +15,6 @@ public class Example {
                 "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(workflowStatistics.getAccountSid());
+        System.out.println(workflowStatistics.getCumulative());
     }
 }

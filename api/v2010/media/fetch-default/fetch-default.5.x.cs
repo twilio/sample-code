@@ -21,6 +21,6 @@ class Program
             pathSid: "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(media.AccountSid);
+        Console.WriteLine(media.ContentType);
     }
 }

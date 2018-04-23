@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 alert = client.monitor.alerts("NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(alert.account_sid)
+print(alert.alert_text)

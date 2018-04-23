@@ -13,4 +13,4 @@ reservation = client.taskrouter \
                     .reservations("WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .update(reservation_status="pending")
 
-print(reservation.account_sid)
+print(reservation.worker_name)

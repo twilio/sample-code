@@ -13,6 +13,6 @@ public class Example {
         Alert alert = Alert.fetcher("NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(alert.getAccountSid());
+        System.out.println(alert.getAlertText());
     }
 }

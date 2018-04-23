@@ -15,6 +15,6 @@ public class Example {
                 "TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setTtl(1).update();
 
-        System.out.println(syncStream.getSid());
+        System.out.println(syncStream.getUniqueName());
     }
 }

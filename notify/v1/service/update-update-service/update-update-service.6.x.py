@@ -14,4 +14,4 @@ service = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      messaging_service_sid="your_twilio_messaging_service_sid"
                  )
 
-print(service.sid)
+print(service.friendly_name)

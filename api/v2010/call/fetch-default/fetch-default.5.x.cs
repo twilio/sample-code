@@ -20,6 +20,6 @@ class Program
             pathSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(call.AccountSid);
+        Console.WriteLine(call.To);
     }
 }

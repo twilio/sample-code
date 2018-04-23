@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 authorized_connect_apps = client.authorized_connect_apps.list()
 
 for record in authorized_connect_apps:
-    print(record.account_sid)
+    print(record.connect_app_company_name)

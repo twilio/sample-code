@@ -11,4 +11,4 @@ role = @client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .roles('RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .fetch
 
-puts role.sid
+puts role.friendly_name

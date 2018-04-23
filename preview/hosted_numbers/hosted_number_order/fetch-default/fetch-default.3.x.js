@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.hosted_numbers
-      .hostedNumberOrders('HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .fetch()
-      .then(hosted_number_order => console.log(hosted_number_order.sid))
-      .done();
+  .hostedNumberOrders('HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  .fetch()
+  .then(hosted_number_order => console.log(hosted_number_order.friendlyName))
+  .done();

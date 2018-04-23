@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.accounts.credentials.aws('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .update({friendlyName: 'friendlyName'})
-                           .then(aws => console.log(aws.sid))
+                           .then(aws => console.log(aws.friendlyName))
                            .done();

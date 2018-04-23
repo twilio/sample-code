@@ -11,4 +11,4 @@ session = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .fetch
 
-puts session.sid
+puts session.unique_name

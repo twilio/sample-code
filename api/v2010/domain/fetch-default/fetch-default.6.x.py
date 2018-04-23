@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 domain = client.sip.domains("SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(domain.account_sid)
+print(domain.domain_name)

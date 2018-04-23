@@ -15,4 +15,4 @@ $aws = $twilio->accounts->v1->credentials
                             ->aws("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->update(array('friendlyName' => "friendlyName"));
 
-print($aws.sid);
+print($aws.friendlyName);

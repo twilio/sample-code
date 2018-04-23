@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .modelBuilds('UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
-              .then(model_build => console.log(model_build.accountSid))
+              .then(model_build => console.log(model_build.uniqueName))
               .done();

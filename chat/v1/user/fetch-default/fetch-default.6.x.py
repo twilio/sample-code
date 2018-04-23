@@ -11,4 +11,4 @@ user = client.chat.v1.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .users("USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .fetch()
 
-print(user.sid)
+print(user.friendly_name)

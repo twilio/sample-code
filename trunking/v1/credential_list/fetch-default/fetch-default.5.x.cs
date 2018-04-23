@@ -20,6 +20,6 @@ class Program
             pathSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(credentialList.AccountSid);
+        Console.WriteLine(credentialList.FriendlyName);
     }
 }

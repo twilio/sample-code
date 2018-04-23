@@ -17,5 +17,5 @@ $thisMonth = $twilio->usage
                     ->read();
 
 foreach ($thisMonth as $record) {
-    print($record->accountSid);
+    print($record->apiVersion);
 }

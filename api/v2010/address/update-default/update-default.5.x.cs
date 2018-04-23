@@ -21,6 +21,6 @@ class Program
             pathSid: "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(address.AccountSid);
+        Console.WriteLine(address.CustomerName);
     }
 }

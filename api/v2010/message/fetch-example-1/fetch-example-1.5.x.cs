@@ -20,6 +20,6 @@ class Program
             pathSid: "MM800f449d0399ed014aae2bcc0cc2f2ec"
         );
 
-        Console.WriteLine(message.AccountSid);
+        Console.WriteLine(message.To);
     }
 }

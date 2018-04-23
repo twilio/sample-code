@@ -15,6 +15,6 @@ public class Example {
                 "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(role.getSid());
+        System.out.println(role.getFriendlyName());
     }
 }

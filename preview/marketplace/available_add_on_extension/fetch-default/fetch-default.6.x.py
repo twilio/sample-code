@@ -12,4 +12,4 @@ available_add_on_extension = client.preview.marketplace \
     .extensions("XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .fetch()
 
-print(available_add_on_extension.sid)
+print(available_add_on_extension.friendly_name)

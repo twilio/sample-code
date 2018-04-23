@@ -13,4 +13,4 @@ workers_cumulative_statistics = @client.taskrouter
   .cumulative_statistics
   .fetch
 
-puts workers_cumulative_statistics.account_sid
+puts workers_cumulative_statistics.start_time

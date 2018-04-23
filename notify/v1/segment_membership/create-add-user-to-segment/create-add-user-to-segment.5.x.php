@@ -16,4 +16,4 @@ $segment_membership = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXX
                                          ->segmentMemberships
                                          ->create("premium");
 
-print($segment_membership.accountSid);
+print($segment_membership.serviceSid);

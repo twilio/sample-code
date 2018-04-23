@@ -11,4 +11,4 @@ user = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .fetch
 
-puts user.sid
+puts user.friendly_name

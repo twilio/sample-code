@@ -21,6 +21,6 @@ class Program
             pathSid: "MG2172dd2db502e20dd981ef0d67850e1a"
         );
 
-        Console.WriteLine(service.Sid);
+        Console.WriteLine(service.FriendlyName);
     }
 }

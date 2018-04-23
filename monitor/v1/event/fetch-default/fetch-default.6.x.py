@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 event = client.monitor.events("AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(event.account_sid)
+print(event.actor_sid)

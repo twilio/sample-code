@@ -20,6 +20,6 @@ class Program
             pathSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(worker.AccountSid);
+        Console.WriteLine(worker.ActivityName);
     }
 }

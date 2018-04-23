@@ -15,6 +15,6 @@ public class Example {
                 "IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setIpAddress("ipAddress").update();
 
-        System.out.println(ipAddress.getSid());
+        System.out.println(ipAddress.getFriendlyName());
     }
 }

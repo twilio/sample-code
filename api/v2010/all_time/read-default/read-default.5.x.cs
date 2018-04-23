@@ -21,7 +21,7 @@ class Program
 
         foreach(var record in allTime)
         {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.ApiVersion);
         }
     }
 }

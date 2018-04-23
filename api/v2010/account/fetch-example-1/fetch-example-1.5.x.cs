@@ -17,6 +17,6 @@ class Program
 
         var account = AccountResource.Fetch(pathSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
-        Console.WriteLine(account.AuthToken);
+        Console.WriteLine(account.FriendlyName);
     }
 }

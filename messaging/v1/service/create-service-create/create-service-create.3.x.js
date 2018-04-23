@@ -5,6 +5,9 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services
-                .create({friendlyName: 'My First Service'})
+                .create({
+                   statusCallback: 'http://requestb.in/1234abcd',
+                   friendlyName: 'My First Service'
+                 })
                 .then(service => console.log(service.sid))
                 .done();

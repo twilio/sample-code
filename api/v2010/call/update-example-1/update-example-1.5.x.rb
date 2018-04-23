@@ -13,4 +13,4 @@ call = @client.calls('CAe1644a7eed5088b159577c5802d8be38')
                  url: 'http://demo.twilio.com/docs/voice.xml'
                )
 
-puts call.account_sid
+puts call.to

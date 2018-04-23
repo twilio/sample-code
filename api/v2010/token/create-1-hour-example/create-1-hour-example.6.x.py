@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 token = client.tokens.create(ttl=3600)
 
-print(token.account_sid)
+print(token.username)

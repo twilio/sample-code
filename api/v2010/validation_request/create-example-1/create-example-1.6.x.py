@@ -13,4 +13,4 @@ validation_request = client.validation_requests \
                                 phone_number="+14158675310"
                             )
 
-print(validation_request.account_sid)
+print(validation_request.friendly_name)

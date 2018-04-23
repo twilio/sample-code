@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 workspace = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               .fetch
 
-puts workspace.account_sid
+puts workspace.default_activity_name

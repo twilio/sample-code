@@ -16,4 +16,4 @@ $sample = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->samples("UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->fetch();
 
-print($sample.accountSid);
+print($sample.dateCreated);

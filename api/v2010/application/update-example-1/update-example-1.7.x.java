@@ -18,6 +18,6 @@ public class Example {
             .setVoiceUrl(URI.create("http://demo.twilio.com/docs/voice.xml"))
             .update();
 
-        System.out.println(application.getAccountSid());
+        System.out.println(application.getFriendlyName());
     }
 }

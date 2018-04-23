@@ -17,6 +17,6 @@ class Program
 
         var alert = AlertResource.Fetch(pathSid: "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
-        Console.WriteLine(alert.AccountSid);
+        Console.WriteLine(alert.AlertText);
     }
 }

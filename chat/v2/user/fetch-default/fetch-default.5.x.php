@@ -15,4 +15,4 @@ $user = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->users("USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->fetch();
 
-print($user.sid);
+print($user.friendlyName);

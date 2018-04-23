@@ -15,6 +15,6 @@ public class Example {
                 "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("NEW_FRIENDLY_NAME").update();
 
-        System.out.println(channel.getSid());
+        System.out.println(channel.getFriendlyName());
     }
 }

@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.video.compositions('CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .fetch()
-            .then(composition => console.log(composition.accountSid))
+            .then(composition => console.log(composition.status))
             .done();

@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 key = client.keys("SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
             .update(friendly_name="friendly_name")
 
-print(key.sid)
+print(key.friendly_name)

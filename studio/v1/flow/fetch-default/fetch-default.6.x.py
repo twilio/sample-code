@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 flow = client.studio.flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(flow.sid)
+print(flow.friendly_name)

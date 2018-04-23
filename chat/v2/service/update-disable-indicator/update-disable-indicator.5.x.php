@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $service = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->update(array('reachabilityEnabled' => True));
 
-print($service.sid);
+print($service.friendlyName);

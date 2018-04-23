@@ -22,6 +22,6 @@ class Program
             pathSid: "BoardLED"
         );
 
-        Console.WriteLine(document.Sid);
+        Console.WriteLine(document.UniqueName);
     }
 }

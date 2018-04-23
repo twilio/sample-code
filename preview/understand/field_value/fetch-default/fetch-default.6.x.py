@@ -13,4 +13,4 @@ field_value = client.preview.understand \
                     .field_values("UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .fetch()
 
-print(field_value.account_sid)
+print(field_value.date_created)

@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fieldTypes('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
-              .then(field_type => console.log(field_type.accountSid))
+              .then(field_type => console.log(field_type.friendlyName))
               .done();

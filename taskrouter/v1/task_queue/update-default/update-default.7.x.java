@@ -15,6 +15,6 @@ public class Example {
                 "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(taskQueue.getAccountSid());
+        System.out.println(taskQueue.getAssignmentActivityName());
     }
 }

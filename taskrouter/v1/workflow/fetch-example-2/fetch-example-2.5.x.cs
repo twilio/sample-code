@@ -20,6 +20,6 @@ class Program
             pathSid: "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workflow.AccountSid);
+        Console.WriteLine(workflow.FriendlyName);
     }
 }

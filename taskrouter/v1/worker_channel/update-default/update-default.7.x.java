@@ -16,6 +16,6 @@ public class Example {
                 "WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setCapacity(1).update();
 
-        System.out.println(workerChannel.getAccountSid());
+        System.out.println(workerChannel.getTaskChannelUniqueName());
     }
 }

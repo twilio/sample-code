@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 document = client.sync.services("default").documents("BoardLED") \
                                           .update(data={"led": "ON"})
 
-print(document.sid)
+print(document.unique_name)

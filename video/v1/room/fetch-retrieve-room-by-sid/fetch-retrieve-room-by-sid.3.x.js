@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .fetch()
-            .then(room => console.log(room.sid))
+            .then(room => console.log(room.uniqueName))
             .done();

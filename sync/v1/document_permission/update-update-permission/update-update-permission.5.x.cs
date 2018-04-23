@@ -24,6 +24,6 @@ class Program
             pathIdentity: "bob"
         );
 
-        Console.WriteLine(documentPermission.AccountSid);
+        Console.WriteLine(documentPermission.ServiceSid);
     }
 }

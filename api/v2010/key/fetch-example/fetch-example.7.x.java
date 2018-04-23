@@ -12,6 +12,6 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Key key = Key.fetcher("SK2a0747eba6abf96b7e3c3ff0b4530f6e").fetch();
 
-        System.out.println(key.getSid());
+        System.out.println(key.getFriendlyName());
     }
 }

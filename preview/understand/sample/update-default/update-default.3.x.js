@@ -8,5 +8,5 @@ client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .update({language: 'language'})
-                         .then(sample => console.log(sample.accountSid))
+                         .then(sample => console.log(sample.dateCreated))
                          .done();

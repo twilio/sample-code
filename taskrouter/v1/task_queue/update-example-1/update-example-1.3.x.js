@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                 .taskQueues('WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                 .update({targetWorkers: `languages HAS "english"`})
-                 .then(task_queue => console.log(task_queue.accountSid))
-                 .done();
+      .taskQueues('WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+      .update({targetWorkers: `languages HAS "english"`})
+      .then(task_queue => console.log(task_queue.assignmentActivityName))
+      .done();

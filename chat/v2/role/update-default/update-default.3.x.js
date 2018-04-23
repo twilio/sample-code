@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .roles('RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .update({permission: ['permission']})
-           .then(role => console.log(role.sid))
+           .then(role => console.log(role.friendlyName))
            .done();

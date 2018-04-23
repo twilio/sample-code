@@ -17,6 +17,6 @@ class Program
 
         var ratePlan = RatePlanResource.Fetch(pathSid: "us-automotive");
 
-        Console.WriteLine(ratePlan.Sid);
+        Console.WriteLine(ratePlan.UniqueName);
     }
 }

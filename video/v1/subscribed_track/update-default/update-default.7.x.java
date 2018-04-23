@@ -16,6 +16,6 @@ public class Example {
             .setTrack("MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .update();
 
-        System.out.println(subscribedTrack.getSid());
+        System.out.println(subscribedTrack.getName());
     }
 }

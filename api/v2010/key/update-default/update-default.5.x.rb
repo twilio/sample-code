@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 key = @client.keys('SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .update(friendly_name: 'friendly_name')
 
-puts key.sid
+puts key.friendly_name

@@ -11,4 +11,4 @@ credential_list = client.sip \
     .credential_lists("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .update(friendly_name="friendly_name")
 
-print(credential_list.account_sid)
+print(credential_list.friendly_name)

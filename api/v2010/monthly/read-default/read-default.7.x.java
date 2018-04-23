@@ -14,7 +14,7 @@ public class Example {
         ResourceSet<Monthly> monthly = Monthly.reader().read();
 
         for(Monthly record : monthly) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getApiVersion());
         }
     }
 }

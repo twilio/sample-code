@@ -11,4 +11,4 @@ workspace = client.taskrouter \
                   .workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                   .fetch()
 
-print(workspace.account_sid)
+print(workspace.default_activity_name)

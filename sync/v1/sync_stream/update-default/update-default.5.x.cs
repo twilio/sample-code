@@ -21,6 +21,6 @@ class Program
             pathSid: "TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(syncStream.Sid);
+        Console.WriteLine(syncStream.UniqueName);
     }
 }

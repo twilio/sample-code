@@ -14,6 +14,6 @@ public class Example {
                 "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(installedAddOn.getSid());
+        System.out.println(installedAddOn.getFriendlyName());
     }
 }

@@ -14,4 +14,4 @@ workspace = client.taskrouter \
                        friendly_name="NewFriendlyName"
                    )
 
-print(workspace.account_sid)
+print(workspace.default_activity_name)

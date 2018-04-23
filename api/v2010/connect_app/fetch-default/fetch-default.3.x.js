@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.connectApps('CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .fetch()
-      .then(connect_app => console.log(connect_app.accountSid))
+      .then(connect_app => console.log(connect_app.companyName))
       .done();

@@ -21,6 +21,6 @@ class Program
             pathSegment: "PathSegment"
         );
 
-        Console.WriteLine(segmentMembership.AccountSid);
+        Console.WriteLine(segmentMembership.ServiceSid);
     }
 }

@@ -11,4 +11,4 @@ phone_number = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .phone_numbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .fetch
 
-puts phone_number.sid
+puts phone_number.friendly_name

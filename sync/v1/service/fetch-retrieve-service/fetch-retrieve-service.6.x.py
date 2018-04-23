@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 service = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(service.sid)
+print(service.unique_name)

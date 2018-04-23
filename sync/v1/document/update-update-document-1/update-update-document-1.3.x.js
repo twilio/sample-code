@@ -13,5 +13,5 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 starring: "['Lance Bass', 'Joey Fatone']",
                 genre: "Romance"
             }})
-           .then(document => console.log(document.sid))
+           .then(document => console.log(document.uniqueName))
            .done();

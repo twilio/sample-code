@@ -15,6 +15,6 @@ public class Example {
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(syncMap.getSid());
+        System.out.println(syncMap.getUniqueName());
     }
 }

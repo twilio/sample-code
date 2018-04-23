@@ -18,4 +18,4 @@ $worker = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                           )
                                  );
 
-print($worker.accountSid);
+print($worker.activityName);

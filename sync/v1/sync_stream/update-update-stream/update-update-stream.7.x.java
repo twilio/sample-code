@@ -14,6 +14,6 @@ public class Example {
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",    "MyStream")
             .setTtl(864000).update();
 
-        System.out.println(syncStream.getSid());
+        System.out.println(syncStream.getUniqueName());
     }
 }

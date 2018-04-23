@@ -16,6 +16,6 @@ public class Example {
                 "FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(step.getSid());
+        System.out.println(step.getName());
     }
 }

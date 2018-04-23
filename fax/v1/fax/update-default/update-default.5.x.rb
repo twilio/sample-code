@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 fax = @client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .update(status: 'canceled')
 
-puts fax.sid
+puts fax.to

@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $short_code = $twilio->shortCodes("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                      ->fetch();
 
-print($short_code.accountSid);
+print($short_code.friendlyName);

@@ -20,6 +20,6 @@ class Program
             pathSid: "MyCollection"
         );
 
-        Console.WriteLine(syncList.Sid);
+        Console.WriteLine(syncList.UniqueName);
     }
 }

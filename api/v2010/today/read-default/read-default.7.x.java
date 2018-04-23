@@ -14,7 +14,7 @@ public class Example {
         ResourceSet<Today> today = Today.reader().read();
 
         for(Today record : today) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getApiVersion());
         }
     }
 }

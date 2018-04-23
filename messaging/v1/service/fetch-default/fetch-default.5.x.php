@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $service = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->fetch();
 
-print($service.sid);
+print($service.friendlyName);

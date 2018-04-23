@@ -17,6 +17,6 @@ class Program
 
         var usage = UsageResource.Fetch(pathSimSid: "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
-        Console.WriteLine(usage.SimSid);
+        Console.WriteLine(usage.SimUniqueName);
     }
 }

@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 application = client.applications("APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(application.account_sid)
+print(application.friendly_name)

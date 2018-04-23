@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 account = @client.api.accounts('ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .update(friendly_name: 'friendly_name')
 
-puts account.auth_token
+puts account.friendly_name

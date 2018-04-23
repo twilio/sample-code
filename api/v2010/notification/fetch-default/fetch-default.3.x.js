@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.notifications('NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .fetch()
-      .then(notification => console.log(notification.accountSid))
+      .then(notification => console.log(notification.apiVersion))
       .done();

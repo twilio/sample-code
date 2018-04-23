@@ -17,6 +17,6 @@ class Program
 
         var aws = AwsResource.Fetch(pathSid: "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
-        Console.WriteLine(aws.Sid);
+        Console.WriteLine(aws.FriendlyName);
     }
 }

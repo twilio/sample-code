@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 call = @client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .update(url: 'https://example.com')
 
-puts call.account_sid
+puts call.to

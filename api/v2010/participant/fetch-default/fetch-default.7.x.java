@@ -15,6 +15,6 @@ public class Example {
                 "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(participant.getAccountSid());
+        System.out.println(participant.getCallSid());
     }
 }

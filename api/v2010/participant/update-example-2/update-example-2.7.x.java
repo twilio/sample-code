@@ -19,6 +19,6 @@ public class Example {
             .setHoldUrl(URI.create("http://www.myapp.com/hold"))
             .update();
 
-        System.out.println(participant.getAccountSid());
+        System.out.println(participant.getCallSid());
     }
 }

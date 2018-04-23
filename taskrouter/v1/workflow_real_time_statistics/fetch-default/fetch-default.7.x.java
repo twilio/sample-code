@@ -16,6 +16,6 @@ public class Example {
                 "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(workflowRealTimeStatistics.getAccountSid());
+        System.out.println(workflowRealTimeStatistics.getLongestTaskWaitingAge());
     }
 }

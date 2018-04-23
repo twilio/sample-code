@@ -13,6 +13,6 @@ public class Example {
         Key key = Key.updater("SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(key.getSid());
+        System.out.println(key.getFriendlyName());
     }
 }

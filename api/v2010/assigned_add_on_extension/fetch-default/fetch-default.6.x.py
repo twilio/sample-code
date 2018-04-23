@@ -13,4 +13,4 @@ assigned_add_on_extension = client \
     .extensions("XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .fetch()
 
-print(assigned_add_on_extension.sid)
+print(assigned_add_on_extension.friendly_name)

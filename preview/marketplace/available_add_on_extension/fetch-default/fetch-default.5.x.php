@@ -15,4 +15,4 @@ $available_add_on_extension = $twilio->preview->marketplace->availableAddOns("XB
                                                            ->extensions("XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                            ->fetch();
 
-print($available_add_on_extension.sid);
+print($available_add_on_extension.friendlyName);

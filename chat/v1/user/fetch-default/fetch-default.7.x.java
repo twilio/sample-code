@@ -15,6 +15,6 @@ public class Example {
                 "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(user.getSid());
+        System.out.println(user.getFriendlyName());
     }
 }

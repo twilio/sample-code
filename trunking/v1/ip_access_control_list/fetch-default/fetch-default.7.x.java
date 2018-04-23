@@ -15,6 +15,6 @@ public class Example {
                 "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(ipAccessControlList.getAccountSid());
+        System.out.println(ipAccessControlList.getFriendlyName());
     }
 }

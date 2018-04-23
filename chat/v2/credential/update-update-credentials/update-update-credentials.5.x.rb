@@ -13,4 +13,4 @@ credential = @client.chat.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             friendly_name: 'MyCredential'
                           )
 
-puts credential.sid
+puts credential.friendly_name

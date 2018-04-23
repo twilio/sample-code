@@ -1,0 +1,4 @@
+curl -X POST https://preview.twilio.com/Verification/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Verifications \
+--data-urlencode "To=To" \
+--data-urlencode "Channel=Channel" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -8,5 +8,5 @@ client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .messages('IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .update({body: 'body'})
-              .then(message => console.log(message.sid))
+              .then(message => console.log(message.to))
               .done();

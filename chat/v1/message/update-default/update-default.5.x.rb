@@ -12,4 +12,4 @@ message = @client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .messages('IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .update(body: 'body')
 
-puts message.sid
+puts message.to

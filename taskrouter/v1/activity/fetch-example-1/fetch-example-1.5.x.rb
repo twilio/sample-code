@@ -11,4 +11,4 @@ activity = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .activities('WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .fetch
 
-puts activity.account_sid
+puts activity.friendly_name

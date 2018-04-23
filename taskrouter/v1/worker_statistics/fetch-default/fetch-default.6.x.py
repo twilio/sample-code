@@ -13,4 +13,4 @@ worker_statistics = client.taskrouter \
                           .statistics() \
                           .fetch()
 
-print(worker_statistics.account_sid)
+print(worker_statistics.cumulative)

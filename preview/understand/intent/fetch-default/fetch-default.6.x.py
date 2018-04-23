@@ -12,4 +12,4 @@ intent = client.preview.understand \
                        .intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                        .fetch()
 
-print(intent.account_sid)
+print(intent.friendly_name)

@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.acc_security.services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .update({name: 'name'})
-                           .then(service => console.log(service.sid))
+                           .then(service => console.log(service.name))
                            .done();

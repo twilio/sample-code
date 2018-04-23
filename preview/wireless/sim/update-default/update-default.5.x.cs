@@ -20,6 +20,6 @@ class Program
             pathSid: "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(sim.Sid);
+        Console.WriteLine(sim.UniqueName);
     }
 }

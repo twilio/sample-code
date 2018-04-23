@@ -14,7 +14,7 @@ public class Example {
         ResourceSet<Daily> daily = Daily.reader().read();
 
         for(Daily record : daily) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getApiVersion());
         }
     }
 }

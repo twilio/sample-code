@@ -10,5 +10,5 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 friendlyName: 'Another Awesome Service',
                 messagingServiceSid: 'your_twilio_messaging_service_sid'
               })
-             .then(service => console.log(service.sid))
+             .then(service => console.log(service.friendlyName))
              .done();

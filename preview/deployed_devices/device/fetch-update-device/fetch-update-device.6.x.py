@@ -12,4 +12,4 @@ device = client.preview.deployed_devices \
                        .devices("THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                        .fetch()
 
-print(device.sid)
+print(device.unique_name)

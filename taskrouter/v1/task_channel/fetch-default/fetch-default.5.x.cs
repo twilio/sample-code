@@ -20,6 +20,6 @@ class Program
             pathSid: "TCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(taskChannel.AccountSid);
+        Console.WriteLine(taskChannel.FriendlyName);
     }
 }

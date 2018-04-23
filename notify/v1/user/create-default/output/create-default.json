@@ -12,5 +12,5 @@
   ],
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sid": "NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://notify.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users/identity"
+  "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity"
 }

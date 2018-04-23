@@ -16,7 +16,7 @@ public class Example {
             .read();
 
         for(AuthorizedConnectApp record : authorizedConnectApps) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getConnectAppCompanyName());
         }
     }
 }

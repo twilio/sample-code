@@ -8,5 +8,5 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .syncMapPermissions('bob')
       .fetch()
-      .then(sync_map_permission => console.log(sync_map_permission.accountSid))
+      .then(sync_map_permission => console.log(sync_map_permission.serviceSid))
       .done();

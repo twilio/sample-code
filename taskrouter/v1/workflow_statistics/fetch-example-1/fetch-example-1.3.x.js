@@ -8,5 +8,5 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .statistics()
       .fetch()
-      .then(workflow_statistics => console.log(workflow_statistics.accountSid))
+      .then(workflow_statistics => console.log(workflow_statistics.cumulative))
       .done();

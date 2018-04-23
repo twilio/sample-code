@@ -21,6 +21,6 @@ class Program
             pathSid: "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(modelBuild.AccountSid);
+        Console.WriteLine(modelBuild.UniqueName);
     }
 }

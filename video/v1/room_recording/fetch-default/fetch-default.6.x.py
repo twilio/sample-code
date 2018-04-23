@@ -11,4 +11,4 @@ room_recording = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                        .recordings("RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                        .fetch()
 
-print(room_recording.account_sid)
+print(room_recording.track_name)

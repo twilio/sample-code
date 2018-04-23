@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 yearly = client.usage.records.yearly.list()
 
 for record in yearly:
-    print(record.account_sid)
+    print(record.api_version)

@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 service = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .update(friendly_name="NEW_FRIENDLY_NAME")
 
-print(service.sid)
+print(service.friendly_name)

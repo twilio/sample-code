@@ -11,4 +11,4 @@ incoming_phone_number = @client
   .incoming_phone_numbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts incoming_phone_number.account_sid
+puts incoming_phone_number.friendly_name

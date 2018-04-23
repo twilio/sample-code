@@ -15,4 +15,4 @@ $channel = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->fetch();
 
-print($channel.sid);
+print($channel.friendlyName);

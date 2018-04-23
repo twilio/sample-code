@@ -20,6 +20,6 @@ class Program
             pathSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(room.Sid);
+        Console.WriteLine(room.UniqueName);
     }
 }

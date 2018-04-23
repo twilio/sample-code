@@ -16,4 +16,4 @@ $sample = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->samples("UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->update(array('language' => "language"));
 
-print($sample.accountSid);
+print($sample.dateCreated);

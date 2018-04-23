@@ -12,4 +12,4 @@ credential_list_mapping = @client.sip
   .credential_list_mappings('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts credential_list_mapping.account_sid
+puts credential_list_mapping.friendly_name

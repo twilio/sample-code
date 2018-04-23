@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 message = client.messages("MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                 .update(body="body")
 
-print(message.account_sid)
+print(message.to)

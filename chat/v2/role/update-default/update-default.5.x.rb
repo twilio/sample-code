@@ -11,4 +11,4 @@ role = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .roles('RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .update(permission: ['permission'])
 
-puts role.sid
+puts role.friendly_name

@@ -16,6 +16,6 @@ public class Example {
                 "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setIdentifier("identifier").update();
 
-        System.out.println(participant.getSid());
+        System.out.println(participant.getFriendlyName());
     }
 }

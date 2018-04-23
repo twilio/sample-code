@@ -16,5 +16,5 @@ $participants = $twilio->conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                        ->read();
 
 foreach ($participants as $record) {
-    print($record->accountSid);
+    print($record->callSid);
 }

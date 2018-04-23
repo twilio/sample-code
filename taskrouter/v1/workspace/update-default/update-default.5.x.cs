@@ -20,6 +20,6 @@ class Program
             pathSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workspace.AccountSid);
+        Console.WriteLine(workspace.DefaultActivityName);
     }
 }

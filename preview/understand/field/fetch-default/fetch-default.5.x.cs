@@ -21,6 +21,6 @@ class Program
             pathSid: "UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(field.AccountSid);
+        Console.WriteLine(field.UniqueName);
     }
 }

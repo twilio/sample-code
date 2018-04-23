@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 recording = @client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
-puts recording.account_sid
+puts recording.api_version

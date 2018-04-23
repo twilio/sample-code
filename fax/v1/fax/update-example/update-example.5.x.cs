@@ -20,6 +20,6 @@ class Program
             pathSid: "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         );
 
-        Console.WriteLine(fax.Sid);
+        Console.WriteLine(fax.To);
     }
 }

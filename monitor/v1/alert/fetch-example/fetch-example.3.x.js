@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.monitor.alerts('NO5a7a84730f529f0a76b3e30c01315d1a')
               .fetch()
-              .then(alert => console.log(alert.accountSid))
+              .then(alert => console.log(alert.alertText))
               .done();

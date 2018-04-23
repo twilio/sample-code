@@ -8,5 +8,5 @@ client.incomingPhoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .assignedAddOns('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .extensions('XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch()
-  .then(assigned_add_on_extension => console.log(assigned_add_on_extension.sid))
+  .then(assigned_add_on_extension => console.log(assigned_add_on_extension.friendlyName))
   .done();

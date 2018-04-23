@@ -22,6 +22,6 @@ class Program
             pathConferenceSid: "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(participant.AccountSid);
+        Console.WriteLine(participant.CallSid);
     }
 }

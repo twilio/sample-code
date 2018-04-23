@@ -17,5 +17,5 @@ $syncMapPermissions = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                        ->read();
 
 foreach ($syncMapPermissions as $record) {
-    print($record->accountSid);
+    print($record->serviceSid);
 }

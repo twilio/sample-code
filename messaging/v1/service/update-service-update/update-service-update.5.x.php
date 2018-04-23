@@ -17,4 +17,4 @@ $service = $twilio->messaging->v1->services("MG2172dd2db502e20dd981ef0d67850e1a"
                                           )
                                  );
 
-print($service.sid);
+print($service.friendlyName);

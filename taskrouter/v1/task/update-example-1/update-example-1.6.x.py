@@ -14,4 +14,4 @@ task = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                              reason="waiting too long"
                          )
 
-print(task.account_sid)
+print(task.task_queue_friendly_name)

@@ -17,5 +17,5 @@ $statistics = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                      ->read();
 
 foreach ($statistics as $record) {
-    print($record->accountSid);
+    print($record->cumulative);
 }

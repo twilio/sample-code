@@ -20,6 +20,6 @@ class Program
             pathSid: "RE557ce644e5ab84fa21cc21112e22c485"
         );
 
-        Console.WriteLine(recording.AccountSid);
+        Console.WriteLine(recording.ApiVersion);
     }
 }

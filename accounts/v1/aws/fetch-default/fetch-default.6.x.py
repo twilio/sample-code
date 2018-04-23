@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 aws = client.accounts.credentials.aws("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                                  .fetch()
 
-print(aws.sid)
+print(aws.friendly_name)

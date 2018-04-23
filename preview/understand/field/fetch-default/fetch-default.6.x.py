@@ -13,4 +13,4 @@ field = client.preview.understand \
                       .fields("UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .fetch()
 
-print(field.account_sid)
+print(field.unique_name)

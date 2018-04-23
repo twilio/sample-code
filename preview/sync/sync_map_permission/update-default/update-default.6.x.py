@@ -13,4 +13,4 @@ sync_map_permission = client.preview.sync \
                             .sync_map_permissions("identity") \
                             .update(read=True, write=True, manage=True)
 
-print(sync_map_permission.account_sid)
+print(sync_map_permission.service_sid)

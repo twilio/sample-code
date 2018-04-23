@@ -12,4 +12,4 @@ workspace_real_time_statistics = @client.taskrouter
   .real_time_statistics
   .fetch
 
-puts workspace_real_time_statistics.account_sid
+puts workspace_real_time_statistics.activity_statistics

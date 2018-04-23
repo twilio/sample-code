@@ -10,5 +10,5 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
      "notifications.addedToChannel.sound": 'default',
      "notifications.addedToChannel.template": 'A New message in ${CHANNEL} from ${USER}: ${MESSAGE}'
    })
-  .then(service => console.log(service.sid))
+  .then(service => console.log(service.friendlyName))
   .done();

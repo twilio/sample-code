@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                .devices('THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                .fetch()
-                               .then(device => console.log(device.sid))
+                               .then(device => console.log(device.uniqueName))
                                .done();

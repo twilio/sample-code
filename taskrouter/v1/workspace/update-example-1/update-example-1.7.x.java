@@ -19,6 +19,6 @@ public class Example {
             .setFriendlyName("NewFriendlyName")
             .update();
 
-        System.out.println(workspace.getAccountSid());
+        System.out.println(workspace.getDefaultActivityName());
     }
 }

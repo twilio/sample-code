@@ -8,5 +8,5 @@ client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fieldTypes('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fieldValues('UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
-              .then(field_value => console.log(field_value.accountSid))
+              .then(field_value => console.log(field_value.dateCreated))
               .done();

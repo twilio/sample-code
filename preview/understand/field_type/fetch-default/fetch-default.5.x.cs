@@ -20,6 +20,6 @@ class Program
             pathSid: "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(fieldType.AccountSid);
+        Console.WriteLine(fieldType.FriendlyName);
     }
 }

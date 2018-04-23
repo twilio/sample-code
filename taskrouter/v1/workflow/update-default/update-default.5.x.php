@@ -18,4 +18,4 @@ $workflow = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                             )
                                    );
 
-print($workflow.accountSid);
+print($workflow.friendlyName);

@@ -17,6 +17,6 @@ public class Example {
             .setSmsUrl(URI.create("http://demo.twilio.com/docs/sms.xml"))
             .update();
 
-        System.out.println(shortCode.getAccountSid());
+        System.out.println(shortCode.getFriendlyName());
     }
 }

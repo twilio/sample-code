@@ -17,6 +17,6 @@ public class Example {
             .setReservationStatus(Reservation.Status.PENDING)
             .update();
 
-        System.out.println(reservation.getAccountSid());
+        System.out.println(reservation.getWorkerName());
     }
 }

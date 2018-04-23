@@ -8,5 +8,5 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .documentPermissions('identity')
       .update({read: true, write: true, manage: true})
-      .then(document_permission => console.log(document_permission.accountSid))
+      .then(document_permission => console.log(document_permission.serviceSid))
       .done();

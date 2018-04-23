@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 trunk = client.trunking.trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                        .update(friendly_name="friendly_name")
 
-print(trunk.account_sid)
+print(trunk.domain_name)

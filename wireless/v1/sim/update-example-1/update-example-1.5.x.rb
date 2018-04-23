@@ -14,4 +14,4 @@ sim = @client.wireless.sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
      status: 'active'
    )
 
-puts sim.sid
+puts sim.unique_name

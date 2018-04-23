@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 domain = @client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
-puts domain.account_sid
+puts domain.domain_name

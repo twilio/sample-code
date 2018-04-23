@@ -21,6 +21,6 @@ class Program
             pathSid: "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(signingKey.Sid);
+        Console.WriteLine(signingKey.FriendlyName);
     }
 }

@@ -11,4 +11,4 @@ fleet = @client.preview.deployed_devices
                        .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .update(friendly_name: 'friendly_name')
 
-puts fleet.sid
+puts fleet.unique_name

@@ -16,6 +16,6 @@ public class Example {
                 "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .update();
 
-        System.out.println(workspace.getAccountSid());
+        System.out.println(workspace.getDefaultActivityName());
     }
 }

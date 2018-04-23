@@ -21,7 +21,7 @@ class Program
 
         foreach(var record in monthly)
         {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.ApiVersion);
         }
     }
 }

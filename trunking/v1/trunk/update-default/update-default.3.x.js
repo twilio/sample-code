@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .update({friendlyName: 'friendlyName'})
-               .then(trunk => console.log(trunk.accountSid))
+               .then(trunk => console.log(trunk.domainName))
                .done();

@@ -21,6 +21,6 @@ class Program
             pathSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(session.Sid);
+        Console.WriteLine(session.UniqueName);
     }
 }

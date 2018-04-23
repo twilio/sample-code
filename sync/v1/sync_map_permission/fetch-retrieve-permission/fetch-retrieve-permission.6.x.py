@@ -13,4 +13,4 @@ sync_map_permission = client.sync \
                             .sync_map_permissions("bob") \
                             .fetch()
 
-print(sync_map_permission.account_sid)
+print(sync_map_permission.service_sid)

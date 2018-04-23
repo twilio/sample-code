@@ -11,4 +11,4 @@ usage = client.preview.sims("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .usage() \
                       .fetch()
 
-print(usage.sim_sid)
+print(usage.sim_unique_name)

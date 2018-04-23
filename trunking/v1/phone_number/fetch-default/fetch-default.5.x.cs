@@ -20,6 +20,6 @@ class Program
             pathSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(phoneNumber.AccountSid);
+        Console.WriteLine(phoneNumber.FriendlyName);
     }
 }

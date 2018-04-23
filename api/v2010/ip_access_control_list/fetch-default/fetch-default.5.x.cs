@@ -20,6 +20,6 @@ class Program
             pathSid: "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(ipAccessControlList.Sid);
+        Console.WriteLine(ipAccessControlList.FriendlyName);
     }
 }

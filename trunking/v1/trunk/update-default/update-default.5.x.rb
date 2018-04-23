@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 trunk = @client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .update(friendly_name: 'friendly_name')
 
-puts trunk.account_sid
+puts trunk.domain_name

@@ -15,4 +15,4 @@ certificate = @client.preview.deployed_devices
                         friendly_name: 'My New Certificate'
                       )
 
-puts certificate.sid
+puts certificate.friendly_name

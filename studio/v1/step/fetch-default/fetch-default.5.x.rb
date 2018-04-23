@@ -12,4 +12,4 @@ step = @client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .steps('FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .fetch
 
-puts step.sid
+puts step.name

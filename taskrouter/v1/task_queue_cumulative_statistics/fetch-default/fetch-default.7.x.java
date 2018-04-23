@@ -16,6 +16,6 @@ public class Example {
                 "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(taskQueueCumulativeStatistics.getAccountSid());
+        System.out.println(taskQueueCumulativeStatistics.getAvgTaskAcceptanceTime());
     }
 }

@@ -20,6 +20,6 @@ class Program
             pathTaskQueueSid: "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(taskQueueCumulativeStatistics.AccountSid);
+        Console.WriteLine(taskQueueCumulativeStatistics.AvgTaskAcceptanceTime);
     }
 }

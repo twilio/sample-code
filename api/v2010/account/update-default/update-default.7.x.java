@@ -13,6 +13,6 @@ public class Example {
         Account account = Account.updater("ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("friendlyName").update();
 
-        System.out.println(account.getAuthToken());
+        System.out.println(account.getFriendlyName());
     }
 }

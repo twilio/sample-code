@@ -14,6 +14,6 @@ public class Example {
             SyncMap.fetcher("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "Players")
             .fetch();
 
-        System.out.println(syncMap.getSid());
+        System.out.println(syncMap.getUniqueName());
     }
 }

@@ -15,4 +15,4 @@ $document = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->documents("MyFirstDocument")
                              ->fetch();
 
-print($document.sid);
+print($document.uniqueName);

@@ -14,5 +14,5 @@ sync_map_permissions = @client.preview.sync
                               .list
 
 sync_map_permissions.each do |record|
-  puts record.account_sid
+  puts record.service_sid
 end

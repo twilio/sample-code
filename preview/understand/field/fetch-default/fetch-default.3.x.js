@@ -8,5 +8,5 @@ client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .fields('UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .fetch()
-                         .then(field => console.log(field.accountSid))
+                         .then(field => console.log(field.uniqueName))
                          .done();

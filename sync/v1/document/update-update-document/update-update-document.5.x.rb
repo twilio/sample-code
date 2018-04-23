@@ -12,4 +12,4 @@ document = @client.sync.services('default').documents('BoardLED')
                                                 "led" => "ON"
                                             })
 
-puts document.sid
+puts document.unique_name

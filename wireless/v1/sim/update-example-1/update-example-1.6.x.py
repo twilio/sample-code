@@ -14,4 +14,4 @@ sim = client.wireless.sims("DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA") \
          status="active"
      )
 
-print(sim.sid)
+print(sim.unique_name)

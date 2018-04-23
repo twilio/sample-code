@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .participants('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .update({muted: true})
-      .then(participant => console.log(participant.accountSid))
+      .then(participant => console.log(participant.callSid))
       .done();

@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 trigger = client.usage.triggers("UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(trigger.account_sid)
+print(trigger.friendly_name)

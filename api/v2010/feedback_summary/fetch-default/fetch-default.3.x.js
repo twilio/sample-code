@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls.feedbackSummaries('FSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .fetch()
-            .then(feedback_summary => console.log(feedback_summary.accountSid))
+            .then(feedback_summary => console.log(feedback_summary.callCount))
             .done();

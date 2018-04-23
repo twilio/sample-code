@@ -15,6 +15,6 @@ public class Example {
             .setUniqueName("uniqueName")
             .update();
 
-        System.out.println(ratePlan.getSid());
+        System.out.println(ratePlan.getUniqueName());
     }
 }

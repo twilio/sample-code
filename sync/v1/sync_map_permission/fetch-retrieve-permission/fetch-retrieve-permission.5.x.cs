@@ -21,6 +21,6 @@ class Program
             pathIdentity: "bob"
         );
 
-        Console.WriteLine(syncMapPermission.AccountSid);
+        Console.WriteLine(syncMapPermission.ServiceSid);
     }
 }

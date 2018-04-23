@@ -8,5 +8,5 @@ client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .engagementContext()
       .fetch()
-      .then(engagement_context => console.log(engagement_context.accountSid))
+      .then(engagement_context => console.log(engagement_context.context))
       .done();

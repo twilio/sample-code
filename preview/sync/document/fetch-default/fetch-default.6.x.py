@@ -11,4 +11,4 @@ document = client.preview.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                          .documents("ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                          .fetch()
 
-print(document.sid)
+print(document.unique_name)

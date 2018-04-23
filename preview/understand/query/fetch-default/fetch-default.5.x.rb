@@ -12,4 +12,4 @@ query = @client.preview.understand
                        .queries('UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .fetch
 
-puts query.account_sid
+puts query.date_created

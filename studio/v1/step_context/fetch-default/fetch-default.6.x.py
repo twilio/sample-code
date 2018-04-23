@@ -13,4 +13,4 @@ step_context = client.studio.flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .step_context() \
                      .fetch()
 
-print(step_context.account_sid)
+print(step_context.context)

@@ -18,7 +18,7 @@ public class Example {
             .read();
 
         for(SyncMapPermission record : syncMapPermissions) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getServiceSid());
         }
     }
 }

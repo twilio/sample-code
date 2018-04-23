@@ -15,4 +15,4 @@ $participant = $twilio->conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                       ->participants
                       ->create("+15017122661", "+15558675310");
 
-print($participant.accountSid);
+print($participant.callSid);

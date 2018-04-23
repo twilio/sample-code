@@ -20,6 +20,6 @@ class Program
             pathSid: "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(queue.AccountSid);
+        Console.WriteLine(queue.FriendlyName);
     }
 }

@@ -22,6 +22,6 @@ class Program
             pathSid: "IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(ipAddress.Sid);
+        Console.WriteLine(ipAddress.FriendlyName);
     }
 }

@@ -16,6 +16,6 @@ public class Example {
             .setSandbox(true)
             .update();
 
-        System.out.println(credential.getSid());
+        System.out.println(credential.getFriendlyName());
     }
 }

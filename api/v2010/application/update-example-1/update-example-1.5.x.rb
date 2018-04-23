@@ -13,4 +13,4 @@ application = @client.applications('AP2a0747eba6abf96b7e3c3ff0b4530f6e')
                         voice_url: 'http://demo.twilio.com/docs/voice.xml'
                       )
 
-puts application.account_sid
+puts application.friendly_name

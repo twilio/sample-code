@@ -14,4 +14,4 @@ service = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
      notifications_added_to_channel_template: 'A New message in ${CHANNEL} from ${USER}: ${MESSAGE}'
    )
 
-puts service.sid
+puts service.friendly_name

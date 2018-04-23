@@ -14,6 +14,6 @@ public class Example {
                 "FSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(feedbackSummary.getAccountSid());
+        System.out.println(feedbackSummary.getCallCount());
     }
 }

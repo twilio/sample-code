@@ -15,6 +15,6 @@ public class Example {
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setTtl(1).update();
 
-        System.out.println(syncMap.getSid());
+        System.out.println(syncMap.getUniqueName());
     }
 }

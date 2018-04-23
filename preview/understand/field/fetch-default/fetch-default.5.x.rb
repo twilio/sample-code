@@ -13,4 +13,4 @@ field = @client.preview.understand
                        .fields('UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .fetch
 
-puts field.account_sid
+puts field.unique_name

@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 conference = client.conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(conference.account_sid)
+print(conference.friendly_name)

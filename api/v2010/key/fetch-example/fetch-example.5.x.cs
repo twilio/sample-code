@@ -20,6 +20,6 @@ class Program
             pathSid: "SK2a0747eba6abf96b7e3c3ff0b4530f6e"
         );
 
-        Console.WriteLine(key.Sid);
+        Console.WriteLine(key.FriendlyName);
     }
 }

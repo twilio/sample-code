@@ -13,4 +13,4 @@ document_permission = @client.preview.sync
                              .document_permissions('identity')
                              .fetch
 
-puts document_permission.account_sid
+puts document_permission.service_sid

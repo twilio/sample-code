@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 address = client.addresses("AP2a0747eba6abf96b7e3c3ff0b4530f6e").fetch()
 
-print(address.account_sid)
+print(address.customer_name)

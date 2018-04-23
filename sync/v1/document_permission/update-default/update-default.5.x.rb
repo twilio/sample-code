@@ -13,4 +13,4 @@ document_permission = @client.sync
                              .document_permissions('identity')
                              .update(read: true, write: true, manage: true)
 
-puts document_permission.account_sid
+puts document_permission.service_sid

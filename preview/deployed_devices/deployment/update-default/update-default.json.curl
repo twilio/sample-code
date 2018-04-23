@@ -1,0 +1,3 @@
+curl -X POST https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Deployments/DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+--data-urlencode "FriendlyName=FriendlyName" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

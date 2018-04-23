@@ -12,4 +12,4 @@ workspace_cumulative_statistics = client.taskrouter \
     .cumulative_statistics() \
     .fetch()
 
-print(workspace_cumulative_statistics.account_sid)
+print(workspace_cumulative_statistics.avg_task_acceptance_time)

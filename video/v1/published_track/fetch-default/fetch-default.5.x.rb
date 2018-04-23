@@ -12,4 +12,4 @@ published_track = @client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .published_tracks('MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts published_track.sid
+puts published_track.name

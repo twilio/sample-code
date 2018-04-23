@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 key = @client.keys('SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
-puts key.sid
+puts key.friendly_name

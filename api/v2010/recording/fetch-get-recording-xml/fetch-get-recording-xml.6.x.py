@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 recording = client.recordings("RE557ce644e5ab84fa21cc21112e22c485").fetch()
 
-print(recording.account_sid)
+print(recording.api_version)

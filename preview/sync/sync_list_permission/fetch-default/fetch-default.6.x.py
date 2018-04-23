@@ -13,4 +13,4 @@ sync_list_permission = client.preview.sync \
     .sync_list_permissions("identity") \
     .fetch()
 
-print(sync_list_permission.account_sid)
+print(sync_list_permission.service_sid)

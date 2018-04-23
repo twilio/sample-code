@@ -20,6 +20,6 @@ class Program
             pathSid: "FSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(feedbackSummary.AccountSid);
+        Console.WriteLine(feedbackSummary.CallCount);
     }
 }

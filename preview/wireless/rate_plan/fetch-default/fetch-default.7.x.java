@@ -14,6 +14,6 @@ public class Example {
             RatePlan.fetcher("WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(ratePlan.getSid());
+        System.out.println(ratePlan.getUniqueName());
     }
 }

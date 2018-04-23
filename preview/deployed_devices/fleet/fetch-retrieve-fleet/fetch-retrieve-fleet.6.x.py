@@ -11,4 +11,4 @@ fleet = client.preview.deployed_devices \
                       .fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .fetch()
 
-print(fleet.sid)
+print(fleet.unique_name)

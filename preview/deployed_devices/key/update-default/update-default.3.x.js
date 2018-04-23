@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                .keys('KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                .update({friendlyName: 'friendlyName'})
-                               .then(key => console.log(key.sid))
+                               .then(key => console.log(key.friendlyName))
                                .done();

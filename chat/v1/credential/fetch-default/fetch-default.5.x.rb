@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 credential = @client.chat.v1.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .fetch
 
-puts credential.sid
+puts credential.friendly_name

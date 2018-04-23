@@ -19,4 +19,4 @@ $sim = $twilio->wireless->v1->sims("DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
                                      )
                             );
 
-print($sim.sid);
+print($sim.uniqueName);

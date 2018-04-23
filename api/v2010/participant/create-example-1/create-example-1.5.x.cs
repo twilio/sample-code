@@ -22,6 +22,6 @@ class Program
             pathConferenceSid: "AgentConf12"
         );
 
-        Console.WriteLine(participant.AccountSid);
+        Console.WriteLine(participant.CallSid);
     }
 }

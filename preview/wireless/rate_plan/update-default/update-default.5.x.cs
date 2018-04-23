@@ -20,6 +20,6 @@ class Program
             pathSid: "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(ratePlan.Sid);
+        Console.WriteLine(ratePlan.UniqueName);
     }
 }

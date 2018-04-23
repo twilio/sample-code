@@ -14,4 +14,4 @@ sync_list_permissions = client.preview.sync \
     .list()
 
 for record in sync_list_permissions:
-    print(record.account_sid)
+    print(record.service_sid)

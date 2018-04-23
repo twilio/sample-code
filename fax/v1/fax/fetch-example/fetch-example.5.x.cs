@@ -17,6 +17,6 @@ class Program
 
         var fax = FaxResource.Fetch(pathSid: "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
 
-        Console.WriteLine(fax.Sid);
+        Console.WriteLine(fax.To);
     }
 }

@@ -22,7 +22,7 @@ class Program
 
         foreach(var record in userChannels)
         {
-           Console.WriteLine(record.AccountSid);
+           Console.WriteLine(record.ServiceSid);
         }
     }
 }

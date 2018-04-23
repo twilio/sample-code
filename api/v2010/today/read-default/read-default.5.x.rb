@@ -10,5 +10,5 @@ auth_token = 'your_auth_token'
 today = @client.usage.records.today.list
 
 today.each do |record|
-  puts record.account_sid
+  puts record.api_version
 end

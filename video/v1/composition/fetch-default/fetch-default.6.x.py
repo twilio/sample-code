@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 composition = client.video.compositions("CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                           .fetch()
 
-print(composition.account_sid)
+print(composition.status)

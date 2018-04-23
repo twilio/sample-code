@@ -13,4 +13,4 @@ engagement_context = client.studio \
                            .engagement_context() \
                            .fetch()
 
-print(engagement_context.account_sid)
+print(engagement_context.context)

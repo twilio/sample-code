@@ -12,4 +12,4 @@ message = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .messages('IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .fetch
 
-puts message.sid
+puts message.to

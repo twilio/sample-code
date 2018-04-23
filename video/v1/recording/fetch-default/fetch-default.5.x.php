@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $recording = $twilio->video->v1->recordings("RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->fetch();
 
-print($recording.accountSid);
+print($recording.trackName);

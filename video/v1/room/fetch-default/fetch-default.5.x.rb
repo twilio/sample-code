@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 room = @client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
-puts room.sid
+puts room.unique_name

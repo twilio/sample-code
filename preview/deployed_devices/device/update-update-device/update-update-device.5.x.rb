@@ -15,4 +15,4 @@ device = @client.preview.deployed_devices
                            identity: 'bob@twilio.com'
                          )
 
-puts device.sid
+puts device.unique_name

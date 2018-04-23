@@ -13,4 +13,4 @@ participant = client.preview.proxy \
                     .participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                     .update(participant_type="sms")
 
-print(participant.sid)
+print(participant.friendly_name)

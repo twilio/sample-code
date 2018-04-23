@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 service = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(service.sid)
+print(service.friendly_name)

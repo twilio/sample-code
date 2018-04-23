@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 sim = @client.wireless.sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA').fetch
 
-puts sim.sid
+puts sim.unique_name

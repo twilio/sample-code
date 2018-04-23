@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $rate_plan = $twilio->wireless->v1->ratePlans("WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->update(array('uniqueName' => "uniqueName"));
 
-print($rate_plan.sid);
+print($rate_plan.uniqueName);

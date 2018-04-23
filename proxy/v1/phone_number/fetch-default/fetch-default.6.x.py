@@ -11,4 +11,4 @@ phone_number = client.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .phone_numbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .fetch()
 
-print(phone_number.sid)
+print(phone_number.friendly_name)

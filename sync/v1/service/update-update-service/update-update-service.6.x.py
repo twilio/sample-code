@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 service = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .update(friendly_name="NEW_FRIENDLY_NAME")
 
-print(service.sid)
+print(service.unique_name)

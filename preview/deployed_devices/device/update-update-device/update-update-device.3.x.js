@@ -10,5 +10,5 @@ client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                   friendlyName: 'My New Device',
                                   identity: 'bob@twilio.com'
                                 })
-                               .then(device => console.log(device.sid))
+                               .then(device => console.log(device.uniqueName))
                                .done();

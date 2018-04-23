@@ -17,5 +17,5 @@ $documentPermissions = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXX
                                              ->read();
 
 foreach ($documentPermissions as $record) {
-    print($record->accountSid);
+    print($record->serviceSid);
 }

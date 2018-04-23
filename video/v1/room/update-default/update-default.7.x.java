@@ -15,6 +15,6 @@ public class Example {
                 Room.RoomStatus.IN_PROGRESS)
             .update();
 
-        System.out.println(room.getSid());
+        System.out.println(room.getUniqueName());
     }
 }

@@ -11,4 +11,4 @@ participant = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .participants
                      .create(from: '+15017122661', to: '+15558675310')
 
-puts participant.account_sid
+puts participant.call_sid

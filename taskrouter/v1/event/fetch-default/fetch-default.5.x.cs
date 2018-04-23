@@ -20,6 +20,6 @@ class Program
             pathSid: "EVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(_event.AccountSid);
+        Console.WriteLine(_event.ActorSid);
     }
 }

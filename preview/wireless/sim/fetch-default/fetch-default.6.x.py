@@ -9,4 +9,4 @@ client = Client(account_sid, auth_token)
 
 sim = client.preview.sims("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
 
-print(sim.sid)
+print(sim.unique_name)

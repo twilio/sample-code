@@ -20,6 +20,6 @@ class Program
             pathSid: "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(user.Sid);
+        Console.WriteLine(user.FriendlyName);
     }
 }

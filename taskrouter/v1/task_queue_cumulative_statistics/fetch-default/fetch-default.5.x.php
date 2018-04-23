@@ -16,4 +16,4 @@ $task_queue_cumulative_statistics = $twilio->taskrouter->v1->workspaces("WSXXXXX
                                                            ->cumulativeStatistics()
                                                            ->fetch();
 
-print($task_queue_cumulative_statistics.accountSid);
+print($task_queue_cumulative_statistics.avgTaskAcceptanceTime);

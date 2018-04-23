@@ -11,4 +11,4 @@ feedback_summary = @client.calls
   .feedback_summaries('FSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 
-puts feedback_summary.account_sid
+puts feedback_summary.call_count

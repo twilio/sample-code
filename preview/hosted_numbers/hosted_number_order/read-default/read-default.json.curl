@@ -1,0 +1,2 @@
+curl -X GET https://preview.twilio.com/HostedNumbers/HostedNumberOrders \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

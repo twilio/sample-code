@@ -12,4 +12,4 @@ deployment = client.preview.deployed_devices \
                            .deployments("DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                            .fetch()
 
-print(deployment.sid)
+print(deployment.friendly_name)

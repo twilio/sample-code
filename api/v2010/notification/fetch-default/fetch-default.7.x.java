@@ -14,6 +14,6 @@ public class Example {
             Notification.fetcher("NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(notification.getAccountSid());
+        System.out.println(notification.getApiVersion());
     }
 }

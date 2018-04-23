@@ -15,6 +15,6 @@ public class Example {
                 "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(phoneNumber.getSid());
+        System.out.println(phoneNumber.getFriendlyName());
     }
 }

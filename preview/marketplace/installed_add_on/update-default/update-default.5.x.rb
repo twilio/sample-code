@@ -11,4 +11,4 @@ installed_add_on = @client.preview.marketplace
   .installed_add_ons('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .update(configuration: {})
 
-puts installed_add_on.sid
+puts installed_add_on.friendly_name

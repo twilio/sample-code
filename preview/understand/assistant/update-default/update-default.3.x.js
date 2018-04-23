@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .update({friendlyName: 'friendlyName'})
-                         .then(assistant => console.log(assistant.accountSid))
-                         .done();
+              .update({friendlyName: 'friendlyName'})
+              .then(assistant => console.log(assistant.friendlyName))
+              .done();

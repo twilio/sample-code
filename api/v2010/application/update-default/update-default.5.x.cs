@@ -21,6 +21,6 @@ class Program
             pathSid: "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(application.AccountSid);
+        Console.WriteLine(application.FriendlyName);
     }
 }

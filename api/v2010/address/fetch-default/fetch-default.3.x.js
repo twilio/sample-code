@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.addresses('ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .fetch()
-      .then(address => console.log(address.accountSid))
+      .then(address => console.log(address.customerName))
       .done();

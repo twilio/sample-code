@@ -18,4 +18,4 @@ $channel = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      )
                             );
 
-print($channel.sid);
+print($channel.friendlyName);

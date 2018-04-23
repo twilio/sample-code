@@ -8,5 +8,5 @@ client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .syncListPermissions('identity')
   .fetch()
-  .then(sync_list_permission => console.log(sync_list_permission.accountSid))
+  .then(sync_list_permission => console.log(sync_list_permission.serviceSid))
   .done();

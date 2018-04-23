@@ -14,7 +14,7 @@ public class Example {
         ResourceSet<Yearly> yearly = Yearly.reader().read();
 
         for(Yearly record : yearly) {
-            System.out.println(record.getAccountSid());
+            System.out.println(record.getApiVersion());
         }
     }
 }

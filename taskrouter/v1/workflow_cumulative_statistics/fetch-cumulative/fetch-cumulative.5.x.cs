@@ -20,6 +20,6 @@ class Program
             pathWorkflowSid: "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workflowCumulativeStatistics.AccountSid);
+        Console.WriteLine(workflowCumulativeStatistics.AvgTaskAcceptanceTime);
     }
 }

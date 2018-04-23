@@ -8,5 +8,5 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .messages('IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .fetch()
-           .then(message => console.log(message.sid))
+           .then(message => console.log(message.to))
            .done();

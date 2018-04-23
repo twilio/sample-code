@@ -15,6 +15,6 @@ public class Example {
                 "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(taskQueueStatistics.getAccountSid());
+        System.out.println(taskQueueStatistics.getCumulative());
     }
 }

@@ -21,6 +21,6 @@ class Program
             pathSubscriberSid: "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(subscribedTrack.Sid);
+        Console.WriteLine(subscribedTrack.Name);
     }
 }

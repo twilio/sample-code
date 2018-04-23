@@ -10,4 +10,4 @@ auth_token = 'your_auth_token'
 conference = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .update(status: 'completed')
 
-puts conference.account_sid
+puts conference.friendly_name

@@ -10,5 +10,5 @@ auth_token = 'your_auth_token'
 all_time = @client.usage.records.all_time.list
 
 all_time.each do |record|
-  puts record.account_sid
+  puts record.api_version
 end

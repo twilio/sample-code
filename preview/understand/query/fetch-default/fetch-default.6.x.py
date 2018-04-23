@@ -12,4 +12,4 @@ query = client.preview.understand \
                       .queries("UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .fetch()
 
-print(query.account_sid)
+print(query.date_created)

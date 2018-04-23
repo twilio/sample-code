@@ -15,6 +15,6 @@ public class Example {
                 "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
-        System.out.println(engagementContext.getAccountSid());
+        System.out.println(engagementContext.getContext());
     }
 }

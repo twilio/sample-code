@@ -11,4 +11,4 @@ assistant = @client.preview.understand
                            .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .fetch
 
-puts assistant.account_sid
+puts assistant.friendly_name

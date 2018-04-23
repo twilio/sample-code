@@ -16,4 +16,4 @@ $worker_channel = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXX
                                          ->workerChannels("WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->update(array('capacity' => 1));
 
-print($worker_channel.accountSid);
+print($worker_channel.taskChannelUniqueName);

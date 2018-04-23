@@ -15,6 +15,6 @@ public class Example {
                 "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setPassword("password").update();
 
-        System.out.println(credential.getSid());
+        System.out.println(credential.getUsername());
     }
 }

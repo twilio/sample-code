@@ -17,4 +17,4 @@ $workspace = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                              )
                                     );
 
-print($workspace.accountSid);
+print($workspace.defaultActivityName);

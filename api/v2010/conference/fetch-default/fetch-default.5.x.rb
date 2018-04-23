@@ -9,4 +9,4 @@ auth_token = 'your_auth_token'
 
 conference = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
 
-puts conference.account_sid
+puts conference.friendly_name

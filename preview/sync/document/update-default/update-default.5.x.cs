@@ -21,6 +21,6 @@ class Program
             pathSid: "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(document.Sid);
+        Console.WriteLine(document.UniqueName);
     }
 }

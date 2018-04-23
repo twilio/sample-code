@@ -14,5 +14,5 @@ statistics = @client.taskrouter
                     .list
 
 statistics.each do |record|
-  puts record.account_sid
+  puts record.cumulative
 end

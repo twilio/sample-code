@@ -19,6 +19,6 @@ class Program
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(workspaceCumulativeStatistics.AccountSid);
+        Console.WriteLine(workspaceCumulativeStatistics.AvgTaskAcceptanceTime);
     }
 }

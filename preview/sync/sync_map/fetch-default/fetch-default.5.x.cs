@@ -20,6 +20,6 @@ class Program
             pathSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(syncMap.Sid);
+        Console.WriteLine(syncMap.UniqueName);
     }
 }

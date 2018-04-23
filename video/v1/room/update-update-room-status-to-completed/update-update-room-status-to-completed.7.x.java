@@ -14,6 +14,6 @@ public class Example {
                 "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",    Room.RoomStatus.COMPLETED)
             .update();
 
-        System.out.println(room.getSid());
+        System.out.println(room.getUniqueName());
     }
 }

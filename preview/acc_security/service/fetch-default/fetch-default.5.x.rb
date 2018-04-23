@@ -11,4 +11,4 @@ service = @client.preview.acc_security
                          .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .fetch
 
-puts service.sid
+puts service.name

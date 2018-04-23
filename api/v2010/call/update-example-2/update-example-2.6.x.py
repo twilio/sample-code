@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 call = client.calls("CAe1644a7eed5088b159577c5802d8be38") \
              .update(status="completed")
 
-print(call.account_sid)
+print(call.to)

@@ -11,4 +11,4 @@ validation_request = @client.validation_requests.create(
                                                    phone_number: '+15017122661'
                                                  )
 
-puts validation_request.account_sid
+puts validation_request.friendly_name

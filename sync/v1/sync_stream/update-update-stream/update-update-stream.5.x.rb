@@ -11,4 +11,4 @@ sync_stream = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                           .sync_streams('MyStream')
                           .update(ttl: 864000)
 
-puts sync_stream.sid
+puts sync_stream.unique_name

@@ -12,4 +12,4 @@ field_type = @client.preview.understand
                             .field_types('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .update(friendly_name: 'friendly_name')
 
-puts field_type.account_sid
+puts field_type.friendly_name

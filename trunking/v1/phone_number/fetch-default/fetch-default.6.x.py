@@ -11,4 +11,4 @@ phone_number = client.trunking.trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .phone_numbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                      .fetch()
 
-print(phone_number.account_sid)
+print(phone_number.friendly_name)

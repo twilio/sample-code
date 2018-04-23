@@ -12,6 +12,6 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Sim sim = Sim.fetcher("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch();
 
-        System.out.println(sim.getSid());
+        System.out.println(sim.getUniqueName());
     }
 }

@@ -20,6 +20,6 @@ class Program
             pathSid: "XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(installedAddOnExtension.Sid);
+        Console.WriteLine(installedAddOnExtension.FriendlyName);
     }
 }

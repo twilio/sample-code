@@ -16,4 +16,4 @@ $message = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->messages("IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->fetch();
 
-print($message.sid);
+print($message.to);

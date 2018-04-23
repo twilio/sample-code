@@ -15,5 +15,5 @@ $authorizedConnectApps = $twilio->authorizedConnectApps
                                 ->read();
 
 foreach ($authorizedConnectApps as $record) {
-    print($record->accountSid);
+    print($record->connectAppCompanyName);
 }

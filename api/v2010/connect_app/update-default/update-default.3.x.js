@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.connectApps('CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .update({authorizeRedirectUrl: 'https://example.com'})
-      .then(connect_app => console.log(connect_app.accountSid))
+      .then(connect_app => console.log(connect_app.companyName))
       .done();

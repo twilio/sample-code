@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $assistant = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->fetch();
 
-print($assistant.accountSid);
+print($assistant.friendlyName);

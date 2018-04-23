@@ -14,5 +14,5 @@ document_permissions = @client.preview.sync
                               .list
 
 document_permissions.each do |record|
-  puts record.account_sid
+  puts record.service_sid
 end

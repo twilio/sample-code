@@ -10,4 +10,4 @@ client = Client(account_sid, auth_token)
 service = client.messaging.services("MG2172dd2db502e20dd981ef0d67850e1a") \
                           .update(inbound_request_url="http://www.example.com")
 
-print(service.sid)
+print(service.friendly_name)

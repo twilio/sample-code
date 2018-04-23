@@ -11,4 +11,4 @@ sync_list = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .sync_lists('MyFirstList')
                         .update(ttl: 864000)
 
-puts sync_list.sid
+puts sync_list.unique_name

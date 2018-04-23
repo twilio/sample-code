@@ -10,5 +10,5 @@ client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  deviceSid: 'THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                  friendlyName: 'My New Certificate'
                })
-              .then(certificate => console.log(certificate.sid))
+              .then(certificate => console.log(certificate.friendlyName))
               .done();

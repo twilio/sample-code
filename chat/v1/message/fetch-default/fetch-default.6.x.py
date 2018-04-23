@@ -12,4 +12,4 @@ message = client.chat.v1.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                         .messages("IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                         .fetch()
 
-print(message.sid)
+print(message.to)

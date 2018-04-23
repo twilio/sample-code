@@ -18,6 +18,6 @@ public class Example {
                 new HashMap<String, Object>())
             .update();
 
-        System.out.println(document.getSid());
+        System.out.println(document.getUniqueName());
     }
 }

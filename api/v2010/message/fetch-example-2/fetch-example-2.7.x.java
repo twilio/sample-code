@@ -13,6 +13,6 @@ public class Example {
         Message message = Message.fetcher("SM800f449d0399ed014aae2bcc0cc2f2ec")
             .fetch();
 
-        System.out.println(message.getAccountSid());
+        System.out.println(message.getTo());
     }
 }

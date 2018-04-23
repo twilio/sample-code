@@ -16,4 +16,4 @@ $segment_membership = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXX
                                          ->segmentMemberships("segment")
                                          ->fetch();
 
-print($segment_membership.accountSid);
+print($segment_membership.serviceSid);

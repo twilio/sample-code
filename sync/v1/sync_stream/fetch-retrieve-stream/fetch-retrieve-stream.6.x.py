@@ -11,4 +11,4 @@ sync_stream = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                          .sync_streams("MyStream") \
                          .fetch()
 
-print(sync_stream.sid)
+print(sync_stream.unique_name)

@@ -16,6 +16,6 @@ public class Example {
                 "pathIdentity")
             .fetch();
 
-        System.out.println(documentPermission.getAccountSid());
+        System.out.println(documentPermission.getServiceSid());
     }
 }
