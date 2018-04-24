@@ -5,6 +5,6 @@
   "date_updated": "2014-05-14T23:26:06Z",
   "friendly_name": "New Activity",
   "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Activities/WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Activities/WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

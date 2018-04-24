@@ -32,7 +32,7 @@
         "yearly": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records/Yearly.json?Category=sms-inbound-shortcode",
         "yesterday": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records/Yesterday.json?Category=sms-inbound-shortcode"
       },
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records/Yesterday?Category=sms-inbound-shortcode&StartDate=2015-09-03&EndDate=2015-09-03",
+      "uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Usage/Records/Yesterday?Category=sms-inbound-shortcode&StartDate=2015-09-03&EndDate=2015-09-03",
       "usage": "0",
       "usage_unit": "messages"
     }

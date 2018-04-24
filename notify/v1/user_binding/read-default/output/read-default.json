@@ -18,7 +18,7 @@
       "tags": [
         "tag"
       ],
-      "url": "https://notify.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users/identity/Bindings/BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/Bindings/BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {
