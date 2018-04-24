@@ -6,7 +6,7 @@
   "default_deployment_sid": "DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2016-07-30T20:00:00Z",
   "date_updated": "2016-07-30T20:00:00Z",
-  "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "url": "https://preview.twilio.com/DeployedDevices/Fleets/THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "devices": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices",
     "deployments": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Deployments",

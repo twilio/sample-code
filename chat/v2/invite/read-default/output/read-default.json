@@ -10,7 +10,7 @@
       "role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "INXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Invites/INXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Invites/INXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {
