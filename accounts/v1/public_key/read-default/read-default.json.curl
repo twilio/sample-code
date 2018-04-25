@@ -1,2 +1,2 @@
-curl -X GET https://accounts.twilio.com/v1/Credentials/PublicKeys \
+curl -X GET 'https://accounts.twilio.com/v1/Credentials/PublicKeys' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

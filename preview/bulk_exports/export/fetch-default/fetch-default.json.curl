@@ -1,2 +1,2 @@
-curl -X GET https://preview.twilio.com/BulkExports/Exports/ResourceType \
+curl -X GET 'https://preview.twilio.com/BulkExports/Exports/ResourceType' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
