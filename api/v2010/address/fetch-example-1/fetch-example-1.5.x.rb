@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-address = @client.addresses('AP2a0747eba6abf96b7e3c3ff0b4530f6e').fetch
+address = @client.addresses('AD2a0747eba6abf96b7e3c3ff0b4530f6e').fetch
 
 puts address.customer_name
