@@ -1,5 +1,2 @@
-curl -X GET https://monitor.twilio.com/v1/Alerts \
---data-urlencode "EndDate=2015-04-30" \
---data-urlencode "LogLevel=warning" \
---data-urlencode "StartDate=2015-04-01" \
+curl -X GET 'https://monitor.twilio.com/v1/Alerts?EndDate=2015-04-30&LogLevel=warning&StartDate=2015-04-01' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

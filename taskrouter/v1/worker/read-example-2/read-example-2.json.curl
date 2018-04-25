@@ -1,3 +1,2 @@
-curl -X GET https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers \
---data-urlencode "TargetWorkersExpression=type == 'leads'" \
+curl -X GET 'https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers?TargetWorkersExpression=type+%3D%3D+%27leads%27' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

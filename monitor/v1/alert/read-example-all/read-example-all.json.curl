@@ -1,2 +1,2 @@
-curl -X GET https://monitor.twilio.com/v1/Alerts \
+curl -X GET 'https://monitor.twilio.com/v1/Alerts' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
