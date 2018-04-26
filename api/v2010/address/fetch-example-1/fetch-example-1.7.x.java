@@ -10,7 +10,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Address address = Address.fetcher("AD2a0747eba6abf96b7e3c3ff0b4530f6e")
+        Address address = Address.fetcher("AP2a0747eba6abf96b7e3c3ff0b4530f6e")
             .fetch();
 
         System.out.println(address.getCustomerName());

@@ -3,6 +3,8 @@
 import com.twilio.Twilio;
 import com.twilio.rest.sync.v1.service.syncmap.SyncMapItem;
 
+import java.util.HashMap;
+
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
@@ -14,7 +16,7 @@ public class Example {
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "Players",
                 "steph_curry",
-                new java.util.HashMap<String, Object>()
+                new HashMap<String, Object>()
                 {{
                 put("name", "Stephen Curry");
                 put("level", "30");

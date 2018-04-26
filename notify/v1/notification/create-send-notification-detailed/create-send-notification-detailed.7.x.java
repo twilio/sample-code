@@ -4,6 +4,8 @@ import com.twilio.Twilio;
 import com.twilio.converter.Promoter;
 import com.twilio.rest.notify.v1.service.Notification;
 
+import java.util.HashMap;
+
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
@@ -14,19 +16,19 @@ public class Example {
         Notification notification = 
             Notification.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setApn(
-                new java.util.HashMap<String, Object>()
+                new HashMap<String, Object>()
                 {{
                     put("aps", "{'alert': {'title': 'Short title for Watch.'}}");
                 }})
             .setBody("This is the body for all Bindings")
             .setData(
-                new java.util.HashMap<String, Object>()
+                new HashMap<String, Object>()
                 {{
                     put("custom_key1", "custom value 1");
                     put("custom_key2", "custom value 2");
                 }})
             .setFcm(
-                new java.util.HashMap<String, Object>()
+                new HashMap<String, Object>()
                 {{
                     put("notification", "{'title': 'New alert', 'body': 'Hello Bob!'}");
                 }})

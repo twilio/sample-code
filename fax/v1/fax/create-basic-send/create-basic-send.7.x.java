@@ -14,8 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Fax fax = Fax.creator(
                 "+15558675310",
-                URI.create(
-                "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf"))
+                URI.create("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf"))
             .setFrom("+15017122661").create();
 
         System.out.println(fax.getSid());

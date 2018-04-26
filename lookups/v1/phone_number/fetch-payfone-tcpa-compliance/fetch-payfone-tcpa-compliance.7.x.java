@@ -3,6 +3,9 @@
 import com.twilio.Twilio;
 import com.twilio.converter.Promoter;
 import com.twilio.rest.lookups.v1.PhoneNumber;
+import com.twilio.type.PhoneNumber;
+
+import java.util.HashMap;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -11,11 +14,11 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        PhoneNumber phoneNumber = PhoneNumber.fetcher(
-                new com.twilio.type.PhoneNumber("+16502530000"))
+        PhoneNumber phoneNumber = 
+            PhoneNumber.fetcher(new PhoneNumber("+16502530000"))
             .setAddOns(Promoter.listOfOne("payfone_tcpa_compliance"))
             .setAddOnsData(
-                new java.util.HashMap<String, Object>()
+                new HashMap<String, Object>()
                 {{
                     put("payfone_tcpa_compliance.right_party_contacted_date", "20160101");
                 }})

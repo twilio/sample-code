@@ -2,7 +2,6 @@
 
 import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.conference.Participant;
-import com.twilio.type.PhoneNumber;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -13,8 +12,8 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Participant participant = Participant.creator(
                 "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                new PhoneNumber("+15017122661"),
-                new PhoneNumber("+15558675310"))
+                new com.twilio.type.PhoneNumber("+15017122661"),
+                new com.twilio.type.PhoneNumber("+15558675310"))
             .create();
 
         System.out.println(participant.getCallSid());

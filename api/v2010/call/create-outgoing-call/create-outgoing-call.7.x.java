@@ -16,8 +16,7 @@ public class Example {
         Call call = Call.creator(
                 new PhoneNumber("+1562300000"),
                 new PhoneNumber("+18180000000"),
-                URI.create(
-                "https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16"))
+                URI.create("https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16"))
             .setMachineDetection("Enable").create();
 
         System.out.println(call.getSid());

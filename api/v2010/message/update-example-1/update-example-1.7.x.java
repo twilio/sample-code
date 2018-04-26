@@ -1,9 +1,7 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.rest.api.v2010.account.Call;
-
-import java.net.URI;
+import com.twilio.rest.api.v2010.account.Message;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -12,12 +10,10 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Call call = Call.creator(
-                new com.twilio.type.PhoneNumber("+15558675310"),
-                new com.twilio.type.PhoneNumber("+15017122661"),
-                URI.create("https://example.com"))
-            .create();
+        Message message = 
+            Message.updater("MM800f449d0399ed014aae2bcc0cc2f2ec", "body")
+            .update();
 
-        System.out.println(call.getSid());
+        System.out.println(message.getTo());
     }
 }

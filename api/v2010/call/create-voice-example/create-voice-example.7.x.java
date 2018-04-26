@@ -16,8 +16,7 @@ public class Example {
         Call call = Call.creator(
                 new PhoneNumber("+16518675310"),
                 new PhoneNumber("+14158141829"),
-                URI.create(
-                "http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount"))
+                URI.create("http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount"))
             .create();
 
         System.out.println(call.getSid());

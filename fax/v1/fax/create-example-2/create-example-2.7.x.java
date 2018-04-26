@@ -14,8 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Fax fax = Fax.creator(
                 "sip:kate@example.com",
-                URI.create(
-                "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf"))
+                URI.create("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf"))
             .setFrom("Jack")
             .setSipAuthPassword("secret")
             .setSipAuthUsername("jack")

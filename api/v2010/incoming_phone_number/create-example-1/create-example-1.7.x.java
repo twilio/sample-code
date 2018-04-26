@@ -3,6 +3,7 @@
 import com.twilio.Twilio;
 import com.twilio.http.HttpMethod;
 import com.twilio.rest.api.v2010.account.IncomingPhoneNumber;
+import com.twilio.type.PhoneNumber;
 
 import java.net.URI;
 
@@ -14,7 +15,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         IncomingPhoneNumber incomingPhoneNumber = IncomingPhoneNumber.creator(
-                new com.twilio.type.PhoneNumber("+15105647903"))
+                new PhoneNumber("+15105647903"))
             .setFriendlyName("My Company Line")
             .setVoiceMethod(HttpMethod.GET)
             .setVoiceUrl(URI.create("http://demo.twilio.com/docs/voice.xml"))

@@ -16,8 +16,7 @@ public class Example {
         Sim sim = Sim.updater("DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
             .setCallbackMethod(HttpMethod.POST)
             .setCallbackUrl(
-                URI.create(
-                    "https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter"))
+                URI.create("https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter"))
             .setStatus(Sim.Status.ACTIVE)
             .update();
 

@@ -15,8 +15,7 @@ public class Example {
             Notification.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setBody("Hello Bob")
             .setToBinding(
-                Promoter.listOfOne(
-                    "{\"binding_type\":\"sms\",\"address\":\"+15555555555\"}"))
+                Promoter.listOfOne("{\"binding_type\":\"sms\",\"address\":\"+15555555555\"}"))
             .setIdentity(Promoter.listOfOne("identity"))
             .create();
 

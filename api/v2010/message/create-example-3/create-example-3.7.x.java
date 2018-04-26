@@ -19,8 +19,7 @@ public class Example {
                 new PhoneNumber("+14158141829"),
                 "Let's grab lunch at Milliways tomorrow!")
             .setMediaUrl(
-                Promoter.listOfOne(
-                    URI.create("http://www.example.com/cheeseburger.png")))
+                Promoter.listOfOne(URI.create("http://www.example.com/cheeseburger.png")))
             .create();
 
         System.out.println(message.getSid());
