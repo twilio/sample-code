@@ -1,3 +1,2 @@
-curl -X GET https://video.twilio.com/v1/Recordings \
---data-urlencode "GroupingSid=ParticipantSid" \
+curl -X GET 'https://video.twilio.com/v1/Recordings?GroupingSid=ParticipantSid' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

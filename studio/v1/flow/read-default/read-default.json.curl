@@ -1,2 +1,2 @@
-curl -X GET https://studio.twilio.com/v1/Flows \
+curl -X GET 'https://studio.twilio.com/v1/Flows' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

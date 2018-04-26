@@ -1,2 +1,2 @@
-curl -X GET https://video.twilio.com/v1/Compositions \
+curl -X GET 'https://video.twilio.com/v1/Compositions' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

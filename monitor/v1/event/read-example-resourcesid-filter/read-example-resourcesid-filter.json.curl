@@ -1,3 +1,2 @@
-curl -X GET https://monitor.twilio.com/v1/Events \
---data-urlencode "ResourceSid=PN4aa51b930717ea83c91971b86d99018f" \
+curl -X GET 'https://monitor.twilio.com/v1/Events?ResourceSid=PN4aa51b930717ea83c91971b86d99018f' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

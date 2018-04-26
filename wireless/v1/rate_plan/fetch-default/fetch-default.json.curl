@@ -1,2 +1,2 @@
-curl -X GET https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+curl -X GET 'https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
