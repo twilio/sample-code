@@ -1,9 +1,7 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
-using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Api.V2010.Account;
 
 

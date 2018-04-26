@@ -15,13 +15,12 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var call = CallResource.Update(
-            method: Twilio.Http.HttpMethod.Post,
-            url: new Uri("http://demo.twilio.com/docs/voice.xml"),
+        var message = MessageResource.Update(
+            body: "Body",
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "CAe1644a7eed5088b159577c5802d8be38"
+            pathSid: "MM800f449d0399ed014aae2bcc0cc2f2ec"
         );
 
-        Console.WriteLine(call.To);
+        Console.WriteLine(message.To);
     }
 }

@@ -17,7 +17,7 @@ class Program
 
         var address = AddressResource.Fetch(
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "AD2a0747eba6abf96b7e3c3ff0b4530f6e"
+            pathSid: "AP2a0747eba6abf96b7e3c3ff0b4530f6e"
         );
 
         Console.WriteLine(address.CustomerName);

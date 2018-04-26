@@ -7,6 +7,7 @@ account_sid = '"ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-address = client.addresses("AP2a0747eba6abf96b7e3c3ff0b4530f6e").fetch()
+message = client.messages("MM800f449d0399ed014aae2bcc0cc2f2ec") \
+                .update(body="body")
 
-print(address.customer_name)
+print(message.to)
