@@ -2,7 +2,6 @@
 
 import com.twilio.Twilio;
 import com.twilio.rest.lookups.v1.PhoneNumber;
-import com.twilio.type.PhoneNumber;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -11,10 +10,9 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        PhoneNumber phoneNumber = 
-            PhoneNumber.fetcher(new PhoneNumber("+15108675310"))
-            .setCountryCode("US")
-            .fetch();
+        PhoneNumber phoneNumber = PhoneNumber.fetcher(
+                new com.twilio.type.PhoneNumber("+15108675310"))
+            .setCountryCode("US").fetch();
 
         System.out.println(phoneNumber.getCallerName());
     }
