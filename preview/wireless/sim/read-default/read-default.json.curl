@@ -1,2 +1,2 @@
-curl -X GET https://preview.twilio.com/wireless/Sims \
+curl -X GET 'https://preview.twilio.com/wireless/Sims' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

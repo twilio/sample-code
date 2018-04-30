@@ -1,2 +1,2 @@
-curl -X GET https://lookups.twilio.com/v1/PhoneNumbers/+4402077651182 \
+curl -X GET 'https://lookups.twilio.com/v1/PhoneNumbers/+4402077651182' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

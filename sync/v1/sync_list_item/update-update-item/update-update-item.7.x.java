@@ -3,6 +3,8 @@
 import com.twilio.Twilio;
 import com.twilio.rest.sync.v1.service.synclist.SyncListItem;
 
+import java.util.HashMap;
+
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
@@ -15,7 +17,7 @@ public class Example {
                 "MyCollection",
                 0)
             .setData(
-                new java.util.HashMap<String, Object>()
+                new HashMap<String, Object>()
                 {{
                     put("number", "001");
                     put("name", "Bulbasaur");

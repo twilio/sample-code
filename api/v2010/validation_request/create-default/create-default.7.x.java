@@ -2,7 +2,6 @@
 
 import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.ValidationRequest;
-import com.twilio.type.PhoneNumber;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -12,7 +11,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ValidationRequest validationRequest = ValidationRequest.creator(
-                new PhoneNumber("+15017122661"))
+                new com.twilio.type.PhoneNumber("+15017122661"))
             .create();
 
         System.out.println(validationRequest.getFriendlyName());

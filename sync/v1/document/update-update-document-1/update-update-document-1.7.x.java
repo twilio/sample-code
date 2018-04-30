@@ -3,6 +3,8 @@
 import com.twilio.Twilio;
 import com.twilio.rest.sync.v1.service.Document;
 
+import java.util.HashMap;
+
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
@@ -14,7 +16,7 @@ public class Example {
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MyFirstDocument")
             .setData(
-                new java.util.HashMap<String, Object>()
+                new HashMap<String, Object>()
                 {{
                     put("date_updated", "2018-02-14 12:24:33.889341");
                     put("movie_title", "On The Line");

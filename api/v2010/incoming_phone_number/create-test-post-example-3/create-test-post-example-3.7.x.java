@@ -2,6 +2,7 @@
 
 import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.IncomingPhoneNumber;
+import com.twilio.type.PhoneNumber;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -10,8 +11,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        IncomingPhoneNumber incomingPhoneNumber = IncomingPhoneNumber.creator(
-                new com.twilio.type.PhoneNumber("33"))
+        IncomingPhoneNumber incomingPhoneNumber = 
+            IncomingPhoneNumber.creator(new PhoneNumber("33"))
             .create();
 
         System.out.println(incomingPhoneNumber.getSid());

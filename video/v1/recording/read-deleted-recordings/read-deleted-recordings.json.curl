@@ -1,3 +1,2 @@
-curl -X GET https://video.twilio.com/v1/Recordings \
---data-urlencode "Status=deleted" \
+curl -X GET 'https://video.twilio.com/v1/Recordings?Status=deleted' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -4,6 +4,8 @@ import com.twilio.Twilio;
 import com.twilio.converter.Promoter;
 import com.twilio.rest.lookups.v1.PhoneNumber;
 
+import java.util.HashMap;
+
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
@@ -15,7 +17,7 @@ public class Example {
                 new com.twilio.type.PhoneNumber("+16502530000"))
             .setAddOns(Promoter.listOfOne("payfone_tcpa_compliance"))
             .setAddOnsData(
-                new java.util.HashMap<String, Object>()
+                new HashMap<String, Object>()
                 {{
                     put("payfone_tcpa_compliance.right_party_contacted_date", "20160101");
                 }})

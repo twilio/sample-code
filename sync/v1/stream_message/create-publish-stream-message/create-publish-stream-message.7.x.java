@@ -3,6 +3,8 @@
 import com.twilio.Twilio;
 import com.twilio.rest.sync.v1.service.syncstream.StreamMessage;
 
+import java.util.HashMap;
+
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
@@ -13,7 +15,7 @@ public class Example {
         StreamMessage streamMessage = StreamMessage.creator(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MyStream",
-                new java.util.HashMap<String, Object>()
+                new HashMap<String, Object>()
                 {{
                 put("id", "bob");
                 put("x", "256");
