@@ -15,7 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var accounts = AccountResource.Read(status: AccountResource.StatusEnum.Active);
+        var accounts = AccountResource.Read(status: "active");
 
         foreach(var record in accounts)
         {
