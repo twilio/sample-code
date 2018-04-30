@@ -1,2 +1,2 @@
-curl -X GET 'https://lookups.twilio.com/v1/PhoneNumbers/+15108675310?AddOns=payfone_tcpa_compliance&AddOnsData=%7B%27payfone_tcpa_compliance.right_party_contacted_date%27%3A+%2720160101%27%7D&Type=carrier' \
+curl -X GET 'https://lookups.twilio.com/v1/PhoneNumbers/+15108675310?AddOns=payfone_tcpa_compliance&Type=carrier&AddOns.payfone_tcpa_compliance.RightPartyContactedDate=20160101' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
