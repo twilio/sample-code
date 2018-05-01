@@ -3,12 +3,12 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = '"ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 validation_request = client.validation_requests.create(
-                                                    phone_number="+15017122661"
+                                                    phone_number='+15017122661'
                                                 )
 
 print(validation_request.friendly_name)

@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-sync_list = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .sync_lists("MyCollection") \
+sync_list = client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .sync_lists('MyCollection') \
                        .fetch()
 
 print(sync_list.unique_name)

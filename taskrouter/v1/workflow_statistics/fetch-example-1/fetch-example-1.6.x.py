@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 workflow_statistics = client.taskrouter \
-                            .workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                            .workflows("WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                            .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                            .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .statistics() \
                             .fetch()
 

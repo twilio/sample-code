@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 available_add_on = client.preview.marketplace \
-    .available_add_ons("XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .available_add_ons('XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .fetch()
 
 print(available_add_on.friendly_name)

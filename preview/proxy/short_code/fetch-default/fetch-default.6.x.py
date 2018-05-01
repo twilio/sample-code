@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 short_code = client.preview.proxy \
-                           .services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                           .short_codes("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                           .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                           .short_codes('SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                            .fetch()
 
 print(short_code.sid)

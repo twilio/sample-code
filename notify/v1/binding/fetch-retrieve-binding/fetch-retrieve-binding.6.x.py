@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-binding = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .bindings("BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+binding = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .bindings('BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .fetch()
 
 print(binding.sid)

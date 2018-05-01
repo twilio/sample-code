@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 worker_channel = client.taskrouter \
-                       .workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .worker_channels("WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                       .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .worker_channels('WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .fetch()
 
 print(worker_channel.task_channel_unique_name)

@@ -8,11 +8,11 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 credential = client.notify.credentials.create(
-                                           certificate="cert.pem_content",
-                                           friendly_name="MyAPNCredential",
-                                           private_key="key.pem_content",
+                                           certificate='cert.pem_content',
+                                           friendly_name='MyAPNCredential',
+                                           private_key='key.pem_content',
                                            sandbox=True,
-                                           type="apn"
+                                           type='apn'
                                        )
 
 print(credential.sid)

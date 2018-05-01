@@ -8,10 +8,10 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 message_interaction = client.proxy \
-    .services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .message_interactions("KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .message_interactions('KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .fetch()
 
 print(message_interaction.sid)

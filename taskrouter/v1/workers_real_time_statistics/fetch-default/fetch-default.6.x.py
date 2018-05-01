@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 workers_real_time_statistics = client.taskrouter \
-    .workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .real_time_statistics() \
     .fetch()
 

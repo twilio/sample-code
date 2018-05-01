@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 installed_add_on_extension = client.preview.marketplace \
-    .installed_add_ons("XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .extensions("XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .installed_add_ons('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .extensions('XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .update(enabled=True)
 
 print(installed_add_on_extension.friendly_name)

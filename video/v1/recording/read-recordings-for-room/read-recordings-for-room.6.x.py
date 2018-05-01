@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 recordings = client.video.recordings \
-                         .list(grouping_sid="RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                         .list(grouping_sid='RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
 for record in recordings:
     print(record.sid)

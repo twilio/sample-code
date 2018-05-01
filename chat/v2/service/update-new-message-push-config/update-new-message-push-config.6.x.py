@@ -7,11 +7,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-service = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+service = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .update(
          notifications_added_to_channel_enabled=False,
-         notifications_added_to_channel_sound="default",
-         notifications_added_to_channel_template="A New message in ${CHANNEL} from ${USER}: ${MESSAGE}"
+         notifications_added_to_channel_sound='default',
+         notifications_added_to_channel_template='A New message in ${CHANNEL} from ${USER}: ${MESSAGE}'
      )
 
 print(service.friendly_name)

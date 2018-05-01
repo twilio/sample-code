@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 service = client.proxy.services.create(
-                                    callback_url="https://www.example.com/",
-                                    unique_name="My Awesome Service"
+                                    callback_url='https://www.example.com/',
+                                    unique_name='My Awesome Service'
                                 )
 
 print(service.sid)

@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-command = client.wireless.commands.create(command="command")
+command = client.wireless.commands.create(command='command')
 
 print(command.sid)

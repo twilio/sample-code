@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sync_map_permission = client.sync \
-                            .services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                            .sync_maps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                            .sync_map_permissions("bob") \
-                            .update(manage=True, read=False, write=False)
+                            .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                            .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                            .sync_map_permissions('bob') \
+                            .update(manage=False, read=False, write=False)
 
 print(sync_map_permission.service_sid)

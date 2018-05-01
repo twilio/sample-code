@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-sync_map = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+sync_map = client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .sync_maps \
-                      .create(ttl=1814400, unique_name="Players")
+                      .create(ttl=1814400, unique_name='Players')
 
 print(sync_map.sid)

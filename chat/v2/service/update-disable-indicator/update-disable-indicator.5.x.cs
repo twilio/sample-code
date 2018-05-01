@@ -16,7 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var service = ServiceResource.Update(
-            reachabilityEnabled: true,
+            reachabilityEnabled: false,
             pathSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

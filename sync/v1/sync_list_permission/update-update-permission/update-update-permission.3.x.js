@@ -7,6 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .syncLists('MyFirstList')
   .syncListPermissions('bob')
-  .update({manage: true, read: true, write: true})
+  .update({manage: false, read: true, write: true})
   .then(sync_list_permission => console.log(sync_list_permission.serviceSid))
   .done();

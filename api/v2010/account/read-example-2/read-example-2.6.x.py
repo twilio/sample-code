@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-accounts = client.api.accounts.list(status="active")
+accounts = client.api.accounts.list(status='active')
 
 for record in accounts:
     print(record.sid)

@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 phone_numbers = client.messaging \
-                      .services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                      .services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .phone_numbers \
                       .list()
 

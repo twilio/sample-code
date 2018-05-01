@@ -7,4 +7,4 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-client.fax.faxes("FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").delete()
+client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').delete()

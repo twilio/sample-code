@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-published_tracks = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                         .participants("PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+published_tracks = client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                         .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                          .published_tracks \
                          .list()
 

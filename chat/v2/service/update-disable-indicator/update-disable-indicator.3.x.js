@@ -5,6 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .update({reachabilityEnabled: true})
+           .update({reachabilityEnabled: false})
            .then(service => console.log(service.friendlyName))
            .done();

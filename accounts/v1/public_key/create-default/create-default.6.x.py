@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 public_key = client.accounts.credentials.public_key.create(
-                                                        public_key="publickey"
+                                                        public_key='publickey'
                                                     )
 
 print(public_key.sid)

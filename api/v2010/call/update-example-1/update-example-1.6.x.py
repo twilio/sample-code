@@ -3,14 +3,14 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
-account_sid = '"ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"'
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-call = client.calls("CAe1644a7eed5088b159577c5802d8be38") \
+call = client.calls('CAe1644a7eed5088b159577c5802d8be38') \
              .update(
-                  method="POST",
-                  url="http://demo.twilio.com/docs/voice.xml"
+                  method='POST',
+                  url='http://demo.twilio.com/docs/voice.xml'
               )
 
 print(call.to)

@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-role = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                  .roles("RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                  .update(permission="sendMediaMessage")
+role = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                  .roles('RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                  .update(permission='sendMediaMessage')
 
 print(role.friendly_name)

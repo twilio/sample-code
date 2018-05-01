@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 alpha_sender = client.messaging \
-                     .services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                     .alpha_senders("AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                     .services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .alpha_senders('AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .fetch()
 
 print(alpha_sender.sid)

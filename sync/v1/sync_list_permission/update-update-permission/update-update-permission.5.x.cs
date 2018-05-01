@@ -16,7 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncListPermission = SyncListPermissionResource.Update(
-            manage: true,
+            manage: false,
             read: true,
             write: true,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 command = client.wireless.commands.create(
-                                       command_mode="binary",
-                                       sim="AliceSmithSmartMeter",
-                                       command="SGVsbG8sIE1hY2hpbmUh=="
+                                       command_mode='binary',
+                                       sim='AliceSmithSmartMeter',
+                                       command='SGVsbG8sIE1hY2hpbmUh=='
                                    )
 
 print(command.sid)

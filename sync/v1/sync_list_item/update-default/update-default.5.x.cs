@@ -1,6 +1,7 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Rest.Sync.V1.Service.SyncList;
 
@@ -15,8 +16,12 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var data = new Dictionary<string, Object>()
+        {
+        };
+
         var syncListItem = SyncListItemResource.Update(
-            data: "{}",
+            data: data,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathListSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathIndex: 1

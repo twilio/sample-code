@@ -7,4 +7,4 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-client.chat.v1.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").delete()
+client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').delete()

@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 origination_url = client.trunking \
-    .trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .origination_urls("OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .origination_urls('OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .fetch()
 
 print(origination_url.friendly_name)
