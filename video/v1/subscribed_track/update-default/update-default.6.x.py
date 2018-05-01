@@ -7,9 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-subscribed_track = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                         .participants("PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+subscribed_track = client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                         .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                          .subscribed_tracks \
-                         .update(track="MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                         .update(track='MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
 print(subscribed_track.name)

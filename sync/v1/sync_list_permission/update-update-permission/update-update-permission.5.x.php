@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 $sync_list_permission = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->syncLists("MyFirstList")
                                          ->syncListPermissions("bob")
-                                         ->update(True, False, False);
+                                         ->update(False, True, True);
 
 print($sync_list_permission.serviceSid);

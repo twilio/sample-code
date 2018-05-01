@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 aws = client.accounts.credentials.aws \
     .create(
-         credentials="AKIAIOSFODNN7EXAMPLE:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+         credentials='AKIAIOSFODNN7EXAMPLE:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
      )
 
 print(aws.sid)

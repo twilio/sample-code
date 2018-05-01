@@ -7,9 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-message = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                     .channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                     .messages("IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                     .update(body="MESSAGE")
+message = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .messages('IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .update(body='MESSAGE')
 
 print(message.to)

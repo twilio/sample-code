@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-service = client.preview.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                             .update(webhook_url="https://example.com")
+service = client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                             .update(webhook_url='https://example.com')
 
 print(service.friendly_name)

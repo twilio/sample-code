@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sync_list_item = client.preview.sync \
-                       .services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .sync_lists("ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                       .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .sync_lists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .sync_list_items(1) \
                        .fetch()
 

@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-phone_number = client.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                     .phone_numbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+phone_number = client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .phone_numbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .fetch()
 
 print(phone_number.friendly_name)

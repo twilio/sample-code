@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 field_types = client.preview.understand \
-                            .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                            .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .field_types \
                             .list()
 

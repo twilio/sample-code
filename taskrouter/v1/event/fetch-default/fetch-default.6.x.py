@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-event = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                         .events("EVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+event = client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                         .events('EVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                          .fetch()
 
 print(event.actor_sid)

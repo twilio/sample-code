@@ -7,4 +7,4 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-client.video.recordings("RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").delete()
+client.video.recordings('RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').delete()

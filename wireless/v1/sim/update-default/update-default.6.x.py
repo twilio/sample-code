@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-sim = client.wireless.sims("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                     .update(unique_name="unique_name")
+sim = client.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .update(unique_name='unique_name')
 
 print(sim.unique_name)

@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-client.trunking.trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-               .credentials_lists("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+               .credentials_lists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                .delete()

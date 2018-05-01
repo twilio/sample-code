@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sample = client.preview.understand \
-                       .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                       .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .samples \
-                       .create(language="language", tagged_text="tagged_text")
+                       .create(language='language', tagged_text='tagged_text')
 
 print(sample.sid)

@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-credential = client.chat.v1.credentials.create(type="gcm")
+credential = client.chat.v1.credentials.create(type='gcm')
 
 print(credential.sid)

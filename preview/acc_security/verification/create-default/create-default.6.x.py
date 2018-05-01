@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 verification = client.preview.acc_security \
-                             .services("VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                             .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                              .verifications \
-                             .create(to="to", channel="channel")
+                             .create(to='to', channel='channel')
 
 print(verification.sid)

@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $credential = $twilio->notify->v1->credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->update(array(
                                               'friendlyName' => "MyCredential",
-                                              'sandbox' => False
+                                              'sandbox' => True
                                           )
                                  );
 

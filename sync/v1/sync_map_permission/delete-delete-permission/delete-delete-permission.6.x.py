@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-           .sync_maps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-           .sync_map_permissions("bob") \
+client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+           .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+           .sync_map_permissions('bob') \
            .delete()

@@ -15,7 +15,7 @@ $call = $twilio->calls
                ->create("+15017122661",
                         "+14155551212",
                         array(
-                            'record' => False,
+                            'record' => True,
                             'url' => "http://demo.twilio.com/docs/voice.xml"
                         )
                );

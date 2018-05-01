@@ -7,6 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .documents('MyFirstDocument')
       .documentPermissions('bob')
-      .update({manage: true, read: true, write: true})
+      .update({manage: false, read: true, write: true})
       .then(document_permission => console.log(document_permission.serviceSid))
       .done();

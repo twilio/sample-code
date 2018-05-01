@@ -8,6 +8,6 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 service = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                      .update(reachability_enabled: true)
+                      .update(reachability_enabled: false)
 
 puts service.friendly_name

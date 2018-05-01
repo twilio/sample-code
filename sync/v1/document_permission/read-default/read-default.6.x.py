@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 document_permissions = client.sync \
-                             .services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                             .documents("ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                             .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                             .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                              .document_permissions \
                              .list()
 

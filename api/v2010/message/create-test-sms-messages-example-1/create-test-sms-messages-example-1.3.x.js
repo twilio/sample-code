@@ -5,10 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.messages
-      .create({
-         body: 'All in the game, yo',
-         from: '+15017122661',
-         to: '+5571981265131'
-       })
+      .create({body: 'All in the game, yo', from: '', to: '+5571981265131'})
       .then(message => console.log(message.sid))
       .done();

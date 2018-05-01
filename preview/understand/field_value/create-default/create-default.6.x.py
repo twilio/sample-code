@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 field_value = client.preview.understand \
-                    .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .field_types("UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                    .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .field_types('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .field_values \
-                    .create(language="language", value="value")
+                    .create(language='language', value='value')
 
 print(field_value.sid)

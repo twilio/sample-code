@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-service = client.messaging.services("MG2172dd2db502e20dd981ef0d67850e1a") \
+service = client.messaging.services('MG2172dd2db502e20dd981ef0d67850e1a') \
                           .fetch()
 
 print(service.friendly_name)

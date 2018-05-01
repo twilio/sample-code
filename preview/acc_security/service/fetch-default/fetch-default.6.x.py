@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 service = client.preview.acc_security \
-                        .services("VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                        .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .fetch()
 
 print(service.name)

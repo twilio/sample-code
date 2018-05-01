@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-credential = client.chat.credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+credential = client.chat.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .fetch()
 
 print(credential.friendly_name)

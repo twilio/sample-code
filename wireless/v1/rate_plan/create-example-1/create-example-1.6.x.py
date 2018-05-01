@@ -9,9 +9,9 @@ client = Client(account_sid, auth_token)
 
 rate_plan = client.wireless.rate_plans \
                            .create(
-                                friendly_name="California SmartMeter Plan",
+                                friendly_name='California SmartMeter Plan',
                                 messaging_enabled=False,
-                                unique_name="SmartMeterCA"
+                                unique_name='SmartMeterCA'
                             )
 
 print(rate_plan.sid)

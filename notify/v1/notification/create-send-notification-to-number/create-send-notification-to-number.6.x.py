@@ -7,11 +7,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-notification = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+notification = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .notifications \
     .create(
-         body="Knok-Knok! This is your first Notify SMS",
-         to_binding="{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}",
+         body='Knok-Knok! This is your first Notify SMS',
+         to_binding='{"binding_type":"sms", "address":"+1651000000000"}',
          identity=['identity']
      )
 

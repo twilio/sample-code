@@ -9,8 +9,8 @@ client = Client(account_sid, auth_token)
 
 service = client.messaging.services \
                           .create(
-                               status_callback="http://requestb.in/1234abcd",
-                               friendly_name="My First Service"
+                               status_callback='http://requestb.in/1234abcd',
+                               friendly_name='My First Service'
                            )
 
 print(service.sid)

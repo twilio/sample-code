@@ -1,6 +1,7 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Rest.Preview.Marketplace;
 
@@ -15,8 +16,12 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var configuration = new Dictionary<string, Object>()
+        {
+        };
+
         var installedAddOn = InstalledAddOnResource.Update(
-            configuration: "{}",
+            configuration: configuration,
             pathSid: "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

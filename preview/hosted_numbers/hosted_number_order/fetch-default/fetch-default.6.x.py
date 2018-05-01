@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 hosted_number_order = client.preview.hosted_numbers \
-    .hosted_number_orders("HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .hosted_number_orders('HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .fetch()
 
 print(hosted_number_order.friendly_name)

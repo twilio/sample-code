@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 installed_add_on = client.preview.marketplace.installed_add_ons \
     .create(
-         available_add_on_sid="XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+         available_add_on_sid='XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
          accept_terms_of_service=True
      )
 
