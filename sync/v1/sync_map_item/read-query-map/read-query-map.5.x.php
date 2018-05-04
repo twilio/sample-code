@@ -15,8 +15,8 @@ $syncMapItems = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                  ->syncMaps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->syncMapItems
                                  ->read(array(
-                                            'from' => "steph_curry",
-                                            'order' => "asc"
+                                            'order' => "asc",
+                                            'from' => "steph_curry"
                                         )
                                  );
 

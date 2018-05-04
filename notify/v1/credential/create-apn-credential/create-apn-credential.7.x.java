@@ -11,8 +11,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Credential credential = Credential.creator(Credential.PushService.APN)
-            .setCertificate("cert.pem_content")
             .setFriendlyName("MyAPNCredential")
+            .setCertificate("cert.pem_content")
             .setPrivateKey("key.pem_content")
             .setSandbox(true)
             .create();

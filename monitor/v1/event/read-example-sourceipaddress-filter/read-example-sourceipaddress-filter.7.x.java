@@ -13,9 +13,9 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Event> events = Event.reader()
-            .setEndDate(DateConverter.localDateFromString("2015-04-25"))
             .setSourceIpAddress("104.14.155.29")
             .setStartDate(DateConverter.localDateFromString("2015-04-25"))
+            .setEndDate(DateConverter.localDateFromString("2015-04-25"))
             .read();
 
         for(Event record : events) {

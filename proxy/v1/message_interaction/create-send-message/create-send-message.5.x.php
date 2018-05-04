@@ -15,9 +15,6 @@ $message_interaction = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXX
                                          ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->messageInteractions
-                                         ->create(array(
-                                                      'body' => "Reply to this message to chat!"
-                                                  )
-                                         );
+                                         ->create(array('body' => "body"));
 
 print($message_interaction.sid);

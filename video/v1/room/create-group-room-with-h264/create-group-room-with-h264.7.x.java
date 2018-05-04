@@ -14,9 +14,9 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Room room = Room.creator()
-            .setStatusCallback(URI.create("http://example.org"))
             .setType(Room.RoomType.GROUP)
             .setUniqueName("DailyStandupWithH264Codec")
+            .setStatusCallback(URI.create("http://example.org"))
             .setVideoCodecs(Promoter.listOfOne(Room.VideoCodec.H264))
             .create();
 

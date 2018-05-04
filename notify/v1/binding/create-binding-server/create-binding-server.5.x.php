@@ -13,12 +13,12 @@ $twilio = new Client($sid, $token);
 
 $binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->bindings
-                              ->create("gcm_device_token",
+                              ->create("00000001",
                                        "gcm",
-                                       "00000001",
+                                       "gcm_device_token",
                                        array(
-                                           'endpoint' => "XXXXXXXXXXXXXXX",
-                                           'tag' => "premium"
+                                           'tag' => "premium",
+                                           'endpoint' => "XXXXXXXXXXXXXXX"
                                        )
                               );
 

@@ -13,12 +13,12 @@ $twilio = new Client($sid, $token);
 
 $binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->bindings
-                              ->create("device_token",
+                              ->create("00000001",
                                        "apn",
-                                       "00000001",
+                                       "device_token",
                                        array(
-                                           'endpoint' => "endpoint_id",
-                                           'tag' => "new user"
+                                           'tag' => "new user",
+                                           'endpoint' => "endpoint_id"
                                        )
                               );
 

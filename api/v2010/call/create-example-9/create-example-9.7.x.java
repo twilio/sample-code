@@ -17,7 +17,7 @@ public class Example {
                 new PhoneNumber("sip:kate@example.com"),
                 new PhoneNumber("Jack"),
                 URI.create("http://www.example.com/sipdial.xml"))
-            .setSipAuthPassword("secret").setSipAuthUsername("jack").create();
+            .setSipAuthUsername("jack").setSipAuthPassword("secret").create();
 
         System.out.println(call.getSid());
     }

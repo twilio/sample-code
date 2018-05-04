@@ -12,11 +12,11 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $call = $twilio->calls
-               ->create("+18180000000",
-                        "+1562300000",
+               ->create("+1562300000",
+                        "+18180000000",
                         array(
                             'machineDetection' => "Enable",
-                            'url' => "https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16"
+                            'url' => "https://example.com"
                         )
                );
 

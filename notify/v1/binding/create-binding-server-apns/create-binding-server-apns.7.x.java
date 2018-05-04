@@ -16,8 +16,8 @@ public class Example {
                 "00000001",
                 Binding.BindingType.APN,
                 "apn_device_token")
-            .setEndpoint("endpoint_id")
             .setTag(Promoter.listOfOne("preferred device"))
+            .setEndpoint("endpoint_id")
             .create();
 
         System.out.println(binding.getSid());

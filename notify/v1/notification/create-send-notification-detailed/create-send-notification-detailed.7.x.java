@@ -15,25 +15,25 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Notification notification = 
             Notification.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setApn(
-                new HashMap<String, Object>()
-                {{
-                    put("aps", "{'alert': {'title': 'Short title for Watch.'}}");
-                }})
             .setBody("This is the body for all Bindings")
+            .setTitle("Generic loooooooong title for all Bindings")
             .setData(
                 new HashMap<String, Object>()
                 {{
                     put("custom_key1", "custom value 1");
                     put("custom_key2", "custom value 2");
                 }})
+            .setApn(
+                new HashMap<String, Object>()
+                {{
+                    put("aps", "{'alert': {'title': 'Short title for Watch.'}}");
+                }})
             .setFcm(
                 new HashMap<String, Object>()
                 {{
                     put("notification", "{'title': 'New alert', 'body': 'Hello Bob!'}");
                 }})
-            .setIdentity(Promoter.listOfOne("00000001"))
-            .setTitle("Generic loooooooong title for all Bindings")
+            .setIdentity(Promoter.listOfOne("identity"))
             .create();
 
         System.out.println(notification.getSid());

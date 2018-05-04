@@ -18,8 +18,6 @@ public class Example {
                 new PhoneNumber("+12316851234"),
                 new PhoneNumber("+15555555555"),
                 "Hello there!")
-            .setMediaUrl(
-                Promoter.listOfOne(URI.create("https://demo.twilio.com/owl.png")))
             .create();
 
         System.out.println(message.getSid());

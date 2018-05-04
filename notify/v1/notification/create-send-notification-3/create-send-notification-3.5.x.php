@@ -15,7 +15,7 @@ $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->notifications
                                    ->create(array(
                                                 'body' => "Knok-Knok! This is your first Notify SMS",
-                                                'identity' => "00000001"
+                                                'identity' => array('identity')
                                             )
                                    );
 

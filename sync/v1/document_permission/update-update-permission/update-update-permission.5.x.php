@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 $document_permission = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->documents("MyFirstDocument")
                                         ->documentPermissions("bob")
-                                        ->update(True, False, False);
+                                        ->update(False, False, True);
 
 print($document_permission.serviceSid);

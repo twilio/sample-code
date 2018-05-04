@@ -14,9 +14,9 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Room room = Room.creator()
             .setEnableTurn(true)
-            .setStatusCallback(URI.create("http://example.org"))
             .setType(Room.RoomType.PEER_TO_PEER)
             .setUniqueName("DailyStandup")
+            .setStatusCallback(URI.create("http://example.org"))
             .create();
 
         System.out.println(room.getSid());

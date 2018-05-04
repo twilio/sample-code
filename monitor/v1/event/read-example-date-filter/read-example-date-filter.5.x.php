@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $events = $twilio->monitor->v1->events
                               ->read(array(
-                                         'endDate' => new \DateTime('2015-04-01'),
-                                         'startDate' => new \DateTime('2015-03-01')
+                                         'startDate' => new \DateTime('2015-03-01'),
+                                         'endDate' => new \DateTime('2015-04-01')
                                      )
                               );
 

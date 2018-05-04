@@ -13,10 +13,10 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Room room = Room.creator()
-            .setRecordParticipantsOnConnect(true)
-            .setStatusCallback(URI.create("http://example.org"))
             .setType(Room.RoomType.GROUP)
             .setUniqueName("DailyStandup")
+            .setStatusCallback(URI.create("http://example.org"))
+            .setRecordParticipantsOnConnect(true)
             .create();
 
         System.out.println(room.getSid());

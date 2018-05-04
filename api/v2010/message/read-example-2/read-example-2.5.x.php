@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $messages = $twilio->messages
                    ->read(array(
-                              'dateSent' => new \DateTime('2016-8-31'),
+                              'to' => "+15558675310",
                               'from' => "+15017122661",
-                              'to' => "+15558675310"
+                              'dateSent' => new \DateTime('2016-8-31')
                           )
                    );
 

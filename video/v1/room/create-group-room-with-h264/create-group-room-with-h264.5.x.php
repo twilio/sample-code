@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $room = $twilio->video->v1->rooms
                           ->create(array(
-                                       'statusCallback' => "http://example.org",
                                        'type' => "group",
                                        'uniqueName' => "DailyStandupWithH264Codec",
+                                       'statusCallback' => "http://example.org",
                                        'videoCodecs' => "H264"
                                    )
                           );

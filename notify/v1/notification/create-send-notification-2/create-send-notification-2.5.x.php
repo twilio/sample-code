@@ -15,8 +15,7 @@ $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->notifications
                                    ->create(array(
                                                 'body' => "Hello Bob",
-                                                'identity' => "00000001",
-                                                'tag' => "preferred_device"
+                                                'identity' => array('identity')
                                             )
                                    );
 

@@ -13,11 +13,11 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Document document = Document.creator("default")
+            .setUniqueName("BoardLED")
             .setData(new HashMap<String, Object>()
             {{
                 put("led", "OFF");
             }})
-            .setUniqueName("BoardLED")
             .create();
 
         System.out.println(document.getSid());

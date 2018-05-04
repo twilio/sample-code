@@ -11,8 +11,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Task task = Task.creator("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setAttributes("{\"type\":\"support\"}")
             .setWorkflowSid("WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .setAttributes("{\"type\":\"support\"}")
             .create();
 
         System.out.println(task.getSid());

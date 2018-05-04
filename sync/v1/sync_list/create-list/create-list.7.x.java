@@ -12,8 +12,8 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         SyncList syncList = 
             SyncList.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setTtl(1814400)
             .setUniqueName("MyCollection")
+            .setTtl(1814400)
             .create();
 
         System.out.println(syncList.getSid());

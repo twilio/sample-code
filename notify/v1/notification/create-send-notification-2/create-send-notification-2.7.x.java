@@ -14,8 +14,7 @@ public class Example {
         Notification notification = 
             Notification.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setBody("Hello Bob")
-            .setIdentity(Promoter.listOfOne("00000001"))
-            .setTag(Promoter.listOfOne("preferred_device"))
+            .setIdentity(Promoter.listOfOne("identity"))
             .create();
 
         System.out.println(notification.getSid());

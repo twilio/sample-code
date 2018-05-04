@@ -12,8 +12,8 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Credential credential = 
             Credential.updater("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setApiKey("xxxxxx")
             .setFriendlyName("MyCredential")
+            .setApiKey("xxxxxx")
             .update();
 
         System.out.println(credential.getFriendlyName());

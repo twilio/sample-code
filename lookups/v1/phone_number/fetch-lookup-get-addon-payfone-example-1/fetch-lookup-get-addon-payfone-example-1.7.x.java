@@ -15,13 +15,13 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         PhoneNumber phoneNumber = PhoneNumber.fetcher(
                 new com.twilio.type.PhoneNumber("+15108675310"))
+            .setType(Promoter.listOfOne("carrier"))
             .setAddOns(Promoter.listOfOne("payfone_tcpa_compliance"))
             .setAddOnsData(
                 new HashMap<String, Object>()
                 {{
                     put("payfone_tcpa_compliance.right_party_contacted_date", "20160101");
                 }})
-            .setType(Promoter.listOfOne("carrier"))
             .fetch();
 
         System.out.println(phoneNumber.getCallerName());

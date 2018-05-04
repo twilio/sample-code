@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $incoming_phone_number = $twilio->incomingPhoneNumbers
                                 ->create(array(
-                                             'phoneNumber' => "+15005550006",
-                                             'voiceUrl' => "http://demo.twilio.com/docs/voice.xml"
+                                             'voiceUrl' => "http://demo.twilio.com/docs/voice.xml",
+                                             'phoneNumber' => "+15017122661"
                                          )
                                 );
 

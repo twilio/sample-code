@@ -13,8 +13,8 @@ public class Example {
         Key key = Key.updater(
                 "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setDeviceSid("THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("My New Device Key")
+            .setDeviceSid("THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .update();
 
         System.out.println(key.getFriendlyName());

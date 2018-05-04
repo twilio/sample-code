@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Document document = 
             Document.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .setUniqueName("MyFirstDocument")
             .setData(
                 new HashMap<String, Object>()
                 {{
@@ -24,7 +25,6 @@ public class Example {
                     put("genre", "Romance");
                 }})
             .setTtl(1814400)
-            .setUniqueName("MyFirstDocument")
             .create();
 
         System.out.println(document.getSid());

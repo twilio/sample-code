@@ -20,7 +20,7 @@ public class Example {
                 {{
                     put("aps", "{'alert': {'title': 'Bob alert', 'body': 'Bob, you just received a badge'}, 'badge': 1}");
                 }})
-            .setIdentity(Promoter.listOfOne("00000001"))
+            .setIdentity(Promoter.listOfOne("identity"))
             .create();
 
         System.out.println(notification.getSid());

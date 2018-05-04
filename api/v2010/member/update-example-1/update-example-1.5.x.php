@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $member = $twilio->queues("QU5ef8732a3c49700934481addd5ce1659")
                  ->members("Front")
-                 ->update("POST", "http://demo.twilio.com/docs/voice.xml");
+                 ->update("http://demo.twilio.com/docs/voice.xml", "POST");
 
 print($member.callSid);

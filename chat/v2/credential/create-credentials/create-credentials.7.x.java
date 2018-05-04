@@ -11,8 +11,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Credential credential = Credential.creator(Credential.PushService.GCM)
-            .setApiKey("apiKey")
             .setFriendlyName("Friendly Name")
+            .setApiKey("apiKey")
             .create();
 
         System.out.println(credential.getSid());

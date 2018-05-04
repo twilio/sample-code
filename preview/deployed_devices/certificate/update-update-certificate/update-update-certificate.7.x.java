@@ -13,8 +13,8 @@ public class Example {
         Certificate certificate = Certificate.updater(
                 "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setDeviceSid("THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setFriendlyName("My New Certificate")
+            .setDeviceSid("THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .update();
 
         System.out.println(certificate.getFriendlyName());

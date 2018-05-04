@@ -13,9 +13,9 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Alert> alerts = Alert.reader()
-            .setEndDate(DateConverter.localDateFromString("2015-04-30"))
             .setLogLevel("warning")
             .setStartDate(DateConverter.localDateFromString("2015-04-01"))
+            .setEndDate(DateConverter.localDateFromString("2015-04-30"))
             .read();
 
         for(Alert record : alerts) {

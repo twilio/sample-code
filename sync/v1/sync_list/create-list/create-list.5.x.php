@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $sync_list = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->syncLists
                               ->create(array(
-                                           'ttl' => 1814400,
-                                           'uniqueName' => "MyCollection"
+                                           'uniqueName' => "MyCollection",
+                                           'ttl' => 1814400
                                        )
                               );
 

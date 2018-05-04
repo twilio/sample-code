@@ -17,7 +17,7 @@ $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                 'apn' => array(
                                                     "aps" => "{'alert': {'title': 'Bob alert', 'body': 'Bob, you just received a badge'}, 'badge': 1}"
                                                 ),
-                                                'identity' => "00000001"
+                                                'identity' => array('identity')
                                             )
                                    );
 
