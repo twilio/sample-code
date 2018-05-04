@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $role = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->roles
-                         ->create("new_role", "createChannel", "deployment");
+                         ->create("new_role", "deployment", "createChannel");
 
 print($role.sid);

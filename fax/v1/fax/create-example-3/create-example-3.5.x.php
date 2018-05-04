@@ -12,8 +12,8 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $fax = $twilio->fax->v1->faxes
-                       ->create("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
-                                "sip:kate@example.com?hatchkey=4815162342;transport=TCP",
+                       ->create("sip:kate@example.com?hatchkey=4815162342;transport=TCP",
+                                "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
                                 array('from' => "Jack")
                        );
 
