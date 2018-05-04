@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $rate_plan = $twilio->wireless->v1->ratePlans
                                   ->create(array(
-                                               'uniqueName' => "SmartMeterCA",
                                                'friendlyName' => "California SmartMeter Plan",
-                                               'messagingEnabled' => False
+                                               'messagingEnabled' => False,
+                                               'uniqueName' => "SmartMeterCA"
                                            )
                                   );
 

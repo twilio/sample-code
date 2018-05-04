@@ -17,8 +17,8 @@ $binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        "apn",
                                        "device_token",
                                        array(
-                                           'tag' => "new user",
-                                           'endpoint' => "endpoint_id"
+                                           'endpoint' => "endpoint_id",
+                                           'tag' => "new user"
                                        )
                               );
 

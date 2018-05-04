@@ -14,8 +14,8 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Application application = 
             Application.updater("AP2a0747eba6abf96b7e3c3ff0b4530f6e")
-            .setVoiceUrl(URI.create("http://demo.twilio.com/docs/voice.xml"))
             .setSmsUrl(URI.create("http://demo.twilio.com/docs/sms.xml"))
+            .setVoiceUrl(URI.create("http://demo.twilio.com/docs/voice.xml"))
             .update();
 
         System.out.println(application.getFriendlyName());

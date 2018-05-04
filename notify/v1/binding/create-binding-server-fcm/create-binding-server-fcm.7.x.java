@@ -16,8 +16,8 @@ public class Example {
                 "00000001",
                 Binding.BindingType.FCM,
                 "fcm_device_token")
-            .setTag(Promoter.listOfOne("preferred device"))
             .setEndpoint("XXXXXXXXXXXXXXX")
+            .setTag(Promoter.listOfOne("preferred device"))
             .create();
 
         System.out.println(binding.getSid());

@@ -11,8 +11,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Command command = Command.creator("SGVsbG8sIE1hY2hpbmUh==")
-            .setSim("AliceSmithSmartMeter")
             .setCommandMode(Command.CommandMode.BINARY)
+            .setSim("AliceSmithSmartMeter")
             .create();
 
         System.out.println(command.getSid());

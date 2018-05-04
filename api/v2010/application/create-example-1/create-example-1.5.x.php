@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $application = $twilio->applications
                       ->create("Phone Me",
                                array(
-                                   'voiceUrl' => "http://demo.twilio.com/docs/voice.xml",
-                                   'voiceMethod' => "GET"
+                                   'voiceMethod' => "GET",
+                                   'voiceUrl' => "http://demo.twilio.com/docs/voice.xml"
                                )
                       );
 

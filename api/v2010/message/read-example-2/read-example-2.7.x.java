@@ -14,9 +14,9 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Message> messages = Message.reader()
-            .setTo(new PhoneNumber("+15558675310"))
-            .setFrom(new PhoneNumber("+15017122661"))
             .setDateSent(new DateTime(2016, 8, 31, 0, 0))
+            .setFrom(new PhoneNumber("+15017122661"))
+            .setTo(new PhoneNumber("+15558675310"))
             .read();
 
         for(Message record : messages) {

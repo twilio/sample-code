@@ -12,7 +12,11 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $recordings = $twilio->recordings
-                     ->read();
+                     ->read(array(
+                                'dateCreatedBefore' => new \DateTime('2016-10-15'),
+                                'dateCreatedAfter' => new \DateTime('2016-10-12')
+                            )
+                     );
 
 foreach ($recordings as $record) {
     print($record->sid);

@@ -17,7 +17,7 @@ $call = $twilio->calls
                         array(
                             'method' => "GET",
                             'sendDigits' => "1234#",
-                            'url' => "https://example.com"
+                            'url' => "http://demo.twilio.com/docs/voice.xml"
                         )
                );
 

@@ -11,7 +11,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         SyncMap syncMap = SyncMap.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setUniqueName("Players").setTtl(1814400).create();
+            .setTtl(1814400).setUniqueName("Players").create();
 
         System.out.println(syncMap.getSid());
     }

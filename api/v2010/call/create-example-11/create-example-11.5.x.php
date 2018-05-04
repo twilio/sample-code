@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $call = $twilio->calls
                ->create("+123456789",
                         "+987654321",
-                        array('url' => "https://example.com")
+                        array('url' => "http://demo.twilio.com/docs/voice.xml")
                );
 
 print($call.sid);

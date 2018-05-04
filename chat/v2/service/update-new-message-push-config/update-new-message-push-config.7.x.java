@@ -13,10 +13,10 @@ public class Example {
         Service service = Service.updater("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setNotificationsAddedToChannelEnabled(
                 true)
-            .setNotificationsAddedToChannelTemplate(
-                "A New message in ${CHANNEL} from ${USER}: ${MESSAGE}")
             .setNotificationsAddedToChannelSound(
                 "default")
+            .setNotificationsAddedToChannelTemplate(
+                "A New message in ${CHANNEL} from ${USER}: ${MESSAGE}")
             .update();
 
         System.out.println(service.getFriendlyName());

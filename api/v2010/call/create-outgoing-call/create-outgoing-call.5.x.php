@@ -16,7 +16,7 @@ $call = $twilio->calls
                         "+18180000000",
                         array(
                             'machineDetection' => "Enable",
-                            'url' => "https://example.com"
+                            'url' => "https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16"
                         )
                );
 

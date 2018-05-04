@@ -14,9 +14,9 @@ $twilio = new Client($sid, $token);
 $incoming_phone_number = $twilio->incomingPhoneNumbers
                                 ->create(array(
                                              'friendlyName' => "My Company Line",
+                                             'phoneNumber' => "+15105647903",
                                              'voiceMethod' => "GET",
-                                             'voiceUrl' => "http://demo.twilio.com/docs/voice.xml",
-                                             'phoneNumber' => "+15017122661"
+                                             'voiceUrl' => "http://demo.twilio.com/docs/voice.xml"
                                          )
                                 );
 

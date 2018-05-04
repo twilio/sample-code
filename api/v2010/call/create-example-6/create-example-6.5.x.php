@@ -15,9 +15,9 @@ $call = $twilio->calls
                ->create("sip:kate@example.com",
                         "Jack",
                         array(
-                            'sipAuthUsername' => "jack",
                             'sipAuthPassword' => "secret",
-                            'url' => "https://example.com"
+                            'sipAuthUsername' => "jack",
+                            'url' => "http://www.example.com/sipdial.xml"
                         )
                );
 

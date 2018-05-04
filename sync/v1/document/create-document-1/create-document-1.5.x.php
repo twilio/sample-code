@@ -14,7 +14,6 @@ $twilio = new Client($sid, $token);
 $document = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->documents
                              ->create(array(
-                                          'uniqueName' => "MyFirstDocument",
                                           'data' => array(
                                               "date_updated" => "2018-02-14 12:24:31.843662",
                                               "movie_title" => "On The Line",
@@ -22,7 +21,8 @@ $document = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                               "starring" => "['Lance Bass', 'Joey Fatone']",
                                               "genre" => "Romance"
                                           ),
-                                          'ttl' => 1814400
+                                          'ttl' => 1814400,
+                                          'uniqueName' => "MyFirstDocument"
                                       )
                              );
 

@@ -16,8 +16,8 @@ public class Example {
                 "sip:kate@example.com",
                 URI.create("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf"))
             .setFrom("Jack")
-            .setSipAuthUsername("jack")
             .setSipAuthPassword("secret")
+            .setSipAuthUsername("jack")
             .create();
 
         System.out.println(fax.getSid());

@@ -14,8 +14,8 @@ public class Example {
         ResourceSet<SyncMapItem> syncMapItems = SyncMapItem.reader(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "Players")
-            .setOrder(SyncMapItem.QueryResultOrder.ASC)
             .setFrom("steph_curry")
+            .setOrder(SyncMapItem.QueryResultOrder.ASC)
             .read();
 
         for(SyncMapItem record : syncMapItems) {

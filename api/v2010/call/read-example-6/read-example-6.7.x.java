@@ -13,8 +13,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Call> calls = Call.reader()
-            .setTo(new PhoneNumber("+15558675310"))
             .setStatus(Call.Status.BUSY)
+            .setTo(new PhoneNumber("+15558675310"))
             .read();
 
         for(Call record : calls) {

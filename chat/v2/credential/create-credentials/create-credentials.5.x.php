@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $credential = $twilio->chat->v2->credentials
                                ->create("gcm",
                                         array(
-                                            'friendlyName' => "Friendly Name",
-                                            'apiKey' => "apiKey"
+                                            'apiKey' => "apiKey",
+                                            'friendlyName' => "Friendly Name"
                                         )
                                );
 

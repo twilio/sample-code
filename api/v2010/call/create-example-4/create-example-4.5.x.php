@@ -19,7 +19,7 @@ $call = $twilio->calls
                             'statusCallback' => "https://www.myapp.com/events",
                             'statusCallbackEvent' => "initiated",
                             'statusCallbackMethod' => "POST",
-                            'url' => "https://example.com"
+                            'url' => "http://demo.twilio.com/docs/voice.xml"
                         )
                );
 

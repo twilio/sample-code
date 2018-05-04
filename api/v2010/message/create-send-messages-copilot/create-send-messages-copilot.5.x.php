@@ -13,7 +13,10 @@ $twilio = new Client($sid, $token);
 
 $message = $twilio->messages
                   ->create("+441632960675",
-                           array('from' => "+15017122661", 'body' => "body")
+                           array(
+                               'body' => "Phantom Menace was clearly the best of the prequel trilogy.",
+                               'messagingServiceSid' => "MG9752274e9e519418a7406176694466fa"
+                           )
                   );
 
 print($message.sid);

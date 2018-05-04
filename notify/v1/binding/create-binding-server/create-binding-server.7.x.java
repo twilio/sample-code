@@ -16,8 +16,8 @@ public class Example {
                 "00000001",
                 Binding.BindingType.GCM,
                 "gcm_device_token")
-            .setTag(Promoter.listOfOne("premium"))
             .setEndpoint("XXXXXXXXXXXXXXX")
+            .setTag(Promoter.listOfOne("premium"))
             .create();
 
         System.out.println(binding.getSid());

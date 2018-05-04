@@ -15,7 +15,7 @@ public class Example {
             Notification.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setBody("Hello New Users")
             .setSegment(Promoter.listOfOne("new_user"))
-            .setIdentity(Promoter.listOfOne("identity"))
+            .setTag(Promoter.listOfOne("preferred_device"))
             .create();
 
         System.out.println(notification.getSid());

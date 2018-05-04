@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $credential = $twilio->chat->v2->credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->update(array(
-                                            'friendlyName' => "MyCredential",
-                                            'apiKey' => "xxxxxx"
+                                            'apiKey' => "xxxxxx",
+                                            'friendlyName' => "MyCredential"
                                         )
                                );
 

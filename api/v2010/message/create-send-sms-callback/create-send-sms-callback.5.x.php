@@ -14,9 +14,9 @@ $twilio = new Client($sid, $token);
 $message = $twilio->messages
                   ->create("+15558675310",
                            array(
-                               'statusCallback' => "http://requestb.in/1234abcd",
+                               'body' => "McAvoy or Stewart? These timelines can get so confusing.",
                                'from' => "+15017122661",
-                               'body' => "body"
+                               'statusCallback' => "http://requestb.in/1234abcd"
                            )
                   );
 

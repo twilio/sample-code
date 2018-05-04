@@ -14,9 +14,9 @@ $twilio = new Client($sid, $token);
 $room = $twilio->video->v1->rooms
                           ->create(array(
                                        'enableTurn' => False,
+                                       'statusCallback' => "http://example.org",
                                        'type' => "peer-to-peer",
-                                       'uniqueName' => "DailyStandup",
-                                       'statusCallback' => "http://example.org"
+                                       'uniqueName' => "DailyStandup"
                                    )
                           );
 

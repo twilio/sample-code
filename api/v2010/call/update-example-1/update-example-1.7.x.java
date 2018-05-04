@@ -14,8 +14,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Call call = Call.updater("CAe1644a7eed5088b159577c5802d8be38")
-            .setUrl(URI.create("http://demo.twilio.com/docs/voice.xml"))
             .setMethod(HttpMethod.POST)
+            .setUrl(URI.create("http://demo.twilio.com/docs/voice.xml"))
             .update();
 
         System.out.println(call.getTo());

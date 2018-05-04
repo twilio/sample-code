@@ -15,7 +15,7 @@ $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->notifications
                                    ->create(array(
                                                 'body' => "Hello Bob",
-                                                'identity' => array('identity')
+                                                'identity' => "00000001"
                                             )
                                    );
 

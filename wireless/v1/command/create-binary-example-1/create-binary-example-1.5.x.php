@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $command = $twilio->wireless->v1->commands
                                 ->create("SGVsbG8sIE1hY2hpbmUh==",
                                          array(
-                                             'sim' => "AliceSmithSmartMeter",
-                                             'commandMode' => "binary"
+                                             'commandMode' => "binary",
+                                             'sim' => "AliceSmithSmartMeter"
                                          )
                                 );
 

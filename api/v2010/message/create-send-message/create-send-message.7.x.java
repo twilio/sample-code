@@ -18,6 +18,8 @@ public class Example {
                 new PhoneNumber("+15558675310"),
                 new PhoneNumber("+15017122661"),
                 "This is the ship that made the Kessel Run in fourteen parsecs?")
+            .setMediaUrl(
+                Promoter.listOfOne(URI.create("https://c1.staticflickr.com/3/2899/14341091933_1e92e62d12_b.jpg")))
             .create();
 
         System.out.println(message.getSid());

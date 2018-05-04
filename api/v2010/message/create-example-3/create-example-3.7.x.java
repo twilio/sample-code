@@ -18,6 +18,8 @@ public class Example {
                 new PhoneNumber("+15558675310"),
                 new PhoneNumber("+14158141829"),
                 "Let's grab lunch at Milliways tomorrow!")
+            .setMediaUrl(
+                Promoter.listOfOne(URI.create("http://www.example.com/cheeseburger.png")))
             .create();
 
         System.out.println(message.getSid());

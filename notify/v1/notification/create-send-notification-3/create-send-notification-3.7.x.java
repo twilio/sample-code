@@ -14,7 +14,7 @@ public class Example {
         Notification notification = 
             Notification.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setBody("Knok-Knok! This is your first Notify SMS")
-            .setIdentity(Promoter.listOfOne("identity"))
+            .setIdentity(Promoter.listOfOne("00000001"))
             .create();
 
         System.out.println(notification.getSid());

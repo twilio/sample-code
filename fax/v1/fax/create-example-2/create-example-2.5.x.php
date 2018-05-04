@@ -16,8 +16,8 @@ $fax = $twilio->fax->v1->faxes
                                 "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
                                 array(
                                     'from' => "Jack",
-                                    'sipAuthUsername' => "jack",
-                                    'sipAuthPassword' => "secret"
+                                    'sipAuthPassword' => "secret",
+                                    'sipAuthUsername' => "jack"
                                 )
                        );
 

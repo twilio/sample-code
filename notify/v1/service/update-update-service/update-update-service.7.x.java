@@ -11,10 +11,10 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Service service = Service.updater("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .setFacebookMessengerPageId("your_page_id")
             .setFriendlyName("Another Awesome Service")
             .setMessagingServiceSid(
                 "your_twilio_messaging_service_sid")
-            .setFacebookMessengerPageId("your_page_id")
             .update();
 
         System.out.println(service.getFriendlyName());

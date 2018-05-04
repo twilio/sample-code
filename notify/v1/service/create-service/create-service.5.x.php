@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->notify->v1->services
                               ->create(array(
-                                           'friendlyName' => "My Awesome Service",
                                            'apnCredentialSid' => "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                                           'fcmCredentialSid' => "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                           'fcmCredentialSid' => "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                                           'friendlyName' => "My Awesome Service"
                                        )
                               );
 

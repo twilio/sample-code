@@ -11,9 +11,9 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         RatePlan ratePlan = RatePlan.creator()
-            .setUniqueName("SmartMeterCA")
             .setFriendlyName("California SmartMeter Plan")
             .setMessagingEnabled(true)
+            .setUniqueName("SmartMeterCA")
             .create();
 
         System.out.println(ratePlan.getSid());

@@ -14,19 +14,19 @@ $twilio = new Client($sid, $token);
 $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->notifications
                                    ->create(array(
+                                                'apn' => array(
+                                                    "aps" => "{'alert': {'title': 'Short title for Watch.'}}"
+                                                ),
                                                 'body' => "This is the body for all Bindings",
-                                                'title' => "Generic loooooooong title for all Bindings",
                                                 'data' => array(
                                                     "custom_key1" => "custom value 1",
                                                     "custom_key2" => "custom value 2"
                                                 ),
-                                                'apn' => array(
-                                                    "aps" => "{'alert': {'title': 'Short title for Watch.'}}"
-                                                ),
                                                 'fcm' => array(
                                                     "notification" => "{'title': 'New alert', 'body': 'Hello Bob!'}"
                                                 ),
-                                                'identity' => array('identity')
+                                                'identity' => "00000001",
+                                                'title' => "Generic loooooooong title for all Bindings"
                                             )
                                    );
 

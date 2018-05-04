@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $credential = $twilio->notify->v1->credentials
                                  ->create("gcm",
                                           array(
-                                              'friendlyName' => "MyGCMCredential",
-                                              'apiKey' => "gcm_api_key"
+                                              'apiKey' => "gcm_api_key",
+                                              'friendlyName' => "MyGCMCredential"
                                           )
                                  );
 
