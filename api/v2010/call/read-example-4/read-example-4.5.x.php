@@ -12,7 +12,12 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $calls = $twilio->calls
-                ->read(array('status' => "in-progress"));
+                ->read(array(
+                           'startTimeBefore' => new \DateTime('2009-7-6'),
+                           'startTimeAfter' => new \DateTime('2009-7-4'),
+                           'status' => "in-progress"
+                       )
+                );
 
 foreach ($calls as $record) {
     print($record->sid);
