@@ -16,6 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var calls = CallResource.Read(
+            startTimeBefore: new DateTime(2009, 7, 6, 0, 0, 0),
+            startTimeAfter: new DateTime(2009, 7, 4, 0, 0, 0),
             status: CallResource.StatusEnum.InProgress,
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
