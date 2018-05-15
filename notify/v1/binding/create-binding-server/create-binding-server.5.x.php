@@ -22,4 +22,4 @@ $binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        )
                               );
 
-print($binding.sid);
+print($binding->sid);
