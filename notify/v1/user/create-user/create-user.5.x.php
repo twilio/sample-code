@@ -15,4 +15,4 @@ $user = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                            ->users
                            ->create("User0001", array('segment' => "premium"));
 
-print($user.sid);
+print($user->sid);

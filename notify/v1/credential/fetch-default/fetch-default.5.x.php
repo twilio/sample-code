@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $credential = $twilio->notify->v1->credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->fetch();
 
-print($credential.friendlyName);
+print($credential->friendlyName);

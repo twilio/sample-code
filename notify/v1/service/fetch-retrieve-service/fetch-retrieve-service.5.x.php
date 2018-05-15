@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $service = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->fetch();
 
-print($service.friendlyName);
+print($service->friendlyName);

@@ -18,4 +18,4 @@ $credential = $twilio->notify->v1->credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                           )
                                  );
 
-print($credential.friendlyName);
+print($credential->friendlyName);

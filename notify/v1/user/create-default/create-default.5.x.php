@@ -15,4 +15,4 @@ $user = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                            ->users
                            ->create("identity");
 
-print($user.sid);
+print($user->sid);

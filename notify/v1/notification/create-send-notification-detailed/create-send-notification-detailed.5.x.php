@@ -30,4 +30,4 @@ $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                             )
                                    );
 
-print($notification.sid);
+print($notification->sid);

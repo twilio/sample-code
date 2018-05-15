@@ -15,4 +15,4 @@ $binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->bindings
                               ->create("00000001", "sms", "+1651000000000");
 
-print($binding.sid);
+print($binding->sid);

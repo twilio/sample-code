@@ -21,4 +21,4 @@ $credential = $twilio->notify->v1->credentials
                                           )
                                  );
 
-print($credential.sid);
+print($credential->sid);
