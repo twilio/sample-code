@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $fleet = $twilio->preview->deployedDevices->fleets
                                           ->create();
 
-print($fleet.sid);
+print($fleet->sid);

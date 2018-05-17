@@ -18,4 +18,4 @@ $role = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   array('permission')
                          );
 
-print($role.sid);
+print($role->sid);

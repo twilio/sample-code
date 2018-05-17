@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $service = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->update(array('uniqueName' => "uniqueName"));
 
-print($service.uniqueName);
+print($service->uniqueName);

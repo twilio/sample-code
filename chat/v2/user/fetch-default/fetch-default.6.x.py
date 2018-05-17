@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-user = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                  .users("USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+user = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                  .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                   .fetch()
 
 print(user.friendly_name)

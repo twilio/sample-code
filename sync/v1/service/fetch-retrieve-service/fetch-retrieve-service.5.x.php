@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $service = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->fetch();
 
-print($service.uniqueName);
+print($service->uniqueName);

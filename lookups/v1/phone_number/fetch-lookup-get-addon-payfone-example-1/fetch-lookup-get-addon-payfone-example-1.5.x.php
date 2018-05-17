@@ -21,4 +21,4 @@ $phone_number = $twilio->lookups->v1->phoneNumbers("+15108675310")
                                             )
                                     );
 
-print($phone_number.callerName);
+print($phone_number->callerName);

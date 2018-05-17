@@ -15,4 +15,4 @@ $intent = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->intents
                                       ->create("uniqueName");
 
-print($intent.sid);
+print($intent->sid);

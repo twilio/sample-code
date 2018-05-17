@@ -15,4 +15,4 @@ $country = $twilio->pricing->v1->voice
                                ->countries("US")
                                ->fetch();
 
-print($country.country);
+print($country->country);

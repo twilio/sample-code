@@ -16,4 +16,4 @@ $participant = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                  ->participants
                                  ->create("identifier");
 
-print($participant.sid);
+print($participant->sid);

@@ -16,4 +16,4 @@ $command = $twilio->wireless->v1->commands
                                          array('sim' => "AliceSmithSmartMeter")
                                 );
 
-print($command.sid);
+print($command->sid);

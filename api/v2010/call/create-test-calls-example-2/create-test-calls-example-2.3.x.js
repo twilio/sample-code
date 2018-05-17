@@ -7,8 +7,8 @@ const client = require('twilio')(accountSid, authToken);
 client.calls
       .create({
          url: 'http://demo.twilio.com/docs/voice.xml',
-         from: '+15005550006',
-         to: '+15005550003'
+         to: '+15005550003',
+         from: '+15005550006'
        })
       .then(call => console.log(call.sid))
       .done();

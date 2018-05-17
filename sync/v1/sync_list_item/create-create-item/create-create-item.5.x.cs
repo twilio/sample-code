@@ -17,7 +17,7 @@ class Program
 
         var syncListItem = SyncListItemResource.Create(
             ttl: 864000,
-            data: "{\"number\": \"001\", \"name\": \"Bulbasaur\", \"attack\": 49}",
+            data: "{'number': '001', 'name': 'Bulbasaur', 'attack': 49}",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathListSid: "MyCollection"
         );

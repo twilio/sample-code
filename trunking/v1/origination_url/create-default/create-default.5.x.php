@@ -20,4 +20,4 @@ $origination_url = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                  "https://example.com"
                                         );
 
-print($origination_url.sid);
+print($origination_url->sid);

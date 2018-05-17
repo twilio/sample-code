@@ -16,4 +16,4 @@ $ip_access_control_list = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXX
                                                ->create("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                                );
 
-print($ip_access_control_list.sid);
+print($ip_access_control_list->sid);

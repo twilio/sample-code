@@ -6,10 +6,9 @@ const client = require('twilio')(accountSid, authToken);
 
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .notifications
-             .create({
-                body: 'Hello Bob',
-                toBinding: `{"binding_type":"sms","address":"+15555555555"}`,
-                identity: ['identity']
-              })
+             .create({body: 'Hello Bob', toBinding: {
+                  binding_type: 'sms',
+                  address: '+15555555555'
+              }, identity: ['identity']})
              .then(notification => console.log(notification.sid))
              .done();

@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 phone_number = client.preview.proxy \
-                             .services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                             .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                              .phone_numbers \
-                             .create(sid="PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                             .create(sid='PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
 print(phone_number.sid)

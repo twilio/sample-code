@@ -17,4 +17,4 @@ $installed_add_on = $twilio->preview->marketplace->installedAddOns("XEXXXXXXXXXX
                                                           )
                                                  );
 
-print($installed_add_on.friendlyName);
+print($installed_add_on->friendlyName);

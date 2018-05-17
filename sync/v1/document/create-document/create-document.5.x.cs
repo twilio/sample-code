@@ -16,7 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var document = DocumentResource.Create(
-            data: "{\"led\": \"OFF\"}",
+            data: "{'led': 'OFF'}",
             uniqueName: "BoardLED",
             pathServiceSid: "default"
         );

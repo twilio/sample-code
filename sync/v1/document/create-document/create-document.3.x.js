@@ -6,7 +6,7 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('default').documents
                                .create({data: {
-                                    led: "OFF"
+                                    led: 'OFF'
                                 }, uniqueName: 'BoardLED'})
                                .then(document => console.log(document.sid))
                                .done();

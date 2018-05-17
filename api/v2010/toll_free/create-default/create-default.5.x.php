@@ -15,4 +15,4 @@ $toll_free = $twilio->incomingPhoneNumbers
                     ->tollFree
                     ->create("+15017122661");
 
-print($toll_free.sid);
+print($toll_free->sid);

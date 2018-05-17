@@ -8,5 +8,5 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 client.preview.hosted_numbers \
-              .hosted_number_orders("HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+              .hosted_number_orders('HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
               .delete()

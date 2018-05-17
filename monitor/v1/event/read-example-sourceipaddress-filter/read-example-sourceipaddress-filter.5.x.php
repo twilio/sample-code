@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $events = $twilio->monitor->v1->events
                               ->read(array(
-                                         'endDate' => new \DateTime('2015-04-25'),
+                                         'endDate' => new \DateTime('2015-4-25'),
                                          'sourceIpAddress' => "104.14.155.29",
-                                         'startDate' => new \DateTime('2015-04-25')
+                                         'startDate' => new \DateTime('2015-4-25')
                                      )
                               );
 

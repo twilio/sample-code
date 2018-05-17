@@ -15,4 +15,4 @@ $incoming_phone_number = $twilio->incomingPhoneNumbers
                                 ->create(array('phoneNumber' => "+15005550000")
                                 );
 
-print($incoming_phone_number.sid);
+print($incoming_phone_number->sid);

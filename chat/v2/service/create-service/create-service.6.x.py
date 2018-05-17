@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-service = client.chat.services.create(friendly_name="FRIENDLY_NAME")
+service = client.chat.services.create(friendly_name='FRIENDLY_NAME')
 
 print(service.sid)

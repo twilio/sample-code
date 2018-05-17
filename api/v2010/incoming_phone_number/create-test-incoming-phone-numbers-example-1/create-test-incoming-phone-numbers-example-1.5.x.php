@@ -18,4 +18,4 @@ $incoming_phone_number = $twilio->incomingPhoneNumbers
                                          )
                                 );
 
-print($incoming_phone_number.sid);
+print($incoming_phone_number->sid);

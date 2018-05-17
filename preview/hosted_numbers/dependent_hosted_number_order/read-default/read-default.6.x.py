@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 dependent_hosted_number_orders = client.preview.hosted_numbers \
-    .authorization_documents("PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .authorization_documents('PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .dependent_hosted_number_orders \
     .list()
 

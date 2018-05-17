@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 participant = client.preview.proxy \
-                    .services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                    .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .fetch()
 
 print(participant.friendly_name)

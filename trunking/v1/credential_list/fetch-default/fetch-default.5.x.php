@@ -15,4 +15,4 @@ $credential_list = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                         ->credentialsLists("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->fetch();
 
-print($credential_list.friendlyName);
+print($credential_list->friendlyName);

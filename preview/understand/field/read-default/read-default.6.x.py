@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 fields = client.preview.understand \
-                       .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                       .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .fields \
                        .list()
 

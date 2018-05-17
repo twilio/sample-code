@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 reservation = client.taskrouter \
-                    .workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .reservations("WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                    .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .reservations('WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .fetch()
 
 print(reservation.worker_name)

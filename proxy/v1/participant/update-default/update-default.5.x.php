@@ -16,4 +16,4 @@ $participant = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                  ->participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->update(array('identifier' => "identifier"));
 
-print($participant.friendlyName);
+print($participant->friendlyName);

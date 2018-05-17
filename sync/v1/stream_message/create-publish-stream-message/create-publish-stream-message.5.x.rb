@@ -11,9 +11,9 @@ stream_message = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .sync_streams('TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .stream_messages
                         .create(data: {
-                             "id" => "bob",
-                             "x" => "256",
-                             "y" => "42"
+                             'id' => 'bob',
+                             'x' => 256,
+                             'y' => 42
                          })
 
 puts stream_message.sid

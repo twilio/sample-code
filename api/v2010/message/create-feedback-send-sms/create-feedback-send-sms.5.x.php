@@ -16,8 +16,8 @@ $message = $twilio->messages
                            array(
                                'body' => "Open to confirm: http://yourserver.com/confirm?id=1234567890",
                                'from' => "+15017122661",
-                               'provideFeedback' => False
+                               'provideFeedback' => True
                            )
                   );
 
-print($message.sid);
+print($message->sid);

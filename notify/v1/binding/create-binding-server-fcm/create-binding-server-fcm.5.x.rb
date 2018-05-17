@@ -12,9 +12,9 @@ binding = @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .create(
                            endpoint: 'XXXXXXXXXXXXXXX',
                            tag: 'preferred device',
-                           address: 'fcm_device_token',
+                           identity: '00000001',
                            binding_type: 'fcm',
-                           identity: '00000001'
+                           address: 'fcm_device_token'
                          )
 
 puts binding.sid

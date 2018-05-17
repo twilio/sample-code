@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $authorization_document = $twilio->preview->hostedNumbers->authorizationDocuments("PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                          ->fetch();
 
-print($authorization_document.sid);
+print($authorization_document->sid);

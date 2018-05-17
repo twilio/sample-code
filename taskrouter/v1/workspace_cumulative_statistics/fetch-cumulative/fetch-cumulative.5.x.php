@@ -15,4 +15,4 @@ $workspace_cumulative_statistics = $twilio->taskrouter->v1->workspaces("WSXXXXXX
                                                           ->cumulativeStatistics()
                                                           ->fetch();
 
-print($workspace_cumulative_statistics.avgTaskAcceptanceTime);
+print($workspace_cumulative_statistics->avgTaskAcceptanceTime);

@@ -20,8 +20,11 @@ public class Example {
                 {{
                     put("date_updated", "2018-02-14 12:24:33.889341");
                     put("movie_title", "On The Line");
-                    put("show_times", "None");
-                    put("starring", "['Lance Bass', 'Joey Fatone']");
+                    put("show_times", null);
+                    put("starring", new String [] {
+                        "Lance Bass",
+                        "Joey Fatone"
+                    });
                     put("genre", "Romance");
                 }})
             .update();

@@ -15,4 +15,4 @@ $assigned_add_on = $twilio->incomingPhoneNumbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                           ->assignedAddOns
                           ->create("XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
-print($assigned_add_on.sid);
+print($assigned_add_on->sid);

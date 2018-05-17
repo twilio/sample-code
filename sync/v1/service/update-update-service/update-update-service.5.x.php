@@ -17,4 +17,4 @@ $service = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      )
                             );
 
-print($service.uniqueName);
+print($service->uniqueName);

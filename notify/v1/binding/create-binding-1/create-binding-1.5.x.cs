@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var binding = BindingResource.Create(
-            address: "+1651000000000",
-            bindingType: BindingResource.BindingTypeEnum.Sms,
             identity: "00000001",
+            bindingType: BindingResource.BindingTypeEnum.Sms,
+            address: "+1651000000000",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

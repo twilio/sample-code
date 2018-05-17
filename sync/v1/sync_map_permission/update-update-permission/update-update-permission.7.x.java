@@ -16,7 +16,7 @@ public class Example {
                 "bob",
                 true,
                 true,
-                true)
+                false)
             .update();
 
         System.out.println(syncMapPermission.getServiceSid());

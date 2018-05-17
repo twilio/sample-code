@@ -18,4 +18,4 @@ $service = $twilio->messaging->v1->services
                                           )
                                  );
 
-print($service.sid);
+print($service->sid);

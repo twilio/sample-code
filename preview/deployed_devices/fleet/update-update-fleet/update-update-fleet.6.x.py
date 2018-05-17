@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 fleet = client.preview.deployed_devices \
-                      .fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                      .update(friendly_name="My New Fleet of Devices")
+                      .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                      .update(friendly_name='My New Fleet of Devices')
 
 print(fleet.unique_name)

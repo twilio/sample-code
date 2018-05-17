@@ -8,11 +8,10 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 notification = @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  .notifications
-  .create(
-     body: 'Hello Bob',
-     to_binding: '{"binding_type":"sms","address":"+15555555555"}',
-     identity: ['identity']
-   )
+                             .notifications
+                             .create(body: 'Hello Bob', to_binding: {
+                                  'binding_type' => 'sms',
+                                  'address' => '+15555555555'
+                              }.to_json, identity: ['identity'])
 
 puts notification.sid

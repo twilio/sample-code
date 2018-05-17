@@ -18,4 +18,4 @@ $phone_number = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                            )
                                   );
 
-print($phone_number.sid);
+print($phone_number->sid);

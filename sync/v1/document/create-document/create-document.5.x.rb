@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 
 document = @client.sync.services('default').documents.create(
                                                         data: {
-                                                          "led" => "OFF"
+                                                          'led' => 'OFF'
                                                       },
                                                         unique_name: 'BoardLED'
                                                       )

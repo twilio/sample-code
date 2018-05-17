@@ -11,8 +11,8 @@ role = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .roles
                    .create(
                       friendly_name: 'new_role',
-                      permission: 'createChannel',
-                      type: 'deployment'
+                      type: 'deployment',
+                      permission: 'createChannel'
                     )
 
 puts role.sid

@@ -15,4 +15,4 @@ $feedback = $twilio->calls("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                    ->feedback()
                    ->fetch();
 
-print($feedback.dateCreated);
+print($feedback->dateCreated->format());

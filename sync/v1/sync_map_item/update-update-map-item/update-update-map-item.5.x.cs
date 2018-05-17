@@ -16,7 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var syncMapItem = SyncMapItemResource.Update(
-            data: "{\"name\": \"Stephen Curry\", \"level\": 31, \"username\": \"spicy_curry\"}",
+            data: "{'name': 'Stephen Curry', 'level': 31, 'username': 'spicy_curry'}",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "Players",
             pathKey: "steph_curry"

@@ -17,8 +17,8 @@ class Program
 
         var syncMapItem = SyncMapItemResource.Create(
             ttl: 864000,
-            data: "{\"name\": \"Stephen Curry\", \"level\": 30, \"username\": \"spicy_curry\"}",
             key: "steph_curry",
+            data: "{'name': 'Stephen Curry', 'level': 30, 'username': 'spicy_curry'}",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "Players"
         );

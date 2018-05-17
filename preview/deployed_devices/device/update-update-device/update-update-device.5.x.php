@@ -19,4 +19,4 @@ $device = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXX
                                                     )
                                            );
 
-print($device.uniqueName);
+print($device->uniqueName);

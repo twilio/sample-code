@@ -17,10 +17,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var notification = NotificationResource.Create(
-            apn: "{\"aps\":{\"alert\":{\"title\":\"Short title for Watch.\"}}}",
+            apn: "{'aps': {'alert': {'title': 'Short title for Watch.'}}}",
             body: "This is the body for all Bindings",
-            data: "{\"custom_key1\":\"custom value 1\",\"custom_key2\":\"custom value 2\"}",
-            fcm: "{\"notification\":{\"title\":\"New alert\",\"body\":\"Hello Bob!\"}}",
+            data: "{'custom_key1': 'custom value 1', 'custom_key2': 'custom value 2'}",
+            fcm: "{'notification': {'title': 'New alert', 'body': 'Hello Bob!'}}",
             identity: Promoter.ListOfOne("00000001"),
             title: "Generic loooooooong title for all Bindings",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

@@ -21,4 +21,4 @@ $fax = $twilio->fax->v1->faxes
                                 )
                        );
 
-print($fax.sid);
+print($fax->sid);

@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $command = $twilio->preview->wireless->commands("DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->fetch();
 
-print($command.sid);
+print($command->sid);

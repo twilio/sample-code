@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-export = client.preview.bulk_exports.exports("resource_type").fetch()
+export = client.preview.bulk_exports.exports('resource_type').fetch()
 
 print(export.resource_type)

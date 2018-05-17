@@ -15,4 +15,4 @@ $query = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                      ->queries("UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->fetch();
 
-print($query.dateCreated);
+print($query->dateCreated->format());

@@ -18,7 +18,7 @@ class Program
         var service = ServiceResource.Update(
             facebookMessengerPageId: "your_page_id",
             friendlyName: "Another Awesome Service",
-            messagingServiceSid: "your_twilio_messaging_service_sid",
+            messagingServiceSid: "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

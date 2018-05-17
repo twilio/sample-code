@@ -16,4 +16,4 @@ $ip_address = $twilio->sip
                      ->ipAddresses
                      ->create("friendlyName", "ipAddress");
 
-print($ip_address.sid);
+print($ip_address->sid);

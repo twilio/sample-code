@@ -19,4 +19,4 @@ $workspace = $twilio->taskrouter->v1->workspaces
                                              )
                                     );
 
-print($workspace.sid);
+print($workspace->sid);

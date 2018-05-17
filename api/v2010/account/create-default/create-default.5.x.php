@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $account = $twilio->api->v2010->accounts
                               ->create();
 
-print($account.sid);
+print($account->sid);

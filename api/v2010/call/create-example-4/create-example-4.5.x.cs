@@ -22,8 +22,8 @@ class Program
             statusCallbackEvent: Promoter.ListOfOne("initiated"),
             statusCallbackMethod: Twilio.Http.HttpMethod.Post,
             url: new Uri("http://demo.twilio.com/docs/voice.xml"),
-            from: new Twilio.Types.PhoneNumber("+18668675310"),
             to: new Twilio.Types.PhoneNumber("+14155551212"),
+            from: new Twilio.Types.PhoneNumber("+18668675310"),
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

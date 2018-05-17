@@ -15,4 +15,4 @@ $participant = $twilio->conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                       ->participants("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                       ->fetch();
 
-print($participant.callSid);
+print($participant->callSid);

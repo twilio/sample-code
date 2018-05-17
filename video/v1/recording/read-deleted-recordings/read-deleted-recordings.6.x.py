@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-recordings = client.video.recordings.list(status="deleted")
+recordings = client.video.recordings.list(status='deleted')
 
 for record in recordings:
     print(record.sid)

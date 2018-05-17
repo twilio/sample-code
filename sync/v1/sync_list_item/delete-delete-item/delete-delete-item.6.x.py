@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-           .sync_lists("MyCollection") \
+client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+           .sync_lists('MyCollection') \
            .sync_list_items(0) \
            .delete()

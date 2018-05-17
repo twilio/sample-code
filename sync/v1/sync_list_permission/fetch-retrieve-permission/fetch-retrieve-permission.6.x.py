@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sync_list_permission = client.sync \
-                             .services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                             .sync_lists("MyFirstList") \
-                             .sync_list_permissions("bob") \
+                             .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                             .sync_lists('MyFirstList') \
+                             .sync_list_permissions('bob') \
                              .fetch()
 
 print(sync_list_permission.service_sid)

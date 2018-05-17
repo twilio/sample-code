@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 extensions = client.preview.marketplace \
-                   .available_add_ons("XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                   .available_add_ons('XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                    .extensions \
                    .list()
 

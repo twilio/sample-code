@@ -8,9 +8,9 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncLists('MyCollection')
            .syncListItems
            .create({ttl: 864000, data: {
-                number: "001",
-                name: "Bulbasaur",
-                attack: "49"
+                number: '001',
+                name: 'Bulbasaur',
+                attack: 49
             }})
            .then(sync_list_item => console.log(sync_list_item.index))
            .done();

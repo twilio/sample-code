@@ -21,4 +21,4 @@ $stream_message = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                             )
                                    );
 
-print($stream_message.sid);
+print($stream_message->sid);

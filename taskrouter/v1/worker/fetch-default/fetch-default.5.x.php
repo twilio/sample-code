@@ -15,4 +15,4 @@ $worker = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                  ->workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->fetch();
 
-print($worker.activityName);
+print($worker->activityName);

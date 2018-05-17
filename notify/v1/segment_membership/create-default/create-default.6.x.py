@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 segment_membership = client.notify \
-                           .services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                           .users("NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                           .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                           .users('NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                            .segment_memberships \
-                           .create(segment="segment")
+                           .create(segment='segment')
 
 print(segment_membership.service_sid)

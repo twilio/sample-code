@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 authorization_document = client.preview.hosted_numbers \
-    .authorization_documents("PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .authorization_documents('PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .update(hosted_number_order_sids=['hosted_number_order_sids'])
 
 print(authorization_document.sid)

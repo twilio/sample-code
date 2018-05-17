@@ -10,9 +10,9 @@ auth_token = 'your_auth_token'
 binding = @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .bindings
                         .create(
-                           address: '+1651000000000',
+                           identity: '00000001',
                            binding_type: 'sms',
-                           identity: '00000001'
+                           address: '+1651000000000'
                          )
 
 puts binding.sid

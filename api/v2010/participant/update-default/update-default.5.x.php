@@ -15,4 +15,4 @@ $participant = $twilio->conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                       ->participants("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                       ->update(array('muted' => True));
 
-print($participant.callSid);
+print($participant->callSid);

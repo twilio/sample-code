@@ -20,4 +20,4 @@ $call = $twilio->calls
                         )
                );
 
-print($call.sid);
+print($call->sid);

@@ -15,4 +15,4 @@ $fax_media = $twilio->fax->v1->faxes("FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->media("MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->fetch();
 
-print($fax_media.sid);
+print($fax_media->sid);

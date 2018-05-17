@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-session = client.preview.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                              .sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                              .update(unique_name="unique_name")
+session = client.preview.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                              .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                              .update(unique_name='unique_name')
 
 print(session.unique_name)

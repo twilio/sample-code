@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 command = client.wireless.commands.create(
-                                       sim="AliceSmithSmartMeter",
-                                       command="wakeup"
+                                       sim='AliceSmithSmartMeter',
+                                       command='wakeup'
                                    )
 
 print(command.sid)

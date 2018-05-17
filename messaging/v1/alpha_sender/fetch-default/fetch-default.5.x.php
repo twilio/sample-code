@@ -15,4 +15,4 @@ $alpha_sender = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->alphaSenders("AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->fetch();
 
-print($alpha_sender.sid);
+print($alpha_sender->sid);

@@ -15,8 +15,8 @@ $message = $twilio->messages
                   ->create("+5571981265131",
                            array(
                                'body' => "All in the game, yo",
-                               'from' => "+15017122661"
+                               'from' => "+5571981265145"
                            )
                   );
 
-print($message.sid);
+print($message->sid);

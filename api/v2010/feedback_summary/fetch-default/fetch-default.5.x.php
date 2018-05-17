@@ -15,4 +15,4 @@ $feedback_summary = $twilio->calls
                            ->feedbackSummaries("FSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                            ->fetch();
 
-print($feedback_summary.callCount);
+print($feedback_summary->callCount);

@@ -18,4 +18,4 @@ $key = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                  )
                                         );
 
-print($key.sid);
+print($key->sid);

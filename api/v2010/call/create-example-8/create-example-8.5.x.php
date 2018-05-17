@@ -17,4 +17,4 @@ $call = $twilio->calls
                         array('url' => "http://www.example.com/sipdial.xml")
                );
 
-print($call.sid);
+print($call->sid);
