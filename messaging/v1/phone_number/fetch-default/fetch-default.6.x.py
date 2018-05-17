@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 phone_number = client.messaging \
-                     .services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                     .phone_numbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                     .services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .phone_numbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .fetch()
 
 print(phone_number.sid)

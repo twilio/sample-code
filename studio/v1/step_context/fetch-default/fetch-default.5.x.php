@@ -17,4 +17,4 @@ $step_context = $twilio->studio->v1->flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->stepContext()
                                    ->fetch();
 
-print($step_context.context);
+print($step_context->context);

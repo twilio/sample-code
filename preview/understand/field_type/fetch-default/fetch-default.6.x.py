@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 field_type = client.preview.understand \
-                           .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                           .field_types("UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                           .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                           .field_types('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                            .fetch()
 
 print(field_type.friendly_name)

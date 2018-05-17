@@ -15,4 +15,4 @@ $certificate = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXX
                                                 ->certificates
                                                 ->create("certificateData");
 
-print($certificate.sid);
+print($certificate->sid);

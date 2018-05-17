@@ -15,4 +15,4 @@ $public_key = $twilio->accounts->v1->credentials
                                    ->publicKey
                                    ->create("publickey");
 
-print($public_key.sid);
+print($public_key->sid);

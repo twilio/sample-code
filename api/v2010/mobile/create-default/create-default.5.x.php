@@ -15,4 +15,4 @@ $mobile = $twilio->incomingPhoneNumbers
                  ->mobile
                  ->create("+15017122661");
 
-print($mobile.sid);
+print($mobile->sid);

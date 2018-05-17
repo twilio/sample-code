@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-flow = client.preview.studio.flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+flow = client.preview.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .fetch()
 
 print(flow.friendly_name)

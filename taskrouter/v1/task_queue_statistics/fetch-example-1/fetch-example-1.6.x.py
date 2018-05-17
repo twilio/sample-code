@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 task_queue_statistics = client.taskrouter \
-    .workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .task_queues("WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .task_queues('WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .statistics() \
     .fetch()
 

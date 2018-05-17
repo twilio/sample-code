@@ -18,4 +18,4 @@ $intent = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                )
                                       );
 
-print($intent.friendlyName);
+print($intent->friendlyName);

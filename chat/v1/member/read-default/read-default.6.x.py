@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-members = client.chat.v1.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                        .channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+members = client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                        .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .members \
                         .list()
 

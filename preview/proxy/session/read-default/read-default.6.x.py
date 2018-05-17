@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sessions = client.preview.proxy \
-                         .services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                         .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                          .sessions \
                          .list()
 

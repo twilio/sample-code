@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 credential_list = client.trunking \
-    .trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .credentials_lists \
-    .create(credential_list_sid="CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+    .create(credential_list_sid='CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
 print(credential_list.sid)

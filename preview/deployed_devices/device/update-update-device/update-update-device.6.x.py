@@ -8,11 +8,11 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 device = client.preview.deployed_devices \
-                       .fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .devices("THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                       .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .devices('THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .update(
-                            friendly_name="My New Device",
-                            identity="bob@twilio.com"
+                            friendly_name='My New Device',
+                            identity='bob@twilio.com'
                         )
 
 print(device.unique_name)

@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 field = client.preview.understand \
-                      .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                      .intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                      .fields("UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                      .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                      .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                      .fields('UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .fetch()
 
 print(field.unique_name)

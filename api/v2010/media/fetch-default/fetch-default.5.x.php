@@ -15,4 +15,4 @@ $media = $twilio->messages("MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                 ->media("MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                 ->fetch();
 
-print($media.contentType);
+print($media->contentType);

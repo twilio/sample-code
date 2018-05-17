@@ -20,4 +20,4 @@ $message_interaction = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXX
                                                   )
                                          );
 
-print($message_interaction.sid);
+print($message_interaction->sid);

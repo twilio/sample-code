@@ -8,5 +8,5 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 client.preview.marketplace \
-              .installed_add_ons("XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+              .installed_add_ons('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
               .delete()

@@ -20,4 +20,4 @@ $message = $twilio->messages
                            )
                   );
 
-print($message.sid);
+print($message->sid);

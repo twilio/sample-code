@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $authorized_connect_app = $twilio->authorizedConnectApps("CN47260e643654388faabe8aaa18ea6756")
                                  ->fetch();
 
-print($authorized_connect_app.connectAppCompanyName);
+print($authorized_connect_app->connectAppCompanyName);

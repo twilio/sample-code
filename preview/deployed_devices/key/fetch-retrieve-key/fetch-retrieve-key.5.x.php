@@ -15,4 +15,4 @@ $key = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                         ->keys("KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->fetch();
 
-print($key.friendlyName);
+print($key->friendlyName);

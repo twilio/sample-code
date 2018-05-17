@@ -16,4 +16,4 @@ $installed_add_on = $twilio->preview->marketplace->installedAddOns
                                                           True
                                                  );
 
-print($installed_add_on.sid);
+print($installed_add_on->sid);

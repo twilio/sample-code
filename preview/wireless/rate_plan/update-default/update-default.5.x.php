@@ -17,4 +17,4 @@ $rate_plan = $twilio->preview->wireless->ratePlans("WPXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                 )
                                        );
 
-print($rate_plan.uniqueName);
+print($rate_plan->uniqueName);

@@ -15,4 +15,4 @@ $credential = $twilio->chat->v2->credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                ->update(array('friendlyName' => "friendlyName")
                                );
 
-print($credential.friendlyName);
+print($credential->friendlyName);

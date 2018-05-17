@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $address = $twilio->addresses("ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                   ->update(array('friendlyName' => "friendlyName"));
 
-print($address.customerName);
+print($address->customerName);

@@ -15,4 +15,4 @@ $workflow = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->workflows
                                    ->create("friendlyName", "configuration");
 
-print($workflow.sid);
+print($workflow->sid);

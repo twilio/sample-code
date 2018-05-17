@@ -17,4 +17,4 @@ $fleet = $twilio->preview->deployedDevices->fleets
                                                    )
                                           );
 
-print($fleet.sid);
+print($fleet->sid);

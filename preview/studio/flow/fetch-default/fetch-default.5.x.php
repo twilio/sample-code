@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $flow = $twilio->preview->studio->flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->fetch();
 
-print($flow.friendlyName);
+print($flow->friendlyName);

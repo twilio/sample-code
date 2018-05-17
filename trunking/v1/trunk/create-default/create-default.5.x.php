@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $trunk = $twilio->trunking->v1->trunks
                               ->create();
 
-print($trunk.sid);
+print($trunk->sid);

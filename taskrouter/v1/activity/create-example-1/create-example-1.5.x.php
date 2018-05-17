@@ -17,4 +17,4 @@ $activity = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                             array('available' => True)
                                    );
 
-print($activity.sid);
+print($activity->sid);

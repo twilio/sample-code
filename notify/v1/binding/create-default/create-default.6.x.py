@@ -7,12 +7,12 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-binding = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+binding = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .bindings \
                        .create(
-                            identity="identity",
-                            binding_type="apn",
-                            address="address"
+                            identity='identity',
+                            binding_type='apn',
+                            address='address'
                         )
 
 print(binding.sid)

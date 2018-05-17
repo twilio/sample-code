@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sync_map_permissions = client.preview.sync \
-                             .services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                             .sync_maps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                             .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                             .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                              .sync_map_permissions \
                              .list()
 

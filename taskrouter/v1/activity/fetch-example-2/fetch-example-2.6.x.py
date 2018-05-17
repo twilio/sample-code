@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-activity = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                            .activities("WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+activity = client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                            .activities('WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .fetch()
 
 print(activity.friendly_name)

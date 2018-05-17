@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 fleet = client.preview.deployed_devices.fleets \
                                        .create(
-                                            friendly_name="My Fleet of Devices"
+                                            friendly_name='My Fleet of Devices'
                                         )
 
 print(fleet.sid)

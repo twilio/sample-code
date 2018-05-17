@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 ip_access_control_lists = client.trunking \
-                                .trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                                .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                                 .ip_access_control_lists \
                                 .list()
 

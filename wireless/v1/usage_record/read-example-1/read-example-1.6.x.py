@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-usage_records = client.wireless.sims("DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA") \
+usage_records = client.wireless.sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA') \
                                .usage_records \
                                .list()
 

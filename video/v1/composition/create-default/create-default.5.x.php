@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $composition = $twilio->video->v1->compositions
                                  ->create();
 
-print($composition.sid);
+print($composition->sid);

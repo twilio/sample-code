@@ -15,4 +15,4 @@ $short_code = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->shortCodes
                                 ->create("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
-print($short_code.sid);
+print($short_code->sid);

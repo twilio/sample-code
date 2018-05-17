@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-room_recording = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .recordings("RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+room_recording = client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .recordings('RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .fetch()
 
 print(room_recording.track_name)

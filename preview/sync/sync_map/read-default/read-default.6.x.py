@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sync_maps = client.preview.sync \
-                          .services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                          .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                           .sync_maps \
                           .list()
 

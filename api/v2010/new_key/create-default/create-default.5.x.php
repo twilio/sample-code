@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $new_key = $twilio->newKeys
                   ->create();
 
-print($new_key.sid);
+print($new_key->sid);

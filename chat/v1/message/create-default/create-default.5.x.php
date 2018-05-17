@@ -16,4 +16,4 @@ $message = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->messages
                             ->create("body");
 
-print($message.sid);
+print($message->sid);

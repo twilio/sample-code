@@ -21,4 +21,4 @@ $address = $twilio->addresses
                            array('friendlyName' => "Billing - Customer 123")
                   );
 
-print($address.sid);
+print($address->sid);

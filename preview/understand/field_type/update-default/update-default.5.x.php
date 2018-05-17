@@ -18,4 +18,4 @@ $field_type = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXX
                                                    )
                                           );
 
-print($field_type.friendlyName);
+print($field_type->friendlyName);

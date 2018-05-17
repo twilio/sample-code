@@ -17,4 +17,4 @@ $hosted_number_order = $twilio->preview->hostedNumbers->hostedNumberOrders("HRXX
                                                                )
                                                       );
 
-print($hosted_number_order.friendlyName);
+print($hosted_number_order->friendlyName);

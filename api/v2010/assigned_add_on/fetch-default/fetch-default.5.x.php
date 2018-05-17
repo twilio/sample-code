@@ -15,4 +15,4 @@ $assigned_add_on = $twilio->incomingPhoneNumbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                           ->assignedAddOns("XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                           ->fetch();
 
-print($assigned_add_on.friendlyName);
+print($assigned_add_on->friendlyName);

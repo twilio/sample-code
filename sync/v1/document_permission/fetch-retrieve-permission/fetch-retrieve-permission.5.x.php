@@ -16,4 +16,4 @@ $document_permission = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXX
                                         ->documentPermissions("bob")
                                         ->fetch();
 
-print($document_permission.serviceSid);
+print($document_permission->serviceSid);

@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-days = client.preview.bulk_exports.exports("resource_type").days.list()
+days = client.preview.bulk_exports.exports('resource_type').days.list()
 
 for record in days:
     print(record.redirect_to)

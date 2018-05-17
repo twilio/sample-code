@@ -17,4 +17,4 @@ $export_configuration = $twilio->preview->bulkExports->exportConfiguration("reso
                                                               )
                                                      );
 
-print($export_configuration.enabled);
+print($export_configuration->enabled);

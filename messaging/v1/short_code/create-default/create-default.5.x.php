@@ -16,4 +16,4 @@ $short_code = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                     ->create("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                     );
 
-print($short_code.sid);
+print($short_code->sid);

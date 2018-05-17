@@ -15,4 +15,4 @@ $query = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                      ->queries
                                      ->create("language", "query");
 
-print($query.sid);
+print($query->sid);

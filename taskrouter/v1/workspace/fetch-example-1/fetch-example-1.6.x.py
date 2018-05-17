@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 workspace = client.taskrouter \
-                  .workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                  .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                   .fetch()
 
 print(workspace.default_activity_name)

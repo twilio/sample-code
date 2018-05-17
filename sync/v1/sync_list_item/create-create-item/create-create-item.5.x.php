@@ -22,4 +22,4 @@ $sync_list_item = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                             array('ttl' => 864000)
                                    );
 
-print($sync_list_item.index);
+print($sync_list_item->index);

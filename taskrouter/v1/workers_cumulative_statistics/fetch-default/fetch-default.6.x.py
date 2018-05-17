@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 workers_cumulative_statistics = client.taskrouter \
-    .workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .cumulative_statistics() \
     .fetch()
 

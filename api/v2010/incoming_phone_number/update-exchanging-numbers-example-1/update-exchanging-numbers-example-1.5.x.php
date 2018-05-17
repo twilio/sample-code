@@ -17,4 +17,4 @@ $incoming_phone_number = $twilio->incomingPhoneNumbers("PNyyyyyyyyyyyyyyyyyyyyyy
                                          )
                                 );
 
-print($incoming_phone_number.friendlyName);
+print($incoming_phone_number->friendlyName);

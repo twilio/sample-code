@@ -19,4 +19,4 @@ $command = $twilio->wireless->v1->commands
                                          )
                                 );
 
-print($command.sid);
+print($command->sid);

@@ -9,9 +9,9 @@ client = Client(account_sid, auth_token)
 
 workspace = client.taskrouter.workspaces \
                   .create(
-                       event_callback_url="http://requestb.in/vh9reovh",
-                       template="FIFO",
-                       friendly_name="NewWorkspace"
+                       event_callback_url='http://requestb.in/vh9reovh',
+                       template='FIFO',
+                       friendly_name='NewWorkspace'
                    )
 
 print(workspace.sid)

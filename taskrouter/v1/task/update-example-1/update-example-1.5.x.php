@@ -19,4 +19,4 @@ $task = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                         )
                                );
 
-print($task.taskQueueFriendlyName);
+print($task->taskQueueFriendlyName);

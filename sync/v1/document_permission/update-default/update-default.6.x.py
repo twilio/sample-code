@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 document_permission = client.sync \
-                            .services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                            .documents("ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                            .document_permissions("identity") \
+                            .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                            .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                            .document_permissions('identity') \
                             .update(read=True, write=True, manage=True)
 
 print(document_permission.service_sid)

@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-fax = client.fax.faxes("FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa").fetch()
+fax = client.fax.faxes('FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa').fetch()
 
 print(fax.to)

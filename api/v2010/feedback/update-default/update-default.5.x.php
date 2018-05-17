@@ -15,4 +15,4 @@ $feedback = $twilio->calls("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                    ->feedback()
                    ->update(1, array('issue' => array('audio-latency')));
 
-print($feedback.dateCreated);
+print($feedback->dateCreated->format());

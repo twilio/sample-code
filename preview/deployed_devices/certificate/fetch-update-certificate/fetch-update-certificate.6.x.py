@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 certificate = client.preview.deployed_devices \
-                    .fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .certificates("CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                    .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .certificates('CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .fetch()
 
 print(certificate.friendly_name)

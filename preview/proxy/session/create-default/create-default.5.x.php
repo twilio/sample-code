@@ -15,4 +15,4 @@ $session = $twilio->preview->proxy->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                   ->sessions
                                   ->create();
 
-print($session.sid);
+print($session->sid);

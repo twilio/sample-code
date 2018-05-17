@@ -17,4 +17,4 @@ $service = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                           )
                                  );
 
-print($service.friendlyName);
+print($service->friendlyName);

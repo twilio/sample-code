@@ -18,4 +18,4 @@ $validation_request = $twilio->validationRequests
                                       )
                              );
 
-print($validation_request.friendlyName);
+print($validation_request->friendlyName);

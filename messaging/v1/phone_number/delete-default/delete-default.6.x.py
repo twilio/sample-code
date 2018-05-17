@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-client.messaging.services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                .phone_numbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                .phone_numbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                 .delete()

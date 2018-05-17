@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $conference = $twilio->conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                      ->update(array('status' => "completed"));
 
-print($conference.friendlyName);
+print($conference->friendlyName);

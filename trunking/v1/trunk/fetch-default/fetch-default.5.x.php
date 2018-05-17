@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $trunk = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->fetch();
 
-print($trunk.domainName);
+print($trunk->domainName);

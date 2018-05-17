@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-credential = client.notify.credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                          .update(friendly_name="MyCredential", sandbox=False)
+credential = client.notify.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                          .update(friendly_name='MyCredential', sandbox=False)
 
 print(credential.friendly_name)

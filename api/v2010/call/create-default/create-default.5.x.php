@@ -17,4 +17,4 @@ $call = $twilio->calls
                         array('url' => "https://example.com")
                );
 
-print($call.sid);
+print($call->sid);

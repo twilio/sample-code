@@ -17,4 +17,4 @@ $service = $twilio->sync->v1->services
                                      )
                             );
 
-print($service.sid);
+print($service->sid);

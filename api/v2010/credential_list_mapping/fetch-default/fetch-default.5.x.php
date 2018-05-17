@@ -16,4 +16,4 @@ $credential_list_mapping = $twilio->sip
                                   ->credentialListMappings("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->fetch();
 
-print($credential_list_mapping.friendlyName);
+print($credential_list_mapping->friendlyName);

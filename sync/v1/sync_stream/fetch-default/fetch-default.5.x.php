@@ -15,4 +15,4 @@ $sync_stream = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->syncStreams("TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->fetch();
 
-print($sync_stream.uniqueName);
+print($sync_stream->uniqueName);

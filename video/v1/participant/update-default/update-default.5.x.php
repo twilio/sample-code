@@ -15,4 +15,4 @@ $participant = $twilio->video->v1->rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->participants("PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->update(array('status' => "connected"));
 
-print($participant.sid);
+print($participant->sid);

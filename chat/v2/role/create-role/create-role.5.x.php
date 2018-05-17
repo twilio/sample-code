@@ -15,4 +15,4 @@ $role = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->roles
                          ->create("new_role", "deployment", "createChannel");
 
-print($role.sid);
+print($role->sid);
