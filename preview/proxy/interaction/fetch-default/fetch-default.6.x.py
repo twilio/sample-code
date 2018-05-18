@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 interaction = client.preview.proxy \
-                    .services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .interactions("KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                    .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .interactions('KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .fetch()
 
 print(interaction.sid)

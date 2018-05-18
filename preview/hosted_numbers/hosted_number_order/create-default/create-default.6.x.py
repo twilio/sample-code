@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 hosted_number_order = client.preview.hosted_numbers.hosted_number_orders \
                                     .create(
-                                         phone_number="+15017122661",
+                                         phone_number='+15017122661',
                                          sms_capability=True
                                      )
 

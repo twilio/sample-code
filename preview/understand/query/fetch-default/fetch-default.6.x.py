@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 query = client.preview.understand \
-                      .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                      .queries("UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                      .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                      .queries('UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .fetch()
 
 print(query.date_created)

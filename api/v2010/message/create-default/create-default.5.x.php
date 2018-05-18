@@ -16,4 +16,4 @@ $message = $twilio->messages
                            array('from' => "+15017122661", 'body' => "body")
                   );
 
-print($message.sid);
+print($message->sid);

@@ -15,4 +15,4 @@ $role = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->roles("RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->update("sendMediaMessage");
 
-print($role.friendlyName);
+print($role->friendlyName);

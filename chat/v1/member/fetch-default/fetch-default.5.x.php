@@ -16,4 +16,4 @@ $member = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                            ->members("MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                            ->fetch();
 
-print($member.sid);
+print($member->sid);

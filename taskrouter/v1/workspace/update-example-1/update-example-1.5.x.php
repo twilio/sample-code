@@ -18,4 +18,4 @@ $workspace = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                              )
                                     );
 
-print($workspace.defaultActivityName);
+print($workspace->defaultActivityName);

@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $credential = $twilio->chat->v2->credentials
                                ->create("gcm");
 
-print($credential.sid);
+print($credential->sid);

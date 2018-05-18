@@ -20,4 +20,4 @@ $room = $twilio->video->v1->rooms
                                    )
                           );
 
-print($room.sid);
+print($room->sid);

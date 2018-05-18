@@ -7,11 +7,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-sim = client.wireless.sims("DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA") \
+sim = client.wireless.sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA') \
     .update(
-         callback_method="POST",
-         callback_url="https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter",
-         status="active"
+         callback_method='POST',
+         callback_url='https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter',
+         status='active'
      )
 
 print(sim.unique_name)

@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sample = client.preview.understand \
-                       .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .samples("UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .update(language="language")
+                       .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .update(language='language')
 
 print(sample.date_created)

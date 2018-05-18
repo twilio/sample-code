@@ -15,4 +15,4 @@ $feedback = $twilio->messages("MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                    ->feedback
                    ->create();
 
-print($feedback.messageSid);
+print($feedback->messageSid);

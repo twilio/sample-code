@@ -18,4 +18,4 @@ $certificate = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXX
                                                          )
                                                 );
 
-print($certificate.friendlyName);
+print($certificate->friendlyName);

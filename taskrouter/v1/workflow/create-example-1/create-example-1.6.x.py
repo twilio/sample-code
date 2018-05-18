@@ -7,14 +7,46 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-workflow = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+workflow = client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .workflows \
     .create(
-         assignment_callback_url="http://example.com",
-         fallback_assignment_callback_url="http://example2.com",
+         assignment_callback_url='http://example.com',
+         fallback_assignment_callback_url='http://example2.com',
          task_reservation_timeout=30,
-         configuration="{\"task_routing\": {\"filters\": [{\"expression\": \"type=='sales'\", \"targets\": [{\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}]}, {\"expression\": \"type=='marketing'\", \"targets\": [{\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}]}, {\"expression\": \"type=='support'\", \"targets\": [{\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}]}], \"default_filter\": {\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}}}",
-         friendly_name="Sales, Marketing, Support Workflow"
+         friendly_name='Sales, Marketing, Support Workflow',
+         configuration=json.dumps({
+             'task_routing': {
+                 'filters': [
+                     {
+                         'expression': "type=='sales'",
+                         'targets': [
+                             {
+                                 'queue': 'WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                             }
+                         ]
+                     },
+                     {
+                         'expression': "type=='marketing'",
+                         'targets': [
+                             {
+                                 'queue': 'WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                             }
+                         ]
+                     },
+                     {
+                         'expression': "type=='support'",
+                         'targets': [
+                             {
+                                 'queue': 'WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                             }
+                         ]
+                     }
+                 ],
+                 'default_filter': {
+                     'queue': 'WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                 }
+             }
+         })
      )
 
 print(workflow.sid)

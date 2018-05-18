@@ -7,9 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-member = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+member = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .members \
-                    .create(identity="IDENTITY")
+                    .create(identity='IDENTITY')
 
 print(member.sid)

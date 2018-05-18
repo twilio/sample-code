@@ -15,4 +15,4 @@ $role = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->roles("RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->update(array('permission'));
 
-print($role.friendlyName);
+print($role->friendlyName);

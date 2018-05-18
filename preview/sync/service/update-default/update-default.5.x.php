@@ -17,4 +17,4 @@ $service = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                           )
                                  );
 
-print($service.friendlyName);
+print($service->friendlyName);

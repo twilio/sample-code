@@ -8,10 +8,10 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 phone_number = client.messaging \
-                     .services("MG2172dd2db502e20dd981ef0d67850e1a") \
+                     .services('MG2172dd2db502e20dd981ef0d67850e1a') \
                      .phone_numbers \
                      .create(
-                          phone_number_sid="PN2a0747eba6abf96b7e3c3ff0b4530f6e"
+                          phone_number_sid='PN2a0747eba6abf96b7e3c3ff0b4530f6e'
                       )
 
 print(phone_number.sid)

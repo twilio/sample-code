@@ -17,4 +17,4 @@ $fax = $twilio->fax->v1->faxes
                                 array('from' => "Jack")
                        );
 
-print($fax.sid);
+print($fax->sid);

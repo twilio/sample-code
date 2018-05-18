@@ -15,4 +15,4 @@ $document = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->documents
                              ->create();
 
-print($document.sid);
+print($document->sid);

@@ -17,4 +17,4 @@ $fax = $twilio->fax->v1->faxes
                                 array('from' => "+15017122661")
                        );
 
-print($fax.sid);
+print($fax->sid);

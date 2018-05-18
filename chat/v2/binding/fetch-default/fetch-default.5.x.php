@@ -15,4 +15,4 @@ $binding = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->bindings("BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->fetch();
 
-print($binding.sid);
+print($binding->sid);

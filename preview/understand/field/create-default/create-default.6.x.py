@@ -8,12 +8,12 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 field = client.preview.understand \
-                      .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                      .intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                      .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                      .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .fields \
                       .create(
-                           field_type="field_type",
-                           unique_name="unique_name"
+                           field_type='field_type',
+                           unique_name='unique_name'
                        )
 
 print(field.sid)

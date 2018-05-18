@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 key = client.preview.deployed_devices \
-                    .fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .keys("KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                    .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .keys('KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .fetch()
 
 print(key.friendly_name)

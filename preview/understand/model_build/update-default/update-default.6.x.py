@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 model_build = client.preview.understand \
-                    .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .model_builds("UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .update(unique_name="unique_name")
+                    .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .model_builds('UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .update(unique_name='unique_name')
 
 print(model_build.unique_name)

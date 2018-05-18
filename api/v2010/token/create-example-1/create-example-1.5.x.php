@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $token = $twilio->tokens
                 ->create();
 
-print($token.username);
+print($token->username);

@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 intent = client.preview.understand \
-                       .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .update(friendly_name="friendly_name")
+                       .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .update(friendly_name='friendly_name')
 
 print(intent.friendly_name)

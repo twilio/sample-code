@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 field_type = client.preview.understand \
-                           .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                           .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                            .field_types \
-                           .create(unique_name="unique_name")
+                           .create(unique_name='unique_name')
 
 print(field_type.sid)

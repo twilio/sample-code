@@ -17,4 +17,4 @@ $authorization_document = $twilio->preview->hostedNumbers->authorizationDocument
                                                                   "email"
                                                          );
 
-print($authorization_document.sid);
+print($authorization_document->sid);

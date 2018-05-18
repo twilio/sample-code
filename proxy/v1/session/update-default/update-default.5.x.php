@@ -15,4 +15,4 @@ $session = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->update(array('uniqueName' => "uniqueName"));
 
-print($session.uniqueName);
+print($session->uniqueName);

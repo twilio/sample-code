@@ -15,4 +15,4 @@ $engagement = $twilio->studio->v1->flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->engagements
                                  ->create("+15558675310", "+15017122661");
 
-print($engagement.sid);
+print($engagement->sid);

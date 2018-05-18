@@ -7,12 +7,12 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-notification = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+notification = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .notifications \
                             .create(
-                                 body="Hello New Users",
-                                 segment="new_user",
-                                 tag="preferred_device"
+                                 body='Hello New Users',
+                                 segment='new_user',
+                                 tag='preferred_device'
                              )
 
 print(notification.sid)

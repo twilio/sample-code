@@ -17,4 +17,4 @@ $service = $twilio->preview->proxy->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                            )
                                   );
 
-print($service.friendlyName);
+print($service->friendlyName);

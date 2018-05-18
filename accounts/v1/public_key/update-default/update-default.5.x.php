@@ -18,4 +18,4 @@ $public_key = $twilio->accounts->v1->credentials
                                             )
                                    );
 
-print($public_key.friendlyName);
+print($public_key->friendlyName);

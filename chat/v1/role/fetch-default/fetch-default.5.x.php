@@ -15,4 +15,4 @@ $role = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->roles("RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->fetch();
 
-print($role.friendlyName);
+print($role->friendlyName);

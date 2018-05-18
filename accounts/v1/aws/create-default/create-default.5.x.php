@@ -16,4 +16,4 @@ $aws = $twilio->accounts->v1->credentials
                             ->create("AKIAIOSFODNN7EXAMPLE:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
                             );
 
-print($aws.sid);
+print($aws->sid);

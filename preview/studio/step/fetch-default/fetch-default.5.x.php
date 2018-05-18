@@ -16,4 +16,4 @@ $step = $twilio->preview->studio->flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->steps("FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->fetch();
 
-print($step.name);
+print($step->name);

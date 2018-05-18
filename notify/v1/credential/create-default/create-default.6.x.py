@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-credential = client.notify.credentials.create(type="gcm")
+credential = client.notify.credentials.create(type='gcm')
 
 print(credential.sid)

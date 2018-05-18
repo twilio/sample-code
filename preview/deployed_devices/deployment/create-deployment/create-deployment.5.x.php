@@ -18,4 +18,4 @@ $deployment = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXX
                                                         )
                                                );
 
-print($deployment.sid);
+print($deployment->sid);

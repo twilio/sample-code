@@ -16,4 +16,4 @@ $field_value = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXX
                                            ->fieldValues("UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                            ->fetch();
 
-print($field_value.dateCreated);
+print($field_value->dateCreated->format());

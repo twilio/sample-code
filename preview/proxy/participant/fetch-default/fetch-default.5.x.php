@@ -16,4 +16,4 @@ $participant = $twilio->preview->proxy->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->fetch();
 
-print($participant.friendlyName);
+print($participant->friendlyName);

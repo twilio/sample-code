@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $service = $twilio->chat->v2->services
                             ->create("FRIENDLY_NAME");
 
-print($service.sid);
+print($service->sid);

@@ -7,11 +7,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-task = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                        .tasks("WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+task = client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                        .tasks('WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .update(
-                             assignment_status="canceled",
-                             reason="waiting too long"
+                             assignment_status='canceled',
+                             reason='waiting too long'
                          )
 
 print(task.task_queue_friendly_name)

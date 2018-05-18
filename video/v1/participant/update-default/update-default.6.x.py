@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-participant = client.video.rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                          .participants("PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                          .update(status="connected")
+participant = client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                          .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                          .update(status='connected')
 
 print(participant.sid)

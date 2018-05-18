@@ -16,4 +16,4 @@ $member = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                            ->members
                            ->create("identity");
 
-print($member.sid);
+print($member->sid);

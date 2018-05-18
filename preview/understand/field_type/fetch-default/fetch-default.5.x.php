@@ -15,4 +15,4 @@ $field_type = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXX
                                           ->fieldTypes("UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                           ->fetch();
 
-print($field_type.friendlyName);
+print($field_type->friendlyName);

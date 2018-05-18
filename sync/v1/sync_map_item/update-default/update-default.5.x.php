@@ -16,4 +16,4 @@ $sync_map_item = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                   ->syncMapItems("key")
                                   ->update(array('data' => array()));
 
-print($sync_map_item.key);
+print($sync_map_item->key);

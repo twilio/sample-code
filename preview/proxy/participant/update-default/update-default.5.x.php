@@ -17,4 +17,4 @@ $participant = $twilio->preview->proxy->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->update(array('participantType' => "sms")
                                       );
 
-print($participant.friendlyName);
+print($participant->friendlyName);

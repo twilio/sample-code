@@ -15,4 +15,4 @@ $session = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->sessions
                              ->create(array('uniqueName' => "MyFirstSession"));
 
-print($session.sid);
+print($session->sid);

@@ -9,9 +9,9 @@ client = Client(account_sid, auth_token)
 
 service = client.notify.services \
                 .create(
-                     apn_credential_sid="CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                     fcm_credential_sid="CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                     friendly_name="My Awesome Service"
+                     apn_credential_sid='CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                     fcm_credential_sid='CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                     friendly_name='My Awesome Service'
                  )
 
 print(service.sid)

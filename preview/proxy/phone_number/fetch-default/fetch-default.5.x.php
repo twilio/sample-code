@@ -15,4 +15,4 @@ $phone_number = $twilio->preview->proxy->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                        ->phoneNumbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        ->fetch();
 
-print($phone_number.sid);
+print($phone_number->sid);

@@ -15,4 +15,4 @@ $verification_check = $twilio->preview->accSecurity->services("VAXXXXXXXXXXXXXXX
                                                    ->verificationChecks
                                                    ->create("code");
 
-print($verification_check.sid);
+print($verification_check->sid);

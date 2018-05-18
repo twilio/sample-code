@@ -19,4 +19,4 @@ $application = $twilio->applications
                                )
                       );
 
-print($application.sid);
+print($application->sid);

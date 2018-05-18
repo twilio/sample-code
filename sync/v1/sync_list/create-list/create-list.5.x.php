@@ -19,4 +19,4 @@ $sync_list = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        )
                               );
 
-print($sync_list.sid);
+print($sync_list->sid);

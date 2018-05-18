@@ -18,4 +18,4 @@ $trigger = $twilio->usage
                            "answering-machine-detection"
                   );
 
-print($trigger.sid);
+print($trigger->sid);

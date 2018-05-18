@@ -24,4 +24,4 @@ $document = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       )
                              );
 
-print($document.uniqueName);
+print($document->uniqueName);

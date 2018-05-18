@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 statistics = client.taskrouter \
-                   .workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                   .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                    .task_queues \
                    .statistics \
                    .list()

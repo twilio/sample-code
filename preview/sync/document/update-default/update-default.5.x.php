@@ -15,4 +15,4 @@ $document = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                   ->documents("ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->update(array());
 
-print($document.uniqueName);
+print($document->uniqueName);

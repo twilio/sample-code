@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-phone_number = client.lookups.phone_numbers("+16502530000") \
-                             .fetch(type="caller-name")
+phone_number = client.lookups.phone_numbers('+16502530000') \
+                             .fetch(type='caller-name')
 
 print(phone_number.caller_name)

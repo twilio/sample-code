@@ -15,4 +15,4 @@ $member = $twilio->queues("QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                  ->members("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                  ->update("https://example.com", "GET");
 
-print($member.callSid);
+print($member->callSid);

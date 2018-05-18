@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 events = client.monitor.events \
-                       .list(resource_sid="PN4aa51b930717ea83c91971b86d99018f")
+                       .list(resource_sid='PN4aa51b930717ea83c91971b86d99018f')
 
 for record in events:
     print(record.sid)

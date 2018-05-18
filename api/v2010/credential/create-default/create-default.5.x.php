@@ -16,4 +16,4 @@ $credential = $twilio->sip
                      ->credentials
                      ->create("username", "password");
 
-print($credential.sid);
+print($credential->sid);

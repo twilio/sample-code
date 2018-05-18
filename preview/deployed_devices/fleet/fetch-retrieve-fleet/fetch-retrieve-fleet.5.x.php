@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $fleet = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                           ->fetch();
 
-print($fleet.uniqueName);
+print($fleet->uniqueName);

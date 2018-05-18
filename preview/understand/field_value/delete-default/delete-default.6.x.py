@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-client.preview.understand.assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                         .field_types("UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                         .field_values("UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                         .field_types('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                         .field_values('UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                          .delete()

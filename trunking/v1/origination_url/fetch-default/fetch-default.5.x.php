@@ -15,4 +15,4 @@ $origination_url = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                         ->originationUrls("OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->fetch();
 
-print($origination_url.friendlyName);
+print($origination_url->friendlyName);

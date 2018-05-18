@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $available_phone_number_country = $twilio->availablePhoneNumbers("US")
                                          ->fetch();
 
-print($available_phone_number_country.countryCode);
+print($available_phone_number_country->countryCode);

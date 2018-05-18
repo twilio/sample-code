@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 installed_add_on = client.preview.marketplace \
-    .installed_add_ons("XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .installed_add_ons('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .update(configuration={})
 
 print(installed_add_on.friendly_name)

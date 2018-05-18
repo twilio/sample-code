@@ -17,4 +17,4 @@ $fleet = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                    )
                                           );
 
-print($fleet.uniqueName);
+print($fleet->uniqueName);

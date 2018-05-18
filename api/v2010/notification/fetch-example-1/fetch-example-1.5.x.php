@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $notification = $twilio->notifications("NO5a7a84730f529f0a76b3e30c01315d1a")
                        ->fetch();
 
-print($notification.callSid);
+print($notification->callSid);

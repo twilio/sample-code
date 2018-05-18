@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $workspace = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->fetch();
 
-print($workspace.defaultActivityName);
+print($workspace->defaultActivityName);

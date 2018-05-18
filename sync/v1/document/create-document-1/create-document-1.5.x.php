@@ -26,4 +26,4 @@ $document = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       )
                              );
 
-print($document.sid);
+print($document->sid);

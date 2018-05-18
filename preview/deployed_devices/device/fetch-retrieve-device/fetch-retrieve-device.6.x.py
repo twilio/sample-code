@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 device = client.preview.deployed_devices \
-                       .fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .devices("THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                       .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .devices('THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .fetch()
 
 print(device.unique_name)

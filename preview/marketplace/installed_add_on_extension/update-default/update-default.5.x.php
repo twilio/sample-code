@@ -15,4 +15,4 @@ $installed_add_on_extension = $twilio->preview->marketplace->installedAddOns("XE
                                                            ->extensions("XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                            ->update(True);
 
-print($installed_add_on_extension.friendlyName);
+print($installed_add_on_extension->friendlyName);

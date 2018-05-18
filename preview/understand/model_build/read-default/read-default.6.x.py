@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 model_builds = client.preview.understand \
-                     .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                     .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .model_builds \
                      .list()
 

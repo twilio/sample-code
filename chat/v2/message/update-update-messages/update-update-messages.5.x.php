@@ -16,4 +16,4 @@ $message = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->messages("IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->update(array('body' => "MESSAGE"));
 
-print($message.to);
+print($message->to);

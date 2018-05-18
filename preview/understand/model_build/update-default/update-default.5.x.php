@@ -18,4 +18,4 @@ $model_build = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXX
                                                     )
                                            );
 
-print($model_build.uniqueName);
+print($model_build->uniqueName);

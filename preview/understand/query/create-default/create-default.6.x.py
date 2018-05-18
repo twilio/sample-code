@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 query = client.preview.understand \
-                      .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                      .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .queries \
-                      .create(language="language", query="query")
+                      .create(language='language', query='query')
 
 print(query.sid)

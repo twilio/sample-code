@@ -16,4 +16,4 @@ $worker_statistics = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXX
                                             ->statistics()
                                             ->fetch();
 
-print($worker_statistics.cumulative);
+print($worker_statistics->cumulative);

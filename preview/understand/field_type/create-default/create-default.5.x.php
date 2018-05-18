@@ -15,4 +15,4 @@ $field_type = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXX
                                           ->fieldTypes
                                           ->create("uniqueName");
 
-print($field_type.sid);
+print($field_type->sid);

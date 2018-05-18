@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-fax_media = client.fax.faxes("FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                      .media("MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+fax_media = client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                      .media('MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .fetch()
 
 print(fax_media.sid)
