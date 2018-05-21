@@ -16,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var documentPermission = DocumentPermissionResource.Update(
-            manage: true,
             read: true,
             write: true,
+            manage: false,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathDocumentSid: "MyFirstDocument",
             pathIdentity: "bob"

@@ -8,8 +8,8 @@ client.calls
   .create({
      machineDetection: 'Enable',
      url: 'https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16',
-     from: '+18180000000',
-     to: '+1562300000'
+     to: '+1562300000',
+     from: '+18180000000'
    })
   .then(call => console.log(call.sid))
   .done();

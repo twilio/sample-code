@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 
 document = @client.sync.services('default').documents('BoardLED')
                                            .update(data: {
-                                                "led" => "ON"
+                                                'led' => 'ON'
                                             })
 
 puts document.unique_name

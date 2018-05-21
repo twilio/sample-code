@@ -11,6 +11,6 @@ document_permission = @client.sync
                              .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .documents('MyFirstDocument')
                              .document_permissions('bob')
-                             .update(manage: true, read: true, write: true)
+                             .update(read: true, write: true, manage: false)
 
 puts document_permission.service_sid

@@ -10,8 +10,8 @@ auth_token = 'your_auth_token'
 member = @client.queues('QU5ef8732a3c49700934481addd5ce1659')
                 .members('Front')
                 .update(
-                   method: 'POST',
-                   url: 'http://demo.twilio.com/docs/voice.xml'
+                   url: 'http://demo.twilio.com/docs/voice.xml',
+                   method: 'POST'
                  )
 
 puts member.call_sid

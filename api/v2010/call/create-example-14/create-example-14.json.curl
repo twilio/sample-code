@@ -3,6 +3,6 @@ curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXX
 --data-urlencode "StatusCallback=https://www.myapp.com/events" \
 --data-urlencode "StatusCallbackMethod=POST" \
 --data-urlencode "Url=http://demo.twilio.com/docs/voice.xml" \
---data-urlencode "From=+18668675310" \
 --data-urlencode "To=+14155551212" \
+--data-urlencode "From=+18668675310" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

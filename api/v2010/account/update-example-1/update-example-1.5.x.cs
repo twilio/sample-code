@@ -16,7 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var account = AccountResource.Update(
-            status: "suspended",
+            status: AccountResource.StatusEnum.Suspended,
             pathSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

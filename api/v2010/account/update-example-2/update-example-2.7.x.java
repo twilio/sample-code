@@ -11,7 +11,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Account account = Account.updater("ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setStatus("active").update();
+            .setStatus(Account.Status.ACTIVE).update();
 
         System.out.println(account.getFriendlyName());
     }

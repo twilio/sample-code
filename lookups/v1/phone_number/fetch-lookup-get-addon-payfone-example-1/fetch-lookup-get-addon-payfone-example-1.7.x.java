@@ -19,7 +19,7 @@ public class Example {
             .setAddOnsData(
                 new HashMap<String, Object>()
                 {{
-                    put("payfone_tcpa_compliance.right_party_contacted_date", "20160101");
+                    put("payfone_tcpa_compliance.right_party_contacted_date", 20160101);
                 }})
             .setType(Promoter.listOfOne("carrier"))
             .fetch();

@@ -8,9 +8,9 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMapItems('steph_curry')
            .update({data: {
-                name: "Stephen Curry",
-                level: "31",
-                username: "spicy_curry"
+                name: 'Stephen Curry',
+                level: 31,
+                username: 'spicy_curry'
             }})
            .then(sync_map_item => console.log(sync_map_item.key))
            .done();

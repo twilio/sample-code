@@ -19,9 +19,9 @@ class Program
         var binding = BindingResource.Create(
             endpoint: "XXXXXXXXXXXXXXX",
             tag: Promoter.ListOfOne("premium"),
-            address: "gcm_device_token",
-            bindingType: BindingResource.BindingTypeEnum.Gcm,
             identity: "00000001",
+            bindingType: BindingResource.BindingTypeEnum.Gcm,
+            address: "gcm_device_token",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

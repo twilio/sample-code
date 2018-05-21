@@ -12,8 +12,8 @@ fax = @client.fax.faxes
      from: 'Jack',
      sip_auth_password: 'secret',
      sip_auth_username: 'jack',
-     media_url: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf',
-     to: 'sip:kate@example.com'
+     to: 'sip:kate@example.com',
+     media_url: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf'
    )
 
 puts fax.sid

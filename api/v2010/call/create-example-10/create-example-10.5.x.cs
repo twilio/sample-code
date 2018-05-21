@@ -17,8 +17,8 @@ class Program
 
         var call = CallResource.Create(
             url: new Uri("http://www.example.com/sipdial.xml"),
-            from: new Twilio.Types.PhoneNumber("Jack"),
             to: new Twilio.Types.PhoneNumber("sip:kate@example.com?hatchkey=4815162342"),
+            from: new Twilio.Types.PhoneNumber("Jack"),
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

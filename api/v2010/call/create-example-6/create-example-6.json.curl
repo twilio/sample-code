@@ -2,6 +2,6 @@ curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXX
 --data-urlencode "SipAuthPassword=secret" \
 --data-urlencode "SipAuthUsername=jack" \
 --data-urlencode "Url=http://www.example.com/sipdial.xml" \
---data-urlencode "From=Jack" \
 --data-urlencode "To=sip:kate@example.com" \
+--data-urlencode "From=Jack" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

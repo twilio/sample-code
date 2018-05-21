@@ -17,8 +17,8 @@ class Program
 
         var fax = FaxResource.Create(
             from: "+15017122661",
-            mediaUrl: new Uri("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf"),
-            to: "+15558675310"
+            to: "+15558675310",
+            mediaUrl: new Uri("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf")
         );
 
         Console.WriteLine(fax.Sid);

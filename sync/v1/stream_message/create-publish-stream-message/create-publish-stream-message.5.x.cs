@@ -16,7 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var streamMessage = StreamMessageResource.Create(
-            data: "{\"id\": \"bob\", \"x\": 256, \"y\": 42}",
+            data: "{'id': 'bob', 'x': 256, 'y': 42}",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathStreamSid: "MyStream"
         );
