@@ -17,4 +17,4 @@ $feedback_summary = $twilio->calls
                                     new \DateTime('2008-01-02')
                            );
 
-print($feedback_summary.sid);
+print($feedback_summary->sid);

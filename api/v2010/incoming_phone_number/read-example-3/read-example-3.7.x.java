@@ -14,7 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<IncomingPhoneNumber> incomingPhoneNumbers = 
             IncomingPhoneNumber.reader()
-            .setPhoneNumber(new PhoneNumber("867"))
+            .setPhoneNumber(new com.twilio.type.PhoneNumber("867"))
             .read();
 
         for(IncomingPhoneNumber record : incomingPhoneNumbers) {

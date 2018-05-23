@@ -15,4 +15,4 @@ $member = $twilio->queues("QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                  ->members("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                  ->fetch();
 
-print($member.callSid);
+print($member->callSid);

@@ -6,9 +6,8 @@ const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .tasks
-                 .create({
-                    attributes: `{"type":"support"}`,
-                    workflowSid: 'WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                  })
+                 .create({attributes: {
+                      type: 'support'
+                  }, workflowSid: 'WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
                  .then(task => console.log(task.sid))
                  .done();

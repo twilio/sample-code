@@ -15,4 +15,4 @@ $sync_map = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                   ->syncMaps
                                   ->create();
 
-print($sync_map.sid);
+print($sync_map->sid);

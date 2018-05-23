@@ -15,10 +15,10 @@ $call = $twilio->calls
                ->create("sip:kate@example.com",
                         "Jack",
                         array(
-                            'sipAuthPassword' => "secret",
-                            'sipAuthUsername' => "jack",
-                            'url' => "http://www.example.com/sipdial.xml"
+                            "sipAuthPassword" => "secret",
+                            "sipAuthUsername" => "jack",
+                            "url" => "http://www.example.com/sipdial.xml"
                         )
                );
 
-print($call.sid);
+print($call->sid);

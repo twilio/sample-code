@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $user = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->users("USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->update(array(
-                                      'roleSid' => "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                      "roleSid" => "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                   )
                          );
 
-print($user.friendlyName);
+print($user->friendlyName);

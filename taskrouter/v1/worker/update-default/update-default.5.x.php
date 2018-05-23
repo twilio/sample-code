@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $worker = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->update(array(
-                                              'activitySid' => "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                              "activitySid" => "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                           )
                                  );
 
-print($worker.activityName);
+print($worker->activityName);

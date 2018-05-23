@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $account = $twilio->api->v2010->accounts("ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                              ->update(array('status' => "active"));
+                              ->update(array("status" => "active"));
 
-print($account.friendlyName);
+print($account->friendlyName);

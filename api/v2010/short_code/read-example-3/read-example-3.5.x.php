@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $shortCodes = $twilio->shortCodes
-                     ->read(array('shortCode' => "898"));
+                     ->read(array("shortCode" => "898"));
 
 foreach ($shortCodes as $record) {
     print($record->sid);

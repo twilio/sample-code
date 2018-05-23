@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $call = $twilio->calls("CA42ed11f93dc08b952027ffbc406d0868")
                ->fetch();
 
-print($call.to);
+print($call->to);

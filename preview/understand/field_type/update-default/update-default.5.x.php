@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $field_type = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                           ->fieldTypes("UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                           ->update(array(
-                                                       'friendlyName' => "friendlyName"
+                                                       "friendlyName" => "friendlyName"
                                                    )
                                           );
 
-print($field_type.friendlyName);
+print($field_type->friendlyName);

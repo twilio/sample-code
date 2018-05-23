@@ -16,4 +16,4 @@ $phone_number = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                      ->create("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                      );
 
-print($phone_number.sid);
+print($phone_number->sid);

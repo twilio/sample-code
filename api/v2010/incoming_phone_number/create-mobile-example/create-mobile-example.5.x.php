@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $incoming_phone_number = $twilio->incomingPhoneNumbers
-                                ->create(array('phoneNumber' => "+4759440374"));
+                                ->create(array("phoneNumber" => "+4759440374"));
 
-print($incoming_phone_number.sid);
+print($incoming_phone_number->sid);

@@ -15,7 +15,7 @@ public class Example {
         Document document = Document.updater(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                new java.util.HashMap<String, Object>())
+                new HashMap<String, Object>())
             .update();
 
         System.out.println(document.getUniqueName());

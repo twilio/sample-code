@@ -15,4 +15,4 @@ $add_on_result = $twilio->recordings("REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                         ->addOnResults("XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                         ->fetch();
 
-print($add_on_result.sid);
+print($add_on_result->sid);

@@ -14,9 +14,9 @@ $twilio = new Client($sid, $token);
 $message = $twilio->messages
                   ->create("+12316851234",
                            array(
-                               'body' => "Hello there!",
-                               'from' => "+15555555555"
+                               "body" => "Hello there!",
+                               "from" => "+15555555555"
                            )
                   );
 
-print($message.sid);
+print($message->sid);

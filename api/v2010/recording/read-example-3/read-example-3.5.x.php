@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $recordings = $twilio->recordings
                      ->read(array(
-                                'dateCreatedAfter' => new \DateTime('2009-7-6')
+                                "dateCreatedAfter" => new \DateTime('2009-7-6')
                             )
                      );
 

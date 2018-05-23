@@ -9,10 +9,17 @@ client = Client(account_sid, auth_token)
 
 call = client.calls \
     .create(
+<<<<<<< Updated upstream
          machine_detection="Enable",
          url="https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16",
          from_="+18180000000",
          to="+1562300000"
+=======
+         machine_detection='Enable',
+         url='https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16',
+         to='+1562300000',
+         from_='+18180000000'
+>>>>>>> Stashed changes
      )
 
 print(call.sid)

@@ -14,12 +14,48 @@ $twilio = new Client($sid, $token);
 $workflow = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->workflows
                                    ->create("Sales, Marketing, Support Workflow",
+<<<<<<< Updated upstream
                                             "{\"task_routing\": {\"filters\": [{\"expression\": \"type=='sales'\", \"targets\": [{\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}]}, {\"expression\": \"type=='marketing'\", \"targets\": [{\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}]}, {\"expression\": \"type=='support'\", \"targets\": [{\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}]}], \"default_filter\": {\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}}}",
+=======
+>>>>>>> Stashed changes
                                             array(
-                                                'assignmentCallbackUrl' => "http://example.com",
-                                                'fallbackAssignmentCallbackUrl' => "http://example2.com",
-                                                'taskReservationTimeout' => 30
+                                                "task_routing" => array(
+                                                    "filters" => array(
+                                                        array(
+                                                            "expression" => "type=='sales'",
+                                                            "targets" => array(
+                                                                array(
+                                                                    "queue" => "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                                                )
+                                                            )
+                                                        ),
+                                                        array(
+                                                            "expression" => "type=='marketing'",
+                                                            "targets" => array(
+                                                                array(
+                                                                    "queue" => "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                                                )
+                                                            )
+                                                        ),
+                                                        array(
+                                                            "expression" => "type=='support'",
+                                                            "targets" => array(
+                                                                array(
+                                                                    "queue" => "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                                                )
+                                                            )
+                                                        )
+                                                    ),
+                                                    "default_filter" => array(
+                                                        "queue" => "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                                    )
+                                                )
+                                            ),
+                                            array(
+                                                "assignmentCallbackUrl" => "http://example.com",
+                                                "fallbackAssignmentCallbackUrl" => "http://example2.com",
+                                                "taskReservationTimeout" => 30
                                             )
                                    );
 
-print($workflow.sid);
+print($workflow->sid);

@@ -13,10 +13,10 @@ $twilio = new Client($sid, $token);
 
 $sim = $twilio->wireless->v1->sims("DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
                             ->update(array(
-                                         'callbackMethod' => "POST",
-                                         'callbackUrl' => "https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter",
-                                         'status' => "active"
+                                         "callbackMethod" => "POST",
+                                         "callbackUrl" => "https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter",
+                                         "status" => "active"
                                      )
                             );
 
-print($sim.uniqueName);
+print($sim->uniqueName);

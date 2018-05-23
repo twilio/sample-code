@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $service = $twilio->preview->accSecurity->services
                                         ->create("name");
 
-print($service.sid);
+print($service->sid);

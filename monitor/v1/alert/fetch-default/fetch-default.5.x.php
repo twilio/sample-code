@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $alert = $twilio->monitor->v1->alerts("NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->fetch();
 
-print($alert.alertText);
+print($alert->alertText);

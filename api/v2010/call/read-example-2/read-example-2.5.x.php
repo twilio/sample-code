@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $calls = $twilio->calls
                 ->read(array(
-                           'startTime' => new \DateTime('2009-7-6'),
-                           'status' => "completed"
+                           "startTime" => new \DateTime('2009-7-6'),
+                           "status" => "completed"
                        )
                 );
 

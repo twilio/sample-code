@@ -9,9 +9,9 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .create({
                 endpoint: 'XXXXXXXXXXXXXXX',
                 tag: 'premium',
-                address: 'gcm_device_token',
+                identity: '00000001',
                 bindingType: 'gcm',
-                identity: '00000001'
+                address: 'gcm_device_token'
               })
              .then(binding => console.log(binding.sid))
              .done();

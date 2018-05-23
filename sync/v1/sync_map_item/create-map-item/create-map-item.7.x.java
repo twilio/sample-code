@@ -19,7 +19,7 @@ public class Example {
                 new HashMap<String, Object>()
                 {{
                 put("name", "Stephen Curry");
-                put("level", "30");
+                put("level", 30);
                 put("username", "spicy_curry");
                 }})
             .setTtl(864000).create();

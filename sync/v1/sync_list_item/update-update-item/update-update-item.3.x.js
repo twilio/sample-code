@@ -8,9 +8,9 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncLists('MyCollection')
            .syncListItems(0)
            .update({data: {
-                number: "001",
-                name: "Bulbasaur",
-                attack: "50"
+                number: '001',
+                name: 'Bulbasaur',
+                attack: 50
             }})
            .then(sync_list_item => console.log(sync_list_item.index))
            .done();

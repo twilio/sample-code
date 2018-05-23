@@ -8,9 +8,15 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 call = client.calls.create(
+<<<<<<< Updated upstream
                         url="http://demo.twilio.com/docs/voice.xml",
                         from_="+15005550006",
                         to="+15005550003"
+=======
+                        url='http://demo.twilio.com/docs/voice.xml',
+                        to='+15005550003',
+                        from_='+15005550006'
+>>>>>>> Stashed changes
                     )
 
 print(call.sid)

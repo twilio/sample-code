@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $recordings = $twilio->recordings
                      ->read(array(
-                                'callSid' => "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                "callSid" => "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                             )
                      );
 

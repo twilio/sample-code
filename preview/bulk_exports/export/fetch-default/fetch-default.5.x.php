@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $export = $twilio->preview->bulkExports->exports("resourceType")
                                        ->fetch();
 
-print($export.resourceType);
+print($export->resourceType);

@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $phone_number = $twilio->lookups->v1->phoneNumbers("+16502530000")
-                                    ->fetch(array('type' => "caller-name"));
+                                    ->fetch(array("type" => "caller-name"));
 
-print($phone_number.callerName);
+print($phone_number->callerName);

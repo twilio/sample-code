@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $role = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->roles("RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                         ->update(array('permission'));
+                         ->update(array("permission"));
 
-print($role.friendlyName);
+print($role->friendlyName);

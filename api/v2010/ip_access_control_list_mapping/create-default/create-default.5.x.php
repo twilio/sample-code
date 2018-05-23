@@ -17,4 +17,4 @@ $ip_access_control_list_mapping = $twilio->sip
                                          ->create("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                          );
 
-print($ip_access_control_list_mapping.sid);
+print($ip_access_control_list_mapping->sid);

@@ -19,7 +19,7 @@ public class Example {
                 {{
                 put("number", "001");
                 put("name", "Bulbasaur");
-                put("attack", "49");
+                put("attack", 49);
                 }})
             .setTtl(864000).create();
 

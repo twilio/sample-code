@@ -14,8 +14,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Call call = Call.creator(
-                new PhoneNumber("+16518675310"),
-                new PhoneNumber("+14158141829"),
+                new com.twilio.type.PhoneNumber("+16518675310"),
+                new com.twilio.type.PhoneNumber("+14158141829"),
                 URI.create("http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount"))
             .create();
 

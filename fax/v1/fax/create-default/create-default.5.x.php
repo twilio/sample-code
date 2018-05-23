@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $fax = $twilio->fax->v1->faxes
                        ->create("to", "https://example.com");
 
-print($fax.sid);
+print($fax->sid);

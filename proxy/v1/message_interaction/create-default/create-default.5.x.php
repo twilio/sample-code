@@ -15,6 +15,6 @@ $message_interaction = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXX
                                          ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->messageInteractions
-                                         ->create(array('body' => "body"));
+                                         ->create(array("body" => "body"));
 
-print($message_interaction.sid);
+print($message_interaction->sid);

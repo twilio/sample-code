@@ -7,11 +7,25 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
+<<<<<<< Updated upstream
 notification = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
     .notifications \
     .create(
          apn={"aps" : { "alert": {"title":"Bob alert","body" :"Bob, you just received a badge"}, "badge" : 1 }},
          identity="00000001"
      )
+=======
+notification = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .notifications \
+                     .create(apn={
+                          'aps': {
+                              'alert': {
+                                  'title': 'Bob alert',
+                                  'body': 'Bob, you just received a badge'
+                              },
+                              'badge': 1
+                          }
+                      }, identity='00000001')
+>>>>>>> Stashed changes
 
 print(notification.sid)

@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $connect_app = $twilio->connectApps("CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                       ->update(array(
-                                   'authorizeRedirectUrl' => "https://example.com"
+                                   "authorizeRedirectUrl" => "https://example.com"
                                )
                       );
 
-print($connect_app.companyName);
+print($connect_app->companyName);

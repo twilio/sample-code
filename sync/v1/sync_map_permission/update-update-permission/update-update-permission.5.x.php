@@ -14,6 +14,10 @@ $twilio = new Client($sid, $token);
 $sync_map_permission = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->syncMaps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->syncMapPermissions("bob")
+<<<<<<< Updated upstream
                                         ->update(False, False, True);
+=======
+                                        ->update(True, True, False);
+>>>>>>> Stashed changes
 
-print($sync_map_permission.serviceSid);
+print($sync_map_permission->serviceSid);

@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $participant = $twilio->preview->proxy->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                      ->update(array('participantType' => "sms")
+                                      ->update(array("participantType" => "sms")
                                       );
 
-print($participant.friendlyName);
+print($participant->friendlyName);

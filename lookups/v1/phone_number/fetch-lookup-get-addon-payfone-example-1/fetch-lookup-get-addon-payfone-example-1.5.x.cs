@@ -19,7 +19,7 @@ class Program
 
         var addOnsData = new Dictionary<string, Object>()
         {
-            {"payfone_tcpa_compliance.right_party_contacted_date", "20160101"}
+            {"payfone_tcpa_compliance.right_party_contacted_date", 20160101}
         };
 
         var phoneNumber = PhoneNumberResource.Fetch(

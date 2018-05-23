@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $conferences = $twilio->conferences
-                      ->read(array('status' => "in-progress"));
+                      ->read(array("status" => "in-progress"));
 
 foreach ($conferences as $record) {
     print($record->sid);

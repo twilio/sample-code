@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $validation_request = $twilio->validationRequests
                              ->create("+14158675310",
                                       array(
-                                          'friendlyName' => "My Home Phone Number"
+                                          "friendlyName" => "My Home Phone Number"
                                       )
                              );
 
-print($validation_request.friendlyName);
+print($validation_request->friendlyName);

@@ -20,4 +20,4 @@ $address = $twilio->addresses
                            "AX"
                   );
 
-print($address.sid);
+print($address->sid);

@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $applications = $twilio->applications
-                       ->read(array('friendlyName' => "MyApp"));
+                       ->read(array("friendlyName" => "MyApp"));
 
 foreach ($applications as $record) {
     print($record->sid);

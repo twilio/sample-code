@@ -15,12 +15,12 @@ $sync_list_item = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->syncLists("MyCollection")
                                    ->syncListItems(0)
                                    ->update(array(
-                                                'data' => array(
+                                                "data" => array(
                                                     "number" => "001",
                                                     "name" => "Bulbasaur",
-                                                    "attack" => "50"
+                                                    "attack" => 50
                                                 )
                                             )
                                    );
 
-print($sync_list_item.index);
+print($sync_list_item->index);

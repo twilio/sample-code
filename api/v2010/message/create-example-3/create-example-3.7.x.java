@@ -15,8 +15,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Message message = Message.creator(
-                new PhoneNumber("+15558675310"),
-                new PhoneNumber("+14158141829"),
+                new com.twilio.type.PhoneNumber("+15558675310"),
+                new com.twilio.type.PhoneNumber("+14158141829"),
                 "Let's grab lunch at Milliways tomorrow!")
             .setMediaUrl(
                 Promoter.listOfOne(URI.create("http://www.example.com/cheeseburger.png")))

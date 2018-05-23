@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $rooms = $twilio->video->v1->rooms
                            ->read(array(
-                                      'status' => "completed",
-                                      'uniqueName' => "DailyStandup"
+                                      "status" => "completed",
+                                      "uniqueName" => "DailyStandup"
                                   )
                            );
 

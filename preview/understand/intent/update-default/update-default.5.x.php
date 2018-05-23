@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $intent = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->update(array(
-                                                   'friendlyName' => "friendlyName"
+                                                   "friendlyName" => "friendlyName"
                                                )
                                       );
 
-print($intent.friendlyName);
+print($intent->friendlyName);

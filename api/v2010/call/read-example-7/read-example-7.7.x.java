@@ -13,7 +13,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Call> calls = Call.reader()
-            .setFrom(new PhoneNumber("client:charlie")).read();
+            .setFrom(new com.twilio.type.PhoneNumber("client:charlie"))
+            .read();
 
         for(Call record : calls) {
             System.out.println(record.getSid());

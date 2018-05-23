@@ -9,8 +9,8 @@ auth_token = 'your_auth_token'
 
 call = @client.calls.create(
                        url: 'http://www.example.com/sipdial.xml',
-                       from: 'Jack',
-                       to: 'sip:kate@example.com'
+                       to: 'sip:kate@example.com',
+                       from: 'Jack'
                      )
 
 puts call.sid

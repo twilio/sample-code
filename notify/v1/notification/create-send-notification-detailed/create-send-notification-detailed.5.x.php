@@ -14,19 +14,26 @@ $twilio = new Client($sid, $token);
 $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->notifications
                                    ->create(array(
-                                                'apn' => array(
-                                                    "aps" => "{'alert': {'title': 'Short title for Watch.'}}"
+                                                "apn" => array(
+                                                    "aps" => array(
+                                                        "alert" => array(
+                                                            "title" => "Short title for Watch."
+                                                        )
+                                                    )
                                                 ),
-                                                'body' => "This is the body for all Bindings",
-                                                'data' => array(
+                                                "body" => "This is the body for all Bindings",
+                                                "data" => array(
                                                     "custom_key1" => "custom value 1",
                                                     "custom_key2" => "custom value 2"
                                                 ),
-                                                'fcm' => array(
-                                                    "notification" => "{'title': 'New alert', 'body': 'Hello Bob!'}"
+                                                "fcm" => array(
+                                                    "notification" => array(
+                                                        "title" => "New alert",
+                                                        "body" => "Hello Bob!"
+                                                    )
                                                 ),
-                                                'identity' => "00000001",
-                                                'title' => "Generic loooooooong title for all Bindings"
+                                                "identity" => "00000001",
+                                                "title" => "Generic loooooooong title for all Bindings"
                                             )
                                    );
 

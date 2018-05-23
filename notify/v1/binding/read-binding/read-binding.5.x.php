@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $bindings = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->bindings
                                ->read(array(
-                                          'startDate' => new \DateTime('2015-08-25'),
-                                          'tag' => "new user"
+                                          "startDate" => new \DateTime('2015-08-25'),
+                                          "tag" => "new user"
                                       )
                                );
 

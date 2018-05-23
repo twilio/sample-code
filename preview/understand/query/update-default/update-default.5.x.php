@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $query = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->queries("UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->update(array(
-                                                  'sampleSid' => "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                                  "sampleSid" => "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                               )
                                      );
 
-print($query.dateCreated);
+print($query->dateCreated->format());

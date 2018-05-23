@@ -15,4 +15,4 @@ $worker = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                  ->workers
                                  ->create("friendlyName");
 
-print($worker.sid);
+print($worker->sid);

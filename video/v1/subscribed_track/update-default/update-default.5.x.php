@@ -15,8 +15,8 @@ $subscribed_track = $twilio->video->v1->rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->participants("PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->subscribedTracks
                                       ->update(array(
-                                                   'track' => "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                                   "track" => "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                                )
                                       );
 
-print($subscribed_track.name);
+print($subscribed_track->name);

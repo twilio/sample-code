@@ -17,8 +17,8 @@ $binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        "fcm",
                                        "fcm_device_token",
                                        array(
-                                           'endpoint' => "XXXXXXXXXXXXXXX",
-                                           'tag' => "preferred device"
+                                           "endpoint" => "XXXXXXXXXXXXXXX",
+                                           "tag" => "preferred device"
                                        )
                               );
 

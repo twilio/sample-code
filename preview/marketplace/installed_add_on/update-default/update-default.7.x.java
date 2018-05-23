@@ -14,7 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         InstalledAddOn installedAddOn = InstalledAddOn.updater(
                 "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setConfiguration(new java.util.HashMap<String, Object>())
+            .setConfiguration(new HashMap<String, Object>())
             .update();
 
         System.out.println(installedAddOn.getFriendlyName());

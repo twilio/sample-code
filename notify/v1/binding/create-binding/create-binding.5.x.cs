@@ -19,9 +19,9 @@ class Program
         var binding = BindingResource.Create(
             endpoint: "endpoint_id",
             tag: Promoter.ListOfOne("new user"),
-            address: "device_token",
-            bindingType: BindingResource.BindingTypeEnum.Apn,
             identity: "00000001",
+            bindingType: BindingResource.BindingTypeEnum.Apn,
+            address: "device_token",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

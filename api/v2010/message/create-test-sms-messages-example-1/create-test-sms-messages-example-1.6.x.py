@@ -8,9 +8,15 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
+<<<<<<< Updated upstream
                               body="All in the game, yo",
                               from_="+15017122661",
                               to="+5571981265131"
+=======
+                              body='All in the game, yo',
+                              from_='+5571981265145',
+                              to='+5571981265131'
+>>>>>>> Stashed changes
                           )
 
 print(message.sid)

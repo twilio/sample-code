@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 $credential = $twilio->sip
                      ->credentialLists("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                      ->credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                     ->update(array('password' => "password"));
+                     ->update(array("password" => "password"));
 
-print($credential.username);
+print($credential->username);

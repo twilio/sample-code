@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $key = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->keys
                                         ->create(array(
-                                                     'deviceSid' => "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                                     "deviceSid" => "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                                  )
                                         );
 
-print($key.sid);
+print($key->sid);

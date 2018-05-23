@@ -15,4 +15,4 @@ $model_build = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXX
                                            ->modelBuilds
                                            ->create();
 
-print($model_build.sid);
+print($model_build->sid);

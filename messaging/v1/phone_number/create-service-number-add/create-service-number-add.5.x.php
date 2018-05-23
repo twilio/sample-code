@@ -16,4 +16,4 @@ $phone_number = $twilio->messaging->v1->services("MG2172dd2db502e20dd981ef0d6785
                                       ->create("PN557ce644e5ab84fa21cc21112e22c485"
                                       );
 
-print($phone_number.sid);
+print($phone_number->sid);

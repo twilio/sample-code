@@ -15,7 +15,7 @@ $participant = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                  ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->participants
                                  ->create("+15558675310",
-                                          array('friendlyName' => "Alice")
+                                          array("friendlyName" => "Alice")
                                  );
 
-print($participant.sid);
+print($participant->sid);

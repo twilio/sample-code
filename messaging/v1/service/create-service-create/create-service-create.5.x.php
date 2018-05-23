@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $service = $twilio->messaging->v1->services
                                  ->create("My First Service",
                                           array(
-                                              'statusCallback' => "http://requestb.in/1234abcd"
+                                              "statusCallback" => "http://requestb.in/1234abcd"
                                           )
                                  );
 
-print($service.sid);
+print($service->sid);

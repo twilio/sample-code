@@ -15,8 +15,8 @@ $reservation = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->reservations("WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->update(array(
-                                                   'reservationStatus' => "pending"
+                                                   "reservationStatus" => "pending"
                                                )
                                       );
 
-print($reservation.workerName);
+print($reservation->workerName);

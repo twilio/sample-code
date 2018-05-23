@@ -14,7 +14,7 @@ public class Example {
             .setFacebookMessengerPageId("your_page_id")
             .setFriendlyName("Another Awesome Service")
             .setMessagingServiceSid(
-                "your_twilio_messaging_service_sid")
+                "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .update();
 
         System.out.println(service.getFriendlyName());

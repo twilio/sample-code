@@ -14,14 +14,17 @@ $twilio = new Client($sid, $token);
 $document = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->documents("MyFirstDocument")
                              ->update(array(
-                                          'data' => array(
+                                          "data" => array(
                                               "date_updated" => "2018-02-14 12:24:33.889341",
                                               "movie_title" => "On The Line",
-                                              "show_times" => "None",
-                                              "starring" => "['Lance Bass', 'Joey Fatone']",
+                                              "show_times" => null,
+                                              "starring" => array(
+                                                  "Lance Bass",
+                                                  "Joey Fatone"
+                                              ),
                                               "genre" => "Romance"
                                           )
                                       )
                              );
 
-print($document.uniqueName);
+print($document->uniqueName);

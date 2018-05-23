@@ -1,6 +1,7 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Rest.Preview.Sync.Service;
 
@@ -16,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var document = DocumentResource.Update(
-            data: "{}",
+            data: new Dictionary<string, Object>(),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $room = $twilio->video->v1->rooms
-                          ->create(array('uniqueName' => "DailyStandup"));
+                          ->create(array("uniqueName" => "DailyStandup"));
 
-print($room.sid);
+print($room->sid);

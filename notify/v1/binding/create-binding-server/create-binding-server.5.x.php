@@ -17,8 +17,8 @@ $binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        "gcm",
                                        "gcm_device_token",
                                        array(
-                                           'endpoint' => "XXXXXXXXXXXXXXX",
-                                           'tag' => "premium"
+                                           "endpoint" => "XXXXXXXXXXXXXXX",
+                                           "tag" => "premium"
                                        )
                               );
 

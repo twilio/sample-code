@@ -13,10 +13,16 @@ $twilio = new Client($sid, $token);
 
 $rate_plan = $twilio->wireless->v1->ratePlans
                                   ->create(array(
+<<<<<<< Updated upstream
                                                'friendlyName' => "California SmartMeter Plan",
                                                'messagingEnabled' => False,
                                                'uniqueName' => "SmartMeterCA"
+=======
+                                               "friendlyName" => "California SmartMeter Plan",
+                                               "messagingEnabled" => True,
+                                               "uniqueName" => "SmartMeterCA"
+>>>>>>> Stashed changes
                                            )
                                   );
 
-print($rate_plan.sid);
+print($rate_plan->sid);

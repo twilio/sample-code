@@ -2,6 +2,7 @@
 
 import com.twilio.Twilio;
 import com.twilio.rest.studio.v1.flow.Engagement;
+import com.twilio.type.PhoneNumber;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console

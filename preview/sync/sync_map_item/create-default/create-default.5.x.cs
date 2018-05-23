@@ -1,6 +1,7 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Rest.Preview.Sync.Service.SyncMap;
 
@@ -17,7 +18,7 @@ class Program
 
         var syncMapItem = SyncMapItemResource.Create(
             key: "Key",
-            data: "{}",
+            data: new Dictionary<string, Object>(),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

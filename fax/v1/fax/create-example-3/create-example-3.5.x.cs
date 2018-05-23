@@ -17,8 +17,8 @@ class Program
 
         var fax = FaxResource.Create(
             from: "Jack",
-            mediaUrl: new Uri("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf"),
-            to: "sip:kate@example.com?hatchkey=4815162342;transport=TCP"
+            to: "sip:kate@example.com?hatchkey=4815162342;transport=TCP",
+            mediaUrl: new Uri("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf")
         );
 
         Console.WriteLine(fax.Sid);

@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $address = $twilio->addresses("ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                   ->fetch();
 
-print($address.customerName);
+print($address->customerName);

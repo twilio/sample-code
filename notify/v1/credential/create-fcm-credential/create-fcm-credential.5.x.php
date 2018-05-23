@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $credential = $twilio->notify->v1->credentials
                                  ->create("fcm",
                                           array(
-                                              'friendlyName' => "MyFCMCredential",
-                                              'secret' => "fcm_secret"
+                                              "friendlyName" => "MyFCMCredential",
+                                              "secret" => "fcm_secret"
                                           )
                                  );
 

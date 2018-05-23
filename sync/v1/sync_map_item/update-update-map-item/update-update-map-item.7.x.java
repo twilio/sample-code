@@ -20,7 +20,7 @@ public class Example {
                 new HashMap<String, Object>()
                 {{
                     put("name", "Stephen Curry");
-                    put("level", "31");
+                    put("level", 31);
                     put("username", "spicy_curry");
                 }})
             .update();

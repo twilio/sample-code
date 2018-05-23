@@ -17,4 +17,4 @@ $credential_list_mapping = $twilio->sip
                                   ->create("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                   );
 
-print($credential_list_mapping.sid);
+print($credential_list_mapping->sid);

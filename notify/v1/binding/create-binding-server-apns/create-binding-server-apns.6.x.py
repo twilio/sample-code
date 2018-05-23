@@ -10,11 +10,19 @@ client = Client(account_sid, auth_token)
 binding = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                        .bindings \
                        .create(
+<<<<<<< Updated upstream
                             endpoint="endpoint_id",
                             tag="preferred device",
                             address="apn_device_token",
                             binding_type="apn",
                             identity="00000001"
+=======
+                            endpoint='endpoint_id',
+                            tag='preferred device',
+                            identity='00000001',
+                            binding_type='apn',
+                            address='apn_device_token'
+>>>>>>> Stashed changes
                         )
 
 print(binding.sid)

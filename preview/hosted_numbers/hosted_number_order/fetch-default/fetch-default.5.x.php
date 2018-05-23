@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $hosted_number_order = $twilio->preview->hostedNumbers->hostedNumberOrders("HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                       ->fetch();
 
-print($hosted_number_order.friendlyName);
+print($hosted_number_order->friendlyName);

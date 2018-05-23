@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $sync_stream = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->syncStreams("TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                ->update(array('ttl' => 1));
+                                ->update(array("ttl" => 1));
 
-print($sync_stream.uniqueName);
+print($sync_stream->uniqueName);

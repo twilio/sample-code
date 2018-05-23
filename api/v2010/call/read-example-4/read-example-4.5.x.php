@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $calls = $twilio->calls
                 ->read(array(
-                           'startTimeBefore' => new \DateTime('2009-7-6'),
-                           'startTimeAfter' => new \DateTime('2009-7-4'),
-                           'status' => "in-progress"
+                           "startTimeBefore" => new \DateTime('2009-7-6'),
+                           "startTimeAfter" => new \DateTime('2009-7-4'),
+                           "status" => "in-progress"
                        )
                 );
 

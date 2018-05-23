@@ -15,4 +15,4 @@ $participant = $twilio->video->v1->rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->participants("PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->fetch();
 
-print($participant.sid);
+print($participant->sid);

@@ -15,10 +15,10 @@ $call = $twilio->calls
                ->create("+14155551212",
                         "+18668675310",
                         array(
-                            'method' => "GET",
-                            'sendDigits' => "1234#",
-                            'url' => "http://demo.twilio.com/docs/voice.xml"
+                            "method" => "GET",
+                            "sendDigits" => "1234#",
+                            "url" => "http://demo.twilio.com/docs/voice.xml"
                         )
                );
 
-print($call.sid);
+print($call->sid);

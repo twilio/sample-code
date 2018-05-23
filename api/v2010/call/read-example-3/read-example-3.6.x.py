@@ -10,7 +10,11 @@ client = Client(account_sid, auth_token)
 
 calls = client.calls.list(
                          start_time_after=datetime(2009, 7, 6, 0, 0),
+<<<<<<< Updated upstream
                          status="completed"
+=======
+                         status='completed'
+>>>>>>> Stashed changes
                      )
 
 for record in calls:

@@ -14,8 +14,10 @@ $twilio = new Client($sid, $token);
 $worker = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->update(array(
-                                              'attributes' => "{\"type\":\"support\"}"
+                                              "attributes" => array(
+                                                  "type" => "support"
+                                              )
                                           )
                                  );
 
-print($worker.activityName);
+print($worker->activityName);

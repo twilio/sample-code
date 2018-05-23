@@ -15,9 +15,9 @@ $call = $twilio->calls
                ->create("+14155551212",
                         "+15017122661",
                         array(
-                            'record' => False,
-                            'url' => "http://demo.twilio.com/docs/voice.xml"
+                            "record" => True,
+                            "url" => "http://demo.twilio.com/docs/voice.xml"
                         )
                );
 
-print($call.sid);
+print($call->sid);

@@ -21,7 +21,7 @@ public class Example {
                 {{
                     put("number", "001");
                     put("name", "Bulbasaur");
-                    put("attack", "50");
+                    put("attack", 50);
                 }})
             .update();
 

@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $origination_url = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->originationUrls("OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                        ->update(array('weight' => 1));
+                                        ->update(array("weight" => 1));
 
-print($origination_url.friendlyName);
+print($origination_url->friendlyName);

@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $application = $twilio->applications("AP2a0747eba6abf96b7e3c3ff0b4530f6e")
                       ->update(array(
-                                   'smsUrl' => "http://demo.twilio.com/docs/sms.xml",
-                                   'voiceUrl' => "http://demo.twilio.com/docs/voice.xml"
+                                   "smsUrl" => "http://demo.twilio.com/docs/sms.xml",
+                                   "voiceUrl" => "http://demo.twilio.com/docs/voice.xml"
                                )
                       );
 
-print($application.friendlyName);
+print($application->friendlyName);

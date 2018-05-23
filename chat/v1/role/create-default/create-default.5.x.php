@@ -15,7 +15,7 @@ $role = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->roles
                          ->create("friendlyName",
                                   "channel",
-                                  array('permission')
+                                  array("permission")
                          );
 
-print($role.sid);
+print($role->sid);

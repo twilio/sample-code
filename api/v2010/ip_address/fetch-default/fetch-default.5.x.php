@@ -16,4 +16,4 @@ $ip_address = $twilio->sip
                      ->ipAddresses("IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                      ->fetch();
 
-print($ip_address.friendlyName);
+print($ip_address->friendlyName);

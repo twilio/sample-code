@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $sync_list = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->syncLists("ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                              ->update(array('ttl' => 1));
+                              ->update(array("ttl" => 1));
 
-print($sync_list.uniqueName);
+print($sync_list->uniqueName);

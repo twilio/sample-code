@@ -11,6 +11,10 @@ document_permission = @client.sync
                              .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .documents('MyFirstDocument')
                              .document_permissions('bob')
+<<<<<<< Updated upstream
                              .update(manage: true, read: true, write: true)
+=======
+                             .update(read: true, write: true, manage: false)
+>>>>>>> Stashed changes
 
 puts document_permission.service_sid

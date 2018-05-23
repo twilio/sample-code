@@ -1,6 +1,7 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Rest.Sync.V1.Service.SyncStream;
 
@@ -16,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var streamMessage = StreamMessageResource.Create(
-            data: "{}",
+            data: new Dictionary<string, Object>(),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathStreamSid: "TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

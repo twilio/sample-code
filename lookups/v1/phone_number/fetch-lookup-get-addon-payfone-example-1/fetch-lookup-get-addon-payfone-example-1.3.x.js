@@ -6,7 +6,7 @@ const client = require('twilio')(accountSid, authToken);
 
 client.lookups.phoneNumbers('+15108675310')
       .fetch({addOns: 'payfone_tcpa_compliance', addOnsData: {
-           "payfone_tcpa_compliance.right_party_contacted_date": "20160101"
+           'payfone_tcpa_compliance.right_party_contacted_date': 20160101
        }, type: 'carrier'})
       .then(phone_number => console.log(phone_number.callerName))
       .done();

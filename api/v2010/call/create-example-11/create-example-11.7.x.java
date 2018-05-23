@@ -14,8 +14,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Call call = Call.creator(
-                new PhoneNumber("+123456789"),
-                new PhoneNumber("+987654321"),
+                new com.twilio.type.PhoneNumber("+123456789"),
+                new com.twilio.type.PhoneNumber("+987654321"),
                 URI.create("http://demo.twilio.com/docs/voice.xml"))
             .create();
 

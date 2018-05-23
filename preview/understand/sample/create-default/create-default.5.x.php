@@ -16,4 +16,4 @@ $sample = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->samples
                                       ->create("language", "taggedText");
 
-print($sample.sid);
+print($sample->sid);

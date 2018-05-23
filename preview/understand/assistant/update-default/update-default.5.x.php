@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $assistant = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->update(array(
-                                                      'friendlyName' => "friendlyName"
+                                                      "friendlyName" => "friendlyName"
                                                   )
                                          );
 
-print($assistant.friendlyName);
+print($assistant->friendlyName);

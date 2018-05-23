@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->update(array(
-                                         'friendlyName' => "NEW_FRIENDLY_NAME"
+                                         "friendlyName" => "NEW_FRIENDLY_NAME"
                                      )
                             );
 
-print($service.uniqueName);
+print($service->uniqueName);

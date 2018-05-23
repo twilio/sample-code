@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $new_signing_key = $twilio->newSigningKeys
                           ->create();
 
-print($new_signing_key.sid);
+print($new_signing_key->sid);

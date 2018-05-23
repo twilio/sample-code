@@ -16,4 +16,4 @@ $user_binding = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                  ->userBindings("BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->fetch();
 
-print($user_binding.sid);
+print($user_binding->sid);

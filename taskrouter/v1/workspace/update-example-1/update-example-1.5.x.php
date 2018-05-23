@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $workspace = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->update(array(
-                                                 'eventCallbackUrl' => "http://requestb.in/vh9reovh",
-                                                 'friendlyName' => "NewFriendlyName"
+                                                 "eventCallbackUrl" => "http://requestb.in/vh9reovh",
+                                                 "friendlyName" => "NewFriendlyName"
                                              )
                                     );
 
-print($workspace.defaultActivityName);
+print($workspace->defaultActivityName);

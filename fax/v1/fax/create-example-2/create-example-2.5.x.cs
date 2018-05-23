@@ -19,8 +19,8 @@ class Program
             from: "Jack",
             sipAuthPassword: "secret",
             sipAuthUsername: "jack",
-            mediaUrl: new Uri("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf"),
-            to: "sip:kate@example.com"
+            to: "sip:kate@example.com",
+            mediaUrl: new Uri("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf")
         );
 
         Console.WriteLine(fax.Sid);

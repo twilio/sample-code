@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $users = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->users
-                            ->read(array('segment' => "premium"));
+                            ->read(array("segment" => "premium"));
 
 foreach ($users as $record) {
     print($record->sid);

@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $service = $twilio->proxy->v1->services
                              ->create("My Awesome Service",
                                       array(
-                                          'callbackUrl' => "https://www.example.com/"
+                                          "callbackUrl" => "https://www.example.com/"
                                       )
                              );
 
-print($service.sid);
+print($service->sid);

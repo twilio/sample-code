@@ -13,10 +13,10 @@ $twilio = new Client($sid, $token);
 
 $incoming_phone_number = $twilio->incomingPhoneNumbers("PN2a0747eba6abf96b7e3c3ff0b4530f6e")
                                 ->update(array(
-                                             'accountSid' => "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                                             'smsUrl' => "http://demo.twilio.com/docs/sms.xml",
-                                             'voiceUrl' => "http://demo.twilio.com/docs/voice.xml"
+                                             "accountSid" => "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                                             "smsUrl" => "http://demo.twilio.com/docs/sms.xml",
+                                             "voiceUrl" => "http://demo.twilio.com/docs/voice.xml"
                                          )
                                 );
 
-print($incoming_phone_number.friendlyName);
+print($incoming_phone_number->friendlyName);

@@ -16,7 +16,7 @@ public class Example {
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "key",
-                new java.util.HashMap<String, Object>())
+                new HashMap<String, Object>())
             .create();
 
         System.out.println(syncMapItem.getKey());

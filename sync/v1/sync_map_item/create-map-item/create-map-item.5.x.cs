@@ -1,6 +1,7 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Rest.Sync.V1.Service.SyncMap;
 
@@ -15,10 +16,17 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var data = new Dictionary<string, Object>()
+        {
+            {"name", "Stephen Curry"},
+            {"level", 30},
+            {"username", "spicy_curry"}
+        };
+
         var syncMapItem = SyncMapItemResource.Create(
             ttl: 864000,
-            data: "{\"name\": \"Stephen Curry\", \"level\": 30, \"username\": \"spicy_curry\"}",
             key: "steph_curry",
+            data: data,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "Players"
         );

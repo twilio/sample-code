@@ -16,4 +16,4 @@ $hosted_number_order = $twilio->preview->hostedNumbers->hostedNumberOrders
                                                                True
                                                       );
 
-print($hosted_number_order.sid);
+print($hosted_number_order->sid);

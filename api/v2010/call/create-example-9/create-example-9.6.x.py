@@ -8,11 +8,19 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 call = client.calls.create(
+<<<<<<< Updated upstream
                         sip_auth_password="secret",
                         sip_auth_username="jack",
                         url="http://www.example.com/sipdial.xml",
                         from_="Jack",
                         to="sip:kate@example.com"
+=======
+                        sip_auth_password='secret',
+                        sip_auth_username='jack',
+                        url='http://www.example.com/sipdial.xml',
+                        to='sip:kate@example.com',
+                        from_='Jack'
+>>>>>>> Stashed changes
                     )
 
 print(call.sid)

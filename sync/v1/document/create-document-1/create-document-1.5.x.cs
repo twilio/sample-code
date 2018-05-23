@@ -1,6 +1,7 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Rest.Sync.V1.Service;
 
@@ -15,8 +16,25 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var data = new Dictionary<string, Object>()
+        {
+            {"date_updated", "2018-02-14 12:24:31.843662"},
+            {"movie_title", "On The Line"},
+            {"show_times", new string [] {
+                "12:30:00Z",
+                "14:45:00Z",
+                "15:30:00Z",
+                "17:45:00Z"
+            }},
+            {"starring", new string [] {
+                "Lance Bass",
+                "Joey Fatone"
+            }},
+            {"genre", "Romance"}
+        };
+
         var document = DocumentResource.Create(
-            data: "{\"date_updated\": \"2018-02-14 12:24:31.843662\", \"movie_title\": \"On The Line\", \"show_times\": [\"12:30:00Z\", \"14:45:00Z\", \"15:30:00Z\", \"17:45:00Z\"], \"starring\": [\"Lance Bass\", \"Joey Fatone\"], \"genre\": \"Romance\"}",
+            data: data,
             ttl: 1814400,
             uniqueName: "MyFirstDocument",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

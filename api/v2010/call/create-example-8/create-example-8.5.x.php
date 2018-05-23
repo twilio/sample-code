@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $call = $twilio->calls
                ->create("sip:kate@example.com",
                         "Jack",
-                        array('url' => "http://www.example.com/sipdial.xml")
+                        array("url" => "http://www.example.com/sipdial.xml")
                );
 
-print($call.sid);
+print($call->sid);

@@ -15,9 +15,9 @@ $call = $twilio->calls
                ->create("+1562300000",
                         "+18180000000",
                         array(
-                            'machineDetection' => "Enable",
-                            'url' => "https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16"
+                            "machineDetection" => "Enable",
+                            "url" => "https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16"
                         )
                );
 
-print($call.sid);
+print($call->sid);

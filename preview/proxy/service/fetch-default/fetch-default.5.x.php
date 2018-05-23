@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $service = $twilio->preview->proxy->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->fetch();
 
-print($service.friendlyName);
+print($service->friendlyName);

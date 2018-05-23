@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $domain = $twilio->sip
                  ->domains("SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                 ->update(array('authType' => "authType"));
+                 ->update(array("authType" => "authType"));
 
-print($domain.domainName);
+print($domain->domainName);

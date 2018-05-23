@@ -15,4 +15,4 @@ $channel = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->channels
                             ->create();
 
-print($channel.sid);
+print($channel->sid);

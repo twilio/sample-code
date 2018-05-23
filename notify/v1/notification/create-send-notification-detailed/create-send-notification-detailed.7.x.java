@@ -18,7 +18,13 @@ public class Example {
             .setApn(
                 new HashMap<String, Object>()
                 {{
-                    put("aps", "{'alert': {'title': 'Short title for Watch.'}}");
+                    put("aps", new HashMap<String, Object>()
+                    {{
+                        put("alert", new HashMap<String, Object>()
+                        {{
+                            put("title", "Short title for Watch.");
+                        }});
+                    }});
                 }})
             .setBody("This is the body for all Bindings")
             .setData(
@@ -30,7 +36,11 @@ public class Example {
             .setFcm(
                 new HashMap<String, Object>()
                 {{
-                    put("notification", "{'title': 'New alert', 'body': 'Hello Bob!'}");
+                    put("notification", new HashMap<String, Object>()
+                    {{
+                        put("title", "New alert");
+                        put("body", "Hello Bob!");
+                    }});
                 }})
             .setIdentity(Promoter.listOfOne("00000001"))
             .setTitle("Generic loooooooong title for all Bindings")

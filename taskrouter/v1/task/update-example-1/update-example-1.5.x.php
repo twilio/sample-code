@@ -14,9 +14,9 @@ $twilio = new Client($sid, $token);
 $task = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->tasks("WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->update(array(
-                                            'assignmentStatus' => "canceled",
-                                            'reason' => "waiting too long"
+                                            "assignmentStatus" => "canceled",
+                                            "reason" => "waiting too long"
                                         )
                                );
 
-print($task.taskQueueFriendlyName);
+print($task->taskQueueFriendlyName);

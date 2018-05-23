@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $token = $twilio->tokens
-                ->create(array('ttl' => 3600));
+                ->create(array("ttl" => 3600));
 
-print($token.username);
+print($token->username);

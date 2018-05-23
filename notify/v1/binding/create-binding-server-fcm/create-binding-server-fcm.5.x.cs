@@ -19,9 +19,9 @@ class Program
         var binding = BindingResource.Create(
             endpoint: "XXXXXXXXXXXXXXX",
             tag: Promoter.ListOfOne("preferred device"),
-            address: "fcm_device_token",
-            bindingType: BindingResource.BindingTypeEnum.Fcm,
             identity: "00000001",
+            bindingType: BindingResource.BindingTypeEnum.Fcm,
+            address: "fcm_device_token",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

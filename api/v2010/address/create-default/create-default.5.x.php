@@ -20,4 +20,4 @@ $address = $twilio->addresses
                            "US"
                   );
 
-print($address.sid);
+print($address->sid);

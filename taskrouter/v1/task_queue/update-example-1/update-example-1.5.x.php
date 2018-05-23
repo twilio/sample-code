@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $task_queue = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->taskQueues("WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->update(array(
-                                                  'targetWorkers' => "languages HAS \"english\""
+                                                  "targetWorkers" => "languages HAS \"english\""
                                               )
                                      );
 
-print($task_queue.assignmentActivityName);
+print($task_queue->assignmentActivityName);

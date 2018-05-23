@@ -14,7 +14,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         IncomingPhoneNumber incomingPhoneNumber = IncomingPhoneNumber.creator(
-                new PhoneNumber("+15005550006"))
+                new com.twilio.type.PhoneNumber("+15005550006"))
             .setVoiceUrl(URI.create("http://demo.twilio.com/docs/voice.xml"))
             .create();
 

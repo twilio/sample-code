@@ -16,4 +16,4 @@ $credential = $twilio->sip
                      ->credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                      ->fetch();
 
-print($credential.username);
+print($credential->username);

@@ -9,8 +9,8 @@ auth_token = 'your_auth_token'
 
 call = @client.calls.create(
                        url: 'http://demo.twilio.com/docs/voice.xml',
-                       from: '+15017122661',
-                       to: '+14155551212'
+                       to: '+14155551212',
+                       from: '+15017122661'
                      )
 
 puts call.sid

@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 $worker_channel = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->workerChannels("WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                         ->update(array('capacity' => 1));
+                                         ->update(array("capacity" => 1));
 
-print($worker_channel.taskChannelUniqueName);
+print($worker_channel->taskChannelUniqueName);

@@ -15,4 +15,4 @@ $activity = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->activities
                                    ->create("friendlyName");
 
-print($activity.sid);
+print($activity->sid);

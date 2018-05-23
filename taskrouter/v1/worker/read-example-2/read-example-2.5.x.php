@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $workers = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->workers
                                   ->read(array(
-                                             'targetWorkersExpression' => "type == 'leads'"
+                                             "targetWorkersExpression" => "type == 'leads'"
                                          )
                                   );
 

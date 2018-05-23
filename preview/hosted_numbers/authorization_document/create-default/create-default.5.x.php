@@ -12,9 +12,9 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $authorization_document = $twilio->preview->hostedNumbers->authorizationDocuments
-                                                         ->create(array('hostedNumberOrderSids'),
+                                                         ->create(array("hostedNumberOrderSids"),
                                                                   "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                                                                   "email"
                                                          );
 
-print($authorization_document.sid);
+print($authorization_document->sid);

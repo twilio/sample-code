@@ -15,10 +15,10 @@ $fax = $twilio->fax->v1->faxes
                        ->create("sip:kate@example.com",
                                 "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
                                 array(
-                                    'from' => "Jack",
-                                    'sipAuthPassword' => "secret",
-                                    'sipAuthUsername' => "jack"
+                                    "from" => "Jack",
+                                    "sipAuthPassword" => "secret",
+                                    "sipAuthUsername" => "jack"
                                 )
                        );
 
-print($fax.sid);
+print($fax->sid);

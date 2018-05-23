@@ -13,11 +13,11 @@ $twilio = new Client($sid, $token);
 
 $incoming_phone_number = $twilio->incomingPhoneNumbers
                                 ->create(array(
-                                             'friendlyName' => "My Company Line",
-                                             'phoneNumber' => "+15105647903",
-                                             'voiceMethod' => "GET",
-                                             'voiceUrl' => "http://demo.twilio.com/docs/voice.xml"
+                                             "friendlyName" => "My Company Line",
+                                             "phoneNumber" => "+15105647903",
+                                             "voiceMethod" => "GET",
+                                             "voiceUrl" => "http://demo.twilio.com/docs/voice.xml"
                                          )
                                 );
 
-print($incoming_phone_number.sid);
+print($incoming_phone_number->sid);

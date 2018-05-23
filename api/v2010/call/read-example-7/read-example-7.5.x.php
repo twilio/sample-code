@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $calls = $twilio->calls
-                ->read(array('from' => "client:charlie"));
+                ->read(array("from" => "client:charlie"));
 
 foreach ($calls as $record) {
     print($record->sid);

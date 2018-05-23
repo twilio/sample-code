@@ -1,5 +1,6 @@
 # Download the helper library from https://www.twilio.com/docs/python/install
 from twilio.rest import Client
+import json
 
 
 # Your Account Sid and Auth Token from twilio.com/console
@@ -9,9 +10,15 @@ client = Client(account_sid, auth_token)
 
 worker = client.taskrouter.workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                           .workers \
+<<<<<<< Updated upstream
                           .create(
                                attributes="{\"type\":\"support\"}",
                                friendly_name="Support Worker 1"
                            )
+=======
+                          .create(attributes=json.dumps({
+                               'type': 'support'
+                           }), friendly_name='Support Worker 1')
+>>>>>>> Stashed changes
 
 print(worker.sid)
