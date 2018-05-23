@@ -16,6 +16,6 @@ public class Example {
                 "+15558675310")
             .setFriendlyName("Alice").create();
 
-        System.out.println(participant.getSid());
+        System.out.println(participant.getProxyIdentifier());
     }
 }
