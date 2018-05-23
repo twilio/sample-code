@@ -11,10 +11,6 @@ sync_map_permission = @client.sync
                              .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .sync_map_permissions('bob')
-<<<<<<< Updated upstream
-                             .update(manage: true, read: true, write: true)
-=======
                              .update(read: true, write: true, manage: false)
->>>>>>> Stashed changes
 
 puts sync_map_permission.service_sid

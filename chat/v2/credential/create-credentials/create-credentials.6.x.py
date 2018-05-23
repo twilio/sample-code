@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 credential = client.chat.credentials.create(
-                                         api_key="apiKey",
-                                         friendly_name="Friendly Name",
-                                         type="gcm"
+                                         api_key='apiKey',
+                                         friendly_name='Friendly Name',
+                                         type='gcm'
                                      )
 
 print(credential.sid)

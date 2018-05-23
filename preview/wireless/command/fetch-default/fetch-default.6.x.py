@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-command = client.preview.commands("DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
+command = client.preview.commands('DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch()
 
 print(command.sid)

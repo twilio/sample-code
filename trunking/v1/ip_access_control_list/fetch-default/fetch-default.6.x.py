@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 ip_access_control_list = client.trunking \
-    .trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .ip_access_control_lists("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+    .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .ip_access_control_lists('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .fetch()
 
 print(ip_access_control_list.friendly_name)

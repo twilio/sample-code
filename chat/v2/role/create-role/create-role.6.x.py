@@ -7,18 +7,12 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-role = client.chat.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+role = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                   .roles \
                   .create(
-<<<<<<< Updated upstream
-                       friendly_name="new_role",
-                       permission="createChannel",
-                       type="deployment"
-=======
                        friendly_name='new_role',
                        type='deployment',
                        permission='createChannel'
->>>>>>> Stashed changes
                    )
 
 print(role.sid)

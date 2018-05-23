@@ -7,9 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-document = client.sync.services("default").documents.create(
-                                                         data={"led": "OFF"},
-                                                         unique_name="BoardLED"
-                                                     )
+document = client.sync.services('default').documents.create(data={
+                                                         'led': 'OFF'
+                                                     }, unique_name='BoardLED')
 
 print(document.sid)

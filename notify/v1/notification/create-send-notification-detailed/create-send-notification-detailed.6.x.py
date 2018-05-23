@@ -7,18 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-<<<<<<< Updated upstream
-notification = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .notifications \
-    .create(
-         apn={"aps":{"alert":{"title":"Short title for Watch."}}},
-         body="This is the body for all Bindings",
-         data={"custom_key1":"custom value 1","custom_key2":"custom value 2"},
-         fcm={"notification":{"title":"New alert","body":"Hello Bob!"}},
-         identity="00000001",
-         title="Generic loooooooong title for all Bindings"
-     )
-=======
 notification = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .notifications \
                      .create(
@@ -43,6 +31,5 @@ notification = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                           identity='00000001',
                           title='Generic loooooooong title for all Bindings'
                       )
->>>>>>> Stashed changes
 
 print(notification.sid)

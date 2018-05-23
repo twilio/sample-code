@@ -20,11 +20,7 @@ $sync_map_item = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                "level" => 30,
                                                "username" => "spicy_curry"
                                            ),
-<<<<<<< Updated upstream
-                                           array('ttl' => 864000)
-=======
                                            array("ttl" => 864000)
->>>>>>> Stashed changes
                                   );
 
 print($sync_map_item->key);

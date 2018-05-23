@@ -13,17 +13,10 @@ $twilio = new Client($sid, $token);
 
 $room = $twilio->video->v1->rooms
                           ->create(array(
-<<<<<<< Updated upstream
-                                       'recordParticipantsOnConnect' => False,
-                                       'statusCallback' => "http://example.org",
-                                       'type' => "group",
-                                       'uniqueName' => "DailyStandup"
-=======
                                        "recordParticipantsOnConnect" => True,
                                        "statusCallback" => "http://example.org",
                                        "type" => "group",
                                        "uniqueName" => "DailyStandup"
->>>>>>> Stashed changes
                                    )
                           );
 

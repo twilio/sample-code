@@ -9,9 +9,9 @@ client = Client(account_sid, auth_token)
 
 room = client.video.rooms.create(
                               enable_turn=False,
-                              status_callback="http://example.org",
-                              type="peer-to-peer",
-                              unique_name="DailyStandup"
+                              status_callback='http://example.org',
+                              type='peer-to-peer',
+                              unique_name='DailyStandup'
                           )
 
 print(room.sid)

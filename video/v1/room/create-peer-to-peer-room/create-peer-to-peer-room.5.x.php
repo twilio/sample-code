@@ -13,17 +13,10 @@ $twilio = new Client($sid, $token);
 
 $room = $twilio->video->v1->rooms
                           ->create(array(
-<<<<<<< Updated upstream
-                                       'enableTurn' => False,
-                                       'statusCallback' => "http://example.org",
-                                       'type' => "peer-to-peer",
-                                       'uniqueName' => "DailyStandup"
-=======
                                        "enableTurn" => True,
                                        "statusCallback" => "http://example.org",
                                        "type" => "peer-to-peer",
                                        "uniqueName" => "DailyStandup"
->>>>>>> Stashed changes
                                    )
                           );
 

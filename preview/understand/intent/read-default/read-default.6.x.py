@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 intents = client.preview.understand \
-                        .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                        .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .intents \
                         .list()
 

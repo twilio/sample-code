@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 engagement = client.preview.studio \
-                           .flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                           .engagements("FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                           .flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                           .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                            .fetch()
 
 print(engagement.sid)

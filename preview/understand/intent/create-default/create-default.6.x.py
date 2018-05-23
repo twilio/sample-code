@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 intent = client.preview.understand \
-                       .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                       .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .intents \
-                       .create(unique_name="unique_name")
+                       .create(unique_name='unique_name')
 
 print(intent.sid)

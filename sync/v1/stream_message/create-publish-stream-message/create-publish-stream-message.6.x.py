@@ -7,17 +7,13 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-stream_message = client.sync.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                       .sync_streams("TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+stream_message = client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .sync_streams('TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .stream_messages \
-<<<<<<< Updated upstream
-                       .create(data={"id": "bob", "x": 256, "y": 42})
-=======
                        .create(data={
                             'id': 'bob',
                             'x': 256,
                             'y': 42
                         })
->>>>>>> Stashed changes
 
 print(stream_message.sid)

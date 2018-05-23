@@ -7,9 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-participant = client.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                          .sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                          .participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                          .update(identifier="identifier")
+participant = client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                          .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                          .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                          .update(identifier='identifier')
 
 print(participant.friendly_name)

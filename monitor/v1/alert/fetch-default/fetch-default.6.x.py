@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-alert = client.monitor.alerts("NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
+alert = client.monitor.alerts('NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch()
 
 print(alert.alert_text)

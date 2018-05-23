@@ -8,15 +8,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-<<<<<<< Updated upstream
-notification = client.notify.services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-    .notifications \
-    .create(
-         body="Knok-Knok! This is your first Notify SMS",
-         to_binding="{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}",
-         identity=['identity']
-     )
-=======
 notification = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .notifications \
                      .create(
@@ -27,6 +18,5 @@ notification = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                           }),
                           identity=['identity']
                       )
->>>>>>> Stashed changes
 
 print(notification.sid)

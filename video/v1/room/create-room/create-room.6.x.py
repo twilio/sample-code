@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-room = client.video.rooms.create(unique_name="DailyStandup")
+room = client.video.rooms.create(unique_name='DailyStandup')
 
 print(room.sid)

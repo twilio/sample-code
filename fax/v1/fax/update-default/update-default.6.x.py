@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-fax = client.fax.faxes("FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                .update(status="canceled")
+fax = client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                .update(status='canceled')
 
 print(fax.to)

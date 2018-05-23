@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 task_channel = client.taskrouter \
-                     .workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                     .task_channels("TCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                     .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .task_channels('TCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .fetch()
 
 print(task_channel.friendly_name)

@@ -8,9 +8,9 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 sync_map_item = client.preview.sync \
-                      .services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                      .sync_maps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                      .sync_map_items("key") \
+                      .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                      .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                      .sync_map_items('key') \
                       .fetch()
 
 print(sync_map_item.key)

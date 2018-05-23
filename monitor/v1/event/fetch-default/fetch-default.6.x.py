@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-event = client.monitor.events("AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX").fetch()
+event = client.monitor.events('AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch()
 
 print(event.actor_sid)

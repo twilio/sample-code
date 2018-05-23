@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 queries = client.preview.understand \
-                        .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                        .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .queries \
                         .list()
 

@@ -8,8 +8,8 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 deployment = client.preview.deployed_devices \
-                           .fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                           .deployments("DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                           .update(friendly_name="friendly_name")
+                           .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                           .deployments('DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                           .update(friendly_name='friendly_name')
 
 print(deployment.friendly_name)

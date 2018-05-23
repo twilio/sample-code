@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 assistant = client.preview.understand \
-                          .assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                          .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                           .fetch()
 
 print(assistant.friendly_name)

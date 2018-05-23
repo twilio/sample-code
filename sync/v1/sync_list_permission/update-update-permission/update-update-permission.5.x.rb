@@ -11,10 +11,6 @@ sync_list_permission = @client.sync
                               .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               .sync_lists('MyFirstList')
                               .sync_list_permissions('bob')
-<<<<<<< Updated upstream
-                              .update(manage: true, read: true, write: true)
-=======
                               .update(read: true, write: true, manage: false)
->>>>>>> Stashed changes
 
 puts sync_list_permission.service_sid

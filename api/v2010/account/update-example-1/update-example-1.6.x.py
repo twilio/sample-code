@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-account = client.api.accounts("ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .update(status="suspended")
+account = client.api.accounts('ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .update(status='suspended')
 
 print(account.friendly_name)

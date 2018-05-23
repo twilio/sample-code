@@ -8,11 +8,11 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 key = client.preview.deployed_devices \
-                    .fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                    .keys("KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                    .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .keys('KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .update(
-                         device_sid="THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                         friendly_name="My New Device Key"
+                         device_sid='THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                         friendly_name='My New Device Key'
                      )
 
 print(key.friendly_name)

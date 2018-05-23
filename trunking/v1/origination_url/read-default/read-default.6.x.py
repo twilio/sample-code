@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 origination_urls = client.trunking \
-                         .trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
+                         .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                          .origination_urls \
                          .list()
 
