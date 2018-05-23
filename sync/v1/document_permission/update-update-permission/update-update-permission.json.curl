@@ -1,5 +1,5 @@
 curl -X POST https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/MyFirstDocument/Permissions/bob \
---data-urlencode "Manage=False" \
 --data-urlencode "Read=True" \
 --data-urlencode "Write=True" \
+--data-urlencode "Manage=False" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

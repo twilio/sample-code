@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $rate_plan = $twilio->preview->wireless->ratePlans("WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        ->update(array(
-                                                    'uniqueName' => "uniqueName"
+                                                    "uniqueName" => "uniqueName"
                                                 )
                                        );
 
-print($rate_plan.uniqueName);
+print($rate_plan->uniqueName);

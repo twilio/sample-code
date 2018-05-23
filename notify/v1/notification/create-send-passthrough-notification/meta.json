@@ -1,6 +1,6 @@
 {
   "original_snippet_path": "notifications/rest/notifications/send-passthrough-notification/send-passthrough-notification.6.x.py",
-  "testable": false,
+  "testable": "False",
   "title": "Send a Notification with Bindings in request",
   "type": "server"
 }

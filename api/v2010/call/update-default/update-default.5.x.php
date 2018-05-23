@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $call = $twilio->calls("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-               ->update(array('url' => "https://example.com"));
+               ->update(array("url" => "https://example.com"));
 
-print($call.to);
+print($call->to);

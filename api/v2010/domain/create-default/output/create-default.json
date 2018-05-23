@@ -4,13 +4,13 @@
   "auth_type": "IP_ACL",
   "date_created": "Fri, 06 Sep 2013 19:18:30 -0000",
   "date_updated": "Fri, 06 Sep 2013 19:18:30 -0000",
-  "domain_name": "dunder-mifflin-scranton.sip.twilio.com",
+  "domain_name": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "Scranton Office",
-  "sip_registration": true,
+  "sip_registration": True,
   "sid": "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "subresource_uris": {
-    "credential_list_mappings": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains/SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/CredentialListMappings.json",
-    "ip_access_control_list_mappings": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains/SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlListMappings.json"
+    "credential_list_mappings": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/SIP/Domains/SDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/CredentialListMappings.json",
+    "ip_access_control_list_mappings": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/SIP/Domains/SDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/IpAccessControlListMappings.json"
   },
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains/SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
   "voice_fallback_method": "POST",

@@ -10,11 +10,14 @@ auth_token = 'your_auth_token'
 document = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .documents('MyFirstDocument')
                        .update(data: {
-                            "date_updated" => "2018-02-14 12:24:33.889341",
-                            "movie_title" => "On The Line",
-                            "show_times" => "None",
-                            "starring" => "['Lance Bass', 'Joey Fatone']",
-                            "genre" => "Romance"
+                            'date_updated' => '2018-02-14 12:24:33.889341',
+                            'movie_title' => 'On The Line',
+                            'show_times' => nil,
+                            'starring' => [
+                                'Lance Bass',
+                                'Joey Fatone',
+                            ],
+                            'genre' => 'Romance'
                         })
 
 puts document.unique_name

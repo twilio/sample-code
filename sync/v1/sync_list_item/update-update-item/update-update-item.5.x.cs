@@ -20,7 +20,7 @@ class Program
         {
             {"number", "001"},
             {"name", "Bulbasaur"},
-            {"attack", "50"}
+            {"attack", 50}
         };
 
         var syncListItem = SyncListItemResource.Update(

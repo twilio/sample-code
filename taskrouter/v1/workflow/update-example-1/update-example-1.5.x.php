@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $workflow = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->workflows("WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->update(array(
-                                                'taskReservationTimeout' => 20
+                                                "taskReservationTimeout" => 20
                                             )
                                    );
 
-print($workflow.friendlyName);
+print($workflow->friendlyName);

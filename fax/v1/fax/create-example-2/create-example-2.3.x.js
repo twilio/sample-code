@@ -9,8 +9,8 @@ client.fax.faxes
      from: 'Jack',
      sipAuthPassword: 'secret',
      sipAuthUsername: 'jack',
-     mediaUrl: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf',
-     to: 'sip:kate@example.com'
+     to: 'sip:kate@example.com',
+     mediaUrl: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf'
    })
   .then(fax => console.log(fax.sid))
   .done();

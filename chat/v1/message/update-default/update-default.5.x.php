@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 $message = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->messages("IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                            ->update(array('body' => "body"));
+                            ->update(array("body" => "body"));
 
-print($message.to);
+print($message->to);

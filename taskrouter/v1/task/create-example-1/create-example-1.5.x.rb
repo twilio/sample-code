@@ -10,7 +10,9 @@ auth_token = 'your_auth_token'
 task = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .tasks
                          .create(
-                            attributes: '{"type":"support"}',
+                            attributes: {
+                              'type' => 'support'
+                          }.to_json,
                             workflow_sid: 'WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
                           )
 

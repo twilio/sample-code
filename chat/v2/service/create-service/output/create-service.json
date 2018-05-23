@@ -17,13 +17,14 @@
     "roles": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Roles",
     "bindings": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Bindings"
   },
-  "notifications": {},
+  "notifications": {
+  },
   "post_webhook_url": "post_webhook_url",
   "pre_webhook_url": "pre_webhook_url",
   "pre_webhook_retry_count": 2,
   "post_webhook_retry_count": 3,
-  "reachability_enabled": false,
-  "read_status_enabled": false,
+  "reachability_enabled": False,
+  "read_status_enabled": False,
   "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "typing_indicator_timeout": 100,
   "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

@@ -8,12 +8,12 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 address = client.addresses.create(
-                               city='Racoon',
                                customer_name='Customer 500',
-                               iso_country='AX',
-                               postal_code='150',
+                               street='Elm Street',
+                               city='Racoon',
                                region='Mordor',
-                               street='Elm Street'
+                               postal_code='150',
+                               iso_country='AX'
                            )
 
 print(address.sid)

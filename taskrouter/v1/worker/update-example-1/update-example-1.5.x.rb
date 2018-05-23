@@ -9,6 +9,8 @@ auth_token = 'your_auth_token'
 
 worker = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                           .update(attributes: '{"type":"support"}')
+                           .update(attributes: {
+                                'type' => 'support'
+                            }.to_json)
 
 puts worker.activity_name

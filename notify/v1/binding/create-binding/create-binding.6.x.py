@@ -12,9 +12,9 @@ binding = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .create(
                             endpoint='endpoint_id',
                             tag='new user',
-                            address='device_token',
+                            identity='00000001',
                             binding_type='apn',
-                            identity='00000001'
+                            address='device_token'
                         )
 
 print(binding.sid)

@@ -15,4 +15,4 @@ $short_code = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                     ->shortCodes("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->fetch();
 
-print($short_code.sid);
+print($short_code->sid);

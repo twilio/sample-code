@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $call = $twilio->calls("CAe1644a7eed5088b159577c5802d8be38")
-               ->update(array('status' => "completed"));
+               ->update(array("status" => "completed"));
 
-print($call.to);
+print($call->to);

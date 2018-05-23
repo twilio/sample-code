@@ -19,8 +19,8 @@ class Program
         var data = new Dictionary<string, Object>()
         {
             {"id", "bob"},
-            {"x", "256"},
-            {"y", "42"}
+            {"x", 256},
+            {"y", 42}
         };
 
         var streamMessage = StreamMessageResource.Create(

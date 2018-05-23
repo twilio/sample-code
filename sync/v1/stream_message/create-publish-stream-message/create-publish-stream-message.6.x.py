@@ -12,8 +12,8 @@ stream_message = client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .stream_messages \
                        .create(data={
                             'id': 'bob',
-                            'x': '256',
-                            'y': '42'
+                            'x': 256,
+                            'y': 42
                         })
 
 print(stream_message.sid)

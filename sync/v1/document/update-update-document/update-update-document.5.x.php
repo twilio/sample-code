@@ -14,10 +14,10 @@ $twilio = new Client($sid, $token);
 $document = $twilio->sync->v1->services("default")
                              ->documents("BoardLED")
                              ->update(array(
-                                          'data' => array(
+                                          "data" => array(
                                               "led" => "ON"
                                           )
                                       )
                              );
 
-print($document.uniqueName);
+print($document->uniqueName);

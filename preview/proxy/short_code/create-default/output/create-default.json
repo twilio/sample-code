@@ -6,6 +6,7 @@
   "date_updated": "2015-07-30T20:00:00Z",
   "short_code": "12345",
   "country_code": "US",
-  "capabilities": [],
+  "capabilities": [
+  ],
   "url": "https://preview.twilio.com/Proxy/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

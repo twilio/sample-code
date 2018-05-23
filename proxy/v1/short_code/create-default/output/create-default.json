@@ -7,8 +7,8 @@
   "short_code": "12345",
   "iso_country": "US",
   "capabilities": {
-    "sms_outbound": true,
-    "voice_inbound": false
+    "sms_outbound": True,
+    "voice_inbound": False
   },
   "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

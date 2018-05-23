@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $notifications = $twilio->notifications
                         ->read(array(
-                                   'log' => 1,
-                                   'messageDate' => new \DateTime('2009-07-06')
+                                   "log" => 1,
+                                   "messageDate" => new \DateTime('2009-07-06')
                                )
                         );
 

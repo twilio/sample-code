@@ -14,9 +14,9 @@ $twilio = new Client($sid, $token);
 $sync_map = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->syncMaps
                              ->create(array(
-                                          'ttl' => 1814400,
-                                          'uniqueName' => "Players"
+                                          "ttl" => 1814400,
+                                          "uniqueName" => "Players"
                                       )
                              );
 
-print($sync_map.sid);
+print($sync_map->sid);

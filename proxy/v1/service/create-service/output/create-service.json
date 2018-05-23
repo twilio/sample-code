@@ -3,7 +3,7 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "My Awesome Service",
   "default_ttl": 3600,
-  "callback_url": "https://www.example.com/",
+  "callback_url": https://www.example.com/,
   "geo_match_level": "country",
   "number_selection_behavior": "prefer_sticky",
   "intercept_callback_url": "http://www.example.com",

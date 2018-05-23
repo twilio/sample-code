@@ -6,7 +6,7 @@
   "default_channel_creator_role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "default_channel_role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "default_service_role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "friendly_name": "friendly_name",
+  "friendly_name": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "limits": {
     "channel_members": 500,
     "user_channels": 600
@@ -18,22 +18,22 @@
     "bindings": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Bindings"
   },
   "notifications": {
-    "log_enabled": true,
+    "log_enabled": True,
     "added_to_channel": {
-      "enabled": false,
+      "enabled": False,
       "template": "notifications.added_to_channel.template"
     },
     "invited_to_channel": {
-      "enabled": false,
+      "enabled": False,
       "template": "notifications.invited_to_channel.template"
     },
     "new_message": {
-      "enabled": false,
+      "enabled": False,
       "template": "notifications.new_message.template",
-      "badge_count_enabled": true
+      "badge_count_enabled": True
     },
     "removed_from_channel": {
-      "enabled": false,
+      "enabled": False,
       "template": "notifications.removed_from_channel.template"
     }
   },
@@ -41,8 +41,8 @@
   "pre_webhook_url": "pre_webhook_url",
   "pre_webhook_retry_count": 2,
   "post_webhook_retry_count": 3,
-  "reachability_enabled": false,
-  "read_status_enabled": false,
+  "reachability_enabled": False,
+  "read_status_enabled": False,
   "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "typing_indicator_timeout": 100,
   "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

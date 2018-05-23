@@ -13,10 +13,10 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->update(array(
-                                           'facebookMessengerPageId' => "your_page_id",
-                                           'friendlyName' => "Another Awesome Service",
-                                           'messagingServiceSid' => "your_twilio_messaging_service_sid"
+                                           "facebookMessengerPageId" => "your_page_id",
+                                           "friendlyName" => "Another Awesome Service",
+                                           "messagingServiceSid" => "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                        )
                               );
 
-print($service.friendlyName);
+print($service->friendlyName);

@@ -12,9 +12,9 @@ binding = @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .create(
                            endpoint: 'XXXXXXXXXXXXXXX',
                            tag: 'premium',
-                           address: 'gcm_device_token',
+                           identity: '00000001',
                            binding_type: 'gcm',
-                           identity: '00000001'
+                           address: 'gcm_device_token'
                          )
 
 puts binding.sid

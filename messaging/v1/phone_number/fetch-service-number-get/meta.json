@@ -1,8 +1,6 @@
 {
   "original_snippet_path": "messaging/services/service-number-get/service-number-get.6.x.py",
-  "tags": [
-    "messaging"
-  ],
+  "tags": "['messaging']",
   "title": "View a Phone Number in a Messaging Service",
   "type": "server"
 }

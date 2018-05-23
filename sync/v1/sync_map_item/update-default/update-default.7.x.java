@@ -16,8 +16,7 @@ public class Example {
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "pathKey")
-            .setData(new java.util.HashMap<String, Object>())
-            .update();
+            .setData(new HashMap<String, Object>()).update();
 
         System.out.println(syncMapItem.getKey());
     }

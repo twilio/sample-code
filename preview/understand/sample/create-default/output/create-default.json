@@ -5,8 +5,8 @@
   "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2015-07-30T20:00:00Z",
-  "language": "language",
-  "tagged_text": "tagged_text",
+  "language": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "tagged_text": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_updated": "2015-07-30T20:00:00Z",
   "source_channel": "alexa"
 }

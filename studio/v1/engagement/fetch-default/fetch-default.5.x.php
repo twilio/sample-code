@@ -15,4 +15,4 @@ $engagement = $twilio->studio->v1->flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->engagements("FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->fetch();
 
-print($engagement.sid);
+print($engagement->sid);

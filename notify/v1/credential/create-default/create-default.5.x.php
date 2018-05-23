@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $credential = $twilio->notify->v1->credentials
                                  ->create("gcm");
 
-print($credential.sid);
+print($credential->sid);

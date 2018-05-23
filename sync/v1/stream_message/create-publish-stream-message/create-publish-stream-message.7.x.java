@@ -18,8 +18,8 @@ public class Example {
                 new HashMap<String, Object>()
                 {{
                 put("id", "bob");
-                put("x", "256");
-                put("y", "42");
+                put("x", 256);
+                put("y", 42);
                 }})
             .create();
 

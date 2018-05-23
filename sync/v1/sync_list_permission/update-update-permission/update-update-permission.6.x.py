@@ -11,6 +11,6 @@ sync_list_permission = client.sync \
                              .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                              .sync_lists('MyFirstList') \
                              .sync_list_permissions('bob') \
-                             .update(manage=False, read=False, write=False)
+                             .update(read=False, write=False, manage=False)
 
 print(sync_list_permission.service_sid)

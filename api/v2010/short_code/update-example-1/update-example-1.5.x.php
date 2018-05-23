@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $short_code = $twilio->shortCodes("SC6b20cb705c1e8f00210049b20b70fce3")
                      ->update(array(
-                                  'smsUrl' => "http://demo.twilio.com/docs/sms.xml"
+                                  "smsUrl" => "http://demo.twilio.com/docs/sms.xml"
                               )
                      );
 
-print($short_code.friendlyName);
+print($short_code->friendlyName);

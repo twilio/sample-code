@@ -9,37 +9,37 @@
       "date_created": "Fri, 04 Sep 2015 22:48:30 +0000",
       "date_updated": "Fri, 04 Sep 2015 22:48:35 +0000",
       "direction": "outbound-api",
-      "duration": "0",
+      "duration": 0,
       "end_time": "Fri, 04 Sep 2015 22:48:35 +0000",
       "forwarded_from": null,
       "from": "kevin",
       "from_formatted": "kevin",
-      "group_sid": "GPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "parent_call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "group_sid": null,
+      "parent_call_sid": null,
+      "phone_number_sid": "",
       "price": null,
       "price_unit": "USD",
       "sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "start_time": "2009-07-06T00:00:00Z",
-      "status": "completed",
+      "start_time": "Fri, 04 Sep 2015 22:48:31 +0000",
+      "status": "failed",
       "subresource_uris": {
-        "notifications": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json",
-        "recordings": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json"
+        "notifications": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls/CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Notifications.json",
+        "recordings": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls/CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings.json"
       },
       "to": "sip:kevin@example.com",
       "to_formatted": "sip:kevin@example.com",
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+      "uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls/CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.json"
     }
   ],
   "end": 0,
-  "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0",
+  "first_page_uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls.json?PageSize=1&Page=0",
   "next_page_uri": null,
   "page": 0,
   "page_size": 1,
   "previous_page_uri": null,
   "start": 0,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0",
-  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "uri": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls.json?PageSize=1&Page=0",
   "start_time": "2009-07-06T00:00:00Z",
-  "status": "completed"
+  "status": completed,
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

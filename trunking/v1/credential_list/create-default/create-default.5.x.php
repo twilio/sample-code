@@ -16,4 +16,4 @@ $credential_list = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                         ->create("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                         );
 
-print($credential_list.sid);
+print($credential_list->sid);

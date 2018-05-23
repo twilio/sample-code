@@ -1,0 +1,20 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "type": "trigger",
+  "configuration": {
+    "url": "dummy",
+    "method": "POST",
+    "filters": [
+      "keyword1",
+      "keyword2"
+    ],
+    "retry_count": 3
+  },
+  "date_created": "2016-03-24T21:05:50Z",
+  "date_updated": "2016-03-24T21:05:51Z",
+  "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks/WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "configuration.url": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}

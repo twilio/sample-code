@@ -1,8 +1,8 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "address": "+1651000000000",
-  "binding_type": "sms",
-  "credential_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "binding_type": sms,
+  "credential_sid": null,
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "endpoint": "26607274",
@@ -11,7 +11,7 @@
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sid": "BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "tags": [
-    "26607274"
+    26607274
   ],
   "links": {
     "user": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/24987039"

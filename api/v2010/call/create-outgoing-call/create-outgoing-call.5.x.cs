@@ -18,8 +18,8 @@ class Program
         var call = CallResource.Create(
             machineDetection: "Enable",
             url: new Uri("https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16"),
-            from: new Twilio.Types.PhoneNumber("+18180000000"),
             to: new Twilio.Types.PhoneNumber("+1562300000"),
+            from: new Twilio.Types.PhoneNumber("+18180000000"),
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

@@ -11,8 +11,8 @@ call = client.calls.create(
                         method='GET',
                         send_digits='1234#',
                         url='http://demo.twilio.com/docs/voice.xml',
-                        from_='+18668675310',
-                        to='+14155551212'
+                        to='+14155551212',
+                        from_='+18668675310'
                     )
 
 print(call.sid)

@@ -1,28 +1,30 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "address_sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "address_sid": "AD11111111111111111111111111111111",
   "call_delay": 0,
   "capabilities": {
-    "sms": true,
-    "voice": false
+    "sms": True,
+    "voice": False
   },
-  "cc_emails": [],
+  "cc_emails": [
+  ],
   "date_created": "2017-03-28T20:06:39Z",
   "date_updated": "2017-03-28T20:06:39Z",
   "email": "test@twilio.com",
   "extension": null,
   "failure_reason": "",
   "friendly_name": null,
-  "incoming_phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "incoming_phone_number_sid": "PN11111111111111111111111111111111",
   "phone_number": "+15017122661",
   "sid": "HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "signing_document_sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "signing_document_sid": null,
   "status": "received",
   "unique_name": null,
   "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "verification_attempts": 0,
   "verification_call_sids": null,
   "verification_code": null,
-  "verification_document_sid": "RIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "verification_type": "phone-call"
+  "verification_document_sid": null,
+  "verification_type": "phone-call",
+  "sms_capability": none
 }

@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $public_key = $twilio->accounts->v1->credentials
                                    ->publicKey("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->update(array(
-                                                'friendlyName' => "friendlyName"
+                                                "friendlyName" => "friendlyName"
                                             )
                                    );
 
-print($public_key.friendlyName);
+print($public_key->friendlyName);

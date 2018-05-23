@@ -16,8 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var member = MemberResource.Update(
-            method: Twilio.Http.HttpMethod.Post,
             url: new Uri("http://demo.twilio.com/docs/voice.xml"),
+            method: Twilio.Http.HttpMethod.Post,
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathQueueSid: "QU5ef8732a3c49700934481addd5ce1659",
             pathCallSid: "CA5ef8732a3c49700934481addd5ce1659"

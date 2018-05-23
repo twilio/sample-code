@@ -6,17 +6,17 @@
   "direction": "outbound",
   "from": "+14155551234",
   "media_url": null,
-  "media_sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "media_sid": null,
   "num_pages": null,
   "price": null,
   "price_unit": null,
   "quality": null,
   "sid": "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "status": "canceled",
+  "status": canceled,
   "to": "+14155554321",
   "duration": null,
   "links": {
     "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   },
-  "url": "https://fax.twilio.com/v1/Faxes/FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -14,10 +14,10 @@ $twilio = new Client($sid, $token);
 $message = $twilio->messages
                   ->create("+15558675310",
                            array(
-                               'body' => "McAvoy or Stewart? These timelines can get so confusing.",
-                               'from' => "+15017122661",
-                               'statusCallback' => "http://requestb.in/1234abcd"
+                               "body" => "McAvoy or Stewart? These timelines can get so confusing.",
+                               "from" => "+15017122661",
+                               "statusCallback" => "http://requestb.in/1234abcd"
                            )
                   );
 
-print($message.sid);
+print($message->sid);

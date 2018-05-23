@@ -1,8 +1,6 @@
 {
   "original_snippet_path": "fax/instance-get-example/instance-get-example.6.x.py",
-  "tags": [
-    "fax"
-  ],
+  "tags": "['fax']",
   "title": "Fetch fax in your Twilio account",
   "type": "server"
 }

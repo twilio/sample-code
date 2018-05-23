@@ -10,7 +10,8 @@
       "operator_country": "",
       "operator_name": "",
       "cell_id": "",
-      "cell_location_estimate": {},
+      "cell_location_estimate": {
+      },
       "packets_uploaded": 0,
       "packets_downloaded": 0,
       "last_updated": "2015-07-30T20:00:00Z",
@@ -27,7 +28,8 @@
       "operator_country": "",
       "operator_name": "",
       "cell_id": "",
-      "cell_location_estimate": {},
+      "cell_location_estimate": {
+      },
       "packets_uploaded": 0,
       "packets_downloaded": 0,
       "last_updated": "2015-07-30T20:00:00Z",
@@ -36,12 +38,13 @@
     }
   ],
   "meta": {
-    "first_page_url": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/DataSessions?PageSize=50&Page=0",
+    "first_page_url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DataSessions?PageSize=50&Page=0",
     "key": "data_sessions",
     "next_page_url": null,
     "page": 0,
     "page_size": 50,
     "previous_page_url": null,
-    "url": "https://wireless.twilio.com/v1/Sims/DEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/DataSessions?PageSize=50&Page=0"
-  }
+    "url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DataSessions?PageSize=50&Page=0"
+  },
+  "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

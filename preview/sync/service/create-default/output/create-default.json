@@ -11,6 +11,6 @@
   "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://preview.twilio.com/Sync/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "webhook_url": "http://www.example.com",
-  "reachability_webhooks_enabled": false,
-  "acl_enabled": true
+  "reachability_webhooks_enabled": False,
+  "acl_enabled": True
 }

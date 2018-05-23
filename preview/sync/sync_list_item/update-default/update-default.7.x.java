@@ -16,7 +16,7 @@ public class Example {
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 1,
-                new java.util.HashMap<String, Object>())
+                new HashMap<String, Object>())
             .update();
 
         System.out.println(syncListItem.getIndex());

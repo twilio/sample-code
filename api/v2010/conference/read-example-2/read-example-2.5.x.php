@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $conferences = $twilio->conferences
                       ->read(array(
-                                 'friendlyName' => "MyRoom",
-                                 'status' => "in-progress"
+                                 "friendlyName" => "MyRoom",
+                                 "status" => "in-progress"
                              )
                       );
 

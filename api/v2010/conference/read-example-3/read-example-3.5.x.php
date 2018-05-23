@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $conferences = $twilio->conferences
                       ->read(array(
-                                 'dateCreated' => new \DateTime('2009-07-06'),
-                                 'status' => "completed"
+                                 "dateCreated" => new \DateTime('2009-07-06'),
+                                 "status" => "completed"
                              )
                       );
 

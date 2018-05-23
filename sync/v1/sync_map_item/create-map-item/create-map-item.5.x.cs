@@ -19,14 +19,14 @@ class Program
         var data = new Dictionary<string, Object>()
         {
             {"name", "Stephen Curry"},
-            {"level", "30"},
+            {"level", 30},
             {"username", "spicy_curry"}
         };
 
         var syncMapItem = SyncMapItemResource.Create(
             ttl: 864000,
-            data: data,
             key: "steph_curry",
+            data: data,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "Players"
         );

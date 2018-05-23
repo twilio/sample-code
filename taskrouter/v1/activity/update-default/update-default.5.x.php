@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $activity = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->activities("WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->update(array(
-                                                'friendlyName' => "friendlyName"
+                                                "friendlyName" => "friendlyName"
                                             )
                                    );
 
-print($activity.friendlyName);
+print($activity->friendlyName);

@@ -1,8 +1,6 @@
 {
   "original_snippet_path": "messaging/services/service-get/service-get.6.x.py",
-  "tags": [
-    "messaging"
-  ],
+  "tags": "['messaging']",
   "title": "View a Messaging Service",
   "type": "server"
 }

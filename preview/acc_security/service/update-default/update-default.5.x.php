@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $service = $twilio->preview->accSecurity->services("VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                        ->update(array('name' => "name"));
+                                        ->update(array("name" => "name"));
 
-print($service.name);
+print($service->name);

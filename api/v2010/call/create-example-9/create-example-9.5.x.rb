@@ -11,8 +11,8 @@ call = @client.calls.create(
                        sip_auth_password: 'secret',
                        sip_auth_username: 'jack',
                        url: 'http://www.example.com/sipdial.xml',
-                       from: 'Jack',
-                       to: 'sip:kate@example.com'
+                       to: 'sip:kate@example.com',
+                       from: 'Jack'
                      )
 
 puts call.sid

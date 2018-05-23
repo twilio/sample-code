@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $events = $twilio->monitor->v1->events
                               ->read(array(
-                                         'resourceSid' => "PN4aa51b930717ea83c91971b86d99018f"
+                                         "resourceSid" => "PN4aa51b930717ea83c91971b86d99018f"
                                      )
                               );
 

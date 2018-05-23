@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 $participant = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                 ->update(array('identifier' => "identifier"));
+                                 ->update(array("identifier" => "identifier"));
 
-print($participant.friendlyName);
+print($participant->friendlyName);

@@ -12,8 +12,8 @@ fax = client.fax.faxes \
          from_='Jack',
          sip_auth_password='secret',
          sip_auth_username='jack',
-         media_url='https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf',
-         to='sip:kate@example.com'
+         to='sip:kate@example.com',
+         media_url='https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf'
      )
 
 print(fax.sid)

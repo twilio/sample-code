@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 $message = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->messages
-                            ->create(array('body' => "MESSAGE"));
+                            ->create(array("body" => "MESSAGE"));
 
-print($message.sid);
+print($message->sid);

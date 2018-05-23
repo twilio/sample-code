@@ -1,8 +1,6 @@
 {
   "original_snippet_path": "messaging/services/service-delete/service-delete.6.x.py",
-  "tags": [
-    "messaging"
-  ],
+  "tags": "['messaging']",
   "title": "Delete a Messaging Service",
   "type": "server"
 }

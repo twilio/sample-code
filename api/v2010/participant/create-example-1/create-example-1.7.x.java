@@ -13,8 +13,8 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Participant participant = Participant.creator(
                 "AgentConf12",
-                new PhoneNumber("+18180021216"),
-                new PhoneNumber("+15624421212"))
+                new com.twilio.type.PhoneNumber("+18180021216"),
+                new com.twilio.type.PhoneNumber("+15624421212"))
             .create();
 
         System.out.println(participant.getCallSid());

@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $participant = $twilio->conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                       ->participants("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                      ->update(array('muted' => True));
+                      ->update(array("muted" => True));
 
-print($participant.callSid);
+print($participant->callSid);

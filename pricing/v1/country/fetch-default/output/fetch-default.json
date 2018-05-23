@@ -2,25 +2,25 @@
   "country": "United States",
   "inbound_call_prices": [
     {
-      "current_price": "0.0085",
+      "current_price": 0.0085,
       "number_type": "local",
-      "base_price": "0.0085"
+      "base_price": 0.0085
     },
     {
-      "current_price": "0.022",
+      "current_price": 0.022,
       "number_type": "toll free",
-      "base_price": "0.022"
+      "base_price": 0.022
     }
   ],
   "iso_country": "US",
   "outbound_prefix_prices": [
     {
       "prefixes": [
-        "1907"
+        1907
       ],
-      "current_price": "0.090",
+      "current_price": 0.090,
       "friendly_name": "Programmable Outbound Minute - United States - Alaska",
-      "base_price": "0.090"
+      "base_price": 0.090
     }
   ],
   "price_unit": "USD",

@@ -16,13 +16,9 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var data = new Dictionary<string, Object>()
-        {
-        };
-
         var syncMapItem = SyncMapItemResource.Create(
             key: "Key",
-            data: data,
+            data: new Dictionary<string, Object>(),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

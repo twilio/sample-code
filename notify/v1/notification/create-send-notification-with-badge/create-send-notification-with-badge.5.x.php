@@ -14,11 +14,17 @@ $twilio = new Client($sid, $token);
 $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->notifications
                                    ->create(array(
-                                                'apn' => array(
-                                                    "aps" => "{'alert': {'title': 'Bob alert', 'body': 'Bob, you just received a badge'}, 'badge': 1}"
+                                                "apn" => array(
+                                                    "aps" => array(
+                                                        "alert" => array(
+                                                            "title" => "Bob alert",
+                                                            "body" => "Bob, you just received a badge"
+                                                        ),
+                                                        "badge" => 1
+                                                    )
                                                 ),
-                                                'identity' => "00000001"
+                                                "identity" => "00000001"
                                             )
                                    );
 
-print($notification.sid);
+print($notification->sid);

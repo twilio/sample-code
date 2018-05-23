@@ -19,8 +19,16 @@ public class Example {
                 {{
                     put("date_updated", "2018-02-14 12:24:31.843662");
                     put("movie_title", "On The Line");
-                    put("show_times", "['12:30:00Z', '14:45:00Z', '15:30:00Z', '17:45:00Z']");
-                    put("starring", "['Lance Bass', 'Joey Fatone']");
+                    put("show_times", new String [] {
+                        "12:30:00Z",
+                        "14:45:00Z",
+                        "15:30:00Z",
+                        "17:45:00Z"
+                    });
+                    put("starring", new String [] {
+                        "Lance Bass",
+                        "Joey Fatone"
+                    });
                     put("genre", "Romance");
                 }})
             .setTtl(1814400)

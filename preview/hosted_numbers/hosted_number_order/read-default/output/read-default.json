@@ -11,11 +11,11 @@
   "items": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "address_sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "address_sid": "AD11111111111111111111111111111111",
       "call_delay": 15,
       "capabilities": {
-        "sms": true,
-        "voice": false
+        "sms": True,
+        "voice": False
       },
       "cc_emails": [
         "aaa@twilio.com",
@@ -24,13 +24,13 @@
       "date_created": "2017-03-28T20:06:39Z",
       "date_updated": "2017-03-28T20:06:39Z",
       "email": "test@twilio.com",
-      "extension": "1234",
+      "extension": 1234,
       "failure_reason": "",
       "friendly_name": "friendly_name",
-      "incoming_phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "phone_number": "+15017122661",
+      "incoming_phone_number_sid": "PN11111111111111111111111111111111",
+      "phone_number": "+14153608311",
       "sid": "HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "signing_document_sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "signing_document_sid": "PX11111111111111111111111111111111",
       "status": "received",
       "unique_name": "foobar",
       "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -39,8 +39,8 @@
         "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
         "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
       ],
-      "verification_code": "8794",
-      "verification_document_sid": "RIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "verification_code": 8794,
+      "verification_document_sid": null,
       "verification_type": "phone-call"
     }
   ]

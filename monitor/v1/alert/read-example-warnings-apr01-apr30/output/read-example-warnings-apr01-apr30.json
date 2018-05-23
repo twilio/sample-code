@@ -8,15 +8,13 @@
       "date_generated": "2015-07-30T20:00:00Z",
       "date_updated": "2015-07-30T20:00:00Z",
       "error_code": "error_code",
-      "log_level": "warning",
+      "log_level": "log_level",
       "more_info": "more_info",
       "request_method": "GET",
       "request_url": "http://www.example.com",
-      "resource_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "resource_sid": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "url": "http://www.example.com",
-      "end_date": "2015-04-30",
-      "start_date": "2015-04-01"
+      "url": "http://www.example.com"
     }
   ],
   "meta": {
@@ -28,7 +26,7 @@
     "previous_page_url": null,
     "url": "https://monitor.twilio.com/v1/Alerts"
   },
-  "end_date": "2015-04-30",
+  "end_date": 2015-04-30,
   "log_level": "warning",
-  "start_date": "2015-04-01"
+  "start_date": 2015-04-01
 }

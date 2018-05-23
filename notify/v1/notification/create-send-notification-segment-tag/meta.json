@@ -1,6 +1,6 @@
 {
   "original_snippet_path": "notifications/register/send-notification-segment-tag/send-notification-segment-tag.6.x.py",
-  "testable": true,
+  "testable": "True",
   "title": "Send a Notification (Segment and Tag)",
   "type": "server"
 }

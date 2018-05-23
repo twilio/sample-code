@@ -7,7 +7,8 @@
   "description": null,
   "friendly_name": "Connect app for deletion",
   "homepage_url": "http://example.com/home",
-  "permissions": [],
+  "permissions": [
+  ],
   "sid": "CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ConnectApps/CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

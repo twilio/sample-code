@@ -16,4 +16,4 @@ $sample = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->samples("UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->fetch();
 
-print($sample.dateCreated);
+print($sample->dateCreated->format());

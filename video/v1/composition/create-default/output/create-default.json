@@ -35,7 +35,7 @@
       ]
     }
   },
-  "trim": true,
+  "trim": True,
   "format": "mp4",
   "resolution": "1920x1080",
   "bitrate": 0,

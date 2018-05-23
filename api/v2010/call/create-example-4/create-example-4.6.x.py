@@ -13,8 +13,8 @@ call = client.calls.create(
                         status_callback_event='initiated',
                         status_callback_method='POST',
                         url='http://demo.twilio.com/docs/voice.xml',
-                        from_='+18668675310',
-                        to='+14155551212'
+                        to='+14155551212',
+                        from_='+18668675310'
                     )
 
 print(call.sid)

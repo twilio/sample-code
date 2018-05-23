@@ -5,7 +5,7 @@
   "date_updated": "2015-07-30T21:00:00Z",
   "date_deleted": "2015-07-30T22:00:00Z",
   "sid": "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "source_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "source_sid": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "size": 0,
   "url": "https://video.twilio.com/v1/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "type": "audio",
@@ -14,7 +14,7 @@
   "codec": "OPUS",
   "track_name": "A name",
   "grouping_sids": {
-    "room_sid": "RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
   },
   "media_external_location": "https://my-super-duper-bucket.s3.amazonaws.com/my/path/",
   "encryption_key": "public_key",

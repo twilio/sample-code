@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->preview->proxy->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->update(array(
-                                               'friendlyName' => "friendlyName"
+                                               "friendlyName" => "friendlyName"
                                            )
                                   );
 
-print($service.friendlyName);
+print($service->friendlyName);

@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $authorization_document = $twilio->preview->hostedNumbers->authorizationDocuments("PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                          ->update(array(
-                                                                      'hostedNumberOrderSids' => array('hostedNumberOrderSids')
+                                                                      "hostedNumberOrderSids" => array("hostedNumberOrderSids")
                                                                   )
                                                          );
 
-print($authorization_document.sid);
+print($authorization_document->sid);

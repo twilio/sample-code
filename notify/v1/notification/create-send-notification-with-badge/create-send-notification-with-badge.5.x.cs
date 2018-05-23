@@ -19,7 +19,15 @@ class Program
 
         var apn = new Dictionary<string, Object>()
         {
-            {"aps", "{'alert': {'title': 'Bob alert', 'body': 'Bob, you just received a badge'}, 'badge': 1}"}
+            {"aps", new Dictionary<string, Object>()
+                {
+                    {"alert", new Dictionary<string, Object>()
+                        {
+                            {"title", "Bob alert"},
+                            {"body", "Bob, you just received a badge"}
+                        }},
+                    {"badge", 1}
+                }}
         };
 
         var notification = NotificationResource.Create(

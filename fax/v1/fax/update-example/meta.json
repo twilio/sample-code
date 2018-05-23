@@ -1,8 +1,6 @@
 {
   "original_snippet_path": "fax/instance-post-example/instance-post-example.6.x.py",
-  "tags": [
-    "fax"
-  ],
+  "tags": "['fax']",
   "title": "Cancel a fax",
   "type": "server"
 }

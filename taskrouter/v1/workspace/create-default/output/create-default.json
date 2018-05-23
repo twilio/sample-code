@@ -6,7 +6,7 @@
   "default_activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "event_callback_url": "",
   "events_filter": null,
-  "friendly_name": "new",
+  "friendly_name": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "activities": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Activities",
     "statistics": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Statistics",
@@ -19,7 +19,7 @@
     "task_channels": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskChannels",
     "events": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Events"
   },
-  "multi_task_enabled": false,
+  "multi_task_enabled": False,
   "prioritize_queue_order": "FIFO",
   "sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "timeout_activity_name": "Offline",

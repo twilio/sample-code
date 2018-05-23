@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->messaging->v1->services("MG2172dd2db502e20dd981ef0d67850e1a")
                                  ->update(array(
-                                              'inboundRequestUrl' => "http://www.example.com"
+                                              "inboundRequestUrl" => "http://www.example.com"
                                           )
                                  );
 
-print($service.friendlyName);
+print($service->friendlyName);

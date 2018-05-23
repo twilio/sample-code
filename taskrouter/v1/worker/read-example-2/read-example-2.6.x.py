@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 workers = client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                            .workers \
-                           .list(target_workers_expression='type == 'leads'')
+                           .list(target_workers_expression="type == 'leads'")
 
 for record in workers:
     print(record.sid)

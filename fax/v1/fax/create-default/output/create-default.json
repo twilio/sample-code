@@ -6,14 +6,14 @@
   "direction": "outbound",
   "from": "+14155551234",
   "media_url": null,
-  "media_sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "media_sid": null,
   "num_pages": null,
   "price": null,
   "price_unit": null,
   "quality": "superfine",
   "sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "queued",
-  "to": "+14155554321",
+  "to": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "duration": null,
   "links": {
     "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"

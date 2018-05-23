@@ -10,8 +10,8 @@ client = Client(account_sid, auth_token)
 member = client.queues('QU5ef8732a3c49700934481addd5ce1659') \
                .members('CA5ef8732a3c49700934481addd5ce1659') \
                .update(
-                    method='POST',
-                    url='http://demo.twilio.com/docs/voice.xml'
+                    url='http://demo.twilio.com/docs/voice.xml',
+                    method='POST'
                 )
 
 print(member.call_sid)

@@ -11,8 +11,8 @@ call = client.calls \
     .create(
          machine_detection='Enable',
          url='https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16',
-         from_='+18180000000',
-         to='+1562300000'
+         to='+1562300000',
+         from_='+18180000000'
      )
 
 print(call.sid)

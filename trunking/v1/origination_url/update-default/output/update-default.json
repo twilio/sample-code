@@ -1,7 +1,7 @@
 {
   "weight": 2,
   "date_updated": "2015-01-02T11:23:45Z",
-  "enabled": false,
+  "enabled": False,
   "friendly_name": "updated_name",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "priority": 2,

@@ -7,8 +7,8 @@ const client = require('twilio')(accountSid, authToken);
 client.fax.faxes
   .create({
      from: 'Jack',
-     mediaUrl: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf',
-     to: 'sip:kate@example.com?hatchkey=4815162342;transport=TCP'
+     to: 'sip:kate@example.com?hatchkey=4815162342;transport=TCP',
+     mediaUrl: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf'
    })
   .then(fax => console.log(fax.sid))
   .done();

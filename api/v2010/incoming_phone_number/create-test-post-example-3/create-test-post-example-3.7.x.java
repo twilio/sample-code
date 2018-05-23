@@ -11,8 +11,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        IncomingPhoneNumber incomingPhoneNumber = 
-            IncomingPhoneNumber.creator(new PhoneNumber("33"))
+        IncomingPhoneNumber incomingPhoneNumber = IncomingPhoneNumber.creator(
+                new com.twilio.type.PhoneNumber("33"))
             .create();
 
         System.out.println(incomingPhoneNumber.getSid());

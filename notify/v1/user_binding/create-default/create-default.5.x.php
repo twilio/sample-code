@@ -16,4 +16,4 @@ $user_binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->bindings
                                    ->create("apn", "address");
 
-print($user_binding.sid);
+print($user_binding->sid);

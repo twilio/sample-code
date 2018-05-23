@@ -1,7 +1,7 @@
 {
   "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "in-progess",
-  "unique_name": "unique_name",
+  "unique_name": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "start_time": "2015-07-30T20:00:00Z",
   "links": {
     "interactions": "https://preview.twilio.com/Proxy/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Interactions",

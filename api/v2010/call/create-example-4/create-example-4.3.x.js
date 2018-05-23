@@ -11,8 +11,8 @@ client.calls
          statusCallbackEvent: 'initiated',
          statusCallbackMethod: 'POST',
          url: 'http://demo.twilio.com/docs/voice.xml',
-         from: '+18668675310',
-         to: '+14155551212'
+         to: '+14155551212',
+         from: '+18668675310'
        })
       .then(call => console.log(call.sid))
       .done();

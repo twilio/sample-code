@@ -6,6 +6,6 @@
   "sid": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "name": "bob-track",
   "kind": "data",
-  "enabled": true,
+  "enabled": True,
   "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PublishedTracks/MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

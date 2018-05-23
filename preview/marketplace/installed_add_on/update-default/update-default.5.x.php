@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $installed_add_on = $twilio->preview->marketplace->installedAddOns("XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                  ->update(array(
-                                                              'configuration' => array()
+                                                              "configuration" => array()
                                                           )
                                                  );
 
-print($installed_add_on.friendlyName);
+print($installed_add_on->friendlyName);

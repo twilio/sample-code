@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->update(array(
-                                         'webhookUrl' => "https://example.com"
+                                         "webhookUrl" => "https://example.com"
                                      )
                             );
 
-print($service.uniqueName);
+print($service->uniqueName);

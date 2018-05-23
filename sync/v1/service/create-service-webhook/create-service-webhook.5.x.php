@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->sync->v1->services
                             ->create(array(
-                                         'friendlyName' => "MySyncServiceInstance",
-                                         'webhookUrl' => "https://example.com/sync"
+                                         "friendlyName" => "MySyncServiceInstance",
+                                         "webhookUrl" => "https://example.com/sync"
                                      )
                             );
 
-print($service.sid);
+print($service->sid);

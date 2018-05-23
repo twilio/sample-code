@@ -16,12 +16,8 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var configuration = new Dictionary<string, Object>()
-        {
-        };
-
         var installedAddOn = InstalledAddOnResource.Update(
-            configuration: configuration,
+            configuration: new Dictionary<string, Object>(),
             pathSid: "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

@@ -6,17 +6,17 @@
   },
   "carrier": {
     "error_code": null,
-    "mobile_country_code": "310",
-    "mobile_network_code": "456",
+    "mobile_country_code": 310,
+    "mobile_network_code": 456,
     "name": "verizon",
     "type": "mobile"
   },
   "country_code": "US",
   "national_format": "(510) 867-5309",
-  "phone_number": "+16502530000",
+  "phone_number": +16502530000,
   "add_ons": "payfone_tcpa_compliance",
   "url": "https://lookups.twilio.com/v1/PhoneNumbers/phone_number",
   "add_ons_data": {
-    "payfone_tcpa_compliance.right_party_contacted_date": "20160101"
+    "payfone_tcpa_compliance.right_party_contacted_date": 20160101
   }
 }

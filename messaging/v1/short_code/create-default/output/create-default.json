@@ -6,6 +6,8 @@
   "date_updated": "2015-07-30T20:12:33Z",
   "short_code": "12345",
   "country_code": "US",
-  "capabilities": [],
-  "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "capabilities": [
+  ],
+  "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "short_code_sid": "SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

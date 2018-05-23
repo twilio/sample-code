@@ -3,7 +3,7 @@
   "api_version": "2010-04-01",
   "date_created": null,
   "date_updated": null,
-  "friendly_name": "API_CLUSTER_TEST_SHORT_CODE",
+  "friendly_name": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "short_code": "99990",
   "sid": "SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sms_fallback_method": "POST",

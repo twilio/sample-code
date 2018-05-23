@@ -12,8 +12,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Message message = Message.creator(
-                new PhoneNumber("+15558675310"),
-                new PhoneNumber("+15017122661"),
+                new com.twilio.type.PhoneNumber("+15558675310"),
+                new com.twilio.type.PhoneNumber("+15017122661"),
                 "Open to confirm: http://yourserver.com/confirm?id=1234567890")
             .setProvideFeedback(true).create();
 

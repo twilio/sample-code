@@ -19,7 +19,7 @@
     "task_channels": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskChannels",
     "events": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Events"
   },
-  "multi_task_enabled": false,
+  "multi_task_enabled": False,
   "prioritize_queue_order": "FIFO",
   "sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "timeout_activity_name": "Offline",

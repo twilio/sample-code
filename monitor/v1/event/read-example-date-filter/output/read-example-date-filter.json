@@ -2,7 +2,7 @@
   "events": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "actor_sid": "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "actor_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "actor_type": "account",
       "description": null,
       "event_data": {
@@ -22,9 +22,7 @@
       "sid": "AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "source": "api",
       "source_ip_address": "10.86.6.250",
-      "url": "https://monitor.twilio.com/v1/Events/AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "end_date": "2015-04-01",
-      "start_date": "2015-03-01"
+      "url": "https://monitor.twilio.com/v1/Events/AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {

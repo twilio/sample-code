@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $credential = $twilio->chat->v2->credentials("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->fetch();
 
-print($credential.friendlyName);
+print($credential->friendlyName);

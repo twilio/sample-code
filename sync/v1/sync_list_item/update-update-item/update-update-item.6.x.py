@@ -13,7 +13,7 @@ sync_list_item = client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .update(data={
                                  'number': '001',
                                  'name': 'Bulbasaur',
-                                 'attack': '50'
+                                 'attack': 50
                              })
 
 print(sync_list_item.index)

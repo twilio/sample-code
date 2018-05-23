@@ -15,4 +15,4 @@ $verification = $twilio->preview->accSecurity->services("VAXXXXXXXXXXXXXXXXXXXXX
                                              ->verifications
                                              ->create("to", "channel");
 
-print($verification.sid);
+print($verification->sid);

@@ -5,13 +5,45 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  .workflows
-  .create({
-     assignmentCallbackUrl: 'http://example.com',
-     fallbackAssignmentCallbackUrl: 'http://example2.com',
-     taskReservationTimeout: 30,
-     configuration: `{"task_routing": {"filters": [{"expression": "type=='sales'", "targets": [{"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}]}, {"expression": "type=='marketing'", "targets": [{"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}]}, {"expression": "type=='support'", "targets": [{"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}]}], "default_filter": {"queue": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}}}`,
-     friendlyName: 'Sales, Marketing, Support Workflow'
-   })
-  .then(workflow => console.log(workflow.sid))
-  .done();
+      .workflows
+      .create({
+         assignmentCallbackUrl: 'http://example.com',
+         fallbackAssignmentCallbackUrl: 'http://example2.com',
+         taskReservationTimeout: 30,
+         friendlyName: 'Sales, Marketing, Support Workflow',
+         configuration: {
+           task_routing: {
+               filters: [
+                 {
+                     expression: `type=='sales'`,
+                     targets: [
+                       {
+                           queue: 'WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                       }
+                     ]
+                 },
+                 {
+                     expression: `type=='marketing'`,
+                     targets: [
+                       {
+                           queue: 'WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                       }
+                     ]
+                 },
+                 {
+                     expression: `type=='support'`,
+                     targets: [
+                       {
+                           queue: 'WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+                       }
+                     ]
+                 }
+               ],
+               default_filter: {
+                   queue: 'WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+               }
+           }
+       }
+       })
+      .then(workflow => console.log(workflow.sid))
+      .done();

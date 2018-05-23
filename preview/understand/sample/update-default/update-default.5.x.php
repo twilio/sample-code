@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 $sample = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->samples("UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                      ->update(array('language' => "language"));
+                                      ->update(array("language" => "language"));
 
-print($sample.dateCreated);
+print($sample->dateCreated->format());

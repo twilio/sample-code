@@ -16,12 +16,8 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var data = new Dictionary<string, Object>()
-        {
-        };
-
         var document = DocumentResource.Update(
-            data: data,
+            data: new Dictionary<string, Object>(),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

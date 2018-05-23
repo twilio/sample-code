@@ -13,12 +13,12 @@ $twilio = new Client($sid, $token);
 
 $phone_number = $twilio->lookups->v1->phoneNumbers("+15108675310")
                                     ->fetch(array(
-                                                'addOns' => "payfone_tcpa_compliance",
-                                                'addOnsData' => array(
+                                                "addOns" => "payfone_tcpa_compliance",
+                                                "addOnsData" => array(
                                                     "payfone_tcpa_compliance.right_party_contacted_date" => "20160101"
                                                 ),
-                                                'type' => "carrier"
+                                                "type" => "carrier"
                                             )
                                     );
 
-print($phone_number.callerName);
+print($phone_number->callerName);

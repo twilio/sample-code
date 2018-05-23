@@ -16,4 +16,4 @@ $sync_map_item = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                        ->syncMapItems("key")
                                        ->fetch();
 
-print($sync_map_item.key);
+print($sync_map_item->key);

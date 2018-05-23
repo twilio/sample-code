@@ -16,4 +16,4 @@ $workers_statistics = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXX
                                              ->statistics()
                                              ->fetch();
 
-print($workers_statistics.realtime);
+print($workers_statistics->realtime);

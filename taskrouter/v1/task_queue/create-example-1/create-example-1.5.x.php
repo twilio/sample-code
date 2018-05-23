@@ -13,12 +13,12 @@ $twilio = new Client($sid, $token);
 
 $task_queue = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->taskQueues
-                                     ->create("WA21d51f4c72583766988f9860de3e130a",
-                                              "English",
+                                     ->create("English",
                                               "WAea296a56ebce4bfbff0e99abadf16934",
+                                              "WA21d51f4c72583766988f9860de3e130a",
                                               array(
-                                                  'targetWorkers' => "languages HAS \"english\""
+                                                  "targetWorkers" => "languages HAS \"english\""
                                               )
                                      );
 
-print($task_queue.sid);
+print($task_queue->sid);

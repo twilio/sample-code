@@ -9,7 +9,7 @@
   "links": {
     "user": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity"
   },
-  "identity": "identity",
+  "identity": "NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "notification_protocol_version": "notification_protocol_version",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sid": "BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $recordings = $twilio->video->v1->recordings
-                                ->read(array('groupingSid' => "ParticipantSid")
+                                ->read(array("groupingSid" => "ParticipantSid")
                                 );
 
 foreach ($recordings as $record) {

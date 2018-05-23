@@ -19,7 +19,13 @@ class Program
 
         var apn = new Dictionary<string, Object>()
         {
-            {"aps", "{'alert': {'title': 'Short title for Watch.'}}"}
+            {"aps", new Dictionary<string, Object>()
+                {
+                    {"alert", new Dictionary<string, Object>()
+                        {
+                            {"title", "Short title for Watch."}
+                        }}
+                }}
         };
 
         var data = new Dictionary<string, Object>()
@@ -30,7 +36,11 @@ class Program
 
         var fcm = new Dictionary<string, Object>()
         {
-            {"notification", "{'title': 'New alert', 'body': 'Hello Bob!'}"}
+            {"notification", new Dictionary<string, Object>()
+                {
+                    {"title", "New alert"},
+                    {"body", "Hello Bob!"}
+                }}
         };
 
         var notification = NotificationResource.Create(

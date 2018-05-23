@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->notifications
                                    ->create(array(
-                                                'identity' => array('identity')
+                                                "identity" => array("identity")
                                             )
                                    );
 
-print($notification.sid);
+print($notification->sid);

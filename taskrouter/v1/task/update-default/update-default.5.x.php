@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $task = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->tasks("WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                               ->update(array('attributes' => "attributes"));
+                               ->update(array("attributes" => "attributes"));
 
-print($task.taskQueueFriendlyName);
+print($task->taskQueueFriendlyName);

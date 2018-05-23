@@ -1,9 +1,7 @@
 {
   "description": "List all Alpha Senders in a Messaging Service",
   "original_snippet_path": "messaging/services/service-alpha-list/service-alpha-list.6.x.py",
-  "tags": [
-    "messaging"
-  ],
+  "tags": "['messaging']",
   "title": "List all Alpha Senders in a Messaging Service",
   "type": "server"
 }

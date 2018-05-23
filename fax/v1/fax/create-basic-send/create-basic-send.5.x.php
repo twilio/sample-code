@@ -12,9 +12,9 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $fax = $twilio->fax->v1->faxes
-                       ->create("https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
-                                "+15558675310",
-                                array('from' => "+15017122661")
+                       ->create("+15558675310",
+                                "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
+                                array("from" => "+15017122661")
                        );
 
-print($fax.sid);
+print($fax->sid);

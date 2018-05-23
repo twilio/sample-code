@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $rooms = $twilio->video->v1->rooms
-                           ->read(array('status' => "completed"));
+                           ->read(array("status" => "completed"));
 
 foreach ($rooms as $record) {
     print($record->sid);

@@ -5,7 +5,7 @@
     "samples": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples"
   },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "friendly_name": "friendly_name",
+  "friendly_name": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_updated": "2015-07-30T20:00:00Z",

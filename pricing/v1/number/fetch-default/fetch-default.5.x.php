@@ -15,4 +15,4 @@ $number = $twilio->pricing->v1->voice
                               ->numbers("+15017122661")
                               ->fetch();
 
-print($number.number);
+print($number->number);

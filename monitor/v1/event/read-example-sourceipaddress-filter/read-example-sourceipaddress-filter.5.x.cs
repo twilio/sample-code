@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Monitor.V1;
 
 
@@ -17,9 +16,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var events = EventResource.Read(
-            endDate: MarshalConverter.DateTimeFromString("2015-04-25"),
+            endDate: new DateTime(2015, 4, 25, 0, 0, 0),
             sourceIpAddress: "104.14.155.29",
-            startDate: MarshalConverter.DateTimeFromString("2015-04-25")
+            startDate: new DateTime(2015, 4, 25, 0, 0, 0)
         );
 
         foreach(var record in events)

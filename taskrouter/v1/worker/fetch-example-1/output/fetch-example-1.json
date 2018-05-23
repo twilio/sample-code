@@ -3,7 +3,7 @@
   "activity_name": "available",
   "activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "attributes": "{}",
-  "available": false,
+  "available": False,
   "date_created": "2017-05-30T23:32:39Z",
   "date_status_changed": "2017-05-30T23:32:39Z",
   "date_updated": "2017-05-30T23:32:39Z",

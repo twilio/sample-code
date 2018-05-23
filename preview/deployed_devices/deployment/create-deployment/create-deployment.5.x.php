@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $deployment = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                ->deployments
                                                ->create(array(
-                                                            'friendlyName' => "My Device Deployment"
+                                                            "friendlyName" => "My Device Deployment"
                                                         )
                                                );
 
-print($deployment.sid);
+print($deployment->sid);

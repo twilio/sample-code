@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $phone_number = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->phoneNumbers
                                   ->create(array(
-                                               'sid' => "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                               "sid" => "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                            )
                                   );
 
-print($phone_number.sid);
+print($phone_number->sid);

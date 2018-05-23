@@ -13,10 +13,10 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->notify->v1->services
                               ->create(array(
-                                           'apnCredentialSid' => "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                                           'fcmCredentialSid' => "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                                           'friendlyName' => "My Awesome Service"
+                                           "apnCredentialSid" => "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                                           "fcmCredentialSid" => "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                                           "friendlyName" => "My Awesome Service"
                                        )
                               );
 
-print($service.sid);
+print($service->sid);

@@ -2,6 +2,7 @@
 
 import com.twilio.Twilio;
 import com.twilio.rest.pricing.v1.voice.Number;
+import com.twilio.type.PhoneNumber;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console

@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $call = $twilio->calls("CAe1644a7eed5088b159577c5802d8be38")
                ->update(array(
-                            'method' => "POST",
-                            'url' => "http://demo.twilio.com/docs/voice.xml"
+                            "method" => "POST",
+                            "url" => "http://demo.twilio.com/docs/voice.xml"
                         )
                );
 
-print($call.to);
+print($call->to);

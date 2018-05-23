@@ -16,4 +16,4 @@ $field_value = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXX
                                            ->fieldValues
                                            ->create("language", "value");
 
-print($field_value.sid);
+print($field_value->sid);

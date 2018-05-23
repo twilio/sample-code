@@ -4,13 +4,13 @@
   "customer_name": "Customer 123",
   "date_created": "Tue, 18 Aug 2015 17:07:30 +0000",
   "date_updated": "Tue, 18 Aug 2015 17:07:30 +0000",
-  "emergency_enabled": false,
+  "emergency_enabled": False,
   "friendly_name": "Billing - Customer 123",
-  "iso_country": "DE",
+  "iso_country": DE,
   "postal_code": "10875",
   "region": "Berlin",
   "sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "street": "1 Hasselhoff Lane",
-  "validated": false,
+  "validated": False,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses/ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

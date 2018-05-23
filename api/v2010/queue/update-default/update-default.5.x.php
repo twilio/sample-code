@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $queue = $twilio->queues("QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                ->update(array('friendlyName' => "friendlyName"));
+                ->update(array("friendlyName" => "friendlyName"));
 
-print($queue.friendlyName);
+print($queue->friendlyName);

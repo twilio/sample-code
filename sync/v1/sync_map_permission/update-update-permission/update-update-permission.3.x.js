@@ -7,6 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .syncMapPermissions('bob')
-      .update({manage: false, read: true, write: true})
+      .update({read: true, write: true, manage: false})
       .then(sync_map_permission => console.log(sync_map_permission.serviceSid))
       .done();

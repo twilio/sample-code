@@ -12,13 +12,13 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $call = $twilio->calls
-               ->create("Jack",
-                        "sip:kate@example.com",
+               ->create("sip:kate@example.com",
+                        "Jack",
                         array(
-                            'sipAuthPassword' => "secret",
-                            'sipAuthUsername' => "jack",
-                            'url' => "http://www.example.com/sipdial.xml"
+                            "sipAuthPassword" => "secret",
+                            "sipAuthUsername" => "jack",
+                            "url" => "http://www.example.com/sipdial.xml"
                         )
                );
 
-print($call.sid);
+print($call->sid);

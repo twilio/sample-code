@@ -2,7 +2,7 @@
   "events": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "actor_sid": "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "actor_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "actor_type": "account",
       "description": null,
       "event_data": {

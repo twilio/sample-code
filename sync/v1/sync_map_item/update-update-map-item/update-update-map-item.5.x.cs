@@ -19,7 +19,7 @@ class Program
         var data = new Dictionary<string, Object>()
         {
             {"name", "Stephen Curry"},
-            {"level", "31"},
+            {"level", 31},
             {"username", "spicy_curry"}
         };
 

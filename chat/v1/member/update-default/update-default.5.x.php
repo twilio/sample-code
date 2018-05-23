@@ -15,8 +15,8 @@ $member = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                            ->channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                            ->members("MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                            ->update(array(
-                                        'roleSid' => "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                        "roleSid" => "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                     )
                            );
 
-print($member.sid);
+print($member->sid);

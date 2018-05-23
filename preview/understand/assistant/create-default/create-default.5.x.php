@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $assistant = $twilio->preview->understand->assistants
                                          ->create();
 
-print($assistant.sid);
+print($assistant->sid);

@@ -1,20 +1,20 @@
 {
   "rooms": [
     {
-      "sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sid": "RM4070b618362c1682b2385b1f9982833c",
       "status": "completed",
       "date_created": "2017-04-03T22:21:49Z",
       "date_updated": "2017-04-03T22:21:51Z",
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "type": "peer-to-peer",
-      "enable_turn": true,
+      "enable_turn": True,
       "unique_name": "RM4070b618362c1682b2385b1f9982833c",
       "status_callback": null,
       "status_callback_method": "POST",
       "end_time": "2017-04-03T22:21:51Z",
       "duration": 2,
       "max_participants": 10,
-      "record_participants_on_connect": false,
+      "record_participants_on_connect": False,
       "video_codecs": [
         "VP8"
       ],

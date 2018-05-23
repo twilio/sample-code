@@ -1,7 +1,8 @@
 {
   "longest_task_waiting_age": 100,
   "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows/WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RealTimeStatistics",
-  "tasks_by_priority": {},
+  "tasks_by_priority": {
+  },
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "tasks_by_status": {
     "reserved": 0,

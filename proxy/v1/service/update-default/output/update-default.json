@@ -1,7 +1,7 @@
 {
   "sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "unique_name": "unique_name",
+  "unique_name": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "default_ttl": 3600,
   "callback_url": "http://www.example.com",
   "geo_match_level": "country",

@@ -12,7 +12,7 @@ sync_map_item = client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                            .sync_map_items('steph_curry') \
                            .update(data={
                                 'name': 'Stephen Curry',
-                                'level': '31',
+                                'level': 31,
                                 'username': 'spicy_curry'
                             })
 

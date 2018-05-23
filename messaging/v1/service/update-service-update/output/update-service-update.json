@@ -4,15 +4,15 @@
   "sid": "MG2172dd2db502e20dd981ef0d67850e1a",
   "date_created": "2015-07-30T20:12:31Z",
   "date_updated": "2015-07-30T20:12:33Z",
-  "sticky_sender": false,
-  "mms_converter": true,
-  "smart_encoding": false,
-  "fallback_to_long_code": true,
+  "sticky_sender": False,
+  "mms_converter": True,
+  "smart_encoding": False,
+  "fallback_to_long_code": True,
   "scan_message_content": "inherit",
-  "synchronous_validation": true,
-  "area_code_geomatch": true,
+  "synchronous_validation": True,
+  "area_code_geomatch": True,
   "validity_period": 600,
-  "inbound_request_url": "http://www.example.com",
+  "inbound_request_url": http://www.example.com,
   "inbound_method": "POST",
   "fallback_url": null,
   "fallback_method": "POST",
@@ -22,5 +22,5 @@
     "short_codes": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes",
     "alpha_senders": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AlphaSenders"
   },
-  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a"
+  "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

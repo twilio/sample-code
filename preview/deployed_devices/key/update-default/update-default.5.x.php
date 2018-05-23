@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $key = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->keys("KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->update(array(
-                                                     'friendlyName' => "friendlyName"
+                                                     "friendlyName" => "friendlyName"
                                                  )
                                         );
 
-print($key.friendlyName);
+print($key->friendlyName);

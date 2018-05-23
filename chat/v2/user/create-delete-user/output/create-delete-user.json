@@ -5,7 +5,7 @@
   "role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "identity": "IDENTITY",
   "attributes": null,
-  "is_online": true,
+  "is_online": True,
   "is_notifiable": null,
   "friendly_name": null,
   "joined_channels_count": 0,

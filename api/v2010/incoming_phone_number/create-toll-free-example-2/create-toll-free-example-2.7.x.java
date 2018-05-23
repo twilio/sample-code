@@ -12,7 +12,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         IncomingPhoneNumber incomingPhoneNumber = IncomingPhoneNumber.creator(
-                new PhoneNumber("+18001000052"))
+                new com.twilio.type.PhoneNumber("+18001000052"))
             .create();
 
         System.out.println(incomingPhoneNumber.getSid());

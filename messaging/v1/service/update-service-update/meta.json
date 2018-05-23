@@ -1,8 +1,6 @@
 {
   "original_snippet_path": "messaging/services/service-update/service-update.6.x.py",
-  "tags": [
-    "messaging"
-  ],
+  "tags": "['messaging']",
   "title": "Update a Messaging Service",
   "type": "server"
 }

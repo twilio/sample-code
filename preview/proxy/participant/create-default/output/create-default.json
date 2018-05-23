@@ -1,7 +1,7 @@
 {
   "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "participant_type": "sms",
-  "identifier": "identifier",
+  "identifier": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_updated": "2015-07-30T20:00:00Z",
   "proxy_identifier": "proxy_identifier",
   "friendly_name": "friendly_name",

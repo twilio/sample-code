@@ -11,7 +11,7 @@
     "segment1"
   ],
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity",
   "segment": "premium"
 }

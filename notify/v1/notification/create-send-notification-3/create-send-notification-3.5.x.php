@@ -14,9 +14,9 @@ $twilio = new Client($sid, $token);
 $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->notifications
                                    ->create(array(
-                                                'body' => "Knok-Knok! This is your first Notify SMS",
-                                                'identity' => "00000001"
+                                                "body" => "Knok-Knok! This is your first Notify SMS",
+                                                "identity" => "00000001"
                                             )
                                    );
 
-print($notification.sid);
+print($notification->sid);

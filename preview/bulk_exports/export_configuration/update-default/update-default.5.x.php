@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $export_configuration = $twilio->preview->bulkExports->exportConfiguration("resourceType")
                                                      ->update(array(
-                                                                  'enabled' => True
+                                                                  "enabled" => True
                                                               )
                                                      );
 
-print($export_configuration.enabled);
+print($export_configuration->enabled);

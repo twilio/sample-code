@@ -12,7 +12,7 @@
       "more_info": "more_info",
       "request_method": "GET",
       "request_url": "http://www.example.com",
-      "resource_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "resource_sid": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "url": "http://www.example.com"
     }

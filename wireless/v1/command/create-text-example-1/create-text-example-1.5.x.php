@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $command = $twilio->wireless->v1->commands
                                 ->create("wakeup",
-                                         array('sim' => "AliceSmithSmartMeter")
+                                         array("sim" => "AliceSmithSmartMeter")
                                 );
 
-print($command.sid);
+print($command->sid);

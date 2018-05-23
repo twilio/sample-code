@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 $sync_list_item = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->syncLists("ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->syncListItems(1)
-                                   ->update(array('data' => array()));
+                                   ->update(array("data" => array()));
 
-print($sync_list_item.index);
+print($sync_list_item->index);

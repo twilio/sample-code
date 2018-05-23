@@ -2,6 +2,6 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "My Home Phone Number",
-  "phone_number": "+14158675310",
+  "phone_number": +14158675310,
   "validation_code": 100
 }

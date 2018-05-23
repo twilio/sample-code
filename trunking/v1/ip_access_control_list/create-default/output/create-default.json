@@ -5,5 +5,6 @@
   "friendly_name": "friendly_name",
   "sid": "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "http://www.example.com"
+  "url": "http://www.example.com",
+  "ip_access_control_list_sid": "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

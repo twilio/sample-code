@@ -15,12 +15,12 @@ $sync_map_item = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                   ->syncMaps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->syncMapItems("steph_curry")
                                   ->update(array(
-                                               'data' => array(
+                                               "data" => array(
                                                    "name" => "Stephen Curry",
-                                                   "level" => "31",
+                                                   "level" => 31,
                                                    "username" => "spicy_curry"
                                                )
                                            )
                                   );
 
-print($sync_map_item.key);
+print($sync_map_item->key);

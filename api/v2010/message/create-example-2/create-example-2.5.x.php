@@ -14,10 +14,10 @@ $twilio = new Client($sid, $token);
 $message = $twilio->messages
                   ->create("+12316851234",
                            array(
-                               'body' => "Hello there!",
-                               'from' => "+15555555555",
-                               'mediaUrl' => "https://demo.twilio.com/owl.png"
+                               "body" => "Hello there!",
+                               "from" => "+15555555555",
+                               "mediaUrl" => "https://demo.twilio.com/owl.png"
                            )
                   );
 
-print($message.sid);
+print($message->sid);

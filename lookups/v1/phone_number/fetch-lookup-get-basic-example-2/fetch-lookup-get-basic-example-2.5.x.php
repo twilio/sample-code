@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $phone_number = $twilio->lookups->v1->phoneNumbers("+15108675310")
                                     ->fetch(array(
-                                                'countryCode' => "US",
-                                                'type' => "carrier"
+                                                "countryCode" => "US",
+                                                "type" => "carrier"
                                             )
                                     );
 
-print($phone_number.callerName);
+print($phone_number->callerName);

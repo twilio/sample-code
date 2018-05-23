@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $trigger = $twilio->usage
                   ->triggers("UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                  ->update(array('callbackMethod' => "GET"));
+                  ->update(array("callbackMethod" => "GET"));
 
-print($trigger.friendlyName);
+print($trigger->friendlyName);

@@ -3,15 +3,15 @@
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "status": "in-progress",
-  "type": "peer-to-peer",
+  "type": peer-to-peer,
   "sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "enable_turn": true,
   "unique_name": "DailyStandup",
   "max_participants": 10,
   "duration": 0,
   "status_callback_method": "POST",
-  "status_callback": "http://example.org",
-  "record_participants_on_connect": false,
+  "status_callback": http://example.org,
+  "record_participants_on_connect": False,
   "video_codecs": [
     "VP8"
   ],

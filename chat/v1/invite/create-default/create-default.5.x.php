@@ -16,4 +16,4 @@ $invite = $twilio->chat->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                            ->invites
                            ->create("identity");
 
-print($invite.sid);
+print($invite->sid);

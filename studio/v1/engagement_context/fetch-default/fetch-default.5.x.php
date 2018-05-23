@@ -16,4 +16,4 @@ $engagement_context = $twilio->studio->v1->flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                          ->engagementContext()
                                          ->fetch();
 
-print($engagement_context.context);
+print($engagement_context->context);

@@ -11,5 +11,5 @@
   },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "callback_url": "http://www.example.com",
-  "auto_create": false
+  "auto_create": False
 }

@@ -14,9 +14,9 @@ $twilio = new Client($sid, $token);
 $workspace = $twilio->taskrouter->v1->workspaces
                                     ->create("NewWorkspace",
                                              array(
-                                                 'eventCallbackUrl' => "http://requestb.in/vh9reovh",
-                                                 'template' => "FIFO"
+                                                 "eventCallbackUrl" => "http://requestb.in/vh9reovh",
+                                                 "template" => "FIFO"
                                              )
                                     );
 
-print($workspace.sid);
+print($workspace->sid);

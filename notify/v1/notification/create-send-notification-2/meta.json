@@ -1,6 +1,6 @@
 {
   "original_snippet_path": "notifications/register/send-notification-2/send-notification-2.6.x.py",
-  "testable": true,
+  "testable": "True",
   "title": "Send a Notification (Identity and Tag)",
   "type": "server"
 }

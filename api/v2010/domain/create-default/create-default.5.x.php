@@ -15,4 +15,4 @@ $domain = $twilio->sip
                  ->domains
                  ->create("domainName");
 
-print($domain.sid);
+print($domain->sid);

@@ -16,4 +16,4 @@ $sync_list_item = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXX
                                         ->syncListItems(1)
                                         ->fetch();
 
-print($sync_list_item.index);
+print($sync_list_item->index);

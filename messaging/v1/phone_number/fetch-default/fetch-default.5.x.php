@@ -15,4 +15,4 @@ $phone_number = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                       ->phoneNumbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->fetch();
 
-print($phone_number.sid);
+print($phone_number->sid);

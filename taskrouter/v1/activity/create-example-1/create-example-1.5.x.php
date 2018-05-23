@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $activity = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->activities
                                    ->create("NewAvailableActivity",
-                                            array('available' => True)
+                                            array("available" => True)
                                    );
 
-print($activity.sid);
+print($activity->sid);

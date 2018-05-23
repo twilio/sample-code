@@ -3,7 +3,7 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "identity": "jing",
+  "identity": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "last_consumed_message_index": null,
   "last_consumption_timestamp": null,

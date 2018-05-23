@@ -2,22 +2,22 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
-  "status": "completed",
+  "status": completed,
   "type": "peer-to-peer",
   "sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "enable_turn": true,
+  "enable_turn": True,
   "unique_name": "unique_name",
   "max_participants": 10,
   "status_callback_method": "POST",
   "status_callback": "",
-  "record_participants_on_connect": false,
+  "record_participants_on_connect": False,
   "video_codecs": [
     "VP8"
   ],
   "media_region": "us1",
   "end_time": "2015-07-30T20:00:00Z",
   "duration": 10,
-  "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "participants": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants",
     "recordings": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings"

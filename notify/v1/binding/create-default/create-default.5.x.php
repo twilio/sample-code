@@ -15,4 +15,4 @@ $binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->bindings
                               ->create("identity", "apn", "address");
 
-print($binding.sid);
+print($binding->sid);

@@ -10,10 +10,10 @@
   "duration": "15",
   "end_time": "Tue, 31 Aug 2010 20:36:44 +0000",
   "forwarded_from": "+141586753093",
-  "from": "+15017122661",
-  "from_formatted": "(501) 712-2661",
-  "group_sid": "GPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "parent_call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "from": +15017122661,
+  "from_formatted": (501) 712-2661,
+  "group_sid": null,
+  "parent_call_sid": null,
   "phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "price": "-0.03000",
   "price_unit": "USD",
@@ -21,13 +21,13 @@
   "start_time": "Tue, 31 Aug 2010 20:36:29 +0000",
   "status": "completed",
   "subresource_uris": {
-    "notifications": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json",
-    "recordings": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json",
-    "feedback": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Feedback.json",
-    "feedback_summaries": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/FeedbackSummary.json"
+    "notifications": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls/CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Notifications.json",
+    "recordings": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls/CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings.json",
+    "feedback": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls/CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Feedback.json",
+    "feedback_summaries": "/2010-04-01/Accounts/ACaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Calls/FeedbackSummary.json"
   },
-  "to": "+15558675310",
-  "to_formatted": "(555) 867-5310",
+  "to": +15558675310,
+  "to_formatted": (555) 867-5310,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-  "url": "http://demo.twilio.com/docs/voice.xml"
+  "url": http://demo.twilio.com/docs/voice.xml
 }

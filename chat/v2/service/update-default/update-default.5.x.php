@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $service = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                            ->update(array('friendlyName' => "friendlyName"));
+                            ->update(array("friendlyName" => "friendlyName"));
 
-print($service.friendlyName);
+print($service->friendlyName);

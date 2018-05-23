@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $room = $twilio->video->v1->rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                           ->fetch();
 
-print($room.uniqueName);
+print($room->uniqueName);

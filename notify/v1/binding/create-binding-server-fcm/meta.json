@@ -1,6 +1,6 @@
 {
   "original_snippet_path": "notifications/register/create-binding-server-fcm/create-binding-server-fcm.6.x.py",
-  "testable": true,
+  "testable": "True",
   "title": "Create a Binding (Server-side)",
   "type": "server"
 }

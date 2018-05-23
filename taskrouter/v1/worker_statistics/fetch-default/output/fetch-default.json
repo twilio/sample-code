@@ -10,7 +10,7 @@
       {
         "max": 0,
         "min": 900,
-        "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "friendly_name": "Offline",
         "avg": 1080,
         "total": 5400
@@ -18,7 +18,7 @@
       {
         "max": 0,
         "min": 900,
-        "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "friendly_name": "Busy",
         "avg": 1012,
         "total": 8100
@@ -26,7 +26,7 @@
       {
         "max": 0,
         "min": 0,
-        "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "friendly_name": "Idle",
         "avg": 0,
         "total": 0
@@ -34,7 +34,7 @@
       {
         "max": 0,
         "min": 0,
-        "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "friendly_name": "Reserved",
         "avg": 0,
         "total": 0
@@ -46,5 +46,5 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "worker_sid": "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Workers/WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Statistics"
+  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Statistics"
 }

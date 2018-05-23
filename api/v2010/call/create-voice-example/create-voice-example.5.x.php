@@ -12,11 +12,11 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $call = $twilio->calls
-               ->create("+14158141829",
-                        "+16518675310",
+               ->create("+16518675310",
+                        "+14158141829",
                         array(
-                            'url' => "http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount"
+                            "url" => "http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount"
                         )
                );
 
-print($call.sid);
+print($call->sid);

@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $rate_plan = $twilio->wireless->v1->ratePlans("us-automotive")
                                   ->fetch();
 
-print($rate_plan.uniqueName);
+print($rate_plan->uniqueName);

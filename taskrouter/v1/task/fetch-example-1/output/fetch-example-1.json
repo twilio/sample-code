@@ -13,7 +13,7 @@
   "task_channel_unique_name": "task-channel",
   "timeout": 60,
   "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks/WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "workflow_sid": "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "workflow_sid": "WFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "workflow_friendly_name": "Test Workflow",
   "task_queue_friendly_name": "Test Queue",

@@ -13,11 +13,11 @@ $twilio = new Client($sid, $token);
 
 $room = $twilio->video->v1->rooms
                           ->create(array(
-                                       'statusCallback' => "http://example.org",
-                                       'type' => "group",
-                                       'uniqueName' => "DailyStandupWithH264Codec",
-                                       'videoCodecs' => "H264"
+                                       "statusCallback" => "http://example.org",
+                                       "type" => "group",
+                                       "uniqueName" => "DailyStandupWithH264Codec",
+                                       "videoCodecs" => "H264"
                                    )
                           );
 
-print($room.sid);
+print($room->sid);

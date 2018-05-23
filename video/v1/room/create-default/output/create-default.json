@@ -5,13 +5,13 @@
   "status": "in-progress",
   "type": "peer-to-peer",
   "sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "enable_turn": true,
-  "unique_name": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "enable_turn": True,
+  "unique_name": "RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
   "max_participants": 10,
   "duration": 0,
   "status_callback_method": "POST",
   "status_callback": "",
-  "record_participants_on_connect": false,
+  "record_participants_on_connect": False,
   "video_codecs": [
     "VP8"
   ],

@@ -6,14 +6,14 @@
   },
   "carrier": {
     "error_code": null,
-    "mobile_country_code": "310",
-    "mobile_network_code": "456",
+    "mobile_country_code": 310,
+    "mobile_network_code": 456,
     "name": "verizon",
     "type": "mobile"
   },
   "country_code": "US",
   "national_format": "(510) 867-5309",
-  "phone_number": "+16502530000",
+  "phone_number": +16502530000,
   "add_ons": "whitepages_pro_caller_id",
   "url": "https://lookups.twilio.com/v1/PhoneNumbers/phone_number"
 }

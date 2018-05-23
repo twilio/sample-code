@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $channel = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->update(array(
-                                         'friendlyName' => "NEW_FRIENDLY_NAME"
+                                         "friendlyName" => "NEW_FRIENDLY_NAME"
                                      )
                             );
 
-print($channel.friendlyName);
+print($channel->friendlyName);

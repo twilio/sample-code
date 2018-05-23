@@ -1,6 +1,6 @@
 {
   "original_snippet_path": "rest/recording/get-recording-xml/get-recording-xml.6.x.py",
-  "testable": true,
+  "testable": "True",
   "title": "Get Recording in XML Format",
   "type": "server"
 }

@@ -15,7 +15,7 @@ public class Example {
         StreamMessage streamMessage = StreamMessage.creator(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                new java.util.HashMap<String, Object>())
+                new HashMap<String, Object>())
             .create();
 
         System.out.println(streamMessage.getSid());

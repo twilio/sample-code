@@ -12,6 +12,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $fax = $twilio->fax->v1->faxes("FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-                       ->update(array('status' => "canceled"));
+                       ->update(array("status" => "canceled"));
 
-print($fax.to);
+print($fax->to);

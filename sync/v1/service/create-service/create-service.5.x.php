@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->sync->v1->services
                             ->create(array(
-                                         'friendlyName' => "MySyncServiceInstance"
+                                         "friendlyName" => "MySyncServiceInstance"
                                      )
                             );
 
-print($service.sid);
+print($service->sid);

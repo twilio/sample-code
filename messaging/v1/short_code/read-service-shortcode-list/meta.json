@@ -1,8 +1,6 @@
 {
   "original_snippet_path": "messaging/services/service-shortcode-list/service-shortcode-list.6.x.py",
-  "tags": [
-    "messaging"
-  ],
+  "tags": "['messaging']",
   "title": "List all Short Codes in a Messaging Service",
   "type": "server"
 }

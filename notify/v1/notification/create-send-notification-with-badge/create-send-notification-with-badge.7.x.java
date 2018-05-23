@@ -18,7 +18,15 @@ public class Example {
             .setApn(
                 new HashMap<String, Object>()
                 {{
-                    put("aps", "{'alert': {'title': 'Bob alert', 'body': 'Bob, you just received a badge'}, 'badge': 1}");
+                    put("aps", new HashMap<String, Object>()
+                    {{
+                        put("alert", new HashMap<String, Object>()
+                        {{
+                            put("title", "Bob alert");
+                            put("body", "Bob, you just received a badge");
+                        }});
+                        put("badge", 1);
+                    }});
                 }})
             .setIdentity(Promoter.listOfOne("00000001"))
             .create();

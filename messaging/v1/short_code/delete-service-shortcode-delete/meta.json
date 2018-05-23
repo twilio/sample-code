@@ -1,8 +1,6 @@
 {
   "original_snippet_path": "messaging/services/service-shortcode-delete/service-shortcode-delete.6.x.py",
-  "tags": [
-    "messaging"
-  ],
+  "tags": "['messaging']",
   "title": "Delete a Short Code from a Messaging Service",
   "type": "server"
 }

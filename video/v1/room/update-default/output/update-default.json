@@ -5,12 +5,12 @@
   "status": "completed",
   "type": "peer-to-peer",
   "sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "enable_turn": true,
+  "enable_turn": True,
   "unique_name": "unique_name",
   "max_participants": 10,
   "status_callback_method": "POST",
   "status_callback": "",
-  "record_participants_on_connect": false,
+  "record_participants_on_connect": False,
   "video_codecs": [
     "VP8"
   ],

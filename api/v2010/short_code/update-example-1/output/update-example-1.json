@@ -9,6 +9,6 @@
   "sms_fallback_method": "POST",
   "sms_fallback_url": null,
   "sms_method": "POST",
-  "sms_url": "http://demo.twilio.com/docs/sms.xml",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SMS/ShortCodes/SC6b20cb705c1e8f00210049b20b70fce3.json"
+  "sms_url": http://demo.twilio.com/docs/sms.xml,
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SMS/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

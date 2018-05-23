@@ -14,10 +14,10 @@ $twilio = new Client($sid, $token);
 $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->notifications
                                    ->create(array(
-                                                'body' => "Hello New Users",
-                                                'segment' => "new_user",
-                                                'tag' => "preferred_device"
+                                                "body" => "Hello New Users",
+                                                "segment" => "new_user",
+                                                "tag" => "preferred_device"
                                             )
                                    );
 
-print($notification.sid);
+print($notification->sid);

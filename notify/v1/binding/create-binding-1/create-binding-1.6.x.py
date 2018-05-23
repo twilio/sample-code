@@ -10,9 +10,9 @@ client = Client(account_sid, auth_token)
 binding = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .bindings \
                        .create(
-                            address='+1651000000000',
+                            identity='00000001',
                             binding_type='sms',
-                            identity='00000001'
+                            address='+1651000000000'
                         )
 
 print(binding.sid)

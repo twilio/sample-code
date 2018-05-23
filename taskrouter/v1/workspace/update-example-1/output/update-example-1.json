@@ -4,7 +4,7 @@
   "date_updated": "2016-08-01T22:10:40Z",
   "default_activity_name": "Offline",
   "default_activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "event_callback_url": "http://requestb.in/vh9reovh",
+  "event_callback_url": http://requestb.in/vh9reovh,
   "events_filter": null,
   "friendly_name": "NewFriendlyName",
   "links": {
@@ -19,7 +19,7 @@
     "task_channels": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskChannels",
     "events": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Events"
   },
-  "multi_task_enabled": false,
+  "multi_task_enabled": False,
   "prioritize_queue_order": "FIFO",
   "sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "timeout_activity_name": "Offline",

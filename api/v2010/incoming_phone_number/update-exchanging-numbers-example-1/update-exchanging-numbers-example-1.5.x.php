@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $incoming_phone_number = $twilio->incomingPhoneNumbers("PNyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy")
                                 ->update(array(
-                                             'accountSid' => "ACzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+                                             "accountSid" => "ACzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
                                          )
                                 );
 
-print($incoming_phone_number.friendlyName);
+print($incoming_phone_number->friendlyName);

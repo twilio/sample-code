@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $workspace = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->update(array(
-                                                 'defaultActivitySid' => "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                                 "defaultActivitySid" => "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                              )
                                     );
 
-print($workspace.defaultActivityName);
+print($workspace->defaultActivityName);

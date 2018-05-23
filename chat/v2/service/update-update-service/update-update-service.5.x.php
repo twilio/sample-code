@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->update(array(
-                                         'friendlyName' => "NEW_FRIENDLY_NAME"
+                                         "friendlyName" => "NEW_FRIENDLY_NAME"
                                      )
                             );
 
-print($service.friendlyName);
+print($service->friendlyName);

@@ -8,9 +8,9 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .taskQueues
       .create({
          targetWorkers: `languages HAS "english"`,
-         assignmentActivitySid: 'WA21d51f4c72583766988f9860de3e130a',
          friendlyName: 'English',
-         reservationActivitySid: 'WAea296a56ebce4bfbff0e99abadf16934'
+         reservationActivitySid: 'WAea296a56ebce4bfbff0e99abadf16934',
+         assignmentActivitySid: 'WA21d51f4c72583766988f9860de3e130a'
        })
       .then(task_queue => console.log(task_queue.sid))
       .done();

@@ -16,4 +16,4 @@ $payload = $twilio->recordings("REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                   ->payloads("XHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                   ->fetch();
 
-print($payload.sid);
+print($payload->sid);

@@ -15,4 +15,4 @@ $ip_access_control_list = $twilio->sip
                                  ->ipAccessControlLists("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->update("friendlyName");
 
-print($ip_access_control_list.friendlyName);
+print($ip_access_control_list->friendlyName);

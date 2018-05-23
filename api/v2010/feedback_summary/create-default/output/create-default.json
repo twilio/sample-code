@@ -3,7 +3,7 @@
   "call_count": 10200,
   "call_feedback_count": 729,
   "end_date": "2011-01-01",
-  "include_subaccounts": false,
+  "include_subaccounts": False,
   "issues": [
     {
       "count": 45,

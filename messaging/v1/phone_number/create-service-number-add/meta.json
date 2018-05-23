@@ -1,8 +1,6 @@
 {
   "original_snippet_path": "messaging/services/service-number-add/service-number-add.6.x.py",
-  "tags": [
-    "messaging"
-  ],
+  "tags": "['messaging']",
   "title": "Add a Phone Number to a Messaging Service",
   "type": "server"
 }

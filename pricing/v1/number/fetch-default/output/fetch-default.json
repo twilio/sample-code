@@ -8,8 +8,8 @@
   "iso_country": "IR",
   "number": "+15017122661",
   "outbound_call_price": {
-    "base_price": "0.255",
-    "current_price": "0.255"
+    "base_price": 0.255,
+    "current_price": 0.255
   },
   "price_unit": "USD",
   "url": "https://pricing.twilio.com/v1/Voice/Numbers/+987654321"

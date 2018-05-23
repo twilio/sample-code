@@ -13,11 +13,11 @@ $twilio = new Client($sid, $token);
 
 $room = $twilio->video->v1->rooms
                           ->create(array(
-                                       'recordParticipantsOnConnect' => True,
-                                       'statusCallback' => "http://example.org",
-                                       'type' => "group",
-                                       'uniqueName' => "DailyStandup"
+                                       "recordParticipantsOnConnect" => True,
+                                       "statusCallback" => "http://example.org",
+                                       "type" => "group",
+                                       "uniqueName" => "DailyStandup"
                                    )
                           );
 
-print($room.sid);
+print($room->sid);

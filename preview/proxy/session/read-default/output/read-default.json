@@ -1,12 +1,14 @@
 {
-  "sessions": [],
+  "sessions": [
+  ],
   "meta": {
     "previous_page_url": null,
     "next_page_url": null,
-    "url": "https://preview.twilio.com/Proxy/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions?PageSize=50&Page=0",
+    "url": "https://preview.twilio.com/Proxy/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions?PageSize=50&Page=0",
     "page": 0,
-    "first_page_url": "https://preview.twilio.com/Proxy/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions?PageSize=50&Page=0",
+    "first_page_url": "https://preview.twilio.com/Proxy/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions?PageSize=50&Page=0",
     "page_size": 50,
     "key": "sessions"
-  }
+  },
+  "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

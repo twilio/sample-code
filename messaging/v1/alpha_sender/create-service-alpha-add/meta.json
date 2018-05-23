@@ -1,8 +1,6 @@
 {
   "original_snippet_path": "messaging/services/service-alpha-add/service-alpha-add.6.x.py",
-  "tags": [
-    "messaging"
-  ],
+  "tags": "['messaging']",
   "title": "Add an Alpha Sender to a Messaging Service",
   "type": "server"
 }

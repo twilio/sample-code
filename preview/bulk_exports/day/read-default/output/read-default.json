@@ -14,5 +14,6 @@
     "first_page_url": "https://preview.twilio.com/BulkExports/Exports/Calls/Days?PageSize=50&Page=0",
     "previous_page_url": null,
     "next_page_url": null
-  }
+  },
+  "resource_type": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

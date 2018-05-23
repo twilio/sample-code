@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $queue = $twilio->queues
                 ->create("newqueue");
 
-print($queue.sid);
+print($queue->sid);

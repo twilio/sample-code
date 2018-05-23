@@ -4,7 +4,7 @@
   "friendly_name": "My New Device",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "enabled": true,
+  "enabled": True,
   "deployment_sid": "DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "identity": "bob@twilio.com",
   "date_created": "2016-07-30T20:00:00Z",

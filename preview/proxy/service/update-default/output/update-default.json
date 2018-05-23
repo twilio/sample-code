@@ -1,5 +1,5 @@
 {
-  "friendly_name": "friendly_name",
+  "friendly_name": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2015-07-30T20:00:00Z",
   "url": "https://preview.twilio.com/Proxy/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_updated": "2015-07-30T20:00:00Z",
@@ -11,5 +11,5 @@
   },
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "callback_url": "http://www.example.com",
-  "auto_create": false
+  "auto_create": False
 }

@@ -21,32 +21,32 @@
     "activity_statistics": [
       {
         "friendly_name": "Offline",
-        "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "workers": 1
       },
       {
         "friendly_name": "Idle",
-        "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "workers": 0
       },
       {
         "friendly_name": "80fa2beb-3a05-11e5-8fc8-98e0d9a1eb73",
-        "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "workers": 0
       },
       {
         "friendly_name": "Reserved",
-        "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "workers": 0
       },
       {
         "friendly_name": "Busy",
-        "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "workers": 0
       },
       {
         "friendly_name": "817ca1c5-3a05-11e5-9292-98e0d9a1eb73",
-        "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "workers": 0
       }
     ],

@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $model_build = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                            ->modelBuilds("UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                            ->update(array(
-                                                        'uniqueName' => "uniqueName"
+                                                        "uniqueName" => "uniqueName"
                                                     )
                                            );
 
-print($model_build.uniqueName);
+print($model_build->uniqueName);

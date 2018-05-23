@@ -3,7 +3,7 @@
   "session_sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "identifier": "identifier",
+  "identifier": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "proxy_identifier": "proxy_identifier",
   "proxy_identifier_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "friendly_name",

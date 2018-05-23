@@ -14,11 +14,11 @@ $twilio = new Client($sid, $token);
 $credential = $twilio->notify->v1->credentials
                                  ->create("apn",
                                           array(
-                                              'certificate' => "cert.pem_content",
-                                              'friendlyName' => "MyAPNCredential",
-                                              'privateKey' => "key.pem_content",
-                                              'sandbox' => True
+                                              "certificate" => "cert.pem_content",
+                                              "friendlyName" => "MyAPNCredential",
+                                              "privateKey" => "key.pem_content",
+                                              "sandbox" => True
                                           )
                                  );
 
-print($credential.sid);
+print($credential->sid);

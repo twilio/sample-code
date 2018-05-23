@@ -11,6 +11,6 @@ sync_map_permission = client.sync \
                             .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .sync_map_permissions('bob') \
-                            .update(manage=False, read=False, write=False)
+                            .update(read=False, write=False, manage=False)
 
 print(sync_map_permission.service_sid)

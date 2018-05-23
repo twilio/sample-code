@@ -14,11 +14,11 @@ $twilio = new Client($sid, $token);
 $document = $twilio->sync->v1->services("default")
                              ->documents
                              ->create(array(
-                                          'data' => array(
+                                          "data" => array(
                                               "led" => "OFF"
                                           ),
-                                          'uniqueName' => "BoardLED"
+                                          "uniqueName" => "BoardLED"
                                       )
                              );
 
-print($document.sid);
+print($document->sid);

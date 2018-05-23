@@ -15,7 +15,7 @@ public class Example {
         SyncListItem syncListItem = SyncListItem.creator(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                new java.util.HashMap<String, Object>())
+                new HashMap<String, Object>())
             .create();
 
         System.out.println(syncListItem.getIndex());

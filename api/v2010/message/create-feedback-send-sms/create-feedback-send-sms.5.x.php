@@ -14,10 +14,10 @@ $twilio = new Client($sid, $token);
 $message = $twilio->messages
                   ->create("+15558675310",
                            array(
-                               'body' => "Open to confirm: http://yourserver.com/confirm?id=1234567890",
-                               'from' => "+15017122661",
-                               'provideFeedback' => True
+                               "body" => "Open to confirm: http://yourserver.com/confirm?id=1234567890",
+                               "from" => "+15017122661",
+                               "provideFeedback" => True
                            )
                   );
 
-print($message.sid);
+print($message->sid);

@@ -17,4 +17,4 @@ $message_interaction = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXX
                                          ->messageInteractions("KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->fetch();
 
-print($message_interaction.sid);
+print($message_interaction->sid);

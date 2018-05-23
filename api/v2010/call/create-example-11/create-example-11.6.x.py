@@ -9,8 +9,8 @@ client = Client(account_sid, auth_token)
 
 call = client.calls.create(
                         url='http://demo.twilio.com/docs/voice.xml',
-                        from_='+987654321',
-                        to='+123456789'
+                        to='+123456789',
+                        from_='+987654321'
                     )
 
 print(call.sid)

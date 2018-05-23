@@ -15,8 +15,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Call call = Call.creator(
-                new PhoneNumber("+14155551212"),
-                new PhoneNumber("+18668675310"),
+                new com.twilio.type.PhoneNumber("+14155551212"),
+                new com.twilio.type.PhoneNumber("+18668675310"),
                 URI.create("http://demo.twilio.com/docs/voice.xml"))
             .setMethod(HttpMethod.GET)
             .setStatusCallback(URI.create("https://www.myapp.com/events"))

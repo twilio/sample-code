@@ -3,7 +3,7 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "new_role",
-  "type": "deployment",
+  "type": deployment,
   "permissions": [
     "sendMessage",
     "leaveChannel",

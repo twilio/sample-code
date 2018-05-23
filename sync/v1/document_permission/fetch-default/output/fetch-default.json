@@ -2,9 +2,9 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "document_sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "identity": "identity",
-  "read": true,
-  "write": true,
-  "manage": true,
+  "identity": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "read": True,
+  "write": True,
+  "manage": True,
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions/identity"
 }

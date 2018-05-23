@@ -1,8 +1,8 @@
 {
-  "language": "language",
+  "language": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2015-07-30T20:00:00Z",
   "model_build_sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "query": "query",
+  "query": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_updated": "2015-07-30T20:00:00Z",
   "status": "status",
   "sample_sid": "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -10,7 +10,7 @@
   "results": {
     "intent": {
       "name": "name",
-      "intent_sid": "UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "intent_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "confidence": 0.9
     },
     "entities": [

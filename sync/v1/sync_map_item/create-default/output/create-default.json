@@ -1,11 +1,11 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "created_by": "created_by",
-  "data": {},
+  "data": null,
   "date_expires": "2015-07-30T21:00:00Z",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
-  "key": "key",
+  "key": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "revision": "revision",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

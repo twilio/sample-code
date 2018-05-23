@@ -17,12 +17,12 @@ class Program
 
         var address = AddressResource.Create(
             friendlyName: "Billing - Customer 123",
-            city: "Berlin",
             customerName: "Customer 123",
-            isoCountry: "DE",
-            postalCode: "10875",
-            region: "Berlin",
             street: "1 Hasselhoff Lane",
+            city: "Berlin",
+            region: "Berlin",
+            postalCode: "10875",
+            isoCountry: "DE",
             pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

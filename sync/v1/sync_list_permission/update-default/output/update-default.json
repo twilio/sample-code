@@ -2,9 +2,9 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "list_sid": "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "identity": "identity",
-  "read": true,
-  "write": true,
-  "manage": true,
+  "identity": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "read": none,
+  "write": none,
+  "manage": none,
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions/identity"
 }

@@ -9,8 +9,8 @@ client = Client(account_sid, auth_token)
 
 call = client.calls.create(
                         url='http://www.example.com/sipdial.xml',
-                        from_='Jack',
-                        to='sip:kate@example.com'
+                        to='sip:kate@example.com',
+                        from_='Jack'
                     )
 
 print(call.sid)

@@ -14,4 +14,4 @@ $twilio = new Client($sid, $token);
 $service = $twilio->sync->v1->services
                             ->create();
 
-print($service.sid);
+print($service->sid);

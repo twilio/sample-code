@@ -2,9 +2,9 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "identity": "identity",
-  "read": true,
-  "write": true,
-  "manage": true,
+  "identity": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "read": True,
+  "write": True,
+  "manage": True,
   "url": "https://preview.twilio.com/Sync/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions/identity"
 }

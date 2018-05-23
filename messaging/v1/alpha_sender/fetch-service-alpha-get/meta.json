@@ -1,9 +1,7 @@
 {
   "description": "View an Alpha Sender ID in a Messaging Service",
   "original_snippet_path": "messaging/services/service-alpha-get/service-alpha-get.6.x.py",
-  "tags": [
-    "messaging"
-  ],
+  "tags": "['messaging']",
   "title": "View an Alpha Sender ID in a Messaging Service",
   "type": "server"
 }

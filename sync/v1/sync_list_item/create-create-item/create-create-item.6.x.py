@@ -13,7 +13,7 @@ sync_list_item = client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .create(ttl=864000, data={
                                  'number': '001',
                                  'name': 'Bulbasaur',
-                                 'attack': '49'
+                                 'attack': 49
                              })
 
 print(sync_list_item.index)

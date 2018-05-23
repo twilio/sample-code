@@ -6,18 +6,20 @@
   "default_channel_creator_role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "default_channel_role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "default_service_role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "friendly_name": "friendly_name",
+  "friendly_name": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "limits": {
     "actions_per_second": 20,
     "channel_members": 500,
     "user_channels": 600
   },
-  "links": {},
-  "notifications": {},
+  "links": {
+  },
+  "notifications": {
+  },
   "post_webhook_url": "post_webhook_url",
   "pre_webhook_url": "pre_webhook_url",
-  "reachability_enabled": false,
-  "read_status_enabled": false,
+  "reachability_enabled": False,
+  "read_status_enabled": False,
   "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "typing_indicator_timeout": 100,
   "url": "http://www.example.com",
@@ -25,5 +27,6 @@
     "webhook_filters"
   ],
   "webhook_method": "webhook_method",
-  "webhooks": {}
+  "webhooks": {
+  }
 }

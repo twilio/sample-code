@@ -14,8 +14,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Message message = Message.creator(
-                new PhoneNumber("+15558675310"),
-                new PhoneNumber("+15017122661"),
+                new com.twilio.type.PhoneNumber("+15558675310"),
+                new com.twilio.type.PhoneNumber("+15017122661"),
                 "McAvoy or Stewart? These timelines can get so confusing.")
             .setStatusCallback(URI.create("http://requestb.in/1234abcd"))
             .create();

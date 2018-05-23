@@ -3,14 +3,14 @@
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "status": "in-progress",
-  "type": "group",
+  "type": group,
   "sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "enable_turn": true,
+  "enable_turn": True,
   "unique_name": "DailyStandup",
   "max_participants": 10,
   "duration": 0,
   "status_callback_method": "POST",
-  "status_callback": "http://example.org",
+  "status_callback": http://example.org,
   "record_participants_on_connect": true,
   "video_codecs": [
     "VP8"

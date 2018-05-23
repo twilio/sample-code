@@ -15,4 +15,4 @@ $deployment = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXX
                                                ->deployments("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                ->fetch();
 
-print($deployment.friendlyName);
+print($deployment->friendlyName);

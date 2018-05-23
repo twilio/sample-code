@@ -15,8 +15,10 @@ $worker = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                  ->workers
                                  ->create("Support Worker 1",
                                           array(
-                                              'attributes' => "{\"type\":\"support\"}"
+                                              "attributes" => array(
+                                                  "type" => "support"
+                                              )
                                           )
                                  );
 
-print($worker.sid);
+print($worker->sid);

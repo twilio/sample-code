@@ -9,9 +9,9 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .create({
                 endpoint: 'endpoint_id',
                 tag: 'new user',
-                address: 'device_token',
+                identity: '00000001',
                 bindingType: 'apn',
-                identity: '00000001'
+                address: 'device_token'
               })
              .then(binding => console.log(binding.sid))
              .done();
