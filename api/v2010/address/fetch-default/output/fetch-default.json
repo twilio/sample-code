@@ -5,7 +5,7 @@
   "date_created": "Tue, 18 Aug 2015 17:07:30 +0000",
   "date_updated": "Tue, 18 Aug 2015 17:07:30 +0000",
   "emergency_enabled": false,
-  "friendly_name": null,
+  "friendly_name": "friendly_name",
   "iso_country": "US",
   "postal_code": "94019",
   "region": "CA",

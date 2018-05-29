@@ -1,10 +1,10 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "authorize_redirect_url": "http://example.com/redirect",
+  "authorize_redirect_url": "https://example.com",
   "company_name": "Twilio",
   "deauthorize_callback_method": "GET",
   "deauthorize_callback_url": "http://example.com/deauth",
-  "description": null,
+  "description": "description",
   "friendly_name": "Connect app for deletion",
   "homepage_url": "http://example.com/home",
   "permissions": [],

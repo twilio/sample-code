@@ -1,5 +1,5 @@
 {
-  "end": 0,
+  "end": "0",
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains/SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlListMappings.json?SipDomainSid=SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&PageSize=50&Page=0",
   "ip_access_control_list_mappings": [
     {
@@ -15,12 +15,14 @@
     }
   ],
   "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains/SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlListMappings.json?SipDomainSid=SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&PageSize=50&Page=0",
-  "next_page_uri": null,
-  "num_pages": 1,
-  "page": 0,
-  "page_size": 50,
-  "previous_page_uri": null,
-  "start": 0,
-  "total": 1,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains/SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlListMappings.json"
+  "next_page_uri": "",
+  "num_pages": "1",
+  "page": "0",
+  "page_size": "50",
+  "previous_page_uri": "",
+  "start": "0",
+  "total": "1",
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains/SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlListMappings.json",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "domain_sid": "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

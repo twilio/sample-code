@@ -7,16 +7,16 @@
       "date_updated": "2015-07-30T21:00:00Z",
       "date_deleted": "2015-07-30T22:00:00Z",
       "sid": "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "source_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "size": 23,
+      "source_sid": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "size": "23",
       "type": "audio",
-      "duration": 10,
+      "duration": "10",
       "container_format": "mka",
       "codec": "OPUS",
       "track_name": "A name",
       "grouping_sids": {
-        "room_sid": "RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "participant_sid": "PAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "participant_sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       },
       "media_external_location": "https://my-super-duper-bucket.s3.amazonaws.com/my/path/",
       "encryption_key": "public_key",
@@ -28,12 +28,12 @@
     }
   ],
   "meta": {
-    "page": 0,
-    "page_size": 50,
-    "first_page_url": "https://video.twilio.com/v1/Rooms/RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "url": "https://video.twilio.com/v1/Rooms/RMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Recordings?PageSize=50&Page=0",
-    "next_page_url": null,
+    "page": "0",
+    "page_size": "50",
+    "first_page_url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings?PageSize=50&Page=0",
+    "previous_page_url": "",
+    "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings?PageSize=50&Page=0",
+    "next_page_url": "",
     "key": "recordings"
   },
   "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

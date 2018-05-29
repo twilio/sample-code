@@ -23,12 +23,12 @@
     }
   ],
   "meta": {
-    "page": 0,
-    "page_size": 50,
+    "page": "0",
+    "page_size": "50",
     "first_page_url": "https://preview.twilio.com/marketplace/AvailableAddOns?PageSize=50&Page=0",
-    "previous_page_url": null,
+    "previous_page_url": "",
     "url": "https://preview.twilio.com/marketplace/AvailableAddOns?PageSize=50&Page=0",
-    "next_page_url": null,
+    "next_page_url": "",
     "key": "available_add_ons"
   }
 }

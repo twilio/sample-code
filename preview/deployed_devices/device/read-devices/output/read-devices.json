@@ -11,18 +11,18 @@
       "identity": "bob@twilio.com",
       "date_created": "2016-07-30T20:00:00Z",
       "date_updated": "2016-07-30T20:00:00Z",
-      "date_authenticated": null,
+      "date_authenticated": "",
       "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices/THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {
-    "first_page_url": "https://preview.twilio.com/DeployedDevices/Fleets/FLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Devices?PageSize=50&Page=0",
+    "first_page_url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices?PageSize=50&Page=0",
     "key": "devices",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
-    "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Devices?PageSize=50&Page=0"
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "previous_page_url": "",
+    "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices?PageSize=50&Page=0"
   },
   "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

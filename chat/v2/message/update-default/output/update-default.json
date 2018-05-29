@@ -10,9 +10,9 @@
   "last_updated_by": "username",
   "was_edited": true,
   "from": "system",
-  "body": "Hello",
+  "body": "body",
   "index": 0,
   "type": "text",
-  "media": null,
+  "media": {},
   "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

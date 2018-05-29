@@ -1,5 +1,5 @@
 {
-  "end": 0,
+  "end": "0",
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers.json?PageSize=1&Page=0",
   "incoming_phone_numbers": [
     {
@@ -7,7 +7,7 @@
       "address_requirements": "none",
       "address_sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "api_version": "2010-04-01",
-      "beta": null,
+      "beta": "",
       "capabilities": {
         "mms": true,
         "sms": false,
@@ -20,34 +20,34 @@
       "friendly_name": "(808) 925-5327",
       "identity_sid": "RIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "origin": "origin",
-      "phone_number": "867",
+      "phone_number": "+18089255327",
       "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "sms_application_sid": "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sms_application_sid": "",
       "sms_fallback_method": "POST",
       "sms_fallback_url": "",
       "sms_method": "POST",
       "sms_url": "",
       "status_callback": "",
       "status_callback_method": "POST",
-      "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "trunk_sid": "",
       "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-      "voice_application_sid": "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "voice_application_sid": "",
       "voice_caller_id_lookup": false,
       "voice_fallback_method": "POST",
-      "voice_fallback_url": null,
+      "voice_fallback_url": "",
       "voice_method": "POST",
-      "voice_url": null
+      "voice_url": ""
     }
   ],
   "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers.json?PageSize=1&Page=2",
-  "next_page_uri": null,
-  "num_pages": 3,
-  "page": 0,
-  "page_size": 1,
-  "previous_page_uri": null,
-  "start": 0,
-  "total": 3,
+  "next_page_uri": "",
+  "num_pages": "3",
+  "page": "0",
+  "page_size": "1",
+  "previous_page_uri": "",
+  "start": "0",
+  "total": "3",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers.json?PageSize=1",
-  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "phone_number": "867"
+  "phone_number": "867",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

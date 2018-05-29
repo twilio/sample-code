@@ -12,7 +12,7 @@
       "more_info": "more_info",
       "request_method": "GET",
       "request_url": "http://www.example.com",
-      "resource_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "resource_sid": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "url": "http://www.example.com"
     }
@@ -20,10 +20,10 @@
   "meta": {
     "first_page_url": "https://monitor.twilio.com/v1/Alerts?Page=0&PageSize=50",
     "key": "alerts",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 1,
-    "previous_page_url": null,
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "1",
+    "previous_page_url": "",
     "url": "https://monitor.twilio.com/v1/Alerts"
   }
 }

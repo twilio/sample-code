@@ -8,9 +8,9 @@
   "default_service_role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "friendly_name",
   "limits": {
-    "actions_per_second": 20,
-    "channel_members": 500,
-    "user_channels": 600
+    "actions_per_second": "20",
+    "channel_members": "500",
+    "user_channels": "600"
   },
   "links": {},
   "notifications": {},

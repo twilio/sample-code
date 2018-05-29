@@ -1,13 +1,13 @@
 {
   "first_page_uri": "/2010-04-01/Accounts.json?PageSize=50&Page=0",
-  "end": 0,
-  "previous_page_uri": null,
+  "end": "0",
+  "previous_page_uri": "",
   "accounts": [
     {
       "auth_token": "auth_token",
       "date_created": "Thu, 30 Jul 2015 20:00:00 +0000",
       "date_updated": "Thu, 30 Jul 2015 20:00:00 +0000",
-      "friendly_name": "MySubaccount",
+      "friendly_name": "friendly_name",
       "owner_account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "status": "active",
@@ -37,9 +37,9 @@
     }
   ],
   "uri": "/2010-04-01/Accounts.json?PageSize=50&Page=0",
-  "page_size": 50,
-  "start": 0,
-  "next_page_uri": null,
-  "page": 0,
+  "page_size": "50",
+  "start": "0",
+  "next_page_uri": "",
+  "page": "0",
   "friendly_name": "MySubaccount"
 }

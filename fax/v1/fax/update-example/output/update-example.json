@@ -5,18 +5,18 @@
   "date_updated": "2015-07-30T20:00:00Z",
   "direction": "outbound",
   "from": "+14155551234",
-  "media_url": null,
+  "media_url": "media_url",
   "media_sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "num_pages": null,
-  "price": null,
-  "price_unit": null,
-  "quality": null,
-  "sid": "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "num_pages": "null",
+  "price": "-0.0300",
+  "price_unit": "usd",
+  "quality": "standard",
+  "sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "canceled",
   "to": "+14155554321",
-  "duration": null,
+  "duration": "null",
   "links": {
     "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   },
-  "url": "https://fax.twilio.com/v1/Faxes/FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

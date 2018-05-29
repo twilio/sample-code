@@ -1,8 +1,8 @@
 {
-  "end": 0,
+  "end": "0",
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json?PageSize=1&Page=0",
   "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json?PageSize=1&Page=100",
-  "next_page_uri": null,
+  "next_page_uri": "",
   "notifications": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -15,21 +15,19 @@
       "message_date": "Thu, 30 Apr 2015 16:47:32 +0000",
       "message_text": "LogLevel=WARN&invalidStatusCallbackUrl=&Msg=Invalid+Url+for+callSid%3A+CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX+invalid+statusCallbackUrl%3A+&ErrorCode=21609",
       "more_info": "https://www.twilio.com/docs/errors/21609",
-      "request_method": null,
+      "request_method": "",
       "request_url": "",
       "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications/NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "message_date>": "2009-07-06"
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications/NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
-  "num_pages": 101,
-  "page": 0,
-  "page_size": 1,
-  "previous_page_uri": null,
-  "start": 0,
-  "total": 101,
+  "num_pages": "101",
+  "page": "0",
+  "page_size": "1",
+  "previous_page_uri": "",
+  "start": "0",
+  "total": "101",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json?PageSize=1&Page=0",
-  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "log": "1",
-  "message_date>": "2009-07-06"
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

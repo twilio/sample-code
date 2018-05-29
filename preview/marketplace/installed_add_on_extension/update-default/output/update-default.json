@@ -4,6 +4,6 @@
   "friendly_name": "Incoming Voice Call",
   "product_name": "Programmable Voice",
   "unique_name": "voice-incoming",
-  "enabled": false,
+  "enabled": true,
   "url": "https://preview.twilio.com/marketplace/InstalledAddOns/XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Extensions/XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

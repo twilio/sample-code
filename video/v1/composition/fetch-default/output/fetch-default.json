@@ -3,15 +3,15 @@
   "status": "completed",
   "date_created": "2015-07-30T20:00:00Z",
   "date_completed": "2015-07-30T20:01:33Z",
-  "date_deleted": null,
+  "date_deleted": "2008-01-02",
   "sid": "CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "audio_sources": [
-    "PAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "user*"
   ],
   "audio_sources_excluded": [
-    "RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
   ],
   "video_layout": {
     "grid": {
@@ -19,31 +19,31 @@
         "*"
       ],
       "video_sources_excluded": [
-        "MTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       ],
       "reuse": "show_oldest",
-      "x_pos": 100,
-      "y_pos": 600,
-      "z_pos": 10,
-      "width": 0,
-      "height": 0,
-      "max_columns": 0,
-      "max_rows": 0,
+      "x_pos": "100",
+      "y_pos": "600",
+      "z_pos": "10",
+      "width": "0",
+      "height": "0",
+      "max_columns": "0",
+      "max_rows": "0",
       "cells_excluded": []
     },
     "pip": {
       "video_sources": [
-        "RTaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+        "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       ],
       "video_sources_excluded": [],
       "reuse": "none",
-      "x_pos": 100,
-      "y_pos": 600,
-      "z_pos": 10,
-      "width": 0,
-      "height": 0,
-      "max_columns": 0,
-      "max_rows": 0,
+      "x_pos": "100",
+      "y_pos": "600",
+      "z_pos": "10",
+      "width": "0",
+      "height": "0",
+      "max_columns": "0",
+      "max_rows": "0",
       "cells_excluded": []
     }
   },
@@ -53,8 +53,8 @@
   "size": 4,
   "duration": 6,
   "trim": true,
-  "media_external_location": null,
-  "encryption_key": null,
+  "media_external_location": "https://example.com",
+  "encryption_key": "publickey",
   "url": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "media": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"

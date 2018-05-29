@@ -4,12 +4,12 @@
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "start_time": "2015-07-30T20:00:00Z",
-  "end_time": null,
+  "end_time": "2008-01-02",
   "sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "identity": "bob",
   "status": "connected",
   "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "duration": null,
+  "duration": "null",
   "links": {
     "published_tracks": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PublishedTracks",
     "subscribed_tracks": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SubscribedTracks"

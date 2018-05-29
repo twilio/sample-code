@@ -1,6 +1,6 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "friendly_name": "My Service!",
+  "friendly_name": "friendly_name",
   "sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2015-07-30T20:12:31Z",
   "date_updated": "2015-07-30T20:12:33Z",
@@ -14,7 +14,7 @@
   "validity_period": 600,
   "inbound_request_url": "https://www.example.com",
   "inbound_method": "POST",
-  "fallback_url": null,
+  "fallback_url": "https://example.com",
   "fallback_method": "POST",
   "status_callback": "https://www.example.com",
   "links": {

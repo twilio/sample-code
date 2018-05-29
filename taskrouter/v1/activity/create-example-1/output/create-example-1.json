@@ -1,6 +1,6 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "available": "true",
+  "available": true,
   "date_created": "2014-05-14T10:50:02Z",
   "date_updated": "2014-05-14T23:26:06Z",
   "friendly_name": "NewAvailableActivity",

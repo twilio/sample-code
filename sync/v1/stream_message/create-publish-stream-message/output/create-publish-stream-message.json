@@ -1,6 +1,10 @@
 {
   "sid": "TZXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "data": "{\"id\": \"bob\", \"x\": 256, \"y\": 42}",
+  "data": {
+    "id": "bob",
+    "x": "256",
+    "y": "42"
+  },
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "stream_sid": "MyStream"
 }

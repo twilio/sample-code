@@ -1,11 +1,11 @@
 {
   "meta": {
-    "page": 0,
-    "page_size": 50,
-    "first_page_url": "https://chat.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "url": "https://chat.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages?PageSize=50&Page=0",
-    "next_page_url": null,
+    "page": "0",
+    "page_size": "50",
+    "first_page_url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
+    "previous_page_url": "",
+    "url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
+    "next_page_url": "",
     "key": "messages"
   },
   "messages": [
@@ -19,10 +19,12 @@
       "date_updated": "2016-03-24T20:37:57Z",
       "was_edited": false,
       "from": "system",
-      "attributes": "{}",
+      "attributes": {},
       "body": "Hello",
-      "index": 0,
+      "index": "0",
       "url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
-  ]
+  ],
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -1,12 +1,12 @@
 {
   "meta": {
-    "page": 0,
+    "page": "0",
     "key": "model_builds",
-    "url": "https://preview.twilio.com/understand/Assistants/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/ModelBuilds?PageSize=50&Page=0",
-    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/ModelBuilds?PageSize=50&Page=0",
-    "next_page_url": null,
-    "previous_page_url": null,
-    "page_size": 50
+    "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ModelBuilds?PageSize=50&Page=0",
+    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ModelBuilds?PageSize=50&Page=0",
+    "next_page_url": "",
+    "previous_page_url": "",
+    "page_size": "50"
   },
   "model_builds": [
     {
@@ -18,8 +18,9 @@
       "date_created": "2015-07-30T20:00:00Z",
       "sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "unique_name": "unique_name",
-      "build_duration": null,
-      "error_code": 23001
+      "build_duration": "",
+      "error_code": "23001"
     }
-  ]
+  ],
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

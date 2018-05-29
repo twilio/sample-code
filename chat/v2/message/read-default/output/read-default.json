@@ -1,11 +1,11 @@
 {
   "meta": {
-    "page": 0,
-    "page_size": 50,
-    "first_page_url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages?PageSize=50&Page=0",
-    "next_page_url": null,
+    "page": "0",
+    "page_size": "50",
+    "first_page_url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
+    "previous_page_url": "",
+    "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
+    "next_page_url": "",
     "key": "messages"
   },
   "messages": [
@@ -17,14 +17,14 @@
       "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "2016-03-24T20:37:57Z",
       "date_updated": "2016-03-24T20:37:57Z",
-      "last_updated_by": null,
+      "last_updated_by": "",
       "was_edited": false,
       "from": "system",
-      "attributes": "{}",
+      "attributes": {},
       "body": "Hello",
-      "index": 0,
+      "index": "0",
       "type": "text",
-      "media": null,
+      "media": "",
       "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
@@ -35,20 +35,22 @@
       "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "2016-03-24T20:37:57Z",
       "date_updated": "2016-03-24T20:37:57Z",
-      "last_updated_by": null,
+      "last_updated_by": "",
       "was_edited": false,
       "from": "system",
-      "attributes": "{}",
+      "attributes": {},
       "body": "Hello",
-      "index": 0,
+      "index": "0",
       "type": "media",
       "media": {
-        "sid": "MEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "size": 99999999999999,
+        "sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "size": "99999999999999",
         "content_type": "application/pdf",
         "filename": "hello.pdf"
       },
       "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
-  ]
+  ],
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

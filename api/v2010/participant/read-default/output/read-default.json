@@ -1,9 +1,9 @@
 {
-  "end": 0,
+  "end": "0",
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants.json?Page=0&PageSize=50",
-  "next_page_uri": null,
-  "page": 0,
-  "page_size": 50,
+  "next_page_uri": "",
+  "page": "0",
+  "page_size": "50",
   "participants": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -19,7 +19,9 @@
       "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
     }
   ],
-  "previous_page_uri": null,
-  "start": 0,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants.json"
+  "previous_page_uri": "",
+  "start": "0",
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants.json",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "conference_sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

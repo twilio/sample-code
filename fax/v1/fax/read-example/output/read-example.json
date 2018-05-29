@@ -9,14 +9,14 @@
       "from": "+14155551234",
       "media_url": "https://www.example.com/fax.pdf",
       "media_sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "num_pages": null,
-      "price": null,
-      "price_unit": null,
-      "quality": null,
+      "num_pages": "",
+      "price": "",
+      "price_unit": "",
+      "quality": "",
       "sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "status": "queued",
       "to": "+14155554321",
-      "duration": null,
+      "duration": "",
       "links": {
         "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
       },
@@ -26,10 +26,10 @@
   "meta": {
     "first_page_url": "https://fax.twilio.com/v1/Faxes?PageSize=50&Page=0",
     "key": "faxes",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "previous_page_url": "",
     "url": "https://fax.twilio.com/v1/Faxes?PageSize=50&Page=0"
   }
 }

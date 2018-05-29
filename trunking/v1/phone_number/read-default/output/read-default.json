@@ -1,12 +1,12 @@
 {
   "meta": {
-    "first_page_url": "https://trunking.twilio.com/v1/Trunks/TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/PhoneNumbers?PageSize=1&Page=0",
+    "first_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers?PageSize=1&Page=0",
     "key": "phone_numbers",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 1,
-    "previous_page_url": null,
-    "url": "https://trunking.twilio.com/v1/Trunks/TRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/PhoneNumbers?PageSize=1&Page=0"
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "1",
+    "previous_page_url": "",
+    "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers?PageSize=1&Page=0"
   },
   "phone_numbers": [
     {
@@ -15,22 +15,22 @@
       "date_updated": "2015-10-09T11:36:32Z",
       "friendly_name": "(415) 867-5309",
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "phone_number": "+15017122661",
+      "phone_number": "+14158675309",
       "api_version": "2010-04-01",
-      "voice_caller_id_lookup": null,
+      "voice_caller_id_lookup": "",
       "voice_url": "",
       "voice_method": "POST",
-      "voice_fallback_url": null,
-      "voice_fallback_method": null,
+      "voice_fallback_url": "",
+      "voice_fallback_method": "",
       "status_callback": "",
       "status_callback_method": "POST",
-      "voice_application_sid": "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "voice_application_sid": "",
+      "trunk_sid": "TKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sms_url": "",
       "sms_method": "POST",
       "sms_fallback_url": "",
       "sms_fallback_method": "POST",
-      "sms_application_sid": "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sms_application_sid": "",
       "address_requirements": "none",
       "beta": false,
       "url": "https://trunking.twilio.com/v1/Trunks/TKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -43,5 +43,6 @@
         "phone_number": "https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
       }
     }
-  ]
+  ],
+  "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

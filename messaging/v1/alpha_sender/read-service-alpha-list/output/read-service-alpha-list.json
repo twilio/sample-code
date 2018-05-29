@@ -1,17 +1,17 @@
 {
   "meta": {
-    "page": 0,
-    "page_size": 50,
-    "first_page_url": "https://messaging.twilio.com/v1/Services/MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/AlphaSenders?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "next_page_url": null,
+    "page": "0",
+    "page_size": "50",
+    "first_page_url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/AlphaSenders?PageSize=50&Page=0",
+    "previous_page_url": "",
+    "next_page_url": "",
     "key": "alpha_senders",
-    "url": "https://messaging.twilio.com/v1/Services/MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/AlphaSenders?PageSize=50&Page=0"
+    "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/AlphaSenders?PageSize=50&Page=0"
   },
   "alpha_senders": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a",
+      "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "2015-07-30T20:12:31Z",
       "date_updated": "2015-07-30T20:12:33Z",

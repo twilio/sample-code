@@ -1,7 +1,7 @@
 {
   "first_page_uri": "/2010-04-01/Accounts.json?PageSize=50&Page=0",
-  "end": 0,
-  "previous_page_uri": null,
+  "end": "0",
+  "previous_page_uri": "",
   "accounts": [
     {
       "auth_token": "auth_token",
@@ -37,9 +37,9 @@
     }
   ],
   "uri": "/2010-04-01/Accounts.json?PageSize=50&Page=0",
-  "page_size": 50,
-  "start": 0,
-  "next_page_uri": null,
-  "page": 0,
+  "page_size": "50",
+  "start": "0",
+  "next_page_uri": "",
+  "page": "0",
   "status": "active"
 }

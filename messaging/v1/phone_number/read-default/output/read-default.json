@@ -1,12 +1,12 @@
 {
   "meta": {
-    "page": 0,
-    "page_size": 50,
-    "first_page_url": "https://messaging.twilio.com/v1/Services/MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/PhoneNumbers?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "next_page_url": null,
+    "page": "0",
+    "page_size": "50",
+    "first_page_url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers?PageSize=50&Page=0",
+    "previous_page_url": "",
+    "next_page_url": "",
     "key": "phone_numbers",
-    "url": "https://messaging.twilio.com/v1/Services/MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/PhoneNumbers?PageSize=50&Page=0"
+    "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers?PageSize=50&Page=0"
   },
   "phone_numbers": [
     {
@@ -15,10 +15,11 @@
       "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "2015-07-30T20:12:31Z",
       "date_updated": "2015-07-30T20:12:33Z",
-      "phone_number": "+15017122661",
+      "phone_number": "+987654321",
       "country_code": "US",
       "capabilities": [],
       "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
-  ]
+  ],
+  "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

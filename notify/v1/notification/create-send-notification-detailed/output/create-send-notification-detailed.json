@@ -1,5 +1,5 @@
 {
-  "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "NOb8021351170b4e1286adaac3fdd6d082",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2016-03-24T23:42:28Z",
@@ -12,14 +12,28 @@
   "ttl": 2419200,
   "title": "Generic loooooooong title for all Bindings",
   "body": "This is the body for all Bindings",
-  "sound": null,
-  "action": null,
-  "data": "{\"custom_key1\":\"custom value 1\",\"custom_key2\":\"custom value 2\"}",
-  "apn": "{\"aps\":{\"alert\":{\"title\":\"Short title for Watch.\"}}}",
-  "fcm": "{\"notification\":{\"title\":\"New alert\",\"body\":\"Hello Bob!\"}}",
-  "gcm": null,
-  "sms": null,
-  "facebook_messenger": null,
-  "alexa": null,
+  "sound": "sound",
+  "action": "action",
+  "data": {
+    "custom_key1": "custom value 1",
+    "custom_key2": "custom value 2"
+  },
+  "apn": {
+    "aps": {
+      "alert": {
+        "title": "Short title for Watch."
+      }
+    }
+  },
+  "fcm": {
+    "notification": {
+      "title": "New alert",
+      "body": "Hello Bob!"
+    }
+  },
+  "gcm": {},
+  "sms": {},
+  "facebook_messenger": {},
+  "alexa": {},
   "identity": "00000001"
 }

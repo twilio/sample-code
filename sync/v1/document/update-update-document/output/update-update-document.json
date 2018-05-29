@@ -1,7 +1,9 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "created_by": "created_by",
-  "data": "{\"led\": \"ON\"}",
+  "data": {
+    "led": "ON"
+  },
   "date_expires": "2015-07-30T21:00:00Z",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
@@ -9,8 +11,8 @@
   "service_sid": "default",
   "sid": "BoardLED",
   "unique_name": "unique_name",
-  "url": "https://sync.twilio.com/v1/Services/default/Documents/BoardLED",
+  "url": "https://sync.twilio.com/v1/Services/default/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
-    "permissions": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions"
+    "permissions": "https://sync.twilio.com/v1/Services/default/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions"
   }
 }

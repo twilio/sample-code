@@ -1,12 +1,12 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "address": "address",
-  "binding_type": "binding_type",
+  "binding_type": "apn",
   "credential_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "endpoint": "endpoint",
-  "identity": "identity",
+  "identity": "NUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "user": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity"
   },

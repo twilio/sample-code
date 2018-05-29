@@ -2,10 +2,10 @@
   "caller_name": {
     "caller_name": "Delicious Cheese Cake",
     "caller_type": "CONSUMER",
-    "error_code": null
+    "error_code": ""
   },
   "carrier": {
-    "error_code": null,
+    "error_code": "",
     "mobile_country_code": "310",
     "mobile_network_code": "456",
     "name": "verizon",
@@ -16,8 +16,8 @@
   "phone_number": "+15108675310",
   "add_ons": {
     "status": "successful",
-    "message": null,
-    "code": null,
+    "message": "",
+    "code": "",
     "results": {}
   },
   "url": "https://lookups.twilio.com/v1/PhoneNumbers/phone_number"

@@ -2,10 +2,10 @@
   "meta": {
     "first_page_url": "https://taskrouter.twilio.com/v1/Workspaces?PageSize=50&Page=0",
     "key": "workspaces",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "previous_page_url": "",
     "url": "https://taskrouter.twilio.com/v1/Workspaces?PageSize=50&Page=0"
   },
   "workspaces": [
@@ -16,7 +16,7 @@
       "default_activity_name": "Offline",
       "default_activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "event_callback_url": "",
-      "events_filter": null,
+      "events_filter": "",
       "friendly_name": "new",
       "links": {
         "activities": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Activities",

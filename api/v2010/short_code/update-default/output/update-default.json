@@ -1,14 +1,14 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "api_version": "2010-04-01",
-  "date_created": null,
-  "date_updated": null,
-  "friendly_name": "API_CLUSTER_TEST_SHORT_CODE",
+  "date_created": "2008-01-02",
+  "date_updated": "2008-01-02",
+  "friendly_name": "friendly_name",
   "short_code": "99990",
   "sid": "SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sms_fallback_method": "POST",
-  "sms_fallback_url": null,
+  "sms_fallback_url": "https://example.com",
   "sms_method": "POST",
-  "sms_url": null,
+  "sms_url": "https://example.com",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SMS/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

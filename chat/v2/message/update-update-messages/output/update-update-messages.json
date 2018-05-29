@@ -13,6 +13,6 @@
   "body": "MESSAGE",
   "index": 0,
   "type": "text",
-  "media": null,
+  "media": {},
   "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

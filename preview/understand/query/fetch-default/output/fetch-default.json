@@ -10,8 +10,8 @@
   "results": {
     "intent": {
       "name": "name",
-      "intent_sid": "UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "confidence": 0.9
+      "intent_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "confidence": ""
     },
     "entities": [
       {

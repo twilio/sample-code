@@ -7,6 +7,6 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .webhooks('WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .update({"configuration.url": "configuration.url"})
+           .update({"configuration.url": 'configuration.url'})
            .then(webhook => console.log(webhook.sid))
            .done();

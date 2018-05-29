@@ -14,12 +14,14 @@
     }
   ],
   "meta": {
-    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/FieldTypes/UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/FieldValues?PageSize=50&Page=0",
-    "page_size": 50,
-    "previous_page_url": null,
+    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes/UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldValues?PageSize=50&Page=0",
+    "page_size": "50",
+    "previous_page_url": "",
     "key": "field_values",
-    "page": 0,
-    "next_page_url": null,
-    "url": "https://preview.twilio.com/understand/Assistants/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/FieldTypes/UBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/FieldValues?PageSize=50&Page=0"
-  }
+    "page": "0",
+    "next_page_url": "",
+    "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes/UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldValues?PageSize=50&Page=0"
+  },
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "field_type_sid": "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -12,5 +12,8 @@
   },
   "sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "signing",
-  "url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "hosted_number_order_sids": [
+    "hosted_number_order_sids"
+  ]
 }

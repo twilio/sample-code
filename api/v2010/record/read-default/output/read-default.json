@@ -1,21 +1,21 @@
 {
-  "end": 0,
+  "end": "0",
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records?Page=0&PageSize=1",
   "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records?Page=68&PageSize=1",
-  "next_page_uri": null,
-  "num_pages": 69,
-  "page": 0,
-  "page_size": 1,
-  "previous_page_uri": null,
-  "start": 0,
-  "total": 69,
+  "next_page_uri": "",
+  "num_pages": "69",
+  "page": "0",
+  "page_size": "1",
+  "previous_page_uri": "",
+  "start": "0",
+  "total": "69",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records",
   "usage_records": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "api_version": "2010-04-01",
       "category": "totalprice",
-      "count": null,
+      "count": "",
       "count_unit": "",
       "description": "Total Price",
       "end_date": "2015-09-04",
@@ -36,5 +36,6 @@
       "usage": "2192.84855",
       "usage_unit": "usd"
     }
-  ]
+  ],
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

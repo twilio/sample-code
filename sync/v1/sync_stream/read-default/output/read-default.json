@@ -16,12 +16,13 @@
     }
   ],
   "meta": {
-    "first_page_url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Streams?PageSize=50&Page=0",
+    "first_page_url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Streams?PageSize=50&Page=0",
     "key": "streams",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
-    "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Streams?PageSize=50&Page=0"
-  }
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "previous_page_url": "",
+    "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Streams?PageSize=50&Page=0"
+  },
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

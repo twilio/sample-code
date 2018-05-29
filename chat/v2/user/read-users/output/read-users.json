@@ -1,11 +1,11 @@
 {
   "meta": {
-    "page": 0,
-    "page_size": 50,
-    "first_page_url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users?PageSize=50&Page=0",
-    "next_page_url": null,
+    "page": "0",
+    "page_size": "50",
+    "first_page_url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users?PageSize=50&Page=0",
+    "previous_page_url": "",
+    "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users?PageSize=50&Page=0",
+    "next_page_url": "",
     "key": "users"
   },
   "users": [
@@ -15,13 +15,13 @@
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "identity": "jing",
-      "attributes": null,
+      "attributes": "",
       "is_online": true,
-      "is_notifiable": null,
-      "friendly_name": null,
+      "is_notifiable": "",
+      "friendly_name": "",
       "date_created": "2016-03-24T21:05:19Z",
       "date_updated": "2016-03-24T21:05:19Z",
-      "joined_channels_count": 0,
+      "joined_channels_count": "0",
       "links": {
         "user_channels": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels",
         "user_bindings": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Bindings"

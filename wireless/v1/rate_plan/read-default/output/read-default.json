@@ -2,32 +2,32 @@
   "meta": {
     "first_page_url": "https://wireless.twilio.com/v1/RatePlans?PageSize=50&Page=0",
     "key": "rate_plans",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "previous_page_url": "",
     "url": "https://wireless.twilio.com/v1/RatePlans?PageSize=50&Page=0"
   },
   "rate_plans": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "unique_name": "unique_name",
-      "data_enabled": True,
-      "data_limit": 1000,
+      "data_enabled": true,
+      "data_limit": "1000",
       "data_metering": "pooled",
       "date_created": "2015-07-30T20:00:00Z",
       "date_updated": "2015-07-30T20:00:00Z",
       "friendly_name": "friendly_name",
-      "messaging_enabled": True,
-      "voice_enabled": True,
-      "national_roaming_enabled": True,
-      "national_roaming_data_limit": 1000,
+      "messaging_enabled": true,
+      "voice_enabled": true,
+      "national_roaming_enabled": true,
+      "national_roaming_data_limit": "1000",
       "international_roaming": [
         "data",
         "messaging",
         "voice"
       ],
-      "international_roaming_data_limit": 1000,
+      "international_roaming_data_limit": "1000",
       "sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "url": "https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }

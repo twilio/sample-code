@@ -16,8 +16,8 @@ $stream_message = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->streamMessages
                                    ->create(array(
                                                 "id" => "bob",
-                                                "x" => 256,
-                                                "y" => 42
+                                                "x" => "256",
+                                                "y" => "42"
                                             )
                                    );
 

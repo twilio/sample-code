@@ -6,7 +6,7 @@
   "include_subaccounts": false,
   "issues": [
     {
-      "count": 45,
+      "count": "45",
       "description": "imperfect-audio",
       "percentage_of_total_calls": "0.04%"
     }

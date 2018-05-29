@@ -7,7 +7,7 @@
   "end_time": "2017-07-30T20:00:01Z",
   "sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "identity": "alice",
-  "status": "disconnected",
+  "status": "connected",
   "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "duration": 1,
   "links": {

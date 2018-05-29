@@ -5,7 +5,7 @@
       "api_version": "2010-04-01",
       "date_created": "Mon, 22 Aug 2011 20:58:45 +0000",
       "date_updated": "Mon, 22 Aug 2011 20:58:46 +0000",
-      "friendly_name": "MyRoom",
+      "friendly_name": "",
       "region": "us1",
       "sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "status": "in-progress",
@@ -16,15 +16,15 @@
       "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
     }
   ],
-  "end": 0,
+  "end": "0",
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?PageSize=1&Page=0",
-  "next_page_uri": null,
-  "page": 0,
-  "page_size": 1,
-  "previous_page_uri": null,
-  "start": 0,
+  "next_page_uri": "",
+  "page": "0",
+  "page_size": "1",
+  "previous_page_uri": "",
+  "start": "0",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?PageSize=1",
-  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "MyRoom",
-  "status": "in-progress"
+  "status": "in-progress",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

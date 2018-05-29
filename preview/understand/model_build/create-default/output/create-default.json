@@ -7,6 +7,6 @@
   "date_created": "2015-07-30T20:00:00Z",
   "sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "unique_name",
-  "build_duration": null,
-  "error_code": null
+  "build_duration": "null",
+  "error_code": "null"
 }

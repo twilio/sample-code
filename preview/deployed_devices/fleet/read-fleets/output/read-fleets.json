@@ -1,13 +1,13 @@
 {
   "fleets": [
     {
-      "sid": "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "unique_name": "unique_name",
       "friendly_name": "friendly_name",
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "default_deployment_sid": "DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "2016-07-30T20:00:00Z",
-      "date_updated": null,
+      "date_updated": "",
       "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "links": {
         "devices": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices",
@@ -20,10 +20,10 @@
   "meta": {
     "first_page_url": "https://preview.twilio.com/DeployedDevices/Fleets?PageSize=50&Page=0",
     "key": "fleets",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "previous_page_url": "",
     "url": "https://preview.twilio.com/DeployedDevices/Fleets?PageSize=50&Page=0"
   }
 }

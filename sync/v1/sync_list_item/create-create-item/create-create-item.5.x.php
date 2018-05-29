@@ -17,7 +17,7 @@ $sync_list_item = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->create(array(
                                                 "number" => "001",
                                                 "name" => "Bulbasaur",
-                                                "attack" => 49
+                                                "attack" => "49"
                                             ),
                                             array("ttl" => 864000)
                                    );

@@ -5,7 +5,7 @@
   "status": "published",
   "version": 1,
   "date_created": "2017-11-06T12:00:00Z",
-  "date_updated": null,
+  "date_updated": "2008-01-02",
   "url": "https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "engagements": "https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Engagements"

@@ -9,7 +9,7 @@
   "date_updated": "2017-05-30T23:32:39Z",
   "friendly_name": "NewWorker3",
   "sid": "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "channels": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels",

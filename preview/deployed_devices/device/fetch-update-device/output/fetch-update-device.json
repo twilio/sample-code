@@ -9,6 +9,6 @@
   "identity": "bob@twilio.com",
   "date_created": "2016-07-30T20:00:00Z",
   "date_updated": "2016-07-30T20:00:00Z",
-  "date_authenticated": null,
+  "date_authenticated": "2008-01-02",
   "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices/THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

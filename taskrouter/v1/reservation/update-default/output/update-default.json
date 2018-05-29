@@ -7,10 +7,10 @@
     "worker": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "workspace": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
   },
-  "reservation_status": "accepted",
+  "reservation_status": "pending",
   "sid": "WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "task_sid": "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Workers/WKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Reservations/WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Reservations/WRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "worker_name": "Doug",
   "worker_sid": "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

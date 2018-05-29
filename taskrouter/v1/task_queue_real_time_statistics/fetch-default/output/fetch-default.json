@@ -2,32 +2,32 @@
   "longest_task_waiting_age": 100,
   "task_queue_sid": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "tasks_by_status": {
-    "reserved": 0,
-    "pending": 0,
-    "assigned": 0,
-    "wrapping": 0
+    "reserved": "0",
+    "pending": "0",
+    "assigned": "0",
+    "wrapping": "0"
   },
   "total_eligible_workers": 100,
   "activity_statistics": [
     {
       "friendly_name": "Idle",
-      "workers": 0,
-      "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "workers": "0",
+      "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Busy",
-      "workers": 9,
-      "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "workers": "9",
+      "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Offline",
-      "workers": 6,
-      "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "workers": "6",
+      "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Reserved",
-      "workers": 0,
-      "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "workers": "0",
+      "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "tasks_by_priority": {},
@@ -35,5 +35,5 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "total_available_workers": 100,
-  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/TaskQueues/WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RealTimeStatistics"
+  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskQueues/WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RealTimeStatistics"
 }

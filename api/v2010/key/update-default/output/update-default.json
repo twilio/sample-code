@@ -1,6 +1,7 @@
 {
   "sid": "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "friendly_name": "foo",
+  "friendly_name": "friendly_name",
   "date_created": "Mon, 13 Jun 2016 22:50:08 +0000",
-  "date_updated": "Mon, 13 Jun 2016 22:50:08 +0000"
+  "date_updated": "Mon, 13 Jun 2016 22:50:08 +0000",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

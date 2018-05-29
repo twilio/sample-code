@@ -1,9 +1,9 @@
 {
   "country": "Iran",
   "inbound_call_price": {
-    "base_price": null,
-    "current_price": null,
-    "number_type": null
+    "base_price": "",
+    "current_price": "",
+    "number_type": ""
   },
   "iso_country": "IR",
   "number": "+15017122661",

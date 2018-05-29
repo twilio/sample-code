@@ -4,8 +4,9 @@
   "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2015-07-30T20:12:31Z",
   "date_updated": "2015-07-30T20:12:33Z",
-  "phone_number": "+15017122661",
+  "phone_number": "+987654321",
   "country_code": "US",
   "capabilities": [],
-  "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

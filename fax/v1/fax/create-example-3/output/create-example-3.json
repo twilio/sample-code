@@ -7,14 +7,14 @@
   "from": "Jack",
   "media_url": "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
   "media_sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "num_pages": null,
-  "price": null,
-  "price_unit": null,
+  "num_pages": "null",
+  "price": "-0.0300",
+  "price_unit": "usd",
   "quality": "superfine",
   "sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "queued",
   "to": "sip:kate@example.com?hatchkey=4815162342;transport=TCP",
-  "duration": null,
+  "duration": "null",
   "links": {
     "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   },

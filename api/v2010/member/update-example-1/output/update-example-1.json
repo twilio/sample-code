@@ -2,10 +2,10 @@
   "call_sid": "Front",
   "date_enqueued": "Tue, 07 Aug 2012 22:57:41 +0000",
   "position": 1,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queues/QU5ef8732a3c49700934481addd5ce1659/Members/Front.json",
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queues/QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Members/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
   "wait_time": 143,
-  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "http://demo.twilio.com/docs/voice.xml",
   "method": "POST",
-  "queue_sid": "QU5ef8732a3c49700934481addd5ce1659",
-  "url": "http://demo.twilio.com/docs/voice.xml"
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "queue_sid": "QU5ef8732a3c49700934481addd5ce1659"
 }

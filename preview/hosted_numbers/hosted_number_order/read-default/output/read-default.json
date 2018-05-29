@@ -2,17 +2,17 @@
   "meta": {
     "first_page_url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders?PageSize=50&Page=0",
     "key": "items",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "previous_page_url": "",
     "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders?PageSize=50&Page=0"
   },
   "items": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "address_sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "call_delay": 15,
+      "address_sid": "AD11111111111111111111111111111111",
+      "call_delay": "15",
       "capabilities": {
         "sms": true,
         "voice": false
@@ -27,20 +27,20 @@
       "extension": "1234",
       "failure_reason": "",
       "friendly_name": "friendly_name",
-      "incoming_phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "phone_number": "+15017122661",
+      "incoming_phone_number_sid": "PN11111111111111111111111111111111",
+      "phone_number": "+14153608311",
       "sid": "HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "signing_document_sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "signing_document_sid": "PX11111111111111111111111111111111",
       "status": "received",
       "unique_name": "foobar",
       "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "verification_attempts": 0,
+      "verification_attempts": "0",
       "verification_call_sids": [
-        "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-        "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+        "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       ],
       "verification_code": "8794",
-      "verification_document_sid": "RIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "verification_document_sid": "",
       "verification_type": "phone-call"
     }
   ]

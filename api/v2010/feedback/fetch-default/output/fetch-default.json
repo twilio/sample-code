@@ -7,5 +7,6 @@
     "post-dial-delay"
   ],
   "quality_score": 5,
-  "sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

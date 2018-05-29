@@ -1,7 +1,7 @@
 {
   "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "friendly_name": "733c7f0f-6541-42ec-84ce-e2ae1cac588c",
+  "friendly_name": "friendly_name",
   "date_created": "2016-03-09T20:22:31Z",
   "date_updated": "2016-03-09T20:22:31Z",
   "apn_credential_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -12,7 +12,7 @@
   "default_fcm_notification_protocol_version": "3",
   "default_alexa_notification_protocol_version": "3",
   "messaging_service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "alexa_skill_id": null,
+  "alexa_skill_id": "alexa_skill_id",
   "facebook_messenger_page_id": "4",
   "log_enabled": true,
   "type": "S",

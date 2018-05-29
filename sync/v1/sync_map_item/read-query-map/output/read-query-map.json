@@ -8,25 +8,23 @@
       "date_created": "2015-07-30T20:00:00Z",
       "date_updated": "2015-07-30T20:00:00Z",
       "key": "key",
-      "map_sid": "Players",
+      "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "revision": "revision",
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/Players/Items/key",
-      "from": "steph_curry",
-      "order": "asc"
+      "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items/key"
     }
   ],
   "meta": {
-    "first_page_url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Maps/MPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Items?PageSize=50&Page=0",
+    "first_page_url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items?PageSize=50&Page=0",
     "key": "items",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
-    "url": "https://sync.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Maps/MPaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Items?PageSize=50&Page=0"
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "previous_page_url": "",
+    "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items?PageSize=50&Page=0"
   },
   "from": "steph_curry",
-  "map_sid": "Players",
   "order": "asc",
-  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "map_sid": "Players"
 }

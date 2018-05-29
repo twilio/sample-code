@@ -6,6 +6,7 @@
   "device_sid": "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "thumbprint": "1234567890",
   "date_created": "2016-07-30T20:00:00Z",
-  "date_updated": null,
-  "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates/CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "date_updated": "2008-01-02",
+  "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Certificates/CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "certificate_data": "certificate_data"
 }

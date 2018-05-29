@@ -13,7 +13,7 @@ address = @client.addresses.create(
                               street: '1 Hasselhoff Lane',
                               city: 'Berlin',
                               region: 'Berlin',
-                              postal_code: 10875,
+                              postal_code: '10875',
                               iso_country: 'DE'
                             )
 

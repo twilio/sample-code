@@ -1,13 +1,13 @@
 {
-  "weight": 1,
-  "date_updated": "2015-01-02T11:23:45Z",
+  "weight": "1",
+  "date_updated": "2018-05-07T20:50:58Z",
   "enabled": true,
   "friendly_name": "friendly_name",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "priority": 1,
-  "sip_url": "sip://sip-box.com:1234",
+  "priority": "1",
+  "sip_url": "https://example.com",
   "sid": "OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "date_created": "2015-01-02T11:23:45Z",
+  "date_created": "2018-05-07T20:50:58Z",
   "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/OriginationUrls/OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

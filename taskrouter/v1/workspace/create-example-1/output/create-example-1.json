@@ -5,7 +5,7 @@
   "default_activity_name": "Offline",
   "default_activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "event_callback_url": "http://requestb.in/vh9reovh",
-  "events_filter": null,
+  "events_filter": "events_filter",
   "friendly_name": "NewWorkspace",
   "links": {
     "activities": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Activities",

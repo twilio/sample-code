@@ -12,8 +12,8 @@
       "results": {
         "intent": {
           "name": "name",
-          "intent_sid": "UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-          "confidence": 0.9
+          "intent_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "confidence": ""
         },
         "entities": [
           {
@@ -26,16 +26,17 @@
       "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries/UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "source_channel": null
+      "source_channel": ""
     }
   ],
   "meta": {
-    "previous_page_url": null,
-    "next_page_url": null,
-    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Queries?PageSize=50&Page=0",
-    "page": 0,
+    "previous_page_url": "",
+    "next_page_url": "",
+    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries?PageSize=50&Page=0",
+    "page": "0",
     "key": "queries",
-    "url": "https://preview.twilio.com/understand/Assistants/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Queries?PageSize=50&Page=0",
-    "page_size": 50
-  }
+    "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries?PageSize=50&Page=0",
+    "page_size": "50"
+  },
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

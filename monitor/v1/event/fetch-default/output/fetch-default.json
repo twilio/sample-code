@@ -1,8 +1,8 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "actor_sid": "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "actor_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "actor_type": "account",
-  "description": null,
+  "description": "description",
   "event_data": {
     "friendly_name": {
       "previous": "SubAccount Created at 2014-10-03 09:48 am",

@@ -5,12 +5,12 @@
   "date_created": "Tue, 18 Aug 2015 17:07:30 +0000",
   "date_updated": "Tue, 18 Aug 2015 17:07:30 +0000",
   "emergency_enabled": false,
-  "friendly_name": null,
+  "friendly_name": "friendly_name",
   "iso_country": "US",
   "postal_code": "94019",
   "region": "CA",
   "sid": "AD2a0747eba6abf96b7e3c3ff0b4530f6e",
   "street": "4th",
   "validated": false,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses/AD2a0747eba6abf96b7e3c3ff0b4530f6e.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses/ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

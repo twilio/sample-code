@@ -2,10 +2,11 @@
   "publisher_sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "subscriber_sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "date_created": null,
-  "date_updated": null,
+  "date_created": "2008-01-02",
+  "date_updated": "2008-01-02",
   "sid": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "name": "bob-track",
   "kind": "data",
-  "enabled": null
+  "enabled": true,
+  "track": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

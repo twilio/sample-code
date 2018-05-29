@@ -1,14 +1,14 @@
 {
-  "end": 0,
+  "end": "0",
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants.json?Page=0&PageSize=50",
-  "next_page_uri": null,
-  "page": 0,
-  "page_size": 50,
+  "next_page_uri": "",
+  "page": "0",
+  "page_size": "50",
   "participants": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "conference_sid": "CFbbe4632a3c49700934481addd5ce1659",
+      "conference_sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "Fri, 18 Feb 2011 21:07:19 +0000",
       "date_updated": "Fri, 18 Feb 2011 21:07:19 +0000",
       "end_conference_on_exit": false,
@@ -16,12 +16,12 @@
       "hold": false,
       "status": "complete",
       "start_conference_on_enter": true,
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFbbe4632a3c49700934481addd5ce1659/Participants/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
     }
   ],
-  "previous_page_uri": null,
-  "start": 0,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFbbe4632a3c49700934481addd5ce1659/Participants.json",
+  "previous_page_uri": "",
+  "start": "0",
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants.json",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "conference_sid": "CFbbe4632a3c49700934481addd5ce1659"
 }

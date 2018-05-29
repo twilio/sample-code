@@ -9,7 +9,7 @@
   "fcm_credential_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "messaging_service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "facebook_messenger_page_id": "4",
-  "alexa_skill_id": null,
+  "alexa_skill_id": "alexa_skill_id",
   "default_apn_notification_protocol_version": "3",
   "default_gcm_notification_protocol_version": "3",
   "default_fcm_notification_protocol_version": "3",

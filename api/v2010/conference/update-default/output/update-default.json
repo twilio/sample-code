@@ -3,7 +3,7 @@
   "api_version": "2010-04-01",
   "date_created": "Mon, 22 Aug 2011 20:58:45 +0000",
   "date_updated": "Mon, 22 Aug 2011 20:58:46 +0000",
-  "friendly_name": null,
+  "friendly_name": "friendly_name",
   "region": "us1",
   "sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "completed",

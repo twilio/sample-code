@@ -3,5 +3,5 @@
   "enabled": true,
   "webhook_url": "",
   "webhook_method": "",
-  "resource_type": "Calls"
+  "resource_type": "resource_type"
 }

@@ -2,7 +2,7 @@
   "auth_token": "AUTHTOKEN",
   "date_created": "Sun, 15 Mar 2009 02:08:47 +0000",
   "date_updated": "Wed, 25 Aug 2010 01:30:09 +0000",
-  "friendly_name": "Test Account",
+  "friendly_name": "friendly_name",
   "sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "owner_account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "active",

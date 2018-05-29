@@ -2,9 +2,9 @@
   "events": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "actor_sid": "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "actor_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "actor_type": "account",
-      "description": null,
+      "description": "",
       "event_data": {
         "friendly_name": {
           "previous": "SubAccount Created at 2014-10-03 09:48 am",
@@ -17,7 +17,7 @@
         "actor": "https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "resource": "https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       },
-      "resource_sid": "PN4aa51b930717ea83c91971b86d99018f",
+      "resource_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "resource_type": "account",
       "sid": "AEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "source": "api",
@@ -28,10 +28,10 @@
   "meta": {
     "first_page_url": "https://monitor.twilio.com/v1/Events?PageSize=50&Page=0",
     "key": "events",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "previous_page_url": "",
     "url": "https://monitor.twilio.com/v1/Events?PageSize=50&Page=0"
   },
   "resource_sid": "PN4aa51b930717ea83c91971b86d99018f"

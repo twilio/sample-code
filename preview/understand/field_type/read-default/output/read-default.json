@@ -1,11 +1,11 @@
 {
   "meta": {
-    "url": "https://preview.twilio.com/understand/Assistants/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/FieldTypes?PageSize=50&Page=0",
-    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/FieldTypes?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "next_page_url": null,
+    "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes?PageSize=50&Page=0",
+    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes?PageSize=50&Page=0",
+    "previous_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "next_page_url": "",
     "key": "field_types"
   },
   "field_types": [
@@ -22,5 +22,6 @@
       },
       "sid": "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
-  ]
+  ],
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

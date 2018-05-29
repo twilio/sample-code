@@ -10,12 +10,13 @@
     }
   ],
   "meta": {
-    "page": 0,
-    "page_size": 50,
-    "first_page_url": "https://preview.twilio.com/marketplace/AvailableAddOns/XBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Extensions?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "url": "https://preview.twilio.com/marketplace/AvailableAddOns/XBaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Extensions?PageSize=50&Page=0",
-    "next_page_url": null,
+    "page": "0",
+    "page_size": "50",
+    "first_page_url": "https://preview.twilio.com/marketplace/AvailableAddOns/XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Extensions?PageSize=50&Page=0",
+    "previous_page_url": "",
+    "url": "https://preview.twilio.com/marketplace/AvailableAddOns/XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Extensions?PageSize=50&Page=0",
+    "next_page_url": "",
     "key": "extensions"
-  }
+  },
+  "available_add_on_sid": "XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

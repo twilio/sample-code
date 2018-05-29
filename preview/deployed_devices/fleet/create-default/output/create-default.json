@@ -1,11 +1,11 @@
 {
-  "sid": "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "unique_name",
   "friendly_name": "friendly_name",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "default_deployment_sid": "DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2016-07-30T20:00:00Z",
-  "date_updated": null,
+  "date_updated": "2008-01-02",
   "url": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "devices": "https://preview.twilio.com/DeployedDevices/Fleets/FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Devices",

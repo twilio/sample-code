@@ -17,7 +17,7 @@
   ],
   "media_region": "us1",
   "end_time": "2015-07-30T20:00:00Z",
-  "url": "https://video.twilio.com/v1/Rooms/DailyStandup",
+  "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "participants": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants",
     "recordings": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings"

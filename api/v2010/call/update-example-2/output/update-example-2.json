@@ -1,9 +1,9 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "annotation": null,
-  "answered_by": null,
+  "annotation": "annotation",
+  "answered_by": "answered_by",
   "api_version": "2010-04-01",
-  "caller_name": null,
+  "caller_name": "caller_name",
   "date_created": "Tue, 31 Aug 2010 20:36:28 +0000",
   "date_updated": "Tue, 31 Aug 2010 20:36:44 +0000",
   "direction": "inbound",
@@ -26,5 +26,5 @@
   },
   "to": "+14158675309",
   "to_formatted": "(415) 867-5309",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAe1644a7eed5088b159577c5802d8be38.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

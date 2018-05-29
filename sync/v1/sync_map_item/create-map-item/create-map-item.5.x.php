@@ -17,7 +17,7 @@ $sync_map_item = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                   ->create("steph_curry",
                                            array(
                                                "name" => "Stephen Curry",
-                                               "level" => 30,
+                                               "level" => "30",
                                                "username" => "spicy_curry"
                                            ),
                                            array("ttl" => 864000)

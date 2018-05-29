@@ -1,10 +1,10 @@
 {
   "meta": {
-    "page": 0,
-    "page_size": 50,
+    "page": "0",
+    "page_size": "50",
     "first_page_url": "https://preview.twilio.com/Verification/Services?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "next_page_url": null,
+    "previous_page_url": "",
+    "next_page_url": "",
     "key": "services",
     "url": "https://preview.twilio.com/Verification/Services?PageSize=50&Page=0"
   },
@@ -13,7 +13,7 @@
       "sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "name": "name",
-      "code_length": 4,
+      "code_length": "4",
       "date_created": "2015-07-30T20:00:00Z",
       "date_updated": "2015-07-30T20:00:00Z",
       "url": "https://preview.twilio.com/Verification/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

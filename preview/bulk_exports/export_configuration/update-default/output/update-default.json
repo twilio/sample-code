@@ -2,6 +2,6 @@
   "url": "https://preview.twilio.com/BulkExports/Exports/Calls/Configuration",
   "enabled": true,
   "webhook_url": "",
-  "resource_type": "Calls",
+  "resource_type": "resource_type",
   "webhook_method": ""
 }

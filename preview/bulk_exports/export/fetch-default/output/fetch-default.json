@@ -1,5 +1,5 @@
 {
-  "resource_type": "Calls",
+  "resource_type": "resource_type",
   "url": "https://preview.twilio.com/BulkExports/Exports/Calls",
   "links": {
     "days": "https://preview.twilio.com/BulkExports/Exports/Calls/Days"

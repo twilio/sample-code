@@ -17,7 +17,7 @@ $sync_map_item = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                   ->update(array(
                                                "data" => array(
                                                    "name" => "Stephen Curry",
-                                                   "level" => 31,
+                                                   "level" => "31",
                                                    "username" => "spicy_curry"
                                                )
                                            )

@@ -1,12 +1,14 @@
 {
   "meta": {
-    "previous_page_url": null,
-    "next_page_url": null,
-    "url": "https://proxy.twilio.com/v1/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions/KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Participants?PageSize=50&Page=0",
-    "page": 0,
-    "first_page_url": "https://proxy.twilio.com/v1/Services/KSaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Sessions/KCaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Participants?PageSize=50&Page=0",
-    "page_size": 50,
+    "previous_page_url": "",
+    "next_page_url": "",
+    "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants?PageSize=50&Page=0",
+    "page": "0",
+    "first_page_url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants?PageSize=50&Page=0",
+    "page_size": "50",
     "key": "participants"
   },
-  "participants": []
+  "participants": [],
+  "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "session_sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

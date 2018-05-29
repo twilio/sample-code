@@ -8,7 +8,7 @@
       "date_created": "2015-07-30T20:00:00Z",
       "date_updated": "2015-07-30T20:00:00Z",
       "endpoint": "endpoint",
-      "identity": "User0001",
+      "identity": "identity",
       "links": {
         "user": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity"
       },
@@ -22,14 +22,14 @@
     }
   ],
   "meta": {
-    "first_page_url": "https://notify.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users/identity/Bindings?PageSize=50&Page=0",
+    "first_page_url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/Bindings?PageSize=50&Page=0",
     "key": "bindings",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
-    "url": "https://notify.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users/identity/Bindings?PageSize=50&Page=0"
+    "next_page_url": "",
+    "page": "0",
+    "page_size": "50",
+    "previous_page_url": "",
+    "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/Bindings?PageSize=50&Page=0"
   },
-  "identity": "User0001",
-  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "identity": "User0001"
 }

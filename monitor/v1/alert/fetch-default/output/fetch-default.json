@@ -11,7 +11,7 @@
   "request_method": "GET",
   "request_url": "http://www.example.com",
   "request_variables": "request_variables",
-  "resource_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "resource_sid": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "response_body": "response_body",
   "response_headers": "response_headers",
   "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

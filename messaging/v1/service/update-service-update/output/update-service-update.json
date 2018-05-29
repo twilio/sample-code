@@ -14,7 +14,7 @@
   "validity_period": 600,
   "inbound_request_url": "http://www.example.com",
   "inbound_method": "POST",
-  "fallback_url": null,
+  "fallback_url": "https://example.com",
   "fallback_method": "POST",
   "status_callback": "https://www.example.com",
   "links": {
@@ -22,5 +22,5 @@
     "short_codes": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes",
     "alpha_senders": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AlphaSenders"
   },
-  "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a"
+  "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

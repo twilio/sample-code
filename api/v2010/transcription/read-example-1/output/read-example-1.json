@@ -1,14 +1,14 @@
 {
-  "end": 0,
+  "end": "0",
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Transcriptions.json?PageSize=1&Page=0",
   "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Transcriptions.json?PageSize=1&Page=3",
-  "next_page_uri": null,
-  "num_pages": 4,
-  "page": 0,
-  "page_size": 1,
-  "previous_page_uri": null,
-  "start": 0,
-  "total": 4,
+  "next_page_uri": "",
+  "num_pages": "4",
+  "page": "0",
+  "page_size": "1",
+  "previous_page_uri": "",
+  "start": "0",
+  "total": "4",
   "transcriptions": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -16,12 +16,12 @@
       "date_created": "Thu, 25 Aug 2011 20:59:45 +0000",
       "date_updated": "Thu, 25 Aug 2011 20:59:45 +0000",
       "duration": "10",
-      "price": "0.00000",
+      "price": "0.0",
       "price_unit": "USD",
       "recording_sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "status": "completed",
-      "transcription_text": null,
+      "transcription_text": "",
       "type": "fast",
       "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Transcriptions/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
     }

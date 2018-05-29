@@ -6,7 +6,7 @@
   "friendly_name": "My Service!",
   "inbound_request_url": "https://www.example.com/",
   "inbound_method": "POST",
-  "fallback_url": null,
+  "fallback_url": "https://example.com",
   "fallback_method": "POST",
   "status_callback": "https://www.example.com",
   "sticky_sender": true,

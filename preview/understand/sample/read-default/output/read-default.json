@@ -14,12 +14,14 @@
     }
   ],
   "meta": {
-    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Samples?PageSize=50&Page=0",
-    "previous_page_url": null,
+    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples?PageSize=50&Page=0",
+    "previous_page_url": "",
     "key": "samples",
-    "next_page_url": null,
-    "url": "https://preview.twilio.com/understand/Assistants/UAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Intents/UDaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Samples?PageSize=50&Page=0",
-    "page": 0,
-    "page_size": 50
-  }
+    "next_page_url": "",
+    "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples?PageSize=50&Page=0",
+    "page": "0",
+    "page_size": "50"
+  },
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "intent_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

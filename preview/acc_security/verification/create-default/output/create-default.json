@@ -2,10 +2,10 @@
   "sid": "VEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "to": "+15558675310",
-  "channel": "sms",
+  "to": "to",
+  "channel": "channel",
   "status": "pending",
-  "valid": null,
+  "valid": true,
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z"
 }

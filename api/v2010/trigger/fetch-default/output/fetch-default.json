@@ -5,7 +5,7 @@
   "callback_url": "http://cap.com/streetfight",
   "current_value": "0",
   "date_created": "Sun, 06 Sep 2015 12:58:45 +0000",
-  "date_fired": null,
+  "date_fired": "2008-01-02",
   "date_updated": "Sun, 06 Sep 2015 12:58:45 +0000",
   "friendly_name": "raphael-cluster-1441544325.86",
   "recurring": "yearly",
