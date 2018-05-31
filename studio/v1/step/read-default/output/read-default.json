@@ -3,9 +3,9 @@
     "previous_page_url": "",
     "next_page_url": "",
     "url": "https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Engagements/FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Steps?PageSize=50&Page=0",
-    "page": "0",
+    "page": 0,
     "first_page_url": "https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Engagements/FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Steps?PageSize=50&Page=0",
-    "page_size": "50",
+    "page_size": 50,
     "key": "steps"
   },
   "steps": [],

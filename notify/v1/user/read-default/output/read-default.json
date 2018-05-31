@@ -21,8 +21,8 @@
     "first_page_url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users?PageSize=50&Page=0",
     "key": "users",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "previous_page_url": "",
     "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users?PageSize=50&Page=0"
   },

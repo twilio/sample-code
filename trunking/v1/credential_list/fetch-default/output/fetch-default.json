@@ -1,9 +1,9 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "date_created": "2018-04-28T00:10:23Z",
-  "date_updated": "2018-04-28T00:10:23Z",
-  "friendly_name": "friendly_name",
+  "date_created": "Wed, 11 Sep 2013 17:51:38 -0000",
+  "date_updated": "Wed, 11 Sep 2013 17:51:38 -0000",
+  "friendly_name": "Low Rises",
   "sid": "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://trunking.twilio.com/v1/Trunks/TKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/CredentialLists/CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

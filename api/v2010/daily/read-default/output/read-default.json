@@ -1,14 +1,14 @@
 {
-  "end": "0",
+  "end": 0,
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records/Daily?Page=0&PageSize=1",
   "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records/Daily?Page=101843&PageSize=1",
   "next_page_uri": "",
-  "num_pages": "101844",
-  "page": "0",
-  "page_size": "1",
+  "num_pages": 101844,
+  "page": 0,
+  "page_size": 1,
   "previous_page_uri": "",
-  "start": "0",
-  "total": "101844",
+  "start": 0,
+  "total": 101844,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Usage/Records/Daily",
   "usage_records": [
     {

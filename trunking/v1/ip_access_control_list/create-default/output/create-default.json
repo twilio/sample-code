@@ -1,10 +1,10 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "date_created": "2018-04-30T20:59:06Z",
-  "date_updated": "2018-04-30T20:59:06Z",
+  "date_created": "2015-07-30T20:00:00Z",
+  "date_updated": "2015-07-30T20:00:00Z",
   "friendly_name": "friendly_name",
   "sid": "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists/ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "http://www.example.com",
   "ip_access_control_list_sid": "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

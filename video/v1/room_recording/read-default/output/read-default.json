@@ -8,9 +8,9 @@
       "date_deleted": "2015-07-30T22:00:00Z",
       "sid": "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "source_sid": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "size": "23",
+      "size": 23,
       "type": "audio",
-      "duration": "10",
+      "duration": 10,
       "container_format": "mka",
       "codec": "OPUS",
       "track_name": "A name",
@@ -28,8 +28,8 @@
     }
   ],
   "meta": {
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "first_page_url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings?PageSize=50&Page=0",
     "previous_page_url": "",
     "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings?PageSize=50&Page=0",

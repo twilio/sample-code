@@ -1,5 +1,5 @@
 {
-  "end": "0",
+  "end": 0,
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages.json?PageSize=1&Page=0",
   "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages.json?PageSize=1&Page=119771",
   "messages": [
@@ -29,12 +29,12 @@
     }
   ],
   "next_page_uri": "",
-  "num_pages": "119772",
-  "page": "0",
-  "page_size": "1",
+  "num_pages": 119772,
+  "page": 0,
+  "page_size": 1,
   "previous_page_uri": "",
-  "start": "0",
-  "total": "119772",
+  "start": 0,
+  "total": 119772,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages.json?PageSize=1&Page=0",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

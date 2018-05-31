@@ -19,8 +19,8 @@
     "key": "samples",
     "next_page_url": "",
     "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples?PageSize=50&Page=0",
-    "page": "0",
-    "page_size": "50"
+    "page": 0,
+    "page_size": 50
   },
   "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "intent_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

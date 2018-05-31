@@ -13,8 +13,8 @@
     "first_page_url": "https://accounts.twilio.com/v1/Credentials/PublicKeys?PageSize=50&Page=0",
     "key": "credentials",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "previous_page_url": "",
     "url": "https://accounts.twilio.com/v1/Credentials/PublicKeys?PageSize=50&Page=0"
   }

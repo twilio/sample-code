@@ -1,5 +1,5 @@
 {
-  "end": "0",
+  "end": 0,
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers/Local.json?PageSize=1&Page=0",
   "incoming_phone_numbers": [
     {
@@ -39,12 +39,12 @@
   ],
   "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers/Local.json?PageSize=1&Page=2",
   "next_page_uri": "",
-  "num_pages": "3",
-  "page": "0",
-  "page_size": "1",
+  "num_pages": 3,
+  "page": 0,
+  "page_size": 1,
   "previous_page_uri": "",
-  "start": "0",
-  "total": "3",
+  "start": 0,
+  "total": 3,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IncomingPhoneNumbers/Local.json?PageSize=1",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

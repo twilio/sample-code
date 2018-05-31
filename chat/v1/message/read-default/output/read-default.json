@@ -1,7 +1,7 @@
 {
   "meta": {
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "first_page_url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
     "previous_page_url": "",
     "url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
@@ -21,7 +21,7 @@
       "from": "system",
       "attributes": {},
       "body": "Hello",
-      "index": "0",
+      "index": 0,
       "url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],

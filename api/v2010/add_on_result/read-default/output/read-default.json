@@ -1,9 +1,9 @@
 {
-  "end": "0",
+  "end": 0,
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AddOnResults.json?PageSize=50&Page=0",
   "next_page_uri": "",
-  "page": "0",
-  "page_size": "50",
+  "page": 0,
+  "page_size": 50,
   "previous_page_uri": "",
   "add_on_results": [
     {
@@ -21,7 +21,7 @@
       }
     }
   ],
-  "start": "0",
+  "start": 0,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AddOnResults.json?PageSize=50&Page=0",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "reference_sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

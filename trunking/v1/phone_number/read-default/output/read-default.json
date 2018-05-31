@@ -3,8 +3,8 @@
     "first_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers?PageSize=1&Page=0",
     "key": "phone_numbers",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "1",
+    "page": 0,
+    "page_size": 1,
     "previous_page_url": "",
     "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers?PageSize=1&Page=0"
   },

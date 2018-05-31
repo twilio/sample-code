@@ -1,6 +1,5 @@
 {
   "original_snippet_path": "proxy/quickstart/create-participant/create-participant.6.x.py",
   "title": "Create a Participant",
-  "type": "server",
-  "output_property": "proxy_identifier"
+  "type": "server"
 }

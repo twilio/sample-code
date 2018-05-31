@@ -3,8 +3,8 @@
     "first_page_url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders?PageSize=50&Page=0",
     "key": "items",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "previous_page_url": "",
     "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders?PageSize=50&Page=0"
   },
@@ -12,7 +12,7 @@
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "address_sid": "AD11111111111111111111111111111111",
-      "call_delay": "15",
+      "call_delay": 15,
       "capabilities": {
         "sms": true,
         "voice": false
@@ -34,7 +34,7 @@
       "status": "received",
       "unique_name": "foobar",
       "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "verification_attempts": "0",
+      "verification_attempts": 0,
       "verification_call_sids": [
         "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

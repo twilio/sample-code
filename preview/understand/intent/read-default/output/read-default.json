@@ -1,10 +1,10 @@
 {
   "meta": {
     "key": "intents",
-    "page_size": "50",
+    "page_size": 50,
     "next_page_url": "",
     "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents?PageSize=50&Page=0",
-    "page": "0",
+    "page": 0,
     "first_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents?PageSize=50&Page=0",
     "previous_page_url": ""
   },

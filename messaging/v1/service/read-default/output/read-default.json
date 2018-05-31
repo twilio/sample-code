@@ -1,7 +1,7 @@
 {
   "meta": {
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "first_page_url": "https://messaging.twilio.com/v1/Services?PageSize=50&Page=0",
     "previous_page_url": "",
     "next_page_url": "",
@@ -20,7 +20,7 @@
       "smart_encoding": false,
       "fallback_to_long_code": true,
       "area_code_geomatch": true,
-      "validity_period": "600",
+      "validity_period": 600,
       "scan_message_content": "inherit",
       "synchronous_validation": true,
       "inbound_request_url": "https://www.example.com/",

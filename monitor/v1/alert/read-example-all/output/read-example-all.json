@@ -21,8 +21,8 @@
     "first_page_url": "https://monitor.twilio.com/v1/Alerts?Page=0&PageSize=50",
     "key": "alerts",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "1",
+    "page": 0,
+    "page_size": 1,
     "previous_page_url": "",
     "url": "https://monitor.twilio.com/v1/Alerts"
   }

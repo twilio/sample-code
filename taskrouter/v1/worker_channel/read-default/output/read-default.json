@@ -3,18 +3,18 @@
     "first_page_url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels?PageSize=50&Page=0",
     "key": "channels",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "1",
+    "page": 0,
+    "page_size": 1,
     "previous_page_url": "",
     "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers/WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels"
   },
   "channels": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "assigned_tasks": "0",
+      "assigned_tasks": 0,
       "available": true,
-      "available_capacity_percentage": "100",
-      "configured_capacity": "1",
+      "available_capacity_percentage": 100,
+      "configured_capacity": 1,
       "date_created": "2014-05-14T10:50:02Z",
       "date_updated": "2014-05-15T16:03:42Z",
       "sid": "WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

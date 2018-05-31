@@ -15,8 +15,8 @@
     "first_page_url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/sidOrUniqueName/Permissions?PageSize=50&Page=0",
     "key": "permissions",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "previous_page_url": "",
     "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/sidOrUniqueName/Permissions?PageSize=50&Page=0"
   },

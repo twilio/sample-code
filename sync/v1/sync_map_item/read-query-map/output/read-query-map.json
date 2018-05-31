@@ -18,8 +18,8 @@
     "first_page_url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items?PageSize=50&Page=0",
     "key": "items",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "previous_page_url": "",
     "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items?PageSize=50&Page=0"
   },

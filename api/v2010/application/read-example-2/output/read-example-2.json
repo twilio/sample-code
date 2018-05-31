@@ -23,16 +23,16 @@
       "voice_url": ""
     }
   ],
-  "end": "0",
+  "end": 0,
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Applications.json?PageSize=1&Page=0",
   "last_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Applications.json?PageSize=1&Page=35",
   "next_page_uri": "",
-  "num_pages": "36",
-  "page": "0",
-  "page_size": "1",
+  "num_pages": 36,
+  "page": 0,
+  "page_size": 1,
   "previous_page_uri": "",
-  "start": "0",
-  "total": "36",
+  "start": 0,
+  "total": 36,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Applications.json?PageSize=1&Page=0",
   "friendly_name": "MyApp",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

@@ -8,7 +8,7 @@
       "latest_model_build_sid": "",
       "log_queries": true,
       "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "ttl": "3600",
+      "ttl": 3600,
       "unique_name": "so-so-unique",
       "links": {
         "field_types": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes",
@@ -26,8 +26,8 @@
     "first_page_url": "https://preview.twilio.com/understand/Assistants?PageSize=50&Page=0",
     "key": "assistants",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "previous_page_url": "",
     "url": "https://preview.twilio.com/understand/Assistants?PageSize=50&Page=0"
   }

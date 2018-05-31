@@ -8,5 +8,5 @@ client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants
             .create({friendlyName: 'Alice', identifier: '+15558675310'})
-            .then(participant => console.log(participant.proxyIdentifier))
+            .then(participant => console.log(participant.sid))
             .done();

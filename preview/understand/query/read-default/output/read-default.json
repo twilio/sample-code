@@ -33,10 +33,10 @@
     "previous_page_url": "",
     "next_page_url": "",
     "first_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries?PageSize=50&Page=0",
-    "page": "0",
+    "page": 0,
     "key": "queries",
     "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries?PageSize=50&Page=0",
-    "page_size": "50"
+    "page_size": 50
   },
   "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

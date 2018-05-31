@@ -32,8 +32,8 @@
     "first_page_url": "https://preview.twilio.com/wireless/Sims?PageSize=50&Page=0",
     "key": "sims",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "previous_page_url": "",
     "url": "https://preview.twilio.com/wireless/Sims?PageSize=50&Page=0"
   }

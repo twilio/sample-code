@@ -1,6 +1,6 @@
 {
   "first_page_uri": "/2010-04-01/Accounts.json?PageSize=50&Page=0",
-  "end": "0",
+  "end": 0,
   "previous_page_uri": "",
   "accounts": [
     {
@@ -37,8 +37,8 @@
     }
   ],
   "uri": "/2010-04-01/Accounts.json?PageSize=50&Page=0",
-  "page_size": "50",
-  "start": "0",
+  "page_size": 50,
+  "start": 0,
   "next_page_uri": "",
-  "page": "0"
+  "page": 0
 }

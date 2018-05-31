@@ -12,8 +12,8 @@
       "status_callback": "",
       "status_callback_method": "POST",
       "end_time": "2017-04-03T22:21:51Z",
-      "duration": "2",
-      "max_participants": "10",
+      "duration": 2,
+      "max_participants": 10,
       "record_participants_on_connect": false,
       "video_codecs": [
         "VP8"
@@ -27,8 +27,8 @@
     }
   ],
   "meta": {
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "first_page_url": "https://video.twilio.com/v1/Rooms?PageSize=50&Page=0",
     "previous_page_url": "",
     "url": "https://video.twilio.com/v1/Rooms?PageSize=50&Page=0",

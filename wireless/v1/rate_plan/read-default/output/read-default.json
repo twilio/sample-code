@@ -3,8 +3,8 @@
     "first_page_url": "https://wireless.twilio.com/v1/RatePlans?PageSize=50&Page=0",
     "key": "rate_plans",
     "next_page_url": "",
-    "page": "0",
-    "page_size": "50",
+    "page": 0,
+    "page_size": 50,
     "previous_page_url": "",
     "url": "https://wireless.twilio.com/v1/RatePlans?PageSize=50&Page=0"
   },
@@ -13,7 +13,7 @@
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "unique_name": "unique_name",
       "data_enabled": true,
-      "data_limit": "1000",
+      "data_limit": 1000,
       "data_metering": "pooled",
       "date_created": "2015-07-30T20:00:00Z",
       "date_updated": "2015-07-30T20:00:00Z",
@@ -21,13 +21,13 @@
       "messaging_enabled": true,
       "voice_enabled": true,
       "national_roaming_enabled": true,
-      "national_roaming_data_limit": "1000",
+      "national_roaming_data_limit": 1000,
       "international_roaming": [
         "data",
         "messaging",
         "voice"
       ],
-      "international_roaming_data_limit": "1000",
+      "international_roaming_data_limit": 1000,
       "sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "url": "https://wireless.twilio.com/v1/RatePlans/WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
