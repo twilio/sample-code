@@ -12,6 +12,6 @@ notification = @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                              .create(body: 'Hello Bob', to_binding: {
                                   'binding_type' => 'sms',
                                   'address' => '+15555555555'
-                              }, identity: ['identity'])
+                              }.to_json, identity: ['identity'])
 
 puts notification.sid

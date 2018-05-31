@@ -1,8 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Notify.V1.Service;
 
 
@@ -16,8 +16,12 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var segment = new List<string> {
+            "premium"
+        };
+
         var user = UserResource.Create(
-            segment: Promoter.ListOfOne("premium"),
+            segment: segment,
             identity: "User0001",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

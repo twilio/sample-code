@@ -14,7 +14,7 @@ notification = @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          to_binding: {
                            'binding_type' => 'sms',
                            'address' => '+1651000000000'
-                       },
+                       }.to_json,
                          identity: ['identity']
                        )
 

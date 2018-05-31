@@ -1,8 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Notify.V1.Service;
 
 
@@ -16,9 +16,13 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var tag = new List<string> {
+            "new user"
+        };
+
         var binding = BindingResource.Create(
             endpoint: "endpoint_id",
-            tag: Promoter.ListOfOne("new user"),
+            tag: tag,
             identity: "00000001",
             bindingType: BindingResource.BindingTypeEnum.Apn,
             address: "device_token",

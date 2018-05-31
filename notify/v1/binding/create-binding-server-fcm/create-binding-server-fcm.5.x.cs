@@ -1,8 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Notify.V1.Service;
 
 
@@ -16,9 +16,13 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var tag = new List<string> {
+            "preferred device"
+        };
+
         var binding = BindingResource.Create(
             endpoint: "XXXXXXXXXXXXXXX",
-            tag: Promoter.ListOfOne("preferred device"),
+            tag: tag,
             identity: "00000001",
             bindingType: BindingResource.BindingTypeEnum.Fcm,
             address: "fcm_device_token",

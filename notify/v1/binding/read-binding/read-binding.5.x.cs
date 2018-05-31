@@ -1,6 +1,7 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Converters;
 using Twilio.Rest.Notify.V1.Service;
@@ -16,9 +17,13 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var tag = new List<string> {
+            "new user"
+        };
+
         var bindings = BindingResource.Read(
             startDate: MarshalConverter.DateTimeFromString("2015-08-25"),
-            tag: Promoter.ListOfOne("new user"),
+            tag: tag,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

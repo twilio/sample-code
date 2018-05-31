@@ -1,8 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Taskrouter.V1.Workspace;
 
 
@@ -16,8 +16,12 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var assignmentStatus = new List<string> {
+            "pending"
+        };
+
         var tasks = TaskResource.Read(
-            assignmentStatus: Promoter.ListOfOne("pending"),
+            assignmentStatus: assignmentStatus,
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

@@ -12,7 +12,7 @@ task = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .create(
                             attributes: {
                               'type' => 'support'
-                          },
+                          }.to_json,
                             workflow_sid: 'WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
                           )
 

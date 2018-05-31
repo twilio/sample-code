@@ -3,7 +3,6 @@
 using System;
 using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Lookups.V1;
 
 
@@ -17,15 +16,23 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var addOns = new List<string> {
+            "payfone_tcpa_compliance"
+        };
+
         var addOnsData = new Dictionary<string, Object>()
         {
             {"payfone_tcpa_compliance.right_party_contacted_date", 20160101}
         };
 
+        var type = new List<string> {
+            "carrier"
+        };
+
         var phoneNumber = PhoneNumberResource.Fetch(
-            addOns: Promoter.ListOfOne("payfone_tcpa_compliance"),
+            addOns: addOns,
             addOnsData: addOnsData,
-            type: Promoter.ListOfOne("carrier"),
+            type: type,
             pathPhoneNumber: new Twilio.Types.PhoneNumber("+15108675310")
         );
 

@@ -46,7 +46,7 @@ workflow = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                'queue' => 'WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
            }
        }
-   }
+   }.to_json
    )
 
 puts workflow.sid

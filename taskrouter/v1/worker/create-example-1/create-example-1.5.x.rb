@@ -11,6 +11,6 @@ worker = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .workers
                            .create(attributes: {
                                 'type' => 'support'
-                            }, friendly_name: 'Support Worker 1')
+                            }.to_json, friendly_name: 'Support Worker 1')
 
 puts worker.sid
