@@ -2,22 +2,22 @@
   "ip_access_control_lists": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "date_created": "2015-07-30T20:00:00Z",
-      "date_updated": "2015-07-30T20:00:00Z",
+      "date_created": "2018-05-02T17:29:34Z",
+      "date_updated": "2018-05-02T17:29:34Z",
       "friendly_name": "friendly_name",
       "sid": "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "url": "http://www.example.com"
+      "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists/ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "meta": {
-    "first_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists?Page=0&PageSize=50",
+    "first_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists?PageSize=50&Page=0",
     "key": "ip_access_control_lists",
     "next_page_url": "",
     "page": 0,
-    "page_size": 1,
+    "page_size": 50,
     "previous_page_url": "",
-    "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists"
+    "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists?PageSize=50&Page=0"
   },
   "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

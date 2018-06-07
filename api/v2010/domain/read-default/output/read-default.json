@@ -24,10 +24,10 @@
     }
   ],
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains.json?PageSize=50&Page=0",
-  "next_page_uri": "",
+  "next_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains.json?PageSize=50&Page=50",
   "page": 0,
   "page_size": 50,
-  "previous_page_uri": "",
+  "previous_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains.json?PageSize=50&Page=0",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains.json?PageSize=50&Page=0",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
