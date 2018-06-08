@@ -4,6 +4,5 @@
   "date_updated": "2015-07-31T04:00:00Z",
   "friendly_name": "friendly_name",
   "sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://accounts.twilio.com/v1/Credentials/AWS/CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "credentials": "AKIAIOSFODNN7EXAMPLE:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  "url": "https://accounts.twilio.com/v1/Credentials/AWS/CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
