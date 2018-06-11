@@ -10,6 +10,9 @@ client = Client(account_sid, auth_token)
 
 session = client.proxy.services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
                       .sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX") \
-                      .update(date_expiry=datetime(2008, 1, 2, 0, 0))
+                      .update(
+                           date_expiry=datetime(2018, 7, 31, 0, 0),
+                           status="in-progress"
+                       )
 
 print(session.unique_name)

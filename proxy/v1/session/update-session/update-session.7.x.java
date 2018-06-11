@@ -14,7 +14,9 @@ public class Example {
         Session session = Session.updater(
                 "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setDateExpiry(new DateTime(2008, 1, 2, 0, 0)).update();
+            .setDateExpiry(new DateTime(2018, 7, 31, 0, 0))
+            .setStatus(Session.Status.IN_PROGRESS)
+            .update();
 
         System.out.println(session.getUniqueName());
     }

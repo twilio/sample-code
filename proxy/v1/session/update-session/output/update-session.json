@@ -1,0 +1,21 @@
+{
+  "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "status": "in-progress",
+  "unique_name": "unique_name",
+  "date_started": "2015-07-30T20:00:00Z",
+  "date_ended": "2015-07-30T20:00:00Z",
+  "date_last_interaction": "2015-07-30T20:00:00Z",
+  "date_expiry": "2018-07-31",
+  "ttl": 3600,
+  "mode": "message-only",
+  "closed_reason": "",
+  "sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "date_created": "2015-07-30T20:00:00Z",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "links": {
+    "interactions": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Interactions",
+    "participants": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants"
+  }
+}

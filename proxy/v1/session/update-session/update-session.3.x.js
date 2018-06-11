@@ -6,6 +6,9 @@ const client = require('twilio')(accountSid, authToken);
 
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .update({dateExpiry: new Date(Date.UTC(2008, 0, 2, 0, 0, 0))})
+            .update({
+               dateExpiry: new Date(Date.UTC(2018, 6, 31, 0, 0, 0)),
+               status: 'in-progress'
+             })
             .then(session => console.log(session.uniqueName))
             .done();

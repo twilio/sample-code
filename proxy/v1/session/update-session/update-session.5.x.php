@@ -14,7 +14,8 @@ $twilio = new Client($sid, $token);
 $session = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->update(array(
-                                          'dateExpiry' => new \DateTime('2008-1-2')
+                                          'dateExpiry' => new \DateTime('2018-7-31'),
+                                          'status' => "in-progress"
                                       )
                              );
 
