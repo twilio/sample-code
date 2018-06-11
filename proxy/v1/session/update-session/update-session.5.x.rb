@@ -9,6 +9,9 @@ auth_token = 'your_auth_token'
 
 session = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                       .update(date_expiry: Date.new(2008, 1, 2))
+                       .update(
+                          date_expiry: Date.new(2018, 7, 31),
+                          status: 'in-progress'
+                        )
 
 puts session.unique_name

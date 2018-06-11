@@ -1,3 +1,4 @@
 curl -X POST https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
---data-urlencode "DateExpiry=2008-01-02" \
+--data-urlencode "DateExpiry=2018-07-31" \
+--data-urlencode "Status=in-progress" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

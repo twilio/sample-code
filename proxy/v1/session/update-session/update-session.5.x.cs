@@ -16,7 +16,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var session = SessionResource.Update(
-            dateExpiry: new DateTime(2008, 1, 2, 0, 0, 0),
+            dateExpiry: new DateTime(2018, 7, 31, 0, 0, 0),
+            status: SessionResource.StatusEnum.InProgress,
             pathServiceSid: "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
