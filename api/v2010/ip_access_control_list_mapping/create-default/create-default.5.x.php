@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $ip_access_control_list_mapping = $twilio->sip
                                          ->domains("SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->ipAccessControlListMappings
-                                         ->create("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                         ->create("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // ipAccessControlListSid
                                          );
 
 print($ip_access_control_list_mapping->sid);

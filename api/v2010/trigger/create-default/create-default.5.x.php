@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $trigger = $twilio->usage
                   ->triggers
-                  ->create("https://example.com",
-                           "triggerValue",
-                           "answering-machine-detection"
+                  ->create("https://example.com", // callbackUrl
+                           "triggerValue", // triggerValue
+                           "answering-machine-detection" // usageCategory
                   );
 
 print($trigger->sid);
