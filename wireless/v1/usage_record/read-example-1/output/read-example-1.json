@@ -1,34 +1,96 @@
 {
-  "usage_records": [
-    {
-      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "commands": {
-      },
-      "data": {
-      },
-      "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "period": {
-      }
-    }
-    {
-      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "commands": {
-      },
-      "data": {
-      },
-      "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "period": {
-      }
-    }
-  ],
-  "meta": {
-    "first_page_url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/UsageRecords?PageSize=50&Page=0",
-    "key": "usage_records",
-    "next_page_url": null,
-    "page": 0,
-    "page_size": 50,
-    "previous_page_url": null,
-    "url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/UsageRecords?PageSize=50&Page=0"
-  },
-  "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "meta": {
+        "first_page_url": "https://wireless.twilio.com/v1/Sims/DE5ce99a650bc578b4ec518261ea4d79c9/UsageRecords?Start=2017-05-19T00%3A00%3A00Z&PageSize=50&Page=0",
+        "key": "usage_records",
+        "next_page_url": null,
+        "page": 0,
+        "page_size": 50,
+        "previous_page_url": null,
+        "url": "https://wireless.twilio.com/v1/Sims/DE5ce99a650bc578b4ec518261ea4d79c9/UsageRecords?Start=2017-05-19T00%3A00%3A00Z&PageSize=50&Page=0"
+    },
+    "usage_records": [
+        {
+            "account_sid": "AC25e16e9a716a4a1786a7c99f58e30482",
+            "commands": {
+                "billed": 0.0567,
+                "billing_units": "USD",
+                "from_sim": null,
+                "home": {
+                    "billed": 0,
+                    "billing_units": "USD",
+                    "from_sim": 0,
+                    "to_sim": 0,
+                    "total": 0
+                },
+                "international_roaming": [
+                    {
+                        "billed": 0.0567,
+                        "billing_units": "USD",
+                        "country_code": "DEU",
+                        "from_sim": null,
+                        "to_sim": 1,
+                        "total": 1
+                    }
+                ],
+                "national_roaming": {
+                    "billed": 0,
+                    "billing_units": "USD",
+                    "from_sim": 0,
+                    "to_sim": 0,
+                    "total": 0
+                },
+                "to_sim": 1,
+                "total": 1
+            },
+            "data": {
+                "billed": 251.23,
+                "billing_units": "USD",
+                "download": 2216576080,
+                "home": {
+                    "billed": 0.08,
+                    "billing_units": "USD",
+                    "download": 724199,
+                    "total": 795610,
+                    "units": "bytes",
+                    "upload": 71411
+                },
+                "international_roaming": [
+                    {
+                        "billed": 42.62,
+                        "billing_units": "USD",
+                        "country_code": "DEU",
+                        "download": 405626856,
+                        "total": 426227105,
+                        "units": "bytes",
+                        "upload": 20600249
+                    },
+                    {
+                        "billed": 32.94,
+                        "billing_units": "USD",
+                        "country_code": "CHE",
+                        "download": 1810225025,
+                        "total": 2025323911,
+                        "units": "bytes",
+                        "upload": 215098886
+                    }
+                ],
+                "national_roaming": {
+                    "billed": 0,
+                    "billing_units": "USD",
+                    "download": 0,
+                    "total": 0,
+                    "units": "bytes",
+                    "upload": 0
+                },
+                "total": 2452346626,
+                "units": "bytes",
+                "upload": 235770546
+            },
+            "period": {
+                "end": "2018-06-20T00:00:00Z",
+                "start": "2017-05-19T00:00:00Z"
+            },
+            "sim_sid": "DE5ce99a650bc578b4ec518261ea4d79c9"
+        }
+    ]
 }
