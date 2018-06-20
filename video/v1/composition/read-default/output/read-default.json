@@ -5,7 +5,7 @@
       "status": "completed",
       "date_created": "2015-07-30T20:00:00Z",
       "date_completed": "2015-07-30T20:01:33Z",
-      "date_deleted": "",
+      "date_deleted": null,
       "sid": "CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "audio_sources": [
@@ -51,8 +51,8 @@
       "size": 4,
       "duration": 6,
       "trim": true,
-      "media_external_location": "",
-      "encryption_key": "",
+      "media_external_location": null,
+      "encryption_key": null,
       "url": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "links": {
         "media": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
@@ -63,9 +63,9 @@
     "page": 0,
     "page_size": 50,
     "first_page_url": "https://video.twilio.com/v1/Compositions?PageSize=50&Page=0",
-    "previous_page_url": "",
+    "previous_page_url": "https://video.twilio.com/v1/Compositions?PageSize=50&Page=0",
     "url": "https://video.twilio.com/v1/Compositions?PageSize=50&Page=0",
-    "next_page_url": "",
+    "next_page_url": "https://video.twilio.com/v1/Compositions?PageSize=50&Page=1",
     "key": "compositions"
   }
 }

@@ -16,9 +16,9 @@
     "page": 0,
     "page_size": 50,
     "first_page_url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SubscribedTracks?PageSize=50&Page=0",
-    "previous_page_url": "",
+    "previous_page_url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SubscribedTracks?PageSize=50&Page=0",
     "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SubscribedTracks?PageSize=50&Page=0",
-    "next_page_url": "",
+    "next_page_url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SubscribedTracks?PageSize=50&Page=1",
     "key": "subscribed_tracks"
   },
   "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

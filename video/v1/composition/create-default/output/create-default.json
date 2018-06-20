@@ -2,8 +2,8 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "processing",
   "date_created": "2015-07-30T20:00:00Z",
-  "date_completed": "2008-01-02",
-  "date_deleted": "2008-01-02",
+  "date_completed": null,
+  "date_deleted": null,
   "sid": "CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "audio_sources": [
@@ -41,8 +41,8 @@
   "bitrate": 0,
   "size": 0,
   "duration": 0,
-  "media_external_location": "https://example.com",
-  "encryption_key": "publickey",
+  "media_external_location": null,
+  "encryption_key": null,
   "url": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "media": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"

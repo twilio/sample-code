@@ -5,7 +5,7 @@
   "date_updated": "2015-07-30T21:00:00Z",
   "date_deleted": "2015-07-30T22:00:00Z",
   "sid": "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "source_sid": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "source_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "size": 0,
   "url": "https://video.twilio.com/v1/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "type": "audio",
