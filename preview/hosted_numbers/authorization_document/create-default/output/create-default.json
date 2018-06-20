@@ -6,14 +6,12 @@
   ],
   "date_created": "2017-03-28T20:06:39Z",
   "date_updated": "2017-03-28T20:06:39Z",
-  "email": "email",
+  "email": "test+hosted@twilio.com",
   "links": {
     "dependent_hosted_number_orders": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DependentHostedNumberOrders"
   },
   "sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "signing",
   "url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "hosted_number_order_sids": [
-    "hosted_number_order_sids"
-  ]
+  "hosted_number_order_sids": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

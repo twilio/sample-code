@@ -2,10 +2,10 @@
   "meta": {
     "first_page_url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DependentHostedNumberOrders?PageSize=50&Page=0",
     "key": "items",
-    "next_page_url": "",
+    "next_page_url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DependentHostedNumberOrders?PageSize=50&Page=1",
     "page": 0,
     "page_size": 50,
-    "previous_page_url": "",
+    "previous_page_url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DependentHostedNumberOrders?PageSize=50&Page=0",
     "url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DependentHostedNumberOrders?PageSize=50&Page=0"
   },
   "items": [
@@ -39,7 +39,7 @@
         "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       ],
       "verification_code": "8794",
-      "verification_document_sid": "",
+      "verification_document_sid": null,
       "verification_type": "phone-call"
     }
   ],

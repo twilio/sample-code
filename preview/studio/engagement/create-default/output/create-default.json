@@ -16,6 +16,6 @@
   "links": {
     "steps": "https://preview.twilio.com/Studio/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Engagements/FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Steps"
   },
-  "to": "+15558675310",
-  "from": "+15017122661"
+  "from": null,
+  "to": null
 }

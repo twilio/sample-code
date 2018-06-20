@@ -11,7 +11,7 @@
     "intent": {
       "name": "name",
       "intent_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "confidence": ""
+      "confidence": null
     },
     "entities": [
       {
