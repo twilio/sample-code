@@ -4,7 +4,7 @@
   "domain_name": "test.pstn.twilio.com",
   "disaster_recovery_method": "GET",
   "disaster_recovery_url": "http://updated-recovery.com",
-  "friendly_name": "friendly_name",
+  "friendly_name": "updated_name",
   "secure": true,
   "cnam_lookup_enabled": true,
   "recording": {

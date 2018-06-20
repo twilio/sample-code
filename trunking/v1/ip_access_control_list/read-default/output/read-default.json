@@ -13,10 +13,10 @@
   "meta": {
     "first_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists?PageSize=50&Page=0",
     "key": "ip_access_control_lists",
-    "next_page_url": "",
+    "next_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists?PageSize=50&Page=1",
     "page": 0,
     "page_size": 50,
-    "previous_page_url": "",
+    "previous_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists?PageSize=50&Page=0",
     "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists?PageSize=50&Page=0"
   },
   "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
