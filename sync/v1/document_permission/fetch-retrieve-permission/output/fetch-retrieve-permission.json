@@ -1,7 +1,7 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "document_sid": "MyFirstDocument",
+  "document_sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "identity": "bob",
   "read": true,
   "write": true,

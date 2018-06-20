@@ -1,7 +1,7 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "map_sid": "Players",
+  "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "identity": "bob",
   "read": true,
   "write": true,

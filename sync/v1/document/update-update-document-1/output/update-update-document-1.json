@@ -4,7 +4,7 @@
   "data": {
     "date_updated": "2018-02-14 12:24:33.889341",
     "movie_title": "On The Line",
-    "show_times": "",
+    "show_times": null,
     "starring": [
       "Lance Bass",
       "Joey Fatone"
@@ -16,7 +16,7 @@
   "date_updated": "2015-07-30T20:00:00Z",
   "revision": "revision",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "MyFirstDocument",
+  "sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "unique_name",
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {

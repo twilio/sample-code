@@ -8,11 +8,11 @@
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "revision": "revision",
-  "service_sid": "default",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "BoardLED",
-  "url": "https://sync.twilio.com/v1/Services/default/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
-    "permissions": "https://sync.twilio.com/v1/Services/default/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions"
+    "permissions": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions"
   }
 }
