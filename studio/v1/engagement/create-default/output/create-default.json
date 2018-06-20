@@ -13,6 +13,6 @@
     "steps": "https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Engagements/FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Steps",
     "engagement_context": "https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Engagements/FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Context"
   },
-  "to": "+15558675310",
-  "from": "+15017122661"
+  "from": null,
+  "to": null
 }
