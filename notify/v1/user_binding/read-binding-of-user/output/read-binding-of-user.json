@@ -24,12 +24,12 @@
   "meta": {
     "first_page_url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/Bindings?PageSize=50&Page=0",
     "key": "bindings",
-    "next_page_url": "",
+    "next_page_url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/Bindings?PageSize=50&Page=1",
     "page": 0,
     "page_size": 50,
-    "previous_page_url": "",
+    "previous_page_url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/Bindings?PageSize=50&Page=0",
     "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/identity/Bindings?PageSize=50&Page=0"
   },
-  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "identity": "User0001"
+  "identity": null,
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
