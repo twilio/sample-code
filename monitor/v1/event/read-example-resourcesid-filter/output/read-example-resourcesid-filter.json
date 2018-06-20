@@ -4,7 +4,7 @@
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "actor_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "actor_type": "account",
-      "description": "",
+      "description": null,
       "event_data": {
         "friendly_name": {
           "previous": "SubAccount Created at 2014-10-03 09:48 am",
@@ -28,11 +28,11 @@
   "meta": {
     "first_page_url": "https://monitor.twilio.com/v1/Events?PageSize=50&Page=0",
     "key": "events",
-    "next_page_url": "",
+    "next_page_url": "https://monitor.twilio.com/v1/Events?PageSize=50&Page=1",
     "page": 0,
     "page_size": 50,
-    "previous_page_url": "",
+    "previous_page_url": "https://monitor.twilio.com/v1/Events?PageSize=50&Page=0",
     "url": "https://monitor.twilio.com/v1/Events?PageSize=50&Page=0"
   },
-  "resource_sid": "PN4aa51b930717ea83c91971b86d99018f"
+  "resource_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
