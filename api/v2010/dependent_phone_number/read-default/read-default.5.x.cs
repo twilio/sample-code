@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var dependentPhoneNumbers = DependentPhoneNumberResource.Read(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathAddressSid: "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

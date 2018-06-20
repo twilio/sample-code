@@ -19,7 +19,6 @@ class Program
         var feedback = FeedbackResource.Update(
             issue: Promoter.ListOfOne(FeedbackResource.IssuesEnum.AudioLatency),
             qualityScore: 1,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

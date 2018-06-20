@@ -21,8 +21,7 @@ class Program
             city: "Racoon",
             region: "Mordor",
             postalCode: "150",
-            isoCountry: "AX",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            isoCountry: "AX"
         );
 
         Console.WriteLine(address.Sid);

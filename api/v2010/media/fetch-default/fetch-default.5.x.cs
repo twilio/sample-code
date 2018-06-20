@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var media = MediaResource.Fetch(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMessageSid: "MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

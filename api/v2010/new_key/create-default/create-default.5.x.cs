@@ -15,9 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var newKey = NewKeyResource.Create(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var newKey = NewKeyResource.Create();
 
         Console.WriteLine(newKey.Sid);
     }

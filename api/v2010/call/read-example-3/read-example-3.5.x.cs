@@ -17,8 +17,7 @@ class Program
 
         var calls = CallResource.Read(
             startTimeAfter: new DateTime(2009, 7, 6, 0, 0, 0),
-            status: CallResource.StatusEnum.Completed,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            status: CallResource.StatusEnum.Completed
         );
 
         foreach(var record in calls)

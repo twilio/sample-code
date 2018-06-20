@@ -18,7 +18,6 @@ class Program
         var participant = ParticipantResource.Create(
             from: new Twilio.Types.PhoneNumber("+15017122661"),
             to: new Twilio.Types.PhoneNumber("+15017122661"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathConferenceSid: "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

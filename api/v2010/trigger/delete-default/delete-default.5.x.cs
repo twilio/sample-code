@@ -15,9 +15,6 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        TriggerResource.Delete(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        TriggerResource.Delete(pathSid: "UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
     }
 }

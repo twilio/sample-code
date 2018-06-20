@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var credentialList = CredentialListResource.Create(
-            friendlyName: "FriendlyName",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var credentialList = CredentialListResource.Create(friendlyName: "FriendlyName");
 
         Console.WriteLine(credentialList.Sid);
     }

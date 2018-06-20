@@ -17,7 +17,6 @@ class Program
 
         var ipAddress = IpAddressResource.Update(
             ipAddress: "IpAddress",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathIpAccessControlListSid: "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

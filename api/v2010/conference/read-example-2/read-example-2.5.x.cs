@@ -17,8 +17,7 @@ class Program
 
         var conferences = ConferenceResource.Read(
             friendlyName: "MyRoom",
-            status: ConferenceResource.StatusEnum.InProgress,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            status: ConferenceResource.StatusEnum.InProgress
         );
 
         foreach(var record in conferences)

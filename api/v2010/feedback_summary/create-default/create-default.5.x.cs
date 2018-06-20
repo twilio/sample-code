@@ -18,8 +18,7 @@ class Program
 
         var feedbackSummary = FeedbackSummaryResource.Create(
             startDate: MarshalConverter.DateTimeFromString("2008-01-02"),
-            endDate: MarshalConverter.DateTimeFromString("2008-01-02"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            endDate: MarshalConverter.DateTimeFromString("2008-01-02")
         );
 
         Console.WriteLine(feedbackSummary.Sid);

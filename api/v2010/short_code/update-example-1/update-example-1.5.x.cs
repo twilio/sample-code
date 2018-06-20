@@ -17,7 +17,6 @@ class Program
 
         var shortCode = ShortCodeResource.Update(
             smsUrl: new Uri("http://demo.twilio.com/docs/sms.xml"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "SC6b20cb705c1e8f00210049b20b70fce3"
         );
 

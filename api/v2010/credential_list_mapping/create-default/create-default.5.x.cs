@@ -17,7 +17,6 @@ class Program
 
         var credentialListMapping = CredentialListMappingResource.Create(
             credentialListSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathDomainSid: "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

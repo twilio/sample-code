@@ -17,7 +17,6 @@ class Program
 
         var outgoingCallerId = OutgoingCallerIdResource.Update(
             friendlyName: "My Second Line",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "PNe536d32a3c49700934481addd5ce1659"
         );
 

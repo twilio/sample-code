@@ -17,7 +17,6 @@ class Program
 
         var domain = DomainResource.Update(
             authType: "AuthType",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

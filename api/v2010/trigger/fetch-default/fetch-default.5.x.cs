@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var trigger = TriggerResource.Fetch(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var trigger = TriggerResource.Fetch(pathSid: "UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
         Console.WriteLine(trigger.FriendlyName);
     }

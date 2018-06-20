@@ -18,8 +18,7 @@ class Program
         var application = ApplicationResource.Create(
             voiceMethod: Twilio.Http.HttpMethod.Get,
             voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml"),
-            friendlyName: "Phone Me",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            friendlyName: "Phone Me"
         );
 
         Console.WriteLine(application.Sid);

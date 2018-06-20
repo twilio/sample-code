@@ -20,8 +20,7 @@ class Program
             sipAuthUsername: "jack",
             url: new Uri("http://www.example.com/sipdial.xml"),
             to: new Twilio.Types.PhoneNumber("sip:kate@example.com"),
-            from: new Twilio.Types.PhoneNumber("Jack"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            from: new Twilio.Types.PhoneNumber("Jack")
         );
 
         Console.WriteLine(call.Sid);

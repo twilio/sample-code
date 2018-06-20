@@ -18,8 +18,7 @@ class Program
         var trigger = TriggerResource.Create(
             callbackUrl: new Uri("https://example.com"),
             triggerValue: "TriggerValue",
-            usageCategory: TriggerResource.UsageCategoryEnum.AnsweringMachineDetection,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            usageCategory: TriggerResource.UsageCategoryEnum.AnsweringMachineDetection
         );
 
         Console.WriteLine(trigger.Sid);

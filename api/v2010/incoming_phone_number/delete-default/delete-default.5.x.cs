@@ -15,9 +15,6 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        IncomingPhoneNumberResource.Delete(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        IncomingPhoneNumberResource.Delete(pathSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
     }
 }

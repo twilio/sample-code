@@ -23,8 +23,7 @@ class Program
             statusCallbackMethod: Twilio.Http.HttpMethod.Post,
             url: new Uri("http://demo.twilio.com/docs/voice.xml"),
             to: new Twilio.Types.PhoneNumber("+14155551212"),
-            from: new Twilio.Types.PhoneNumber("+18668675310"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            from: new Twilio.Types.PhoneNumber("+18668675310")
         );
 
         Console.WriteLine(call.Sid);

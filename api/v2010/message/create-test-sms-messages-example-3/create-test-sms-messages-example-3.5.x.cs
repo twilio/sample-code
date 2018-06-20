@@ -18,8 +18,7 @@ class Program
         var message = MessageResource.Create(
             from: new Twilio.Types.PhoneNumber("+15005550006"),
             body: "Body",
-            to: new Twilio.Types.PhoneNumber("+14108675310"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            to: new Twilio.Types.PhoneNumber("+14108675310")
         );
 
         Console.WriteLine(message.Sid);

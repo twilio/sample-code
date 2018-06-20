@@ -16,8 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var local = LocalResource.Create(
-            phoneNumber: new Twilio.Types.PhoneNumber("+15017122661"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            phoneNumber: new Twilio.Types.PhoneNumber("+15017122661")
         );
 
         Console.WriteLine(local.Sid);

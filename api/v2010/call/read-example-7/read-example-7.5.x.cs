@@ -16,8 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var calls = CallResource.Read(
-            from: new Twilio.Types.PhoneNumber("client:charlie"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            from: new Twilio.Types.PhoneNumber("client:charlie")
         );
 
         foreach(var record in calls)

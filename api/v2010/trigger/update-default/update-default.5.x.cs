@@ -17,7 +17,6 @@ class Program
 
         var trigger = TriggerResource.Update(
             callbackMethod: Twilio.Http.HttpMethod.Get,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

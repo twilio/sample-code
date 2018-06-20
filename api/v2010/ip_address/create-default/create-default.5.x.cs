@@ -18,7 +18,6 @@ class Program
         var ipAddress = IpAddressResource.Create(
             friendlyName: "FriendlyName",
             ipAddress: "IpAddress",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathIpAccessControlListSid: "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

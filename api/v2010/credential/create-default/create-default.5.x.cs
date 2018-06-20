@@ -18,7 +18,6 @@ class Program
         var credential = CredentialResource.Create(
             username: "Username",
             password: "Password",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathCredentialListSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

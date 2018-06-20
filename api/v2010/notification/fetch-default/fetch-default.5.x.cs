@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var notification = NotificationResource.Fetch(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

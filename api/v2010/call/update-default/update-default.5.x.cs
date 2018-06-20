@@ -17,7 +17,6 @@ class Program
 
         var call = CallResource.Update(
             url: new Uri("https://example.com"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

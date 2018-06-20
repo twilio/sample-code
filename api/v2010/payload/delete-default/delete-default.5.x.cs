@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         PayloadResource.Delete(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathReferenceSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathAddOnResultSid: "XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "XHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

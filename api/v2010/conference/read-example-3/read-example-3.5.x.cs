@@ -18,8 +18,7 @@ class Program
 
         var conferences = ConferenceResource.Read(
             dateCreated: MarshalConverter.DateTimeFromString("2009-07-06"),
-            status: ConferenceResource.StatusEnum.Completed,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            status: ConferenceResource.StatusEnum.Completed
         );
 
         foreach(var record in conferences)

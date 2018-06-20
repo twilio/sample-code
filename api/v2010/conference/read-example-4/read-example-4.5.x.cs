@@ -16,8 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var conferences = ConferenceResource.Read(
-            status: ConferenceResource.StatusEnum.InProgress,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            status: ConferenceResource.StatusEnum.InProgress
         );
 
         foreach(var record in conferences)

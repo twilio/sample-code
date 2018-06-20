@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var outgoingCallerId = OutgoingCallerIdResource.Fetch(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "PNe905d7e6b410746a0fb08c57e5a186f3"
         );
 

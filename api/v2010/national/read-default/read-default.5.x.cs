@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var national = NationalResource.Read(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathCountryCode: "US"
-        );
+        var national = NationalResource.Read(pathCountryCode: "US");
 
         foreach(var record in national)
         {
