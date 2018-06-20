@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var members = MemberResource.Read(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathQueueSid: "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

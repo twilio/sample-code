@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var transcription = TranscriptionResource.Fetch(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "TR8c61027b709ffb038236612dc5af8723"
         );
 

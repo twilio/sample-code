@@ -15,9 +15,6 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        CredentialListResource.Delete(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        CredentialListResource.Delete(pathSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
     }
 }

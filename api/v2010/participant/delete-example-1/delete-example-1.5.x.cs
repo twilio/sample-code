@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         ParticipantResource.Delete(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathConferenceSid: "CFbbe4632a3c49700934481addd5ce1659",
             pathCallSid: "CA386025c9bf5d6052a1d1ea42b4d16662"
         );

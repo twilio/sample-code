@@ -17,7 +17,6 @@ class Program
 
         var credential = CredentialResource.Update(
             password: "Password",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathCredentialListSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

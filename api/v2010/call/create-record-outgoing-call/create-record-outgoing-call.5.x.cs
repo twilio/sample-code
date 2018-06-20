@@ -19,8 +19,7 @@ class Program
             record: true,
             url: new Uri("http://demo.twilio.com/docs/voice.xml"),
             to: new Twilio.Types.PhoneNumber("+14155551212"),
-            from: new Twilio.Types.PhoneNumber("+15017122661"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            from: new Twilio.Types.PhoneNumber("+15017122661")
         );
 
         Console.WriteLine(call.Sid);

@@ -17,7 +17,6 @@ class Program
 
         var call = CallResource.Update(
             status: CallResource.UpdateStatusEnum.Completed,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CAe1644a7eed5088b159577c5802d8be38"
         );
 

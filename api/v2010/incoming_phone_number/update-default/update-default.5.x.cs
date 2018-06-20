@@ -17,7 +17,6 @@ class Program
 
         var incomingPhoneNumber = IncomingPhoneNumberResource.Update(
             accountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

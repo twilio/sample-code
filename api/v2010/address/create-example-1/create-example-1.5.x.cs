@@ -22,8 +22,7 @@ class Program
             city: "Berlin",
             region: "Berlin",
             postalCode: "10875",
-            isoCountry: "DE",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            isoCountry: "DE"
         );
 
         Console.WriteLine(address.Sid);

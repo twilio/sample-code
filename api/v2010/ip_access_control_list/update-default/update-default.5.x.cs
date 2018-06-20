@@ -17,7 +17,6 @@ class Program
 
         var ipAccessControlList = IpAccessControlListResource.Update(
             friendlyName: "FriendlyName",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

@@ -18,7 +18,6 @@ class Program
         var call = CallResource.Update(
             method: Twilio.Http.HttpMethod.Post,
             url: new Uri("http://demo.twilio.com/docs/voice.xml"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CAe1644a7eed5088b159577c5802d8be38"
         );
 

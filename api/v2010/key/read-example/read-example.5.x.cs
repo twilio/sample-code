@@ -15,7 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var keys = KeyResource.Read(pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        var keys = KeyResource.Read();
 
         foreach(var record in keys)
         {

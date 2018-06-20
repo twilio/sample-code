@@ -20,8 +20,7 @@ class Program
             body: "Let's grab lunch at Milliways tomorrow!",
             from: new Twilio.Types.PhoneNumber("+14158141829"),
             mediaUrl: Promoter.ListOfOne(new Uri("http://www.example.com/cheeseburger.png")),
-            to: new Twilio.Types.PhoneNumber("+15558675310"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            to: new Twilio.Types.PhoneNumber("+15558675310")
         );
 
         Console.WriteLine(message.Sid);

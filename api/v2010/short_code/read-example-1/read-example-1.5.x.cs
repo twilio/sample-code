@@ -15,9 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var shortCodes = ShortCodeResource.Read(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var shortCodes = ShortCodeResource.Read();
 
         foreach(var record in shortCodes)
         {

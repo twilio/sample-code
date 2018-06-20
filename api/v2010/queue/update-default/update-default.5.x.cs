@@ -17,7 +17,6 @@ class Program
 
         var queue = QueueResource.Update(
             friendlyName: "FriendlyName",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

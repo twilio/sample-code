@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var applications = ApplicationResource.Read(
-            friendlyName: "MyApp",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var applications = ApplicationResource.Read(friendlyName: "MyApp");
 
         foreach(var record in applications)
         {

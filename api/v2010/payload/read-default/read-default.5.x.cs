@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var payloads = PayloadResource.Read(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathReferenceSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathAddOnResultSid: "XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

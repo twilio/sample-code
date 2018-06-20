@@ -17,7 +17,6 @@ class Program
 
         var conference = ConferenceResource.Update(
             status: ConferenceResource.UpdateStatusEnum.Completed,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

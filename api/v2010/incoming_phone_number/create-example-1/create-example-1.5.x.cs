@@ -19,8 +19,7 @@ class Program
             friendlyName: "My Company Line",
             phoneNumber: new Twilio.Types.PhoneNumber("+15105647903"),
             voiceMethod: Twilio.Http.HttpMethod.Get,
-            voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml")
         );
 
         Console.WriteLine(incomingPhoneNumber.Sid);

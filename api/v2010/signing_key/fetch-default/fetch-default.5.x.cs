@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var signingKey = SigningKeyResource.Fetch(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

@@ -17,7 +17,6 @@ class Program
 
         var signingKey = SigningKeyResource.Update(
             friendlyName: "FriendlyName",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

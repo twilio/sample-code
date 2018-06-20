@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var queue = QueueResource.Create(
-            friendlyName: "FriendlyName",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var queue = QueueResource.Create(friendlyName: "FriendlyName");
 
         Console.WriteLine(queue.Sid);
     }

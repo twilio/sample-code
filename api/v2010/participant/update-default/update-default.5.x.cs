@@ -17,7 +17,6 @@ class Program
 
         var participant = ParticipantResource.Update(
             muted: true,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathConferenceSid: "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

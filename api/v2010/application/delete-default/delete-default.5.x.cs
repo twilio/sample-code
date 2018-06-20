@@ -15,9 +15,6 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        ApplicationResource.Delete(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        ApplicationResource.Delete(pathSid: "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
     }
 }

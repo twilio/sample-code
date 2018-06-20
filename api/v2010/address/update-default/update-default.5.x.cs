@@ -17,7 +17,6 @@ class Program
 
         var address = AddressResource.Update(
             friendlyName: "FriendlyName",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

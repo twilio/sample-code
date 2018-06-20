@@ -17,7 +17,6 @@ class Program
 
         var connectApp = ConnectAppResource.Update(
             authorizeRedirectUrl: new Uri("https://example.com"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

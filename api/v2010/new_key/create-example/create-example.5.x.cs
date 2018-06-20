@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var newKey = NewKeyResource.Create(
-            friendlyName: "User Joey",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var newKey = NewKeyResource.Create(friendlyName: "User Joey");
 
         Console.WriteLine(newKey.Sid);
     }

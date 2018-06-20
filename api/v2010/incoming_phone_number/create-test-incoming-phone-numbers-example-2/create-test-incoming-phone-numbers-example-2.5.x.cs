@@ -16,8 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var incomingPhoneNumber = IncomingPhoneNumberResource.Create(
-            phoneNumber: new Twilio.Types.PhoneNumber("+15005550000"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            phoneNumber: new Twilio.Types.PhoneNumber("+15005550000")
         );
 
         Console.WriteLine(incomingPhoneNumber.Sid);

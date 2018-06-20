@@ -18,8 +18,7 @@ class Program
         var call = CallResource.Create(
             url: new Uri("http://demo.twilio.com/docs/voice.xml"),
             to: new Twilio.Types.PhoneNumber("+15005550003"),
-            from: new Twilio.Types.PhoneNumber("+15005550006"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            from: new Twilio.Types.PhoneNumber("+15005550006")
         );
 
         Console.WriteLine(call.Sid);

@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var sharedCost = SharedCostResource.Read(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathCountryCode: "US"
-        );
+        var sharedCost = SharedCostResource.Read(pathCountryCode: "US");
 
         foreach(var record in sharedCost)
         {

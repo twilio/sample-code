@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var address = AddressResource.Fetch(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var address = AddressResource.Fetch(pathSid: "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 
         Console.WriteLine(address.CustomerName);
     }

@@ -17,8 +17,7 @@ class Program
 
         var recordings = RecordingResource.Read(
             dateCreatedBefore: new DateTime(2016, 10, 15, 0, 0, 0),
-            dateCreatedAfter: new DateTime(2016, 10, 12, 0, 0, 0),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            dateCreatedAfter: new DateTime(2016, 10, 12, 0, 0, 0)
         );
 
         foreach(var record in recordings)

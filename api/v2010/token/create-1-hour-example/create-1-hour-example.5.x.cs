@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var token = TokenResource.Create(
-            ttl: 3600,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var token = TokenResource.Create(ttl: 3600);
 
         Console.WriteLine(token.Username);
     }

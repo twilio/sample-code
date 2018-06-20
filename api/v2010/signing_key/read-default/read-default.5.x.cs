@@ -15,9 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var signingKeys = SigningKeyResource.Read(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var signingKeys = SigningKeyResource.Read();
 
         foreach(var record in signingKeys)
         {

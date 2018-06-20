@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var domain = DomainResource.Create(
-            domainName: "DomainName",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var domain = DomainResource.Create(domainName: "DomainName");
 
         Console.WriteLine(domain.Sid);
     }

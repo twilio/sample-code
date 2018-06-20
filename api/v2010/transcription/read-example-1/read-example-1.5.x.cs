@@ -15,9 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var transcriptions = TranscriptionResource.Read(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var transcriptions = TranscriptionResource.Read();
 
         foreach(var record in transcriptions)
         {

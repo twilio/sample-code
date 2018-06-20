@@ -17,7 +17,6 @@ class Program
 
         var application = ApplicationResource.Update(
             friendlyName: "FriendlyName",
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

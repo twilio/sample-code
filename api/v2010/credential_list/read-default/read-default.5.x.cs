@@ -15,9 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var credentialLists = CredentialListResource.Read(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var credentialLists = CredentialListResource.Read();
 
         foreach(var record in credentialLists)
         {

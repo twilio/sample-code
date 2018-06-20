@@ -17,7 +17,6 @@ class Program
 
         var queue = QueueResource.Update(
             maxSize: 123,
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "QU32a3c49700934481addd5ce1659f04d2"
         );
 

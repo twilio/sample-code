@@ -15,10 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var voip = VoipResource.Read(
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathCountryCode: "US"
-        );
+        var voip = VoipResource.Read(pathCountryCode: "US");
 
         foreach(var record in voip)
         {

@@ -17,8 +17,7 @@ class Program
 
         var incomingPhoneNumber = IncomingPhoneNumberResource.Create(
             phoneNumber: new Twilio.Types.PhoneNumber("+15005550006"),
-            voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            voiceUrl: new Uri("http://demo.twilio.com/docs/voice.xml")
         );
 
         Console.WriteLine(incomingPhoneNumber.Sid);
