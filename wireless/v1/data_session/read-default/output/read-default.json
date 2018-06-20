@@ -15,7 +15,7 @@
       "packets_downloaded": 0,
       "last_updated": "2015-07-30T20:00:00Z",
       "start": "2015-07-30T20:00:00Z",
-      "end": ""
+      "end": null
     },
     {
       "sid": "WNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -38,10 +38,10 @@
   "meta": {
     "first_page_url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DataSessions?PageSize=50&Page=0",
     "key": "data_sessions",
-    "next_page_url": "",
+    "next_page_url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DataSessions?PageSize=50&Page=1",
     "page": 0,
     "page_size": 50,
-    "previous_page_url": "",
+    "previous_page_url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DataSessions?PageSize=50&Page=0",
     "url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DataSessions?PageSize=50&Page=0"
   },
   "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

@@ -12,7 +12,7 @@
     "usage_records": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/UsageRecords"
   },
   "rate_plan_sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "iccid": "iccid",
   "e_id": "e_id",
   "status": "active",

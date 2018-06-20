@@ -20,7 +20,7 @@
     "usage_records": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/UsageRecords"
   },
   "rate_plan_sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "AliceSmithSmartMeter",
+  "sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "iccid": "iccid",
   "e_id": "e_id",
   "status": "new",
