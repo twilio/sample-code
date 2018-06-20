@@ -5,10 +5,10 @@
   "date_created": "2014-05-14T10:50:02Z",
   "date_updated": "2014-05-14T23:26:06Z",
   "document_content_type": "application/json",
-  "fallback_assignment_callback_url": "https://example.com",
+  "fallback_assignment_callback_url": null,
   "friendly_name": "Default Fifo Workflow",
   "sid": "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "task_reservation_timeout": "20",
+  "task_reservation_timeout": 20,
   "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows/WFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "statistics": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows/WFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Statistics",

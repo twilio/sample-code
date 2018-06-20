@@ -2,7 +2,7 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "activity_name": "available",
   "activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "attributes": "{}",
+  "attributes": {},
   "available": false,
   "date_created": "2017-05-30T23:32:39Z",
   "date_status_changed": "2017-05-30T23:32:39Z",

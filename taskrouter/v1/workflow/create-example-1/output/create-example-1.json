@@ -39,8 +39,8 @@
   "document_content_type": "application/json",
   "fallback_assignment_callback_url": "http://example2.com",
   "friendly_name": "Sales, Marketing, Support Workflow",
-  "sid": "WFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "task_reservation_timeout": "30",
+  "sid": "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "task_reservation_timeout": 30,
   "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows/WFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
