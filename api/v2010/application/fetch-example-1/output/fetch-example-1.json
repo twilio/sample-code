@@ -5,7 +5,7 @@
   "date_updated": "Tue, 18 Aug 2015 16:48:57 +0000",
   "friendly_name": "Application Friendly Name",
   "message_status_callback": "http://www.example.com/sms-status-callback",
-  "sid": "AP2a0747eba6abf96b7e3c3ff0b4530f6e",
+  "sid": "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sms_fallback_method": "GET",
   "sms_fallback_url": "http://www.example.com/sms-fallback",
   "sms_method": "GET",
