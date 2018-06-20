@@ -15,7 +15,7 @@
   "group_sid": "GPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "parent_call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "price": "-0.03000",
+  "price": -0.03000,
   "price_unit": "USD",
   "sid": "CAe1644a7eed5088b159577c5802d8be38",
   "start_time": "Tue, 31 Aug 2010 20:36:29 +0000",

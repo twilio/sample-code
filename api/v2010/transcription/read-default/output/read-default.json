@@ -21,7 +21,7 @@
       "recording_sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "status": "completed",
-      "transcription_text": "",
+      "transcription_text": null,
       "type": "fast",
       "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Transcriptions/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
     }

@@ -6,8 +6,8 @@
     "imperfect-audio",
     "post-dial-delay"
   ],
-  "quality_score": "1",
+  "quality_score": 5,
   "sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "issue": "['audio-latency']",
-  "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "issue": null
 }

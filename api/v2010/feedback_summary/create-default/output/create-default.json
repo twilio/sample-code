@@ -2,7 +2,7 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "call_count": 10200,
   "call_feedback_count": 729,
-  "end_date": "2008-01-02",
+  "end_date": "2011-01-01",
   "include_subaccounts": false,
   "issues": [
     {
@@ -15,7 +15,7 @@
   "quality_score_median": 4,
   "quality_score_standard_deviation": 1,
   "sid": "FSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "start_date": "2008-01-02",
+  "start_date": "2011-01-01",
   "status": "completed",
   "date_created": "Tue, 31 Aug 2010 20:36:28 +0000",
   "date_updated": "Tue, 31 Aug 2010 20:36:44 +0000"

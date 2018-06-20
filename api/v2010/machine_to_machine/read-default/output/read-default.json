@@ -10,14 +10,14 @@
       },
       "friendly_name": "+4759440374",
       "iso_country": "NO",
-      "lata": "",
-      "latitude": "",
-      "locality": "",
-      "longitude": "",
+      "lata": null,
+      "latitude": null,
+      "locality": null,
+      "longitude": null,
       "phone_number": "+4759440374",
-      "postal_code": "",
-      "rate_center": "",
-      "region": ""
+      "postal_code": null,
+      "rate_center": null,
+      "region": null
     }
   ],
   "end": 1,
@@ -32,5 +32,5 @@
   "total": 1,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AvailablePhoneNumbers/US/MachineToMachine.json?PageSize=1",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "country_code": "US"
+  "country_code": null
 }

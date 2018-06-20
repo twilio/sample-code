@@ -22,7 +22,7 @@
       "sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "source": "StartConferenceRecordingAPI",
       "status": "completed",
-      "error_code": "",
+      "error_code": null,
       "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
       "subresource_uris": {
         "add_on_results": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AddOnResults.json",
@@ -37,6 +37,6 @@
   ],
   "start": 0,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json?PageSize=1&Page=0",
-  "date_created_after": "2009-07-06T00:00:00Z",
-  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created_after": "2009-07-06T00:00:00Z"
 }

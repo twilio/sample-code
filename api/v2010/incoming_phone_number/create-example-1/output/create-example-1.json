@@ -30,7 +30,7 @@
   "voice_application_sid": "",
   "voice_caller_id_lookup": false,
   "voice_fallback_method": "POST",
-  "voice_fallback_url": "https://example.com",
+  "voice_fallback_url": null,
   "voice_method": "GET",
   "voice_url": "http://demo.twilio.com/docs/voice.xml"
 }

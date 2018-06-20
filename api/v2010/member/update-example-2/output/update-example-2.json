@@ -4,8 +4,8 @@
   "position": 1,
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queues/QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Members/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
   "wait_time": 143,
-  "url": "http://demo.twilio.com/docs/voice.xml",
-  "method": "POST",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "queue_sid": "QU5ef8732a3c49700934481addd5ce1659"
+  "method": "POST",
+  "queue_sid": "QU5ef8732a3c49700934481addd5ce1659",
+  "url": "http://demo.twilio.com/docs/voice.xml"
 }
