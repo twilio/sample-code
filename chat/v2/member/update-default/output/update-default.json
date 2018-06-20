@@ -5,7 +5,7 @@
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "identity": "jing",
   "role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "last_consumed_message_index": "20",
+  "last_consumed_message_index": 20,
   "last_consumption_timestamp": "2016-03-24T21:05:52Z",
   "date_created": "2016-03-24T21:05:50Z",
   "date_updated": "2016-03-24T21:05:51Z",
