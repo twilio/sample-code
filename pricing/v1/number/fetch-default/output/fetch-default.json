@@ -1,12 +1,12 @@
 {
   "country": "Iran",
   "inbound_call_price": {
-    "base_price": "",
-    "current_price": "",
-    "number_type": ""
+    "base_price": null,
+    "current_price": null,
+    "number_type": null
   },
   "iso_country": "IR",
-  "number": "+15017122661",
+  "number": "+987654321",
   "outbound_call_price": {
     "base_price": "0.255",
     "current_price": "0.255"
