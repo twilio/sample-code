@@ -2,7 +2,7 @@
   "sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "friendly_name": "friendly_name",
+  "friendly_name": "channel user",
   "type": "channel",
   "permissions": [
     "sendMessage",
@@ -13,7 +13,5 @@
   "date_created": "2016-03-03T19:47:15Z",
   "date_updated": "2016-03-03T19:47:15Z",
   "url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Roles/RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "permission": [
-    "permission"
-  ]
+  "permission": null
 }

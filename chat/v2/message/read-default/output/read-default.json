@@ -3,9 +3,9 @@
     "page": 0,
     "page_size": 50,
     "first_page_url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
-    "previous_page_url": "",
+    "previous_page_url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
     "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
-    "next_page_url": "",
+    "next_page_url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=1",
     "key": "messages"
   },
   "messages": [
@@ -17,14 +17,14 @@
       "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "2016-03-24T20:37:57Z",
       "date_updated": "2016-03-24T20:37:57Z",
-      "last_updated_by": "",
+      "last_updated_by": null,
       "was_edited": false,
       "from": "system",
       "attributes": {},
       "body": "Hello",
       "index": 0,
       "type": "text",
-      "media": "",
+      "media": null,
       "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
@@ -35,7 +35,7 @@
       "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "2016-03-24T20:37:57Z",
       "date_updated": "2016-03-24T20:37:57Z",
-      "last_updated_by": "",
+      "last_updated_by": null,
       "was_edited": false,
       "from": "system",
       "attributes": {},
@@ -51,6 +51,6 @@
       "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
-  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

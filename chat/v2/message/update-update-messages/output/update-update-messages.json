@@ -4,7 +4,9 @@
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "to": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "attributes": "{ \"foo\": \"bar\" }",
+  "attributes": {
+    "foo": "bar"
+  },
   "date_created": "2015-12-16T22:18:37Z",
   "date_updated": "2015-12-16T22:18:38Z",
   "last_updated_by": "username",
@@ -13,6 +15,6 @@
   "body": "MESSAGE",
   "index": 0,
   "type": "text",
-  "media": {},
+  "media": null,
   "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
