@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Short Code"
+  "title": "Create Short Code",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/ShortCodes",
+    "method": "post"
+  }
 }

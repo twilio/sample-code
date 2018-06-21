@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Room"
+  "title": "Read Room",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms",
+    "method": "get"
+  }
 }

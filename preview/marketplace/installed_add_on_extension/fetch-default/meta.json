@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Installed Add On Extension"
+  "title": "Fetch Installed Add On Extension",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/marketplace/InstalledAddOns/{installed_add_on_sid}/Extensions/{sid}",
+    "method": "get"
+  }
 }

@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "sync/rest/lists/create-list/create-list.6.x.py",
   "title": "Create a Sync List",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "ttl": "1814400",
+        "unique_name": "MyCollection"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Lists",
+    "method": "post"
+  }
 }

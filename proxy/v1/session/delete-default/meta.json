@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Session"
+  "title": "Delete Session",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{sid}",
+    "method": "delete"
+  }
 }

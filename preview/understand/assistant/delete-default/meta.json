@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Assistant"
+  "title": "Delete Assistant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{sid}",
+    "method": "delete"
+  }
 }

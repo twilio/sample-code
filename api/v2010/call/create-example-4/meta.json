@@ -1,5 +1,23 @@
 {
   "original_snippet_path": "rest/making-calls/example-4/example-4.6.x.py",
   "title": "Make a call and monitor progress events",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "+18668675310",
+        "method": "GET",
+        "status_callback": "https://www.myapp.com/events",
+        "status_callback_event": "initiated",
+        "status_callback_method": "POST",
+        "to": "+14155551212",
+        "url": "http://demo.twilio.com/docs/voice.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "post"
+  }
 }

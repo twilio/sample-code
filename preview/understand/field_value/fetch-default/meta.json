@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Field Value"
+  "title": "Fetch Field Value",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/FieldTypes/{field_type_sid}/FieldValues/{sid}",
+    "method": "get"
+  }
 }

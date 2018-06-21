@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Aws"
+  "title": "Create Aws",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://accounts.twilio.com/v1/Credentials/AWS",
+    "method": "post"
+  }
 }

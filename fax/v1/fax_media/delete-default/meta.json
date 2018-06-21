@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Fax Media"
+  "title": "Delete Fax Media",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://fax.twilio.com/v1/Faxes/{fax_sid}/Media/{sid}",
+    "method": "delete"
+  }
 }

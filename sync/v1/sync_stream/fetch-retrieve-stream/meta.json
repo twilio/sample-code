@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "sync/rest/streams/retrieve-stream/retrieve-stream.6.x.py",
   "title": "Retrieve a Message Stream",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MyStream"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Streams/{sid}",
+    "method": "get"
+  }
 }

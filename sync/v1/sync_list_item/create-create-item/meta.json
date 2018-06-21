@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "sync/rest/lists/create-list-item/create-list-item.6.x.py",
   "title": "Create a Sync List Item",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "data": "{\"number\": \"001\", \"name\": \"Bulbasaur\", \"attack\": 49}",
+        "ttl": "864000"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "list_sid": "MyCollection"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Lists/{list_sid}/Items",
+    "method": "post"
+  }
 }

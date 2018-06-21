@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Verification"
+  "title": "Create Verification",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Verification/Services/{service_sid}/Verifications",
+    "method": "post"
+  }
 }

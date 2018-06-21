@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Alert"
+  "title": "Read Alert",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://monitor.twilio.com/v1/Alerts",
+    "method": "get"
+  }
 }

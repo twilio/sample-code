@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "video/rest/recordings/list-deleted-recordings/list-deleted-recordings.6.x.py",
   "title": "Get the list of deleted Recordings",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "status": "deleted"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Recordings",
+    "method": "get"
+  }
 }

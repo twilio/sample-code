@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Fax Media"
+  "title": "Read Fax Media",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://fax.twilio.com/v1/Faxes/{fax_sid}/Media",
+    "method": "get"
+  }
 }

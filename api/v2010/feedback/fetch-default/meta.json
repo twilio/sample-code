@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Feedback"
+  "title": "Fetch Feedback",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/{call_sid}/Feedback.json",
+    "method": "get"
+  }
 }

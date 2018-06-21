@@ -6,5 +6,17 @@
     "phone number"
   ],
   "title": "Lookup with E.164 Formatted Number",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "type": "carrier"
+      },
+      "path": {
+        "phone_number": "+15108675310"
+      }
+    },
+    "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
+    "method": "get"
+  }
 }

@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "rest/call/list-get-example-2/list-get-example-2.6.x.py",
   "title": "Retrieve Call By Start Date Example",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "start_time": "2009-07-06T00:00:00Z",
+        "status": "completed"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "get"
+  }
 }

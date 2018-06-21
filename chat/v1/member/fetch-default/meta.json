@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Member"
+  "title": "Fetch Member",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v1/Services/{service_sid}/Channels/{channel_sid}/Members/{sid}",
+    "method": "get"
+  }
 }

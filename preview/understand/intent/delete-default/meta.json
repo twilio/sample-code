@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Intent"
+  "title": "Delete Intent",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Intents/{sid}",
+    "method": "delete"
+  }
 }

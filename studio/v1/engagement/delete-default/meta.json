@@ -1,0 +1,12 @@
+{
+  "type": "server",
+  "title": "Delete Engagement",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Engagements/{sid}",
+    "method": "delete"
+  }
+}

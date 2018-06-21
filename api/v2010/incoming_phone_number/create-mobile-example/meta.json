@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "rest/available-phone-numbers/mobile-example/mobile-get-example-1.6.x.py",
   "title": "Find Mobile Numbers by Region",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "phone_number": "+4759440374"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers.json",
+    "method": "post"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Conference"
+  "title": "Fetch Conference",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences/{sid}.json",
+    "method": "get"
+  }
 }

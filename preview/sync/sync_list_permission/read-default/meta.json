@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Sync List Permission"
+  "title": "Read Sync List Permission",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Lists/{list_sid}/Permissions",
+    "method": "get"
+  }
 }

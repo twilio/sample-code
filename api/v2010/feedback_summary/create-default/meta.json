@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Feedback Summary"
+  "title": "Create Feedback Summary",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/FeedbackSummary.json",
+    "method": "post"
+  }
 }

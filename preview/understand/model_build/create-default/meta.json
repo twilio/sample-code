@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Model Build"
+  "title": "Create Model Build",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/ModelBuilds",
+    "method": "post"
+  }
 }

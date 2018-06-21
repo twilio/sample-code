@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "sync/rest/streams/list-streams/list-streams.6.x.py",
   "title": "Retrieve a list of Message Streams",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Streams",
+    "method": "get"
+  }
 }

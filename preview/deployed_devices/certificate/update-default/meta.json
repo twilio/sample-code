@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Certificate"
+  "title": "Update Certificate",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Certificates/{sid}",
+    "method": "post"
+  }
 }

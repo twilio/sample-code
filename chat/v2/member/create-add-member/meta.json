@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "ip-messaging/rest/members/add-member/add-member.6.x.py",
   "title": "Add a Member",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "identity": "IDENTITY"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Members",
+    "method": "post"
+  }
 }

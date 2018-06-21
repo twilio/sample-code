@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Usage Record"
+  "title": "Read Usage Record",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/Sims/{sim_sid}/UsageRecords",
+    "method": "get"
+  }
 }

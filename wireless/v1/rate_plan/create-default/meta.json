@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Rate Plan"
+  "title": "Create Rate Plan",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/RatePlans",
+    "method": "post"
+  }
 }

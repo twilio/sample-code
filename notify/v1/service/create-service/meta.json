@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "notifications/rest/services/create-service/create-service.6.x.py",
   "title": "Create a Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "apn_credential_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "fcm_credential_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "friendly_name": "My Awesome Service"
+      },
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services",
+    "method": "post"
+  }
 }

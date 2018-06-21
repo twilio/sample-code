@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Participant"
+  "title": "Update Participant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{session_sid}/Participants/{sid}",
+    "method": "post"
+  }
 }

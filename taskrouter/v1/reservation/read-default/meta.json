@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Reservation"
+  "title": "Read Reservation",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workers/{worker_sid}/Reservations",
+    "method": "get"
+  }
 }

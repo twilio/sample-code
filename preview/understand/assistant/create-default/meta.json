@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Assistant"
+  "title": "Create Assistant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants",
+    "method": "post"
+  }
 }

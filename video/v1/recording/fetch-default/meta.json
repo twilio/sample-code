@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Recording"
+  "title": "Fetch Recording",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Recordings/{sid}",
+    "method": "get"
+  }
 }

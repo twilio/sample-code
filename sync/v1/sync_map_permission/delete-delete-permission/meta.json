@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "sync/rest/map-permissions/delete-permission/delete-permission.6.x.py",
   "title": "Remove a Map Permission by Identity",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "map_sid": "Players",
+        "identity": "bob"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Permissions/{identity}",
+    "method": "delete"
+  }
 }

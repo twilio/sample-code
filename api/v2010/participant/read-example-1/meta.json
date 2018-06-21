@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "rest/participant/list-get-example-1/list-get-example-1.6.x.py",
   "title": "Retrieve all participants",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "conference_sid": "CFbbe4632a3c49700934481addd5ce1659"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences/{conference_sid}/Participants.json",
+    "method": "get"
+  }
 }

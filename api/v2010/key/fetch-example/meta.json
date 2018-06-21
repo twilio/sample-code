@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "rest/keys/instance-get-example/instance-get-example.6.x.py",
   "title": "Get API Key Details",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "SK2a0747eba6abf96b7e3c3ff0b4530f6e"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Keys/{sid}.json",
+    "method": "get"
+  }
 }

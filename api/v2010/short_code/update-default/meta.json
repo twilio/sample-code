@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Short Code"
+  "title": "Update Short Code",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SMS/ShortCodes/{sid}.json",
+    "method": "post"
+  }
 }

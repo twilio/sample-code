@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "rest/test-credentials/test-incoming-phone-numbers-example-2/test-incoming-phone-numbers-example-2.6.x.py",
   "title": "Attempt to purchase an unavailable number",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "phone_number": "+15005550000"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers.json",
+    "method": "post"
+  }
 }

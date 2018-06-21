@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Recording"
+  "title": "Delete Recording",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Recordings/{sid}",
+    "method": "delete"
+  }
 }

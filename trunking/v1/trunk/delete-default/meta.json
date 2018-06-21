@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Trunk"
+  "title": "Delete Trunk",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{sid}",
+    "method": "delete"
+  }
 }

@@ -1,5 +1,13 @@
 {
   "original_snippet_path": "notifications/rest/services/list-service/list-service.6.x.py",
   "title": "List all Services",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services",
+    "method": "get"
+  }
 }

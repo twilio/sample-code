@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "rest/sip/example-3/example-3.6.x.py",
   "title": "example-3",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "Jack",
+        "to": "sip:kate@example.com?hatchkey=4815162342",
+        "url": "http://www.example.com/sipdial.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "post"
+  }
 }

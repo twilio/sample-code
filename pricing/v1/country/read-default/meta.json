@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Country"
+  "title": "Read Country",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://pricing.twilio.com/v1/Voice/Countries",
+    "method": "get"
+  }
 }

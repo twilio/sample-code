@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "monitor/events/list-get-example-actorsid-resourcesid-error/list-get-example-actorsid-resourcesid-error.6.x.py",
   "title": "Only use one filter property at a time!",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "actor_sid": "USd0afd67cddff4ec7cb0022771a203cb1",
+        "resource_sid": "PN4aa51b930717ea83c91971b86d99018f"
+      },
+      "path": {}
+    },
+    "location": "https://monitor.twilio.com/v1/Events",
+    "method": "get"
+  }
 }

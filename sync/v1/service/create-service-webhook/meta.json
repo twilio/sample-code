@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "sync/rest/services/create-service-webhook/create-service-webhook.6.x.py",
   "title": "Create a Service with a Webhook URL",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "MySyncServiceInstance",
+        "webhook_url": "https://example.com/sync"
+      },
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services",
+    "method": "post"
+  }
 }

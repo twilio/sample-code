@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Trunk"
+  "title": "Update Trunk",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{sid}",
+    "method": "post"
+  }
 }

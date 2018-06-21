@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "sync/rest/maps/delete-map/delete-map.6.x.py",
   "title": "Delete a Sync Map",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "Players"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{sid}",
+    "method": "delete"
+  }
 }

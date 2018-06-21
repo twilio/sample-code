@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Sync Map"
+  "title": "Fetch Sync Map",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{sid}",
+    "method": "get"
+  }
 }

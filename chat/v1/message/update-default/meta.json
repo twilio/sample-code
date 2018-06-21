@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Message"
+  "title": "Update Message",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v1/Services/{service_sid}/Channels/{channel_sid}/Messages/{sid}",
+    "method": "post"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Sync Stream"
+  "title": "Update Sync Stream",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Streams/{sid}",
+    "method": "post"
+  }
 }

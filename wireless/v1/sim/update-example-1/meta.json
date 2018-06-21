@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "wireless/sims/instance-post-example-1/instance-post-example-1.6.x.py",
   "title": "Update a SIM",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "callback_method": "POST",
+        "callback_url": "https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter",
+        "status": "active"
+      },
+      "path": {
+        "sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      }
+    },
+    "location": "https://wireless.twilio.com/v1/Sims/{sid}",
+    "method": "post"
+  }
 }

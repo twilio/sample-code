@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "rest/conference/list-get-example-4/list-get-example-4.6.x.py",
   "title": "List In-progress Conference From Date",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "date_created>": "2009-07-06",
+        "status": "in-progress"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences.json",
+    "method": "get"
+  }
 }

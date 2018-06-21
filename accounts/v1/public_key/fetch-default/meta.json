@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Public Key"
+  "title": "Fetch Public Key",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://accounts.twilio.com/v1/Credentials/PublicKeys/{sid}",
+    "method": "get"
+  }
 }

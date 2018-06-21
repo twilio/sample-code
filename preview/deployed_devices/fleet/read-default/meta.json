@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Fleet"
+  "title": "Read Fleet",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets",
+    "method": "get"
+  }
 }

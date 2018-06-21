@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "notifications/sms-quickstart/send-notification-to-number/send-notification-to-number.6.x.py",
   "title": "Send SMS Notification To a Number",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Knok-Knok! This is your first Notify SMS",
+        "to_binding": "{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Notifications",
+    "method": "post"
+  }
 }

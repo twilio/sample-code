@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Rate Plan"
+  "title": "Update Rate Plan",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/RatePlans/{sid}",
+    "method": "post"
+  }
 }

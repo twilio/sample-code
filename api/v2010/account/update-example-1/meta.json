@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "rest/accounts/instance-post-example-1/instance-post-example-1.6.x.py",
   "title": "Suspend a Subaccount",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "status": "suspended"
+      },
+      "path": {
+        "sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{sid}.json",
+    "method": "post"
+  }
 }

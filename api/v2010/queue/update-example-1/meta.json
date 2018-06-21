@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "rest/queue/instance-post-example-1/instance-post-example-1.6.x.py",
   "title": "Update a Queue",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "max_size": "123"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "QU32a3c49700934481addd5ce1659f04d2"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Queues/{sid}.json",
+    "method": "post"
+  }
 }

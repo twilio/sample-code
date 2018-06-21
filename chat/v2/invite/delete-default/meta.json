@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Invite"
+  "title": "Delete Invite",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Invites/{sid}",
+    "method": "delete"
+  }
 }

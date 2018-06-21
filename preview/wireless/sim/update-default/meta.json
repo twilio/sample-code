@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Sim"
+  "title": "Update Sim",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/wireless/Sims/{sid}",
+    "method": "post"
+  }
 }

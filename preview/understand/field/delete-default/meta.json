@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Field"
+  "title": "Delete Field",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Intents/{intent_sid}/Fields/{sid}",
+    "method": "delete"
+  }
 }

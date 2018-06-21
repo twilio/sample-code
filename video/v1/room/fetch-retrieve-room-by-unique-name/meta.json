@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "video/rest/rooms/retrieve-room-by-unique-name/retrieve-room-by-unique-name.6.x.py",
   "title": "Retrieve an in-progress Room instance by UniqueName",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "DailyStandup"
+      }
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{sid}",
+    "method": "get"
+  }
 }

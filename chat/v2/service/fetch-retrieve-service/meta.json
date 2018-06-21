@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "ip-messaging/rest/services/retrieve-service/retrieve-service.6.x.py",
   "title": "Retrieve a Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{sid}",
+    "method": "get"
+  }
 }

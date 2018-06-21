@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Command"
+  "title": "Fetch Command",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/wireless/Commands/{sid}",
+    "method": "get"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Session"
+  "title": "Create Session",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions",
+    "method": "post"
+  }
 }

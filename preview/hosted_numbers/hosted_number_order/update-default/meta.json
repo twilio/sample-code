@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Hosted Number Order"
+  "title": "Update Hosted Number Order",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/{sid}",
+    "method": "post"
+  }
 }

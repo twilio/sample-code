@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "rest/taskrouter/workers/list/get/example-1/example-1.6.x.py",
   "title": "List All Workers",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workers",
+    "method": "get"
+  }
 }

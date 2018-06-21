@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Sync List Item"
+  "title": "Create Sync List Item",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Lists/{list_sid}/Items",
+    "method": "post"
+  }
 }

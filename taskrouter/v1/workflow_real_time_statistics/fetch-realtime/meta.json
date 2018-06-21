@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "rest/taskrouter/statistics/workflow/realtime/example-1.6.x.py",
   "title": "Retrieve Workflow RealTime Statistics",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "workflow_sid": "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workflows/{workflow_sid}/RealTimeStatistics",
+    "method": "get"
+  }
 }

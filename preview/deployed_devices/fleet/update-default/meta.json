@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Fleet"
+  "title": "Update Fleet",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{sid}",
+    "method": "post"
+  }
 }

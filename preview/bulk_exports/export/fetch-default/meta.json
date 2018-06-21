@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Export"
+  "title": "Fetch Export",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/BulkExports/Exports/{resource_type}",
+    "method": "get"
+  }
 }

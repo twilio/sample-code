@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "deployed-devices/rest/fleets/retrieve-fleet/retrieve-fleet.6.x.py",
   "title": "Retrieve a Device Fleet",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{sid}",
+    "method": "get"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Command"
+  "title": "Create Command",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/Commands",
+    "method": "post"
+  }
 }

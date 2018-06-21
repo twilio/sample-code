@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Assistant"
+  "title": "Fetch Assistant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{sid}",
+    "method": "get"
+  }
 }

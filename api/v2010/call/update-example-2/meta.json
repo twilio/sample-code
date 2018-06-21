@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "rest/change-call-state/list-get-example-2/list-get-example-2.6.x.py",
   "title": "Terminate a Running Call",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "status": "completed"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "CAe1644a7eed5088b159577c5802d8be38"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/{sid}.json",
+    "method": "post"
+  }
 }

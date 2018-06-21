@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "rest/applications/list-get-example-2/list-get-example-2.6.x.py",
   "title": "Return the application named \"MyApp\"",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "MyApp"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Applications.json",
+    "method": "get"
+  }
 }

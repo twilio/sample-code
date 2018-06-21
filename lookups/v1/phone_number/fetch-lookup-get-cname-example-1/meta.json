@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "lookups/lookup-get-cname-example-1/lookup-get-cname-example-1.6.x.py",
   "title": "Lookup with Caller Name",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "type": "caller-name"
+      },
+      "path": {
+        "phone_number": "+16502530000"
+      }
+    },
+    "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
+    "method": "get"
+  }
 }

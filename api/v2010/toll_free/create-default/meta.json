@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Toll Free"
+  "title": "Create Toll Free",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers/TollFree.json",
+    "method": "post"
+  }
 }

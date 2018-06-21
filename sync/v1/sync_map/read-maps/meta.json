@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "sync/rest/maps/list-maps/list-maps.6.x.py",
   "title": "Retrieve a list of Sync Maps",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps",
+    "method": "get"
+  }
 }

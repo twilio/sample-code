@@ -4,5 +4,17 @@
     "messaging"
   ],
   "title": "Update a Messaging Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "inbound_request_url": "http://www.example.com"
+      },
+      "path": {
+        "sid": "MG2172dd2db502e20dd981ef0d67850e1a"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{sid}",
+    "method": "post"
+  }
 }

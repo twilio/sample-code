@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "video/rest/rooms/create-group-room-with-h264/create-group-room.6.x.py",
   "title": "Create a Group Room that will force H.264 video codec",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "status_callback": "http://example.org",
+        "type": "group",
+        "unique_name": "DailyStandupWithH264Codec",
+        "video_codecs": "H264"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms",
+    "method": "post"
+  }
 }

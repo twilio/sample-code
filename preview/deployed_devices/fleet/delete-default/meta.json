@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Fleet"
+  "title": "Delete Fleet",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{sid}",
+    "method": "delete"
+  }
 }

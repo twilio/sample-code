@@ -4,5 +4,17 @@
     "fax"
   ],
   "title": "Send an outbound fax",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "+15017122661",
+        "media_url": "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
+        "to": "+15558675310"
+      },
+      "path": {}
+    },
+    "location": "https://fax.twilio.com/v1/Faxes",
+    "method": "post"
+  }
 }

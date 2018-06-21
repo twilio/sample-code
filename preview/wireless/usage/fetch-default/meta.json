@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Usage"
+  "title": "Fetch Usage",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/wireless/Sims/{sim_sid}/Usage",
+    "method": "get"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Transcription"
+  "title": "Fetch Transcription",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Transcriptions/{sid}.json",
+    "method": "get"
+  }
 }

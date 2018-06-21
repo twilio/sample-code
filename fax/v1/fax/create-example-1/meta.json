@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "fax/sip-send/example-1/example-1.6.x.py",
   "title": "Send Fax Using SIP",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "Jack",
+        "media_url": "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
+        "to": "sip:kate@example.com"
+      },
+      "path": {}
+    },
+    "location": "https://fax.twilio.com/v1/Faxes",
+    "method": "post"
+  }
 }

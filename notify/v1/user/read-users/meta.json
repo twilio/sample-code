@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "notifications/rest/users/list-users/list-users.6.x.py",
   "title": "List Users",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "segment": "premium"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Users",
+    "method": "get"
+  }
 }

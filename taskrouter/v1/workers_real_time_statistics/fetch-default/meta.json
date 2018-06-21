@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Workers Real Time Statistics"
+  "title": "Fetch Workers Real Time Statistics",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workers/RealTimeStatistics",
+    "method": "get"
+  }
 }

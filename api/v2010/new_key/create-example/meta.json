@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "rest/keys/list-post-example/list-post-example.6.x.py",
   "title": "Create an API Key",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "User Joey"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Keys.json",
+    "method": "post"
+  }
 }

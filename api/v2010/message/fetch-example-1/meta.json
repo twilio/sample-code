@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "rest/message/instance-get-example-1/instance-get-example-1.6.x.py",
   "title": "Get a Message",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MM800f449d0399ed014aae2bcc0cc2f2ec"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages/{sid}.json",
+    "method": "get"
+  }
 }

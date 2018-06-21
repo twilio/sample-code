@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Short Code"
+  "title": "Read Short Code",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Proxy/Services/{service_sid}/ShortCodes",
+    "method": "get"
+  }
 }

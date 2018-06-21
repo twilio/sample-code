@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Flow"
+  "title": "Delete Flow",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Studio/Flows/{sid}",
+    "method": "delete"
+  }
 }

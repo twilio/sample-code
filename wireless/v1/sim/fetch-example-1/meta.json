@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "wireless/sims/instance-get-example-1/instance-get-example-1.6.x.py",
   "title": "Get a SIM",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      }
+    },
+    "location": "https://wireless.twilio.com/v1/Sims/{sid}",
+    "method": "get"
+  }
 }

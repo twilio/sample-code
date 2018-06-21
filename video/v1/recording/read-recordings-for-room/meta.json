@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "video/rest/recordings/list-recordings-for-room/list-recordings-for-room.6.x.py",
   "title": "Get the list of Recordings for the specified Room",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "grouping_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Recordings",
+    "method": "get"
+  }
 }

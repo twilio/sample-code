@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Credential List"
+  "title": "Delete Credential List",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/CredentialLists/{sid}",
+    "method": "delete"
+  }
 }

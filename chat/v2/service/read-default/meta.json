@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Service"
+  "title": "Read Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services",
+    "method": "get"
+  }
 }

@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "rest/keys/using-keys-example/example.6.x.py",
   "title": "Use an API Key Pair to Send A Message",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Never gonna give you up.",
+        "from": "+15017122661",
+        "to": "+15558675310"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post"
+  }
 }

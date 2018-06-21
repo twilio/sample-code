@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Alpha Sender"
+  "title": "Read Alpha Sender",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/AlphaSenders",
+    "method": "get"
+  }
 }

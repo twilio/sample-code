@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Application"
+  "title": "Update Application",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Applications/{sid}.json",
+    "method": "post"
+  }
 }

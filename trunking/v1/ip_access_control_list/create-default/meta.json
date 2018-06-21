@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Ip Access Control List"
+  "title": "Create Ip Access Control List",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/IpAccessControlLists",
+    "method": "post"
+  }
 }

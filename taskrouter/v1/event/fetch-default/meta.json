@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Event"
+  "title": "Fetch Event",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Events/{sid}",
+    "method": "get"
+  }
 }

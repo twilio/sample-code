@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "sync/rest/services/update-service/update-service.6.x.py",
   "title": "Update a Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "NEW_FRIENDLY_NAME"
+      },
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{sid}",
+    "method": "post"
+  }
 }

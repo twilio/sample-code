@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Sim"
+  "title": "Fetch Sim",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/wireless/Sims/{sid}",
+    "method": "get"
+  }
 }

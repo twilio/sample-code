@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "rest/transcription/instance-delete-examples/instance-delete-examples.6.x.py",
   "title": "Delete a Transcription",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "TR8c61027b709ffb038236612dc5af8723"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Transcriptions/{sid}.json",
+    "method": "delete"
+  }
 }

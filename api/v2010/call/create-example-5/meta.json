@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "rest/making-calls-sip/example-1/example-1.6.x.py",
   "title": "Create Basic SIP Dial",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "Jack",
+        "to": "sip:kate@example.com",
+        "url": "http://www.example.com/sipdial.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "post"
+  }
 }

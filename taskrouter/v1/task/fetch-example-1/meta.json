@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "rest/taskrouter/tasks/instance/delete/example-1/example-1.6.x.py",
   "title": "Delete a task",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Tasks/{sid}",
+    "method": "get"
+  }
 }

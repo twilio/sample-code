@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Query"
+  "title": "Update Query",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Queries/{sid}",
+    "method": "post"
+  }
 }

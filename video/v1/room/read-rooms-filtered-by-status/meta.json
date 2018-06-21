@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "video/rest/rooms/list-rooms-filtered-by-status/list-rooms-filtered-by-status.6.x.py",
   "title": "Retrieve a list of completed Rooms",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "status": "completed"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms",
+    "method": "get"
+  }
 }

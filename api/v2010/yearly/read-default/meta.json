@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Yearly"
+  "title": "Read Yearly",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Usage/Records/Yearly.json",
+    "method": "get"
+  }
 }

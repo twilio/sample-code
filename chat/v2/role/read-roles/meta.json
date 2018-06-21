@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "ip-messaging/rest/roles/list-roles/list-roles.6.x.py",
   "title": "List all Roles",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Roles",
+    "method": "get"
+  }
 }

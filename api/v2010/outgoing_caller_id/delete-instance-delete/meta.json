@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "rest/outgoing-caller-ids/instance-delete/instance-delete.6.x.py",
   "title": "Delete Outgoing Caller ID",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "PNe536d32a3c49700934481addd5ce1659"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/OutgoingCallerIds/{sid}.json",
+    "method": "delete"
+  }
 }

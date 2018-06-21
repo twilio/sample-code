@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Session"
+  "title": "Read Session",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions",
+    "method": "get"
+  }
 }

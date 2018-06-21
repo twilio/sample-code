@@ -4,5 +4,17 @@
     "messaging"
   ],
   "title": "Add a Phone Number to a Messaging Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "phone_number_sid": "PN557ce644e5ab84fa21cc21112e22c485"
+      },
+      "path": {
+        "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/PhoneNumbers",
+    "method": "post"
+  }
 }

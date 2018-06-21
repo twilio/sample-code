@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "sync/rest/maps/retrieve-map-item/retrieve-map-item.6.x.py",
   "title": "Retrieve a Sync Map Item",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "map_sid": "Players",
+        "key": "steph_curry"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Items/{key}",
+    "method": "get"
+  }
 }

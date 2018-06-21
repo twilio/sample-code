@@ -7,5 +7,21 @@
   ],
   "testable": false,
   "title": "Lookup with Add-on enabled",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "add_ons": "payfone_tcpa_compliance",
+        "add_ons_data": {
+          "payfone_tcpa_compliance.right_party_contacted_date": "20160101"
+        },
+        "type": "carrier"
+      },
+      "path": {
+        "phone_number": "+15108675310"
+      }
+    },
+    "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
+    "method": "get"
+  }
 }

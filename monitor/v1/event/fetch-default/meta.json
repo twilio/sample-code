@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Event"
+  "title": "Fetch Event",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://monitor.twilio.com/v1/Events/{sid}",
+    "method": "get"
+  }
 }

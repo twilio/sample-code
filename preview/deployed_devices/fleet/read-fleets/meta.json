@@ -1,5 +1,13 @@
 {
   "original_snippet_path": "deployed-devices/rest/fleets/list-fleets/list-fleets.6.x.py",
   "title": "List Device Fleets",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets",
+    "method": "get"
+  }
 }

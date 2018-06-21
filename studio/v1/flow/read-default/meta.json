@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Flow"
+  "title": "Read Flow",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://studio.twilio.com/v1/Flows",
+    "method": "get"
+  }
 }

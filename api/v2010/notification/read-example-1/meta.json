@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "rest/notification/list-get-example-1/list-get-example-1.6.x.py",
   "title": "Filter Notifications",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Notifications.json",
+    "method": "get"
+  }
 }

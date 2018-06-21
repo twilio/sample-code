@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "rest/incoming-phone-numbers/list-get-example-1/list-get-example-1.6.x.py",
   "title": "List all IncomingPhoneNumber of your Account",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers.json",
+    "method": "get"
+  }
 }

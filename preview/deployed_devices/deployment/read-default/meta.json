@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Deployment"
+  "title": "Read Deployment",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Deployments",
+    "method": "get"
+  }
 }

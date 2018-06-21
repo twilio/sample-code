@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "rest/messages/feedback-send-sms/feedback-send-sms.6.x.py",
   "title": "Send an SMS for which to provide Feedback",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Open to confirm: http://yourserver.com/confirm?id=1234567890",
+        "from": "+15017122661",
+        "provide_feedback": true,
+        "to": "+15558675310"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Installed Add On"
+  "title": "Read Installed Add On",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/marketplace/InstalledAddOns",
+    "method": "get"
+  }
 }

@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "rest/messages/send-message/example-1.6.x.py",
   "title": "Send a Message with an Image URL",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "This is the ship that made the Kessel Run in fourteen parsecs?",
+        "from": "+15017122661",
+        "media_url": "https://c1.staticflickr.com/3/2899/14341091933_1e92e62d12_b.jpg",
+        "to": "+15558675310"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post"
+  }
 }

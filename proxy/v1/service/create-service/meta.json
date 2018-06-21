@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "proxy/quickstart/create-service/create-service.6.x.py",
   "title": "Create a Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "callback_url": "https://www.example.com/",
+        "unique_name": "My Awesome Service"
+      },
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services",
+    "method": "post"
+  }
 }

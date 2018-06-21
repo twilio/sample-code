@@ -2,5 +2,21 @@
   "original_snippet_path": "notifications/register/create-binding-server-fcm/create-binding-server-fcm.6.x.py",
   "testable": true,
   "title": "Create a Binding (Server-side)",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "address": "fcm_device_token",
+        "binding_type": "fcm",
+        "endpoint": "XXXXXXXXXXXXXXX",
+        "identity": "00000001",
+        "tag": "preferred device"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Bindings",
+    "method": "post"
+  }
 }

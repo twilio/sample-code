@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Workspace Statistics"
+  "title": "Fetch Workspace Statistics",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Statistics",
+    "method": "get"
+  }
 }

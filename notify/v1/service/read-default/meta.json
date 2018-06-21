@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Service"
+  "title": "Read Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services",
+    "method": "get"
+  }
 }

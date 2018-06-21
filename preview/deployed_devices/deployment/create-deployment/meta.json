@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "deployed-devices/rest/deployments/create-deployment/create-deployment.6.x.py",
   "title": "Create a Device Deployment",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "My Device Deployment"
+      },
+      "path": {
+        "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Deployments",
+    "method": "post"
+  }
 }

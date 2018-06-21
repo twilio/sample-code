@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "notifications/rest/services/update-service/update-service.6.x.py",
   "title": "Update a Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "facebook_messenger_page_id": "your_page_id",
+        "friendly_name": "Another Awesome Service",
+        "messaging_service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{sid}",
+    "method": "post"
+  }
 }

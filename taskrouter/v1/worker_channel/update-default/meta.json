@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Worker Channel"
+  "title": "Update Worker Channel",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workers/{worker_sid}/Channels/{sid}",
+    "method": "post"
+  }
 }

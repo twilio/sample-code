@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Published Track"
+  "title": "Read Published Track",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Participants/{participant_sid}/PublishedTracks",
+    "method": "get"
+  }
 }

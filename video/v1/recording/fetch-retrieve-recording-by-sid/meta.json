@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "video/rest/recordings/retrieve-recording-by-sid/retrieve-recording-by-sid.6.x.py",
   "title": "Returns a representation of the Recording metadata.",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://video.twilio.com/v1/Recordings/{sid}",
+    "method": "get"
+  }
 }

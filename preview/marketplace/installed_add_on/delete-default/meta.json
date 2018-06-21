@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Installed Add On"
+  "title": "Delete Installed Add On",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/marketplace/InstalledAddOns/{sid}",
+    "method": "delete"
+  }
 }

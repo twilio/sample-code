@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Role"
+  "title": "Read Role",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v1/Services/{service_sid}/Roles",
+    "method": "get"
+  }
 }

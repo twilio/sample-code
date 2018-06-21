@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "sync/rest/services/delete-service/delete-service.6.x.py",
   "title": "Delete a Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{sid}",
+    "method": "delete"
+  }
 }

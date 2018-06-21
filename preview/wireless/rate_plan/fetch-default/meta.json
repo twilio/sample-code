@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Rate Plan"
+  "title": "Fetch Rate Plan",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/wireless/RatePlans/{sid}",
+    "method": "get"
+  }
 }

@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "rest/answering-machine-detection/outgoing-call/outgoing-call-1.6.x.py",
   "title": "Make a call with AMD",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "+18180000000",
+        "machine_detection": "Enable",
+        "to": "+1562300000",
+        "url": "https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "post"
+  }
 }

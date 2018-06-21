@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read User Channel"
+  "title": "Read User Channel",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v1/Services/{service_sid}/Users/{user_sid}/Channels",
+    "method": "get"
+  }
 }

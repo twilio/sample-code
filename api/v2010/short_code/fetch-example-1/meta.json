@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "rest/short-codes/instance-get-example-1/instance-get-example-1.6.x.py",
   "title": "Get a ShortCode",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "SC6b20cb705c1e8f00210049b20b70fce2"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SMS/ShortCodes/{sid}.json",
+    "method": "get"
+  }
 }

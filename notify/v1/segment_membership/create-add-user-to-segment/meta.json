@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "notifications/rest/users/add-user-to-segment/add-user-to-segment.6.x.py",
   "title": "Add a User to a Segment",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "segment": "premium"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "User0001"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Users/{identity}/SegmentMemberships",
+    "method": "post"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Trunk"
+  "title": "Create Trunk",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks",
+    "method": "post"
+  }
 }

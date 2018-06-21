@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read User Binding"
+  "title": "Read User Binding",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Users/{identity}/Bindings",
+    "method": "get"
+  }
 }

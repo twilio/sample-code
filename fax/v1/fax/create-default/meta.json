@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Fax"
+  "title": "Create Fax",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://fax.twilio.com/v1/Faxes",
+    "method": "post"
+  }
 }

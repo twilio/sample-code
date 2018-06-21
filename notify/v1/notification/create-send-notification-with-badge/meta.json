@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "notifications/rest/notifications/send-notification-with-badge/send-notification-with-badge.6.x.py",
   "title": "Send a Detailed Notification with Badge",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "apn": "{\"aps\" : { \"alert\": {\"title\":\"Bob alert\",\"body\" :\"Bob, you just received a badge\"}, \"badge\" : 1 }}",
+        "identity": "00000001"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Notifications",
+    "method": "post"
+  }
 }

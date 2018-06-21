@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Credential List"
+  "title": "Fetch Credential List",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/CredentialLists/{sid}",
+    "method": "get"
+  }
 }

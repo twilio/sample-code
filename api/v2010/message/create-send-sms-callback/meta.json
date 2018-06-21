@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "rest/messages/send-sms-callback/send-sms-callback.6.x.py",
   "title": "Send an SMS with a StatusCallback URL",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "McAvoy or Stewart? These timelines can get so confusing.",
+        "from": "+15017122661",
+        "status_callback": "http://requestb.in/1234abcd",
+        "to": "+15558675310"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Task"
+  "title": "Update Task",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Tasks/{sid}",
+    "method": "post"
+  }
 }

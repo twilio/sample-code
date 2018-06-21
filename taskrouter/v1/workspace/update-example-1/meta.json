@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "rest/taskrouter/workspaces/instance/post/example-1/example-1.6.x.py",
   "title": "Update a Workspace",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "event_callback_url": "http://requestb.in/vh9reovh",
+        "friendly_name": "NewFriendlyName"
+      },
+      "path": {
+        "sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{sid}",
+    "method": "post"
+  }
 }

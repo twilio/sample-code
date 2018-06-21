@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Sync Stream"
+  "title": "Fetch Sync Stream",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Streams/{sid}",
+    "method": "get"
+  }
 }

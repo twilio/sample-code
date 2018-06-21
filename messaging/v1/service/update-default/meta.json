@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Service"
+  "title": "Update Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{sid}",
+    "method": "post"
+  }
 }

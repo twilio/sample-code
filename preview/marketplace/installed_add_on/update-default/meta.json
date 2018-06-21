@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Installed Add On"
+  "title": "Update Installed Add On",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/marketplace/InstalledAddOns/{sid}",
+    "method": "post"
+  }
 }

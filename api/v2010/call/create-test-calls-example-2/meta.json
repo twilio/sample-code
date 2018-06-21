@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "rest/test-credentials/test-calls-example-2/test-calls-example-2.6.x.py",
   "title": "Making a call to an international number in a country without permissions turned on",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "+15005550006",
+        "to": "+15005550003",
+        "url": "http://demo.twilio.com/docs/voice.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "post"
+  }
 }

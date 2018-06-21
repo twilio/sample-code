@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "quickstart/python/sms/example-1/send_notifications.6.x.py",
   "title": "Send SMS using Twilio",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Hello there!",
+        "from": "+15555555555",
+        "to": "+12316851234"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post"
+  }
 }

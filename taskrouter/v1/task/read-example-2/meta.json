@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "rest/taskrouter/tasks/list/get/example-2/example-2.6.x.py",
   "title": "Filter tasks",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "assignment_status": "pending"
+      },
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Tasks",
+    "method": "get"
+  }
 }

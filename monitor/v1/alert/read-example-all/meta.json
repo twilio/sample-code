@@ -1,5 +1,13 @@
 {
   "original_snippet_path": "monitor/alerts/list-get-example-all/list-get-example-all.6.x.py",
   "title": "List all alerts",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://monitor.twilio.com/v1/Alerts",
+    "method": "get"
+  }
 }

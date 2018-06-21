@@ -2,5 +2,20 @@
   "description": "Use a helper library to make a Lookups API request using the Payfone TCPA Compliance add-on.",
   "original_snippet_path": "add-ons/lookups/payfone-tcpa-compliance/payfone-tcpa-compliance.6.x.py",
   "title": "Lookups with Payfone TCPA Compliance Add-on",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "add_ons": "payfone_tcpa_compliance",
+        "add_ons_data": {
+          "payfone_tcpa_compliance.right_party_contacted_date": "20160101"
+        }
+      },
+      "path": {
+        "phone_number": "+16502530000"
+      }
+    },
+    "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
+    "method": "get"
+  }
 }

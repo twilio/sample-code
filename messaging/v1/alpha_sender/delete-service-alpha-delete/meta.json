@@ -4,5 +4,16 @@
     "messaging"
   ],
   "title": "Delete an Alpha Sender ID from a Messaging Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a",
+        "sid": "AIc781610ec0b3400c9e0cab8e757da937"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/AlphaSenders/{sid}",
+    "method": "delete"
+  }
 }

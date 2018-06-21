@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "monitor/events/list-get-example-resourcesid-filter/list-get-example-resourcesid-filter.6.x.py",
   "title": "Filter for a phone number",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "resource_sid": "PN4aa51b930717ea83c91971b86d99018f"
+      },
+      "path": {}
+    },
+    "location": "https://monitor.twilio.com/v1/Events",
+    "method": "get"
+  }
 }

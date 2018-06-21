@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Key"
+  "title": "Fetch Key",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Keys/{sid}.json",
+    "method": "get"
+  }
 }

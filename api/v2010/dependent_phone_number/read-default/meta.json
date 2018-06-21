@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Dependent Phone Number"
+  "title": "Read Dependent Phone Number",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Addresses/{address_sid}/DependentPhoneNumbers.json",
+    "method": "get"
+  }
 }

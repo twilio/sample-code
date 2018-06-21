@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create New Signing Key"
+  "title": "Create New Signing Key",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SigningKeys.json",
+    "method": "post"
+  }
 }

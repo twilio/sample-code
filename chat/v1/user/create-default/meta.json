@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create User"
+  "title": "Create User",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v1/Services/{service_sid}/Users",
+    "method": "post"
+  }
 }

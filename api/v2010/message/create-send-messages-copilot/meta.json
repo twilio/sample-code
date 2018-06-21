@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "rest/messages/send-messages-copilot/send-messages-copilot.6.x.py",
   "title": "Send a Message with Copilot",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Phantom Menace was clearly the best of the prequel trilogy.",
+        "messaging_service_sid": "MG9752274e9e519418a7406176694466fa",
+        "to": "+441632960675"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post"
+  }
 }

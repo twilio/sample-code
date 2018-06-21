@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Room Recording"
+  "title": "Read Room Recording",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Recordings",
+    "method": "get"
+  }
 }

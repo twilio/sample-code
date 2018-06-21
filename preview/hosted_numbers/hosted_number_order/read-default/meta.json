@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Hosted Number Order"
+  "title": "Read Hosted Number Order",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders",
+    "method": "get"
+  }
 }

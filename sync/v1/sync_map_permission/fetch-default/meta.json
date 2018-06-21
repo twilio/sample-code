@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Sync Map Permission"
+  "title": "Fetch Sync Map Permission",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Permissions/{identity}",
+    "method": "get"
+  }
 }

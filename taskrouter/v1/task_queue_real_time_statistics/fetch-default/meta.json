@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Task Queue Real Time Statistics"
+  "title": "Fetch Task Queue Real Time Statistics",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/TaskQueues/{task_queue_sid}/RealTimeStatistics",
+    "method": "get"
+  }
 }

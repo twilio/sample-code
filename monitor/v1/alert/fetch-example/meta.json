@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "monitor/alerts/instance-get-example/instance-get-example.6.x.py",
   "title": "Get an alert instance",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "NO5a7a84730f529f0a76b3e30c01315d1a"
+      }
+    },
+    "location": "https://monitor.twilio.com/v1/Alerts/{sid}",
+    "method": "get"
+  }
 }

@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "video/rest/rooms/retrieve-room-recording/retrieve-room-recording.6.x.py",
   "title": "Returns a representation of the Recording metadata.",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Recordings/{sid}",
+    "method": "get"
+  }
 }

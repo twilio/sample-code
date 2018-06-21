@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "rest/subaccounts/exchanging-numbers-example-1/exchanging-numbers-example-1.6.x.py",
   "title": "Transfer phone numbers between subaccounts",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+        "sid": "PNyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers/{sid}.json",
+    "method": "post"
+  }
 }

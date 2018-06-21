@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Invite"
+  "title": "Read Invite",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v1/Services/{service_sid}/Channels/{channel_sid}/Invites",
+    "method": "get"
+  }
 }

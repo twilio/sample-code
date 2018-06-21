@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Today"
+  "title": "Read Today",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Usage/Records/Today.json",
+    "method": "get"
+  }
 }

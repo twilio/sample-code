@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Key"
+  "title": "Read Key",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Keys",
+    "method": "get"
+  }
 }

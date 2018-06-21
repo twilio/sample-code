@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "wireless/rateplans/create-example-1/create-example-1.6.x.py",
   "title": "Create a Rate Plan",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "California SmartMeter Plan",
+        "messaging_enabled": true,
+        "unique_name": "SmartMeterCA"
+      },
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/RatePlans",
+    "method": "post"
+  }
 }

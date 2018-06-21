@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "rest/taskrouter/workspaces/instance/delete/example-1/example-1.6.x.py",
   "title": "Delete a Workspace",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{sid}",
+    "method": "delete"
+  }
 }

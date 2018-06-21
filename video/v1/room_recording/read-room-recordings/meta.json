@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "video/rest/rooms/list-room-recordings/list-room-recordings.6.x.py",
   "title": "To list the Recordings captured in a given Room",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Recordings",
+    "method": "get"
+  }
 }

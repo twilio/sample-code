@@ -1,5 +1,18 @@
 {
   "original_snippet_path": "video/rest/rooms/create-peer-to-peer-room/create-peer-to-peer-room.6.x.py",
   "title": "Create a Peer-to-Peer Room",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "enable_turn": true,
+        "status_callback": "http://example.org",
+        "type": "peer-to-peer",
+        "unique_name": "DailyStandup"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms",
+    "method": "post"
+  }
 }

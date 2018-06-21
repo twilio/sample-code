@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Service"
+  "title": "Create Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services",
+    "method": "post"
+  }
 }

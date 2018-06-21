@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "quickstart/python/voice/example-1-make-call/outgoing_call.6.x.py",
   "title": "Make a phone call using Twilio",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "+15017122661",
+        "to": "+15558675310",
+        "url": "http://demo.twilio.com/docs/voice.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "post"
+  }
 }

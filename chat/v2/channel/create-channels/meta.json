@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "ip-messaging/rest/channels/create-channels/create-channels.6.x.py",
   "title": "Create a Channel",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "MyChannel"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels",
+    "method": "post"
+  }
 }

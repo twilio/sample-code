@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "rest/applications/list-post-example-1/list-post-example-1.6.x.py",
   "title": "Create a New Application Within Your Account",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "Phone Me",
+        "voice_method": "GET",
+        "voice_url": "http://demo.twilio.com/docs/voice.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Applications.json",
+    "method": "post"
+  }
 }

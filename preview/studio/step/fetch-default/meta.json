@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Step"
+  "title": "Fetch Step",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Studio/Flows/{flow_sid}/Engagements/{engagement_sid}/Steps/{sid}",
+    "method": "get"
+  }
 }

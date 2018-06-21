@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Participant"
+  "title": "Update Participant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Participants/{sid}",
+    "method": "post"
+  }
 }

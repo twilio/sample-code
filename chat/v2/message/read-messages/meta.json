@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "ip-messaging/rest/messages/list-messages/list-messages.6.x.py",
   "title": "List all Messages",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Messages",
+    "method": "get"
+  }
 }

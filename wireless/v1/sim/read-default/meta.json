@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Sim"
+  "title": "Read Sim",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/Sims",
+    "method": "get"
+  }
 }

@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "monitor/events/list-get-example-date-filter/list-get-example-date-filter.6.x.py",
   "title": "Filter by date",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "end_date": "2015-04-01",
+        "start_date": "2015-03-01"
+      },
+      "path": {}
+    },
+    "location": "https://monitor.twilio.com/v1/Events",
+    "method": "get"
+  }
 }

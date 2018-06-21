@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Phone Number"
+  "title": "Delete Phone Number",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/PhoneNumbers/{sid}",
+    "method": "delete"
+  }
 }

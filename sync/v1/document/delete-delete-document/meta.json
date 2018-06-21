@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "sync/rest/documents/delete-document/delete-document.6.x.py",
   "title": "Delete a Document",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MyFirstDocument"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{sid}",
+    "method": "delete"
+  }
 }

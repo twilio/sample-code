@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Sync Map Permission"
+  "title": "Update Sync Map Permission",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Permissions/{identity}",
+    "method": "post"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Public Key"
+  "title": "Read Public Key",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://accounts.twilio.com/v1/Credentials/PublicKeys",
+    "method": "get"
+  }
 }

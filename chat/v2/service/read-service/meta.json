@@ -1,5 +1,13 @@
 {
   "original_snippet_path": "ip-messaging/rest/services/list-service/list-service.6.x.py",
   "title": "List all Services",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services",
+    "method": "get"
+  }
 }

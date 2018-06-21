@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "lookups/lookup-national-basic/lookup-national-basic.6.x.py",
   "title": "Lookup with National Formatted Number",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "country_code": "US"
+      },
+      "path": {
+        "phone_number": "+15108675310"
+      }
+    },
+    "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
+    "method": "get"
+  }
 }

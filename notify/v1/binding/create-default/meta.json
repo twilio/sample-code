@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Binding"
+  "title": "Create Binding",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Bindings",
+    "method": "post"
+  }
 }

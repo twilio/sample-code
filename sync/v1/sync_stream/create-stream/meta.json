@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "sync/rest/streams/create-stream/create-stream.6.x.py",
   "title": "Create a Message Stream",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "MyStream"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Streams",
+    "method": "post"
+  }
 }

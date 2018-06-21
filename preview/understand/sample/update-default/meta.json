@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Sample"
+  "title": "Update Sample",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Intents/{intent_sid}/Samples/{sid}",
+    "method": "post"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Room"
+  "title": "Update Room",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{sid}",
+    "method": "post"
+  }
 }

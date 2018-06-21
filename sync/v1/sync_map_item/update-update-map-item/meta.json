@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "sync/rest/maps/update-map-item/update-map-item.6.x.py",
   "title": "Update a Sync Map Item",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "data": "{\"name\": \"Stephen Curry\", \"level\": 31, \"username\": \"spicy_curry\"}"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "map_sid": "Players",
+        "key": "steph_curry"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Items/{key}",
+    "method": "post"
+  }
 }

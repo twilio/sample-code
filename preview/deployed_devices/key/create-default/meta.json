@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Create Key"
+  "title": "Create Key",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Keys",
+    "method": "post"
+  }
 }

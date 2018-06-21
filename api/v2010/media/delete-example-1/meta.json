@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "rest/media/instance-delete-example-1/instance-delete-example-1.6.x.py",
   "title": "Delete a Media",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "message_sid": "MM800f449d0399ed014aae2bcc0cc2f2ec",
+        "sid": "ME557ce644e5ab84fa21cc21112e22c485"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages/{message_sid}/Media/{sid}.json",
+    "method": "delete"
+  }
 }

@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "rest/available-phone-numbers/local-basic-example-6/local-get-basic-example-6.6.x.py",
   "title": "Find Regional Phone Numbers by Feature",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "phone_number": "+18089251571"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers.json",
+    "method": "post"
+  }
 }

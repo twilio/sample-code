@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Interaction"
+  "title": "Delete Interaction",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{session_sid}/Interactions/{sid}",
+    "method": "delete"
+  }
 }

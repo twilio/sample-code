@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Aws"
+  "title": "Delete Aws",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://accounts.twilio.com/v1/Credentials/AWS/{sid}",
+    "method": "delete"
+  }
 }

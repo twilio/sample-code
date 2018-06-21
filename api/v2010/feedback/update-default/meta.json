@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Update Feedback"
+  "title": "Update Feedback",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/{call_sid}/Feedback.json",
+    "method": "post"
+  }
 }

@@ -1,5 +1,16 @@
 {
   "original_snippet_path": "sync/rest/lists/delete-list/delete-list.6.x.py",
   "title": "Delete a Sync List",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MyCollection"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Lists/{sid}",
+    "method": "delete"
+  }
 }

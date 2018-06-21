@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Alert"
+  "title": "Fetch Alert",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://monitor.twilio.com/v1/Alerts/{sid}",
+    "method": "get"
+  }
 }

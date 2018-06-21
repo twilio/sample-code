@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "rest/messages/send-sms/send-sms.6.x.py",
   "title": "Send an SMS using the Programmable SMS API",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "This is the ship that made the Kessel Run in fourteen parsecs?",
+        "from": "+15017122661",
+        "to": "+15558675310"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post"
+  }
 }

@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Fetch Deployment"
+  "title": "Fetch Deployment",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Deployments/{sid}",
+    "method": "get"
+  }
 }

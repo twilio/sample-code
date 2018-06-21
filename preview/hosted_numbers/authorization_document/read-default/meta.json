@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Authorization Document"
+  "title": "Read Authorization Document",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments",
+    "method": "get"
+  }
 }

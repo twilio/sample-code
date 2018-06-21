@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Read Phone Number"
+  "title": "Read Phone Number",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/PhoneNumbers",
+    "method": "get"
+  }
 }

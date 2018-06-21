@@ -1,4 +1,12 @@
 {
   "type": "server",
-  "title": "Delete Segment Membership"
+  "title": "Delete Segment Membership",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Users/{identity}/SegmentMemberships/{segment}",
+    "method": "delete"
+  }
 }

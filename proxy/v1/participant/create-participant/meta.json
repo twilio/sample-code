@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "proxy/quickstart/create-participant/create-participant.6.x.py",
   "title": "Create a Participant",
-  "type": "server"
+  "type": "server",
+  "output_property": "proxy_identifier",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "Alice",
+        "identifier": "+15558675310"
+      },
+      "path": {
+        "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "session_sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{session_sid}/Participants",
+    "method": "post"
+  }
 }

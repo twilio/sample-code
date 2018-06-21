@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "video/rest/rooms/list-rooms-filtered-by-name/list-rooms-filtered-by-name.6.x.py",
   "title": "Filter the list of Rooms by their UniqueName",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "DailyStandup"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms",
+    "method": "get"
+  }
 }

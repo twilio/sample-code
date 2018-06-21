@@ -1,5 +1,15 @@
 {
   "original_snippet_path": "wireless/commands/instance-get-example-1/instance-get-example-1.6.x.py",
   "title": "Get a Command",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "DCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      }
+    },
+    "location": "https://wireless.twilio.com/v1/Commands/{sid}",
+    "method": "get"
+  }
 }
