@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $phone_number = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->phoneNumbers
-                                      ->create("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                      ->create("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // phoneNumberSid
                                       );
 
 print($phone_number->sid);

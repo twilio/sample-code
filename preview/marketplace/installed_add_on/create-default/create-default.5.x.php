@@ -12,8 +12,8 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $installed_add_on = $twilio->preview->marketplace->installedAddOns
-                                                 ->create("XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                                                          True
+                                                 ->create("XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", // availableAddOnSid
+                                                          True // acceptTermsOfService
                                                  );
 
 print($installed_add_on->sid);

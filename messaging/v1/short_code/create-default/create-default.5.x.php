@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $short_code = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->shortCodes
-                                    ->create("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                    ->create("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // shortCodeSid
                                     );
 
 print($short_code->sid);

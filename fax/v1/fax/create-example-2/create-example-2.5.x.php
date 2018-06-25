@@ -12,8 +12,8 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $fax = $twilio->fax->v1->faxes
-                       ->create("sip:kate@example.com",
-                                "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
+                       ->create("sip:kate@example.com", // to
+                                "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf", // mediaUrl
                                 array(
                                     "from" => "Jack",
                                     "sipAuthPassword" => "secret",

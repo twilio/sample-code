@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $short_code = $twilio->preview->proxy->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->shortCodes
-                                     ->create("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                     ->create("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // sid
                                      );
 
 print($short_code->sid);
