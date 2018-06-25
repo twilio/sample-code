@@ -14,12 +14,12 @@ $twilio = new Client($sid, $token);
 $sync_map_item = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->syncMaps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->syncMapItems
-                                  ->create("steph_curry",
+                                  ->create("steph_curry", // key
                                            array(
                                                "name" => "Stephen Curry",
                                                "level" => "30",
                                                "username" => "spicy_curry"
-                                           ),
+                                           ), // data
                                            array("ttl" => 864000)
                                   );
 

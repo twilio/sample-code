@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $credential = $twilio->chat->v2->credentials
-                               ->create("gcm",
+                               ->create("gcm", // type
                                         array(
                                             "apiKey" => "apiKey",
                                             "friendlyName" => "Friendly Name"

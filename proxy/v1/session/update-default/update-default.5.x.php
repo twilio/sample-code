@@ -13,9 +13,6 @@ $twilio = new Client($sid, $token);
 
 $session = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                             ->update(array(
-                                          'dateExpiry' => new \DateTime('2008-1-2')
-                                      )
-                             );
+                             ->update(array("uniqueName" => "uniqueName"));
 
 print($session->uniqueName);

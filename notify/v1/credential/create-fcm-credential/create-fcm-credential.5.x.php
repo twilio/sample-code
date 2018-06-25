@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $credential = $twilio->notify->v1->credentials
-                                 ->create("fcm",
+                                 ->create("fcm", // type
                                           array(
                                               "friendlyName" => "MyFCMCredential",
                                               "secret" => "fcm_secret"

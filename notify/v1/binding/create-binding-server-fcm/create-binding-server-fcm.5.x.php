@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->bindings
-                              ->create("00000001",
-                                       "fcm",
-                                       "fcm_device_token",
+                              ->create("00000001", // identity
+                                       "fcm", // bindingType
+                                       "fcm_device_token", // address
                                        array(
                                            "endpoint" => "XXXXXXXXXXXXXXX",
                                            "tag" => "preferred device"
