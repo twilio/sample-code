@@ -13,11 +13,11 @@ $twilio = new Client($sid, $token);
 
 $origination_url = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->originationUrls
-                                        ->create(1,
-                                                 1,
-                                                 True,
-                                                 "friendlyName",
-                                                 "https://example.com"
+                                        ->create(1, // weight
+                                                 1, // priority
+                                                 True, // enabled
+                                                 "friendlyName", // friendlyName
+                                                 "https://example.com" // sipUrl
                                         );
 
 print($origination_url->sid);

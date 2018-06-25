@@ -12,12 +12,12 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $address = $twilio->addresses
-                  ->create("Customer 500",
-                           "Elm Street",
-                           "Racoon",
-                           "Mordor",
-                           "150",
-                           "AX"
+                  ->create("Customer 500", // customerName
+                           "Elm Street", // street
+                           "Racoon", // city
+                           "Mordor", // region
+                           "150", // postalCode
+                           "AX" // isoCountry
                   );
 
 print($address->sid);

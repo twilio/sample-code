@@ -12,8 +12,8 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $call = $twilio->calls
-               ->create("+14108675310",
-                        "+15005550006",
+               ->create("+14108675310", // to
+                        "+15005550006", // from
                         array("url" => "http://demo.twilio.com/docs/voice.xml")
                );
 

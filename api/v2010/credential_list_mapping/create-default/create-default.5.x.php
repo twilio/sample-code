@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $credential_list_mapping = $twilio->sip
                                   ->domains("SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->credentialListMappings
-                                  ->create("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                  ->create("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // credentialListSid
                                   );
 
 print($credential_list_mapping->sid);

@@ -13,8 +13,8 @@ $twilio = new Client($sid, $token);
 
 $feedback_summary = $twilio->calls
                            ->feedbackSummaries
-                           ->create(new \DateTime('2008-01-02'),
-                                    new \DateTime('2008-01-02')
+                           ->create(new \DateTime('2008-01-02'), // startDate
+                                    new \DateTime('2008-01-02') // endDate
                            );
 
 print($feedback_summary->sid);
