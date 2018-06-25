@@ -2,9 +2,11 @@
   "sid": "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "to": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "to": null,
   "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "attributes": "{ \"foo\": \"bar\" }",
+  "attributes": {
+    "foo": "bar"
+  },
   "date_created": "2015-12-16T22:18:37Z",
   "date_updated": "2015-12-16T22:18:38Z",
   "last_updated_by": "username",

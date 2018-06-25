@@ -20,13 +20,13 @@ class Program
         {
             {"date_updated", "2018-02-14 12:24:31.843662"},
             {"movie_title", "On The Line"},
-            {"show_times", new string [] {
+            {"show_times", new object [] {
                 "12:30:00Z",
                 "14:45:00Z",
                 "15:30:00Z",
                 "17:45:00Z"
             }},
-            {"starring", new string [] {
+            {"starring", new object [] {
                 "Lance Bass",
                 "Joey Fatone"
             }},

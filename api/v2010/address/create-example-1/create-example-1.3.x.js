@@ -11,7 +11,7 @@ client.addresses
          street: '1 Hasselhoff Lane',
          city: 'Berlin',
          region: 'Berlin',
-         postalCode: 10875,
+         postalCode: '10875',
          isoCountry: 'DE'
        })
       .then(address => console.log(address.sid))

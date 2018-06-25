@@ -1,13 +1,17 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "created_by": "created_by",
-  "data": "{\"number\": \"001\", \"name\": \"Bulbasaur\", \"attack\": 50}",
+  "data": {
+    "number": "001",
+    "name": "Bulbasaur",
+    "attack": "50"
+  },
   "date_expires": "2015-07-30T21:00:00Z",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
-  "index": "0",
-  "list_sid": "MyCollection",
+  "index": 0,
+  "list_sid": "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "revision": "revision",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/MyCollection/Items/100"
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items/100"
 }

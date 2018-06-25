@@ -15,4 +15,4 @@ participant = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               identifier: '+15558675310'
                             )
 
-puts participant.proxy_identifier
+puts participant.sid

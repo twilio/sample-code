@@ -4,12 +4,12 @@
   "date_created": "Sun, 13 Feb 2011 02:12:08 +0000",
   "date_updated": "Sun, 13 Feb 2011 02:30:01 +0000",
   "duration": "1",
-  "price": "-0.05000",
+  "price": -0.05000,
   "price_unit": "USD",
   "recording_sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "TR8c61027b709ffb038236612dc5af8723",
+  "sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "failed",
   "transcription_text": "(blank)",
   "type": "fast",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Transcriptions/TR8c61027b709ffb038236612dc5af8723.json"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Transcriptions/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

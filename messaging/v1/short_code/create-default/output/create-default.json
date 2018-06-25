@@ -7,5 +7,6 @@
   "short_code": "12345",
   "country_code": "US",
   "capabilities": [],
-  "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "short_code_sid": "SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

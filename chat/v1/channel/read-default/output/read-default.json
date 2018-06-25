@@ -6,7 +6,9 @@
       "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "friendly_name": "friendly_name",
       "unique_name": "unique_name",
-      "attributes": "{ \"foo\": \"bar\" }",
+      "attributes": {
+        "foo": "bar"
+      },
       "type": "public",
       "date_created": "2015-12-16T22:18:37Z",
       "date_updated": "2015-12-16T22:18:37Z",
@@ -25,10 +27,11 @@
   "meta": {
     "page": 0,
     "page_size": 50,
-    "first_page_url": "https://chat.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "url": "https://chat.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels?PageSize=50&Page=0",
-    "next_page_url": null,
+    "first_page_url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels?PageSize=50&Page=0",
+    "previous_page_url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels?PageSize=50&Page=0",
+    "url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels?PageSize=50&Page=0",
+    "next_page_url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels?PageSize=50&Page=1",
     "key": "channels"
-  }
+  },
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

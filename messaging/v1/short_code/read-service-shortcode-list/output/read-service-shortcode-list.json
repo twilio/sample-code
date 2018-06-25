@@ -2,24 +2,24 @@
   "meta": {
     "page": 0,
     "page_size": 50,
-    "first_page_url": "https://messaging.twilio.com/v1/Services/MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/ShortCodes?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "next_page_url": null,
+    "first_page_url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes?PageSize=50&Page=0",
+    "previous_page_url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes?PageSize=50&Page=0",
+    "next_page_url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes?PageSize=50&Page=1",
     "key": "short_codes",
-    "url": "https://messaging.twilio.com/v1/Services/MGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/ShortCodes?PageSize=50&Page=0"
+    "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes?PageSize=50&Page=0"
   },
   "short_codes": [
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a",
+      "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "sid": "SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "date_created": "2015-07-30T20:12:31Z",
       "date_updated": "2015-07-30T20:12:33Z",
       "short_code": "12345",
       "country_code": "US",
       "capabilities": [],
-      "url": "https://messaging.twilio.com/v1/Services/MG2172dd2db502e20dd981ef0d67850e1a/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
-  "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a"
+  "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

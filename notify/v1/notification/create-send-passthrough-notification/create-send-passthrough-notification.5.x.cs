@@ -1,6 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Converters;
 using Twilio.Rest.Notify.V1.Service;
@@ -16,9 +18,17 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var toBinding = new List<string> {
+            JsonConvert.SerializeObject(new Dictionary<string, Object>()
+            {
+                {"binding_type", "sms"},
+                {"address", "+15555555555"}
+            }, Formatting.Indented)
+        };
+
         var notification = NotificationResource.Create(
             body: "Hello Bob",
-            toBinding: Promoter.ListOfOne("{\"binding_type\":\"sms\",\"address\":\"+15555555555\"}"),
+            toBinding: toBinding,
             identity: Promoter.ListOfOne("Identity"),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

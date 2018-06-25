@@ -4,23 +4,23 @@
   "activity_statistics": [
     {
       "friendly_name": "Idle",
-      "workers": 0,
-      "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "workers": "0",
+      "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Busy",
-      "workers": 9,
-      "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "workers": "9",
+      "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Offline",
-      "workers": 6,
-      "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "workers": "6",
+      "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Reserved",
-      "workers": 0,
-      "sid": "WAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "workers": "0",
+      "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

@@ -15,7 +15,15 @@
   "sound": null,
   "action": null,
   "data": null,
-  "apn": "{\"aps\" : { \"alert\": {\"title\":\"Bob alert\",\"body\" :\"Bob, you just received a badge\"}, \"badge\" : 1 }}",
+  "apn": {
+    "aps": {
+      "alert": {
+        "title": "Bob alert",
+        "body": "Bob, you just received a badge"
+      },
+      "badge": "1"
+    }
+  },
   "fcm": null,
   "gcm": null,
   "sms": null,

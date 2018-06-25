@@ -2,10 +2,10 @@
   "meta": {
     "page": 0,
     "page_size": 50,
-    "first_page_url": "https://chat.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users/USaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "url": "https://chat.twilio.com/v1/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Users/USaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels?PageSize=50&Page=0",
-    "next_page_url": null,
+    "first_page_url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels?PageSize=50&Page=0",
+    "previous_page_url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels?PageSize=50&Page=0",
+    "url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels?PageSize=50&Page=0",
+    "next_page_url": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels?PageSize=50&Page=1",
     "key": "channels"
   },
   "channels": [
@@ -22,5 +22,7 @@
         "member": "https://chat.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Members/MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       }
     }
-  ]
+  ],
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "user_sid": "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

@@ -1,8 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Lookups.V1;
 
 
@@ -16,8 +16,12 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var addOns = new List<string> {
+            "whitepages_pro_caller_id"
+        };
+
         var phoneNumber = PhoneNumberResource.Fetch(
-            addOns: Promoter.ListOfOne("whitepages_pro_caller_id"),
+            addOns: addOns,
             pathPhoneNumber: new Twilio.Types.PhoneNumber("+16502530000")
         );
 

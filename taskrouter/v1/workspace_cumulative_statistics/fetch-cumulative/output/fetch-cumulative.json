@@ -14,36 +14,36 @@
   "reservations_canceled": 100,
   "reservations_timed_out": 100,
   "wait_duration_until_canceled": {
-    "avg": 0,
-    "min": 0,
-    "max": 0,
-    "total": 0
+    "avg": "0",
+    "min": "0",
+    "max": "0",
+    "total": "0"
   },
   "wait_duration_until_accepted": {
-    "avg": 0,
-    "min": 0,
-    "max": 0,
-    "total": 0
+    "avg": "0",
+    "min": "0",
+    "max": "0",
+    "total": "0"
   },
   "split_by_wait_time": {
     "5": {
       "above": {
-        "tasks_canceled": 0,
-        "reservations_accepted": 0
+        "tasks_canceled": "0",
+        "reservations_accepted": "0"
       },
       "below": {
-        "tasks_canceled": 0,
-        "reservations_accepted": 0
+        "tasks_canceled": "0",
+        "reservations_accepted": "0"
       }
     },
     "10": {
       "above": {
-        "tasks_canceled": 0,
-        "reservations_accepted": 0
+        "tasks_canceled": "0",
+        "reservations_accepted": "0"
       },
       "below": {
-        "tasks_canceled": 0,
-        "reservations_accepted": 0
+        "tasks_canceled": "0",
+        "reservations_accepted": "0"
       }
     }
   },

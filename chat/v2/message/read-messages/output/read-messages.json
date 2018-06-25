@@ -2,10 +2,10 @@
   "meta": {
     "page": 0,
     "page_size": 50,
-    "first_page_url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages?PageSize=50&Page=0",
-    "previous_page_url": null,
-    "url": "https://chat.twilio.com/v2/Services/ISaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Channels/CHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/Messages?PageSize=50&Page=0",
-    "next_page_url": null,
+    "first_page_url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
+    "previous_page_url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
+    "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=0",
+    "next_page_url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages?PageSize=50&Page=1",
     "key": "messages"
   },
   "messages": [
@@ -20,7 +20,7 @@
       "last_updated_by": null,
       "was_edited": false,
       "from": "system",
-      "attributes": "{}",
+      "attributes": {},
       "body": "Hello",
       "index": 0,
       "type": "text",
@@ -38,12 +38,12 @@
       "last_updated_by": null,
       "was_edited": false,
       "from": "system",
-      "attributes": "{}",
+      "attributes": {},
       "body": "Hello",
       "index": 0,
       "type": "media",
       "media": {
-        "sid": "MEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "size": 99999999999999,
         "content_type": "application/pdf",
         "filename": "hello.pdf"

@@ -1,6 +1,6 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "unique_name": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "unique_name": "unique_name",
   "commands_callback_method": "http_method",
   "commands_callback_url": "http://www.example.com",
   "date_created": "2015-07-30T20:00:00Z",

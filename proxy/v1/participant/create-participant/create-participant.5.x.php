@@ -18,4 +18,4 @@ $participant = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                           array("friendlyName" => "Alice")
                                  );
 
-print($participant->proxyIdentifier);
+print($participant->sid);

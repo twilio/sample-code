@@ -11,12 +11,12 @@
   "price": null,
   "price_unit": null,
   "quality": null,
-  "sid": "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "queued",
   "to": "+14155554321",
   "duration": null,
   "links": {
     "media": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   },
-  "url": "https://fax.twilio.com/v1/Faxes/FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "url": "https://fax.twilio.com/v1/Faxes/FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

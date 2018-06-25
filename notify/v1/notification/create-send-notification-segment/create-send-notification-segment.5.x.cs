@@ -1,6 +1,7 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Converters;
 using Twilio.Rest.Notify.V1.Service;
@@ -16,9 +17,13 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var segment = new List<string> {
+            "new_user"
+        };
+
         var notification = NotificationResource.Create(
             body: "Hello New Users",
-            segment: Promoter.ListOfOne("new_user"),
+            segment: segment,
             identity: Promoter.ListOfOne("Identity"),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

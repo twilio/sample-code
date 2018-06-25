@@ -7,9 +7,9 @@
   "date_updated": "2015-07-30T20:00:00Z",
   "revision": "revision",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "sid": "MyFirstDocument",
+  "sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "unique_name",
-  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/MyFirstDocument",
+  "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "permissions": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Documents/ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions"
   }

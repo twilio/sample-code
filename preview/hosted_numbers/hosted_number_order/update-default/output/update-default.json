@@ -17,7 +17,7 @@
   "failure_reason": "",
   "friendly_name": "new friendly name",
   "incoming_phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "phone_number": "+15017122661",
+  "phone_number": "+14153608311",
   "sid": "HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "signing_document_sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "pending-loa",
@@ -25,8 +25,8 @@
   "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "verification_attempts": 1,
   "verification_call_sids": [
-    "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-    "CAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab"
+    "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
   ],
   "verification_code": "8794",
   "verification_document_sid": "RIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

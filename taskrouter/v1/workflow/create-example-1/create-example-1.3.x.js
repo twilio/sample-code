@@ -11,7 +11,7 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
          fallbackAssignmentCallbackUrl: 'http://example2.com',
          taskReservationTimeout: 30,
          friendlyName: 'Sales, Marketing, Support Workflow',
-         configuration: {
+         configuration: JSON.stringify({
            task_routing: {
                filters: [
                  {
@@ -43,7 +43,7 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    queue: 'WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
                }
            }
-       }
+       })
        })
       .then(workflow => console.log(workflow.sid))
       .done();

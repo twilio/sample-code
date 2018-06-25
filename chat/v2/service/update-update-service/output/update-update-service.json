@@ -8,8 +8,8 @@
   "default_service_role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "NEW_FRIENDLY_NAME",
   "limits": {
-    "channel_members": 500,
-    "user_channels": 600
+    "channel_members": "500",
+    "user_channels": "600"
   },
   "links": {
     "channels": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels",
@@ -51,7 +51,7 @@
   ],
   "webhook_method": "webhook_method",
   "media": {
-    "size_limit_mb": 150,
+    "size_limit_mb": "150",
     "compatibility_message": "new media compatibility message"
   }
 }
