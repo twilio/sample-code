@@ -11,6 +11,10 @@
       }
     },
     "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/TaskQueues/{task_queue_sid}/RealTimeStatistics",
-    "method": "get"
+    "method": "get",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "task_queue_real_time_statistics",
+    "action": "fetch"
   }
 }

@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://trunking.twilio.com/v1/Trunks",
-    "method": "post"
+    "method": "post",
+    "domain": "trunking",
+    "version": "v1",
+    "resource": "trunk",
+    "action": "create"
   }
 }

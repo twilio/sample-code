@@ -1,4 +1,21 @@
 {
   "title": "Announce something into the conference",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "announce_url": "http://www.myapp.com/announce"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "CFbbe46ff1274e283f7e3ac1df0072ab39"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences/{sid}.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "conference",
+    "action": "update"
+  }
 }

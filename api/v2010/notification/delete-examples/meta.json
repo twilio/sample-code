@@ -11,6 +11,10 @@
       }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Notifications/{sid}.json",
-    "method": "delete"
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "notification",
+    "action": "delete"
   }
 }

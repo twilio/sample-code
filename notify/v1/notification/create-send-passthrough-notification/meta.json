@@ -14,6 +14,10 @@
       }
     },
     "location": "https://notify.twilio.com/v1/Services/{service_sid}/Notifications",
-    "method": "post"
+    "method": "post",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "notification",
+    "action": "create"
   }
 }

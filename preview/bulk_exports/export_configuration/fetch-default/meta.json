@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/BulkExports/Exports/{resource_type}/Configuration",
-    "method": "get"
+    "method": "get",
+    "domain": "preview",
+    "version": "bulk_exports",
+    "resource": "export_configuration",
+    "action": "fetch"
   }
 }

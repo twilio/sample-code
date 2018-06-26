@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://fax.twilio.com/v1/Faxes/{sid}",
-    "method": "post"
+    "method": "post",
+    "domain": "fax",
+    "version": "v1",
+    "resource": "fax",
+    "action": "update"
   }
 }

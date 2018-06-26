@@ -14,6 +14,10 @@
       }
     },
     "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Keys/{sid}",
-    "method": "post"
+    "method": "post",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "key",
+    "action": "update"
   }
 }

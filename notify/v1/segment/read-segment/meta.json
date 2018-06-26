@@ -10,6 +10,10 @@
       }
     },
     "location": "https://notify.twilio.com/v1/Services/{service_sid}/Segments",
-    "method": "get"
+    "method": "get",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "segment",
+    "action": "read"
   }
 }

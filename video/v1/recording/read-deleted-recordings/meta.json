@@ -10,6 +10,10 @@
       "path": {}
     },
     "location": "https://video.twilio.com/v1/Recordings",
-    "method": "get"
+    "method": "get",
+    "domain": "video",
+    "version": "v1",
+    "resource": "recording",
+    "action": "read"
   }
 }

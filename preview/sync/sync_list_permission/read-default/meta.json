@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Lists/{list_sid}/Permissions",
-    "method": "get"
+    "method": "get",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "sync_list_permission",
+    "action": "read"
   }
 }

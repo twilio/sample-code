@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers/{sid}.json",
-    "method": "delete"
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "incoming_phone_number",
+    "action": "delete"
   }
 }

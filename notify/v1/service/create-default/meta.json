@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://notify.twilio.com/v1/Services",
-    "method": "post"
+    "method": "post",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "service",
+    "action": "create"
   }
 }

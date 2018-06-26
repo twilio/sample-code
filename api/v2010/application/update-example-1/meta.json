@@ -14,6 +14,10 @@
       }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Applications/{sid}.json",
-    "method": "post"
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "application",
+    "action": "update"
   }
 }

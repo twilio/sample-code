@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://chat.twilio.com/v1/Services/{service_sid}/Channels/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "chat",
+    "version": "v1",
+    "resource": "channel",
+    "action": "delete"
   }
 }

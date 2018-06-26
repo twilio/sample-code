@@ -10,6 +10,10 @@
       }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Tokens.json",
-    "method": "post"
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "token",
+    "action": "create"
   }
 }

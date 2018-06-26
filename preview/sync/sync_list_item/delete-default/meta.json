@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Lists/{list_sid}/Items/{index}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "sync_list_item",
+    "action": "delete"
   }
 }

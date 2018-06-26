@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders",
-    "method": "get"
+    "method": "get",
+    "domain": "preview",
+    "version": "hosted_numbers",
+    "resource": "hosted_number_order",
+    "action": "read"
   }
 }

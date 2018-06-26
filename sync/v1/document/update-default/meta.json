@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{sid}",
-    "method": "post"
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document",
+    "action": "update"
   }
 }

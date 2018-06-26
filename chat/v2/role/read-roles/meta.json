@@ -10,6 +10,10 @@
       }
     },
     "location": "https://chat.twilio.com/v2/Services/{service_sid}/Roles",
-    "method": "get"
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "role",
+    "action": "read"
   }
 }

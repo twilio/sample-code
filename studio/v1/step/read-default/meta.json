@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Engagements/{engagement_sid}/Steps",
-    "method": "get"
+    "method": "get",
+    "domain": "studio",
+    "version": "v1",
+    "resource": "step",
+    "action": "read"
   }
 }

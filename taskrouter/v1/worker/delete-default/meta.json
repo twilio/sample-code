@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workers/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "worker",
+    "action": "delete"
   }
 }

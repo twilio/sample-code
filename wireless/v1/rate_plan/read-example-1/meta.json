@@ -8,6 +8,10 @@
       "path": {}
     },
     "location": "https://wireless.twilio.com/v1/RatePlans",
-    "method": "get"
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "rate_plan",
+    "action": "read"
   }
 }

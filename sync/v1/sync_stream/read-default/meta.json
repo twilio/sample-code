@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Streams",
-    "method": "get"
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_stream",
+    "action": "read"
   }
 }

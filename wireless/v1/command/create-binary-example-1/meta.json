@@ -12,6 +12,10 @@
       "path": {}
     },
     "location": "https://wireless.twilio.com/v1/Commands",
-    "method": "post"
+    "method": "post",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "command",
+    "action": "create"
   }
 }

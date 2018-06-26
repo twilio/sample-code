@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Composition Settings",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/CompositionSettings/Default",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "composition_settings",
+    "action": "create"
+  }
+}

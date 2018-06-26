@@ -11,6 +11,10 @@
       }
     },
     "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workflows/{workflow_sid}/CumulativeStatistics",
-    "method": "get"
+    "method": "get",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "workflow_cumulative_statistics",
+    "action": "fetch"
   }
 }

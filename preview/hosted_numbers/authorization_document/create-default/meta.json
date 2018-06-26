@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments",
-    "method": "post"
+    "method": "post",
+    "domain": "preview",
+    "version": "hosted_numbers",
+    "resource": "authorization_document",
+    "action": "create"
   }
 }

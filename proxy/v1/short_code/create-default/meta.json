@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://proxy.twilio.com/v1/Services/{service_sid}/ShortCodes",
-    "method": "post"
+    "method": "post",
+    "domain": "proxy",
+    "version": "v1",
+    "resource": "short_code",
+    "action": "create"
   }
 }

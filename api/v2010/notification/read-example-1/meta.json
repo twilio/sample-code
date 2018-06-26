@@ -10,6 +10,10 @@
       }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Notifications.json",
-    "method": "get"
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "notification",
+    "action": "read"
   }
 }

@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://pricing.twilio.com/v1/Voice/Numbers/{number}",
-    "method": "get"
+    "method": "get",
+    "domain": "pricing",
+    "version": "v1",
+    "resource": "voice_number",
+    "action": "fetch"
   }
 }

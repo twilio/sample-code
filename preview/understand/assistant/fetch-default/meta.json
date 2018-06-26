@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/understand/Assistants/{sid}",
-    "method": "get"
+    "method": "get",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "assistant",
+    "action": "fetch"
   }
 }

@@ -13,6 +13,10 @@
       }
     },
     "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Deployments/{sid}",
-    "method": "post"
+    "method": "post",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "deployment",
+    "action": "update"
   }
 }

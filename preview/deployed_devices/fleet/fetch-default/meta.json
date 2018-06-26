@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/DeployedDevices/Fleets/{sid}",
-    "method": "get"
+    "method": "get",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "fleet",
+    "action": "fetch"
   }
 }

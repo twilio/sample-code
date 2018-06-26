@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://monitor.twilio.com/v1/Alerts/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "monitor",
+    "version": "v1",
+    "resource": "alert",
+    "action": "delete"
   }
 }

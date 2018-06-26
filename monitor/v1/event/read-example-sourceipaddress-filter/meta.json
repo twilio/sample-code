@@ -12,6 +12,10 @@
       "path": {}
     },
     "location": "https://monitor.twilio.com/v1/Events",
-    "method": "get"
+    "method": "get",
+    "domain": "monitor",
+    "version": "v1",
+    "resource": "event",
+    "action": "read"
   }
 }

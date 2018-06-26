@@ -12,6 +12,10 @@
       }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences/{conference_sid}/Participants/{call_sid}.json",
-    "method": "delete"
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "participant",
+    "action": "delete"
   }
 }

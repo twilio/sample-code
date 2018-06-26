@@ -11,6 +11,10 @@
       }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{sid}",
-    "method": "get"
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document",
+    "action": "fetch"
   }
 }

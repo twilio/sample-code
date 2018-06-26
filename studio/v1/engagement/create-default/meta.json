@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Engagements",
-    "method": "post"
+    "method": "post",
+    "domain": "studio",
+    "version": "v1",
+    "resource": "engagement",
+    "action": "create"
   }
 }

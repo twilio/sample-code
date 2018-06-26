@@ -11,6 +11,10 @@
       }
     },
     "location": "https://notify.twilio.com/v1/Services/{service_sid}/Users/{identity}/Bindings",
-    "method": "get"
+    "method": "get",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "user_binding",
+    "action": "read"
   }
 }

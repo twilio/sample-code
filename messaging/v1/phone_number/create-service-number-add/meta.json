@@ -1,7 +1,7 @@
 {
   "original_snippet_path": "messaging/services/service-number-add/service-number-add.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "Add a Phone Number to a Messaging Service",
   "type": "server",
@@ -15,6 +15,10 @@
       }
     },
     "location": "https://messaging.twilio.com/v1/Services/{service_sid}/PhoneNumbers",
-    "method": "post"
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "create"
   }
 }

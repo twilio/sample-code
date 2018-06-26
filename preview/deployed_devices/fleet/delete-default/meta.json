@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/DeployedDevices/Fleets/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "fleet",
+    "action": "delete"
   }
 }

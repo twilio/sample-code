@@ -14,6 +14,10 @@
       }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Items/{key}",
-    "method": "post"
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_map_item",
+    "action": "update"
   }
 }

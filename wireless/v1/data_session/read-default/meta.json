@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://wireless.twilio.com/v1/Sims/{sim_sid}/DataSessions",
-    "method": "get"
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "data_session",
+    "action": "read"
   }
 }

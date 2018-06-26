@@ -10,6 +10,10 @@
       }
     },
     "location": "https://chat.twilio.com/v2/Services/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "service",
+    "action": "delete"
   }
 }

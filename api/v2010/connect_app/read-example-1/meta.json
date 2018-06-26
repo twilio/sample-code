@@ -10,6 +10,10 @@
       }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/ConnectApps.json",
-    "method": "get"
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "connect_app",
+    "action": "read"
   }
 }

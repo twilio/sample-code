@@ -15,6 +15,10 @@
       }
     },
     "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{session_sid}/Participants",
-    "method": "post"
+    "method": "post",
+    "domain": "proxy",
+    "version": "v1",
+    "resource": "participant",
+    "action": "create"
   }
 }

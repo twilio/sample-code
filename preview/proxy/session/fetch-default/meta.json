@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/Proxy/Services/{service_sid}/Sessions/{sid}",
-    "method": "get"
+    "method": "get",
+    "domain": "preview",
+    "version": "proxy",
+    "resource": "session",
+    "action": "fetch"
   }
 }

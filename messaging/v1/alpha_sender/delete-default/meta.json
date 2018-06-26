@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://messaging.twilio.com/v1/Services/{service_sid}/AlphaSenders/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "alpha_sender",
+    "action": "delete"
   }
 }

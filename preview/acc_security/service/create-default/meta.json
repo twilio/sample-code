@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/Verification/Services",
-    "method": "post"
+    "method": "post",
+    "domain": "preview",
+    "version": "acc_security",
+    "resource": "service",
+    "action": "create"
   }
 }

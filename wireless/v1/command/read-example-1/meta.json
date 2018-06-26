@@ -8,6 +8,10 @@
       "path": {}
     },
     "location": "https://wireless.twilio.com/v1/Commands",
-    "method": "get"
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "command",
+    "action": "read"
   }
 }

@@ -13,6 +13,10 @@
       }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers.json",
-    "method": "post"
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "incoming_phone_number",
+    "action": "create"
   }
 }

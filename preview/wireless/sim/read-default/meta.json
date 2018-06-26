@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/wireless/Sims",
-    "method": "get"
+    "method": "get",
+    "domain": "preview",
+    "version": "wireless",
+    "resource": "sim",
+    "action": "read"
   }
 }

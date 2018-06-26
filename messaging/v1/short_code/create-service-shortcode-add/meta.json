@@ -1,7 +1,7 @@
 {
   "original_snippet_path": "messaging/services/service-shortcode-add/service-shortcode-add.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "Add a Short Code to a Messaging Service",
   "type": "server",
@@ -15,6 +15,10 @@
       }
     },
     "location": "https://messaging.twilio.com/v1/Services/{service_sid}/ShortCodes",
-    "method": "post"
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "short_code",
+    "action": "create"
   }
 }

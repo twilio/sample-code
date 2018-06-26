@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/PhoneNumbers",
-    "method": "get"
+    "method": "get",
+    "domain": "trunking",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "read"
   }
 }

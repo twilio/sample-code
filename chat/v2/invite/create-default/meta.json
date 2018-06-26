@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Invites",
-    "method": "post"
+    "method": "post",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "invite",
+    "action": "create"
   }
 }

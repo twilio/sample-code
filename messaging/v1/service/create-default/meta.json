@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://messaging.twilio.com/v1/Services",
-    "method": "post"
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "service",
+    "action": "create"
   }
 }

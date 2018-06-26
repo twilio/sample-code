@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Certificates",
-    "method": "post"
+    "method": "post",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "certificate",
+    "action": "create"
   }
 }

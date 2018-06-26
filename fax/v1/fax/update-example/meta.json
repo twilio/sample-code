@@ -1,7 +1,7 @@
 {
   "original_snippet_path": "fax/instance-post-example/instance-post-example.6.x.py",
   "tags": [
-    "fax"
+      "fax"
   ],
   "title": "Cancel a fax",
   "type": "server",
@@ -11,10 +11,14 @@
         "status": "canceled"
       },
       "path": {
-        "sid": "FXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        "sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       }
     },
     "location": "https://fax.twilio.com/v1/Faxes/{sid}",
-    "method": "post"
+    "method": "post",
+    "domain": "fax",
+    "version": "v1",
+    "resource": "fax",
+    "action": "update"
   }
 }

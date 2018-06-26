@@ -10,6 +10,10 @@
       "path": {}
     },
     "location": "https://sync.twilio.com/v1/Services",
-    "method": "post"
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "service",
+    "action": "create"
   }
 }

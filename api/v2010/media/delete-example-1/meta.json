@@ -12,6 +12,10 @@
       }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages/{message_sid}/Media/{sid}.json",
-    "method": "delete"
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "media",
+    "action": "delete"
   }
 }

@@ -11,6 +11,10 @@
       }
     },
     "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Recordings/{sid}",
-    "method": "get"
+    "method": "get",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room_recording",
+    "action": "fetch"
   }
 }

@@ -10,6 +10,10 @@
       }
     },
     "location": "https://sync.twilio.com/v1/Services/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "service",
+    "action": "delete"
   }
 }

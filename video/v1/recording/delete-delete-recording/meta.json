@@ -10,6 +10,10 @@
       }
     },
     "location": "https://video.twilio.com/v1/Recordings/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "video",
+    "version": "v1",
+    "resource": "recording",
+    "action": "delete"
   }
 }

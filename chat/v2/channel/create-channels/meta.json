@@ -12,6 +12,10 @@
       }
     },
     "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels",
-    "method": "post"
+    "method": "post",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "channel",
+    "action": "create"
   }
 }

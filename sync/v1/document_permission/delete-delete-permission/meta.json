@@ -12,6 +12,10 @@
       }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{document_sid}/Permissions/{identity}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document_permission",
+    "action": "delete"
   }
 }

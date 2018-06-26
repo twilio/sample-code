@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Composition Settings",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/CompositionSettings/Default",
+    "method": "get",
+    "domain": "video",
+    "version": "v1",
+    "resource": "composition_settings",
+    "action": "fetch"
+  }
+}

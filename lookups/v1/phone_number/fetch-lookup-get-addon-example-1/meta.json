@@ -12,6 +12,10 @@
       }
     },
     "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
-    "method": "get"
+    "method": "get",
+    "domain": "lookups",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "fetch"
   }
 }

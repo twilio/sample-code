@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{session_sid}/Interactions",
-    "method": "get"
+    "method": "get",
+    "domain": "proxy",
+    "version": "v1",
+    "resource": "interaction",
+    "action": "read"
   }
 }

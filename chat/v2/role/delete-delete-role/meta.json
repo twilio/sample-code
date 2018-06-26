@@ -11,6 +11,10 @@
       }
     },
     "location": "https://chat.twilio.com/v2/Services/{service_sid}/Roles/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "role",
+    "action": "delete"
   }
 }

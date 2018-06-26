@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://chat.twilio.com/v1/Services/{service_sid}/Roles/{sid}",
-    "method": "post"
+    "method": "post",
+    "domain": "chat",
+    "version": "v1",
+    "resource": "role",
+    "action": "update"
   }
 }

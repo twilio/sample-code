@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Maps",
-    "method": "post"
+    "method": "post",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "sync_map",
+    "action": "create"
   }
 }

@@ -1,7 +1,7 @@
 {
   "original_snippet_path": "messaging/services/service-alpha-delete/service-alpha-delete.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "Delete an Alpha Sender ID from a Messaging Service",
   "type": "server",
@@ -14,6 +14,10 @@
       }
     },
     "location": "https://messaging.twilio.com/v1/Services/{service_sid}/AlphaSenders/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "alpha_sender",
+    "action": "delete"
   }
 }

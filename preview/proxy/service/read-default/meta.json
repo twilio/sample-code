@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/Proxy/Services",
-    "method": "get"
+    "method": "get",
+    "domain": "preview",
+    "version": "proxy",
+    "resource": "service",
+    "action": "read"
   }
 }

@@ -1,7 +1,7 @@
 {
   "original_snippet_path": "messaging/services/service-shortcode-delete/service-shortcode-delete.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "Delete a Short Code from a Messaging Service",
   "type": "server",
@@ -14,6 +14,10 @@
       }
     },
     "location": "https://messaging.twilio.com/v1/Services/{service_sid}/ShortCodes/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "short_code",
+    "action": "delete"
   }
 }

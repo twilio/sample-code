@@ -2,7 +2,7 @@
   "description": "List all Alpha Senders in a Messaging Service",
   "original_snippet_path": "messaging/services/service-alpha-list/service-alpha-list.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "List all Alpha Senders in a Messaging Service",
   "type": "server",
@@ -14,6 +14,10 @@
       }
     },
     "location": "https://messaging.twilio.com/v1/Services/{service_sid}/AlphaSenders",
-    "method": "get"
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "alpha_sender",
+    "action": "read"
   }
 }

@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{document_sid}/Permissions",
-    "method": "get"
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document_permission",
+    "action": "read"
   }
 }

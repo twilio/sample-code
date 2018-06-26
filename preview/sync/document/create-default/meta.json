@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Documents",
-    "method": "post"
+    "method": "post",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "document",
+    "action": "create"
   }
 }

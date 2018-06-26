@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SIP/Domains/{sid}.json",
-    "method": "delete"
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "sip_domain",
+    "action": "delete"
   }
 }

@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://messaging.twilio.com/v1/Services/{service_sid}/ShortCodes/{sid}",
-    "method": "get"
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "short_code",
+    "action": "fetch"
   }
 }

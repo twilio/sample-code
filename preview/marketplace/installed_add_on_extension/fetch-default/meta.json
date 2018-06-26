@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/marketplace/InstalledAddOns/{installed_add_on_sid}/Extensions/{sid}",
-    "method": "get"
+    "method": "get",
+    "domain": "preview",
+    "version": "marketplace",
+    "resource": "installed_add_on_extension",
+    "action": "fetch"
   }
 }

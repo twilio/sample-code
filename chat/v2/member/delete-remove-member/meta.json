@@ -12,6 +12,10 @@
       }
     },
     "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Members/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "member",
+    "action": "delete"
   }
 }

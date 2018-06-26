@@ -10,6 +10,10 @@
       }
     },
     "location": "https://wireless.twilio.com/v1/Sims/{sid}",
-    "method": "get"
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "sim",
+    "action": "fetch"
   }
 }

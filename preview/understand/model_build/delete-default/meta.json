@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/ModelBuilds/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "model_build",
+    "action": "delete"
   }
 }

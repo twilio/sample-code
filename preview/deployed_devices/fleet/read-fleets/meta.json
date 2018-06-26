@@ -8,6 +8,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/DeployedDevices/Fleets",
-    "method": "get"
+    "method": "get",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "fleet",
+    "action": "read"
   }
 }

@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://accounts.twilio.com/v1/Credentials/PublicKeys/{sid}",
-    "method": "get"
+    "method": "get",
+    "domain": "accounts",
+    "version": "v1",
+    "resource": "credential_public_key",
+    "action": "fetch"
   }
 }

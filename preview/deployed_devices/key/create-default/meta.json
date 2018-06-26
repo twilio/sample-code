@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Keys",
-    "method": "post"
+    "method": "post",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "key",
+    "action": "create"
   }
 }

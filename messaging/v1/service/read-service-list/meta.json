@@ -1,7 +1,7 @@
 {
   "original_snippet_path": "messaging/services/service-list/service-list.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "List all Messaging Services",
   "type": "server",
@@ -11,6 +11,10 @@
       "path": {}
     },
     "location": "https://messaging.twilio.com/v1/Services",
-    "method": "get"
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "service",
+    "action": "read"
   }
 }

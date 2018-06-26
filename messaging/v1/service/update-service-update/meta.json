@@ -1,7 +1,7 @@
 {
   "original_snippet_path": "messaging/services/service-update/service-update.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "Update a Messaging Service",
   "type": "server",
@@ -15,6 +15,10 @@
       }
     },
     "location": "https://messaging.twilio.com/v1/Services/{sid}",
-    "method": "post"
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "service",
+    "action": "update"
   }
 }

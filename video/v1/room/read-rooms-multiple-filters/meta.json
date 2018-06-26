@@ -11,6 +11,10 @@
       "path": {}
     },
     "location": "https://video.twilio.com/v1/Rooms",
-    "method": "get"
+    "method": "get",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room",
+    "action": "read"
   }
 }

@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences.json",
-    "method": "get"
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "conference",
+    "action": "read"
   }
 }

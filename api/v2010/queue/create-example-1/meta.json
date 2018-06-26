@@ -12,6 +12,10 @@
       }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Queues.json",
-    "method": "post"
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "queue",
+    "action": "create"
   }
 }

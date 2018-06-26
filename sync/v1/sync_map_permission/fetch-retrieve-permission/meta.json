@@ -12,6 +12,10 @@
       }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Permissions/{identity}",
-    "method": "get"
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_map_permission",
+    "action": "fetch"
   }
 }

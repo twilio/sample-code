@@ -14,6 +14,10 @@
       }
     },
     "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Tasks/{sid}",
-    "method": "post"
+    "method": "post",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "task",
+    "action": "update"
   }
 }

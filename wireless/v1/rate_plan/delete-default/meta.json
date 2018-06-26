@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://wireless.twilio.com/v1/RatePlans/{sid}",
-    "method": "delete"
+    "method": "delete",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "rate_plan",
+    "action": "delete"
   }
 }

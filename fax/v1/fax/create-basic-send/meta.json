@@ -1,7 +1,7 @@
 {
   "original_snippet_path": "fax/basic-send/basic-send.6.x.py",
   "tags": [
-    "fax"
+      "fax"
   ],
   "title": "Send an outbound fax",
   "type": "server",
@@ -15,6 +15,10 @@
       "path": {}
     },
     "location": "https://fax.twilio.com/v1/Faxes",
-    "method": "post"
+    "method": "post",
+    "domain": "fax",
+    "version": "v1",
+    "resource": "fax",
+    "action": "create"
   }
 }

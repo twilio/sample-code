@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://wireless.twilio.com/v1/Sims/{sim_sid}/UsageRecords",
-    "method": "get"
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "usage_record",
+    "action": "read"
   }
 }

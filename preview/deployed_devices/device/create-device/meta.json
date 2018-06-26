@@ -12,6 +12,10 @@
       }
     },
     "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Devices",
-    "method": "post"
+    "method": "post",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "device",
+    "action": "create"
   }
 }

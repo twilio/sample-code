@@ -13,6 +13,10 @@
       }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps",
-    "method": "post"
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_map",
+    "action": "create"
   }
 }

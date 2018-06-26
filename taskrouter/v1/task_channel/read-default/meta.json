@@ -7,6 +7,10 @@
       "path": {}
     },
     "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/TaskChannels",
-    "method": "get"
+    "method": "get",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "task_channel",
+    "action": "read"
   }
 }
