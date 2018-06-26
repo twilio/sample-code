@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $workflow = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->workflows
-                                   ->create("Sales, Marketing, Support Workflow",
+                                   ->create("Sales, Marketing, Support Workflow", // friendlyName
                                             array(
                                                 "task_routing" => array(
                                                     "filters" => array(
@@ -46,7 +46,7 @@ $workflow = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                         "queue" => "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                                     )
                                                 )
-                                            ),
+                                            ), // configuration
                                             array(
                                                 "assignmentCallbackUrl" => "http://example.com",
                                                 "fallbackAssignmentCallbackUrl" => "http://example2.com",

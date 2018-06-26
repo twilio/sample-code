@@ -18,7 +18,7 @@ $stream_message = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                 "id" => "bob",
                                                 "x" => "256",
                                                 "y" => "42"
-                                            )
+                                            ) // data
                                    );
 
 print($stream_message->sid);

@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $credential = $twilio->notify->v1->credentials
-                                 ->create("apn",
+                                 ->create("apn", // type
                                           array(
                                               "certificate" => "cert.pem_content",
                                               "friendlyName" => "MyAPNCredential",

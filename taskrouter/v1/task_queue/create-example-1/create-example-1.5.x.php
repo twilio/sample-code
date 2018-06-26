@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $task_queue = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->taskQueues
-                                     ->create("English",
-                                              "WAea296a56ebce4bfbff0e99abadf16934",
-                                              "WA21d51f4c72583766988f9860de3e130a",
+                                     ->create("English", // friendlyName
+                                              "WAea296a56ebce4bfbff0e99abadf16934", // reservationActivitySid
+                                              "WA21d51f4c72583766988f9860de3e130a", // assignmentActivitySid
                                               array(
                                                   "targetWorkers" => "languages HAS \"english\""
                                               )

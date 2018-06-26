@@ -12,8 +12,8 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $fax = $twilio->fax->v1->faxes
-                       ->create("+15558675310",
-                                "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
+                       ->create("+15558675310", // to
+                                "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf", // mediaUrl
                                 array("from" => "+15017122661")
                        );
 

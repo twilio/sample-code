@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $credential = $twilio->notify->v1->credentials
-                                 ->create("gcm",
+                                 ->create("gcm", // type
                                           array(
                                               "apiKey" => "gcm_api_key",
                                               "friendlyName" => "MyGCMCredential"

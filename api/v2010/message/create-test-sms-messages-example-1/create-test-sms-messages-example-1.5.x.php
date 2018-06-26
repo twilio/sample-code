@@ -12,11 +12,11 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $message = $twilio->messages
-                  ->create("+5571981265131",
+                  ->create("+5571981265131", // to
                            array(
-                               "body" => "All in the game, yo",
-                               "from" => "+5571981265145"
-                           )
+                              "body" => "All in the game, yo",
+                              "from" => "+5571981265145"
+                            )
                   );
 
 print($message->sid);

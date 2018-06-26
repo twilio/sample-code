@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $phone_number = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->phoneNumbers
-                                     ->create("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                     ->create("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // phoneNumberSid
                                      );
 
 print($phone_number->sid);
