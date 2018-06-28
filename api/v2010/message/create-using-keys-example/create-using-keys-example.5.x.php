@@ -8,8 +8,9 @@ use Twilio\Rest\Client;
 
 // Your Account Sid and Auth Token from twilio.com/console
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-$token  = "your_auth_token";
-$twilio = new Client($sid, $token);
+$apiKey  = "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+$apiSecret  = "your_api_secret";
+$twilio = new Client($apiKey, $apiSecret, $sid);
 
 $message = $twilio->messages
                   ->create("+15558675310", // to
