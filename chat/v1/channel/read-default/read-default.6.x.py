@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-channels = client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                         .channels \
-                         .list()
+channels = client.chat.v1 \
+                      .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                      .channels \
+                      .list()
 
 for record in channels:
     print(record.sid)

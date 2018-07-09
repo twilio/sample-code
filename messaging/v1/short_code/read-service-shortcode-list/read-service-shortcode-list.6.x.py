@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-short_codes = client.messaging.services('MG2172dd2db502e20dd981ef0d67850e1a') \
-                              .short_codes \
-                              .list()
+short_codes = client.messaging \
+                    .services('MG2172dd2db502e20dd981ef0d67850e1a') \
+                    .short_codes \
+                    .list()
 
 for record in short_codes:
     print(record.sid)

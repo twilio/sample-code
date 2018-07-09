@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-phone_number = client.lookups.phone_numbers('+16502530000') \
-                             .fetch(add_ons='whitepages_pro_caller_id')
+phone_number = client.lookups \
+                     .phone_numbers('+16502530000') \
+                     .fetch(add_ons='whitepages_pro_caller_id')
 
 print(phone_number.caller_name)

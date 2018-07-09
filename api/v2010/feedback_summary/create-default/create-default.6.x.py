@@ -8,10 +8,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-feedback_summary = client.calls.feedback_summaries \
-                               .create(
-                                    start_date=date(2008, 1, 2),
-                                    end_date=date(2008, 1, 2)
-                                )
+feedback_summary = client.calls \
+                         .feedback_summaries \
+                         .create(
+                              start_date=date(2008, 1, 2),
+                              end_date=date(2008, 1, 2)
+                          )
 
 print(feedback_summary.sid)

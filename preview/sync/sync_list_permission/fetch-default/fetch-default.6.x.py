@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-sync_list_permission = client.preview.sync \
+sync_list_permission = client.preview \
+    .sync \
     .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .sync_lists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .sync_list_permissions('identity') \

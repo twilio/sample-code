@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-phone_number = client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                           .phone_numbers \
-                           .create(sid='PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+phone_number = client.proxy \
+                     .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .phone_numbers \
+                     .create(sid='PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
 print(phone_number.sid)

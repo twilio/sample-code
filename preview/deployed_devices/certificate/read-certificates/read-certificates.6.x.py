@@ -7,10 +7,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-certificates = client.preview.deployed_devices \
-                             .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                             .certificates \
-                             .list()
+certificates = client.preview \
+                     .deployed_devices \
+                     .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .certificates \
+                     .list()
 
 for record in certificates:
     print(record.sid)

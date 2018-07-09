@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-engagements = client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                           .engagements \
-                           .list()
+engagements = client.studio \
+                    .flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .engagements \
+                    .list()
 
 for record in engagements:
     print(record.sid)

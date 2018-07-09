@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-sync_stream = client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                         .sync_streams('TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                         .update(ttl=1)
+sync_stream = client.sync \
+                    .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .sync_streams('TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .update(ttl=1)
 
 print(sync_stream.unique_name)

@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-document_permission = client.preview.sync \
+document_permission = client.preview \
+                            .sync \
                             .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                             .document_permissions('identity') \

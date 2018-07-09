@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-workflow = client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                            .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                            .update(task_reservation_timeout=20)
+workflow = client.taskrouter \
+                 .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                 .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                 .update(task_reservation_timeout=20)
 
 print(workflow.friendly_name)

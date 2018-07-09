@@ -7,10 +7,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-documents = client.preview.sync \
-                          .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                          .documents \
-                          .list()
+documents = client.preview \
+                  .sync \
+                  .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                  .documents \
+                  .list()
 
 for record in documents:
     print(record.sid)

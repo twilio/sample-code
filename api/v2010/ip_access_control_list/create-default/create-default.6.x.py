@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-ip_access_control_list = client.sip.ip_access_control_lists \
-                                   .create(friendly_name='friendly_name')
+ip_access_control_list = client.sip \
+                               .ip_access_control_lists \
+                               .create(friendly_name='friendly_name')
 
 print(ip_access_control_list.sid)

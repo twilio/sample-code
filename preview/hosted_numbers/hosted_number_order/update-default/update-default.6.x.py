@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-hosted_number_order = client.preview.hosted_numbers \
+hosted_number_order = client.preview \
+    .hosted_numbers \
     .hosted_number_orders('HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .update(friendly_name='friendly_name')
 

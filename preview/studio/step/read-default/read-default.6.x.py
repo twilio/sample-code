@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-steps = client.preview.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+steps = client.preview.studio \
+                      .flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .steps \
                       .list()

@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-assistant = client.preview.understand \
-                          .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                          .update(friendly_name='friendly_name')
+assistant = client.preview \
+                  .understand \
+                  .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                  .update(friendly_name='friendly_name')
 
 print(assistant.friendly_name)

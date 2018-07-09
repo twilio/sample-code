@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-tasks = client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                         .tasks \
-                         .list(assignment_status='pending')
+tasks = client.taskrouter \
+              .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+              .tasks \
+              .list(assignment_status='pending')
 
 for record in tasks:
     print(record.sid)

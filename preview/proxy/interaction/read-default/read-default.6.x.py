@@ -7,11 +7,12 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-interactions = client.preview.proxy \
-                             .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                             .interactions \
-                             .list()
+interactions = client.preview \
+                     .proxy \
+                     .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .interactions \
+                     .list()
 
 for record in interactions:
     print(record.sid)

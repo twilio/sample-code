@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-participants = client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                           .participants \
-                           .list()
+participants = client.video \
+                     .rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .participants \
+                     .list()
 
 for record in participants:
     print(record.sid)
