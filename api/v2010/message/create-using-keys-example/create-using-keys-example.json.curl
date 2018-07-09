@@ -2,4 +2,4 @@ curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXX
 --data-urlencode "Body=Never gonna give you up." \
 --data-urlencode "From=+15017122661" \
 --data-urlencode "To=+15558675310" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
+-u SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_api_secret

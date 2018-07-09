@@ -20,7 +20,7 @@ $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                             "title" => "Bob alert",
                                                             "body" => "Bob, you just received a badge"
                                                         ),
-                                                        "badge" => 1
+                                                        "badge" => "1"
                                                     )
                                                 ),
                                                 "identity" => "00000001"

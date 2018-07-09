@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $worker = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->workers
-                                 ->create("Support Worker 1",
+                                 ->create("Support Worker 1", // friendlyName
                                           array(
                                               "attributes" => array(
                                                   "type" => "support"

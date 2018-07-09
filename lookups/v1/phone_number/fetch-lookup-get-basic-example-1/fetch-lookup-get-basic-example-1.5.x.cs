@@ -1,8 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Lookups.V1;
 
 
@@ -16,8 +16,12 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var type = new List<string> {
+            "carrier"
+        };
+
         var phoneNumber = PhoneNumberResource.Fetch(
-            type: Promoter.ListOfOne("carrier"),
+            type: type,
             pathPhoneNumber: new Twilio.Types.PhoneNumber("+15108675310")
         );
 

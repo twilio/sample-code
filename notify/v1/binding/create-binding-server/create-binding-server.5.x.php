@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $binding = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->bindings
-                              ->create("00000001",
-                                       "gcm",
-                                       "gcm_device_token",
+                              ->create("00000001", // identity
+                                       "gcm", // bindingType
+                                       "gcm_device_token", // address
                                        array(
                                            "endpoint" => "XXXXXXXXXXXXXXX",
                                            "tag" => "premium"

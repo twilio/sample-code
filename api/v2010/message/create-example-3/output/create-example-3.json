@@ -12,7 +12,7 @@
   "messaging_service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "num_media": "0",
   "num_segments": "1",
-  "price": "-0.00750",
+  "price": -0.00750,
   "price_unit": "USD",
   "sid": "MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "sent",

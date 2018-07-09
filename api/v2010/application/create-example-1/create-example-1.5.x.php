@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $application = $twilio->applications
-                      ->create("Phone Me",
+                      ->create("Phone Me", // friendlyName
                                array(
                                    "voiceMethod" => "GET",
                                    "voiceUrl" => "http://demo.twilio.com/docs/voice.xml"

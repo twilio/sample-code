@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $service = $twilio->proxy->v1->services
-                             ->create("My Awesome Service",
+                             ->create("My Awesome Service", // uniqueName
                                       array(
                                           "callbackUrl" => "https://www.example.com/"
                                       )

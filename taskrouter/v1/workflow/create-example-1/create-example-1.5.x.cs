@@ -1,6 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Rest.Taskrouter.V1.Workspace;
 
@@ -15,12 +17,55 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var configuration = JsonConvert.SerializeObject(new Dictionary<string, Object>()
+        {
+            {"task_routing", new Dictionary<string, Object>()
+                {
+                    {"filters", new object [] {
+                        new Dictionary<string, Object>()
+                        {
+                            {"expression", "type=='sales'"},
+                            {"targets", new object [] {
+                                new Dictionary<string, Object>()
+                                {
+                                    {"queue", "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
+                                }
+                            }}
+                        },
+                        new Dictionary<string, Object>()
+                        {
+                            {"expression", "type=='marketing'"},
+                            {"targets", new object [] {
+                                new Dictionary<string, Object>()
+                                {
+                                    {"queue", "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
+                                }
+                            }}
+                        },
+                        new Dictionary<string, Object>()
+                        {
+                            {"expression", "type=='support'"},
+                            {"targets", new object [] {
+                                new Dictionary<string, Object>()
+                                {
+                                    {"queue", "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
+                                }
+                            }}
+                        }
+                    }},
+                    {"default_filter", new Dictionary<string, Object>()
+                        {
+                            {"queue", "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}
+                        }}
+                }}
+        }, Formatting.Indented);
+
         var workflow = WorkflowResource.Create(
             assignmentCallbackUrl: new Uri("http://example.com"),
             fallbackAssignmentCallbackUrl: new Uri("http://example2.com"),
             taskReservationTimeout: 30,
             friendlyName: "Sales, Marketing, Support Workflow",
-            configuration: "{\"task_routing\": {\"filters\": [{\"expression\": \"type=='sales'\", \"targets\": [{\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}]}, {\"expression\": \"type=='marketing'\", \"targets\": [{\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}]}, {\"expression\": \"type=='support'\", \"targets\": [{\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}]}], \"default_filter\": {\"queue\": \"WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\"}}}",
+            configuration: configuration,
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

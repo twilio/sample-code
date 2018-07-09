@@ -12,8 +12,8 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $hosted_number_order = $twilio->preview->hostedNumbers->hostedNumberOrders
-                                                      ->create("+15017122661",
-                                                               True
+                                                      ->create("+15017122661", // phoneNumber
+                                                               True // smsCapability
                                                       );
 
 print($hosted_number_order->sid);

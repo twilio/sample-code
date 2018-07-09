@@ -5,7 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.shortCodes.each({
-                    shortCode: 67898
+                    shortCode: '67898'
                   },
                       shortCodes => console.log(shortCodes.sid)
                   );

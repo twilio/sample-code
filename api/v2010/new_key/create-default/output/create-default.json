@@ -3,5 +3,6 @@
   "friendly_name": "foo",
   "date_created": "Mon, 13 Jun 2016 22:50:08 +0000",
   "date_updated": "Mon, 13 Jun 2016 22:50:08 +0000",
-  "secret": "foobar"
+  "secret": "foobar",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

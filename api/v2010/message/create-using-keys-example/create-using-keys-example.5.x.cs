@@ -11,9 +11,10 @@ class Program
     {
         // Find your Account Sid and Token at twilio.com/console
         const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-        const string authToken = "your_auth_token";
+        const string apiKey = "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+        const string apiSecret = "your_api_secret";
 
-        TwilioClient.Init(accountSid, authToken);
+        TwilioClient.Init(apiKey, apiSecret, accountSid);
 
         var message = MessageResource.Create(
             body: "Never gonna give you up.",

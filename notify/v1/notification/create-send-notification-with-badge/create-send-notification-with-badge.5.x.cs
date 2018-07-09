@@ -3,7 +3,6 @@
 using System;
 using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Notify.V1.Service;
 
 
@@ -30,9 +29,13 @@ class Program
                 }}
         };
 
+        var identity = new List<string> {
+            "00000001"
+        };
+
         var notification = NotificationResource.Create(
             apn: apn,
-            identity: Promoter.ListOfOne("00000001"),
+            identity: identity,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

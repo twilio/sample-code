@@ -13,9 +13,9 @@ $twilio = new Client($sid, $token);
 
 $task_queue = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->taskQueues
-                                     ->create("friendlyName",
-                                              "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                                              "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                     ->create("friendlyName", // friendlyName
+                                              "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", // reservationActivitySid
+                                              "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // assignmentActivitySid
                                      );
 
 print($task_queue->sid);

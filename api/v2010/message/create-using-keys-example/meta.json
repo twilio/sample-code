@@ -19,5 +19,6 @@
     "version": "v2010",
     "resource": "message",
     "action": "create"
-  }
+  },
+  "twilio_client": "api"
 }

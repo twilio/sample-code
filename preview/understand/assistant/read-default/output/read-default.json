@@ -5,7 +5,7 @@
       "date_created": "2017-07-04T08:34:00Z",
       "date_updated": "2017-07-04T08:34:00Z",
       "friendly_name": "so so friendly",
-      "latest_model_build_sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "latest_model_build_sid": null,
       "log_queries": true,
       "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "ttl": 3600,
@@ -25,10 +25,10 @@
   "meta": {
     "first_page_url": "https://preview.twilio.com/understand/Assistants?PageSize=50&Page=0",
     "key": "assistants",
-    "next_page_url": null,
+    "next_page_url": "https://preview.twilio.com/understand/Assistants?PageSize=50&Page=1",
     "page": 0,
     "page_size": 50,
-    "previous_page_url": null,
+    "previous_page_url": "https://preview.twilio.com/understand/Assistants?PageSize=50&Page=0",
     "url": "https://preview.twilio.com/understand/Assistants?PageSize=50&Page=0"
   }
 }

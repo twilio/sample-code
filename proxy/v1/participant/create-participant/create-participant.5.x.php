@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $participant = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->participants
-                                 ->create("+15558675310",
+                                 ->create("+15558675310", // identifier
                                           array("friendlyName" => "Alice")
                                  );
 

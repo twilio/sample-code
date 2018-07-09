@@ -10,7 +10,7 @@ client.addresses
          street: 'Elm Street',
          city: 'Racoon',
          region: 'Mordor',
-         postalCode: 150,
+         postalCode: '150',
          isoCountry: 'AX'
        })
       .then(address => console.log(address.sid))

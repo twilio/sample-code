@@ -14,15 +14,16 @@
   "failure_reason": "",
   "friendly_name": null,
   "incoming_phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "phone_number": "+15017122661",
+  "phone_number": "+14153608311",
   "sid": "HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "signing_document_sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "received",
   "unique_name": null,
   "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "verification_attempts": 0,
-  "verification_call_sids": null,
+  "verification_call_sids": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "verification_code": null,
   "verification_document_sid": "RIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "verification_type": "phone-call"
+  "verification_type": "phone-call",
+  "sms_capability": null
 }

@@ -14,9 +14,23 @@
   "body": "This is the body for all Bindings",
   "sound": null,
   "action": null,
-  "data": "{\"custom_key1\":\"custom value 1\",\"custom_key2\":\"custom value 2\"}",
-  "apn": "{\"aps\":{\"alert\":{\"title\":\"Short title for Watch.\"}}}",
-  "fcm": "{\"notification\":{\"title\":\"New alert\",\"body\":\"Hello Bob!\"}}",
+  "data": {
+    "custom_key1": "custom value 1",
+    "custom_key2": "custom value 2"
+  },
+  "apn": {
+    "aps": {
+      "alert": {
+        "title": "Short title for Watch."
+      }
+    }
+  },
+  "fcm": {
+    "notification": {
+      "title": "New alert",
+      "body": "Hello Bob!"
+    }
+  },
   "gcm": null,
   "sms": null,
   "facebook_messenger": null,

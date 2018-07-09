@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $aws = $twilio->accounts->v1->credentials
                             ->aws
-                            ->create("AKIAIOSFODNN7EXAMPLE:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+                            ->create("AKIAIOSFODNN7EXAMPLE:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY" // credentials
                             );
 
 print($aws->sid);

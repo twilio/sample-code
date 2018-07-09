@@ -4,7 +4,9 @@
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "friendly_name",
   "unique_name": "unique_name",
-  "attributes": "{ \"foo\": \"bar\" }",
+  "attributes": {
+    "foo": "bar"
+  },
   "type": "public",
   "date_created": "2015-12-16T22:18:37Z",
   "date_updated": "2015-12-16T22:18:37Z",
@@ -16,6 +18,7 @@
     "members": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Members",
     "messages": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages",
     "invites": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Invites",
+    "webhooks": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks",
     "last_message": null
   }
 }

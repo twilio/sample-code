@@ -13,7 +13,7 @@ $twilio = new Client($sid, $token);
 
 $credential_list = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->credentialsLists
-                                        ->create("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                                        ->create("CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // credentialListSid
                                         );
 
 print($credential_list->sid);

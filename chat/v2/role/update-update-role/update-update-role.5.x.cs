@@ -1,8 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Chat.V2.Service;
 
 
@@ -16,8 +16,12 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var permission = new List<string> {
+            "sendMediaMessage"
+        };
+
         var role = RoleResource.Update(
-            permission: Promoter.ListOfOne("sendMediaMessage"),
+            permission: permission,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

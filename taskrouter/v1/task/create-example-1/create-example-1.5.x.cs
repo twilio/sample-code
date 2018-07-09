@@ -1,6 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using Twilio;
 using Twilio.Rest.Taskrouter.V1.Workspace;
 
@@ -15,8 +17,13 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var attributes = JsonConvert.SerializeObject(new Dictionary<string, Object>()
+        {
+            {"type", "support"}
+        }, Formatting.Indented);
+
         var task = TaskResource.Create(
-            attributes: "{\"type\":\"support\"}",
+            attributes: attributes,
             workflowSid: "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

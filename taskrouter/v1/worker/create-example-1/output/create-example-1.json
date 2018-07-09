@@ -5,7 +5,9 @@
   "activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "activity_name": "Offline",
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "attributes": "{\"type\":\"support\"}",
+  "attributes": {
+    "type": "support"
+  },
   "available": false,
   "date_created": "2017-05-30T23:19:38Z",
   "date_updated": "2017-05-30T23:19:38Z",

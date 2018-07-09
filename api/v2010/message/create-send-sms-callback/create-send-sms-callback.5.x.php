@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $message = $twilio->messages
-                  ->create("+15558675310",
+                  ->create("+15558675310", // to
                            array(
                                "body" => "McAvoy or Stewart? These timelines can get so confusing.",
                                "from" => "+15017122661",

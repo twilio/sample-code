@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $service = $twilio->messaging->v1->services
-                                 ->create("My First Service",
+                                 ->create("My First Service", // friendlyName
                                           array(
                                               "statusCallback" => "http://requestb.in/1234abcd"
                                           )

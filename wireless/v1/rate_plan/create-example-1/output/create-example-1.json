@@ -1,15 +1,15 @@
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "SmartMeterCA",
-  "data_enabled": True,
+  "data_enabled": true,
   "data_limit": 1000,
   "data_metering": "pooled",
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "friendly_name": "California SmartMeter Plan",
   "messaging_enabled": true,
-  "voice_enabled": True,
-  "national_roaming_enabled": True,
+  "voice_enabled": true,
+  "national_roaming_enabled": true,
   "national_roaming_data_limit": 1000,
   "international_roaming": [
     "data",

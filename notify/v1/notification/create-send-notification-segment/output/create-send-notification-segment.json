@@ -21,5 +21,6 @@
   "sms": null,
   "facebook_messenger": null,
   "alexa": null,
+  "identity": null,
   "segment": "new_user"
 }
