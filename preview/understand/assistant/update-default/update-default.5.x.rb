@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-assistant = @client.preview.understand
-                           .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                           .update(friendly_name: 'friendly_name')
+assistant = @client.preview
+                   .understand
+                   .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                   .update(friendly_name: 'friendly_name')
 
 puts assistant.friendly_name

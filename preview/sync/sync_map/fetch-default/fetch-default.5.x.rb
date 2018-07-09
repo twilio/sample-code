@@ -7,8 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-sync_map = @client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                               .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                               .fetch
+sync_map = @client.preview
+                  .sync
+                  .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                  .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                  .fetch
 
 puts sync_map.unique_name

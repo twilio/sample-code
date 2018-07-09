@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-available_add_on = @client.preview.marketplace
+available_add_on = @client.preview
+  .marketplace
   .available_add_ons('XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 

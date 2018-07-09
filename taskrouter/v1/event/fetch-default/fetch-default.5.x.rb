@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-event = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                          .events('EVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                          .fetch
+event = @client.taskrouter
+               .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+               .events('EVXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+               .fetch
 
 puts event.actor_sid

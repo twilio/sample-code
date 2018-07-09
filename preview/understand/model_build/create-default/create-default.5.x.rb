@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-model_build = @client.preview.understand
-                             .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .model_builds
-                             .create
+model_build = @client.preview
+                     .understand
+                     .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                     .model_builds
+                     .create
 
 puts model_build.sid

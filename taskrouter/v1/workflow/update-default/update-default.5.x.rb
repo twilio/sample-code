@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-workflow = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .update(friendly_name: 'friendly_name')
+workflow = @client.taskrouter
+                  .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                  .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                  .update(friendly_name: 'friendly_name')
 
 puts workflow.friendly_name

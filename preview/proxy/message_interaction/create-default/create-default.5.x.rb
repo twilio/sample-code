@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-message_interaction = @client.preview.proxy
+message_interaction = @client.preview
+  .proxy
   .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')

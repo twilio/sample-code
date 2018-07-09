@@ -7,6 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-command = @client.preview.commands('DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').fetch
+command = @client.preview
+                 .wireless
+                 .commands('DCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                 .fetch
 
 puts command.sid

@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-short_code = @client.preview.proxy
-                            .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                            .short_codes('SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                            .fetch
+short_code = @client.preview
+                    .proxy
+                    .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                    .short_codes('SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                    .fetch
 
 puts short_code.sid

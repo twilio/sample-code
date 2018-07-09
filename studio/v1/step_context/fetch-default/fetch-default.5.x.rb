@@ -7,10 +7,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-step_context = @client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .steps('FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .step_context
-                             .fetch
+step_context = @client.studio
+                      .flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                      .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                      .steps('FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                      .step_context
+                      .fetch
 
 puts step_context.context

@@ -7,7 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-service = @client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                              .fetch
+service = @client.preview
+                 .sync
+                 .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                 .fetch
 
 puts service.friendly_name

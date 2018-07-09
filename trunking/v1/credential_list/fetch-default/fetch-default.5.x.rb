@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-credential_list = @client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+credential_list = @client.trunking
+  .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .credentials_lists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch
 

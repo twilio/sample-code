@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-sync_list_item = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .sync_lists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .sync_list_items
-                             .create(data: {})
+sync_list_item = @client.sync
+                        .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .sync_lists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .sync_list_items
+                        .create(data: {})
 
 puts sync_list_item.index

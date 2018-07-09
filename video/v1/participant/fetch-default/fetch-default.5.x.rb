@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-participant = @client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                           .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                           .fetch
+participant = @client.video
+                     .rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                     .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                     .fetch
 
 puts participant.sid

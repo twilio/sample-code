@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-export_configuration = @client.preview.bulk_exports
-                                      .export_configuration('resource_type')
-                                      .update(enabled: true)
+export_configuration = @client.preview
+                              .bulk_exports
+                              .export_configuration('resource_type')
+                              .update(enabled: true)
 
 puts export_configuration.enabled

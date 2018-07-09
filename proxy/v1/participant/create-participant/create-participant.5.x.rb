@@ -7,12 +7,13 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-participant = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                           .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                           .participants
-                           .create(
-                              friendly_name: 'Alice',
-                              identifier: '+15558675310'
-                            )
+participant = @client.proxy
+                     .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                     .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                     .participants
+                     .create(
+                        friendly_name: 'Alice',
+                        identifier: '+15558675310'
+                      )
 
-puts participant.sid
+puts participant.proxy_identifier

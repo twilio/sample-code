@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-sync_stream = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                          .sync_streams('MyStream')
-                          .update(ttl: 864000)
+sync_stream = @client.sync
+                     .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                     .sync_streams('MyStream')
+                     .update(ttl: 864000)
 
 puts sync_stream.unique_name
