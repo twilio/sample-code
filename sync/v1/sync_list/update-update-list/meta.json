@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "sync/rest/lists/update-list/update-list.6.x.py",
   "title": "Update a Sync List",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "ttl": "864000"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MyFirstList"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Lists/{sid}",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_list",
+    "action": "update"
+  }
 }

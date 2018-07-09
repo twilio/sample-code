@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Trunk"
+  "title": "Fetch Trunk",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{sid}",
+    "method": "get",
+    "domain": "trunking",
+    "version": "v1",
+    "resource": "trunk",
+    "action": "fetch"
+  }
 }

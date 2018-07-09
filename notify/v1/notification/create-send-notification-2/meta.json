@@ -2,5 +2,23 @@
   "original_snippet_path": "notifications/register/send-notification-2/send-notification-2.6.x.py",
   "testable": true,
   "title": "Send a Notification (Identity and Tag)",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Hello Bob",
+        "identity": "00000001",
+        "tag": "preferred_device"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Notifications",
+    "method": "post",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "notification",
+    "action": "create"
+  }
 }

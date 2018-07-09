@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Aws"
+  "title": "Fetch Aws",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://accounts.twilio.com/v1/Credentials/AWS/{sid}",
+    "method": "get",
+    "domain": "accounts",
+    "version": "v1",
+    "resource": "credential_aws",
+    "action": "fetch"
+  }
 }

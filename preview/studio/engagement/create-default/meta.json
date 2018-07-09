@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Engagement"
+  "title": "Create Engagement",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Studio/Flows/{flow_sid}/Engagements",
+    "method": "post",
+    "domain": "preview",
+    "version": "studio",
+    "resource": "engagement",
+    "action": "create"
+  }
 }

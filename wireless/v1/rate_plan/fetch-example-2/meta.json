@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "wireless/rateplans/instance-get-example-2/instance-get-example-2.6.x.py",
   "title": "Get a Rate Plan by UniqueName",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "us-automotive"
+      }
+    },
+    "location": "https://wireless.twilio.com/v1/RatePlans/{sid}",
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "rate_plan",
+    "action": "fetch"
+  }
 }

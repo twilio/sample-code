@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update User"
+  "title": "Update User",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Users/{sid}",
+    "method": "post",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "user",
+    "action": "update"
+  }
 }

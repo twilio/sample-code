@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/member/instance-get-example-1/instance-get-example-1.6.x.py",
   "title": "Get a Member Resource",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "queue_sid": "QU5ef8732a3c49700934481addd5ce1659",
+        "call_sid": "CA386025c9bf5d6052a1d1ea42b4d16662"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Queues/{queue_sid}/Members/{call_sid}.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "member",
+    "action": "fetch"
+  }
 }

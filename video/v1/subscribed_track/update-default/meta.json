@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update Subscribed Track"
+  "title": "Update Subscribed Track",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Participants/{subscriber_sid}/SubscribedTracks",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room_participant_subscribed_track",
+    "action": "update"
+  }
 }

@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "sync/rest/maps/retrieve-map/retrieve-map.6.x.py",
   "title": "Retrieve a Sync Map",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "Players"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{sid}",
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_map",
+    "action": "fetch"
+  }
 }

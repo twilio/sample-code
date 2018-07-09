@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "rest/notification/list-get-example-2/list-get-example-2.6.x.py",
   "title": "Filter Notifications using a Param",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "log": "1",
+        "message_date": "2009-07-06"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Notifications.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "notification",
+    "action": "read"
+  }
 }

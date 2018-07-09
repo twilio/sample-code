@@ -2,5 +2,23 @@
   "original_snippet_path": "notifications/register/send-notification-segment-tag/send-notification-segment-tag.6.x.py",
   "testable": true,
   "title": "Send a Notification (Segment and Tag)",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Hello New Users",
+        "segment": "new_user",
+        "tag": "preferred_device"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Notifications",
+    "method": "post",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "notification",
+    "action": "create"
+  }
 }

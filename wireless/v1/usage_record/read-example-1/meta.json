@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "wireless/sims-usage-record/list-example-1/list-example-1.6.x.py",
   "title": "Get SIM Usage Records List",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      }
+    },
+    "location": "https://wireless.twilio.com/v1/Sims/{sim_sid}/UsageRecords",
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "usage_record",
+    "action": "read"
+  }
 }

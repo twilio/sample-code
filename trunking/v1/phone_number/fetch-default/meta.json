@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Phone Number"
+  "title": "Fetch Phone Number",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/PhoneNumbers/{sid}",
+    "method": "get",
+    "domain": "trunking",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "fetch"
+  }
 }

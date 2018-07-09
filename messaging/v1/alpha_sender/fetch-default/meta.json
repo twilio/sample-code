@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Alpha Sender"
+  "title": "Fetch Alpha Sender",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/AlphaSenders/{sid}",
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "alpha_sender",
+    "action": "fetch"
+  }
 }

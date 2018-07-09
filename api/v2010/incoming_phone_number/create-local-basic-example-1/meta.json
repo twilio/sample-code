@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/available-phone-numbers/local-basic-example-1/local-get-basic-example-1.6.x.py",
   "title": "Find Available Local Phone Numbers",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "phone_number": "+18089251571"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "incoming_phone_number",
+    "action": "create"
+  }
 }

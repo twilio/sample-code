@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read User Binding"
+  "title": "Read User Binding",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Users/{user_sid}/Bindings",
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "user_binding",
+    "action": "read"
+  }
 }

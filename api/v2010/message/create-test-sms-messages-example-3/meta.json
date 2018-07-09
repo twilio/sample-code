@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "rest/test-credentials/test-sms-messages-example-3/test-sms-messages-example-3.6.x.py",
   "title": "Attempt to send a message with an empty SMS body",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "+15005550006",
+        "to": "+14108675310"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "message",
+    "action": "create"
+  }
 }

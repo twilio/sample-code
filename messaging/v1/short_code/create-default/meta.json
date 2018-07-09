@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Short Code"
+  "title": "Create Short Code",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/ShortCodes",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "short_code",
+    "action": "create"
+  }
 }

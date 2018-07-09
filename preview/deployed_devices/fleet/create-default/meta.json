@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Fleet"
+  "title": "Create Fleet",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets",
+    "method": "post",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "fleet",
+    "action": "create"
+  }
 }

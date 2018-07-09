@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read User"
+  "title": "Read User",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Users",
+    "method": "get",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "user",
+    "action": "read"
+  }
 }

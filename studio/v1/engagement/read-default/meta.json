@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Engagement"
+  "title": "Read Engagement",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Engagements",
+    "method": "get",
+    "domain": "studio",
+    "version": "v1",
+    "resource": "engagement",
+    "action": "read"
+  }
 }

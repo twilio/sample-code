@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Sync List Item"
+  "title": "Fetch Sync List Item",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Lists/{list_sid}/Items/{index}",
+    "method": "get",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "sync_list_item",
+    "action": "fetch"
+  }
 }

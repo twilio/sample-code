@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Last Month"
+  "title": "Read Last Month",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Usage/Records/LastMonth.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "usage_record_last_month",
+    "action": "read"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete User Binding"
+  "title": "Delete User Binding",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Users/{identity}/Bindings/{sid}",
+    "method": "delete",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "user_binding",
+    "action": "delete"
+  }
 }

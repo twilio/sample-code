@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Hosted Number Order"
+  "title": "Create Hosted Number Order",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders",
+    "method": "post",
+    "domain": "preview",
+    "version": "hosted_numbers",
+    "resource": "hosted_number_order",
+    "action": "create"
+  }
 }

@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "rest/taskrouter/workers/instance/delete/example-1/example-1.6.x.py",
   "title": "Delete a Worker",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workers/{sid}",
+    "method": "delete",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "worker",
+    "action": "delete"
+  }
 }

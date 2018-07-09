@@ -1,8 +1,22 @@
 {
   "original_snippet_path": "messaging/services/service-delete/service-delete.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "Delete a Messaging Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "MG2172dd2db502e20dd981ef0d67850e1a"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{sid}",
+    "method": "delete",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "service",
+    "action": "delete"
+  }
 }

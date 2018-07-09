@@ -1,5 +1,25 @@
 {
   "original_snippet_path": "sync/rest/document-permissions/update-permission/update-permission.6.x.py",
   "title": "Create or Update a Document Permission by Identity",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "manage": false,
+        "read": true,
+        "write": true
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "document_sid": "MyFirstDocument",
+        "identity": "bob"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{document_sid}/Permissions/{identity}",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document_permission",
+    "action": "update"
+  }
 }

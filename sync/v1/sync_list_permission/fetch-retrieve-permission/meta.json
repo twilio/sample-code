@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "sync/rest/list-permissions/retrieve-permission/retrieve-permission.6.x.py",
   "title": "Fetch a List Permission by Identity",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "list_sid": "MyFirstList",
+        "identity": "bob"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Lists/{list_sid}/Permissions/{identity}",
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_list_permission",
+    "action": "fetch"
+  }
 }

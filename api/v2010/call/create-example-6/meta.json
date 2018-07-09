@@ -1,5 +1,25 @@
 {
   "original_snippet_path": "rest/making-calls-sip/example-2/example-2.6.x.py",
   "title": "Create SIP Dial with Authentication",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "Jack",
+        "sip_auth_password": "secret",
+        "sip_auth_username": "jack",
+        "to": "sip:kate@example.com",
+        "url": "http://www.example.com/sipdial.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "call",
+    "action": "create"
+  }
 }

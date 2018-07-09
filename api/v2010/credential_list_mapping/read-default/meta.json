@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Credential List Mapping"
+  "title": "Read Credential List Mapping",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SIP/Domains/{domain_sid}/CredentialListMappings.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "sip_credential_list_mapping",
+    "action": "read"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Channel"
+  "title": "Create Channel",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v1/Services/{service_sid}/Channels",
+    "method": "post",
+    "domain": "chat",
+    "version": "v1",
+    "resource": "channel",
+    "action": "create"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Service"
+  "title": "Delete Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{sid}",
+    "method": "delete",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "service",
+    "action": "delete"
+  }
 }

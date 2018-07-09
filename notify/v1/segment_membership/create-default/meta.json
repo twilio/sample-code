@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Segment Membership"
+  "title": "Create Segment Membership",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Users/{identity}/SegmentMemberships",
+    "method": "post",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "segment_membership",
+    "action": "create"
+  }
 }

@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "ip-messaging/rest/members/remove-member/remove-member.6.x.py",
   "title": "Remove a Member",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "IDENTITY"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Members/{sid}",
+    "method": "delete",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "member",
+    "action": "delete"
+  }
 }

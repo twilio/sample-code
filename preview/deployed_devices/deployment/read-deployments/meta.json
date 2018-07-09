@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "deployed-devices/rest/deployments/list-deployments/list-deployments.6.x.py",
   "title": "Retrieve a list of Device Deployments",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Deployments",
+    "method": "get",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "deployment",
+    "action": "read"
+  }
 }

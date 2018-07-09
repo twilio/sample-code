@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update Authorization Document"
+  "title": "Update Authorization Document",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/{sid}",
+    "method": "post",
+    "domain": "preview",
+    "version": "hosted_numbers",
+    "resource": "authorization_document",
+    "action": "update"
+  }
 }

@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/recording/list-get-example-5/list-get-example-5.6.x.py",
   "title": "Get all recordings for a given call.",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Recordings.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "recording",
+    "action": "read"
+  }
 }

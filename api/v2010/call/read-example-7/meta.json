@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/call/list-get-example-7/list-get-example-7.6.x.py",
   "title": "Retrieve Calls From Charlie Example",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "client:charlie"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "call",
+    "action": "read"
+  }
 }

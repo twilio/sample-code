@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Credential List"
+  "title": "Create Credential List",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/CredentialLists",
+    "method": "post",
+    "domain": "trunking",
+    "version": "v1",
+    "resource": "credential_list",
+    "action": "create"
+  }
 }

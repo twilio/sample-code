@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "notifications/rest/users/remove-user-from-segment/remove-user-from-segment.6.x.py",
   "title": "Remove a User from a Segment",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "User0001",
+        "segment": "premium"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Users/{identity}/SegmentMemberships/{segment}",
+    "method": "delete",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "segment_membership",
+    "action": "delete"
+  }
 }

@@ -1,5 +1,24 @@
 {
   "original_snippet_path": "rest/participant/instance-post-example-2/instance-post-example-2.6.x.py",
   "title": "Hold a Participant",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "hold": true,
+        "hold_url": "http://www.myapp.com/hold"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "conference_sid": "CFbbe4632a3c49700934481addd5ce1659",
+        "call_sid": "CA386025c9bf5d6052a1d1ea42b4d16662"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences/{conference_sid}/Participants/{call_sid}.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "participant",
+    "action": "update"
+  }
 }

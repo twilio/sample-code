@@ -1,5 +1,23 @@
 {
   "original_snippet_path": "sync/rest/maps/query-map/query-map.6.x.py",
   "title": "Query a Sync Map",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "steph_curry",
+        "order": "asc"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "map_sid": "Players"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Items",
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_map_item",
+    "action": "read"
+  }
 }

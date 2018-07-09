@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "video/rest/recordings/delete-recording/delete-recording.6.x.py",
   "title": "Deletes the recording media file",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://video.twilio.com/v1/Recordings/{sid}",
+    "method": "delete",
+    "domain": "video",
+    "version": "v1",
+    "resource": "recording",
+    "action": "delete"
+  }
 }

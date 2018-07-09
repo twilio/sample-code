@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Participant"
+  "title": "Fetch Participant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Proxy/Services/{service_sid}/Sessions/{session_sid}/Participants/{sid}",
+    "method": "get",
+    "domain": "preview",
+    "version": "proxy",
+    "resource": "participant",
+    "action": "fetch"
+  }
 }

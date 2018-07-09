@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Short Code"
+  "title": "Delete Short Code",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/ShortCodes/{sid}",
+    "method": "delete",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "short_code",
+    "action": "delete"
+  }
 }

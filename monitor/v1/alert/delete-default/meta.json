@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Alert"
+  "title": "Delete Alert",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://monitor.twilio.com/v1/Alerts/{sid}",
+    "method": "delete",
+    "domain": "monitor",
+    "version": "v1",
+    "resource": "alert",
+    "action": "delete"
+  }
 }

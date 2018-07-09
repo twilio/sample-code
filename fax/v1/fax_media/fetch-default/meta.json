@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Fax Media"
+  "title": "Fetch Fax Media",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://fax.twilio.com/v1/Faxes/{fax_sid}/Media/{sid}",
+    "method": "get",
+    "domain": "fax",
+    "version": "v1",
+    "resource": "fax_media",
+    "action": "fetch"
+  }
 }

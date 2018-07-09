@@ -1,8 +1,23 @@
 {
   "original_snippet_path": "messaging/services/service-number-delete/service-number-delete.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "Delete a Phone Number from a Messaging Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a",
+        "sid": "PN557ce644e5ab84fa21cc21112e22c485"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/PhoneNumbers/{sid}",
+    "method": "delete",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "delete"
+  }
 }

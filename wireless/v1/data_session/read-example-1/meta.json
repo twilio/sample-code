@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "wireless/sims-data-session/list-example-1/list-example-1.6.x.py",
   "title": "Get SIM Data Sessions List",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sim_sid": "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      }
+    },
+    "location": "https://wireless.twilio.com/v1/Sims/{sim_sid}/DataSessions",
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "data_session",
+    "action": "read"
+  }
 }

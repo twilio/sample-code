@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/available-phone-numbers/toll-free-example-2/toll-free-get-example-2.6.x.py",
   "title": "Find a Toll-Free Number by String",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "phone_number": "+18001000052"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "incoming_phone_number",
+    "action": "create"
+  }
 }

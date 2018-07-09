@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "ip-messaging/rest/members/retrieve-member/retrieve-member.6.x.py",
   "title": "Retrieve a Member",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Members/{sid}",
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "member",
+    "action": "fetch"
+  }
 }

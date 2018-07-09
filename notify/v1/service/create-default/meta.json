@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Service"
+  "title": "Create Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services",
+    "method": "post",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "service",
+    "action": "create"
+  }
 }

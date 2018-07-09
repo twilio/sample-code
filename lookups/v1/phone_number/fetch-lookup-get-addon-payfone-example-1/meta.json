@@ -2,10 +2,30 @@
   "description": "Look up a phone number including the Payfone TCPA Compliance Add-on results.",
   "original_snippet_path": "lookups/lookup-get-addon-payfone-example-1/lookup-get-addon-payfone-1.6.x.py",
   "tags": [
-    "lookup",
-    "phone number"
+      "lookup",
+      "phone number"
   ],
   "testable": false,
   "title": "Lookup with Add-on enabled",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "add_ons": "payfone_tcpa_compliance",
+        "add_ons_data": {
+          "payfone_tcpa_compliance.right_party_contacted_date": "20160101"
+        },
+        "type": "carrier"
+      },
+      "path": {
+        "phone_number": "+15108675310"
+      }
+    },
+    "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
+    "method": "get",
+    "domain": "lookups",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "fetch"
+  }
 }

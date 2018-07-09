@@ -1,5 +1,24 @@
 {
   "original_snippet_path": "rest/sending-messages/example-1/example-1.6.x.py",
   "title": "Send a message with an image URL",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Let's grab lunch at Milliways tomorrow!",
+        "from": "+14158141829",
+        "media_url": "http://www.example.com/cheeseburger.png",
+        "to": "+15558675310"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "message",
+    "action": "create"
+  }
 }

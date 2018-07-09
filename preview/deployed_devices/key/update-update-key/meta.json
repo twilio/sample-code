@@ -1,5 +1,23 @@
 {
   "original_snippet_path": "deployed-devices/rest/keys/update-key/update-key.6.x.py",
   "title": "Update a Device Key",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "device_sid": "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "friendly_name": "My New Device Key"
+      },
+      "path": {
+        "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Keys/{sid}",
+    "method": "post",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "key",
+    "action": "update"
+  }
 }

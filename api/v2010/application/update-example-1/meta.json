@@ -1,5 +1,23 @@
 {
   "original_snippet_path": "rest/applications/instance-post-example-1/instance-post-example-1.6.x.py",
   "title": "Set the VoiceUrl and SmsUrl on an application",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "sms_url": "http://demo.twilio.com/docs/sms.xml",
+        "voice_url": "http://demo.twilio.com/docs/voice.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "AP2a0747eba6abf96b7e3c3ff0b4530f6e"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Applications/{sid}.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "application",
+    "action": "update"
+  }
 }

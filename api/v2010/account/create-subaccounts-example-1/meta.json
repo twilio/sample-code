@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "rest/subaccounts/creating-subaccounts-example-1/creating-subaccounts-example-1.6.x.py",
   "title": "Create a subaccount",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "Submarine"
+      },
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "account",
+    "action": "create"
+  }
 }

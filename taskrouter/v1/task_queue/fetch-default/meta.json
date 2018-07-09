@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Task Queue"
+  "title": "Fetch Task Queue",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/TaskQueues/{sid}",
+    "method": "get",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "task_queue",
+    "action": "fetch"
+  }
 }

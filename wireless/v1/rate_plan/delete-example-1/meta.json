@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "wireless/rateplans/instance-delete-example-1/delete-example-1.6.x.py",
   "title": "Delete a Rate Plan",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "WPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      }
+    },
+    "location": "https://wireless.twilio.com/v1/RatePlans/{sid}",
+    "method": "delete",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "rate_plan",
+    "action": "delete"
+  }
 }

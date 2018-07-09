@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Participant"
+  "title": "Delete Participant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{session_sid}/Participants/{sid}",
+    "method": "delete",
+    "domain": "proxy",
+    "version": "v1",
+    "resource": "participant",
+    "action": "delete"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Short Code"
+  "title": "Delete Short Code",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Proxy/Services/{service_sid}/ShortCodes/{sid}",
+    "method": "delete",
+    "domain": "preview",
+    "version": "proxy",
+    "resource": "short_code",
+    "action": "delete"
+  }
 }

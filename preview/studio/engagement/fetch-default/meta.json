@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Engagement"
+  "title": "Fetch Engagement",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Studio/Flows/{flow_sid}/Engagements/{sid}",
+    "method": "get",
+    "domain": "preview",
+    "version": "studio",
+    "resource": "engagement",
+    "action": "fetch"
+  }
 }

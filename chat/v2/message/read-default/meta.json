@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Message"
+  "title": "Read Message",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Messages",
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "message",
+    "action": "read"
+  }
 }

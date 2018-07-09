@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update Installed Add On Extension"
+  "title": "Update Installed Add On Extension",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/marketplace/InstalledAddOns/{installed_add_on_sid}/Extensions/{sid}",
+    "method": "post",
+    "domain": "preview",
+    "version": "marketplace",
+    "resource": "installed_add_on_extension",
+    "action": "update"
+  }
 }

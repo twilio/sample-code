@@ -1,8 +1,22 @@
 {
   "original_snippet_path": "messaging/services/service-number-list/service-number-list.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "List all Phone Numbers in a Messaging Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/PhoneNumbers",
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "read"
+  }
 }

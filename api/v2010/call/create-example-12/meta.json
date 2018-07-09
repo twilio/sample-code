@@ -1,5 +1,23 @@
 {
   "original_snippet_path": "rest/voice/outbound-calls/example-2/example-2.6.x.py",
   "title": "Make an outbound call to a Twilio Client endpoint",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "+15017122661",
+        "to": "client:charlie",
+        "url": "http://demo.twilio.com/docs/voice.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "call",
+    "action": "create"
+  }
 }

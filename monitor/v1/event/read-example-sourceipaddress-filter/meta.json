@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "monitor/events/list-get-example-sourceipaddress-filter/list-get-example-sourceipaddress-filter.6.x.py",
   "title": "Filter for an IP address",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "end_date": "2015-04-25",
+        "source_ip_address": "104.14.155.29",
+        "start_date": "2015-04-25"
+      },
+      "path": {}
+    },
+    "location": "https://monitor.twilio.com/v1/Events",
+    "method": "get",
+    "domain": "monitor",
+    "version": "v1",
+    "resource": "event",
+    "action": "read"
+  }
 }

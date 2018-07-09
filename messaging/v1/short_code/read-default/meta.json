@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Short Code"
+  "title": "Read Short Code",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/ShortCodes",
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "short_code",
+    "action": "read"
+  }
 }

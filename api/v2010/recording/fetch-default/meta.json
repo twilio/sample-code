@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Recording"
+  "title": "Fetch Recording",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Recordings/{sid}.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "recording",
+    "action": "fetch"
+  }
 }

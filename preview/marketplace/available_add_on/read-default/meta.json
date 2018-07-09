@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Available Add On"
+  "title": "Read Available Add On",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/marketplace/AvailableAddOns",
+    "method": "get",
+    "domain": "preview",
+    "version": "marketplace",
+    "resource": "available_add_on",
+    "action": "read"
+  }
 }

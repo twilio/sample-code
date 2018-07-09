@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Recording"
+  "title": "Delete Recording",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Recordings/{sid}.json",
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "recording",
+    "action": "delete"
+  }
 }

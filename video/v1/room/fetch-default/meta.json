@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Room"
+  "title": "Fetch Room",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{sid}",
+    "method": "get",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room",
+    "action": "fetch"
+  }
 }

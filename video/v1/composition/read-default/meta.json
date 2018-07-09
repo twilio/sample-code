@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Composition"
+  "title": "Read Composition",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Compositions",
+    "method": "get",
+    "domain": "video",
+    "version": "v1",
+    "resource": "composition",
+    "action": "read"
+  }
 }

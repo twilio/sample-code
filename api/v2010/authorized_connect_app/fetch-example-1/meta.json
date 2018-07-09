@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "rest/authorized-connect-apps/instance-get-example-1/instance-get-example-1.6.x.py",
   "title": "Retrieve an Authorized Connect App",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "connect_app_sid": "CN47260e643654388faabe8aaa18ea6756"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/AuthorizedConnectApps/{connect_app_sid}.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "authorized_connect_app",
+    "action": "fetch"
+  }
 }

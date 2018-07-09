@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "ip-messaging/reachability-indicator/disable-indicator/disable-indicator.6.x.py",
   "title": "Disable the Reachability Indicator",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "reachability_enabled": false
+      },
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{sid}",
+    "method": "post",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "service",
+    "action": "update"
+  }
 }

@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "sync/rest/documents/retrieve-document/retrieve-document.6.x.py",
   "title": "Retrieve a Document",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MyFirstDocument"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{sid}",
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document",
+    "action": "fetch"
+  }
 }

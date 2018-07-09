@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Document"
+  "title": "Create Document",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document",
+    "action": "create"
+  }
 }

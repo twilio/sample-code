@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Origination Url"
+  "title": "Fetch Origination Url",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/OriginationUrls/{sid}",
+    "method": "get",
+    "domain": "trunking",
+    "version": "v1",
+    "resource": "origination_url",
+    "action": "fetch"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Interaction"
+  "title": "Fetch Interaction",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{session_sid}/Interactions/{sid}",
+    "method": "get",
+    "domain": "proxy",
+    "version": "v1",
+    "resource": "interaction",
+    "action": "fetch"
+  }
 }

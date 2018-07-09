@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/short-codes/list-get-example-3/list-get-example-3.6.x.py",
   "title": "Filter ShortCodes with Partial Match",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "short_code": "898"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SMS/ShortCodes.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "short_code",
+    "action": "read"
+  }
 }

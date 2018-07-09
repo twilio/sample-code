@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "video/rest/rooms/create-group-room/create-group-room.6.x.py",
   "title": "Create a Group Room, enable Recording, and set a Status Callback URL",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "record_participants_on_connect": true,
+        "status_callback": "http://example.org",
+        "type": "group",
+        "unique_name": "DailyStandup"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room",
+    "action": "create"
+  }
 }

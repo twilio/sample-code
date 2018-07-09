@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Invite"
+  "title": "Fetch Invite",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Invites/{sid}",
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "invite",
+    "action": "fetch"
+  }
 }

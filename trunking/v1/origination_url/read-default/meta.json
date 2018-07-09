@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Origination Url"
+  "title": "Read Origination Url",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/OriginationUrls",
+    "method": "get",
+    "domain": "trunking",
+    "version": "v1",
+    "resource": "origination_url",
+    "action": "read"
+  }
 }

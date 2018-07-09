@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "video/rest/rooms/update-room-status-to-completed/update-room-status-to-completed.6.x.py",
   "title": "Complete a Room",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "status": "completed"
+      },
+      "path": {
+        "sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{sid}",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room",
+    "action": "update"
+  }
 }

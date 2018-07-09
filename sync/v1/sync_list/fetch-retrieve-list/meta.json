@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "sync/rest/lists/retrieve-list/retrieve-list.6.x.py",
   "title": "Retrieve a Sync List",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MyCollection"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Lists/{sid}",
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_list",
+    "action": "fetch"
+  }
 }

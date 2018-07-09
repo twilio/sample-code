@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Intent"
+  "title": "Read Intent",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Intents",
+    "method": "get",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "intent",
+    "action": "read"
+  }
 }

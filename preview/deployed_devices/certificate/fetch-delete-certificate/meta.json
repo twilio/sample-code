@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "deployed-devices/rest/certificates/delete-certificate/delete-certificate.6.x.py",
   "title": "Delete a Certificate",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Certificates/{sid}",
+    "method": "get",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "certificate",
+    "action": "fetch"
+  }
 }

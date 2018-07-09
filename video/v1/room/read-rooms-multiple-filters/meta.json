@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "video/rest/rooms/list-rooms-multiple-filters/list-rooms-multiple-filters.6.x.py",
   "title": "Retrieve a list of completed Rooms named DailyStandup",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "status": "completed",
+        "unique_name": "DailyStandup"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms",
+    "method": "get",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room",
+    "action": "read"
+  }
 }

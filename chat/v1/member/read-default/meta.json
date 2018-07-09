@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Member"
+  "title": "Read Member",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v1/Services/{service_sid}/Channels/{channel_sid}/Members",
+    "method": "get",
+    "domain": "chat",
+    "version": "v1",
+    "resource": "member",
+    "action": "read"
+  }
 }

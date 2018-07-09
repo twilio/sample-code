@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "monitor/events/instance-get-example-phone-number/instance-get-example-phone-number.6.x.py",
   "title": "Record VoiceUrl modification",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "AE21f24380625e4aa4abec76e39b14458d"
+      }
+    },
+    "location": "https://monitor.twilio.com/v1/Events/{sid}",
+    "method": "get",
+    "domain": "monitor",
+    "version": "v1",
+    "resource": "event",
+    "action": "fetch"
+  }
 }

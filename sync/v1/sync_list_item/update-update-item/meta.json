@@ -1,5 +1,23 @@
 {
   "original_snippet_path": "sync/rest/lists/update-list-item/update-list-item.6.x.py",
   "title": "Update a Sync List item",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "data": "{\"number\": \"001\", \"name\": \"Bulbasaur\", \"attack\": 50}"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "list_sid": "MyCollection",
+        "index": "0"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Lists/{list_sid}/Items/{index}",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_list_item",
+    "action": "update"
+  }
 }

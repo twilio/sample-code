@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read All Time"
+  "title": "Read All Time",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Usage/Records/AllTime.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "usage_record_all_time",
+    "action": "read"
+  }
 }

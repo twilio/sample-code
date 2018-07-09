@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update Activity"
+  "title": "Update Activity",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Activities/{sid}",
+    "method": "post",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "activity",
+    "action": "update"
+  }
 }

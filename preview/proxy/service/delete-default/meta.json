@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Service"
+  "title": "Delete Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Proxy/Services/{sid}",
+    "method": "delete",
+    "domain": "preview",
+    "version": "proxy",
+    "resource": "service",
+    "action": "delete"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Workspace Cumulative Statistics"
+  "title": "Fetch Workspace Cumulative Statistics",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/CumulativeStatistics",
+    "method": "get",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "workspace_cumulative_statistics",
+    "action": "fetch"
+  }
 }

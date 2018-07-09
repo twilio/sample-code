@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "rest/taskrouter/tasks/list/post/example-1/example-1.6.x.py",
   "title": "Create a task",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "attributes": "{\"type\":\"support\"}",
+        "workflow_sid": "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Tasks",
+    "method": "post",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "task",
+    "action": "create"
+  }
 }

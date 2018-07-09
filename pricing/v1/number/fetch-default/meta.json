@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Number"
+  "title": "Fetch Number",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://pricing.twilio.com/v1/Voice/Numbers/{number}",
+    "method": "get",
+    "domain": "pricing",
+    "version": "v1",
+    "resource": "voice_number",
+    "action": "fetch"
+  }
 }

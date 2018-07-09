@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "notifications/rest/services/delete-service/delete-service.6.x.py",
   "title": "Delete a Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{sid}",
+    "method": "delete",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "service",
+    "action": "delete"
+  }
 }

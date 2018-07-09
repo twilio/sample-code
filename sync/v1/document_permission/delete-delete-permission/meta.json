@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "sync/rest/document-permissions/delete-permission/delete-permission.6.x.py",
   "title": "Remove a Document Permission by Identity",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "document_sid": "MyFirstDocument",
+        "identity": "bob"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{document_sid}/Permissions/{identity}",
+    "method": "delete",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document_permission",
+    "action": "delete"
+  }
 }

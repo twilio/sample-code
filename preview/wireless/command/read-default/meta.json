@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Command"
+  "title": "Read Command",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/wireless/Commands",
+    "method": "get",
+    "domain": "preview",
+    "version": "wireless",
+    "resource": "command",
+    "action": "read"
+  }
 }

@@ -1,8 +1,20 @@
 {
   "original_snippet_path": "fax/list-get-example/list-get-example.6.x.py",
   "tags": [
-    "fax"
+      "fax"
   ],
   "title": "Lists faxes in your Twilio account",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://fax.twilio.com/v1/Faxes",
+    "method": "get",
+    "domain": "fax",
+    "version": "v1",
+    "resource": "fax",
+    "action": "read"
+  }
 }

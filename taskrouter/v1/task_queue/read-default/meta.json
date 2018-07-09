@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Task Queue"
+  "title": "Read Task Queue",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/TaskQueues",
+    "method": "get",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "task_queue",
+    "action": "read"
+  }
 }

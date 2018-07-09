@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Role"
+  "title": "Fetch Role",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v1/Services/{service_sid}/Roles/{sid}",
+    "method": "get",
+    "domain": "chat",
+    "version": "v1",
+    "resource": "role",
+    "action": "fetch"
+  }
 }

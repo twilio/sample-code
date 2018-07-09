@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/participant/instance-delete-example-1/instance-delete-example-1.6.x.py",
   "title": "Delete a participant",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "conference_sid": "CFbbe4632a3c49700934481addd5ce1659",
+        "call_sid": "CA386025c9bf5d6052a1d1ea42b4d16662"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences/{conference_sid}/Participants/{call_sid}.json",
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "participant",
+    "action": "delete"
+  }
 }

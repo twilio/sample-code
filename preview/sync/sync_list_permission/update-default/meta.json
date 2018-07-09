@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update Sync List Permission"
+  "title": "Update Sync List Permission",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Lists/{list_sid}/Permissions/{identity}",
+    "method": "post",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "sync_list_permission",
+    "action": "update"
+  }
 }

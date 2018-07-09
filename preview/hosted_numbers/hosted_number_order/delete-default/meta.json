@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Hosted Number Order"
+  "title": "Delete Hosted Number Order",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/{sid}",
+    "method": "delete",
+    "domain": "preview",
+    "version": "hosted_numbers",
+    "resource": "hosted_number_order",
+    "action": "delete"
+  }
 }

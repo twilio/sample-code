@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Service"
+  "title": "Fetch Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{sid}",
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "service",
+    "action": "fetch"
+  }
 }

@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "ip-messaging/rest/services/create-service/create-service.6.x.py",
   "title": "Create a Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "FRIENDLY_NAME"
+      },
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services",
+    "method": "post",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "service",
+    "action": "create"
+  }
 }

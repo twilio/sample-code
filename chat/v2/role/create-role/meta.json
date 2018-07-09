@@ -1,5 +1,23 @@
 {
   "original_snippet_path": "ip-messaging/rest/roles/create-role/create-role.6.x.py",
   "title": "Create a Role",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "new_role",
+        "permission": "createChannel",
+        "type": "deployment"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Roles",
+    "method": "post",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "role",
+    "action": "create"
+  }
 }

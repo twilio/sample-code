@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "rest/taskrouter/taskqueues/instance/post/example-1/example-1.6.x.py",
   "title": "Update a TaskQueue",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "target_workers": "languages HAS \"english\""
+      },
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/TaskQueues/{sid}",
+    "method": "post",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "task_queue",
+    "action": "update"
+  }
 }

@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "sync/rest/maps/update-map/update-map.6.x.py",
   "title": "Update a Sync Map",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "ttl": "864000"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "Players"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{sid}",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_map",
+    "action": "update"
+  }
 }

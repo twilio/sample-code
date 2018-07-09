@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "wireless/commands/create-text-example-1/create-text-example-1.6.x.py",
   "title": "Create a text Command",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "command": "wakeup",
+        "sim": "AliceSmithSmartMeter"
+      },
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/Commands",
+    "method": "post",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "command",
+    "action": "create"
+  }
 }

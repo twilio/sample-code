@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch User Binding"
+  "title": "Fetch User Binding",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Users/{user_sid}/Bindings/{sid}",
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "user_binding",
+    "action": "fetch"
+  }
 }

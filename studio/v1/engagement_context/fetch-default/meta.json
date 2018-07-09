@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Engagement Context"
+  "title": "Fetch Engagement Context",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Engagements/{engagement_sid}/Context",
+    "method": "get",
+    "domain": "studio",
+    "version": "v1",
+    "resource": "engagement_context",
+    "action": "fetch"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Authorization Document"
+  "title": "Create Authorization Document",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments",
+    "method": "post",
+    "domain": "preview",
+    "version": "hosted_numbers",
+    "resource": "authorization_document",
+    "action": "create"
+  }
 }

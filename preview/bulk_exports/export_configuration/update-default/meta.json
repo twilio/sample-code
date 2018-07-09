@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update Export Configuration"
+  "title": "Update Export Configuration",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/BulkExports/Exports/{resource_type}/Configuration",
+    "method": "post",
+    "domain": "preview",
+    "version": "bulk_exports",
+    "resource": "export_configuration",
+    "action": "update"
+  }
 }

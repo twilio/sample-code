@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "rest/notification/instance-get-example-1/instance-get-example-1.6.x.py",
   "title": "Retrieve Notification",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "NO5a7a84730f529f0a76b3e30c01315d1a"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Notifications/{sid}.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "notification",
+    "action": "fetch"
+  }
 }

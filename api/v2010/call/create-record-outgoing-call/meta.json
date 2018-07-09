@@ -3,5 +3,24 @@
   "original_snippet_path": "guides/voice/record-calls-guide/record-outgoing-call/example-1.6.x.py",
   "testable": true,
   "title": "Record an outbound call",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "+15017122661",
+        "record": true,
+        "to": "+14155551212",
+        "url": "http://demo.twilio.com/docs/voice.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "call",
+    "action": "create"
+  }
 }

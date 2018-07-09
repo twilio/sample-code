@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update Service"
+  "title": "Update Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Verification/Services/{sid}",
+    "method": "post",
+    "domain": "preview",
+    "version": "acc_security",
+    "resource": "service",
+    "action": "update"
+  }
 }

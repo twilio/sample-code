@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read User"
+  "title": "Read User",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Users",
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "user",
+    "action": "read"
+  }
 }

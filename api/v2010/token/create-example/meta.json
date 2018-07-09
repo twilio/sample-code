@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "rest/token/list-post-example/list-post-example.6.x.py",
   "title": "Create a Token Resource",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Tokens.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "token",
+    "action": "create"
+  }
 }

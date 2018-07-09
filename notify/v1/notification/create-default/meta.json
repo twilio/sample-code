@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Notification"
+  "title": "Create Notification",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Notifications",
+    "method": "post",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "notification",
+    "action": "create"
+  }
 }

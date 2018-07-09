@@ -2,5 +2,22 @@
   "original_snippet_path": "notifications/rest/notifications/send-passthrough-notification/send-passthrough-notification.6.x.py",
   "testable": false,
   "title": "Send a Notification with Bindings in request",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Hello Bob",
+        "to_binding": "{\"binding_type\":\"sms\",\"address\":\"+15555555555\"}"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Notifications",
+    "method": "post",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "notification",
+    "action": "create"
+  }
 }

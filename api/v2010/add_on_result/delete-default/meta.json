@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Add On Result"
+  "title": "Delete Add On Result",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Recordings/{reference_sid}/AddOnResults/{sid}.json",
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "recording_add_on_result",
+    "action": "delete"
+  }
 }

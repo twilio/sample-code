@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Data Session"
+  "title": "Read Data Session",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/Sims/{sim_sid}/DataSessions",
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "data_session",
+    "action": "read"
+  }
 }

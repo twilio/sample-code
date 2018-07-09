@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Service"
+  "title": "Read Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services",
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "service",
+    "action": "read"
+  }
 }

@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/incoming-phone-numbers/list-get-example-2/list-get-example-2.6.x.py",
   "title": "Filter IncomingPhoneNumbers with Exact Match",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "phone_number": "+14158675310"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "incoming_phone_number",
+    "action": "read"
+  }
 }

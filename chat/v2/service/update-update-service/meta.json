@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "ip-messaging/rest/services/update-service/update-service.6.x.py",
   "title": "Update a Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "NEW_FRIENDLY_NAME"
+      },
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{sid}",
+    "method": "post",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "service",
+    "action": "update"
+  }
 }

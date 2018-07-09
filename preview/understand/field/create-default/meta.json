@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Field"
+  "title": "Create Field",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Intents/{intent_sid}/Fields",
+    "method": "post",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "field",
+    "action": "create"
+  }
 }

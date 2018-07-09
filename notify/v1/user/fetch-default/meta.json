@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch User"
+  "title": "Fetch User",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Users/{identity}",
+    "method": "get",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "user",
+    "action": "fetch"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Document"
+  "title": "Read Document",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents",
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document",
+    "action": "read"
+  }
 }

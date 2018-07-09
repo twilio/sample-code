@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/subaccounts/billing-example/subaccount-billing.6.x.py",
   "title": "Calculate billing for subaccount usage",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "start_time": "2018-01-15"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "call",
+    "action": "read"
+  }
 }

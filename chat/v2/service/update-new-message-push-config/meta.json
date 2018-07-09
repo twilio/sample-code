@@ -2,5 +2,23 @@
   "description": "Configure the NewMessage Push Notification for a Service instance",
   "original_snippet_path": "ip-messaging/push-config/new-message-push-config/new-message-push-config.6.x.py",
   "title": "Configure NewMessage Push Notifications",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "notifications.added_to_channel.enabled": true,
+        "notifications.added_to_channel.sound": "default",
+        "notifications.added_to_channel.template": "A New message in ${CHANNEL} from ${USER}: ${MESSAGE}"
+      },
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{sid}",
+    "method": "post",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "service",
+    "action": "update"
+  }
 }

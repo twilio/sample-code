@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "monitor/alerts/list-get-example-warnings-apr01-apr30/list-get-example-warnings-apr01-apr30.6.x.py",
   "title": "Only warnings in a date range",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "end_date": "2015-04-30",
+        "log_level": "warning",
+        "start_date": "2015-04-01"
+      },
+      "path": {}
+    },
+    "location": "https://monitor.twilio.com/v1/Alerts",
+    "method": "get",
+    "domain": "monitor",
+    "version": "v1",
+    "resource": "alert",
+    "action": "read"
+  }
 }

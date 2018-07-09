@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Composition"
+  "title": "Create Composition",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Compositions",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "composition",
+    "action": "create"
+  }
 }

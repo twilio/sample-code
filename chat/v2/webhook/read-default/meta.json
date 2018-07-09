@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Webhook"
+  "title": "Read Webhook",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Webhooks",
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "channel_webhook",
+    "action": "read"
+  }
 }

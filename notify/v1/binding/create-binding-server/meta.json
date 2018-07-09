@@ -1,5 +1,25 @@
 {
   "original_snippet_path": "notifications/register/create-binding-server/create-binding-server.6.x.py",
   "title": "Create a Binding (Server-side)",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "address": "gcm_device_token",
+        "binding_type": "gcm",
+        "endpoint": "XXXXXXXXXXXXXXX",
+        "identity": "00000001",
+        "tag": "premium"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Bindings",
+    "method": "post",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "binding",
+    "action": "create"
+  }
 }

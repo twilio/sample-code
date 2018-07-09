@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Sync List"
+  "title": "Read Sync List",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Lists",
+    "method": "get",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "sync_list",
+    "action": "read"
+  }
 }

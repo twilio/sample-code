@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "proxy/quickstart/add-phone-number/add-phone-number.6.x.py",
   "title": "Add a Phone Number",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/PhoneNumbers",
+    "method": "post",
+    "domain": "proxy",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "create"
+  }
 }

@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "sync/rest/list-permissions/list-permissions/list-permissions.6.x.py",
   "title": "List All List Permissions",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "list_sid": "MyFirstList"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Lists/{list_sid}/Permissions",
+    "method": "get",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_list_permission",
+    "action": "read"
+  }
 }

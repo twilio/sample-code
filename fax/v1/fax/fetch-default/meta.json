@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Fax"
+  "title": "Fetch Fax",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://fax.twilio.com/v1/Faxes/{sid}",
+    "method": "get",
+    "domain": "fax",
+    "version": "v1",
+    "resource": "fax",
+    "action": "fetch"
+  }
 }

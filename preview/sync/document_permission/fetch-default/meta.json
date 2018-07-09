@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Document Permission"
+  "title": "Fetch Document Permission",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Documents/{document_sid}/Permissions/{identity}",
+    "method": "get",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "document_permission",
+    "action": "fetch"
+  }
 }

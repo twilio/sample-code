@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Authorization Document"
+  "title": "Fetch Authorization Document",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/{sid}",
+    "method": "get",
+    "domain": "preview",
+    "version": "hosted_numbers",
+    "resource": "authorization_document",
+    "action": "fetch"
+  }
 }

@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "wireless/sims/list-example-1/list-example-1.6.x.py",
   "title": "List all SIMs",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/Sims",
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "sim",
+    "action": "read"
+  }
 }

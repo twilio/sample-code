@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Outgoing Caller"
+  "title": "Delete Outgoing Caller",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/OutgoingCallerIds/{sid}.json",
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "outgoing_caller_id",
+    "action": "delete"
+  }
 }

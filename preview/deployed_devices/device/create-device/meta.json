@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "deployed-devices/rest/devices/create-device/create-device.6.x.py",
   "title": "Create a Device",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "My Device #1"
+      },
+      "path": {
+        "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Devices",
+    "method": "post",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "device",
+    "action": "create"
+  }
 }

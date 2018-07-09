@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Fleet"
+  "title": "Fetch Fleet",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{sid}",
+    "method": "get",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "fleet",
+    "action": "fetch"
+  }
 }

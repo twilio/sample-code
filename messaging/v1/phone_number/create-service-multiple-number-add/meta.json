@@ -1,8 +1,24 @@
 {
   "original_snippet_path": "messaging/services/service-multiple-number-add/service-multiple-number-add.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "Add multiple phone numbers to Messaging Services",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "phone_number_sid": "PN2a0747eba6abf96b7e3c3ff0b4530f6e"
+      },
+      "path": {
+        "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/PhoneNumbers",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "create"
+  }
 }

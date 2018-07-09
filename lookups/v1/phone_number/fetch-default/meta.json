@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Phone Number"
+  "title": "Fetch Phone Number",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
+    "method": "get",
+    "domain": "lookups",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "fetch"
+  }
 }

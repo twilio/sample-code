@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Sample"
+  "title": "Fetch Sample",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Intents/{intent_sid}/Samples/{sid}",
+    "method": "get",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "sample",
+    "action": "fetch"
+  }
 }

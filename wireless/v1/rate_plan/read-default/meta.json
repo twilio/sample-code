@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Rate Plan"
+  "title": "Read Rate Plan",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/RatePlans",
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "rate_plan",
+    "action": "read"
+  }
 }

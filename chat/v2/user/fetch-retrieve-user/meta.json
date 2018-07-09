@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "ip-messaging/rest/users/retrieve-user/retrieve-user.6.x.py",
   "title": "Retrieve a User",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Users/{sid}",
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "user",
+    "action": "fetch"
+  }
 }

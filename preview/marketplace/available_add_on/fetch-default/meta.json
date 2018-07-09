@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Available Add On"
+  "title": "Fetch Available Add On",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/marketplace/AvailableAddOns/{sid}",
+    "method": "get",
+    "domain": "preview",
+    "version": "marketplace",
+    "resource": "available_add_on",
+    "action": "fetch"
+  }
 }

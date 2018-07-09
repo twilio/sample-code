@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Payload"
+  "title": "Delete Payload",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Recordings/{reference_sid}/AddOnResults/{add_on_result_sid}/Payloads/{sid}.json",
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "recording_add_on_result_payload",
+    "action": "delete"
+  }
 }

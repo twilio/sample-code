@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Sync Map"
+  "title": "Delete Sync Map",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{sid}",
+    "method": "delete",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_map",
+    "action": "delete"
+  }
 }

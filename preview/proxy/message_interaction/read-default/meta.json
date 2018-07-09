@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Message Interaction"
+  "title": "Read Message Interaction",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Proxy/Services/{service_sid}/Sessions/{session_sid}/Participants/{participant_sid}/MessageInteractions",
+    "method": "get",
+    "domain": "preview",
+    "version": "proxy",
+    "resource": "message_interaction",
+    "action": "read"
+  }
 }

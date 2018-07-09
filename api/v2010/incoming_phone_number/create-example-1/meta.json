@@ -1,5 +1,24 @@
 {
   "original_snippet_path": "rest/incoming-phone-numbers/list-post-example-1/list-post-example-1.6.x.py",
   "title": "Create a New IncomingPhoneNumber",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "My Company Line",
+        "phone_number": "+15105647903",
+        "voice_method": "GET",
+        "voice_url": "http://demo.twilio.com/docs/voice.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "incoming_phone_number",
+    "action": "create"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Published Track"
+  "title": "Fetch Published Track",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Participants/{participant_sid}/PublishedTracks/{sid}",
+    "method": "get",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room_participant_published_track",
+    "action": "fetch"
+  }
 }

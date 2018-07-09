@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "wireless/sims/instance-get-example-2/instance-get-example-2.6.x.py",
   "title": "Get a SIM by UniqueName",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "AliceSmithSmartMeter"
+      }
+    },
+    "location": "https://wireless.twilio.com/v1/Sims/{sid}",
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "sim",
+    "action": "fetch"
+  }
 }

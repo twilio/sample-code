@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update Session"
+  "title": "Update Session",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{sid}",
+    "method": "post",
+    "domain": "proxy",
+    "version": "v1",
+    "resource": "session",
+    "action": "update"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Phone Number"
+  "title": "Delete Phone Number",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/PhoneNumbers/{sid}",
+    "method": "delete",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "delete"
+  }
 }

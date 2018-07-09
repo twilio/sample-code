@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Trigger"
+  "title": "Delete Trigger",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Usage/Triggers/{sid}.json",
+    "method": "delete",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "usage_trigger",
+    "action": "delete"
+  }
 }

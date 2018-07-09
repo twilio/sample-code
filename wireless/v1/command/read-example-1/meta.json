@@ -1,5 +1,17 @@
 {
   "original_snippet_path": "wireless/commands/list-example-1/list-example-1.6.x.py",
   "title": "List all Commands in the account",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://wireless.twilio.com/v1/Commands",
+    "method": "get",
+    "domain": "wireless",
+    "version": "v1",
+    "resource": "command",
+    "action": "read"
+  }
 }

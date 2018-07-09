@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Sync Map Permission"
+  "title": "Read Sync Map Permission",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Maps/{map_sid}/Permissions",
+    "method": "get",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "sync_map_permission",
+    "action": "read"
+  }
 }

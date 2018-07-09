@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Installed Add On"
+  "title": "Create Installed Add On",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/marketplace/InstalledAddOns",
+    "method": "post",
+    "domain": "preview",
+    "version": "marketplace",
+    "resource": "installed_add_on",
+    "action": "create"
+  }
 }

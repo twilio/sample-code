@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Deployment"
+  "title": "Delete Deployment",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Deployments/{sid}",
+    "method": "delete",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "deployment",
+    "action": "delete"
+  }
 }

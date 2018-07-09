@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "ip-messaging/rest/channels/retrieve-channels/retrieve-channels.6.x.py",
   "title": "Retrieve a Channel",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{sid}",
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "channel",
+    "action": "fetch"
+  }
 }

@@ -2,9 +2,25 @@
   "description": "Look up a phone number in the E.164 format",
   "original_snippet_path": "lookups/lookup-get-basic-example-1/lookup-get-basic-example-1.6.x.py",
   "tags": [
-    "lookup",
-    "phone number"
+      "lookup",
+      "phone number"
   ],
   "title": "Lookup with E.164 Formatted Number",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "type": "carrier"
+      },
+      "path": {
+        "phone_number": "+15108675310"
+      }
+    },
+    "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
+    "method": "get",
+    "domain": "lookups",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "fetch"
+  }
 }

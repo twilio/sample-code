@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "video/rest/recordings/list-recordings-for-participant-in-room/list-recordings-for-participant-in-room.6.x.py",
   "title": "Get the list of Recordings for the specified Participant in a given Room",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "grouping_sid": "ParticipantSid"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Recordings",
+    "method": "get",
+    "domain": "video",
+    "version": "v1",
+    "resource": "recording",
+    "action": "read"
+  }
 }

@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "deployed-devices/quickstarts/sync-boardled/create-document/create-document.6.x.py",
   "title": "Create a BoardLED Document",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "data": "{\"led\": \"OFF\"}",
+        "unique_name": "BoardLED"
+      },
+      "path": {
+        "service_sid": "default"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document",
+    "action": "create"
+  }
 }

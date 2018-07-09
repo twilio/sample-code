@@ -1,8 +1,22 @@
 {
   "original_snippet_path": "fax/instance-get-example/instance-get-example.6.x.py",
   "tags": [
-    "fax"
+      "fax"
   ],
   "title": "Fetch fax in your Twilio account",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://fax.twilio.com/v1/Faxes/{sid}",
+    "method": "get",
+    "domain": "fax",
+    "version": "v1",
+    "resource": "fax",
+    "action": "fetch"
+  }
 }

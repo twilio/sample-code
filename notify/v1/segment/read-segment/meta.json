@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "notifications/rest/segments/list-segment/list-segment.6.x.py",
   "title": "List Segments",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Segments",
+    "method": "get",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "segment",
+    "action": "read"
+  }
 }

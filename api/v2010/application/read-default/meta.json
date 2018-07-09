@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Application"
+  "title": "Read Application",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Applications.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "application",
+    "action": "read"
+  }
 }

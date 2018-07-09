@@ -1,5 +1,24 @@
 {
   "original_snippet_path": "sync/rest/maps/create-map-item/create-map-item.6.x.py",
   "title": "Create a Sync Map Item",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "data": "{\"name\": \"Stephen Curry\", \"level\": 30, \"username\": \"spicy_curry\"}",
+        "key": "steph_curry",
+        "ttl": "864000"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "map_sid": "Players"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Items",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "sync_map_item",
+    "action": "create"
+  }
 }

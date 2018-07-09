@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Device"
+  "title": "Read Device",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Devices",
+    "method": "get",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "device",
+    "action": "read"
+  }
 }

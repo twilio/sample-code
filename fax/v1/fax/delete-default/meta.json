@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Fax"
+  "title": "Delete Fax",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://fax.twilio.com/v1/Faxes/{sid}",
+    "method": "delete",
+    "domain": "fax",
+    "version": "v1",
+    "resource": "fax",
+    "action": "delete"
+  }
 }

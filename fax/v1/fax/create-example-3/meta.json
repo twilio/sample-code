@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "fax/sip-send/example-3/example-3.6.x.py",
   "title": "Send Fax Using SIP with Headers and Parameters",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "Jack",
+        "media_url": "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
+        "to": "sip:kate@example.com?hatchkey=4815162342;transport=TCP"
+      },
+      "path": {}
+    },
+    "location": "https://fax.twilio.com/v1/Faxes",
+    "method": "post",
+    "domain": "fax",
+    "version": "v1",
+    "resource": "fax",
+    "action": "create"
+  }
 }

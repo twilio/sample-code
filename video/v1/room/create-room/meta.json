@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "video/rest/rooms/create-room/create-room.6.x.py",
   "title": "Create a Room called DailyStandup",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "DailyStandup"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room",
+    "action": "create"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete User Binding"
+  "title": "Delete User Binding",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Users/{user_sid}/Bindings/{sid}",
+    "method": "delete",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "user_binding",
+    "action": "delete"
+  }
 }

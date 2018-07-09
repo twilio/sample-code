@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update Public Key"
+  "title": "Update Public Key",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://accounts.twilio.com/v1/Credentials/PublicKeys/{sid}",
+    "method": "post",
+    "domain": "accounts",
+    "version": "v1",
+    "resource": "credential_public_key",
+    "action": "update"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Dependent Hosted Number Order"
+  "title": "Read Dependent Hosted Number Order",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/{signing_document_sid}/DependentHostedNumberOrders",
+    "method": "get",
+    "domain": "preview",
+    "version": "hosted_numbers",
+    "resource": "dependent_hosted_number_order",
+    "action": "read"
+  }
 }

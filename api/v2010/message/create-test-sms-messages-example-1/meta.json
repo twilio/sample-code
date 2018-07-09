@@ -1,5 +1,23 @@
 {
   "original_snippet_path": "rest/test-credentials/test-sms-messages-example-1/test-sms-messages-example-1.6.x.py",
   "title": "Create a message",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "All in the game, yo",
+        "from": "",
+        "to": "+5571981265131"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "message",
+    "action": "create"
+  }
 }

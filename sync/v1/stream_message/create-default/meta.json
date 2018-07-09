@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Stream Message"
+  "title": "Create Stream Message",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Streams/{stream_sid}/Messages",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "stream_message",
+    "action": "create"
+  }
 }

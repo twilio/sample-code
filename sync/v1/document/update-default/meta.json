@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Update Document"
+  "title": "Update Document",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{sid}",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document",
+    "action": "update"
+  }
 }

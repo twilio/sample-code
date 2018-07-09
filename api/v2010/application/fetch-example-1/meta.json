@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "rest/applications/instance-get-example-1/instance-get-example-1.6.x.py",
   "title": "Get an Application Instance Resource",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "AP2a0747eba6abf96b7e3c3ff0b4530f6e"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Applications/{sid}.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "application",
+    "action": "fetch"
+  }
 }

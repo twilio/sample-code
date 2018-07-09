@@ -1,5 +1,25 @@
 {
   "original_snippet_path": "rest/making-calls/example-3/example-3.6.x.py",
   "title": "Make a call and send digits",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "from": "+18668675310",
+        "method": "GET",
+        "send_digits": "1234#",
+        "to": "+14155551212",
+        "url": "http://demo.twilio.com/docs/voice.xml"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "call",
+    "action": "create"
+  }
 }

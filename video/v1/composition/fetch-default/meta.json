@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Composition"
+  "title": "Fetch Composition",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Compositions/{sid}",
+    "method": "get",
+    "domain": "video",
+    "version": "v1",
+    "resource": "composition",
+    "action": "fetch"
+  }
 }

@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "rest/taskrouter/workflows/instance/post/example-1/example-1.6.x.py",
   "title": "Update a Workflow",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "task_reservation_timeout": "20"
+      },
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workflows/{sid}",
+    "method": "post",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "workflow",
+    "action": "update"
+  }
 }

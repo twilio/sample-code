@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Channel"
+  "title": "Delete Channel",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v1/Services/{service_sid}/Channels/{sid}",
+    "method": "delete",
+    "domain": "chat",
+    "version": "v1",
+    "resource": "channel",
+    "action": "delete"
+  }
 }

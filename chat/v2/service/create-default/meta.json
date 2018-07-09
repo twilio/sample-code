@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Service"
+  "title": "Create Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://chat.twilio.com/v2/Services",
+    "method": "post",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "service",
+    "action": "create"
+  }
 }

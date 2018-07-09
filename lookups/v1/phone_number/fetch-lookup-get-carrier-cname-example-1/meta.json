@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "lookups/lookup-get-carrier-cname-example-1/lookup-get-carrier-cname-example-1.6.x.py",
   "title": "Lookup with Carrier Caller Name",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "type": "carrier"
+      },
+      "path": {
+        "phone_number": "15108675310"
+      }
+    },
+    "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
+    "method": "get",
+    "domain": "lookups",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "fetch"
+  }
 }

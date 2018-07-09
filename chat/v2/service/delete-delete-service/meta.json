@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "ip-messaging/rest/services/delete-service/delete-service.6.x.py",
   "title": "Delete a Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{sid}",
+    "method": "delete",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "service",
+    "action": "delete"
+  }
 }

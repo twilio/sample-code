@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Public Key"
+  "title": "Create Public Key",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://accounts.twilio.com/v1/Credentials/PublicKeys",
+    "method": "post",
+    "domain": "accounts",
+    "version": "v1",
+    "resource": "credential_public_key",
+    "action": "create"
+  }
 }

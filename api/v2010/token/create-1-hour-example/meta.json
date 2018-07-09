@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/token/list-post-1-hour-example/list-post-1-hour-example.6.x.py",
   "title": "Create Token Resource during 1 hour",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "ttl": "3600"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Tokens.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "token",
+    "action": "create"
+  }
 }

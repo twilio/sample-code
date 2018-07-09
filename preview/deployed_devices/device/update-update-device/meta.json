@@ -1,5 +1,23 @@
 {
   "original_snippet_path": "deployed-devices/rest/devices/update-device/update-device.6.x.py",
   "title": "Update a Device",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "My New Device",
+        "identity": "bob@twilio.com"
+      },
+      "path": {
+        "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Devices/{sid}",
+    "method": "post",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "device",
+    "action": "update"
+  }
 }

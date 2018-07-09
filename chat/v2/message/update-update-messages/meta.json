@@ -1,5 +1,23 @@
 {
   "original_snippet_path": "ip-messaging/rest/messages/update-messages/update-messages.6.x.py",
   "title": "Update a Message",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "MESSAGE"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Messages/{sid}",
+    "method": "post",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "message",
+    "action": "update"
+  }
 }

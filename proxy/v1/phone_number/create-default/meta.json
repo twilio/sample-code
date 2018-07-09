@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Phone Number"
+  "title": "Create Phone Number",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/PhoneNumbers",
+    "method": "post",
+    "domain": "proxy",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "create"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Delete Composition"
+  "title": "Delete Composition",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Compositions/{sid}",
+    "method": "delete",
+    "domain": "video",
+    "version": "v1",
+    "resource": "composition",
+    "action": "delete"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Sync Map"
+  "title": "Create Sync Map",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Maps",
+    "method": "post",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "sync_map",
+    "action": "create"
+  }
 }

@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "rest/taskrouter/activities/list/post/example-1/example-1.6.x.py",
   "title": "Creates a new Activity",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "available": "true",
+        "friendly_name": "NewAvailableActivity"
+      },
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Activities",
+    "method": "post",
+    "domain": "taskrouter",
+    "version": "v1",
+    "resource": "activity",
+    "action": "create"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Alpha Sender"
+  "title": "Create Alpha Sender",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services/{service_sid}/AlphaSenders",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "alpha_sender",
+    "action": "create"
+  }
 }

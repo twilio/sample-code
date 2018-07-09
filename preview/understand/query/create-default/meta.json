@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Create Query"
+  "title": "Create Query",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Queries",
+    "method": "post",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "query",
+    "action": "create"
+  }
 }

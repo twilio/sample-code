@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "sync/rest/documents/update-document/update-document.6.x.py",
   "title": "Update a Document",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "data": "{\"date_updated\": \"2018-02-14 12:24:33.889341\", \"movie_title\": \"On The Line\", \"show_times\": null, \"starring\": [\"Lance Bass\", \"Joey Fatone\"], \"genre\": \"Romance\"}"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MyFirstDocument"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{sid}",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "document",
+    "action": "update"
+  }
 }

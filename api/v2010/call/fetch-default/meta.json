@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Call"
+  "title": "Fetch Call",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/{sid}.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "call",
+    "action": "fetch"
+  }
 }

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Sync Map"
+  "title": "Read Sync Map",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Maps",
+    "method": "get",
+    "domain": "preview",
+    "version": "sync",
+    "resource": "sync_map",
+    "action": "read"
+  }
 }

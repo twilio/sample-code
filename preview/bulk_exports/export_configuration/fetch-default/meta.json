@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Fetch Export Configuration"
+  "title": "Fetch Export Configuration",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/BulkExports/Exports/{resource_type}/Configuration",
+    "method": "get",
+    "domain": "preview",
+    "version": "bulk_exports",
+    "resource": "export_configuration",
+    "action": "fetch"
+  }
 }

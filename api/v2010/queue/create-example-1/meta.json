@@ -1,5 +1,21 @@
 {
   "original_snippet_path": "rest/queue/list-post-example-1/list-post-example-1.6.x.py",
   "title": "Create New Queue",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "newqueue"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Queues.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "queue",
+    "action": "create"
+  }
 }

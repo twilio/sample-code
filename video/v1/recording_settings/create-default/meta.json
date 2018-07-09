@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Recording Settings",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/RecordingSettings/Default",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "recording_settings",
+    "action": "create"
+  }
+}

@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Assistant"
+  "title": "Read Assistant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants",
+    "method": "get",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "assistant",
+    "action": "read"
+  }
 }

@@ -1,8 +1,23 @@
 {
   "original_snippet_path": "messaging/services/service-create/service-create.6.x.py",
   "tags": [
-    "messaging"
+      "messaging"
   ],
   "title": "Create a Messaging Service",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "My First Service",
+        "status_callback": "http://requestb.in/1234abcd"
+      },
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Services",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "service",
+    "action": "create"
+  }
 }

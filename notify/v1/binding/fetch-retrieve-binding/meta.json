@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "notifications/rest/bindings/retrieve-binding/retrieve-binding.6.x.py",
   "title": "Retrieve a Binding",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://notify.twilio.com/v1/Services/{service_sid}/Bindings/{sid}",
+    "method": "get",
+    "domain": "notify",
+    "version": "v1",
+    "resource": "binding",
+    "action": "fetch"
+  }
 }

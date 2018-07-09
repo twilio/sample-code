@@ -1,5 +1,19 @@
 {
   "original_snippet_path": "ip-messaging/rest/channels/list-channels/list-channels.6.x.py",
   "title": "List all Channels",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels",
+    "method": "get",
+    "domain": "chat",
+    "version": "v2",
+    "resource": "channel",
+    "action": "read"
+  }
 }

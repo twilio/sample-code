@@ -1,4 +1,16 @@
 {
   "type": "server",
-  "title": "Read Assigned Add On Extension"
+  "title": "Read Assigned Add On Extension",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers/{resource_sid}/AssignedAddOns/{assigned_add_on_sid}/Extensions.json",
+    "method": "get",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "incoming_phone_number_assigned_add_on_extension",
+    "action": "read"
+  }
 }

@@ -1,5 +1,22 @@
 {
   "original_snippet_path": "sync/rest/streams/publish-stream-message/publish-stream-message.6.x.py",
   "title": "Publish a Stream Message",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "data": "{\"id\": \"bob\", \"x\": 256, \"y\": 42}"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "stream_sid": "MyStream"
+      }
+    },
+    "location": "https://sync.twilio.com/v1/Services/{service_sid}/Streams/{stream_sid}/Messages",
+    "method": "post",
+    "domain": "sync",
+    "version": "v1",
+    "resource": "stream_message",
+    "action": "create"
+  }
 }

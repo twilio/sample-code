@@ -1,5 +1,20 @@
 {
   "original_snippet_path": "deployed-devices/rest/keys/retrieve-key/retrieve-key.6.x.py",
   "title": "Retrieve a Device Key",
-  "type": "server"
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Keys/{sid}",
+    "method": "get",
+    "domain": "preview",
+    "version": "deployed_devices",
+    "resource": "key",
+    "action": "fetch"
+  }
 }
