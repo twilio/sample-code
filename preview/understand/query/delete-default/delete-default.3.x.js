@@ -4,8 +4,9 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .queries('UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .remove()
-                         .then(query => console.log(query.sid))
-                         .done();
+client.preview.understand
+              .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .queries('UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .remove()
+              .then(query => console.log(query.sid))
+              .done();

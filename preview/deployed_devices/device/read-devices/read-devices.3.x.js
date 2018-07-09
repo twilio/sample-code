@@ -4,6 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                               .devices
-                               .each(devices => console.log(devices.sid));
+client.preview.deployed_devices
+              .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .devices
+              .each(devices => console.log(devices.sid));

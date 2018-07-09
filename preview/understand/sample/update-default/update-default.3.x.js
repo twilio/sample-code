@@ -4,9 +4,10 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .update({language: 'language'})
-                         .then(sample => console.log(sample.dateCreated))
-                         .done();
+client.preview.understand
+              .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .update({language: 'language'})
+              .then(sample => console.log(sample.dateCreated))
+              .done();

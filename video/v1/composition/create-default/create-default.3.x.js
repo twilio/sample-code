@@ -4,6 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.video.compositions.create()
-                         .then(composition => console.log(composition.sid))
-                         .done();
+client.video.compositions
+            .create()
+            .then(composition => console.log(composition.sid))
+            .done();

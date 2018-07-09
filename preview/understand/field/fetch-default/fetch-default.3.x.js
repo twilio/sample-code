@@ -4,9 +4,10 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .fields('UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .fetch()
-                         .then(field => console.log(field.uniqueName))
-                         .done();
+client.preview.understand
+              .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .fields('UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .fetch()
+              .then(field => console.log(field.uniqueName))
+              .done();

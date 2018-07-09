@@ -4,5 +4,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.marketplace.availableAddOns
+client.preview.marketplace
+              .availableAddOns
               .each(availableAddOns => console.log(availableAddOns.sid));

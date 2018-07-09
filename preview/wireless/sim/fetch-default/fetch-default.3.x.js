@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .fetch()
-              .then(sim => console.log(sim.uniqueName))
-              .done();
+client.preview.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                       .fetch()
+                       .then(sim => console.log(sim.uniqueName))
+                       .done();

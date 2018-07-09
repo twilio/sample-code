@@ -4,7 +4,8 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.accounts.credentials.publicKey('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.accounts.credentials
+               .publicKey('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .fetch()
                .then(public_key => console.log(public_key.friendlyName))
                .done();

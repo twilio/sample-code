@@ -4,7 +4,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.sync.services
-           .create({friendlyName: 'MySyncServiceInstance'})
-           .then(service => console.log(service.sid))
-           .done();
+client.sync.services.create({friendlyName: 'MySyncServiceInstance'})
+                    .then(service => console.log(service.sid))
+                    .done();

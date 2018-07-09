@@ -4,7 +4,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.sip.domains
-          .create({domainName: 'domainName'})
-          .then(domain => console.log(domain.sid))
-          .done();
+client.sip.domains.create({domainName: 'domainName'})
+                  .then(domain => console.log(domain.sid))
+                  .done();

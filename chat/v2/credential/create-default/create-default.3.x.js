@@ -4,7 +4,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.chat.credentials
-           .create({type: 'gcm'})
-           .then(credential => console.log(credential.sid))
-           .done();
+client.chat.credentials.create({type: 'gcm'})
+                       .then(credential => console.log(credential.sid))
+                       .done();

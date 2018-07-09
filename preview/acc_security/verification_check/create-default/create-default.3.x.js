@@ -4,7 +4,8 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.acc_security.services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.preview.acc_security
+              .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .verificationChecks
               .create({code: 'code'})
               .then(verification_check => console.log(verification_check.sid))
