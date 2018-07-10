@@ -13,6 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Conference> conferences = Conference.reader()
             .setStatus(Conference.Status.IN_PROGRESS)
+            .setDateCreated(Range.atLeast(LocalDate.parse("2009-07-06")))
             .read();
 
         for(Conference record : conferences) {

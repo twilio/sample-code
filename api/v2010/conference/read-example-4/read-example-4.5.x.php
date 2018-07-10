@@ -11,8 +11,9 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$conferences = $twilio->conferences
-                      ->read(array("status" => "in-progress"));
+$conferences = $twilio->conferences->read(
+    array("status" => "in-progress", "dateCreated" => "2009-07-06")
+);
 
 foreach ($conferences as $record) {
     print($record->sid);
