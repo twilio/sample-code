@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Update Recording",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences/{conference_sid}/Recordings/{sid}.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "conference_recording",
+    "action": "update"
+  }
+}

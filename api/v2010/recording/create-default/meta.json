@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Recording",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/{call_sid}/Recordings.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "call_recording",
+    "action": "create"
+  }
+}

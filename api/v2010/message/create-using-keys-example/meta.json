@@ -2,6 +2,7 @@
   "original_snippet_path": "rest/keys/using-keys-example/example.6.x.py",
   "title": "Use an API Key Pair to Send A Message",
   "type": "server",
+  "twilio_client": "api",
   "_definition": {
     "params": {
       "required": {
@@ -19,6 +20,5 @@
     "version": "v2010",
     "resource": "message",
     "action": "create"
-  },
-  "twilio_client": "api"
+  }
 }
