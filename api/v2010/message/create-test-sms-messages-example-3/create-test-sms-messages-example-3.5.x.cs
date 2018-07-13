@@ -17,7 +17,7 @@ class Program
 
         var message = MessageResource.Create(
             from: new Twilio.Types.PhoneNumber("+15005550006"),
-            body: "Body",
+            body: "Do. Or do not. There is no try.",
             to: new Twilio.Types.PhoneNumber("+14108675310")
         );
 

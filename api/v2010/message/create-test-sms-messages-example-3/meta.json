@@ -6,7 +6,8 @@
     "params": {
       "required": {
         "from": "+15005550006",
-        "to": "+14108675310"
+        "to": "+14108675310",
+        "body": "Do. Or do not. There is no try."
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
