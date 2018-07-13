@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-service = @client.preview.acc_security
-                         .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .update(name: 'name')
+service = @client.preview
+                 .acc_security
+                 .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                 .update(name: 'name')
 
 puts service.name

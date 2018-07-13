@@ -4,7 +4,8 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.deployed_devices.fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.preview.deployed_devices
+              .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .certificates('CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
               .then(certificate => console.log(certificate.friendlyName))

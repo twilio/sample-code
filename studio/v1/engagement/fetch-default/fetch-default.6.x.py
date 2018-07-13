@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-engagement = client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                          .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                          .fetch()
+engagement = client.studio \
+                   .flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                   .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                   .fetch()
 
 print(engagement.sid)

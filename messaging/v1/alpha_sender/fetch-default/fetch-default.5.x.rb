@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-alpha_sender = @client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+alpha_sender = @client.messaging
+                      .services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .alpha_senders('AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .fetch
 

@@ -4,6 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .fieldTypes
-                         .each(fieldTypes => console.log(fieldTypes.sid));
+client.preview.understand
+              .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .fieldTypes
+              .each(fieldTypes => console.log(fieldTypes.sid));

@@ -7,10 +7,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-user_bindings = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                            .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                            .user_bindings
-                            .list
+user_bindings = @client.chat
+                       .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                       .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                       .user_bindings
+                       .list
 
 user_bindings.each do |record|
   puts record.sid

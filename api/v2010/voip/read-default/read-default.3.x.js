@@ -4,5 +4,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.availablePhoneNumbers('US').voip
+client.availablePhoneNumbers('US')
+      .voip
       .each(voip => console.log(voip.friendlyName));

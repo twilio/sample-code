@@ -7,9 +7,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-documents = @client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                                .documents
-                                .list
+documents = @client.preview
+                   .sync
+                   .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                   .documents
+                   .list
 
 documents.each do |record|
   puts record.sid

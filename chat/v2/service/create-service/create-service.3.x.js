@@ -4,7 +4,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.chat.services
-           .create({friendlyName: 'FRIENDLY_NAME'})
-           .then(service => console.log(service.sid))
-           .done();
+client.chat.services.create({friendlyName: 'FRIENDLY_NAME'})
+                    .then(service => console.log(service.sid))
+                    .done();

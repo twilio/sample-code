@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-phone_numbers = client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                               .phone_numbers \
-                               .list()
+phone_numbers = client.trunking \
+                      .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                      .phone_numbers \
+                      .list()
 
 for record in phone_numbers:
     print(record.sid)

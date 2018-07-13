@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-engagement_context = @client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+engagement_context = @client.studio
+                            .flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                             .engagement_context
                             .fetch

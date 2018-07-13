@@ -7,9 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-users = @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                      .users
-                      .list
+users = @client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').users
+                                                                     .list
 
 users.each do |record|
   puts record.sid

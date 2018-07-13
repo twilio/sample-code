@@ -4,7 +4,8 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.acc_security.services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                           .update({name: 'name'})
-                           .then(service => console.log(service.name))
-                           .done();
+client.preview.acc_security
+              .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .update({name: 'name'})
+              .then(service => console.log(service.name))
+              .done();

@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-user_binding = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+user_binding = client.chat \
+                     .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .user_bindings('BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .fetch()

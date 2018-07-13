@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-events = client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                          .events \
-                          .list()
+events = client.taskrouter \
+               .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+               .events \
+               .list()
 
 for record in events:
     print(record.sid)

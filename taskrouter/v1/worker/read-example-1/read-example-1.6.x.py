@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-workers = client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                           .workers \
-                           .list()
+workers = client.taskrouter \
+                .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                .workers \
+                .list()
 
 for record in workers:
     print(record.sid)

@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-room_recording = @client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                              .recordings('RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                              .fetch
+room_recording = @client.video
+                        .rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .recordings('RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .fetch
 
 puts room_recording.track_name

@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-composition = client.video.compositions('CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                          .fetch()
+composition = client.video \
+                    .compositions('CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .fetch()
 
 print(composition.status)

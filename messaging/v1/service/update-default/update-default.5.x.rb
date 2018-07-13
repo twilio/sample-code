@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-service = @client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                           .update(friendly_name: 'friendly_name')
+service = @client.messaging
+                 .services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                 .update(friendly_name: 'friendly_name')
 
 puts service.friendly_name

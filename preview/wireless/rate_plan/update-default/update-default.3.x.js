@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.ratePlans('WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .update({uniqueName: 'uniqueName'})
-              .then(rate_plan => console.log(rate_plan.uniqueName))
-              .done();
+client.preview.wireless.ratePlans('WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                       .update({uniqueName: 'uniqueName'})
+                       .then(rate_plan => console.log(rate_plan.uniqueName))
+                       .done();

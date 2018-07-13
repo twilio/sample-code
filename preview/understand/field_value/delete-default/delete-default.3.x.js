@@ -4,9 +4,10 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .fieldTypes('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .fieldValues('UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .remove()
-                         .then(field_value => console.log(field_value.sid))
-                         .done();
+client.preview.understand
+              .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .fieldTypes('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .fieldValues('UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .remove()
+              .then(field_value => console.log(field_value.sid))
+              .done();

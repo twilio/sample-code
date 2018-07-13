@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-verification_check = client.preview.acc_security \
+verification_check = client.preview \
+                           .acc_security \
                            .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                            .verification_checks \
                            .create(code='code')

@@ -7,8 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-document = client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                              .documents \
-                              .create()
+document = client.preview \
+                 .sync \
+                 .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                 .documents \
+                 .create()
 
 print(document.sid)

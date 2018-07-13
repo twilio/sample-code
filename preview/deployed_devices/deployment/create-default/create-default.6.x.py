@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-deployment = client.preview.deployed_devices \
-                           .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                           .deployments \
-                           .create()
+deployment = client.preview \
+                   .deployed_devices \
+                   .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                   .deployments \
+                   .create()
 
 print(deployment.sid)

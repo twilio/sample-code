@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-notification = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                            .notifications \
-                            .create(identity=['identity'])
+notification = client.notify \
+                     .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .notifications \
+                     .create(identity=['identity'])
 
 print(notification.sid)

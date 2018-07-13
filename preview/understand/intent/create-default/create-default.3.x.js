@@ -4,8 +4,9 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.understand.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .intents
-                         .create({uniqueName: 'uniqueName'})
-                         .then(intent => console.log(intent.sid))
-                         .done();
+client.preview.understand
+              .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .intents
+              .create({uniqueName: 'uniqueName'})
+              .then(intent => console.log(intent.sid))
+              .done();

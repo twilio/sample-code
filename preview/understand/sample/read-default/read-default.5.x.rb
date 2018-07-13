@@ -7,11 +7,12 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-samples = @client.preview.understand
-                         .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .samples
-                         .list
+samples = @client.preview
+                 .understand
+                 .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                 .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                 .samples
+                 .list
 
 samples.each do |record|
   puts record.sid

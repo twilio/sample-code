@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-public_key = @client.accounts.credentials
-                             .public_key('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                             .fetch
+public_key = @client.accounts
+                    .credentials
+                    .public_key('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                    .fetch
 
 puts public_key.friendly_name

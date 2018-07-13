@@ -7,7 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-aws = client.accounts.credentials.aws('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                                 .fetch()
+aws = client.accounts.credentials \
+                     .aws('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .fetch()
 
 print(aws.friendly_name)

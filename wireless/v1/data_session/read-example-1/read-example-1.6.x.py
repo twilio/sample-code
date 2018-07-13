@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-data_sessions = client.wireless.sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA') \
-                               .data_sessions \
-                               .list()
+data_sessions = client.wireless \
+                      .sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA') \
+                      .data_sessions \
+                      .list()
 
 for record in data_sessions:
     print(record.sid)

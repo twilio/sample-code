@@ -7,8 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-activity = client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                            .activities('WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                            .update(friendly_name='another_name')
+activity = client.taskrouter \
+                 .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                 .activities('WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                 .update(friendly_name='another_name')
 
 print(activity.friendly_name)

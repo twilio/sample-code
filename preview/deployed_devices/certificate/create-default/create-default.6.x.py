@@ -7,9 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-certificate = client.preview.deployed_devices \
-                            .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                            .certificates \
-                            .create(certificate_data='certificate_data')
+certificate = client.preview \
+                    .deployed_devices \
+                    .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                    .certificates \
+                    .create(certificate_data='certificate_data')
 
 print(certificate.sid)

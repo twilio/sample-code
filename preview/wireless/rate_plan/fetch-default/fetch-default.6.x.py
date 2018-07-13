@@ -7,7 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-rate_plan = client.preview.rate_plans('WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                          .fetch()
+rate_plan = client.preview \
+                  .wireless \
+                  .rate_plans('WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                  .fetch()
 
 print(rate_plan.unique_name)

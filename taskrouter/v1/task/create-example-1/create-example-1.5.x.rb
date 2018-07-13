@@ -7,13 +7,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-task = @client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                         .tasks
-                         .create(
-                            attributes: {
-                              'type' => 'support'
-                          }.to_json,
-                            workflow_sid: 'WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                          )
+task = @client.taskrouter
+              .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .tasks
+              .create(attributes: {
+                   'type' => 'support'
+               }.to_json, workflow_sid: 'WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 
 puts task.sid
