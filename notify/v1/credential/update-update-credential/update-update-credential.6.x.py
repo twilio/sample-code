@@ -8,6 +8,6 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 credential = client.notify.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                          .update(friendly_name='MyCredential', sandbox=False)
+                          .update(friendly_name='MyCredential', sandbox=True)
 
 print(credential.friendly_name)

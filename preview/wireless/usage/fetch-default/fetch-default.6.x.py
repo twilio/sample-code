@@ -7,8 +7,8 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-usage = client.preview.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                      .usage() \
-                      .fetch()
+usage = client.preview.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                               .usage() \
+                               .fetch()
 
 print(usage.sim_unique_name)
