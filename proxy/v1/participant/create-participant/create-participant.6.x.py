@@ -15,4 +15,4 @@ participant = client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                                identifier='+15558675310'
                            )
 
-print(participant.sid)
+print(participant.proxy_identifier)

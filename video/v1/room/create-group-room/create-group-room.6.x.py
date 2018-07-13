@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 room = client.video.rooms.create(
-                              record_participants_on_connect=False,
+                              record_participants_on_connect=True,
                               status_callback='http://example.org',
                               type='group',
                               unique_name='DailyStandup'

@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-rate_plans = client.preview.wireless.rate_plans.list()
+recording_settings = client.video.recording_settings() \
+                                 .create(friendly_name='friendly_name')
 
-for record in rate_plans:
-    print(record.sid)
+print(recording_settings.friendly_name)
