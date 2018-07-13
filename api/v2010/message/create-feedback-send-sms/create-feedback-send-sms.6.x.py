@@ -11,7 +11,7 @@ message = client.messages \
     .create(
          body='Open to confirm: http://yourserver.com/confirm?id=1234567890',
          from_='+15017122661',
-         provide_feedback=False,
+         provide_feedback=True,
          to='+15558675310'
      )
 

@@ -7,7 +7,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-rate_plans = client.preview.wireless.rate_plans.list()
+executions = client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                          .executions \
+                          .list()
 
-for record in rate_plans:
+for record in executions:
     print(record.sid)
