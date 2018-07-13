@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Delete Room Recording",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Recordings/{sid}",
+    "method": "delete",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room_recording",
+    "action": "delete"
+  }
+}

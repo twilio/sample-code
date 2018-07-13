@@ -13,7 +13,9 @@ authorization_document = client.preview \
     .create(
          hosted_number_order_sids=['hosted_number_order_sids'],
          address_sid='ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         email='email'
+         email='email',
+         contact_title='contact_title',
+         contact_phone_number='contact_phone_number'
      )
 
 print(authorization_document.sid)

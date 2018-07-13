@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 message = client.messages.create(
                               from_='+15005550006',
-                              body='body',
+                              body='Do. Or do not. There is no try.',
                               to='+14108675310'
                           )
 

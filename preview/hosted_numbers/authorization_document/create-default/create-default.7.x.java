@@ -15,7 +15,9 @@ public class Example {
             AuthorizationDocument.creator(
                 Promoter.listOfOne("hostedNumberOrderSids"),
                 "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "email")
+                "email",
+                "contactTitle",
+                "contactPhoneNumber")
             .create();
 
         System.out.println(authorizationDocument.getSid());

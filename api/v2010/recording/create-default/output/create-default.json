@@ -1,0 +1,20 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "api_version": "2010-04-01",
+  "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "conference_sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "channels": 2,
+  "date_created": "Fri, 14 Oct 2016 21:56:34 +0000",
+  "date_updated": "Fri, 14 Oct 2016 21:56:34 +0000",
+  "start_time": "Fri, 14 Oct 2016 21:56:34 +0000",
+  "end_time": null,
+  "price": null,
+  "price_unit": null,
+  "duration": "-1",
+  "sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "source": "StartCallRecordingAPI",
+  "status": "in-progress",
+  "error_code": null,
+  "encryption_details": null,
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings/REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+}

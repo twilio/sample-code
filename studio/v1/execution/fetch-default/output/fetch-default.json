@@ -1,0 +1,16 @@
+{
+  "sid": "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "flow_sid": "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "contact_sid": "FCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "contact_channel_address": "+14155555555",
+  "status": "ended",
+  "context": {},
+  "date_created": "2017-11-06T12:00:00Z",
+  "date_updated": null,
+  "url": "https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Executions/FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "links": {
+    "steps": "https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Executions/FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Steps",
+    "execution_context": "https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Executions/FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Context"
+  }
+}

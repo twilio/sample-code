@@ -1,4 +1,5 @@
 # Download the helper library from https://www.twilio.com/docs/python/install
+from datetime import date
 from twilio.rest import Client
 
 
@@ -7,7 +8,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-notifications = client.notifications.list(log=1)
+notifications = client.notifications.list(
+                                         log=1,
+                                         message_date_after=date(2009, 7, 6)
+                                     )
 
 for record in notifications:
     print(record.sid)
