@@ -8,6 +8,6 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 service = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                     .update(reachability_enabled=False)
+                     .update(reachability_enabled=True)
 
 print(service.friendly_name)

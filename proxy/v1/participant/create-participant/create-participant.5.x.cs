@@ -22,6 +22,6 @@ class Program
             pathSessionSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(participant.Sid);
+        Console.WriteLine(participant.ProxyIdentifier);
     }
 }

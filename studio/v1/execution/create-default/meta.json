@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Execution",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Executions",
+    "method": "post",
+    "domain": "studio",
+    "version": "v1",
+    "resource": "execution",
+    "action": "create"
+  }
+}

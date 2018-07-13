@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Execution",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Executions/{sid}",
+    "method": "get",
+    "domain": "studio",
+    "version": "v1",
+    "resource": "execution",
+    "action": "fetch"
+  }
+}

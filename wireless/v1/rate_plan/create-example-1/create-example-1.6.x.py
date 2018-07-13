@@ -11,7 +11,7 @@ rate_plan = client.wireless \
                   .rate_plans \
                   .create(
                        friendly_name='California SmartMeter Plan',
-                       messaging_enabled=False,
+                       messaging_enabled=True,
                        unique_name='SmartMeterCA'
                    )
 

@@ -1,0 +1,9 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "context": {
+    "foo": "bar"
+  },
+  "flow_sid": "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "execution_sid": "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Executions/FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Context"
+}

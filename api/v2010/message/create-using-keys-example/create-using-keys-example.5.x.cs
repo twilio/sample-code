@@ -9,7 +9,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Find your Account Sid and Token at twilio.com/console
+        // Find your Account Sid at twilio.com/console
+        // Provision API Keys at twilio.com/console/runtime/api-keys
         const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string apiKey = "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string apiSecret = "your_api_secret";

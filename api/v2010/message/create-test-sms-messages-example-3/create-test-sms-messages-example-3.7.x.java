@@ -14,7 +14,7 @@ public class Example {
         Message message = Message.creator(
                 new com.twilio.type.PhoneNumber("+14108675310"),
                 new com.twilio.type.PhoneNumber("+15005550006"),
-                "body")
+                "Do. Or do not. There is no try.")
             .create();
 
         System.out.println(message.getSid());

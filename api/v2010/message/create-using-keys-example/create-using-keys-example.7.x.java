@@ -5,7 +5,8 @@ import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 
 public class Example {
-    // Find your Account Sid and Token at twilio.com/console
+    // Find your Account Sid at twilio.com/console
+    // Provision API Keys at twilio.com/console/runtime/api-keys
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String API_KEY = "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String API_SECRET = "your_api_secret";

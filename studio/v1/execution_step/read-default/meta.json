@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Read Execution Step",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Executions/{execution_sid}/Steps",
+    "method": "get",
+    "domain": "studio",
+    "version": "v1",
+    "resource": "execution_step",
+    "action": "read"
+  }
+}

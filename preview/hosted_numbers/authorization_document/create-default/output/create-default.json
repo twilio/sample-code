@@ -13,5 +13,7 @@
   "sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "signing",
   "url": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "contact_phone_number": null,
+  "contact_title": null,
   "hosted_number_order_sids": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }
