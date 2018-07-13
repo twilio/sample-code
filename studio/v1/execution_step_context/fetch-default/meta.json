@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Execution Step Context",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Executions/{execution_sid}/Steps/{step_sid}/Context",
+    "method": "get",
+    "domain": "studio",
+    "version": "v1",
+    "resource": "execution_step_context",
+    "action": "fetch"
+  }
+}
