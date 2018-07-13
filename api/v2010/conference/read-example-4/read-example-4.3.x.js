@@ -1,11 +1,9 @@
-// Download the helper library from https://www.twilio.com/docs/node/install
-// Your Account Sid and Auth Token from twilio.com/console
+// Download the Node helper library from twilio.com/docs/node/install
+// Find your Account Sid and Auth Token at twilio.com/console
 const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.conferences.each({
-                     status: 'in-progress'
-                   },
-                       conferences => console.log(conferences.sid)
-                   );
+const opts = { status: 'in-progress', dateCreatedAfter: '2016-07-06' };
+
+client.conferences.each(opts, conference => console.log(conference.sid));
