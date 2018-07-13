@@ -7,7 +7,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-conferences = @client.conferences.list(status: 'in-progress')
+conferences = @client.conferences.list(
+                                    date_created_after: Date.new(2009, 7, 6),
+                                    status: 'in-progress'
+                                  )
 
 conferences.each do |record|
   puts record.sid

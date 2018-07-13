@@ -17,7 +17,6 @@ class Program
 
         var conference = ConferenceResource.Update(
             announceUrl: new Uri("http://www.myapp.com/announce"),
-            pathAccountSid: "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CFbbe46ff1274e283f7e3ac1df0072ab39"
         );
 

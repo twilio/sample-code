@@ -6,7 +6,7 @@ require_once '/path/to/vendor/autoload.php';
 
 use Twilio\Rest\Client;
 
-// Your Account Sid and Auth Token from twilio.com/console
+// Find your Account Sid and Auth Token at twilio.com/console
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
@@ -14,8 +14,8 @@ $twilio = new Client($sid, $token);
 $session = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->update(array(
-                                          'dateExpiry' => new \DateTime('2018-7-31'),
-                                          'status' => "in-progress"
+                                          "dateExpiry" => new \DateTime('2018-7-31'),
+                                          "status" => "in-progress"
                                       )
                              );
 
