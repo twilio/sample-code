@@ -8,7 +8,9 @@ client.preview.hosted_numbers.authorizationDocuments
       .create({
          hostedNumberOrderSids: ['hostedNumberOrderSids'],
          addressSid: 'ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         email: 'email'
+         email: 'email',
+         contactTitle: 'contactTitle',
+         contactPhoneNumber: 'contactPhoneNumber'
        })
       .then(authorization_document => console.log(authorization_document.sid))
       .done();

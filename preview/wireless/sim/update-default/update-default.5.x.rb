@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-sim = @client.preview.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                     .update(unique_name: 'unique_name')
+sim = @client.preview.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                              .update(unique_name: 'unique_name')
 
 puts sim.unique_name

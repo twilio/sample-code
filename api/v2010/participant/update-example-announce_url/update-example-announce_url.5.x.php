@@ -6,7 +6,7 @@ require_once '/path/to/vendor/autoload.php';
 
 use Twilio\Rest\Client;
 
-// Your Account Sid and Auth Token from twilio.com/console
+// Find your Account Sid and Auth Token at twilio.com/console
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $participant = $twilio->conferences("CFbbe4632a3c49700934481addd5ce1659")
                       ->participants("CA386025c9bf5d6052a1d1ea42b4d16662")
                       ->update(array(
-                                   'announceUrl' => "http://www.myapp.com/announce"
+                                   "announceUrl" => "http://www.myapp.com/announce"
                                )
                       );
 

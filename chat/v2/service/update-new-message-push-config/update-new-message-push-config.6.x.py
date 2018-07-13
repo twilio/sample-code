@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 service = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .update(
-         notifications_added_to_channel_enabled=False,
+         notifications_added_to_channel_enabled=True,
          notifications_added_to_channel_sound='default',
          notifications_added_to_channel_template='A New message in ${CHANNEL} from ${USER}: ${MESSAGE}'
      )

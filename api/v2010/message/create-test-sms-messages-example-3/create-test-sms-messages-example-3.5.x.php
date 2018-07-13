@@ -6,14 +6,17 @@ require_once '/path/to/vendor/autoload.php';
 
 use Twilio\Rest\Client;
 
-// Your Account Sid and Auth Token from twilio.com/console
+// Find your Account Sid and Auth Token at twilio.com/console
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $message = $twilio->messages
                   ->create("+14108675310", // to
-                           array("from" => "+15005550006", "body" => "body")
+                           array(
+                               "from" => "+15005550006",
+                               "body" => "Do. Or do not. There is no try."
+                           )
                   );
 
 print($message->sid);

@@ -1,0 +1,3 @@
+curl -X POST https://video.twilio.com/v1/CompositionSettings/Default \
+--data-urlencode "FriendlyName=FriendlyName" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

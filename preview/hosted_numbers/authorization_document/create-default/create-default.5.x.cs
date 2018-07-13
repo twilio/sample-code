@@ -19,7 +19,9 @@ class Program
         var authorizationDocument = AuthorizationDocumentResource.Create(
             hostedNumberOrderSids: Promoter.ListOfOne("HostedNumberOrderSids"),
             addressSid: "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            email: "Email"
+            email: "Email",
+            contactTitle: "ContactTitle",
+            contactPhoneNumber: "ContactPhoneNumber"
         );
 
         Console.WriteLine(authorizationDocument.Sid);

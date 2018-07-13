@@ -6,7 +6,8 @@ require_once '/path/to/vendor/autoload.php';
 
 use Twilio\Rest\Client;
 
-// Your Account Sid and Auth Token from twilio.com/console
+// Find your Account Sid at twilio.com/console
+// Provision API Keys at twilio.com/console/runtime/api-keys
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $apiKey  = "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $apiSecret  = "your_api_secret";

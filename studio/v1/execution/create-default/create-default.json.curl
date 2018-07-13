@@ -1,0 +1,4 @@
+curl -X POST https://studio.twilio.com/v1/Flows/FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Executions \
+--data-urlencode "To=+15017122661" \
+--data-urlencode "From=+15017122661" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
