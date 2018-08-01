@@ -1,0 +1,22 @@
+{
+  "original_snippet_path": "video/rest/rooms/create-group-small-room/create-group-small-room.6.x.py",
+  "title": "Create a Small Group Room, enable Recording, and set a Status Callback URL",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "record_participants_on_connect": true,
+        "status_callback": "http://example.org",
+        "type": "group-small",
+        "unique_name": "SmallDailyStandup"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/Rooms",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "room",
+    "action": "create"
+  }
+}
