@@ -1,0 +1,6 @@
+curl -X POST https://video.twilio.com/v1/Rooms \
+--data-urlencode "RecordParticipantsOnConnect=True" \
+--data-urlencode "StatusCallback=http://example.org" \
+--data-urlencode "Type=group-small" \
+--data-urlencode "UniqueName=SmallDailyStandup" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
