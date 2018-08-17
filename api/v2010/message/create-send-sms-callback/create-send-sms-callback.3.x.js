@@ -8,7 +8,7 @@ client.messages
       .create({
          body: 'McAvoy or Stewart? These timelines can get so confusing.',
          from: '+15017122661',
-         statusCallback: 'http://requestb.in/1234abcd',
+         statusCallback: 'http://postb.in/b/1234abcd',
          to: '+15558675310'
        })
       .then(message => console.log(message.sid))
