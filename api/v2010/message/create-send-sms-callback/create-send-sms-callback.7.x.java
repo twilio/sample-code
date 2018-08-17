@@ -17,7 +17,7 @@ public class Example {
                 new com.twilio.type.PhoneNumber("+15558675310"),
                 new com.twilio.type.PhoneNumber("+15017122661"),
                 "McAvoy or Stewart? These timelines can get so confusing.")
-            .setStatusCallback(URI.create("http://requestb.in/1234abcd"))
+            .setStatusCallback(URI.create("http://postb.in/b/1234abcd"))
             .create();
 
         System.out.println(message.getSid());
