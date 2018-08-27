@@ -1,0 +1,22 @@
+{
+  "type": "server",
+  "title": "Create Message",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Join Earth's mightest heroes. Like Kevin Bacon.",
+        "from": "+15017122661",
+        "to": "+15558675310"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "message",
+    "action": "create"
+  }
+}

@@ -1,0 +1,5 @@
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages.json \
+--data-urlencode "Body=Join Earth's mightest heroes. Like Kevin Bacon." \
+--data-urlencode "From=+15017122661" \
+--data-urlencode "To=+15558675310" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
