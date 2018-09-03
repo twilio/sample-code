@@ -8,7 +8,7 @@ client.calls
       .create({
          method: 'GET',
          statusCallback: 'https://www.myapp.com/events',
-         statusCallbackEvent: 'initiated',
+         statusCallbackEvent: ['initiated', 'answered'],
          statusCallbackMethod: 'POST',
          url: 'http://demo.twilio.com/docs/voice.xml',
          to: '+14155551212',
