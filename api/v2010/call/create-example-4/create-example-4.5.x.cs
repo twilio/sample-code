@@ -17,7 +17,10 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var statusCallbackEvent = new List<string> {
-            "initiated"
+            new object [] {
+                "initiated",
+                "answered"
+            }
         };
 
         var call = CallResource.Create(

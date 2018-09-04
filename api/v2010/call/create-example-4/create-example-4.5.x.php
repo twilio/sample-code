@@ -17,7 +17,7 @@ $call = $twilio->calls
                         array(
                             "method" => "GET",
                             "statusCallback" => "https://www.myapp.com/events",
-                            "statusCallbackEvent" => "initiated",
+                            "statusCallbackEvent" => array("initiated","answered"),
                             "statusCallbackMethod" => "POST",
                             "url" => "http://demo.twilio.com/docs/voice.xml"
                         )

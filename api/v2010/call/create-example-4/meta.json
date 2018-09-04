@@ -8,7 +8,10 @@
         "from": "+18668675310",
         "method": "GET",
         "status_callback": "https://www.myapp.com/events",
-        "status_callback_event": "initiated",
+        "status_callback_event": [
+          "initiated",
+          "answered"
+        ],
         "status_callback_method": "POST",
         "to": "+14155551212",
         "url": "http://demo.twilio.com/docs/voice.xml"
