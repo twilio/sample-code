@@ -10,7 +10,7 @@ client.messages.create(
     to: '+15558675310',
     from: '+15017122661',
     body: 'McAvoy or Stewart? These timelines can get so confusing.',
-    statusCallback: 'http://requestb.in/1234abcd',
+    statusCallback: 'http://postb.in/1234abcd',
   },
   (err, message) => {
     console.log(message.sid);

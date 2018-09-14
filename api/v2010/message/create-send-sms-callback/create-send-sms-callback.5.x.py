@@ -10,5 +10,5 @@ client.messages.create(
     to="+15558675310",
     from_="+15017122661",
     body="McAvoy or Stewart? These timelines can get so confusing.",
-    status_callback="http://requestb.in/1234abcd"
+    status_callback="http://postb.in/1234abcd"
 )

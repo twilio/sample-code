@@ -22,7 +22,7 @@ public class TwilioTest {
    params.add(new BasicNameValuePair("To", "+15558675310"));
    params.add(new BasicNameValuePair("From", "+15017122661"));
    params.add(new BasicNameValuePair("Body", "McAvoy or Stewart? These timelines can get so confusing."));
-   params.add(new BasicNameValuePair("StatusCallback", "http://requestb.in/1234abcd"));
+   params.add(new BasicNameValuePair("StatusCallback", "http://postb.in/1234abcd"));
 
    MessageFactory messageFactory = client.getAccount().getMessageFactory();
    Message message = messageFactory.create(params);

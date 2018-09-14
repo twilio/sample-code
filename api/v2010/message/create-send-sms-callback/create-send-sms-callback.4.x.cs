@@ -13,7 +13,7 @@ class Example
     var message = twilio.SendMessage(
         "+15017122661", "+15558675310",
         "McAvoy or Stewart? These timelines can get so confusing.",
-        "http://requestb.in/1234abcd"
+        "http://postb.in/1234abcd"
     );
     Console.WriteLine(message.Sid);
  }

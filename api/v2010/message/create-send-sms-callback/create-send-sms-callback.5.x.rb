@@ -11,7 +11,7 @@ message = @client.messages
   .create(
      body: 'McAvoy or Stewart? These timelines can get so confusing.',
      from: '+15017122661',
-     status_callback: 'http://postb.in/b/1234abcd',
+     status_callback: 'http://postb.in/1234abcd',
      to: '+15558675310'
    )
 

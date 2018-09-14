@@ -18,7 +18,7 @@ class Program
         var message = MessageResource.Create(
             body: "McAvoy or Stewart? These timelines can get so confusing.",
             from: new Twilio.Types.PhoneNumber("+15017122661"),
-            statusCallback: new Uri("http://postb.in/b/1234abcd"),
+            statusCallback: new Uri("http://postb.in/1234abcd"),
             to: new Twilio.Types.PhoneNumber("+15558675310")
         );
 

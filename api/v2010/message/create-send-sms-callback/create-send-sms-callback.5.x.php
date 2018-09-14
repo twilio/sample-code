@@ -16,7 +16,7 @@ $message = $twilio->messages
                            array(
                                "body" => "McAvoy or Stewart? These timelines can get so confusing.",
                                "from" => "+15017122661",
-                               "statusCallback" => "http://postb.in/b/1234abcd"
+                               "statusCallback" => "http://postb.in/1234abcd"
                            )
                   );
 
