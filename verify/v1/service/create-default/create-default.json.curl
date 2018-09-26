@@ -1,0 +1,3 @@
+curl -X POST https://verify.twilio.com/v1/Services \
+--data-urlencode "FriendlyName=FriendlyName" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

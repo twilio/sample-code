@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Verification Check",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://verify.twilio.com/v1/Services/{service_sid}/VerificationCheck",
+    "method": "post",
+    "domain": "verify",
+    "version": "v1",
+    "resource": "verification_check",
+    "action": "create"
+  }
+}

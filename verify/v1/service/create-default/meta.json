@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://verify.twilio.com/v1/Services",
+    "method": "post",
+    "domain": "verify",
+    "version": "v1",
+    "resource": "service",
+    "action": "create"
+  }
+}
