@@ -1,0 +1,20 @@
+{
+  "title": "Build a new machine learning model for your assistant",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "v0.1"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/ModelBuilds",
+    "method": "post",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "model_build",
+    "action": "create"
+  }
+}
