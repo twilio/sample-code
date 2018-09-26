@@ -1,2 +1,0 @@
-curl -X GET 'https://voice.twilio.com/v1/DialingPermissions/Countries/US' \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
