@@ -1,0 +1,20 @@
+{
+  "title": "Stop a call recording",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "status": "stopped"
+      },
+      "path": {
+        "sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/{call_sid}/Recordings/{sid}.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "call_recording",
+    "action": "update"
+  }
+}

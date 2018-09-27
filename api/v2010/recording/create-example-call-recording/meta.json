@@ -1,0 +1,20 @@
+{
+  "title": "Create a dual channel call recording with RecordingStatusCallback",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "recording_status_callback": "https://myapp.com/recording-events",
+        "recording_status_callback_event": "in-progress completed",
+        "recording_channels": "dual"
+      },
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/{call_sid}/Recordings.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "call_recording",
+    "action": "create"
+  }
+}
