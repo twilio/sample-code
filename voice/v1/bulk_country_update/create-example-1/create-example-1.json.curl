@@ -1,0 +1,3 @@
+curl -X POST https://voice.twilio.com/v1/DialingPermissions/BulkCountryUpdates \
+--data-urlencode "UpdateRequest={[{ "iso_code": "GB", "low_risk_numbers": "Enabled", "high_risk_special_numbers":"Enabled", "high_risk_irsf_numbers": "Enabled" }]}" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

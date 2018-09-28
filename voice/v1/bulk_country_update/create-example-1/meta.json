@@ -1,0 +1,18 @@
+{
+  "title": "Update country permissions in bulk",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "update_request": "{[{ \"iso_code\": \"GB\", \"low_risk_numbers\": \"Enabled\", \"high_risk_special_numbers\":\"Enabled\", \"high_risk_irsf_numbers\": \"Enabled\" }]}"
+      },
+      "path": {}
+    },
+    "location": "https://voice.twilio.com/v1/DialingPermissions/BulkCountryUpdates",
+    "method": "post",
+    "domain": "voice",
+    "version": "v1",
+    "resource": "voice_permission_country_bulk_update",
+    "action": "create"
+  }
+}

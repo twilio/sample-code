@@ -1,0 +1,4 @@
+{
+  "update_count": 1,
+  "update_request": "{[{ \"iso_code\": \"GB\", \"low_risk_numbers\": \"Enabled\", \"high_risk_special_numbers\":\"Enabled\", \"high_risk_irsf_numbers\": \"Enabled\" }]}"
+}
