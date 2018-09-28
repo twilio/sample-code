@@ -1,0 +1,15 @@
+{
+  "iso_code": "US",
+  "name": "United States/Canada",
+  "country_codes": [
+    "+1"
+  ],
+  "continent": "NORTH_AMERICA",
+  "low_risk_numbers_enabled": false,
+  "high_risk_special_numbers_enabled": false,
+  "high_risk_tollfraud_numbers_enabled": false,
+  "url": "https://voice.twilio.com/v1/DialingPermissions/Countries/US",
+  "links": {
+    "highrisk_special_prefixes": "https://voice.twilio.com/v1/DialingPermissions/Countries/US/HighRiskSpecialPrefixes"
+  }
+}
