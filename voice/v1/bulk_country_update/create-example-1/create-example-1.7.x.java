@@ -11,7 +11,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         BulkCountryUpdate bulkCountryUpdate = BulkCountryUpdate.creator(
-                "{[{ \"iso_code\": \"GB\", \"low_risk_numbers\": \"Enabled\", \"high_risk_special_numbers\":\"Enabled\", \"high_risk_irsf_numbers\": \"Enabled\" }]}")
+                "[ { \"iso_code\": \"US\", \"low_risk_numbers_enabled\": \"true\", \"high_risk_special_numbers_enabled\":\"true\", \"high_risk_tollfraud_numbers_enabled\": \"true\" } ]")
             .create();
 
         System.out.println(bulkCountryUpdate.getUpdateCount());

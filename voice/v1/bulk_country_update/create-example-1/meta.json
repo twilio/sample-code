@@ -1,10 +1,10 @@
 {
-  "title": "Update country permissions in bulk",
+  "title": "Update voice dialing country permissions",
   "type": "server",
   "_definition": {
     "params": {
       "required": {
-        "update_request": "{[{ \"iso_code\": \"GB\", \"low_risk_numbers\": \"Enabled\", \"high_risk_special_numbers\":\"Enabled\", \"high_risk_irsf_numbers\": \"Enabled\" }]}"
+        "update_request": "[ { \"iso_code\": \"US\", \"low_risk_numbers_enabled\": \"true\", \"high_risk_special_numbers_enabled\":\"true\", \"high_risk_tollfraud_numbers_enabled\": \"true\" } ]"
       },
       "path": {}
     },

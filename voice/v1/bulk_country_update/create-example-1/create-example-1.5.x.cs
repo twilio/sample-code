@@ -16,7 +16,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var bulkCountryUpdate = BulkCountryUpdateResource.Create(
-            updateRequest: "{[{ \"iso_code\": \"GB\", \"low_risk_numbers\": \"Enabled\", \"high_risk_special_numbers\":\"Enabled\", \"high_risk_irsf_numbers\": \"Enabled\" }]}"
+            updateRequest: "[{'iso_code': 'US', 'low_risk_numbers_enabled': 'true', 'high_risk_special_numbers_enabled': 'true', 'high_risk_tollfraud_numbers_enabled': 'true'}]"
         );
 
         Console.WriteLine(bulkCountryUpdate.UpdateCount);
