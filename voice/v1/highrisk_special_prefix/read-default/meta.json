@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Read Highrisk Special Prefix",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://voice.twilio.com/v1/DialingPermissions/Countries/{parent_iso_code}/HighRiskSpecialPrefixes",
+    "method": "get",
+    "domain": "voice",
+    "version": "v1",
+    "resource": "voice_permissions_hrs_prefixes",
+    "action": "read"
+  }
+}
