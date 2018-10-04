@@ -14,7 +14,7 @@ public class Example {
                 "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 Recording.Status.IN_PROGRESS)
-            .setPauseBehavior("pauseBehavior").update();
+            .update();
 
         System.out.println(recording.getCallSid());
     }

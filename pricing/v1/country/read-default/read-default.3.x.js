@@ -4,5 +4,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.pricing.voice.countries
-                    .each(countries => console.log(countries.country));
+client.pricing.v1.voice.countries
+                       .each(countries => console.log(countries.country));

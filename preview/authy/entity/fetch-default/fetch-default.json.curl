@@ -1,0 +1,2 @@
+curl -X GET 'https://preview.twilio.com/Authy/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities/Identity' \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

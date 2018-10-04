@@ -2,7 +2,6 @@
 
 using System;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Api.V2010.Account.Call;
 
 
@@ -17,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var feedback = FeedbackResource.Update(
-            issue: Promoter.ListOfOne(FeedbackResource.IssuesEnum.AudioLatency),
             qualityScore: 1,
             pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

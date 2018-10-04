@@ -9,6 +9,6 @@ auth_token = 'your_auth_token'
 
 feedback = @client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                   .feedback
-                  .update(issue: ['audio-latency'], quality_score: 1)
+                  .update(quality_score: 1)
 
 puts feedback.date_created

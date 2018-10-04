@@ -9,9 +9,6 @@ client = Client(account_sid, auth_token)
 
 recording = client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                   .recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                  .update(
-                       pause_behavior='pause_behavior',
-                       status='in-progress'
-                   )
+                  .update(status='in-progress')
 
 print(recording.call_sid)

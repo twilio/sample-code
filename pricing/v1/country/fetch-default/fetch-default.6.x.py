@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-country = client.pricing.voice.countries('US').fetch()
+country = client.pricing.v1.voice.countries('US').fetch()
 
 print(country.country)

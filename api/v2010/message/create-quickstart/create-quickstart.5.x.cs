@@ -3,7 +3,6 @@
 using System;
 using Twilio;
 using Twilio.Rest.Api.V2010.Account;
-using Twilio.Types;
 
 
 class Program 
@@ -18,8 +17,8 @@ class Program
 
         var message = MessageResource.Create(
             body: "Join Earth's mightiest heroes. Like Kevin Bacon.",
-            from: new PhoneNumber("+15017122661"),
-            to: new PhoneNumber("+15558675310")
+            from: new Twilio.Types.PhoneNumber("+15017122661"),
+            to: new Twilio.Types.PhoneNumber("+15558675310")
         );
 
         Console.WriteLine(message.Sid);
