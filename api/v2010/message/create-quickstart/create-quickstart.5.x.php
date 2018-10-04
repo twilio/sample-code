@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 $message = $twilio->messages
                   ->create("+15558675310", // to
                            array(
-                               "body" => "Join Earth's mightest heroes. Like Kevin Bacon.",
+                               "body" => "Join Earth's mightiest heroes. Like Kevin Bacon.",
                                "from" => "+15017122661"
                            )
                   );

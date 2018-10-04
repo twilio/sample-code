@@ -14,7 +14,7 @@ public class Example {
         Message message = Message.creator(
                 new com.twilio.type.PhoneNumber("+15558675310"),
                 new com.twilio.type.PhoneNumber("+15017122661"),
-                "Join Earth's mightest heroes. Like Kevin Bacon.")
+                "Join Earth's mightiest heroes. Like Kevin Bacon.")
             .create();
 
         System.out.println(message.getSid());
