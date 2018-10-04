@@ -6,6 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({pauseBehavior: 'pauseBehavior', status: 'in-progress'})
+      .update({status: 'in-progress'})
       .then(recording => console.log(recording.callSid))
       .done();

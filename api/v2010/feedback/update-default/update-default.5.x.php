@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $feedback = $twilio->calls("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                    ->feedback()
-                   ->update(1, array("issue" => array("audio-latency")));
+                   ->update(1);
 
 print($feedback->dateCreated->format());

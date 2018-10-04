@@ -7,6 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-number = @client.pricing.voice.numbers('+15017122661').fetch
+number = @client.pricing.v1.voice.numbers('+15017122661').fetch
 
 puts number.number

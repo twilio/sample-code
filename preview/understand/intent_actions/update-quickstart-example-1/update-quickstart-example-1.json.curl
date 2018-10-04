@@ -1,0 +1,3 @@
+curl -X POST https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/tell-a-joke/Actions \
+--data-urlencode "Actions={[{"say": "I was going to look for my missing watch, but I could never find the time."}]}" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

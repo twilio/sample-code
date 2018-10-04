@@ -16,7 +16,6 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var recording = RecordingResource.Update(
-            pauseBehavior: "PauseBehavior",
             status: RecordingResource.StatusEnum.InProgress,
             pathConferenceSid: "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

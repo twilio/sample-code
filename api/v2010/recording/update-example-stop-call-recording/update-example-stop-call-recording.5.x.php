@@ -13,8 +13,6 @@ $twilio = new Client($sid, $token);
 
 $recording = $twilio->calls("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                     ->recordings("REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                    ->update("stopped", // status
-                             array("pauseBehavior" => "pauseBehavior")
-                    );
+                    ->update("stopped");
 
 print($recording->callSid);

@@ -9,9 +9,6 @@ auth_token = 'your_auth_token'
 
 recording = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                   .update(
-                      pause_behavior: 'pause_behavior',
-                      status: 'in-progress'
-                    )
+                   .update(status: 'in-progress')
 
 puts recording.call_sid
