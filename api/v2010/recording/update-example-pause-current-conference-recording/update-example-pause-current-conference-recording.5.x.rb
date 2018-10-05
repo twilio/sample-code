@@ -9,6 +9,6 @@ auth_token = 'your_auth_token'
 
 recording = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .recordings('Twilio.CURRENT')
-                   .update(pause_behavior: 'pause_behavior', status: 'paused')
+                   .update(status: 'paused')
 
 puts recording.call_sid

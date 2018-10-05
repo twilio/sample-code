@@ -14,7 +14,7 @@ public class Example {
                 "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "Twilio.CURRENT",
                 Recording.Status.PAUSED)
-            .setPauseBehavior("pauseBehavior").update();
+            .update();
 
         System.out.println(recording.getCallSid());
     }

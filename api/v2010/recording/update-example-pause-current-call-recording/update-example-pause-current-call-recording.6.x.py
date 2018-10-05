@@ -9,6 +9,6 @@ client = Client(account_sid, auth_token)
 
 recording = client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                   .recordings('Twilio.CURRENT') \
-                  .update(pause_behavior='pause_behavior', status='paused')
+                  .update(status='paused')
 
 print(recording.call_sid)

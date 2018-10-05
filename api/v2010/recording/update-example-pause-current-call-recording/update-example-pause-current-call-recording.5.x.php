@@ -13,8 +13,6 @@ $twilio = new Client($sid, $token);
 
 $recording = $twilio->calls("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                     ->recordings("Twilio.CURRENT")
-                    ->update("paused", // status
-                             array("pauseBehavior" => "pauseBehavior")
-                    );
+                    ->update("paused");
 
 print($recording->callSid);
