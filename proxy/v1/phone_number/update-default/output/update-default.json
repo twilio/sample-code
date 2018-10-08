@@ -1,0 +1,16 @@
+{
+  "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created": "2015-07-30T20:00:00Z",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "phone_number": "12345",
+  "friendly_name": "Friendly Name",
+  "iso_country": "US",
+  "capabilities": {
+    "sms_outbound": true,
+    "voice_inbound": false
+  },
+  "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "is_reserved": true
+}

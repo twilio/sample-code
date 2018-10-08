@@ -4,8 +4,7 @@
   "_definition": {
     "params": {
       "required": {
-        "status": "paused",
-        "pause_behavior": "skip"
+        "status": "paused"
       },
       "path": {
         "sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

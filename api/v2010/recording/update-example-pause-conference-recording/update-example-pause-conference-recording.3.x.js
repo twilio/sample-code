@@ -6,6 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({pauseBehavior: 'skip', status: 'paused'})
+      .update({status: 'paused'})
       .then(recording => console.log(recording.callSid))
       .done();

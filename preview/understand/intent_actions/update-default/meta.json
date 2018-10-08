@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Update Intent Actions",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Intents/{intent_sid}/Actions",
+    "method": "post",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "intent_actions",
+    "action": "update"
+  }
+}

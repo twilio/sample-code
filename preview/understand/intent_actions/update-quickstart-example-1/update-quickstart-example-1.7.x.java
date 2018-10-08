@@ -16,7 +16,10 @@ public class Example {
                 "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "tell-a-joke")
             .setActions(
-                "{[{\"say\": \"I was going to look for my missing watch, but I could never find the time.\"}]}")
+                new HashMap<String, Object>()
+                {{
+                    put("say", "I was going to look for my missing watch, but I could never find the time.");
+                }})
             .update();
 
         System.out.println(intentActions.getAssistantSid());

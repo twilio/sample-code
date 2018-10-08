@@ -12,8 +12,8 @@ intent_actions = client.preview \
     .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .intents('tell-a-joke') \
     .intent_actions() \
-    .update(
-         actions='{[{"say": "I was going to look for my missing watch, but I could never find the time."}]}'
-     )
+    .update(actions={
+         'say': 'I was going to look for my missing watch, but I could never find the time.'
+     })
 
 print(intent_actions.assistant_sid)

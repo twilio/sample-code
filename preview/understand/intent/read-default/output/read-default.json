@@ -13,7 +13,9 @@
       "unique_name": "unique_name",
       "links": {
         "fields": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Fields",
-        "samples": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples"
+        "samples": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples",
+        "intent_actions": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Actions",
+        "statistics": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Statistics"
       },
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "friendly_name": "friendly_name",

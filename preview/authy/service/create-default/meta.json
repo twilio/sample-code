@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Authy/Services",
+    "method": "post",
+    "domain": "preview",
+    "version": "authy",
+    "resource": "service",
+    "action": "create"
+  }
+}

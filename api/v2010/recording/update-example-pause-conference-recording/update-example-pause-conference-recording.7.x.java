@@ -14,7 +14,7 @@ public class Example {
                 "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 Recording.Status.PAUSED)
-            .setPauseBehavior("skip").update();
+            .update();
 
         System.out.println(recording.getCallSid());
     }
