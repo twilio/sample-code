@@ -1,0 +1,10 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "intent_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "data": {},
+  "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Actions",
+  "actions": {
+    "say": "I was going to look for my missing watch, but I could never find the time."
+  }
+}

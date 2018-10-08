@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "friendly_name": "friendly_name",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "date_created": "2015-07-30T20:00:00Z",
+      "date_updated": "2015-07-30T20:00:00Z",
+      "url": "https://preview.twilio.com/Authy/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "links": {
+        "entities": "https://preview.twilio.com/Authy/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities"
+      }
+    }
+  ],
+  "meta": {
+    "page": 0,
+    "page_size": 50,
+    "first_page_url": "https://preview.twilio.com/Authy/Services?PageSize=50&Page=0",
+    "previous_page_url": "https://preview.twilio.com/Authy/Services?PageSize=50&Page=0",
+    "url": "https://preview.twilio.com/Authy/Services?PageSize=50&Page=0",
+    "next_page_url": "https://preview.twilio.com/Authy/Services?PageSize=50&Page=1",
+    "key": "services"
+  }
+}

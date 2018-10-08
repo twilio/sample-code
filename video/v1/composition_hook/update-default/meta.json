@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Update Composition Hook",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/CompositionHooks/{sid}",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "composition_hook",
+    "action": "update"
+  }
+}

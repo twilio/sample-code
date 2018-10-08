@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Auth Calls Ip Access Control List Mapping",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SIP/Domains/{domain_sid}/Auth/Calls/IpAccessControlListMappings.json",
+    "method": "post",
+    "domain": "api",
+    "version": "v2010",
+    "resource": "sip_auth_calls_ip_access_control_list_mapping",
+    "action": "create"
+  }
+}

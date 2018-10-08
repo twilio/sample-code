@@ -16,8 +16,13 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
+        var actions = new Dictionary<string, Object>()
+        {
+            {"say", "I was going to look for my missing watch, but I could never find the time."}
+        };
+
         var intentActions = IntentActionsResource.Update(
-            actions: "{[{\"say\": \"I was going to look for my missing watch, but I could never find the time.\"}]}",
+            actions: actions,
             pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathIntentSid: "tell-a-joke"
         );

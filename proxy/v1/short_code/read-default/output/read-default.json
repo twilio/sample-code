@@ -21,7 +21,8 @@
         "sms_outbound": true,
         "voice_inbound": false
       },
-      "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "is_reserved": false
     }
   ],
   "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

@@ -6,16 +6,17 @@
   "latest_model_build_sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "log_queries": true,
   "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "ttl": 3600,
   "unique_name": "so-so-unique",
   "links": {
     "field_types": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes",
     "intents": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents",
     "model_builds": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ModelBuilds",
-    "queries": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries"
+    "queries": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries",
+    "assistant_fallback_actions": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FallbackActions",
+    "assistant_initiation_actions": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/InitiationActions",
+    "dialogues": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Dialogues"
   },
   "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "response_url": "https://example.com/response_url",
   "callback_url": "https://example.com/callback_url",
   "callback_events": "model_build_completed model_build_failed"
 }

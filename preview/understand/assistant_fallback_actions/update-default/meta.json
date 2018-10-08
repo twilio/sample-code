@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Update Assistant Fallback Actions",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/FallbackActions",
+    "method": "post",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "assistant_fallback_actions",
+    "action": "update"
+  }
+}

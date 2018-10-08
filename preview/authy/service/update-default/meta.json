@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Update Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Authy/Services/{sid}",
+    "method": "post",
+    "domain": "preview",
+    "version": "authy",
+    "resource": "service",
+    "action": "update"
+  }
+}

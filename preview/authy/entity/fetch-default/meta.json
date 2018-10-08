@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Entity",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Authy/Services/{service_sid}/Entities/{identity}",
+    "method": "get",
+    "domain": "preview",
+    "version": "authy",
+    "resource": "entity",
+    "action": "fetch"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "sid": "YEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "identity": "ff483d1ff591898a9942916050d2ca3f",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created": "2015-07-30T20:00:00Z",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "url": "https://preview.twilio.com/Authy/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities/ff483d1ff591898a9942916050d2ca3f",
+  "links": {
+    "factors": "https://preview.twilio.com/Authy/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities/ff483d1ff591898a9942916050d2ca3f/Factors"
+  }
+}

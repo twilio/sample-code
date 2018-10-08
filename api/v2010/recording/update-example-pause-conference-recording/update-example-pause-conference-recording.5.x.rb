@@ -9,6 +9,6 @@ auth_token = 'your_auth_token'
 
 recording = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                   .update(pause_behavior: 'skip', status: 'paused')
+                   .update(status: 'paused')
 
 puts recording.call_sid

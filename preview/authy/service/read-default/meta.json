@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Read Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Authy/Services",
+    "method": "get",
+    "domain": "preview",
+    "version": "authy",
+    "resource": "service",
+    "action": "read"
+  }
+}

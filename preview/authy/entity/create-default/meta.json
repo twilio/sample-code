@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Entity",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/Authy/Services/{service_sid}/Entities",
+    "method": "post",
+    "domain": "preview",
+    "version": "authy",
+    "resource": "entity",
+    "action": "create"
+  }
+}

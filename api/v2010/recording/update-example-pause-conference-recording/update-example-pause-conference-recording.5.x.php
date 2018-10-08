@@ -13,6 +13,6 @@ $twilio = new Client($sid, $token);
 
 $recording = $twilio->conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                     ->recordings("REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                    ->update("paused", array("pauseBehavior" => "skip"));
+                    ->update("paused");
 
 print($recording->callSid);

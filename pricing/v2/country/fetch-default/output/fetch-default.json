@@ -1,0 +1,69 @@
+{
+  "country": "United States",
+  "inbound_call_prices": [
+    {
+      "base_price": "0.0085",
+      "current_price": "0.0085",
+      "number_type": "local"
+    },
+    {
+      "base_price": "0.022",
+      "current_price": "0.022",
+      "number_type": "toll free"
+    }
+  ],
+  "iso_country": "US",
+  "outbound_prefix_prices": [
+    {
+      "base_price": "0.09",
+      "current_price": "0.09",
+      "destination_prefixes": [
+        "1907"
+      ],
+      "friendly_name": "Programmable Outbound Minute - United States - Alaska",
+      "origination_prefixes": [
+        "ALL"
+      ]
+    },
+    {
+      "base_price": "0.013",
+      "current_price": "0.013",
+      "destination_prefixes": [
+        "1808"
+      ],
+      "friendly_name": "Programmable Outbound Minute - United States - Hawaii",
+      "origination_prefixes": [
+        "ALL"
+      ]
+    },
+    {
+      "base_price": "0.013",
+      "current_price": "0.013",
+      "destination_prefixes": [
+        "1800",
+        "1844",
+        "1855",
+        "1866",
+        "1877",
+        "1888"
+      ],
+      "friendly_name": "Programmable Outbound Minute - United States & Canada - Toll Free",
+      "origination_prefixes": [
+        "ALL"
+      ]
+    },
+    {
+      "base_price": "0.013",
+      "current_price": "0.013",
+      "destination_prefixes": [
+        "1"
+      ],
+      "friendly_name": "Programmable Outbound Minute - United States & Canada",
+      "origination_prefixes": [
+        "ALL"
+      ]
+    }
+  ],
+  "price_unit": "USD",
+  "url": "https://pricing.twilio.com/v2/Voice/Countries/US"
+}
