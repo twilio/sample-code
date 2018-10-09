@@ -11,4 +11,4 @@ phone_number = client.lookups \
                      .phone_numbers('+15108675310') \
                      .fetch(country_code='US', type='carrier')
 
-print(phone_number.caller_name)
+print(phone_number.carrier)

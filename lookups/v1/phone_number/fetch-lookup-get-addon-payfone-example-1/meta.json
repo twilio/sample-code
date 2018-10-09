@@ -8,6 +8,7 @@
   "testable": false,
   "title": "Lookup with Add-on enabled",
   "type": "server",
+  "output_property": "carrier",
   "_definition": {
     "params": {
       "required": {

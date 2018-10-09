@@ -25,6 +25,6 @@ class Program
             pathPhoneNumber: new Twilio.Types.PhoneNumber("15108675310")
         );
 
-        Console.WriteLine(phoneNumber.CallerName);
+        Console.WriteLine(phoneNumber.Carrier);
     }
 }

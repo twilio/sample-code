@@ -24,6 +24,6 @@ public class Example {
             .setType(Promoter.listOfOne("carrier"))
             .fetch();
 
-        System.out.println(phoneNumber.getCallerName());
+        System.out.println(phoneNumber.getCarrier());
     }
 }

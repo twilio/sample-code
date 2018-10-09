@@ -16,6 +16,6 @@ public class Example {
             .setAddOns(Promoter.listOfOne("whitepages_pro_caller_id"))
             .fetch();
 
-        System.out.println(phoneNumber.getCallerName());
+        System.out.println(phoneNumber.getCarrier());
     }
 }

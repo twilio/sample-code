@@ -11,4 +11,4 @@ phone_number = @client.lookups
                       .phone_numbers('+15108675310')
                       .fetch(country_code: 'US', type: 'carrier')
 
-puts phone_number.caller_name
+puts phone_number.carrier
