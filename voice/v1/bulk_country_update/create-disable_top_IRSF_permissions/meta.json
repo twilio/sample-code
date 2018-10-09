@@ -1,0 +1,18 @@
+{
+  "title": "Disable Voice dialing for high toll fraud risk numbers and high risk special services numbers in highest risk countries",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "update_request": "[{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"CU\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"LV\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"SO\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"LT\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"GN\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"GM\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"MV\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"EE\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"ZW\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"TN\"}]"
+      },
+      "path": {}
+    },
+    "location": "https://voice.twilio.com/v1/DialingPermissions/BulkCountryUpdates",
+    "method": "post",
+    "domain": "voice",
+    "version": "v1",
+    "resource": "voice_permission_country_bulk_update",
+    "action": "create"
+  }
+}
