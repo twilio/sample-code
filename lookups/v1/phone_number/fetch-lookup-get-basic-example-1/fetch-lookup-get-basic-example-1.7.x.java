@@ -15,6 +15,6 @@ public class Example {
                 new com.twilio.type.PhoneNumber("+15108675310"))
             .setType(Promoter.listOfOne("carrier")).fetch();
 
-        System.out.println(phoneNumber.getCallerName());
+        System.out.println(phoneNumber.getCarrier());
     }
 }

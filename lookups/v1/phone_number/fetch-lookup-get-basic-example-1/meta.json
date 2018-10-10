@@ -7,6 +7,7 @@
   ],
   "title": "Lookup with E.164 Formatted Number",
   "type": "server",
+  "output_property": "carrier",
   "_definition": {
     "params": {
       "required": {

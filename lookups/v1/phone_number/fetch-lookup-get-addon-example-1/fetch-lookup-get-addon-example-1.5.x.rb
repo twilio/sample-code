@@ -11,4 +11,4 @@ phone_number = @client.lookups
                       .phone_numbers('+16502530000')
                       .fetch(add_ons: 'whitepages_pro_caller_id')
 
-puts phone_number.caller_name
+puts phone_number.carrier

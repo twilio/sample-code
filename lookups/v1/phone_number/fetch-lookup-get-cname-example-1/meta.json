@@ -2,6 +2,7 @@
   "original_snippet_path": "lookups/lookup-get-cname-example-1/lookup-get-cname-example-1.6.x.py",
   "title": "Lookup with Caller Name",
   "type": "server",
+  "output_property": "caller_name",
   "_definition": {
     "params": {
       "required": {
