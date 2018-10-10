@@ -1,0 +1,10 @@
+STYLESHEET=$(cat << EOF
+{
+    "say_voice": "Polly.Joanna"
+}
+EOF
+)
+
+curl -X POST https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+--data-urlencode "StyleSheet=$STYLESHEET" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -2,11 +2,11 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "date_created": "2017-07-04T08:34:00Z",
   "date_updated": "2017-07-04T08:34:00Z",
-  "friendly_name": "so so friendly",
+  "friendly_name": "Styled Assistant",
   "latest_model_build_sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "log_queries": true,
   "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "unique_name": "so-so-unique",
+  "unique_name": "styled-assistant",
   "links": {
     "field_types": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes",
     "intents": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Intents",
@@ -19,5 +19,8 @@
   },
   "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "callback_url": "https://example.com/callback_url",
-  "callback_events": "model_build_completed model_build_failed"
+  "callback_events": "model_build_completed model_build_failed",
+  "style_sheet": {
+    "say_voice": "Polly.Joanna"
+  }
 }
