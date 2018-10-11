@@ -8,7 +8,5 @@
     "page_size": 50,
     "key": "steps"
   },
-  "steps": [],
-  "execution_sid": "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "flow_sid": "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "steps": []
 }

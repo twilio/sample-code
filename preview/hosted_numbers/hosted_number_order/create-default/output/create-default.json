@@ -24,6 +24,5 @@
   "verification_call_sids": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "verification_code": null,
   "verification_document_sid": "RIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "verification_type": "phone-call",
-  "sms_capability": null
+  "verification_type": "phone-call"
 }

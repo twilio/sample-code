@@ -25,8 +25,5 @@
     "page_size": 1,
     "previous_page_url": "https://monitor.twilio.com/v1/Alerts?Page=0&PageSize=50",
     "url": "https://monitor.twilio.com/v1/Alerts"
-  },
-  "end_date": "2015-04-30",
-  "log_level": "warning",
-  "start_date": "2015-04-01"
+  }
 }

@@ -24,6 +24,5 @@
       "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ShortCodes/SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "is_reserved": false
     }
-  ],
-  "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  ]
 }

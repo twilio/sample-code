@@ -25,6 +25,5 @@
       "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "is_reserved": false
     }
-  ],
-  "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  ]
 }

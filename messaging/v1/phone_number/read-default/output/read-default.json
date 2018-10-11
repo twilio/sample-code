@@ -20,6 +20,5 @@
       "capabilities": [],
       "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
-  ],
-  "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  ]
 }

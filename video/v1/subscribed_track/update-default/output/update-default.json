@@ -7,6 +7,5 @@
   "sid": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "name": "bob-track",
   "kind": "data",
-  "enabled": null,
-  "track": null
+  "enabled": null
 }

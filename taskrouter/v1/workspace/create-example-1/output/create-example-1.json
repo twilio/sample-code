@@ -24,6 +24,5 @@
   "sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "timeout_activity_name": "Offline",
   "timeout_activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "template": "FIFO"
+  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

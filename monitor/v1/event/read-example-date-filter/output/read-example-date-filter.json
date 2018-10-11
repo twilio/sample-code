@@ -33,7 +33,5 @@
     "page_size": 50,
     "previous_page_url": "https://monitor.twilio.com/v1/Events?PageSize=50&Page=0",
     "url": "https://monitor.twilio.com/v1/Events?PageSize=50&Page=0"
-  },
-  "end_date": "2015-04-01",
-  "start_date": "2015-03-01"
+  }
 }
