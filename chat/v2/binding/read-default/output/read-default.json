@@ -30,6 +30,5 @@
         "user": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Users/TestUser"
       }
     }
-  ],
-  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  ]
 }

@@ -43,6 +43,5 @@
     "page_size": 50,
     "previous_page_url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DataSessions?PageSize=50&Page=0",
     "url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/DataSessions?PageSize=50&Page=0"
-  },
-  "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
 }

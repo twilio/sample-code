@@ -8,7 +8,5 @@
     "first_page_url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Sessions/KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Interactions?PageSize=50&Page=0",
     "page_size": 50,
     "key": "interactions"
-  },
-  "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "session_sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
 }

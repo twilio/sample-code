@@ -25,7 +25,5 @@
   "voice_method": "http_method",
   "voice_url": "http://www.example.com",
   "url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "ip_address": "192.168.1.30",
-  "callback_method": "POST",
-  "callback_url": "https://sim-manager.mycompany.com/sim-update-callback/AliceSmithSmartMeter"
+  "ip_address": "192.168.1.30"
 }

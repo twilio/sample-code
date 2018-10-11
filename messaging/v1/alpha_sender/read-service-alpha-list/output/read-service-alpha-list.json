@@ -19,6 +19,5 @@
       "capabilities": [],
       "url": "https://messaging.twilio.com/v1/Services/MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/AlphaSenders/AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
-  ],
-  "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  ]
 }

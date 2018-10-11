@@ -21,6 +21,5 @@
     "url": "https://preview.twilio.com/Authy/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities?PageSize=50&Page=0",
     "next_page_url": "https://preview.twilio.com/Authy/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities?PageSize=50&Page=1",
     "key": "entities"
-  },
-  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
 }

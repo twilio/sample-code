@@ -5,6 +5,5 @@
   "date_updated": "2018-05-02T17:29:30Z",
   "friendly_name": "friendly_name",
   "sid": "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "url": "https://trunking.twilio.com/v1/Trunks/TKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/CredentialLists/CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "credential_list_sid": "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "url": "https://trunking.twilio.com/v1/Trunks/TKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/CredentialLists/CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

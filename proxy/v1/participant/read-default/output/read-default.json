@@ -8,7 +8,5 @@
     "page_size": 50,
     "key": "participants"
   },
-  "participants": [],
-  "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "session_sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  "participants": []
 }

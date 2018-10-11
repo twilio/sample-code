@@ -18,6 +18,5 @@
     "url": "https://trunking.twilio.com/v1/Trunks/TKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/CredentialLists?PageSize=50&Page=0",
     "next_page_url": "https://trunking.twilio.com/v1/Trunks/TKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/CredentialLists?PageSize=50&Page=1",
     "key": "credential_lists"
-  },
-  "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
 }

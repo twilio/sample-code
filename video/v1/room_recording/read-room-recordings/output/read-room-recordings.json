@@ -36,6 +36,5 @@
     "url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings?PageSize=50&Page=0",
     "next_page_url": "https://video.twilio.com/v1/Rooms/RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings?PageSize=50&Page=1",
     "key": "recordings"
-  },
-  "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
 }
