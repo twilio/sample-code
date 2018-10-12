@@ -7,4 +7,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-@client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').delete
+@client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+       .recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+       .delete

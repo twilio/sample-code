@@ -1,7 +1,7 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.rest.api.v2010.account.Recording;
+import com.twilio.rest.api.v2010.account.call.Recording;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -10,8 +10,9 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Recording recording = 
-            Recording.fetcher("REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+        Recording recording = Recording.fetcher(
+                "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .fetch();
 
         System.out.println(recording.getCallSid());

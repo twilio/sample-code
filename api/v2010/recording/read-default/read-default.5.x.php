@@ -11,7 +11,8 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$recordings = $twilio->recordings
+$recordings = $twilio->calls("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                     ->recordings
                      ->read();
 
 foreach ($recordings as $record) {

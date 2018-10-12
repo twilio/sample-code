@@ -6,11 +6,11 @@
       "required": {},
       "path": {}
     },
-    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences/{conference_sid}/Recordings/{sid}.json",
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/{call_sid}/Recordings/{sid}.json",
     "method": "post",
     "domain": "api",
     "version": "v2010",
-    "resource": "conference_recording",
+    "resource": "call_recording",
     "action": "update"
   }
 }

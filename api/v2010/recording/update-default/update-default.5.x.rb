@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-recording = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+recording = @client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .update(status: 'in-progress')
 

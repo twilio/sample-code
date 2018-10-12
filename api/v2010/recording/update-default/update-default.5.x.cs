@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Api.V2010.Account.Conference;
+using Twilio.Rest.Api.V2010.Account.Call;
 
 
 class Program 
@@ -17,7 +17,7 @@ class Program
 
         var recording = RecordingResource.Update(
             status: RecordingResource.StatusEnum.InProgress,
-            pathConferenceSid: "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

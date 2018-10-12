@@ -11,5 +11,6 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$twilio->recordings("REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+$twilio->calls("CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+       ->recordings("REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
        ->delete();

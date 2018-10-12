@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Api.V2010.Account;
+using Twilio.Rest.Api.V2010.Account.Call;
 
 
 class Program 
@@ -15,6 +15,9 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        RecordingResource.Delete(pathSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+        RecordingResource.Delete(
+            pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        );
     }
 }
