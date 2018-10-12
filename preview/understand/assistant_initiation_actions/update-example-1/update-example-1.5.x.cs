@@ -23,7 +23,7 @@ class Program
                 {
                     {"say", new Dictionary<string, Object>()
                         {
-                            {"speech", "Hello! How can I help you"}
+                            {"speech", "Hello, I'm your virtual assistant! How can I help you?"}
                         }}
                 }
             }}

@@ -15,7 +15,7 @@ assistant_initiation_actions = @client.preview
        'actions' => [
            {
                'say' => {
-                   'speech' => 'Hello! How can I help you'
+                   'speech' => "Hello, I'm your virtual assistant! How can I help you?"
                }
            },
        ]

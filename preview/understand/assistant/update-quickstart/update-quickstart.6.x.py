@@ -8,19 +8,16 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 assistant = client.preview \
-                  .understand \
-                  .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                  .update(
-                       unique_name='quickstart-assistant',
-                       initiation_actions={
-                           'actions': [
-                               {
-                                   'say': {
-                                       'speech': 'Hello! How can I help you'
-                                   }
-                               }
-                           ]
-                       }
-                   )
+    .understand \
+    .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .update(unique_name='quickstart-assistant', initiation_actions={
+         'actions': [
+             {
+                 'say': {
+                     'speech': "Hello, I'm your virtual assistant! How can I help you?"
+                 }
+             }
+         ]
+     })
 
 print(assistant.friendly_name)

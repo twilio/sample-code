@@ -5,15 +5,15 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.understand
-              .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .update({uniqueName: 'quickstart-assistant', initiationActions: {
-                   actions: [
-                     {
-                         say: {
-                             speech: 'Hello! How can I help you'
-                         }
-                     }
-                   ]
-               }})
-              .then(assistant => console.log(assistant.friendlyName))
-              .done();
+  .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  .update({uniqueName: 'quickstart-assistant', initiationActions: {
+       actions: [
+         {
+             say: {
+                 speech: `Hello, I'm your virtual assistant! How can I help you?`
+             }
+         }
+       ]
+   }})
+  .then(assistant => console.log(assistant.friendlyName))
+  .done();
