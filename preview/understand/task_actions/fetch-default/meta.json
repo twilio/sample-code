@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Task Actions",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Tasks/{task_sid}/Actions",
+    "method": "get",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "task_actions",
+    "action": "fetch"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Task Statistics",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Tasks/{task_sid}/Statistics",
+    "method": "get",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "task_statistics",
+    "action": "fetch"
+  }
+}
