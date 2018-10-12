@@ -7,7 +7,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-recording = client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+recording = client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                   .recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                   .update(status='in-progress')
 

@@ -6,11 +6,11 @@
       "required": {},
       "path": {}
     },
-    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/{call_sid}/Recordings.json",
+    "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Recordings.json",
     "method": "get",
     "domain": "api",
     "version": "v2010",
-    "resource": "call_recording",
+    "resource": "recording",
     "action": "read"
   }
 }

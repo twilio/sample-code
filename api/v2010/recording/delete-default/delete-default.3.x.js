@@ -4,8 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .remove()
       .then(recording => console.log(recording.sid))
       .done();

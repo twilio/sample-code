@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Api.V2010.Account.Call;
+using Twilio.Rest.Api.V2010.Account;
 
 
 class Program 
@@ -15,9 +15,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var recordings = RecordingResource.Read(
-            pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-        );
+        var recordings = RecordingResource.Read();
 
         foreach(var record in recordings)
         {

@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .update({status: 'in-progress'})
       .then(recording => console.log(recording.callSid))
