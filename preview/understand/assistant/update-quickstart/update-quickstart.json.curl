@@ -1,0 +1,17 @@
+INITIATIONACTIONS=$(cat << EOF
+{
+    "actions": [
+        {
+            "say": {
+                "speech": "Hello! how can I help you"
+            }
+        }
+    ]
+}
+EOF
+)
+
+curl -X POST https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+--data-urlencode "UniqueName=quickstart-assistant" \
+--data-urlencode "InitiationActions=$INITIATIONACTIONS" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
