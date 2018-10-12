@@ -16,7 +16,7 @@ assistant = @client.preview
                         'actions' => [
                             {
                                 'say' => {
-                                    'speech' => 'Hello! how can I help you'
+                                    'speech' => 'Hello! How can I help you'
                                 }
                             },
                         ]

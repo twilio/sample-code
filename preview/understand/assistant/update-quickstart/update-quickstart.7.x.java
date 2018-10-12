@@ -23,7 +23,7 @@ public class Example {
                         {{
                             put("say", new HashMap<String, Object>()
                             {{
-                                put("speech", "Hello! how can I help you");
+                                put("speech", "Hello! How can I help you");
                             }});
                         }}
                     });

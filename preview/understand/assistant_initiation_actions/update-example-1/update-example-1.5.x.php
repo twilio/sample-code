@@ -18,7 +18,7 @@ $assistant_initiation_actions = $twilio->preview->understand->assistants("UAXXXX
                                                                              "actions" => array(
                                                                                  array(
                                                                                      "say" => array(
-                                                                                         "speech" => "Hello! how can I help you"
+                                                                                         "speech" => "Hello! How can I help you"
                                                                                      )
                                                                                  )
                                                                              )
