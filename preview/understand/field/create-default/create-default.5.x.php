@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $field = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                     ->intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                     ->tasks("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->fields
                                      ->create("fieldType", "uniqueName");
 

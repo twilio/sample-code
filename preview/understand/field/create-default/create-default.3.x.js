@@ -6,7 +6,7 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.understand
               .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fields
               .create({fieldType: 'fieldType', uniqueName: 'uniqueName'})
               .then(field => console.log(field.sid))

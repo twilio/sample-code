@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 
 field = @client.preview.understand
                        .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                       .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                       .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .fields
                        .create(
                           field_type: 'field_type',
