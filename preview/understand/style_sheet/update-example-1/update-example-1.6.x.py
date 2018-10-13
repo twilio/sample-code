@@ -12,7 +12,9 @@ style_sheet = client.preview \
                     .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .style_sheet() \
                     .update(style_sheet={
-                         'say_voice': 'Polly.Joanna'
+                         'voice': {
+                             'say_voice': 'Polly.Joanna'
+                         }
                      })
 
 print(style_sheet.assistant_sid)

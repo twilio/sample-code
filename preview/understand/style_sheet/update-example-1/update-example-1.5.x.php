@@ -15,7 +15,9 @@ $style_sheet = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXX
                                            ->styleSheet()
                                            ->update(array(
                                                         "styleSheet" => array(
-                                                            "say_voice" => "Polly.Joanna"
+                                                            "voice" => array(
+                                                                "say_voice" => "Polly.Joanna"
+                                                            )
                                                         )
                                                     )
                                            );

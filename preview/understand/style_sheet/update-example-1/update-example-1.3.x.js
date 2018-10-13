@@ -8,7 +8,9 @@ client.preview.understand
               .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .styleSheet()
               .update({styleSheet: {
-                   say_voice: 'Polly.Joanna'
+                   voice: {
+                       say_voice: 'Polly.Joanna'
+                   }
                }})
               .then(style_sheet => console.log(style_sheet.assistantSid))
               .done();

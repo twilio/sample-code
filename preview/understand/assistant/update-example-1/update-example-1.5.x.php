@@ -14,7 +14,9 @@ $twilio = new Client($sid, $token);
 $assistant = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->update(array(
                                                       "styleSheet" => array(
-                                                          "say_voice" => "Polly.Joanna"
+                                                          "voice" => array(
+                                                              "say_voice" => "Polly.Joanna"
+                                                          )
                                                       )
                                                   )
                                          );

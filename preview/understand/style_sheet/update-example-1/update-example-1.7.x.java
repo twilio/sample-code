@@ -17,7 +17,10 @@ public class Example {
             .setStyleSheet(
                 new HashMap<String, Object>()
                 {{
-                    put("say_voice", "Polly.Joanna");
+                    put("voice", new HashMap<String, Object>()
+                    {{
+                        put("say_voice", "Polly.Joanna");
+                    }});
                 }})
             .update();
 

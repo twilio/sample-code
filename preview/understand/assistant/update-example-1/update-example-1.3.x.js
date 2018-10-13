@@ -7,7 +7,9 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.understand
               .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .update({styleSheet: {
-                   say_voice: 'Polly.Joanna'
+                   voice: {
+                       say_voice: 'Polly.Joanna'
+                   }
                }})
               .then(assistant => console.log(assistant.friendlyName))
               .done();

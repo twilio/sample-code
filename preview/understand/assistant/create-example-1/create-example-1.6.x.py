@@ -14,7 +14,9 @@ assistant = client.preview \
                        friendly_name='Styled Assistant',
                        unique_name='styled-assistant',
                        style_sheet={
-                           'say_voice': 'Polly.Joanna'
+                           'voice': {
+                               'say_voice': 'Polly.Joanna'
+                           }
                        }
                    )
 

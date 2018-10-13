@@ -11,7 +11,9 @@ assistant = client.preview \
                   .understand \
                   .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                   .update(style_sheet={
-                       'say_voice': 'Polly.Joanna'
+                       'voice': {
+                           'say_voice': 'Polly.Joanna'
+                       }
                    })
 
 print(assistant.friendly_name)

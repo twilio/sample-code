@@ -10,7 +10,9 @@ client.preview.understand
                  friendlyName: 'Styled Assistant',
                  uniqueName: 'styled-assistant',
                  styleSheet: {
-                   say_voice: 'Polly.Joanna'
+                   voice: {
+                       say_voice: 'Polly.Joanna'
+                   }
                }
                })
               .then(assistant => console.log(assistant.sid))

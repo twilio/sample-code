@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {
-        "style_sheet": "{\"say_voice\": \"Polly.Joanna\"}"
+        "style_sheet": {
+          "voice": {
+            "say_voice": "Polly.Joanna"
+          }
+        }
       },
       "path": {
         "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

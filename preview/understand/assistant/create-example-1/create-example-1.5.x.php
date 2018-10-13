@@ -16,7 +16,9 @@ $assistant = $twilio->preview->understand->assistants
                                                       "friendlyName" => "Styled Assistant",
                                                       "uniqueName" => "styled-assistant",
                                                       "styleSheet" => array(
-                                                          "say_voice" => "Polly.Joanna"
+                                                          "voice" => array(
+                                                              "say_voice" => "Polly.Joanna"
+                                                          )
                                                       )
                                                   )
                                          );

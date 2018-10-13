@@ -18,7 +18,10 @@ class Program
 
         var styleSheet = new Dictionary<string, Object>()
         {
-            {"say_voice", "Polly.Joanna"}
+            {"voice", new Dictionary<string, Object>()
+                {
+                    {"say_voice", "Polly.Joanna"}
+                }}
         };
 
         var assistant = AssistantResource.Update(
