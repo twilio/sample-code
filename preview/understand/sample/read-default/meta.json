@@ -6,7 +6,7 @@
       "required": {},
       "path": {}
     },
-    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Intents/{intent_sid}/Samples",
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Tasks/{task_sid}/Samples",
     "method": "get",
     "domain": "preview",
     "version": "understand",

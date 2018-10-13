@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Preview.Understand.Assistant.Intent;
+using Twilio.Rest.Preview.Understand.Assistant.Task;
 
 
 class Program 
@@ -18,7 +18,7 @@ class Program
         var sample = SampleResource.Update(
             language: "Language",
             pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIntentSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathTaskSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
