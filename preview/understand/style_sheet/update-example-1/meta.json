@@ -1,0 +1,24 @@
+{
+  "title": "Update an stylesheet.",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "style_sheet": {
+          "voice": {
+            "say_voice": "Polly.Joanna"
+          }
+        }
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/StyleSheet",
+    "method": "post",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "style_sheet",
+    "action": "update"
+  }
+}

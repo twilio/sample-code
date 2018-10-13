@@ -1,0 +1,24 @@
+{
+  "title": "Create a named assistant with a stylesheet",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "Styled Assistant",
+        "unique_name": "styled-assistant",
+        "style_sheet": {
+          "voice": {
+            "say_voice": "Polly.Joanna"
+          }
+        }
+      },
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants",
+    "method": "post",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "assistant",
+    "action": "create"
+  }
+}
