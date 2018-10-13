@@ -26,7 +26,5 @@
   },
   "to": "+14158675309",
   "to_formatted": "(415) 867-5309",
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
-  "method": "POST",
-  "url": "http://demo.twilio.com/docs/voice.xml"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

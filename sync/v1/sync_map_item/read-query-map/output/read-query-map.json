@@ -22,9 +22,5 @@
     "page_size": 50,
     "previous_page_url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items?PageSize=50&Page=0",
     "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items?PageSize=50&Page=0"
-  },
-  "from": "steph_curry",
-  "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "order": "asc",
-  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
 }

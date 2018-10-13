@@ -22,7 +22,5 @@
     "page_size": 50,
     "previous_page_url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items?PageSize=50&Page=0",
     "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Lists/ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Items?PageSize=50&Page=0"
-  },
-  "list_sid": "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
 }

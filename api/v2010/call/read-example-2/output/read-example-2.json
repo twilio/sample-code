@@ -38,8 +38,5 @@
   "page_size": 1,
   "previous_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0",
   "start": 0,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0",
-  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "start_time": "2009-07-06T00:00:00Z",
-  "status": "completed"
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json?PageSize=1&Page=0"
 }

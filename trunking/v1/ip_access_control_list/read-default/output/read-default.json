@@ -18,6 +18,5 @@
     "page_size": 50,
     "previous_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists?PageSize=50&Page=0",
     "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/IpAccessControlLists?PageSize=50&Page=0"
-  },
-  "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
 }

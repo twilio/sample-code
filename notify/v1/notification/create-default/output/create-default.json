@@ -20,6 +20,5 @@
   "gcm": null,
   "sms": null,
   "facebook_messenger": null,
-  "alexa": null,
-  "identity": null
+  "alexa": null
 }

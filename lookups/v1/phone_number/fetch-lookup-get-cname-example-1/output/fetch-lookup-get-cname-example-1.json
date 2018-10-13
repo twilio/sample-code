@@ -29,6 +29,5 @@
     "code": null,
     "results": {}
   },
-  "url": "https://lookups.twilio.com/v1/PhoneNumbers/phone_number",
-  "type": "caller-name"
+  "url": "https://lookups.twilio.com/v1/PhoneNumbers/phone_number"
 }

@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Read Task",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Tasks",
+    "method": "get",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "task",
+    "action": "read"
+  }
+}

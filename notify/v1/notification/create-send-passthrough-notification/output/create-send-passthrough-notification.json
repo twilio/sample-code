@@ -20,10 +20,5 @@
   "gcm": null,
   "sms": null,
   "facebook_messenger": null,
-  "alexa": null,
-  "identity": null,
-  "to_binding": {
-    "binding_type": "sms",
-    "address": "+15555555555"
-  }
+  "alexa": null
 }

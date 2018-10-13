@@ -1,0 +1,28 @@
+{
+  "title": "Update assistant initiation actions with 'Say'",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "initiation_actions": {
+          "actions": [
+            {
+              "say": {
+                "speech": "Hello, I'm your virtual assistant! How can I help you?"
+              }
+            }
+          ]
+        }
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/InitiationActions",
+    "method": "post",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "assistant_initiation_actions",
+    "action": "update"
+  }
+}

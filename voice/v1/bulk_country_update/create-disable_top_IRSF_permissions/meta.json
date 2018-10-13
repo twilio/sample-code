@@ -1,5 +1,5 @@
 {
-  "title": "Disable Voice dialing for high toll fraud risk numbers and high risk special services numbers in highest risk countries",
+  "title": "Disable Voice dialing for high risk numbers in highest risk countries",
   "type": "server",
   "_definition": {
     "params": {
