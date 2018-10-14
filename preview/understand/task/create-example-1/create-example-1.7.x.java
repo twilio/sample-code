@@ -14,7 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Task task = 
             Task.creator("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "tell-a-joke")
-            .setFriendlyName("tell a joke")
+            .setFriendlyName("tell-a-joke")
             .setActions(
                 new HashMap<String, Object>()
                 {{

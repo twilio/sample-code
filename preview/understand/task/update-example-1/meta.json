@@ -1,11 +1,9 @@
 {
-  "title": "Create a new task for your assistant",
+  "title": "Update a task's actions",
   "type": "server",
   "_definition": {
     "params": {
       "required": {
-        "unique_name": "tell-a-joke",
-        "friendly_name": "tell a joke",
         "actions": {
           "actions": [
             {
@@ -17,14 +15,15 @@
         }
       },
       "path": {
-        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       }
     },
-    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Tasks",
+    "location": "https://preview.twilio.com/understand/Assistants/{assistant_sid}/Tasks/{sid}",
     "method": "post",
     "domain": "preview",
     "version": "understand",
     "resource": "task",
-    "action": "create"
+    "action": "update"
   }
 }

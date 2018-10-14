@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 task = @client.preview.understand
   .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .tasks
-  .create(friendly_name: 'tell a joke', actions: {
+  .create(friendly_name: 'tell-a-joke', actions: {
        'actions' => [
            {
                'say' => {

@@ -15,7 +15,7 @@ $task = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                     ->tasks
                                     ->create("tell-a-joke", // uniqueName
                                              array(
-                                                 "friendlyName" => "tell a joke",
+                                                 "friendlyName" => "tell-a-joke",
                                                  "actions" => array(
                                                      "actions" => array(
                                                          array(

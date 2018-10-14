@@ -1,11 +1,11 @@
 {
-  "title": "Create a new task for your assistant",
+  "title": "Create a new task with actions",
   "type": "server",
   "_definition": {
     "params": {
       "required": {
         "unique_name": "tell-a-joke",
-        "friendly_name": "tell a joke",
+        "friendly_name": "tell-a-joke",
         "actions": {
           "actions": [
             {

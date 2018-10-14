@@ -6,8 +6,8 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.understand
   .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  .tasks
-  .create({friendlyName: 'tell a joke', actions: {
+  .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  .update({actions: {
        actions: [
          {
              say: {
@@ -15,6 +15,6 @@ client.preview.understand
              }
          }
        ]
-   }, uniqueName: 'tell-a-joke'})
-  .then(task => console.log(task.sid))
+   }})
+  .then(task => console.log(task.friendlyName))
   .done();

@@ -30,7 +30,7 @@ class Program
         };
 
         var task = TaskResource.Create(
-            friendlyName: "tell a joke",
+            friendlyName: "tell-a-joke",
             actions: actions,
             uniqueName: "tell-a-joke",
             pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

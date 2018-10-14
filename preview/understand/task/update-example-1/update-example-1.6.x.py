@@ -9,8 +9,8 @@ client = Client(account_sid, auth_token)
 
 task = client.preview.understand \
     .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-    .tasks \
-    .create(friendly_name='tell a joke', actions={
+    .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .update(actions={
          'actions': [
              {
                  'say': {
@@ -18,6 +18,6 @@ task = client.preview.understand \
                  }
              }
          ]
-     }, unique_name='tell-a-joke')
+     })
 
-print(task.sid)
+print(task.friendly_name)

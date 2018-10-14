@@ -12,9 +12,9 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Task task = 
-            Task.creator("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "tell-a-joke")
-            .setFriendlyName("tell a joke")
+        Task task = Task.updater(
+                "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setActions(
                 new HashMap<String, Object>()
                 {{
@@ -28,8 +28,8 @@ public class Example {
                         }}
                     });
                 }})
-            .create();
+            .update();
 
-        System.out.println(task.getSid());
+        System.out.println(task.getFriendlyName());
     }
 }

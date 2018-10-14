@@ -12,7 +12,7 @@ EOF
 )
 
 curl -X POST https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks \
---data-urlencode "FriendlyName=tell a joke" \
+--data-urlencode "FriendlyName=tell-a-joke" \
 --data-urlencode "Actions=$ACTIONS" \
 --data-urlencode "UniqueName=tell-a-joke" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

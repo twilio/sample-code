@@ -12,10 +12,8 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $task = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                    ->tasks
-                                    ->create("tell-a-joke", // uniqueName
-                                             array(
-                                                 "friendlyName" => "tell a joke",
+                                    ->tasks("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                    ->update(array(
                                                  "actions" => array(
                                                      "actions" => array(
                                                          array(
@@ -28,4 +26,4 @@ $task = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                              )
                                     );
 
-print($task->sid);
+print($task->friendlyName);

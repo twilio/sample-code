@@ -29,13 +29,12 @@ class Program
             }}
         };
 
-        var task = TaskResource.Create(
-            friendlyName: "tell a joke",
+        var task = TaskResource.Update(
             actions: actions,
-            uniqueName: "tell-a-joke",
-            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
-        Console.WriteLine(task.Sid);
+        Console.WriteLine(task.FriendlyName);
     }
 }
