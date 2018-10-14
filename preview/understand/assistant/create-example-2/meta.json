@@ -1,0 +1,27 @@
+{
+  "title": "Create a named assistant with initation actions",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "greet-assistant",
+        "initiation_actions": {
+          "actions": [
+            {
+              "say": {
+                "speech": "Hello, I'm your virtual assistant! How can I help you?"
+              }
+            }
+          ]
+        }
+      },
+      "path": {}
+    },
+    "location": "https://preview.twilio.com/understand/Assistants",
+    "method": "post",
+    "domain": "preview",
+    "version": "understand",
+    "resource": "assistant",
+    "action": "create"
+  }
+}
