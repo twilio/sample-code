@@ -1,0 +1,19 @@
+{
+  "title": "Create a new named assistant",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "Quickstart Assistant",
+        "unique_name": "quickstart-assistant"
+      },
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "assistant",
+    "action": "create"
+  }
+}

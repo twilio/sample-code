@@ -1,0 +1,22 @@
+{
+  "title": "Query your Assistant",
+  "type": "server",
+  "output_property": "task",
+  "_definition": {
+    "params": {
+      "required": {
+        "language": "en-US",
+        "query": "Tell me a joke"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Queries",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "query",
+    "action": "create"
+  }
+}
