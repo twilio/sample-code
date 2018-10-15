@@ -1,0 +1,13 @@
+DEFAULTS=$(cat << EOF
+{
+    "defaults": {
+        "assistant_initiation": "task://hello-world",
+        "fallback": "task://hello-world"
+    }
+}
+EOF
+)
+
+curl -X POST https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Defaults \
+--data-urlencode "Defaults=$DEFAULTS" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
