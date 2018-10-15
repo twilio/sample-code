@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Defaults",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Defaults",
+    "method": "get",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "defaults",
+    "action": "fetch"
+  }
+}

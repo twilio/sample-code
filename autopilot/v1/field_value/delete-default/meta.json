@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Delete Field Value",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/FieldTypes/{field_type_sid}/FieldValues/{sid}",
+    "method": "delete",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "field_value",
+    "action": "delete"
+  }
+}

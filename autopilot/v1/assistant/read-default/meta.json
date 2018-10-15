@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Read Assistant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants",
+    "method": "get",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "assistant",
+    "action": "read"
+  }
+}
