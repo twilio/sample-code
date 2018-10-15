@@ -1,0 +1,21 @@
+{
+  "title": "Create a new task for your assistant",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "tell-a-joke",
+        "friendly_name": "tell a joke"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "task",
+    "action": "create"
+  }
+}

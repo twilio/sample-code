@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Update Task Actions",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks/{task_sid}/Actions",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "task_actions",
+    "action": "update"
+  }
+}

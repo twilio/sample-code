@@ -1,0 +1,22 @@
+{
+  "title": "Update an assistant with a stylesheet",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "style_sheet": {
+          "voice": {
+            "say_voice": "Polly.Joanna"
+          }
+        }
+      },
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{sid}",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "assistant",
+    "action": "update"
+  }
+}

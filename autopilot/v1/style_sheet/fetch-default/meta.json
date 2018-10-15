@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Style Sheet",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/StyleSheet",
+    "method": "get",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "style_sheet",
+    "action": "fetch"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created": "2017-07-04T08:34:00Z",
+  "date_updated": "2017-07-04T08:34:00Z",
+  "friendly_name": "so so friendly",
+  "latest_model_build_sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "log_queries": true,
+  "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "unique_name": "quickstart-assistant",
+  "links": {
+    "field_types": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes",
+    "tasks": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks",
+    "model_builds": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ModelBuilds",
+    "queries": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries",
+    "style_sheet": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/StyleSheet",
+    "defaults": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Defaults",
+    "dialogues": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Dialogues"
+  },
+  "url": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "callback_url": "https://example.com/callback_url",
+  "callback_events": "model_build_completed model_build_failed"
+}

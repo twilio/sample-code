@@ -1,0 +1,20 @@
+{
+  "title": "Build a new machine learning model for your assistant",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "v0.1"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/ModelBuilds",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "model_build",
+    "action": "create"
+  }
+}

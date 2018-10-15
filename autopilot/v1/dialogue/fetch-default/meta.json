@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Dialogue",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Dialogues/{sid}",
+    "method": "get",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "dialogue",
+    "action": "fetch"
+  }
+}

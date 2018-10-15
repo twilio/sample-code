@@ -1,0 +1,4 @@
+curl -X POST https://autopilot.twilio.com/v1/Assistants \
+--data-urlencode "FriendlyName=Quickstart Assistant" \
+--data-urlencode "UniqueName=quickstart-assistant" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

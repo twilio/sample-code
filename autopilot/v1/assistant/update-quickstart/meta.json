@@ -1,0 +1,18 @@
+{
+  "title": "Update your assistant's Initiation Actions task",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "quickstart-assistant"
+      },
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{sid}",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "assistant",
+    "action": "update"
+  }
+}

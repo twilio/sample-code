@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Query",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Queries",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "query",
+    "action": "create"
+  }
+}

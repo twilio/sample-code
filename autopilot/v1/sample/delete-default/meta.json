@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Delete Sample",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks/{task_sid}/Samples/{sid}",
+    "method": "delete",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "sample",
+    "action": "delete"
+  }
+}
