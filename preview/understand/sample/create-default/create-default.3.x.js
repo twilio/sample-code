@@ -6,7 +6,7 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.understand
               .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .samples
               .create({language: 'language', taggedText: 'taggedText'})
               .then(sample => console.log(sample.sid))

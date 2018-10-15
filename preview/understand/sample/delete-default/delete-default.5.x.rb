@@ -9,6 +9,6 @@ auth_token = 'your_auth_token'
 
 @client.preview.understand
                .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+               .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .delete

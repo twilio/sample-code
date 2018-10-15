@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Preview.Understand.Assistant.Intent;
+using Twilio.Rest.Preview.Understand.Assistant.Task;
 
 
 class Program 
@@ -17,7 +17,7 @@ class Program
 
         var samples = SampleResource.Read(
             pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIntentSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathTaskSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 
         foreach(var record in samples)

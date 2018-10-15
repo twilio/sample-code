@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 sample = client.preview.understand \
                        .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                       .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                       .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .samples \
                        .create(language='language', tagged_text='tagged_text')
 

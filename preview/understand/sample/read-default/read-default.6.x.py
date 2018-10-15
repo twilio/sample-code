@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 
 samples = client.preview.understand \
                         .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                        .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                        .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .samples \
                         .list()
 

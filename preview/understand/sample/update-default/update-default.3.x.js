@@ -6,7 +6,7 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.understand
               .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .update({language: 'language'})
               .then(sample => console.log(sample.dateCreated))

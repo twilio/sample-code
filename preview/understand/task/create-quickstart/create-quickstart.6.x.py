@@ -8,11 +8,16 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 task = client.preview.understand \
-                     .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                     .tasks \
-                     .create(
-                          friendly_name='tell a joke',
-                          unique_name='tell-a-joke'
-                      )
+    .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+    .tasks \
+    .create(friendly_name='tell a joke', actions={
+         'actions': [
+             {
+                 'say': {
+                     'speech': 'I was going to look for my missing watch, but I could never find the time.'
+                 }
+             }
+         ]
+     }, unique_name='tell-a-joke')
 
 print(task.sid)

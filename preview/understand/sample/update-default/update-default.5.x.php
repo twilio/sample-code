@@ -12,7 +12,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $sample = $twilio->preview->understand->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                      ->intents("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                      ->tasks("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->samples("UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->update(array("language" => "language"));
 

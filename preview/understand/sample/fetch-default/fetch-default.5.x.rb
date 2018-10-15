@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 
 sample = @client.preview.understand
                         .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                        .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .fetch
 

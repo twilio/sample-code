@@ -6,6 +6,6 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.understand
               .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .intents('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+              .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fields
               .each(fields => console.log(fields.sid));
