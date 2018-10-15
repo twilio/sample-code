@@ -1,4 +1,0 @@
-curl -X POST https://preview.twilio.com/understand/Assistants \
---data-urlencode "FriendlyName=Quickstart Assistant" \
---data-urlencode "UniqueName=quickstart-assistant" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
