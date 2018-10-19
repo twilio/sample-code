@@ -1,0 +1,3 @@
+curl -X POST https://autopilot.twilio.com/v1/Assistants/assistant_unique_name/ModelBuilds \
+--data-urlencode "UniqueName=v0.1" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

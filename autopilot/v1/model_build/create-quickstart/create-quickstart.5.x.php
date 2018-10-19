@@ -11,7 +11,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$model_build = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+$model_build = $twilio->autopilot->v1->assistants("quickstart-assistant")
                                      ->modelBuilds
                                      ->create(array("uniqueName" => "v0.1"));
 

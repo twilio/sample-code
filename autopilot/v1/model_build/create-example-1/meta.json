@@ -1,0 +1,20 @@
+{
+  "title": "Create Model Build using the assistant's unique_name",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "v0.1"
+      },
+      "path": {
+        "assistant_sid": "assistant_unique_name"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/ModelBuilds",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "model_build",
+    "action": "create"
+  }
+}

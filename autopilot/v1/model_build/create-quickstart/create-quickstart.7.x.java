@@ -10,10 +10,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ModelBuild modelBuild = 
-            ModelBuild.creator("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setUniqueName("v0.1")
-            .create();
+        ModelBuild modelBuild = ModelBuild.creator("quickstart-assistant")
+            .setUniqueName("v0.1").create();
 
         System.out.println(modelBuild.getSid());
     }

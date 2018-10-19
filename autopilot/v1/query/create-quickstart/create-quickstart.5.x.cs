@@ -18,7 +18,7 @@ class Program
         var query = QueryResource.Create(
             language: "en-US",
             query: "Tell me a joke",
-            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathAssistantSid: "quickstart-assistant"
         );
 
         Console.WriteLine(query.Sid);

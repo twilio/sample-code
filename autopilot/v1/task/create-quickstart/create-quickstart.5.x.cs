@@ -18,7 +18,7 @@ class Program
         var task = TaskResource.Create(
             friendlyName: "tell a joke",
             uniqueName: "tell-a-joke",
-            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathAssistantSid: "test-unique-name-instead"
         );
 
         Console.WriteLine(task.Sid);

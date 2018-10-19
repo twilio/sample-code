@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 query = @client.autopilot
-               .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+               .assistants('quickstart-assistant')
                .queries
                .create(language: 'en-US', query: 'Tell me a joke')
 

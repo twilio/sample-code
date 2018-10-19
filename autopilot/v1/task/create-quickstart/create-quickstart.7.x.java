@@ -10,10 +10,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Task task = 
-            Task.creator("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "tell-a-joke")
-            .setFriendlyName("tell a joke")
-            .create();
+        Task task = Task.creator("test-unique-name-instead", "tell-a-joke")
+            .setFriendlyName("tell a joke").create();
 
         System.out.println(task.getSid());
     }

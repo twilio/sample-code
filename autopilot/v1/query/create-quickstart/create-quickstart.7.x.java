@@ -10,10 +10,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Query query = Query.creator(
-                "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "en-US",
-                "Tell me a joke")
+        Query query = 
+            Query.creator("quickstart-assistant", "en-US", "Tell me a joke")
             .create();
 
         System.out.println(query.getSid());

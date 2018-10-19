@@ -1,0 +1,29 @@
+{
+  "title": "Update a task's actions using the assistant's unique_name",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "actions": {
+          "actions": [
+            {
+              "say": {
+                "speech": "I was going to look for my missing watch, but I could never find the time."
+              }
+            }
+          ]
+        }
+      },
+      "path": {
+        "assistant_sid": "assistant_unique_name",
+        "sid": "task_unique_name"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks/{sid}",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "task",
+    "action": "update"
+  }
+}

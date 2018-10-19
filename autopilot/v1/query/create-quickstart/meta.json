@@ -9,7 +9,7 @@
         "query": "Tell me a joke"
       },
       "path": {
-        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        "assistant_sid": "quickstart-assistant"
       }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Queries",

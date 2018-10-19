@@ -1,0 +1,4 @@
+curl -X POST https://autopilot.twilio.com/v1/Assistants/assistant_unique_name/Queries \
+--data-urlencode "Language=en-US" \
+--data-urlencode "Query=my new query" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

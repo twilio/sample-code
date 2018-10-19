@@ -11,7 +11,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$task = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+$task = $twilio->autopilot->v1->assistants("test-unique-name-instead")
                               ->tasks
                               ->create("tell-a-joke", // uniqueName
                                        array("friendlyName" => "tell a joke")

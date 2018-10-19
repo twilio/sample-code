@@ -11,7 +11,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$query = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+$query = $twilio->autopilot->v1->assistants("quickstart-assistant")
                                ->queries
                                ->create("en-US", "Tell me a joke");
 

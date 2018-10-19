@@ -1,4 +1,4 @@
-curl -X POST https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks \
+curl -X POST https://autopilot.twilio.com/v1/Assistants/test-unique-name-instead/Tasks \
 --data-urlencode "FriendlyName=tell a joke" \
 --data-urlencode "UniqueName=tell-a-joke" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

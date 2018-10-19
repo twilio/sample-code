@@ -1,0 +1,30 @@
+{
+  "title": "Create a new task using the assistant unique_name",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "tell-a-joke",
+        "friendly_name": "tell-a-joke",
+        "actions": {
+          "actions": [
+            {
+              "say": {
+                "speech": "I was going to look for my missing watch, but I could never find the time."
+              }
+            }
+          ]
+        }
+      },
+      "path": {
+        "assistant_sid": "assistant_unique_name"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "task",
+    "action": "create"
+  }
+}

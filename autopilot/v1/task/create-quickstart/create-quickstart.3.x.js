@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.autopilot.assistants('test-unique-name-instead')
                 .tasks
                 .create({
                    friendlyName: 'tell a joke',

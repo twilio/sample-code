@@ -8,7 +8,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 model_build = @client.autopilot
-                     .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                     .assistants('quickstart-assistant')
                      .model_builds
                      .create(unique_name: 'v0.1')
 

@@ -4,7 +4,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+client.autopilot.assistants('quickstart-assistant')
                 .queries
                 .create({language: 'en-US', query: 'Tell me a joke'})
                 .then(query => console.log(query.sid))

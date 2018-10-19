@@ -1,0 +1,22 @@
+{
+  "title": "Create: Perform a Query against a Model Build using the assistant unique_name",
+  "type": "server",
+  "output_property": "task",
+  "_definition": {
+    "params": {
+      "required": {
+        "language": "en-US",
+        "query": "my new query"
+      },
+      "path": {
+        "assistant_sid": "assistant_unique_name"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Queries",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "query",
+    "action": "create"
+  }
+}

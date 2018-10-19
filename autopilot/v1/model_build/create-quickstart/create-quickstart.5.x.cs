@@ -17,7 +17,7 @@ class Program
 
         var modelBuild = ModelBuildResource.Create(
             uniqueName: "v0.1",
-            pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathAssistantSid: "quickstart-assistant"
         );
 
         Console.WriteLine(modelBuild.Sid);
