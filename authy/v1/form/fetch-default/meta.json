@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Form",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://authy.twilio.com/v1/Forms/{form_type}",
+    "method": "get",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "form",
+    "action": "fetch"
+  }
+}

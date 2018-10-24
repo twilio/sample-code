@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Delete Factor",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors/{sid}",
+    "method": "delete",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "factor",
+    "action": "delete"
+  }
+}

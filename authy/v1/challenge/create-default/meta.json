@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Challenge",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors/{factor_sid}/Challenges",
+    "method": "post",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "challenge",
+    "action": "create"
+  }
+}

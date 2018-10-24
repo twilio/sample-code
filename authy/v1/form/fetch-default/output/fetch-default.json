@@ -1,0 +1,10 @@
+{
+  "form_type": "form-sms",
+  "forms": {
+    "create_factor": {},
+    "verify_factor": {},
+    "create_challenge": {}
+  },
+  "form_meta": {},
+  "url": "https://authy.twilio.com/v1/Forms/form-sms"
+}

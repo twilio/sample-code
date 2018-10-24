@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://authy.twilio.com/v1/Services/{sid}",
+    "method": "get",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "service",
+    "action": "fetch"
+  }
+}
