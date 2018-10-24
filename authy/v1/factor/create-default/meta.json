@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Create Factor",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors",
+    "method": "post",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "factor",
+    "action": "create"
+  }
+}

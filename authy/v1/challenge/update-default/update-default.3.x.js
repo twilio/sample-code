@@ -1,0 +1,13 @@
+// Download the helper library from https://www.twilio.com/docs/node/install
+// Your Account Sid and Auth Token from twilio.com/console
+const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
+const authToken = 'your_auth_token';
+const client = require('twilio')(accountSid, authToken);
+
+client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+            .entities('identity')
+            .factors('YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+            .challenges('sid')
+            .update({authPayload: 'authPayload'})
+            .then(challenge => console.log(challenge.sid))
+            .done();

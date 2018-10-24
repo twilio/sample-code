@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Delete Challenge",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors/{factor_sid}/Challenges/{sid}",
+    "method": "delete",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "challenge",
+    "action": "delete"
+  }
+}

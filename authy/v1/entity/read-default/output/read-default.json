@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {
+      "sid": "YEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "identity": "ff483d1ff591898a9942916050d2ca3f",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "date_created": "2015-07-30T20:00:00Z",
+      "date_updated": "2015-07-30T20:00:00Z",
+      "url": "https://authy.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities/ff483d1ff591898a9942916050d2ca3f",
+      "links": {
+        "factors": "https://authy.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities/ff483d1ff591898a9942916050d2ca3f/Factors"
+      }
+    }
+  ],
+  "meta": {
+    "page": 0,
+    "page_size": 50,
+    "first_page_url": "https://authy.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities?PageSize=50&Page=0",
+    "previous_page_url": "https://authy.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities?PageSize=50&Page=0",
+    "url": "https://authy.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities?PageSize=50&Page=0",
+    "next_page_url": "https://authy.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities?PageSize=50&Page=1",
+    "key": "entities"
+  }
+}

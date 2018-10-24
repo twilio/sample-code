@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Update Factor",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors/{sid}",
+    "method": "post",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "factor",
+    "action": "update"
+  }
+}

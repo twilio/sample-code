@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Factor",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors/{sid}",
+    "method": "get",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "factor",
+    "action": "fetch"
+  }
+}
