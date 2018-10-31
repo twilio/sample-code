@@ -15,7 +15,7 @@
           "task_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
           "confidence": null
         },
-        "entities": [
+        "fields": [
           {
             "name": "name",
             "value": "value",
