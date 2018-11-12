@@ -3,7 +3,7 @@
   "date_created": "2017-07-04T08:34:00Z",
   "date_updated": "2017-07-04T08:34:00Z",
   "friendly_name": "Styled Assistant",
-  "latest_model_build_sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "latest_model_build_sid": null,
   "log_queries": true,
   "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "styled-assistant",

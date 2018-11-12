@@ -13,7 +13,7 @@
   "voice_fallback_method": null,
   "status_callback": "",
   "status_callback_method": "POST",
-  "voice_application_sid": "APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "voice_application_sid": null,
   "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "sms_url": "",
   "sms_method": "POST",

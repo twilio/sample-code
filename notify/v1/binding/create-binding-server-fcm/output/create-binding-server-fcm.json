@@ -2,7 +2,7 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "address": "fcm_device_token",
   "binding_type": "fcm",
-  "credential_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "credential_sid": null,
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "endpoint": "XXXXXXXXXXXXXXX",

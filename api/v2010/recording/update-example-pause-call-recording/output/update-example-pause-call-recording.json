@@ -2,7 +2,7 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "api_version": "2010-04-01",
   "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "conference_sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "conference_sid": null,
   "channels": 2,
   "date_created": "Fri, 14 Oct 2016 21:56:34 +0000",
   "date_updated": "Fri, 14 Oct 2016 21:56:36 +0000",

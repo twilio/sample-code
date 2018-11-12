@@ -1,6 +1,7 @@
 {
   "sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "chat_instance_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "My Awesome Service",
   "default_ttl": 3600,
   "callback_url": "https://www.example.com/",
