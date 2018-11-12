@@ -6,7 +6,7 @@
   "direction": "outbound",
   "from": "+15017122661",
   "media_url": "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
-  "media_sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "media_sid": null,
   "num_pages": null,
   "price": null,
   "price_unit": null,
