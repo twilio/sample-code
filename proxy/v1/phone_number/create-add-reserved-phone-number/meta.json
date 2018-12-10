@@ -1,0 +1,21 @@
+{
+  "title": "Add a Reserved Phone Number",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "is_reserved": true
+      },
+      "path": {
+        "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://proxy.twilio.com/v1/Services/{service_sid}/PhoneNumbers",
+    "method": "post",
+    "domain": "proxy",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "create"
+  }
+}
