@@ -29,7 +29,6 @@ class Program
         var notification = NotificationResource.Create(
             body: "Knok-Knok! This is your first Notify SMS",
             toBinding: toBinding,
-            identity: Promoter.ListOfOne("Identity"),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

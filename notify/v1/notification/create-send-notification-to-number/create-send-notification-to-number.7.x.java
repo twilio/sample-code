@@ -16,7 +16,6 @@ public class Example {
             .setBody("Knok-Knok! This is your first Notify SMS")
             .setToBinding(
                 Promoter.listOfOne("{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}"))
-            .setIdentity(Promoter.listOfOne("identity"))
             .create();
 
         System.out.println(notification.getSid());

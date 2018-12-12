@@ -15,8 +15,7 @@ notification = @client.notify
                          to_binding: {
                            'binding_type' => 'sms',
                            'address' => '+1651000000000'
-                       }.to_json,
-                         identity: ['identity']
+                       }.to_json
                        )
 
 puts notification.sid

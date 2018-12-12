@@ -18,8 +18,7 @@ $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                 "toBinding" => array(
                                                     "binding_type" => "sms",
                                                     "address" => "+1651000000000"
-                                                ),
-                                                "identity" => array("identity")
+                                                )
                                             )
                                    );
 
