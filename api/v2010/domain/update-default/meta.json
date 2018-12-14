@@ -3,8 +3,13 @@
   "title": "Update Domain",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "friendly_name": "friendly_name"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SIP/Domains/{sid}.json",
     "method": "post",

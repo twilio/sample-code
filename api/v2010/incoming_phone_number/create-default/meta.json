@@ -3,8 +3,12 @@
   "title": "Create Incoming Phone Number",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "phone_number": "+15017122661"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers.json",
     "method": "post",

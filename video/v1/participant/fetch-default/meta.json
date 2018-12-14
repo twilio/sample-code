@@ -4,7 +4,10 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Participants/{sid}",
     "method": "get",

@@ -4,7 +4,12 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "session_sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "participant_sid": "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{session_sid}/Participants/{participant_sid}/MessageInteractions/{sid}",
     "method": "get",

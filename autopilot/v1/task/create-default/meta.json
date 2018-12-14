@@ -3,8 +3,12 @@
   "title": "Create Task",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "unique_name": "unique_name"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks",
     "method": "post",

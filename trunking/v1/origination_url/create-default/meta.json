@@ -3,8 +3,16 @@
   "title": "Create Origination Url",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "weight": "1",
+        "priority": "1",
+        "enabled": true,
+        "friendly_name": "friendly_name",
+        "sip_url": "https://example.com"
+      },
+      "path": {
+        "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/OriginationUrls",
     "method": "post",

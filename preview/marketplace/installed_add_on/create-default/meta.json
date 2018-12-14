@@ -3,7 +3,10 @@
   "title": "Create Installed Add On",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "available_add_on_sid": "XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "accept_terms_of_service": true
+      },
       "path": {}
     },
     "location": "https://preview.twilio.com/marketplace/InstalledAddOns",

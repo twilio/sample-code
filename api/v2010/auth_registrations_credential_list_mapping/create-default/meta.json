@@ -3,8 +3,13 @@
   "title": "Create Auth Registrations Credential List Mapping",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "credential_list_sid": "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "domain_sid": "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SIP/Domains/{domain_sid}/Auth/Registrations/CredentialListMappings.json",
     "method": "post",

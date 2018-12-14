@@ -4,7 +4,10 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://proxy.twilio.com/v1/Services/{service_sid}/PhoneNumbers/{sid}",
     "method": "get",

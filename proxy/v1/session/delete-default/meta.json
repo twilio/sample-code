@@ -4,7 +4,10 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{sid}",
     "method": "delete",

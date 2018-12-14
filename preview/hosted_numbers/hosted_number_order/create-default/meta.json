@@ -3,7 +3,10 @@
   "title": "Create Hosted Number Order",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "phone_number": "+15017122661",
+        "sms_capability": true
+      },
       "path": {}
     },
     "location": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders",

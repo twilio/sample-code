@@ -7,7 +7,10 @@
     "params": {
       "required": {
         "body": "Hello Bob",
-        "to_binding": "{\"binding_type\":\"sms\",\"address\":\"+15555555555\"}"
+        "to_binding": "{\"binding_type\":\"sms\",\"address\":\"+15555555555\"}",
+        "identity": [
+          "identity"
+        ]
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

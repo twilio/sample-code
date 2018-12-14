@@ -3,7 +3,9 @@
   "title": "Create Public Key",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "public_key": "publickey"
+      },
       "path": {}
     },
     "location": "https://accounts.twilio.com/v1/Credentials/PublicKeys",

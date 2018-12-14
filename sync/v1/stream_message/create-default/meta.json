@@ -3,8 +3,13 @@
   "title": "Create Stream Message",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "data": {}
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "stream_sid": "TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Streams/{stream_sid}/Messages",
     "method": "post",

@@ -3,8 +3,12 @@
   "title": "Create Ip Access Control List",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "ip_access_control_list_sid": "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/IpAccessControlLists",
     "method": "post",

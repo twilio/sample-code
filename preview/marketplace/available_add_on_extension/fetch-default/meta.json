@@ -4,7 +4,10 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "available_add_on_sid": "XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://preview.twilio.com/marketplace/AvailableAddOns/{available_add_on_sid}/Extensions/{sid}",
     "method": "get",

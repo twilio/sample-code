@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Members/{sid}",
     "method": "get",

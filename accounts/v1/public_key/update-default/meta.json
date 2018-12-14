@@ -3,8 +3,12 @@
   "title": "Update Public Key",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "friendly_name": "friendly_name"
+      },
+      "path": {
+        "sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://accounts.twilio.com/v1/Credentials/PublicKeys/{sid}",
     "method": "post",

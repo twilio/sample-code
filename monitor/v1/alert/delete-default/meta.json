@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "sid": "NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://monitor.twilio.com/v1/Alerts/{sid}",
     "method": "delete",

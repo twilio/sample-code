@@ -3,8 +3,13 @@
   "title": "Update Deployment",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "friendly_name": "friendly_name"
+      },
+      "path": {
+        "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Deployments/{sid}",
     "method": "post",

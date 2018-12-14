@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "signing_document_sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/{signing_document_sid}/DependentHostedNumberOrders",
     "method": "get",

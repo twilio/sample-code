@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "fax_sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://fax.twilio.com/v1/Faxes/{fax_sid}/Media",
     "method": "get",

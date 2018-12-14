@@ -3,8 +3,13 @@
   "title": "Update User",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://chat.twilio.com/v1/Services/{service_sid}/Users/{sid}",
     "method": "post",

@@ -3,8 +3,14 @@
   "title": "Create Participant",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "from": "+15017122661",
+        "to": "+15558675310"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "conference_sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Conferences/{conference_sid}/Participants.json",
     "method": "post",

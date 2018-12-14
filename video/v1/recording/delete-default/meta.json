@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "sid": "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://video.twilio.com/v1/Recordings/{sid}",
     "method": "delete",

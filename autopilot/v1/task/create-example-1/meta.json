@@ -4,7 +4,6 @@
   "_definition": {
     "params": {
       "required": {
-        "unique_name": "tell-a-joke",
         "friendly_name": "tell-a-joke",
         "actions": {
           "actions": [
@@ -14,7 +13,8 @@
               }
             }
           ]
-        }
+        },
+        "unique_name": "tell-a-joke"
       },
       "path": {
         "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

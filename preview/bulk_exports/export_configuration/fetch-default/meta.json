@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "resource_type": "resource_type"
+      }
     },
     "location": "https://preview.twilio.com/BulkExports/Exports/{resource_type}/Configuration",
     "method": "get",

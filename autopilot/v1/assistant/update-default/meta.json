@@ -3,8 +3,12 @@
   "title": "Update Assistant",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "friendly_name": "friendly_name"
+      },
+      "path": {
+        "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{sid}",
     "method": "post",

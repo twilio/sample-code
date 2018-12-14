@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "flow_sid": "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "engagement_sid": "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Engagements/{engagement_sid}/Steps/{sid}",
     "method": "get",

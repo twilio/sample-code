@@ -7,6 +7,8 @@
         "status": "paused"
       },
       "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "conference_sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "sid": "Twilio.CURRENT"
       }
     },

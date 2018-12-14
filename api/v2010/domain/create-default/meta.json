@@ -3,8 +3,12 @@
   "title": "Create Domain",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "domain_name": "domain_name"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SIP/Domains.json",
     "method": "post",

@@ -5,9 +5,9 @@
   "_definition": {
     "params": {
       "required": {
-        "friendly_name": "Upload encrypted",
         "encryption_enabled": true,
-        "encryption_key_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        "encryption_key_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "friendly_name": "Upload encrypted"
       },
       "path": {}
     },

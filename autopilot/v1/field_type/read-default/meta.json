@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/FieldTypes",
     "method": "get",

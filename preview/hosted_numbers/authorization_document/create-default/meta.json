@@ -3,7 +3,15 @@
   "title": "Create Authorization Document",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "hosted_number_order_sids": [
+          "hosted_number_order_sids"
+        ],
+        "address_sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "email": "email",
+        "contact_title": "contact_title",
+        "contact_phone_number": "contact_phone_number"
+      },
       "path": {}
     },
     "location": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments",

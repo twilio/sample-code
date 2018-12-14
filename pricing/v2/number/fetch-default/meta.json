@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "destination_number": "+15017122661"
+      }
     },
     "location": "https://pricing.twilio.com/v2/Voice/Numbers/{destination_number}",
     "method": "get",

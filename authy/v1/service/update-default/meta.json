@@ -3,8 +3,12 @@
   "title": "Update Service",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "friendly_name": "friendly_name"
+      },
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://authy.twilio.com/v1/Services/{sid}",
     "method": "post",

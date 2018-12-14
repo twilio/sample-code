@@ -5,9 +5,9 @@
   "_definition": {
     "params": {
       "required": {
-        "from": "Jack",
+        "url": "http://www.example.com/sipdial.xml",
         "to": "sip:kate@example.com",
-        "url": "http://www.example.com/sipdial.xml"
+        "from": "Jack"
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

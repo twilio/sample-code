@@ -3,8 +3,12 @@
   "title": "Update Defaults",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "defaults": {}
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Defaults",
     "method": "post",

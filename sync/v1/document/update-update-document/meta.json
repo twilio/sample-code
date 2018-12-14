@@ -5,7 +5,9 @@
   "_definition": {
     "params": {
       "required": {
-        "data": "{\"led\": \"ON\"}"
+        "data": {
+          "led": "ON"
+        }
       },
       "path": {
         "service_sid": "default",

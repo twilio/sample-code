@@ -3,8 +3,12 @@
   "title": "Update Sim",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "unique_name": "unique_name"
+      },
+      "path": {
+        "sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://wireless.twilio.com/v1/Sims/{sid}",
     "method": "post",

@@ -3,8 +3,14 @@
   "title": "Create Message Interaction",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "body": "body"
+      },
+      "path": {
+        "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "session_sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "participant_sid": "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{session_sid}/Participants/{participant_sid}/MessageInteractions",
     "method": "post",

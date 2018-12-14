@@ -10,7 +10,9 @@
           }
         }
       },
-      "path": {}
+      "path": {
+        "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{sid}",
     "method": "post",

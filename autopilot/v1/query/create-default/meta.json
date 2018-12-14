@@ -3,8 +3,13 @@
   "title": "Create Query",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "language": "language",
+        "query": "query"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Queries",
     "method": "post",

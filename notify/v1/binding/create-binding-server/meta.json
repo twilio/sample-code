@@ -5,11 +5,11 @@
   "_definition": {
     "params": {
       "required": {
-        "address": "gcm_device_token",
-        "binding_type": "gcm",
         "endpoint": "XXXXXXXXXXXXXXX",
+        "tag": "premium",
         "identity": "00000001",
-        "tag": "premium"
+        "binding_type": "gcm",
+        "address": "gcm_device_token"
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

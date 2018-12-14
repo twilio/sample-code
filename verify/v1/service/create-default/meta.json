@@ -3,7 +3,9 @@
   "title": "Create Service",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "friendly_name": "friendly_name"
+      },
       "path": {}
     },
     "location": "https://verify.twilio.com/v1/Services",

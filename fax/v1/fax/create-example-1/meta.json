@@ -6,8 +6,8 @@
     "params": {
       "required": {
         "from": "Jack",
-        "media_url": "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf",
-        "to": "sip:kate@example.com"
+        "to": "sip:kate@example.com",
+        "media_url": "https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf"
       },
       "path": {}
     },

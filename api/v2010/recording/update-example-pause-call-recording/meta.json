@@ -4,10 +4,12 @@
   "_definition": {
     "params": {
       "required": {
-        "status": "paused",
-        "pause_behavior": "skip"
+        "pause_behavior": "skip",
+        "status": "paused"
       },
       "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       }
     },

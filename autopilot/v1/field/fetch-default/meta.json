@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "task_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks/{task_sid}/Fields/{sid}",
     "method": "get",

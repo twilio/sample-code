@@ -5,8 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "command": "wakeup",
-        "sim": "AliceSmithSmartMeter"
+        "sim": "AliceSmithSmartMeter",
+        "command": "wakeup"
       },
       "path": {}
     },

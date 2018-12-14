@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://wireless.twilio.com/v1/Sims/{sim_sid}/UsageRecords",
     "method": "get",

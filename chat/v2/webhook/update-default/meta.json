@@ -3,8 +3,14 @@
   "title": "Update Webhook",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "configuration.url": "configuration.url"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Webhooks/{sid}",
     "method": "post",

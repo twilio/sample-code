@@ -3,8 +3,13 @@
   "title": "Update Session",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "date_expiry": "2008-01-02"
+      },
+      "path": {
+        "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{sid}",
     "method": "post",

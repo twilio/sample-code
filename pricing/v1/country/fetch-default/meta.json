@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "iso_country": "US"
+      }
     },
     "location": "https://pricing.twilio.com/v1/Voice/Countries/{iso_country}",
     "method": "get",

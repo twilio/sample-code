@@ -3,8 +3,13 @@
   "title": "Update Sync List",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "ttl": "1"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Lists/{sid}",
     "method": "post",

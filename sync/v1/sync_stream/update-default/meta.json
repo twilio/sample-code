@@ -3,8 +3,13 @@
   "title": "Update Sync Stream",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "ttl": "1"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Streams/{sid}",
     "method": "post",

@@ -3,7 +3,9 @@
   "title": "Create Aws",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "credentials": "AKIAIOSFODNN7EXAMPLE:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+      },
       "path": {}
     },
     "location": "https://accounts.twilio.com/v1/Credentials/AWS",

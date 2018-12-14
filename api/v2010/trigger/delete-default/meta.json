@@ -4,7 +4,10 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Usage/Triggers/{sid}.json",
     "method": "delete",

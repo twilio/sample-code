@@ -3,8 +3,15 @@
   "title": "Update Challenge",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "auth_payload": "auth_payload"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "identity",
+        "factor_sid": "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "sid"
+      }
     },
     "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors/{factor_sid}/Challenges/{sid}",
     "method": "post",
