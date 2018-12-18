@@ -5,12 +5,12 @@
   "_definition": {
     "params": {
       "required": {
-        "from": "+18668675310",
         "method": "GET",
         "status_callback": "https://www.myapp.com/events",
         "status_callback_method": "POST",
+        "url": "http://demo.twilio.com/docs/voice.xml",
         "to": "+14155551212",
-        "url": "http://demo.twilio.com/docs/voice.xml"
+        "from": "+18668675310"
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

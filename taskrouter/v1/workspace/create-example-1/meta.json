@@ -6,8 +6,8 @@
     "params": {
       "required": {
         "event_callback_url": "http://requestb.in/vh9reovh",
-        "friendly_name": "NewWorkspace",
-        "template": "FIFO"
+        "template": "FIFO",
+        "friendly_name": "NewWorkspace"
       },
       "path": {}
     },

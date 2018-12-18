@@ -3,8 +3,12 @@
   "title": "Update Workspace",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "default_activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://taskrouter.twilio.com/v1/Workspaces/{sid}",
     "method": "post",

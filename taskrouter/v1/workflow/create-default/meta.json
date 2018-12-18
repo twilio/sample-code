@@ -3,8 +3,13 @@
   "title": "Create Workflow",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "friendly_name": "friendly_name",
+        "configuration": "configuration"
+      },
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workflows",
     "method": "post",

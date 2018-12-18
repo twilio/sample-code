@@ -3,8 +3,12 @@
   "title": "Update Hosted Number Order",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "friendly_name": "friendly_name"
+      },
+      "path": {
+        "sid": "HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/{sid}",
     "method": "post",

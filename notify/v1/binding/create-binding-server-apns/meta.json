@@ -6,11 +6,11 @@
   "_definition": {
     "params": {
       "required": {
-        "address": "apn_device_token",
-        "binding_type": "apn",
         "endpoint": "endpoint_id",
+        "tag": "preferred device",
         "identity": "00000001",
-        "tag": "preferred device"
+        "binding_type": "apn",
+        "address": "apn_device_token"
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

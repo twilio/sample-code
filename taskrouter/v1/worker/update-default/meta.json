@@ -3,8 +3,13 @@
   "title": "Update Worker",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "activity_sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workers/{sid}",
     "method": "post",

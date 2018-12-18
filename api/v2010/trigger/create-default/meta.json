@@ -3,8 +3,14 @@
   "title": "Create Trigger",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "callback_url": "https://example.com",
+        "trigger_value": "trigger_value",
+        "usage_category": "answering-machine-detection"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Usage/Triggers.json",
     "method": "post",

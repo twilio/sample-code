@@ -5,8 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "start_time<": "2009-07-06T00:00:00Z",
-        "start_time>": "2009-07-04T00:00:00Z",
+        "start_time_before": "2009-07-06T00:00:00Z",
+        "start_time_after": "2009-07-04T00:00:00Z",
         "status": "in-progress"
       },
       "path": {

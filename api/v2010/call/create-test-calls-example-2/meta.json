@@ -5,9 +5,9 @@
   "_definition": {
     "params": {
       "required": {
-        "from": "+15005550006",
+        "url": "http://demo.twilio.com/docs/voice.xml",
         "to": "+15005550003",
-        "url": "http://demo.twilio.com/docs/voice.xml"
+        "from": "+15005550006"
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

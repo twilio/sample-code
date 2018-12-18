@@ -3,8 +3,17 @@
   "title": "Create Address",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "customer_name": "customer_name",
+        "street": "street",
+        "city": "city",
+        "region": "region",
+        "postal_code": "postal_code",
+        "iso_country": "US"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Addresses.json",
     "method": "post",

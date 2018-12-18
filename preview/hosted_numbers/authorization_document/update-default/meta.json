@@ -3,8 +3,14 @@
   "title": "Update Authorization Document",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "hosted_number_order_sids": [
+          "hosted_number_order_sids"
+        ]
+      },
+      "path": {
+        "sid": "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://preview.twilio.com/HostedNumbers/AuthorizationDocuments/{sid}",
     "method": "post",

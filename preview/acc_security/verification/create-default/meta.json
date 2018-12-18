@@ -3,8 +3,13 @@
   "title": "Create Verification",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "to": "to",
+        "channel": "channel"
+      },
+      "path": {
+        "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://preview.twilio.com/Verification/Services/{service_sid}/Verifications",
     "method": "post",

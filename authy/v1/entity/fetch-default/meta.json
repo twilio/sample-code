@@ -4,7 +4,10 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "identity"
+      }
     },
     "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}",
     "method": "get",

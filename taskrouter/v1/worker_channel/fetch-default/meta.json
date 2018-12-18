@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "worker_sid": "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://taskrouter.twilio.com/v1/Workspaces/{workspace_sid}/Workers/{worker_sid}/Channels/{sid}",
     "method": "get",

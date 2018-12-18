@@ -3,8 +3,14 @@
   "title": "Update Factor",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "auth_payload": "auth_payload"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "identity",
+        "sid": "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors/{sid}",
     "method": "post",

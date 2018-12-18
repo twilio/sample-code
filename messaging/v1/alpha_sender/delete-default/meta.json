@@ -4,7 +4,10 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "AIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://messaging.twilio.com/v1/Services/{service_sid}/AlphaSenders/{sid}",
     "method": "delete",

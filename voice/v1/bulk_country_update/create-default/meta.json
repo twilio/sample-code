@@ -3,7 +3,9 @@
   "title": "Create Bulk Country Update",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "update_request": "update_request"
+      },
       "path": {}
     },
     "location": "https://voice.twilio.com/v1/DialingPermissions/BulkCountryUpdates",

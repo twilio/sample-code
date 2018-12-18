@@ -3,8 +3,12 @@
   "title": "Create Certificate",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "certificate_data": "certificate_data"
+      },
+      "path": {
+        "fleet_sid": "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://preview.twilio.com/DeployedDevices/Fleets/{fleet_sid}/Certificates",
     "method": "post",

@@ -5,9 +5,9 @@
   "_definition": {
     "params": {
       "required": {
-        "from": "+14158141829",
+        "url": "http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount",
         "to": "+16518675310",
-        "url": "http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount"
+        "from": "+14158141829"
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

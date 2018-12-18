@@ -3,8 +3,12 @@
   "title": "Create Phone Number",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/PhoneNumbers",
     "method": "post",

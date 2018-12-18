@@ -3,8 +3,13 @@
   "title": "Create Engagement",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "to": "+15558675310",
+        "from": "+15017122661"
+      },
+      "path": {
+        "flow_sid": "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Engagements",
     "method": "post",

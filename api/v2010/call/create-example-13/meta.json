@@ -5,11 +5,11 @@
   "_definition": {
     "params": {
       "required": {
-        "from": "+18668675310",
         "method": "GET",
         "send_digits": "1234#",
+        "url": "http://demo.twilio.com/docs/voice.xml",
         "to": "+14155551212",
-        "url": "http://demo.twilio.com/docs/voice.xml"
+        "from": "+18668675310"
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

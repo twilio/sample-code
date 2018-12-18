@@ -3,8 +3,13 @@
   "title": "Update Model Build",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "unique_name": "unique_name"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/ModelBuilds/{sid}",
     "method": "post",

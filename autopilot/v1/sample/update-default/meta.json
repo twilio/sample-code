@@ -3,8 +3,14 @@
   "title": "Update Sample",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "language": "language"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "task_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks/{task_sid}/Samples/{sid}",
     "method": "post",

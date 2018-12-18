@@ -3,8 +3,13 @@
   "title": "Update Phone Number",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "is_reserved": true
+      },
+      "path": {
+        "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://proxy.twilio.com/v1/Services/{service_sid}/PhoneNumbers/{sid}",
     "method": "post",

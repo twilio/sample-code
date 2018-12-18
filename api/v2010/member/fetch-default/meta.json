@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "queue_sid": "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Queues/{queue_sid}/Members/{call_sid}.json",
     "method": "get",

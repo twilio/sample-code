@@ -8,8 +8,8 @@
   "_definition": {
     "params": {
       "required": {
-        "friendly_name": "My First Service",
-        "status_callback": "http://requestb.in/1234abcd"
+        "status_callback": "http://requestb.in/1234abcd",
+        "friendly_name": "My First Service"
       },
       "path": {}
     },

@@ -5,12 +5,12 @@
   "_definition": {
     "params": {
       "required": {
-        "city": "Racoon",
         "customer_name": "Customer 500",
-        "iso_country": "AX",
-        "postal_code": "150",
+        "street": "Elm Street",
+        "city": "Racoon",
         "region": "Mordor",
-        "street": "Elm Street"
+        "postal_code": "150",
+        "iso_country": "AX"
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

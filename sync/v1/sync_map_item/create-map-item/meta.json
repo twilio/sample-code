@@ -5,9 +5,13 @@
   "_definition": {
     "params": {
       "required": {
-        "data": "{\"name\": \"Stephen Curry\", \"level\": 30, \"username\": \"spicy_curry\"}",
+        "ttl": "864000",
         "key": "steph_curry",
-        "ttl": "864000"
+        "data": {
+          "name": "Stephen Curry",
+          "level": 30,
+          "username": "spicy_curry"
+        }
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

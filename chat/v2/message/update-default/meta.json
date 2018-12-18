@@ -3,8 +3,14 @@
   "title": "Update Message",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "body": "body"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Messages/{sid}",
     "method": "post",

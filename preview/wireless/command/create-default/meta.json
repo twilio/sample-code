@@ -3,7 +3,9 @@
   "title": "Create Command",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "command": "command"
+      },
       "path": {}
     },
     "location": "https://preview.twilio.com/wireless/Commands",

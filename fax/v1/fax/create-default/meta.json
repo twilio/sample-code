@@ -3,7 +3,10 @@
   "title": "Create Fax",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "to": "to",
+        "media_url": "https://example.com"
+      },
       "path": {}
     },
     "location": "https://fax.twilio.com/v1/Faxes",

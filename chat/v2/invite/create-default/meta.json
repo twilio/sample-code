@@ -3,8 +3,13 @@
   "title": "Create Invite",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "identity": "identity"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://chat.twilio.com/v2/Services/{service_sid}/Channels/{channel_sid}/Invites",
     "method": "post",

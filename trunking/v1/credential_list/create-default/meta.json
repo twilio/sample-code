@@ -3,8 +3,12 @@
   "title": "Create Credential List",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "credential_list_sid": "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://trunking.twilio.com/v1/Trunks/{trunk_sid}/CredentialLists",
     "method": "post",

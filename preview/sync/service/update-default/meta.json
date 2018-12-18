@@ -3,8 +3,12 @@
   "title": "Update Service",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "webhook_url": "https://example.com"
+      },
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://preview.twilio.com/Sync/Services/{sid}",
     "method": "post",

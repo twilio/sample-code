@@ -7,6 +7,8 @@
         "status": "stopped"
       },
       "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "conference_sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       }
     },

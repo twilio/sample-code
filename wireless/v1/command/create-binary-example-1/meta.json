@@ -5,9 +5,9 @@
   "_definition": {
     "params": {
       "required": {
-        "command": "SGVsbG8sIE1hY2hpbmUh==",
         "command_mode": "binary",
-        "sim": "AliceSmithSmartMeter"
+        "sim": "AliceSmithSmartMeter",
+        "command": "SGVsbG8sIE1hY2hpbmUh=="
       },
       "path": {}
     },

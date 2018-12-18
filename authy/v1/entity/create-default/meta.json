@@ -3,8 +3,12 @@
   "title": "Create Entity",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "identity": "identity"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities",
     "method": "post",

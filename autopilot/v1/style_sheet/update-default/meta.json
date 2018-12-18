@@ -3,8 +3,12 @@
   "title": "Update Style Sheet",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "style_sheet": {}
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/StyleSheet",
     "method": "post",

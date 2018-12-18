@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "phone_number": "+15017122661"
+      }
     },
     "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
     "method": "get",

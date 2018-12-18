@@ -5,7 +5,11 @@
   "_definition": {
     "params": {
       "required": {
-        "data": "{\"id\": \"bob\", \"x\": 256, \"y\": 42}"
+        "data": {
+          "id": "bob",
+          "x": 256,
+          "y": 42
+        }
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

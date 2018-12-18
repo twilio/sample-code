@@ -3,8 +3,14 @@
   "title": "Update Member",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "role_sid": "RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "channel_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://chat.twilio.com/v1/Services/{service_sid}/Channels/{channel_sid}/Members/{sid}",
     "method": "post",

@@ -3,8 +3,16 @@
   "title": "Update Document Permission",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "read": true,
+        "write": true,
+        "manage": true
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "document_sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "identity"
+      }
     },
     "location": "https://preview.twilio.com/Sync/Services/{service_sid}/Documents/{document_sid}/Permissions/{identity}",
     "method": "post",

@@ -3,8 +3,13 @@
   "title": "Create Feedback Summary",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "start_date": "2008-01-02",
+        "end_date": "2008-01-02"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Calls/FeedbackSummary.json",
     "method": "post",

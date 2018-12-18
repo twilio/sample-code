@@ -3,8 +3,12 @@
   "title": "Update Installed Add On",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "configuration": {}
+      },
+      "path": {
+        "sid": "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://preview.twilio.com/marketplace/InstalledAddOns/{sid}",
     "method": "post",

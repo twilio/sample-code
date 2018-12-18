@@ -4,7 +4,9 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "iso_code": "US"
+      }
     },
     "location": "https://voice.twilio.com/v1/DialingPermissions/Countries/{iso_code}",
     "method": "get",
