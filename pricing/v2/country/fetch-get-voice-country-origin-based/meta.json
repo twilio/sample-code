@@ -1,0 +1,18 @@
+{
+  "title": "Find Voice Prices for Estonia",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "iso_country": "EE"
+      }
+    },
+    "location": "https://pricing.twilio.com/v2/Voice/Countries/{iso_country}",
+    "method": "get",
+    "domain": "pricing",
+    "version": "v2",
+    "resource": "voice_country",
+    "action": "fetch"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "country": "Iran",
+  "inbound_call_price": {
+    "base_price": null,
+    "current_price": null,
+    "number_type": null
+  },
+  "iso_country": "IR",
+  "number": "+15108675310",
+  "outbound_call_price": {
+    "base_price": "0.255",
+    "current_price": "0.255"
+  },
+  "price_unit": "USD",
+  "url": "https://pricing.twilio.com/v1/Voice/Numbers/+987654321"
+}
