@@ -1,0 +1,20 @@
+{
+  "title": "Get Voice Prices for Number by Origination Number",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "origination_number": "+15108675310"
+      },
+      "path": {
+        "destination_number": "+15017122661"
+      }
+    },
+    "location": "https://pricing.twilio.com/v2/Voice/Numbers/{destination_number}",
+    "method": "get",
+    "domain": "pricing",
+    "version": "v2",
+    "resource": "voice_number",
+    "action": "fetch"
+  }
+}
