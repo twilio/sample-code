@@ -6,5 +6,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.pricing.voice.numbers('+15017122661')
                     .fetch({originationNumber: '+15108675310'})
-                    .then(number => console.log(number.destinationNumber))
+                    .then(number => console.log(number.outboundCallPrices))
                     .done();

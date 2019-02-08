@@ -17,6 +17,6 @@ public class Example {
                 new com.twilio.type.PhoneNumber("+15108675310"))
             .fetch();
 
-        System.out.println(number.getDestinationNumber());
+        System.out.println(number.getOutboundCallPrices());
     }
 }

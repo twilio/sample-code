@@ -11,4 +11,4 @@ number = client.pricing.voice \
                        .numbers('+15017122661') \
                        .fetch(origination_number='+15108675310')
 
-print(number.destination_number)
+print(number.outbound_call_prices)
