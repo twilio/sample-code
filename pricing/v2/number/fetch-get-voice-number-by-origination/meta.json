@@ -1,6 +1,7 @@
 {
   "title": "Get Voice Prices for Number by Origination Number",
   "type": "server",
+  "output_property": "outbound_call_prices",
   "_definition": {
     "params": {
       "required": {

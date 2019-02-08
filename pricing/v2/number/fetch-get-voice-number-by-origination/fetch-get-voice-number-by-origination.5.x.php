@@ -18,4 +18,4 @@ $number = $twilio->pricing->v2->voice
                                       )
                               );
 
-print($number->destinationNumber);
+print($number->outboundCallPrices);

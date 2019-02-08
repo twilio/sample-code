@@ -20,6 +20,6 @@ class Program
             pathDestinationNumber: new Twilio.Types.PhoneNumber("+15017122661")
         );
 
-        Console.WriteLine(number.DestinationNumber);
+        Console.WriteLine(number.OutboundCallPrices);
     }
 }
