@@ -1,0 +1,21 @@
+{
+  "tags": [
+      "messaging"
+  ],
+  "title": "Start a new Session",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "messaging_service_sid": "MG2172dd2db502e20dd981ef0d67850e1a"
+      },
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session",
+    "action": "create"
+  }
+}

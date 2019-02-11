@@ -1,0 +1,13 @@
+# Download the helper library from https://www.twilio.com/docs/ruby/install
+require 'rubygems'
+require 'twilio-ruby'
+
+# Your Account Sid and Auth Token from twilio.com/console
+account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+auth_token = 'your_auth_token'
+@client = Twilio::REST::Client.new(account_sid, auth_token)
+
+session = @client.messaging.sessions('CH2172dd2db502e20dd981ef0d67850e1a')
+                           .fetch
+
+puts session.friendly_name

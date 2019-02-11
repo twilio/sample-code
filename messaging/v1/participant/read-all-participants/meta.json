@@ -1,0 +1,21 @@
+{
+  "tags": [
+      "messaging"
+  ],
+  "title": "List all participants in a Session",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{session_sid}/Participants",
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_participant",
+    "action": "read"
+  }
+}

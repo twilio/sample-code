@@ -1,0 +1,23 @@
+{
+  "tags": [
+      "messaging"
+  ],
+  "title": "Add Metadata to an ongoing Session",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "attributes": "{ product-under-discussion: \"hair care\" }"
+      },
+      "path": {
+        "sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{sid}",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session",
+    "action": "update"
+  }
+}

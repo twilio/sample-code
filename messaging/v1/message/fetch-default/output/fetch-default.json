@@ -1,0 +1,14 @@
+{
+  "sid": "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "messaging_service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "body": "Hello",
+  "attributes": {},
+  "author": "system",
+  "date_created": "2016-03-24T20:37:57Z",
+  "date_updated": "2016-03-24T20:37:57Z",
+  "index": 0,
+  "url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}

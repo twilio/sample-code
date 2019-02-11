@@ -1,0 +1,31 @@
+{
+  "sessions": [
+    {
+      "sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "messaging_service_sid": "MG80af39294fe338b3848294685d097e04",
+      "friendly_name": "friendly_name",
+      "attributes": {
+        "foo": "bar"
+      },
+      "date_created": "2015-12-16T22:18:37Z",
+      "date_updated": "2015-12-16T22:18:38Z",
+      "created_by": "creator",
+      "url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "links": {
+        "participants": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants",
+        "messages": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages"
+      }
+    }
+  ],
+  "meta": {
+    "page": 0,
+    "page_size": 50,
+    "first_page_url": "https://messaging.twilio.com/v1/Sessions?PageSize=50&Page=0",
+    "previous_page_url": "https://messaging.twilio.com/v1/Sessions?PageSize=50&Page=0",
+    "url": "https://messaging.twilio.com/v1/Sessions?PageSize=50&Page=0",
+    "next_page_url": "https://messaging.twilio.com/v1/Sessions?PageSize=50&Page=1",
+    "key": "sessions"
+  }
+}
