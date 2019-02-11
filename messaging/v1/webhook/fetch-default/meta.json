@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Webhook",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/Webhooks",
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_webhook",
+    "action": "fetch"
+  }
+}

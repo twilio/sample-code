@@ -1,0 +1,23 @@
+{
+  "tags": [
+      "messaging"
+  ],
+  "title": "Connect someone to a Session over Chat",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "identity": "<chat-user-identity>"
+      },
+      "path": {
+        "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{session_sid}/Participants",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_participant",
+    "action": "create"
+  }
+}

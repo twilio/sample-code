@@ -1,0 +1,17 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "messaging_service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "identity": "<chat-user-identity>",
+  "attributes": {
+    "foo": "bar"
+  },
+  "date_created": "2015-12-16T22:18:37Z",
+  "date_updated": "2015-12-16T22:18:38Z",
+  "type": "chat",
+  "twilio_address": "+111111",
+  "user_address": "+999999",
+  "url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}

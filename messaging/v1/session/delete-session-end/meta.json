@@ -1,0 +1,21 @@
+{
+  "tags": [
+      "messaging"
+  ],
+  "title": "End a Session",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "CH2172dd2db502e20dd981ef0d67850e1a"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{sid}",
+    "method": "delete",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session",
+    "action": "delete"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tags": [
+      "messaging"
+  ],
+  "title": "Add a message from 'system' to an ongoing Session",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "body": "Be aware, this conversation is being monitored."
+      },
+      "path": {
+        "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{session_sid}/Messages",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_message",
+    "action": "create"
+  }
+}

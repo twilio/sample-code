@@ -1,0 +1,18 @@
+{
+  "type": "server",
+  "title": "Create Message",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{session_sid}/Messages",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_message",
+    "action": "create"
+  }
+}

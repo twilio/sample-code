@@ -1,0 +1,18 @@
+{
+  "type": "server",
+  "title": "Update Webhook",
+  "_definition": {
+    "params": {
+      "required": {
+        "webhook_method": "webhook_method"
+      },
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/Webhooks",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_webhook",
+    "action": "update"
+  }
+}

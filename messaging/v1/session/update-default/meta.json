@@ -1,0 +1,20 @@
+{
+  "type": "server",
+  "title": "Update Session",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "friendly_name"
+      },
+      "path": {
+        "sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{sid}",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session",
+    "action": "update"
+  }
+}
