@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .phoneNumbers
                .create({phoneNumberSid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
-               .then(phone_number => console.log(phone_number.sid))
-               .done();
+               .then(phone_number => console.log(phone_number.sid));

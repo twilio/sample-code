@@ -11,5 +11,4 @@ client.video.rooms
                type: 'group-small',
                uniqueName: 'SmallDailyStandup'
              })
-            .then(room => console.log(room.sid))
-            .done();
+            .then(room => console.log(room.sid));

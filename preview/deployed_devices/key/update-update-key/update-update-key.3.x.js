@@ -11,5 +11,4 @@ client.preview.deployed_devices
                  deviceSid: 'THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                  friendlyName: 'My New Device Key'
                })
-              .then(key => console.log(key.friendlyName))
-              .done();
+              .then(key => console.log(key.friendlyName));

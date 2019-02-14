@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.authy.forms('form-app-push')
             .fetch()
-            .then(form => console.log(form.formType))
-            .done();
+            .then(form => console.log(form.formType));

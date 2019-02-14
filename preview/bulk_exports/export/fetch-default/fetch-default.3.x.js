@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.bulk_exports
               .exports('resourceType')
               .fetch()
-              .then(export_ => console.log(export_.resourceType))
-              .done();
+              .then(export_ => console.log(export_.resourceType));

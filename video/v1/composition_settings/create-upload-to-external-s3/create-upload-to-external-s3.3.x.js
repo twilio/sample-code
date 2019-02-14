@@ -11,5 +11,4 @@ client.video.compositionSettings()
      awsCredentialsSid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
      friendlyName: 'Upload to external bucket'
    })
-  .then(composition_settings => console.log(composition_settings.friendlyName))
-  .done();
+  .then(composition_settings => console.log(composition_settings.friendlyName));

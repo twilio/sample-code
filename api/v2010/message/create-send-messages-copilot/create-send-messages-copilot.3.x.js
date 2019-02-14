@@ -10,5 +10,4 @@ client.messages
          messagingServiceSid: 'MG9752274e9e519418a7406176694466fa',
          to: '+441632960675'
        })
-      .then(message => console.log(message.sid))
-      .done();
+      .then(message => console.log(message.sid));

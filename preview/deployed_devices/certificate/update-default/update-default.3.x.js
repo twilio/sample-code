@@ -8,5 +8,4 @@ client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .certificates('CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .update({friendlyName: 'friendlyName'})
-              .then(certificate => console.log(certificate.friendlyName))
-              .done();
+              .then(certificate => console.log(certificate.friendlyName));

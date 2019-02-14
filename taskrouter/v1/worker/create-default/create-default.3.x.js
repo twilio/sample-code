@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .workers
                  .create({friendlyName: 'friendlyName'})
-                 .then(worker => console.log(worker.sid))
-                 .done();
+                 .then(worker => console.log(worker.sid));

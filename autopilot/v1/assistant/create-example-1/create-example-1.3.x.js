@@ -14,5 +14,4 @@ client.autopilot.assistants
                      }
                  }
                  })
-                .then(assistant => console.log(assistant.sid))
-                .done();
+                .then(assistant => console.log(assistant.sid));

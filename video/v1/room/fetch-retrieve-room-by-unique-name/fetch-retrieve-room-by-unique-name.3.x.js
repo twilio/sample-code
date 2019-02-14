@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.video.rooms('DailyStandup')
             .fetch()
-            .then(room => console.log(room.uniqueName))
-            .done();
+            .then(room => console.log(room.uniqueName));

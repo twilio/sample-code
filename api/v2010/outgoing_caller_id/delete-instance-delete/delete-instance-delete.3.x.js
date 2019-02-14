@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.outgoingCallerIds('PNe536d32a3c49700934481addd5ce1659')
       .remove()
-      .then(outgoing_caller_id => console.log(outgoing_caller_id.sid))
-      .done();
+      .then(outgoing_caller_id => console.log(outgoing_caller_id.sid));

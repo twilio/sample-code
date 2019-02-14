@@ -8,5 +8,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fields('UEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fetch()
-                .then(field => console.log(field.uniqueName))
-                .done();
+                .then(field => console.log(field.uniqueName));

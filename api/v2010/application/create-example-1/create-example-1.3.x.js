@@ -10,5 +10,4 @@ client.applications
          voiceUrl: 'http://demo.twilio.com/docs/voice.xml',
          friendlyName: 'Phone Me'
        })
-      .then(application => console.log(application.sid))
-      .done();
+      .then(application => console.log(application.sid));

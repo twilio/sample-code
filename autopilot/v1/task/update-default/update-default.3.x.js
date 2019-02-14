@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .update({friendlyName: 'friendlyName'})
-                .then(task => console.log(task.friendlyName))
-                .done();
+                .then(task => console.log(task.friendlyName));

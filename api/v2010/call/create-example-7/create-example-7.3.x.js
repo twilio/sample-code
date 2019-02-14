@@ -10,5 +10,4 @@ client.calls
          to: 'sip:kate@example.com?hatchkey=4815162342',
          from: 'Jack'
        })
-      .then(call => console.log(call.sid))
-      .done();
+      .then(call => console.log(call.sid));

@@ -11,5 +11,4 @@ client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
          recordingStatusCallbackEvent: 'in-progress completed',
          recordingChannels: 'dual'
        })
-      .then(recording => console.log(recording.sid))
-      .done();
+      .then(recording => console.log(recording.sid));

@@ -8,5 +8,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .workerChannels('WCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch()
-  .then(worker_channel => console.log(worker_channel.taskChannelUniqueName))
-  .done();
+  .then(worker_channel => console.log(worker_channel.taskChannelUniqueName));

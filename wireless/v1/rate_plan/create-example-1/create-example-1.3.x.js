@@ -10,5 +10,4 @@ client.wireless.ratePlans
                   messagingEnabled: true,
                   uniqueName: 'SmartMeterCA'
                 })
-               .then(rate_plan => console.log(rate_plan.sid))
-               .done();
+               .then(rate_plan => console.log(rate_plan.sid));

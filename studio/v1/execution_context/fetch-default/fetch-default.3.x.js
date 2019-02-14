@@ -5,8 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-             .executions('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-             .executionContext()
-             .fetch()
-             .then(execution_context => console.log(execution_context.context))
-             .done();
+      .executions('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+      .executionContext()
+      .fetch()
+      .then(execution_context => console.log(execution_context.context));

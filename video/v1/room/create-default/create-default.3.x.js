@@ -4,4 +4,4 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.video.rooms.create().then(room => console.log(room.sid)).done();
+client.video.rooms.create().then(room => console.log(room.sid));

@@ -10,5 +10,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     friendlyName: 'friendlyName',
                     configuration: 'configuration'
                   })
-                 .then(workflow => console.log(workflow.sid))
-                 .done();
+                 .then(workflow => console.log(workflow.sid));

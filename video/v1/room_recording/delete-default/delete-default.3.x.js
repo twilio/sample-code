@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .recordings('RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .remove()
-            .then(room_recording => console.log(room_recording.sid))
-            .done();
+            .then(room_recording => console.log(room_recording.sid));

@@ -8,5 +8,4 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .userBindings('BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .fetch()
-           .then(user_binding => console.log(user_binding.sid))
-           .done();
+           .then(user_binding => console.log(user_binding.sid));

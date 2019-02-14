@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .feedback
       .create()
-      .then(feedback => console.log(feedback.messageSid))
-      .done();
+      .then(feedback => console.log(feedback.messageSid));

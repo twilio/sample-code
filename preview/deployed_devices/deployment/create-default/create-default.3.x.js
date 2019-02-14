@@ -8,5 +8,4 @@ client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .deployments
               .create()
-              .then(deployment => console.log(deployment.sid))
-              .done();
+              .then(deployment => console.log(deployment.sid));

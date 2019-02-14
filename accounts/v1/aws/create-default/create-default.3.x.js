@@ -9,5 +9,4 @@ client.accounts.credentials
   .create({
      credentials: 'AKIAIOSFODNN7EXAMPLE:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
    })
-  .then(aws => console.log(aws.sid))
-  .done();
+  .then(aws => console.log(aws.sid));

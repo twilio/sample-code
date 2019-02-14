@@ -9,5 +9,4 @@ client.sync.services
               friendlyName: 'MySyncServiceInstance',
               webhookUrl: 'https://example.com/sync'
             })
-           .then(service => console.log(service.sid))
-           .done();
+           .then(service => console.log(service.sid));

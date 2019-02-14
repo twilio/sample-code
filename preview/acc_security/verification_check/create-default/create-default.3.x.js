@@ -8,5 +8,4 @@ client.preview.acc_security
               .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .verificationChecks
               .create({code: 'code'})
-              .then(verification_check => console.log(verification_check.sid))
-              .done();
+              .then(verification_check => console.log(verification_check.sid));

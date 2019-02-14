@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .remove()
-      .then(message => console.log(message.sid))
-      .done();
+      .then(message => console.log(message.sid));

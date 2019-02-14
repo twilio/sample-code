@@ -4,4 +4,4 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.trunking.trunks.create().then(trunk => console.log(trunk.sid)).done();
+client.trunking.trunks.create().then(trunk => console.log(trunk.sid));

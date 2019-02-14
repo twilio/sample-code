@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
-              .then(channel => console.log(channel.friendlyName))
-              .done();
+              .then(channel => console.log(channel.friendlyName));

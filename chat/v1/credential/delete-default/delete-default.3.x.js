@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.chat.v1.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .remove()
-              .then(credential => console.log(credential.sid))
-              .done();
+              .then(credential => console.log(credential.sid));

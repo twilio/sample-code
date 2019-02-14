@@ -15,5 +15,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
          }
        ]
    }})
-  .then(task => console.log(task.friendlyName))
-  .done();
+  .then(task => console.log(task.friendlyName));

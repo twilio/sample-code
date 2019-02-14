@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.messaging.sessions('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .messages('IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .update({author: 'author'})
-                .then(message => console.log(message.serviceSid))
-                .done();
+                .then(message => console.log(message.serviceSid));

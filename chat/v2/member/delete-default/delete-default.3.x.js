@@ -8,5 +8,4 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .members('MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .remove()
-           .then(member => console.log(member.sid))
-           .done();
+           .then(member => console.log(member.sid));

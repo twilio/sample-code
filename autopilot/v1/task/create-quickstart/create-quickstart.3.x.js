@@ -10,5 +10,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    friendlyName: 'tell a joke',
                    uniqueName: 'tell-a-joke'
                  })
-                .then(task => console.log(task.sid))
-                .done();
+                .then(task => console.log(task.sid));

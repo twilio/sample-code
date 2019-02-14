@@ -12,5 +12,4 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 name: 'Bulbasaur',
                 attack: 49
             }})
-           .then(sync_list_item => console.log(sync_list_item.index))
-           .done();
+           .then(sync_list_item => console.log(sync_list_item.index));

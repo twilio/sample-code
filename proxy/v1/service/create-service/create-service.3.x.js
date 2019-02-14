@@ -9,5 +9,4 @@ client.proxy.services
                callbackUrl: 'https://www.example.com/',
                uniqueName: 'My Awesome Service'
              })
-            .then(service => console.log(service.sid))
-            .done();
+            .then(service => console.log(service.sid));

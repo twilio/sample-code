@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MG2172dd2db502e20dd981ef0d67850e1a')
                 .update({inboundRequestUrl: 'http://www.example.com'})
-                .then(service => console.log(service.friendlyName))
-                .done();
+                .then(service => console.log(service.friendlyName));

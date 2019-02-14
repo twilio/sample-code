@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.acc_security
               .services
               .create({name: 'name'})
-              .then(service => console.log(service.sid))
-              .done();
+              .then(service => console.log(service.sid));

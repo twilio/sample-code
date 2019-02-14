@@ -8,5 +8,4 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .webhooks
            .create({type: 'webhook'})
-           .then(webhook => console.log(webhook.sid))
-           .done();
+           .then(webhook => console.log(webhook.sid));

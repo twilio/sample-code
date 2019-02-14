@@ -10,5 +10,4 @@ client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                sid: 'PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                isReserved: true
              })
-            .then(phone_number => console.log(phone_number.sid))
-            .done();
+            .then(phone_number => console.log(phone_number.sid));

@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .update({friendlyName: 'friendlyName'})
-              .then(service => console.log(service.friendlyName))
-              .done();
+              .then(service => console.log(service.friendlyName));

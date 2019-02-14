@@ -8,5 +8,4 @@ client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .entities('identity')
             .factors('YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .update({authPayload: 'authPayload'})
-            .then(factor => console.log(factor.friendlyName))
-            .done();
+            .then(factor => console.log(factor.friendlyName));

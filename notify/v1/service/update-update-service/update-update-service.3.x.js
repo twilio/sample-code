@@ -10,5 +10,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 friendlyName: 'Another Awesome Service',
                 messagingServiceSid: 'MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
               })
-             .then(service => console.log(service.friendlyName))
-             .done();
+             .then(service => console.log(service.friendlyName));

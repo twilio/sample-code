@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .phoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .update({isReserved: true})
-            .then(phone_number => console.log(phone_number.friendlyName))
-            .done();
+            .then(phone_number => console.log(phone_number.friendlyName));

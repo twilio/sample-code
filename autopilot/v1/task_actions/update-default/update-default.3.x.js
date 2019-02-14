@@ -8,5 +8,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .taskActions()
                 .update({actions: {}})
-                .then(task_actions => console.log(task_actions.assistantSid))
-                .done();
+                .then(task_actions => console.log(task_actions.assistantSid));

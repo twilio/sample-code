@@ -10,5 +10,4 @@ client.calls
      to: '+16518675310',
      from: '+14158141829'
    })
-  .then(call => console.log(call.sid))
-  .done();
+  .then(call => console.log(call.sid));

@@ -11,5 +11,4 @@ client.messages
          mediaUrl: 'https://demo.twilio.com/owl.png',
          to: '+12316851234'
        })
-      .then(message => console.log(message.sid))
-      .done();
+      .then(message => console.log(message.sid));

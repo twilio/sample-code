@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .remove()
-            .then(service => console.log(service.sid))
-            .done();
+            .then(service => console.log(service.sid));

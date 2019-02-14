@@ -9,5 +9,4 @@ client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .steps('FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .stepContext()
   .fetch()
-  .then(execution_step_context => console.log(execution_step_context.context))
-  .done();
+  .then(execution_step_context => console.log(execution_step_context.context));

@@ -9,5 +9,4 @@ client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .registrations
   .credentialListMappings('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch()
-  .then(auth_registrations_credential_list_mapping => console.log(auth_registrations_credential_list_mapping.friendlyName))
-  .done();
+  .then(auth_registrations_credential_list_mapping => console.log(auth_registrations_credential_list_mapping.friendlyName));

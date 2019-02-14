@@ -28,5 +28,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 identity: '00000001',
                 title: 'Generic loooooooong title for all Bindings'
               })
-             .then(notification => console.log(notification.sid))
-             .done();
+             .then(notification => console.log(notification.sid));

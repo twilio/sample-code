@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.hosted_numbers
       .authorizationDocuments('PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .update({hostedNumberOrderSids: ['hostedNumberOrderSids']})
-      .then(authorization_document => console.log(authorization_document.sid))
-      .done();
+      .then(authorization_document => console.log(authorization_document.sid));

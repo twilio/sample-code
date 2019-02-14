@@ -5,9 +5,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.validationRequests
-      .create({
-         friendlyName: 'My Home Phone Number',
-         phoneNumber: '+14158675310'
-       })
-      .then(validation_request => console.log(validation_request.friendlyName))
-      .done();
+  .create({friendlyName: 'My Home Phone Number', phoneNumber: '+14158675310'})
+  .then(validation_request => console.log(validation_request.friendlyName));

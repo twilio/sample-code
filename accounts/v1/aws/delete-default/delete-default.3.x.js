@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.accounts.credentials
                .aws('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .remove()
-               .then(aws => console.log(aws.sid))
-               .done();
+               .then(aws => console.log(aws.sid));

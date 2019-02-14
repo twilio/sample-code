@@ -5,6 +5,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.outgoingCallerIds('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .update({friendlyName: 'friendlyName'})
-      .then(outgoing_caller_id => console.log(outgoing_caller_id.friendlyName))
-      .done();
+  .update({friendlyName: 'friendlyName'})
+  .then(outgoing_caller_id => console.log(outgoing_caller_id.friendlyName));

@@ -8,5 +8,4 @@ client.preview.acc_security
               .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .verifications
               .create({to: 'to', channel: 'channel'})
-              .then(verification => console.log(verification.sid))
-              .done();
+              .then(verification => console.log(verification.sid));

@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.verify.services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .fetch()
-             .then(service => console.log(service.friendlyName))
-             .done();
+             .then(service => console.log(service.friendlyName));

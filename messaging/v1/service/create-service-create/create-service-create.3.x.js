@@ -9,5 +9,4 @@ client.messaging.services
                    statusCallback: 'http://requestb.in/1234abcd',
                    friendlyName: 'My First Service'
                  })
-                .then(service => console.log(service.sid))
-                .done();
+                .then(service => console.log(service.sid));

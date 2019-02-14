@@ -8,5 +8,4 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .userChannels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .update({notificationLevel: 'default'})
-           .then(user_channel => console.log(user_channel.serviceSid))
-           .done();
+           .then(user_channel => console.log(user_channel.serviceSid));

@@ -11,5 +11,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          say_voice: 'Polly.Joanna'
                      }
                  }})
-                .then(style_sheet => console.log(style_sheet.assistantSid))
-                .done();
+                .then(style_sheet => console.log(style_sheet.assistantSid));

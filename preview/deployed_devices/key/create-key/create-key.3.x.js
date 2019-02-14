@@ -8,5 +8,4 @@ client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .keys
               .create({deviceSid: 'THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
-              .then(key => console.log(key.sid))
-              .done();
+              .then(key => console.log(key.sid));

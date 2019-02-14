@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.messaging.sessions('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .participants
                 .create({identity: 'identity'})
-                .then(participant => console.log(participant.sid))
-                .done();
+                .then(participant => console.log(participant.sid));

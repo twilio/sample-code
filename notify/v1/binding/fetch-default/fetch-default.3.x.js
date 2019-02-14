@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .bindings('BSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .fetch()
-             .then(binding => console.log(binding.sid))
-             .done();
+             .then(binding => console.log(binding.sid));

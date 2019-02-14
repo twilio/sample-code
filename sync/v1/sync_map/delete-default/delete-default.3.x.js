@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .remove()
-           .then(sync_map => console.log(sync_map.sid))
-           .done();
+           .then(sync_map => console.log(sync_map.sid));

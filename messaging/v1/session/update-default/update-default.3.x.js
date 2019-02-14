@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.sessions('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .update({friendlyName: 'friendlyName'})
-                .then(session => console.log(session.friendlyName))
-                .done();
+                .then(session => console.log(session.friendlyName));

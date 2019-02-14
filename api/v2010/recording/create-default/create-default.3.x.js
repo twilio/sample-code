@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .recordings
       .create()
-      .then(recording => console.log(recording.sid))
-      .done();
+      .then(recording => console.log(recording.sid));

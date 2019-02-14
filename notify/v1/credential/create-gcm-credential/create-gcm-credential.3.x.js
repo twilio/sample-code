@@ -10,5 +10,4 @@ client.notify.credentials
                 friendlyName: 'MyGCMCredential',
                 type: 'gcm'
               })
-             .then(credential => console.log(credential.sid))
-             .done();
+             .then(credential => console.log(credential.sid));

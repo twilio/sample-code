@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.ipAccessControlLists('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .remove()
-      .then(ip_access_control_list => console.log(ip_access_control_list.sid))
-      .done();
+      .then(ip_access_control_list => console.log(ip_access_control_list.sid));

@@ -8,5 +8,4 @@ client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .devices('THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .update({friendlyName: 'friendlyName'})
-              .then(device => console.log(device.uniqueName))
-              .done();
+              .then(device => console.log(device.uniqueName));

@@ -10,5 +10,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 body: 'Knok-Knok! This is your first Notify SMS',
                 identity: '00000001'
               })
-             .then(notification => console.log(notification.sid))
-             .done();
+             .then(notification => console.log(notification.sid));

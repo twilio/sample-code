@@ -13,5 +13,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 bindingType: 'fcm',
                 address: 'fcm_device_token'
               })
-             .then(binding => console.log(binding.sid))
-             .done();
+             .then(binding => console.log(binding.sid));

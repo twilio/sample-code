@@ -8,5 +8,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fields
                 .create({fieldType: 'fieldType', uniqueName: 'uniqueName'})
-                .then(field => console.log(field.sid))
-                .done();
+                .then(field => console.log(field.sid));

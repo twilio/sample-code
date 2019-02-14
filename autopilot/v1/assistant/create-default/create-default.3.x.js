@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.autopilot.assistants
                 .create()
-                .then(assistant => console.log(assistant.sid))
-                .done();
+                .then(assistant => console.log(assistant.sid));

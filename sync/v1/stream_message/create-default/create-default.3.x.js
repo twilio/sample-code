@@ -8,5 +8,4 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncStreams('TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .streamMessages
            .create({data: {}})
-           .then(stream_message => console.log(stream_message.sid))
-           .done();
+           .then(stream_message => console.log(stream_message.sid));

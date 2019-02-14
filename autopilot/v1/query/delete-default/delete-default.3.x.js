@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .queries('UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .remove()
-                .then(query => console.log(query.sid))
-                .done();
+                .then(query => console.log(query.sid));

@@ -13,5 +13,4 @@ client.preview.hosted_numbers
          contactTitle: 'contactTitle',
          contactPhoneNumber: 'contactPhoneNumber'
        })
-      .then(authorization_document => console.log(authorization_document.sid))
-      .done();
+      .then(authorization_document => console.log(authorization_document.sid));

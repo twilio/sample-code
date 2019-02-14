@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .update({uniqueName: 'quickstart-assistant'})
-                .then(assistant => console.log(assistant.friendlyName))
-                .done();
+                .then(assistant => console.log(assistant.friendlyName));

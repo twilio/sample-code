@@ -11,5 +11,4 @@ client.preview.deployed_devices
                  friendlyName: 'My New Device',
                  identity: 'bob@twilio.com'
                })
-              .then(device => console.log(device.uniqueName))
-              .done();
+              .then(device => console.log(device.uniqueName));

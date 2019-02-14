@@ -5,5 +5,4 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.newSigningKeys.create()
-                     .then(new_signing_key => console.log(new_signing_key.sid))
-                     .done();
+      .then(new_signing_key => console.log(new_signing_key.sid));

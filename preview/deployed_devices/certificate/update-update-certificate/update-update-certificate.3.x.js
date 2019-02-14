@@ -11,5 +11,4 @@ client.preview.deployed_devices
                  deviceSid: 'THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                  friendlyName: 'My New Certificate'
                })
-              .then(certificate => console.log(certificate.friendlyName))
-              .done();
+              .then(certificate => console.log(certificate.friendlyName));

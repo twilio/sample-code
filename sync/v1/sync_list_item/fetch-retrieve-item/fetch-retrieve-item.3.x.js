@@ -8,5 +8,4 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncLists('MyCollection')
            .syncListItems(0)
            .fetch()
-           .then(sync_list_item => console.log(sync_list_item.index))
-           .done();
+           .then(sync_list_item => console.log(sync_list_item.index));

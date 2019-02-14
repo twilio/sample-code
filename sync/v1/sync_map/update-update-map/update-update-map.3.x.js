@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMaps('Players')
            .update({ttl: 864000})
-           .then(sync_map => console.log(sync_map.uniqueName))
-           .done();
+           .then(sync_map => console.log(sync_map.uniqueName));

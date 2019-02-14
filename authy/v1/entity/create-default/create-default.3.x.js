@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .entities
             .create({identity: 'identity'})
-            .then(entity => console.log(entity.sid))
-            .done();
+            .then(entity => console.log(entity.sid));

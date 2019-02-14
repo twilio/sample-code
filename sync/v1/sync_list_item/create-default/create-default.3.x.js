@@ -8,5 +8,4 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncListItems
            .create({data: {}})
-           .then(sync_list_item => console.log(sync_list_item.index))
-           .done();
+           .then(sync_list_item => console.log(sync_list_item.index));

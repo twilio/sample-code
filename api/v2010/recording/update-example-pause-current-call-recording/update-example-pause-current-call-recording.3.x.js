@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .recordings('Twilio.CURRENT')
       .update({status: 'paused'})
-      .then(recording => console.log(recording.callSid))
-      .done();
+      .then(recording => console.log(recording.callSid));

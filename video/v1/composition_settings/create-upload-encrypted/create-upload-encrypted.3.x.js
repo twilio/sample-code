@@ -10,5 +10,4 @@ client.video.compositionSettings()
      encryptionKeySid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
      friendlyName: 'Upload encrypted'
    })
-  .then(composition_settings => console.log(composition_settings.friendlyName))
-  .done();
+  .then(composition_settings => console.log(composition_settings.friendlyName));

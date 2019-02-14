@@ -9,5 +9,4 @@ client.sync.services('default')
            .create({data: {
                 led: 'OFF'
             }, uniqueName: 'BoardLED'})
-           .then(document => console.log(document.sid))
-           .done();
+           .then(document => console.log(document.sid));

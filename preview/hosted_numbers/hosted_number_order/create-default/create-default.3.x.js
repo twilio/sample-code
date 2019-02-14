@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.hosted_numbers
       .hostedNumberOrders
       .create({phoneNumber: '+15017122661', smsCapability: true})
-      .then(hosted_number_order => console.log(hosted_number_order.sid))
-      .done();
+      .then(hosted_number_order => console.log(hosted_number_order.sid));

@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.queues('QU5ef8732a3c49700934481addd5ce1659')
       .members('CA5ef8732a3c49700934481addd5ce1659')
       .update({url: 'http://demo.twilio.com/docs/voice.xml', method: 'POST'})
-      .then(member => console.log(member.callSid))
-      .done();
+      .then(member => console.log(member.callSid));

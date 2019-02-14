@@ -10,5 +10,4 @@ client.notify.credentials
                 secret: 'fcm_secret',
                 type: 'fcm'
               })
-             .then(credential => console.log(credential.sid))
-             .done();
+             .then(credential => console.log(credential.sid));

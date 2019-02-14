@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .remove()
-          .then(domain => console.log(domain.sid))
-          .done();
+          .then(domain => console.log(domain.sid));

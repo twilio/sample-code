@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.wireless.ratePlans
                        .create()
-                       .then(rate_plan => console.log(rate_plan.sid))
-                       .done();
+                       .then(rate_plan => console.log(rate_plan.sid));

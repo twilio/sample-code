@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.video.recordings('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .fetch()
-            .then(recording => console.log(recording.trackName))
-            .done();
+            .then(recording => console.log(recording.trackName));

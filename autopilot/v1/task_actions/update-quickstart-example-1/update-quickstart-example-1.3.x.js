@@ -10,5 +10,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .update({actions: {
        say: 'I was going to look for my missing watch, but I could never find the time.'
    }})
-  .then(task_actions => console.log(task_actions.assistantSid))
-  .done();
+  .then(task_actions => console.log(task_actions.assistantSid));

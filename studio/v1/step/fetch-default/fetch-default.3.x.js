@@ -8,5 +8,4 @@ client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .steps('FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .fetch()
-             .then(step => console.log(step.name))
-             .done();
+             .then(step => console.log(step.name));

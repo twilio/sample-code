@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .update({friendlyName: 'friendlyName'})
-      .then(queue => console.log(queue.friendlyName))
-      .done();
+      .then(queue => console.log(queue.friendlyName));

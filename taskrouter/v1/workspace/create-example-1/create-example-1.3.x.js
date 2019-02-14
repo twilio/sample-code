@@ -10,5 +10,4 @@ client.taskrouter.workspaces
                     template: 'FIFO',
                     friendlyName: 'NewWorkspace'
                   })
-                 .then(workspace => console.log(workspace.sid))
-                 .done();
+                 .then(workspace => console.log(workspace.sid));

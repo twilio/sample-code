@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.pricing.voice.countries('US')
                     .fetch()
-                    .then(country => console.log(country.country))
-                    .done();
+                    .then(country => console.log(country.country));

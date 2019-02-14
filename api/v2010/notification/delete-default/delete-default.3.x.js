@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.notifications('NOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .remove()
-      .then(notification => console.log(notification.sid))
-      .done();
+      .then(notification => console.log(notification.sid));

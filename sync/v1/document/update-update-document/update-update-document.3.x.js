@@ -9,5 +9,4 @@ client.sync.services('default')
            .update({data: {
                 led: 'ON'
             }})
-           .then(document => console.log(document.uniqueName))
-           .done();
+           .then(document => console.log(document.uniqueName));

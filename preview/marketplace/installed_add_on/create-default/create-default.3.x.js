@@ -10,5 +10,4 @@ client.preview.marketplace
                  availableAddOnSid: 'XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                  acceptTermsOfService: true
                })
-              .then(installed_add_on => console.log(installed_add_on.sid))
-              .done();
+              .then(installed_add_on => console.log(installed_add_on.sid));

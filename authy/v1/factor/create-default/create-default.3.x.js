@@ -9,8 +9,7 @@ client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .factors
             .create({
                binding: 'binding',
-               factorType: 'factorType',
-               friendlyName: 'friendlyName'
+               friendlyName: 'friendlyName',
+               factorType: 'app-push'
              })
-            .then(factor => console.log(factor.sid))
-            .done();
+            .then(factor => console.log(factor.sid));

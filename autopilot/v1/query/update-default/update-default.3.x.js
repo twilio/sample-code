@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .queries('UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .update({sampleSid: 'UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
-                .then(query => console.log(query.dateCreated))
-                .done();
+                .then(query => console.log(query.dateCreated));

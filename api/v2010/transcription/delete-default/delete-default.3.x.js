@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.transcriptions('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .remove()
-      .then(transcription => console.log(transcription.sid))
-      .done();
+      .then(transcription => console.log(transcription.sid));

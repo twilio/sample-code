@@ -16,5 +16,4 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 ],
                 genre: 'Romance'
             }})
-           .then(document => console.log(document.uniqueName))
-           .done();
+           .then(document => console.log(document.uniqueName));

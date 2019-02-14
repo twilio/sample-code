@@ -45,5 +45,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            }
        })
        })
-      .then(workflow => console.log(workflow.sid))
-      .done();
+      .then(workflow => console.log(workflow.sid));

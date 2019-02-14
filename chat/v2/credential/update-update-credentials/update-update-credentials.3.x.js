@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.chat.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .update({apiKey: 'xxxxxx', friendlyName: 'MyCredential'})
-           .then(credential => console.log(credential.friendlyName))
-           .done();
+           .then(credential => console.log(credential.friendlyName));

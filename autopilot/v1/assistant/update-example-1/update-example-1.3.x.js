@@ -10,5 +10,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          say_voice: 'Polly.Joanna'
                      }
                  }})
-                .then(assistant => console.log(assistant.friendlyName))
-                .done();
+                .then(assistant => console.log(assistant.friendlyName));

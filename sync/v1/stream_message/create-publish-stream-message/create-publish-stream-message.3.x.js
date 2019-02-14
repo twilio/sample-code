@@ -12,5 +12,4 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 x: 256,
                 y: 42
             }})
-           .then(stream_message => console.log(stream_message.sid))
-           .done();
+           .then(stream_message => console.log(stream_message.sid));

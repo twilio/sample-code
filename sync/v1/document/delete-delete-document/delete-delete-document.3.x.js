@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .documents('MyFirstDocument')
            .remove()
-           .then(document => console.log(document.sid))
-           .done();
+           .then(document => console.log(document.sid));

@@ -8,5 +8,4 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .members
            .create({identity: 'IDENTITY'})
-           .then(member => console.log(member.sid))
-           .done();
+           .then(member => console.log(member.sid));

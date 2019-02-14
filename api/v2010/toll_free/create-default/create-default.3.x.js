@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.incomingPhoneNumbers
       .tollFree
       .create({phoneNumber: '+15017122661'})
-      .then(toll_free => console.log(toll_free.sid))
-      .done();
+      .then(toll_free => console.log(toll_free.sid));

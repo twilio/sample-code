@@ -9,5 +9,4 @@ client.voice.voicePermissions
   .create({
      updateRequest: `[{'iso_code': 'US', 'low_risk_numbers_enabled': 'true', 'high_risk_special_numbers_enabled': 'true', 'high_risk_tollfraud_numbers_enabled': 'true'}]`
    })
-  .then(bulk_country_update => console.log(bulk_country_update.updateCount))
-  .done();
+  .then(bulk_country_update => console.log(bulk_country_update.updateCount));

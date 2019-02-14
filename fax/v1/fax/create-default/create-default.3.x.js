@@ -5,5 +5,4 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.fax.faxes.create({to: 'to', mediaUrl: 'https://example.com'})
-                .then(fax => console.log(fax.sid))
-                .done();
+                .then(fax => console.log(fax.sid));
