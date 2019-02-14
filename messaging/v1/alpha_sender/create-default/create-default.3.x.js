@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .alphaSenders
                 .create({alphaSender: 'alphaSender'})
-                .then(alpha_sender => console.log(alpha_sender.sid))
-                .done();
+                .then(alpha_sender => console.log(alpha_sender.sid));

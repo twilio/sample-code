@@ -8,5 +8,4 @@ client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .remove()
-            .then(participant => console.log(participant.sid))
-            .done();
+            .then(participant => console.log(participant.sid));

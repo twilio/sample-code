@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .remove()
-             .then(flow => console.log(flow.sid))
-             .done();
+             .then(flow => console.log(flow.sid));

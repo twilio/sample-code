@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.notify.credentials('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .update({friendlyName: 'MyCredential', sandbox: true})
-             .then(credential => console.log(credential.friendlyName))
-             .done();
+             .then(credential => console.log(credential.friendlyName));

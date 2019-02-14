@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .remove()
-             .then(engagement => console.log(engagement.sid))
-             .done();
+             .then(engagement => console.log(engagement.sid));

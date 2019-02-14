@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .remove()
-              .then(user => console.log(user.sid))
-              .done();
+              .then(user => console.log(user.sid));

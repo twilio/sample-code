@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .credentialListMappings('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .remove()
-  .then(credential_list_mapping => console.log(credential_list_mapping.sid))
-  .done();
+  .then(credential_list_mapping => console.log(credential_list_mapping.sid));

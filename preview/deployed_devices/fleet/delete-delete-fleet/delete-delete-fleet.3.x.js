@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .remove()
-              .then(fleet => console.log(fleet.sid))
-              .done();
+              .then(fleet => console.log(fleet.sid));

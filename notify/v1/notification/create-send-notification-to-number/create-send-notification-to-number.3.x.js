@@ -14,5 +14,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               }),
                 identity: ['identity']
               })
-             .then(notification => console.log(notification.sid))
-             .done();
+             .then(notification => console.log(notification.sid));

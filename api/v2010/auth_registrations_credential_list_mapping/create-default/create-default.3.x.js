@@ -9,5 +9,4 @@ client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .registrations
   .credentialListMappings
   .create({credentialListSid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
-  .then(auth_registrations_credential_list_mapping => console.log(auth_registrations_credential_list_mapping.sid))
-  .done();
+  .then(auth_registrations_credential_list_mapping => console.log(auth_registrations_credential_list_mapping.sid));

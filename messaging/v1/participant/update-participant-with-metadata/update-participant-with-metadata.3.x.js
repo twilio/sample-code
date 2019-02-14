@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.messaging.sessions('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .participants('MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .update({attributes: `{ customer_loyalty_tier: "gold" }`})
-                .then(participant => console.log(participant.serviceSid))
-                .done();
+                .then(participant => console.log(participant.serviceSid));

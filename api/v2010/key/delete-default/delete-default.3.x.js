@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.keys('SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .remove()
-      .then(key => console.log(key.sid))
-      .done();
+      .then(key => console.log(key.sid));

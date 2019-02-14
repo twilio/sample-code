@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.availablePhoneNumbers('US')
   .fetch()
-  .then(available_phone_number_country => console.log(available_phone_number_country.countryCode))
-  .done();
+  .then(available_phone_number_country => console.log(available_phone_number_country.countryCode));

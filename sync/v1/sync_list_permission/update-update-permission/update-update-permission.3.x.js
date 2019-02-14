@@ -8,5 +8,4 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .syncLists('MyFirstList')
   .syncListPermissions('bob')
   .update({read: true, write: true, manage: false})
-  .then(sync_list_permission => console.log(sync_list_permission.serviceSid))
-  .done();
+  .then(sync_list_permission => console.log(sync_list_permission.serviceSid));

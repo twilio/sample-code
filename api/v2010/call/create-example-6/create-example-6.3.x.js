@@ -12,5 +12,4 @@ client.calls
          to: 'sip:kate@example.com',
          from: 'Jack'
        })
-      .then(call => console.log(call.sid))
-      .done();
+      .then(call => console.log(call.sid));

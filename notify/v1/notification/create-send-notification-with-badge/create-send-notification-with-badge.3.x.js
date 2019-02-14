@@ -15,5 +15,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       badge: 1
                   }
               }, identity: '00000001'})
-             .then(notification => console.log(notification.sid))
-             .done();
+             .then(notification => console.log(notification.sid));

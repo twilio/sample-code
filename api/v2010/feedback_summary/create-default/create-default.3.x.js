@@ -9,5 +9,4 @@ client.calls.feedbackSummaries
                startDate: new Date(Date.UTC(2008, 0, 2)),
                endDate: new Date(Date.UTC(2008, 0, 2))
              })
-            .then(feedback_summary => console.log(feedback_summary.sid))
-            .done();
+            .then(feedback_summary => console.log(feedback_summary.sid));

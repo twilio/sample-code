@@ -11,5 +11,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 segment: 'new_user',
                 tag: 'preferred_device'
               })
-             .then(notification => console.log(notification.sid))
-             .done();
+             .then(notification => console.log(notification.sid));

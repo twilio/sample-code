@@ -8,5 +8,4 @@ client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .syncMapItems('key')
                    .remove()
-                   .then(sync_map_item => console.log(sync_map_item.key))
-                   .done();
+                   .then(sync_map_item => console.log(sync_map_item.key));

@@ -10,5 +10,4 @@ client.wireless.commands
                   sim: 'AliceSmithSmartMeter',
                   command: 'SGVsbG8sIE1hY2hpbmUh=='
                 })
-               .then(command => console.log(command.sid))
-               .done();
+               .then(command => console.log(command.sid));

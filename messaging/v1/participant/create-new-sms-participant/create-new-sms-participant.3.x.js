@@ -10,5 +10,4 @@ client.messaging.sessions('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    userAddress: '+1847234xxxx',
                    twilioAddress: `<YOUR COMPANY'S PHONE NUMBER VIA TWILIO>`
                  })
-                .then(participant => console.log(participant.sid))
-                .done();
+                .then(participant => console.log(participant.sid));

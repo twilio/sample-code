@@ -8,5 +8,4 @@ client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .keys('KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
-              .then(key => console.log(key.friendlyName))
-              .done();
+              .then(key => console.log(key.friendlyName));

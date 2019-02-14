@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .fetch()
-             .then(flow => console.log(flow.friendlyName))
-             .done();
+             .then(flow => console.log(flow.friendlyName));

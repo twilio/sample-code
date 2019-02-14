@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .originationUrls('OUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .remove()
-               .then(origination_url => console.log(origination_url.sid))
-               .done();
+               .then(origination_url => console.log(origination_url.sid));

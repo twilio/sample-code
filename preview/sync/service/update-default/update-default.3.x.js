@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .update({webhookUrl: 'https://example.com'})
-                   .then(service => console.log(service.friendlyName))
-                   .done();
+                   .then(service => console.log(service.friendlyName));

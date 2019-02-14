@@ -8,5 +8,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .statistics()
       .fetch()
-      .then(task_statistics => console.log(task_statistics.assistantSid))
-      .done();
+      .then(task_statistics => console.log(task_statistics.assistantSid));

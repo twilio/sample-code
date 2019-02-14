@@ -9,5 +9,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .create({attributes: JSON.stringify({
                       type: 'support'
                   }), friendlyName: 'Support Worker 1'})
-                 .then(worker => console.log(worker.sid))
-                 .done();
+                 .then(worker => console.log(worker.sid));

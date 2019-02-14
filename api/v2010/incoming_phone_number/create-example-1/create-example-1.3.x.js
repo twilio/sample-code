@@ -11,5 +11,4 @@ client.incomingPhoneNumbers
          voiceMethod: 'GET',
          voiceUrl: 'http://demo.twilio.com/docs/voice.xml'
        })
-      .then(incoming_phone_number => console.log(incoming_phone_number.sid))
-      .done();
+      .then(incoming_phone_number => console.log(incoming_phone_number.sid));

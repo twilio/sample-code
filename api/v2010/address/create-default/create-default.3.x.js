@@ -13,5 +13,4 @@ client.addresses
          postalCode: 'postalCode',
          isoCountry: 'US'
        })
-      .then(address => console.log(address.sid))
-      .done();
+      .then(address => console.log(address.sid));

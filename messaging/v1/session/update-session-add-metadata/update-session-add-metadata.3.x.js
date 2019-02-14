@@ -8,5 +8,4 @@ client.messaging.sessions('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .update({
                    attributes: `{ product-under-discussion: "hair care" }`
                  })
-                .then(session => console.log(session.friendlyName))
-                .done();
+                .then(session => console.log(session.friendlyName));

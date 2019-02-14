@@ -8,5 +8,4 @@ client.preview.marketplace
   .installedAddOns('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .extensions('XFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch()
-  .then(installed_add_on_extension => console.log(installed_add_on_extension.friendlyName))
-  .done();
+  .then(installed_add_on_extension => console.log(installed_add_on_extension.friendlyName));

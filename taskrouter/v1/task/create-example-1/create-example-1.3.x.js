@@ -9,5 +9,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .create({attributes: JSON.stringify({
                       type: 'support'
                   }), workflowSid: 'WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
-                 .then(task => console.log(task.sid))
-                 .done();
+                 .then(task => console.log(task.sid));

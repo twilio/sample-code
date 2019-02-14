@@ -9,5 +9,4 @@ client.messaging.sessions('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .create({
                    body: 'Be aware, this conversation is being monitored.'
                  })
-                .then(message => console.log(message.sid))
-                .done();
+                .then(message => console.log(message.sid));

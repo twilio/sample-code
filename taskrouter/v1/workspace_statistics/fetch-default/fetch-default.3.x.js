@@ -5,7 +5,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .statistics()
-      .fetch()
-      .then(workspace_statistics => console.log(workspace_statistics.realtime))
-      .done();
+  .statistics()
+  .fetch()
+  .then(workspace_statistics => console.log(workspace_statistics.realtime));

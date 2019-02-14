@@ -5,6 +5,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-          .update({authType: 'authType'})
-          .then(domain => console.log(domain.domainName))
-          .done();
+          .update({friendlyName: 'friendlyName'})
+          .then(domain => console.log(domain.domainName));

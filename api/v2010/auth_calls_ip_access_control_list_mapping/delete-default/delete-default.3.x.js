@@ -9,5 +9,4 @@ client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .calls
   .ipAccessControlListMappings('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .remove()
-  .then(auth_calls_ip_access_control_list_mapping => console.log(auth_calls_ip_access_control_list_mapping.sid))
-  .done();
+  .then(auth_calls_ip_access_control_list_mapping => console.log(auth_calls_ip_access_control_list_mapping.sid));

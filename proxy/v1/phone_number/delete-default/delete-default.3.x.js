@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .phoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .remove()
-            .then(phone_number => console.log(phone_number.sid))
-            .done();
+            .then(phone_number => console.log(phone_number.sid));

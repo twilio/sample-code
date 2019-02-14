@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.voice.voicePermissions
             .countries('US')
             .fetch()
-            .then(country => console.log(country.name))
-            .done();
+            .then(country => console.log(country.name));

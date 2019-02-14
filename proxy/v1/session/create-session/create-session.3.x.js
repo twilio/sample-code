@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions
             .create({uniqueName: 'MyFirstSession'})
-            .then(session => console.log(session.sid))
-            .done();
+            .then(session => console.log(session.sid));

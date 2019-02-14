@@ -15,5 +15,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
          }
        ]
    }, uniqueName: 'tell-a-joke'})
-  .then(task => console.log(task.sid))
-  .done();
+  .then(task => console.log(task.sid));

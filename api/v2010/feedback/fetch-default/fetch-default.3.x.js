@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.calls('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .feedback()
       .fetch()
-      .then(feedback => console.log(feedback.dateCreated))
-      .done();
+      .then(feedback => console.log(feedback.dateCreated));

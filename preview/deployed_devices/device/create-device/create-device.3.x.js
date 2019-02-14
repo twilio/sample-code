@@ -8,5 +8,4 @@ client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .devices
               .create({friendlyName: 'My Device #1'})
-              .then(device => console.log(device.sid))
-              .done();
+              .then(device => console.log(device.sid));

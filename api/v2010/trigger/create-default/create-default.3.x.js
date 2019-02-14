@@ -8,7 +8,6 @@ client.usage.triggers
             .create({
                callbackUrl: 'https://example.com',
                triggerValue: 'triggerValue',
-               usageCategory: 'answering-machine-detection'
+               usageCategory: 'agent-conference'
              })
-            .then(trigger => console.log(trigger.sid))
-            .done();
+            .then(trigger => console.log(trigger.sid));

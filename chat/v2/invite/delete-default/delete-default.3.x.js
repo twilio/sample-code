@@ -8,5 +8,4 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .invites('INXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .remove()
-           .then(invite => console.log(invite.sid))
-           .done();
+           .then(invite => console.log(invite.sid));

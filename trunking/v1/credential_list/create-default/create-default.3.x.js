@@ -9,5 +9,4 @@ client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .create({
                   credentialListSid: 'CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
                 })
-               .then(credential_list => console.log(credential_list.sid))
-               .done();
+               .then(credential_list => console.log(credential_list.sid));

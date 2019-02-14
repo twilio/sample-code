@@ -10,5 +10,4 @@ client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                dateExpiry: new Date(Date.UTC(2018, 6, 31, 0, 0, 0)),
                status: 'in-progress'
              })
-            .then(session => console.log(session.uniqueName))
-            .done();
+            .then(session => console.log(session.uniqueName));

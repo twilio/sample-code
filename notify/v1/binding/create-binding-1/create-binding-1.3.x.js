@@ -11,5 +11,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 bindingType: 'sms',
                 address: '+1651000000000'
               })
-             .then(binding => console.log(binding.sid))
-             .done();
+             .then(binding => console.log(binding.sid));

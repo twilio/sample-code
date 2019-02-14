@@ -8,5 +8,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fieldTypes('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fieldValues
                 .create({language: 'language', value: 'value'})
-                .then(field_value => console.log(field_value.sid))
-                .done();
+                .then(field_value => console.log(field_value.sid));

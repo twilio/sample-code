@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .ipAccessControlLists('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .fetch()
-  .then(ip_access_control_list => console.log(ip_access_control_list.friendlyName))
-  .done();
+  .then(ip_access_control_list => console.log(ip_access_control_list.friendlyName));

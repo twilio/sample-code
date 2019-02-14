@@ -21,5 +21,4 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 ],
                 genre: 'Romance'
             }, ttl: 1814400, uniqueName: 'MyFirstDocument'})
-           .then(document => console.log(document.sid))
-           .done();
+           .then(document => console.log(document.sid));

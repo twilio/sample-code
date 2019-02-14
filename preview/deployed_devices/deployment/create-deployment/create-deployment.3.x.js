@@ -8,5 +8,4 @@ client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .deployments
               .create({friendlyName: 'My Device Deployment'})
-              .then(deployment => console.log(deployment.sid))
-              .done();
+              .then(deployment => console.log(deployment.sid));

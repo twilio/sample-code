@@ -8,5 +8,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .statistics()
       .fetch()
-      .then(worker_statistics => console.log(worker_statistics.cumulative))
-      .done();
+      .then(worker_statistics => console.log(worker_statistics.cumulative));

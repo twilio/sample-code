@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.incomingPhoneNumbers
       .local
       .create({phoneNumber: '+15017122661'})
-      .then(local => console.log(local.sid))
-      .done();
+      .then(local => console.log(local.sid));

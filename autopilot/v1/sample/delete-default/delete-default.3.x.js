@@ -8,5 +8,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .remove()
-                .then(sample => console.log(sample.sid))
-                .done();
+                .then(sample => console.log(sample.sid));

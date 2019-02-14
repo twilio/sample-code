@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.voice.voicePermissions
   .bulkCountryUpdates
   .create({updateRequest: 'updateRequest'})
-  .then(bulk_country_update => console.log(bulk_country_update.updateCount))
-  .done();
+  .then(bulk_country_update => console.log(bulk_country_update.updateCount));

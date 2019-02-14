@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.wireless.ratePlans('us-automotive')
                .fetch()
-               .then(rate_plan => console.log(rate_plan.uniqueName))
-               .done();
+               .then(rate_plan => console.log(rate_plan.uniqueName));

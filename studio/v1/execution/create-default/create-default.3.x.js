@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .executions
              .create({to: '+15558675310', from: '+15017122661'})
-             .then(execution => console.log(execution.sid))
-             .done();
+             .then(execution => console.log(execution.sid));

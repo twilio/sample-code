@@ -12,5 +12,4 @@ client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 level: 30,
                 username: 'spicy_curry'
             }})
-           .then(sync_map_item => console.log(sync_map_item.key))
-           .done();
+           .then(sync_map_item => console.log(sync_map_item.key));

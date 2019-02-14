@@ -8,5 +8,4 @@ client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .fetch()
-            .then(participant => console.log(participant.friendlyName))
-            .done();
+            .then(participant => console.log(participant.friendlyName));

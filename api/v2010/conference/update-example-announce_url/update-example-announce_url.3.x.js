@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.conferences('CFbbe46ff1274e283f7e3ac1df0072ab39')
       .update({announceUrl: 'http://www.myapp.com/announce'})
-      .then(conference => console.log(conference.friendlyName))
-      .done();
+      .then(conference => console.log(conference.friendlyName));

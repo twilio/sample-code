@@ -8,5 +8,4 @@ client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .messages
            .create({body: 'MESSAGE'})
-           .then(message => console.log(message.sid))
-           .done();
+           .then(message => console.log(message.sid));

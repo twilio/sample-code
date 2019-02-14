@@ -8,5 +8,4 @@ client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .addOnResults('XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .payloads('XHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .remove()
-      .then(payload => console.log(payload.sid))
-      .done();
+      .then(payload => console.log(payload.sid));

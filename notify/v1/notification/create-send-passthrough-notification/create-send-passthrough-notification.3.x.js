@@ -10,5 +10,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                   binding_type: 'sms',
                   address: '+15555555555'
               }), identity: ['identity']})
-             .then(notification => console.log(notification.sid))
-             .done();
+             .then(notification => console.log(notification.sid));

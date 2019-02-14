@@ -12,5 +12,4 @@ client.notify.credentials
                 sandbox: true,
                 type: 'apn'
               })
-             .then(credential => console.log(credential.sid))
-             .done();
+             .then(credential => console.log(credential.sid));

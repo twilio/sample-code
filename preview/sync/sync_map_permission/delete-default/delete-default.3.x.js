@@ -5,8 +5,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .syncMapPermissions('identity')
-      .remove()
-      .then(sync_map_permission => console.log(sync_map_permission.serviceSid))
-      .done();
+  .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  .syncMapPermissions('identity')
+  .remove()
+  .then(sync_map_permission => console.log(sync_map_permission.serviceSid));

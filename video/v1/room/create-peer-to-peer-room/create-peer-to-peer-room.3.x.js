@@ -11,5 +11,4 @@ client.video.rooms
                type: 'peer-to-peer',
                uniqueName: 'DailyStandup'
              })
-            .then(room => console.log(room.sid))
-            .done();
+            .then(room => console.log(room.sid));

@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .styleSheet()
                 .fetch()
-                .then(style_sheet => console.log(style_sheet.assistantSid))
-                .done();
+                .then(style_sheet => console.log(style_sheet.assistantSid));

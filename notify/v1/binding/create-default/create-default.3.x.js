@@ -11,5 +11,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 bindingType: 'apn',
                 address: 'address'
               })
-             .then(binding => console.log(binding.sid))
-             .done();
+             .then(binding => console.log(binding.sid));

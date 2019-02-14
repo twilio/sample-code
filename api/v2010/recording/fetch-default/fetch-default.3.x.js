@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .fetch()
-      .then(recording => console.log(recording.callSid))
-      .done();
+      .then(recording => console.log(recording.callSid));

@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.usage.triggers('UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .fetch()
-            .then(trigger => console.log(trigger.friendlyName))
-            .done();
+            .then(trigger => console.log(trigger.friendlyName));

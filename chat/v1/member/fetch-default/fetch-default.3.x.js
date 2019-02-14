@@ -8,5 +8,4 @@ client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .members('MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
-              .then(member => console.log(member.sid))
-              .done();
+              .then(member => console.log(member.sid));

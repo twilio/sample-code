@@ -10,5 +10,4 @@ client.messages
          body: 'Do. Or do not. There is no try.',
          to: '+14108675310'
        })
-      .then(message => console.log(message.sid))
-      .done();
+      .then(message => console.log(message.sid));

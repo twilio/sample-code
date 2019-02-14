@@ -9,5 +9,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .update({attributes: JSON.stringify({
                       type: 'support'
                   })})
-                 .then(worker => console.log(worker.activityName))
-                 .done();
+                 .then(worker => console.log(worker.activityName));

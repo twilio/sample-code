@@ -10,5 +10,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     assignmentStatus: 'canceled',
                     reason: 'waiting too long'
                   })
-                 .then(task => console.log(task.taskQueueFriendlyName))
-                 .done();
+                 .then(task => console.log(task.taskQueueFriendlyName));

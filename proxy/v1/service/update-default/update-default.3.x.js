@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .update({uniqueName: 'uniqueName'})
-            .then(service => console.log(service.uniqueName))
-            .done();
+            .then(service => console.log(service.uniqueName));

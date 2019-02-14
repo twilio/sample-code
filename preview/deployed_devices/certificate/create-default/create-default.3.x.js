@@ -8,5 +8,4 @@ client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .certificates
               .create({certificateData: 'certificateData'})
-              .then(certificate => console.log(certificate.sid))
-              .done();
+              .then(certificate => console.log(certificate.sid));

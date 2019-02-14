@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.pricing.v1.voice.numbers('+15108675310')
                        .fetch()
-                       .then(number => console.log(number.number))
-                       .done();
+                       .then(number => console.log(number.number));

@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.wireless.sims('AliceSmithSmartMeter')
                .fetch()
-               .then(sim => console.log(sim.uniqueName))
-               .done();
+               .then(sim => console.log(sim.uniqueName));

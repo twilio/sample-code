@@ -8,5 +8,4 @@ client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .subscribedTracks
             .update({track: 'MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
-            .then(subscribed_track => console.log(subscribed_track.name))
-            .done();
+            .then(subscribed_track => console.log(subscribed_track.name));

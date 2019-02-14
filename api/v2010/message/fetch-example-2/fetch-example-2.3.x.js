@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages('SM800f449d0399ed014aae2bcc0cc2f2ec')
       .fetch()
-      .then(message => console.log(message.to))
-      .done();
+      .then(message => console.log(message.to));

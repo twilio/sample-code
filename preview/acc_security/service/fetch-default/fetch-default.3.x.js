@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.acc_security
               .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .fetch()
-              .then(service => console.log(service.name))
-              .done();
+              .then(service => console.log(service.name));

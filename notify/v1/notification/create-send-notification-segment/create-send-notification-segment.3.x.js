@@ -11,5 +11,4 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 segment: 'new_user',
                 identity: ['identity']
               })
-             .then(notification => console.log(notification.sid))
-             .done();
+             .then(notification => console.log(notification.sid));

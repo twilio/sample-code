@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .members('CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .update({url: 'https://example.com', method: 'GET'})
-      .then(member => console.log(member.callSid))
-      .done();
+      .then(member => console.log(member.callSid));

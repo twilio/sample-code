@@ -9,5 +9,4 @@ client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .messageInteractions
             .create({body: 'body'})
-            .then(message_interaction => console.log(message_interaction.sid))
-            .done();
+            .then(message_interaction => console.log(message_interaction.sid));

@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.bulk_exports
       .exportConfiguration('resourceType')
       .update({enabled: true})
-      .then(export_configuration => console.log(export_configuration.enabled))
-      .done();
+      .then(export_configuration => console.log(export_configuration.enabled));

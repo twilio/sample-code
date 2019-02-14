@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.sip.ipAccessControlLists('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .ipAddresses('IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .fetch()
-          .then(ip_address => console.log(ip_address.friendlyName))
-          .done();
+          .then(ip_address => console.log(ip_address.friendlyName));

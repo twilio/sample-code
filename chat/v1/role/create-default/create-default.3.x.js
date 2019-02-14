@@ -11,5 +11,4 @@ client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  type: 'channel',
                  permission: ['permission']
                })
-              .then(role => console.log(role.sid))
-              .done();
+              .then(role => console.log(role.sid));

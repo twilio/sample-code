@@ -8,5 +8,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .taskQueues('WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .cumulativeStatistics()
   .fetch()
-  .then(task_queue_cumulative_statistics => console.log(task_queue_cumulative_statistics.avgTaskAcceptanceTime))
-  .done();
+  .then(task_queue_cumulative_statistics => console.log(task_queue_cumulative_statistics.avgTaskAcceptanceTime));

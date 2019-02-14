@@ -8,5 +8,4 @@ client.messaging.sessions
                 .create({
                    messagingServiceSid: 'MG2172dd2db502e20dd981ef0d67850e1a'
                  })
-                .then(session => console.log(session.sid))
-                .done();
+                .then(session => console.log(session.sid));

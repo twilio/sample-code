@@ -8,5 +8,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .workflows('WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .realTimeStatistics()
   .fetch()
-  .then(workflow_real_time_statistics => console.log(workflow_real_time_statistics.longestTaskWaitingAge))
-  .done();
+  .then(workflow_real_time_statistics => console.log(workflow_real_time_statistics.longestTaskWaitingAge));

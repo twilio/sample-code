@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.verify.services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .verifications
              .create({to: 'to', channel: 'channel'})
-             .then(verification => console.log(verification.sid))
-             .done();
+             .then(verification => console.log(verification.sid));

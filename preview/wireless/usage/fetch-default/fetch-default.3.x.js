@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .usage()
                        .fetch()
-                       .then(usage => console.log(usage.simUniqueName))
-                       .done();
+                       .then(usage => console.log(usage.simUniqueName));

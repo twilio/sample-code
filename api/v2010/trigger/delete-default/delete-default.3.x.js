@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.usage.triggers('UTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .remove()
-            .then(trigger => console.log(trigger.sid))
-            .done();
+            .then(trigger => console.log(trigger.sid));

@@ -10,5 +10,4 @@ client.fax.faxes
      to: 'sip:kate@example.com?hatchkey=4815162342;transport=TCP',
      mediaUrl: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf'
    })
-  .then(fax => console.log(fax.sid))
-  .done();
+  .then(fax => console.log(fax.sid));

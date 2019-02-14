@@ -12,5 +12,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          fallback: 'task://hello-world'
                      }
                  }})
-                .then(defaults => console.log(defaults.assistantSid))
-                .done();
+                .then(defaults => console.log(defaults.assistantSid));

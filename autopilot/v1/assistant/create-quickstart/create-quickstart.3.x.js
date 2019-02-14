@@ -9,5 +9,4 @@ client.autopilot.assistants
                    friendlyName: 'Quickstart Assistant',
                    uniqueName: 'quickstart-assistant'
                  })
-                .then(assistant => console.log(assistant.sid))
-                .done();
+                .then(assistant => console.log(assistant.sid));

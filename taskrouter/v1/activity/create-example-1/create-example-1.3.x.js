@@ -10,5 +10,4 @@ client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     available: true,
                     friendlyName: 'NewAvailableActivity'
                   })
-                 .then(activity => console.log(activity.sid))
-                 .done();
+                 .then(activity => console.log(activity.sid));

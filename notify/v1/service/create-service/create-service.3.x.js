@@ -10,5 +10,4 @@ client.notify.services
                 fcmCredentialSid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                 friendlyName: 'My Awesome Service'
               })
-             .then(service => console.log(service.sid))
-             .done();
+             .then(service => console.log(service.sid));

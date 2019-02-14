@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .engagements
              .create({to: '+15558675310', from: '+15017122661'})
-             .then(engagement => console.log(engagement.sid))
-             .done();
+             .then(engagement => console.log(engagement.sid));

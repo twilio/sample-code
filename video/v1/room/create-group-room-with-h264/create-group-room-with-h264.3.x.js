@@ -11,5 +11,4 @@ client.video.rooms
                uniqueName: 'DailyStandupWithH264Codec',
                videoCodecs: 'H264'
              })
-            .then(room => console.log(room.sid))
-            .done();
+            .then(room => console.log(room.sid));

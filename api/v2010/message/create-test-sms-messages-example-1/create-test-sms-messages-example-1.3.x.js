@@ -10,5 +10,4 @@ client.messages
          from: '+5571981265145',
          to: '+5571981265131'
        })
-      .then(message => console.log(message.sid))
-      .done();
+      .then(message => console.log(message.sid));

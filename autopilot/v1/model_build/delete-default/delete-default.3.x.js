@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .modelBuilds('UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .remove()
-                .then(model_build => console.log(model_build.sid))
-                .done();
+                .then(model_build => console.log(model_build.sid));

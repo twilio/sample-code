@@ -8,5 +8,4 @@ client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .members('MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .update({roleSid: 'RLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
-              .then(member => console.log(member.sid))
-              .done();
+              .then(member => console.log(member.sid));

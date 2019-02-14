@@ -5,5 +5,4 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.video.rooms.create({uniqueName: 'DailyStandup'})
-                  .then(room => console.log(room.sid))
-                  .done();
+                  .then(room => console.log(room.sid));

@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.video.compositions('CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .remove()
-            .then(composition => console.log(composition.sid))
-            .done();
+            .then(composition => console.log(composition.sid));

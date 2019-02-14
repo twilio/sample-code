@@ -8,5 +8,4 @@ client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .interactions('KIXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .fetch()
-            .then(interaction => console.log(interaction.sid))
-            .done();
+            .then(interaction => console.log(interaction.sid));

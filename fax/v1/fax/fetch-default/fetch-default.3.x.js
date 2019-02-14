@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .fetch()
-          .then(fax => console.log(fax.to))
-          .done();
+          .then(fax => console.log(fax.to));

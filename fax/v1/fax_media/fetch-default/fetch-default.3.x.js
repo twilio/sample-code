@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.fax.faxes('FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .media('MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
           .fetch()
-          .then(fax_media => console.log(fax_media.sid))
-          .done();
+          .then(fax_media => console.log(fax_media.sid));

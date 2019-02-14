@@ -8,5 +8,4 @@ client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .entities('identity')
             .factors('YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .remove()
-            .then(factor => console.log(factor.sid))
-            .done();
+            .then(factor => console.log(factor.sid));

@@ -10,5 +10,4 @@ client.chat.credentials
               friendlyName: 'Friendly Name',
               type: 'gcm'
             })
-           .then(credential => console.log(credential.sid))
-           .done();
+           .then(credential => console.log(credential.sid));

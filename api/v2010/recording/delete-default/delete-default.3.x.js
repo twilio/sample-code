@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .remove()
-      .then(recording => console.log(recording.sid))
-      .done();
+      .then(recording => console.log(recording.sid));

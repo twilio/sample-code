@@ -7,5 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .notifications
              .create({body: 'Hello Bob', identity: '00000001'})
-             .then(notification => console.log(notification.sid))
-             .done();
+             .then(notification => console.log(notification.sid));

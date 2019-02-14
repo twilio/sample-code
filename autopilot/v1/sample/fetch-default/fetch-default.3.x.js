@@ -8,5 +8,4 @@ client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .samples('UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fetch()
-                .then(sample => console.log(sample.dateCreated))
-                .done();
+                .then(sample => console.log(sample.dateCreated));

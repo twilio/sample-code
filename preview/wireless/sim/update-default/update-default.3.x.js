@@ -6,5 +6,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .update({uniqueName: 'uniqueName'})
-                       .then(sim => console.log(sim.uniqueName))
-                       .done();
+                       .then(sim => console.log(sim.uniqueName));
