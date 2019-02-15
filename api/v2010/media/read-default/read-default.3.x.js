@@ -5,5 +5,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .media
+      .media()
       .each(media => console.log(media.sid));
