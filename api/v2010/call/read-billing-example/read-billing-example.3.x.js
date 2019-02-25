@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 client.calls.each({
                startTime: new Date(Date.UTC(2018, 0, 15, 0, 0, 0))
              },
-                 calls => console.log(calls.sid)
+                 calls => console.log(calls.price)
              );

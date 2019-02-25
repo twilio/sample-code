@@ -10,5 +10,5 @@ auth_token = 'your_auth_token'
 calls = @client.calls.list(start_time: Date.new(2018, 1, 15))
 
 calls.each do |record|
-  puts record.sid
+  puts record.price
 end

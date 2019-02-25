@@ -16,7 +16,7 @@ public class Example {
             .setStartTime(new DateTime(2018, 1, 15, 0, 0)).read();
 
         for(Call record : calls) {
-            System.out.println(record.getSid());
+            System.out.println(record.getPrice());
         }
     }
 }

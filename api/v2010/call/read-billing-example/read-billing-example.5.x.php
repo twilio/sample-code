@@ -15,5 +15,5 @@ $calls = $twilio->calls
                 ->read(array("startTime" => new \DateTime('2018-1-15')));
 
 foreach ($calls as $record) {
-    print($record->sid);
+    print($record->price);
 }

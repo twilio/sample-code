@@ -2,6 +2,7 @@
   "original_snippet_path": "rest/subaccounts/billing-example/subaccount-billing.6.x.py",
   "title": "Calculate billing for subaccount usage",
   "type": "server",
+  "output_property": "price",
   "_definition": {
     "params": {
       "required": {
