@@ -11,4 +11,4 @@ client = Client(account_sid, auth_token)
 calls = client.calls.list(start_time=datetime(2018, 1, 15, 0, 0))
 
 for record in calls:
-    print(record.sid)
+    print(record.price)

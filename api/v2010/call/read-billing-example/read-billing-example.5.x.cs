@@ -19,7 +19,7 @@ class Program
 
         foreach(var record in calls)
         {
-           Console.WriteLine(record.Sid);
+           Console.WriteLine(record.Price);
         }
     }
 }
