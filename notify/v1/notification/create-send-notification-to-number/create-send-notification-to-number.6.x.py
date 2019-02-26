@@ -16,8 +16,7 @@ notification = client.notify \
                           to_binding=json.dumps({
                               'binding_type': 'sms',
                               'address': '+1651000000000'
-                          }),
-                          identity=['identity']
+                          })
                       )
 
 print(notification.sid)
