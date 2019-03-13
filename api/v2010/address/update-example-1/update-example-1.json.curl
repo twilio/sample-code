@@ -1,4 +1,4 @@
 curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Addresses/AD2a0747eba6abf96b7e3c3ff0b4530f6e.json \
 --data-urlencode "CustomerName=Customer 456" \
 --data-urlencode "Street=2 Hasselhoff Lane" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

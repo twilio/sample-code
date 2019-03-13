@@ -2,4 +2,4 @@ curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXX
 --data-urlencode "Body=Phantom Menace was clearly the best of the prequel trilogy." \
 --data-urlencode "MessagingServiceSid=MG9752274e9e519418a7406176694466fa" \
 --data-urlencode "To=+441632960675" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
