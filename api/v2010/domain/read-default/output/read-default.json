@@ -3,10 +3,10 @@
     {
       "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "api_version": "2010-04-01",
-      "auth_type": "",
-      "date_created": "Fri, 06 Sep 2013 18:48:50 -0000",
-      "date_updated": "Fri, 06 Sep 2013 18:48:50 -0000",
-      "domain_name": "dunder-mifflin-scranton.api.twilio.com",
+      "auth_type": "IP_ACL",
+      "date_created": "Mon, 20 Jul 2015 17:27:10 +0000",
+      "date_updated": "Mon, 20 Jul 2015 17:27:10 +0000",
+      "domain_name": "dunder-mifflin-scranton.sip.twilio.com",
       "friendly_name": "Scranton Office",
       "sip_registration": true,
       "sid": "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -20,9 +20,12 @@
       "voice_method": "POST",
       "voice_status_callback_method": "POST",
       "voice_status_callback_url": null,
-      "voice_url": "https://dundermifflin.example.com/twilio/app.php"
+      "voice_url": "https://dundermifflin.example.com/twilio/app.php",
+      "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
+  "start": 0,
+  "end": 0,
   "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains.json?PageSize=50&Page=0",
   "next_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains.json?PageSize=50&Page=50",
   "page": 0,

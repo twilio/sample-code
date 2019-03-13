@@ -3,6 +3,7 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
+# DANGER! This is insecure. See http://twil.io/secure
 account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
@@ -12,8 +13,8 @@ factor = @client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .factors
                       .create(
                          binding: 'binding',
-                         factor_type: 'factor_type',
-                         friendly_name: 'friendly_name'
+                         friendly_name: 'friendly_name',
+                         factor_type: 'app-push'
                        )
 
 puts factor.sid

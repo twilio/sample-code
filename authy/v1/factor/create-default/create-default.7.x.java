@@ -5,6 +5,7 @@ import com.twilio.rest.authy.v1.service.entity.Factor;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
+    // DANGER! This is insecure. See http://twil.io/secure
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
@@ -14,8 +15,8 @@ public class Example {
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "pathIdentity",
                 "binding",
-                "factorType",
-                "friendlyName")
+                "friendlyName",
+                Factor.FactorTypes.APP_PUSH)
             .create();
 
         System.out.println(factor.getSid());

@@ -6,6 +6,7 @@ import com.twilio.rest.pricing.v2.voice.Country;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
+    // DANGER! This is insecure. See http://twil.io/secure
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 

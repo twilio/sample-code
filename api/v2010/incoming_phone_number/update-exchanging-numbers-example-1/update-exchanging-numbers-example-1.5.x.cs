@@ -10,7 +10,8 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
-        const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+        // DANGER! This is insecure. See http://twil.io/secure
+        const string accountSid = "ACzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);

@@ -3,17 +3,14 @@ from twilio.rest import Client
 
 
 # Your Account Sid and Auth Token from twilio.com/console
+# DANGER! This is insecure. See http://twil.io/secure
 account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 task_queue = client.taskrouter \
-    .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-    .task_queues \
-    .create(
-         friendly_name='friendly_name',
-         reservation_activity_sid='WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-         assignment_activity_sid='WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-     )
+                   .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                   .task_queues \
+                   .create(friendly_name='friendly_name')
 
 print(task_queue.sid)

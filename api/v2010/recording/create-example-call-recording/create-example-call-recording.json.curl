@@ -2,4 +2,4 @@ curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXX
 --data-urlencode "RecordingStatusCallback=https://myapp.com/recording-events" \
 --data-urlencode "RecordingStatusCallbackEvent=in-progress completed" \
 --data-urlencode "RecordingChannels=dual" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token

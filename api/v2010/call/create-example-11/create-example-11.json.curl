@@ -2,4 +2,4 @@ curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXX
 --data-urlencode "Url=http://demo.twilio.com/docs/voice.xml" \
 --data-urlencode "To=+123456789" \
 --data-urlencode "From=+987654321" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token

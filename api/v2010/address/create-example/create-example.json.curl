@@ -5,4 +5,4 @@ curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXX
 --data-urlencode "Region=Mordor" \
 --data-urlencode "PostalCode=150" \
 --data-urlencode "IsoCountry=AX" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token

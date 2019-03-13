@@ -13,6 +13,7 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
+        // DANGER! This is insecure. See http://twil.io/secure
         const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
@@ -29,7 +30,7 @@ class Program
         var notification = NotificationResource.Create(
             body: "Hello Bob",
             toBinding: toBinding,
-            identity: Promoter.ListOfOne("Identity"),
+            identity: Promoter.ListOfOne("identity"),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

@@ -5,13 +5,14 @@ import com.twilio.rest.api.v2010.account.sip.Domain;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
+    // DANGER! This is insecure. See http://twil.io/secure
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Domain domain = Domain.updater("SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setAuthType("authType").update();
+            .setFriendlyName("friendlyName").update();
 
         System.out.println(domain.getDomainName());
     }

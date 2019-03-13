@@ -3,7 +3,9 @@
   "title": "Create Composition",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
       "path": {}
     },
     "location": "https://video.twilio.com/v1/Compositions",

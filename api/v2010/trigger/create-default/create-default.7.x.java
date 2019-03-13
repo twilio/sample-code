@@ -7,6 +7,7 @@ import java.net.URI;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
+    // DANGER! This is insecure. See http://twil.io/secure
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
@@ -15,7 +16,7 @@ public class Example {
         Trigger trigger = Trigger.creator(
                 URI.create("https://example.com"),
                 "triggerValue",
-                Trigger.UsageCategory.ANSWERING_MACHINE_DETECTION)
+                Trigger.UsageCategory.AGENT_CONFERENCE)
             .create();
 
         System.out.println(trigger.getSid());
