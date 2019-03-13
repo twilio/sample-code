@@ -1,5 +1,6 @@
 {
   "longest_task_waiting_age": 100,
+  "longest_task_waiting_sid": "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "task_queue_sid": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "tasks_by_status": {
     "reserved": "0",

@@ -7,6 +7,7 @@ import com.twilio.type.PhoneNumber;
 public class Example {
     // Find your Account Sid at twilio.com/console
     // Provision API Keys at twilio.com/console/runtime/api-keys
+    // DANGER! This is insecure. See http://twil.io/secure
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String API_KEY = "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String API_SECRET = "your_api_secret";

@@ -1,2 +1,3 @@
 curl -X POST https://video.twilio.com/v1/Compositions \
+--data-urlencode "RoomSid=RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

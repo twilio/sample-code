@@ -7,15 +7,13 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $task_queue = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->taskQueues
-                                     ->create("friendlyName", // friendlyName
-                                              "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", // reservationActivitySid
-                                              "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // assignmentActivitySid
-                                     );
+                                     ->create("friendlyName");
 
 print($task_queue->sid);

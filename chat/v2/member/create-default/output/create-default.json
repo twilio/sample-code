@@ -9,5 +9,6 @@
   "last_consumption_timestamp": null,
   "date_created": "2016-03-24T21:05:50Z",
   "date_updated": "2016-03-24T21:05:50Z",
+  "attributes": {},
   "url": "https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Channels/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Members/MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 }

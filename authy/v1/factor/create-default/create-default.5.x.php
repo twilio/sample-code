@@ -7,6 +7,7 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
@@ -14,6 +15,6 @@ $twilio = new Client($sid, $token);
 $factor = $twilio->authy->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->entities("identity")
                             ->factors
-                            ->create("binding", "factorType", "friendlyName");
+                            ->create("binding", "friendlyName", "app-push");
 
 print($factor->sid);

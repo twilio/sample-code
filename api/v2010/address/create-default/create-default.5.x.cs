@@ -10,17 +10,18 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
+        // DANGER! This is insecure. See http://twil.io/secure
         const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var address = AddressResource.Create(
-            customerName: "CustomerName",
-            street: "Street",
-            city: "City",
-            region: "Region",
-            postalCode: "PostalCode",
+            customerName: "customerName",
+            street: "street",
+            city: "city",
+            region: "region",
+            postalCode: "postalCode",
             isoCountry: "US"
         );
 

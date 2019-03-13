@@ -3,4 +3,4 @@ curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXX
 --data-urlencode "Url=https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16" \
 --data-urlencode "To=+1562300000" \
 --data-urlencode "From=+18180000000" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_account_token
