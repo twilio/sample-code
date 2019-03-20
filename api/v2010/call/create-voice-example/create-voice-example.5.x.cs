@@ -12,9 +12,10 @@ class Program
         // Find your Account Sid and Token at twilio.com/console
         // DANGER! This is insecure. See http://twil.io/secure
         const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+        const string subaccountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
-        TwilioClient.Init(accountSid, authToken);
+        TwilioClient.Init(accountSid, authToken, subaccountSid);
 
         var call = CallResource.Create(
             url: new Uri("http://twimlets.com/message?Message%5B0%5D=Hello%20from%20your%20subaccount"),
