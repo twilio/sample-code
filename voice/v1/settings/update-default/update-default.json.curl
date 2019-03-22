@@ -1,0 +1,3 @@
+curl -X POST https://voice.twilio.com/v1/Settings \
+--data-urlencode "DialingPermissionsInheritance=True" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

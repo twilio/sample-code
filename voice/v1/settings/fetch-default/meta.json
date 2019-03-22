@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Fetch Settings",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://voice.twilio.com/v1/Settings",
+    "method": "get",
+    "domain": "voice",
+    "version": "v1",
+    "resource": "voice_permissions_settings",
+    "action": "fetch"
+  }
+}
