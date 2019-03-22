@@ -1,7 +1,7 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.rest.voice.v1.voicepermission.BulkCountryUpdate;
+import com.twilio.rest.voice.v1.voicepermission.Settings;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -11,10 +11,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        BulkCountryUpdate bulkCountryUpdate = BulkCountryUpdate.creator(
-                "[ { \"iso_code\": \"US\", \"low_risk_numbers_enabled\": \"true\", \"high_risk_special_numbers_enabled\":\"false\", \"high_risk_tollfraud_numbers_enabled\": \"false\" } ]")
-            .create();
+        Settings settings = Settings.fetcher().fetch();
 
-        System.out.println(bulkCountryUpdate.getUpdateCount());
+        System.out.println(settings.getDialingPermissionsInheritance());
     }
 }

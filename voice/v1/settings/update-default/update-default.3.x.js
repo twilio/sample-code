@@ -6,8 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.voice.voicePermissions
-  .bulkCountryUpdates
-  .create({
-     updateRequest: `[{'iso_code': 'US', 'low_risk_numbers_enabled': 'true', 'high_risk_special_numbers_enabled': 'false', 'high_risk_tollfraud_numbers_enabled': 'false'}]`
-   })
-  .then(bulk_country_update => console.log(bulk_country_update.updateCount));
+      .settings()
+      .update({dialingPermissionsInheritance: true})
+      .then(settings => console.log(settings.dialingPermissionsInheritance));
