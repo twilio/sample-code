@@ -3,6 +3,7 @@
   "title": "Lookup with National Formatted Number",
   "type": "server",
   "output_property": "carrier",
+  "transaction_name": "fetch_carrier",
   "_definition": {
     "params": {
       "required": {
