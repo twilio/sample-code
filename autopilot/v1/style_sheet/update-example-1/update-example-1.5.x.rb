@@ -12,8 +12,10 @@ style_sheet = @client.autopilot
                      .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .style_sheet
                      .update(style_sheet: {
-                          'voice' => {
-                              'say_voice' => 'Polly.Joanna'
+                          'style_sheet' => {
+                              'voice' => {
+                                  'say_voice' => 'Polly.Joanna'
+                              }
                           }
                       })
 

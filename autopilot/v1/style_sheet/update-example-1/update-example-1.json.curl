@@ -1,7 +1,9 @@
 STYLESHEET=$(cat << EOF
 {
-    "voice": {
-        "say_voice": "Polly.Joanna"
+    "style_sheet": {
+        "voice": {
+            "say_voice": "Polly.Joanna"
+        }
     }
 }
 EOF

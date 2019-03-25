@@ -16,8 +16,10 @@ $style_sheet = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                      ->styleSheet()
                                      ->update(array(
                                                   "styleSheet" => array(
-                                                      "voice" => array(
-                                                          "say_voice" => "Polly.Joanna"
+                                                      "style_sheet" => array(
+                                                          "voice" => array(
+                                                              "say_voice" => "Polly.Joanna"
+                                                          )
                                                       )
                                                   )
                                               )
