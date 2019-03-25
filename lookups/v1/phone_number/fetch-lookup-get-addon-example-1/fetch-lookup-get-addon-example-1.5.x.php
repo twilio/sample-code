@@ -12,7 +12,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$phone_number = $twilio->lookups->v1->phoneNumbers("+16502530000")
+$phone_number = $twilio->lookups->v1->phoneNumbers("+12127363100")
                                     ->fetch(array(
                                                 "addOns" => "whitepages_pro_caller_id"
                                             )

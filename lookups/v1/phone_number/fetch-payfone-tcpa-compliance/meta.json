@@ -1,8 +1,8 @@
 {
-  "description": "Use a helper library to make a Lookups API request using the Payfone TCPA Compliance add-on.",
   "original_snippet_path": "add-ons/lookups/payfone-tcpa-compliance/payfone-tcpa-compliance.6.x.py",
-  "title": "Lookups with Payfone TCPA Compliance Add-on",
+  "title": "Deterministic TCPA Compliance with Lookup and the Payfone Add-on",
   "type": "server",
+  "transaction_name": "fetch_addons_payfone",
   "_definition": {
     "params": {
       "required": {

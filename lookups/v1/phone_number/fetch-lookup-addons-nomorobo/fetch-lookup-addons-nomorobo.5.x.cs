@@ -18,14 +18,14 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var addOns = new List<string> {
-            "whitepages_pro_caller_id"
+            "nomorobo_spamscore"
         };
 
         var phoneNumber = PhoneNumberResource.Fetch(
             addOns: addOns,
-            pathPhoneNumber: new Twilio.Types.PhoneNumber("+12127363100")
+            pathPhoneNumber: new Twilio.Types.PhoneNumber("+19892008374")
         );
 
-        Console.WriteLine(phoneNumber.Carrier);
+        Console.WriteLine(phoneNumber.CallerName);
     }
 }

@@ -12,11 +12,10 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$phone_number = $twilio->lookups->v1->phoneNumbers("(510)867-5310")
+$phone_number = $twilio->lookups->v1->phoneNumbers("+19892008374")
                                     ->fetch(array(
-                                                "countryCode" => "US",
-                                                "type" => "carrier"
+                                                "addOns" => "nomorobo_spamscore"
                                             )
                                     );
 
-print($phone_number->carrier);
+print($phone_number->callerName);

@@ -23,7 +23,7 @@ class Program
 
         var phoneNumber = PhoneNumberResource.Fetch(
             type: type,
-            pathPhoneNumber: new Twilio.Types.PhoneNumber("15108675310")
+            pathPhoneNumber: new Twilio.Types.PhoneNumber("+15108675310")
         );
 
         Console.WriteLine(phoneNumber.Carrier);

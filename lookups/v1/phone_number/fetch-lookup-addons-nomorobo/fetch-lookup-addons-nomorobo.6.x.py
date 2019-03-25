@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 phone_number = client.lookups \
-                     .phone_numbers('+12127363100') \
-                     .fetch(add_ons='whitepages_pro_caller_id')
+                     .phone_numbers('+19892008374') \
+                     .fetch(add_ons='nomorobo_spamscore')
 
-print(phone_number.carrier)
+print(phone_number.caller_name)

@@ -24,7 +24,7 @@ class Program
         var phoneNumber = PhoneNumberResource.Fetch(
             countryCode: "US",
             type: type,
-            pathPhoneNumber: new Twilio.Types.PhoneNumber("+15108675310")
+            pathPhoneNumber: new Twilio.Types.PhoneNumber("(510)867-5310")
         );
 
         Console.WriteLine(phoneNumber.Carrier);
