@@ -19,9 +19,12 @@ class Program
 
         var styleSheet = new Dictionary<string, Object>()
         {
-            {"voice", new Dictionary<string, Object>()
+            {"style_sheet", new Dictionary<string, Object>()
                 {
-                    {"say_voice", "Polly.Joanna"}
+                    {"voice", new Dictionary<string, Object>()
+                        {
+                            {"say_voice", "Polly.Joanna"}
+                        }}
                 }}
         };
 

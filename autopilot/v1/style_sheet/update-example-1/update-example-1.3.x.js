@@ -8,8 +8,10 @@ const client = require('twilio')(accountSid, authToken);
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .styleSheet()
                 .update({styleSheet: {
-                     voice: {
-                         say_voice: 'Polly.Joanna'
+                     style_sheet: {
+                         voice: {
+                             say_voice: 'Polly.Joanna'
+                         }
                      }
                  }})
                 .then(style_sheet => console.log(style_sheet.assistantSid));
