@@ -3,6 +3,7 @@
   "title": "Lookup with Caller Name",
   "type": "server",
   "output_property": "caller_name",
+  "transaction_name": "fetch_caller_name",
   "_definition": {
     "params": {
       "required": {
