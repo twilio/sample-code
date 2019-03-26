@@ -5,6 +5,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.lookups.phoneNumbers('+15108675310')
-              .fetch({type: 'carrier'})
-              .then(phone_number => console.log(phone_number.carrier));
+client.lookups.phoneNumbers('+19892008374')
+              .fetch({addOns: 'nomorobo_spamscore'})
+              .then(phone_number => console.log(phone_number.callerName));

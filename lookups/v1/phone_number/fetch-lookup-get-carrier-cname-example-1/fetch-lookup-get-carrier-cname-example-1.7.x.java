@@ -13,7 +13,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         PhoneNumber phoneNumber = PhoneNumber.fetcher(
-                new com.twilio.type.PhoneNumber("15108675310"))
+                new com.twilio.type.PhoneNumber("+15108675310"))
             .setType(Promoter.listOfOne("carrier")).fetch();
 
         System.out.println(phoneNumber.getCarrier());

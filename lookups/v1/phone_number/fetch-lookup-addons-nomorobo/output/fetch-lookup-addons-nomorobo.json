@@ -1,0 +1,16 @@
+{
+  "caller_name": null,
+  "country_code": "US",
+  "phone_number": "+19892008374",
+  "national_format": "(989) 200-8374",
+  "carrier": {
+    "mobile_country_code": "310",
+    "mobile_network_code": null,
+    "name": "Ytel/Blitz",
+    "type": "mobile",
+    "error_code": null
+  },
+  "fraud": null,
+  "add_ons": "nomorobo_spamscore",
+  "url": "https://lookups.twilio.com/v1/PhoneNumbers/+19892008374?Type=carrier"
+}

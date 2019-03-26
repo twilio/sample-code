@@ -1,15 +1,16 @@
 {
   "original_snippet_path": "lookups/lookup-get-addon-example-1/lookup-get-addon-examples-1.6.x.py",
-  "title": "Use Lookup Add-ons to get additional information for a phone number",
+  "title": "Get additional caller information with Lookup and Whitepages Pro Caller ID Add-on",
   "type": "server",
   "output_property": "carrier",
+  "transaction_name": "fetch_addons_whitepages_pro",
   "_definition": {
     "params": {
       "required": {
         "add_ons": "whitepages_pro_caller_id"
       },
       "path": {
-        "phone_number": "+16502530000"
+        "phone_number": "+12127363100"
       }
     },
     "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",

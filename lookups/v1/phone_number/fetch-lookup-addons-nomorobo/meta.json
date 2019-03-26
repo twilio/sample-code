@@ -1,17 +1,14 @@
 {
-  "original_snippet_path": "lookups/lookup-get-basic-example-2/lookup-get-basic-example-2.6.x.py",
-  "title": "Lookup with National Formatted Number",
+  "title": "Detect Robocallers with Lookup and Nomorobo Spam Score Add-on",
   "type": "server",
-  "output_property": "carrier",
-  "transaction_name": "fetch_carrier",
+  "transaction_name": "fetch_addons_nomorobo",
   "_definition": {
     "params": {
       "required": {
-        "country_code": "US",
-        "type": "carrier"
+        "add_ons": "nomorobo_spamscore"
       },
       "path": {
-        "phone_number": "(510)867-5310"
+        "phone_number": "+19892008374"
       }
     },
     "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",

@@ -6,9 +6,10 @@
       "phone number"
   ],
   "testable": false,
-  "title": "Lookup with Add-on enabled",
+  "title": "Deterministic TCPA Compliance with Lookup and the Payfone Add-on",
   "type": "server",
   "output_property": "carrier",
+  "transaction_name": "fetch_addons_payfone",
   "_definition": {
     "params": {
       "required": {
@@ -19,7 +20,7 @@
         "type": "carrier"
       },
       "path": {
-        "phone_number": "+15108675310"
+        "phone_number": "+16502530000"
       }
     },
     "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",

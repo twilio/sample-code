@@ -3,13 +3,14 @@
   "title": "Lookup with Carrier Caller Name",
   "type": "server",
   "output_property": "carrier",
+  "transaction_name": "fetch_carrier_and_caller_name",
   "_definition": {
     "params": {
       "required": {
         "type": "carrier"
       },
       "path": {
-        "phone_number": "15108675310"
+        "phone_number": "+15108675310"
       }
     },
     "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",

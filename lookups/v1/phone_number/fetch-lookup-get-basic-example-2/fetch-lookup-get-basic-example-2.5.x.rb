@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 phone_number = @client.lookups
-                      .phone_numbers('+15108675310')
+                      .phone_numbers('(510)867-5310')
                       .fetch(country_code: 'US', type: 'carrier')
 
 puts phone_number.carrier
