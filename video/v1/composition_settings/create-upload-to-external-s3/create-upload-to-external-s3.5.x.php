@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $composition_settings = $twilio->video->v1->compositionSettings()
                                           ->create("Upload to external bucket", // friendlyName
                                                    array(
-                                                       "awsS3Url" => "AwsS3Url=https://my-bucket.s3.amazonaws.com/recordings",
+                                                       "awsS3Url" => "https://my-bucket.s3.amazonaws.com/recordings",
                                                        "awsStorageEnabled" => True,
                                                        "awsCredentialsSid" => "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                                    )
