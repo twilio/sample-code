@@ -1,6 +1,6 @@
 {
+  "title": "Fetch high risk prefixes for a country",
   "type": "server",
-  "title": "Read Highrisk Special Prefix",
   "_definition": {
     "params": {
       "required": {},
