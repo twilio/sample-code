@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var highriskSpecialPrefixes = HighriskSpecialPrefixResource.Read(
-            pathIsoCode: "US"
+            pathIsoCode: "LV"
         );
 
         foreach(var record in highriskSpecialPrefixes)

@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.voice.voicePermissions
-  .countries('US')
+  .countries('LV')
   .highriskSpecialPrefixes
   .each(highriskSpecialPrefixes => console.log(highriskSpecialPrefixes.prefix));
