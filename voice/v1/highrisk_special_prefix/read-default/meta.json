@@ -5,7 +5,7 @@
     "params": {
       "required": {},
       "path": {
-        "iso_code": "US"
+        "iso_code": "LV"
       }
     },
     "location": "https://voice.twilio.com/v1/DialingPermissions/Countries/{iso_code}/HighRiskSpecialPrefixes",

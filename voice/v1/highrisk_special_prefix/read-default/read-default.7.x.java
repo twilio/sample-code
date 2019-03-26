@@ -13,7 +13,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<HighriskSpecialPrefix> highriskSpecialPrefixes = 
-            HighriskSpecialPrefix.reader("US")
+            HighriskSpecialPrefix.reader("LV")
             .read();
 
         for(HighriskSpecialPrefix record : highriskSpecialPrefixes) {
