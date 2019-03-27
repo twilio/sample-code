@@ -1,0 +1,19 @@
+{
+  "type": "server",
+  "title": "Fetch Verification",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "sid"
+      }
+    },
+    "location": "https://verify.twilio.com/v2/Services/{service_sid}/Verifications/{sid}",
+    "method": "get",
+    "domain": "verify",
+    "version": "v2",
+    "resource": "verification",
+    "action": "fetch"
+  }
+}

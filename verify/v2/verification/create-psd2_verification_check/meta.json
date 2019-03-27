@@ -1,0 +1,24 @@
+{
+  "title": "Start a PSD2 Verification",
+  "type": "server",
+  "transaction_name": "psd2_verification",
+  "_definition": {
+    "params": {
+      "required": {
+        "amount": "\u20ac39.99",
+        "payee": "Acme Inc.",
+        "to": "+14159373912",
+        "channel": "sms"
+      },
+      "path": {
+        "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://verify.twilio.com/v2/Services/{service_sid}/Verifications",
+    "method": "post",
+    "domain": "verify",
+    "version": "v2",
+    "resource": "verification",
+    "action": "create"
+  }
+}

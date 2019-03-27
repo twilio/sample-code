@@ -1,0 +1,18 @@
+{
+  "type": "server",
+  "title": "Create Service",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "FriendlyName"
+      },
+      "path": {}
+    },
+    "location": "https://verify.twilio.com/v2/Services",
+    "method": "post",
+    "domain": "verify",
+    "version": "v2",
+    "resource": "service",
+    "action": "create"
+  }
+}
