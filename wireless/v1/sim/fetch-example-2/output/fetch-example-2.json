@@ -24,6 +24,7 @@
   "iccid": "iccid",
   "e_id": "e_id",
   "status": "new",
+  "reset_status": null,
   "url": "https://wireless.twilio.com/v1/Sims/DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "ip_address": "192.168.1.1"
 }

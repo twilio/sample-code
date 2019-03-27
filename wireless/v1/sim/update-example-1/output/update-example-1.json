@@ -16,6 +16,7 @@
   "iccid": "iccid",
   "e_id": "e_id",
   "status": "active",
+  "reset_status": null,
   "sms_fallback_method": "http_method",
   "sms_fallback_url": "http://www.example.com",
   "sms_method": "http_method",
