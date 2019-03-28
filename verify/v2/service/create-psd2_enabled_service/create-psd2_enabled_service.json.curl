@@ -1,0 +1,4 @@
+curl -X POST https://verify.twilio.com/v2/Services \
+--data-urlencode "Psd2Enabled=True" \
+--data-urlencode "FriendlyName=My PSD2 Compliant Service" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -1,0 +1,21 @@
+{
+  "type": "server",
+  "title": "Create Verification Check",
+  "_definition": {
+    "params": {
+      "required": {
+        "to": "+14159373912",
+        "code": "1234"
+      },
+      "path": {
+        "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://verify.twilio.com/v2/Services/{service_sid}/VerificationCheck",
+    "method": "post",
+    "domain": "verify",
+    "version": "v2",
+    "resource": "verification_check",
+    "action": "create"
+  }
+}

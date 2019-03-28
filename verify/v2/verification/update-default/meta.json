@@ -1,0 +1,21 @@
+{
+  "type": "server",
+  "title": "Update Verification",
+  "_definition": {
+    "params": {
+      "required": {
+        "status": "canceled"
+      },
+      "path": {
+        "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "sid"
+      }
+    },
+    "location": "https://verify.twilio.com/v2/Services/{service_sid}/Verifications/{sid}",
+    "method": "post",
+    "domain": "verify",
+    "version": "v2",
+    "resource": "verification",
+    "action": "update"
+  }
+}

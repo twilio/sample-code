@@ -1,0 +1,21 @@
+{
+  "type": "server",
+  "title": "Create Verification",
+  "_definition": {
+    "params": {
+      "required": {
+        "to": "+14159373912",
+        "channel": "sms"
+      },
+      "path": {
+        "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://verify.twilio.com/v2/Services/{service_sid}/Verifications",
+    "method": "post",
+    "domain": "verify",
+    "version": "v2",
+    "resource": "verification",
+    "action": "create"
+  }
+}
