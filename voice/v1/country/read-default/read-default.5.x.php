@@ -12,7 +12,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$countries = $twilio->voice->v1->voicePermissions
+$countries = $twilio->voice->v1->dialingPermissions
                                ->countries
                                ->read();
 

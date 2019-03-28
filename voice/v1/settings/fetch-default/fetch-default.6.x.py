@@ -8,6 +8,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-settings = client.voice.voice_permissions.settings().fetch()
+settings = client.voice.dialing_permissions.settings().fetch()
 
 print(settings.dialing_permissions_inheritance)

@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 bulk_country_update = client.voice \
-                            .voice_permissions \
+                            .dialing_permissions \
                             .bulk_country_updates \
                             .create(update_request='update_request')
 

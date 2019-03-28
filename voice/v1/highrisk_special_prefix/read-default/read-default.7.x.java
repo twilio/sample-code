@@ -2,7 +2,7 @@
 
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
-import com.twilio.rest.voice.v1.voicepermission.country.HighriskSpecialPrefix;
+import com.twilio.rest.voice.v1.dialingpermissions.country.HighriskSpecialPrefix;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -13,7 +13,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<HighriskSpecialPrefix> highriskSpecialPrefixes = 
-            HighriskSpecialPrefix.reader("LV")
+            HighriskSpecialPrefix.reader("US")
             .read();
 
         for(HighriskSpecialPrefix record : highriskSpecialPrefixes) {

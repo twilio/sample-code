@@ -12,7 +12,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$settings = $twilio->voice->v1->voicePermissions
+$settings = $twilio->voice->v1->dialingPermissions
                               ->settings()
                               ->update(array(
                                            "dialingPermissionsInheritance" => True

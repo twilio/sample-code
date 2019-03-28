@@ -2,7 +2,7 @@
 
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
-import com.twilio.rest.voice.v1.voicepermission.Country;
+import com.twilio.rest.voice.v1.dialingpermissions.Country;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console

@@ -8,6 +8,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-country = client.voice.voice_permissions.countries('US').fetch()
+country = client.voice.dialing_permissions.countries('US').fetch()
 
 print(country.name)

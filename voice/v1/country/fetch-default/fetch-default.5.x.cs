@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Voice.V1.VoicePermission;
+using Twilio.Rest.Voice.V1.DialingPermissions;
 
 
 class Program 
