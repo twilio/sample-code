@@ -12,7 +12,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$bulk_country_update = $twilio->voice->v1->voicePermissions
+$bulk_country_update = $twilio->voice->v1->dialingPermissions
                                          ->bulkCountryUpdates
                                          ->create("updateRequest");
 

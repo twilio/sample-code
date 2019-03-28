@@ -1,7 +1,7 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.rest.voice.v1.voicepermission.Settings;
+import com.twilio.rest.voice.v1.dialingpermissions.Settings;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console

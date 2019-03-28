@@ -8,6 +8,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-country = @client.voice.voice_permissions.countries('US').fetch
+country = @client.voice.dialing_permissions.countries('US').fetch
 
 puts country.name

@@ -5,7 +5,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.voice.voicePermissions
+client.voice.dialingPermissions
   .bulkCountryUpdates
   .create({updateRequest: 'updateRequest'})
   .then(bulk_country_update => console.log(bulk_country_update.updateCount));

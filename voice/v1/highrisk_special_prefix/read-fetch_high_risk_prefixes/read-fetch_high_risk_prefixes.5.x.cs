@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Voice.V1.DialingPermissions;
+using Twilio.Rest.Voice.V1.DialingPermissions.Country;
 
 
 class Program 
@@ -16,8 +16,13 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var settings = SettingsResource.Fetch();
+        var highriskSpecialPrefixes = HighriskSpecialPrefixResource.Read(
+            pathIsoCode: "LV"
+        );
 
-        Console.WriteLine(settings.DialingPermissionsInheritance);
+        foreach(var record in highriskSpecialPrefixes)
+        {
+           Console.WriteLine(record.Prefix);
+        }
     }
 }

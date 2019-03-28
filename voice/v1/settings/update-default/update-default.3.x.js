@@ -5,7 +5,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.voice.voicePermissions
+client.voice.dialingPermissions
       .settings()
       .update({dialingPermissionsInheritance: true})
       .then(settings => console.log(settings.dialingPermissionsInheritance));

@@ -1,7 +1,8 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.rest.voice.v1.dialingpermissions.Settings;
+import com.twilio.base.ResourceSet;
+import com.twilio.rest.voice.v1.dialingpermissions.country.HighriskSpecialPrefix;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -11,9 +12,12 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Settings settings = Settings.updater()
-            .setDialingPermissionsInheritance(true).update();
+        ResourceSet<HighriskSpecialPrefix> highriskSpecialPrefixes = 
+            HighriskSpecialPrefix.reader("LV")
+            .read();
 
-        System.out.println(settings.getDialingPermissionsInheritance());
+        for(HighriskSpecialPrefix record : highriskSpecialPrefixes) {
+            System.out.println(record.getPrefix());
+        }
     }
 }

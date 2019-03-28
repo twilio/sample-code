@@ -12,7 +12,7 @@
     "method": "post",
     "domain": "voice",
     "version": "v1",
-    "resource": "voice_permission_country_bulk_update",
+    "resource": "dialing_permissions_country_bulk_update",
     "action": "create"
   }
 }
