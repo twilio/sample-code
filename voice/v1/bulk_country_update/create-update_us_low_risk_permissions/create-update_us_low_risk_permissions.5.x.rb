@@ -12,7 +12,7 @@ bulk_country_update = @client.voice
   .dialing_permissions
   .bulk_country_updates
   .create(
-     update_request: "[{'iso_code': 'US', 'low_risk_numbers_enabled': 'true', 'high_risk_special_numbers_enabled': 'false', 'high_risk_tollfraud_numbers_enabled': 'false'}]"
+     update_request: '[ { "iso_code": "US", "low_risk_numbers_enabled": "true", "high_risk_special_numbers_enabled":"false", "high_risk_tollfraud_numbers_enabled": "false" } ]'
    )
 
 puts bulk_country_update.update_count
