@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 highrisk_special_prefixes = client.voice \
                                   .dialing_permissions \
-                                  .countries('US') \
+                                  .countries('LV') \
                                   .highrisk_special_prefixes \
                                   .list()
 
