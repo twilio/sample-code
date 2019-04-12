@@ -7,11 +7,11 @@ const client = require('twilio')(accountSid, authToken);
 
 client.video.recordingSettings()
   .create({
-     awsS3Url: 'AwsS3Url=https://my-bucket.s3.amazonaws.com/recordings',
+     awsS3Url: 'https://my-bucket.s3.amazonaws.com/recordings',
      awsStorageEnabled: true,
      awsCredentialsSid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
      encryptionEnabled: true,
      encryptionKeySid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-     friendlyName: 'Upload encrypted'
+     friendlyName: 'Upload encrypted to external bucket'
    })
   .then(recording_settings => console.log(recording_settings.friendlyName));
