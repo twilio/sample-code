@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 recording_settings = @client.video
   .recording_settings
   .create(
-     aws_s3_url: 'AwsS3Url=https://my-bucket.s3.amazonaws.com/recordings',
+     aws_s3_url: 'https://my-bucket.s3.amazonaws.com/recordings',
      aws_storage_enabled: true,
      aws_credentials_sid: 'CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
      friendly_name: 'Upload to external bucket'

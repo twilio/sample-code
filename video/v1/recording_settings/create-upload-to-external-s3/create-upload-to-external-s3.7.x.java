@@ -16,7 +16,7 @@ public class Example {
         RecordingSettings recordingSettings = 
             RecordingSettings.creator("Upload to external bucket")
             .setAwsS3Url(
-                URI.create("AwsS3Url=https://my-bucket.s3.amazonaws.com/recordings"))
+                URI.create("https://my-bucket.s3.amazonaws.com/recordings"))
             .setAwsStorageEnabled(true)
             .setAwsCredentialsSid("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .create();

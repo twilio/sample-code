@@ -17,12 +17,12 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var recordingSettings = RecordingSettingsResource.Create(
-            awsS3Url: new Uri("AwsS3Url=https://my-bucket.s3.amazonaws.com/recordings"),
+            awsS3Url: new Uri("https://my-bucket.s3.amazonaws.com/recordings"),
             awsStorageEnabled: true,
             awsCredentialsSid: "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             encryptionEnabled: true,
             encryptionKeySid: "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            friendlyName: "Upload encrypted"
+            friendlyName: "Upload encrypted to external bucket"
         );
 
         Console.WriteLine(recordingSettings.FriendlyName);

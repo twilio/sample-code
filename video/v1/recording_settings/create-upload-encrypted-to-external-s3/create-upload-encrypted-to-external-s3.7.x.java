@@ -13,10 +13,10 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        RecordingSettings recordingSettings = 
-            RecordingSettings.creator("Upload encrypted")
+        RecordingSettings recordingSettings = RecordingSettings.creator(
+                "Upload encrypted to external bucket")
             .setAwsS3Url(
-                URI.create("AwsS3Url=https://my-bucket.s3.amazonaws.com/recordings"))
+                URI.create("https://my-bucket.s3.amazonaws.com/recordings"))
             .setAwsStorageEnabled(true)
             .setAwsCredentialsSid("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setEncryptionEnabled(true)
