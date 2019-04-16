@@ -1,12 +1,12 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.http.HttpMethod;
 import com.twilio.rest.api.v2010.account.Call;
 import com.twilio.type.PhoneNumber;
 
 import java.net.URI;
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -22,7 +22,8 @@ public class Example {
                 URI.create("http://demo.twilio.com/docs/voice.xml"))
             .setMethod(HttpMethod.GET)
             .setStatusCallback(URI.create("https://www.myapp.com/events"))
-            .setStatusCallbackEvent(Promoter.listOfOne("initiated"))
+            .setStatusCallbackEvent(
+                Arrays.asList("initiated", "answered"))
             .setStatusCallbackMethod(HttpMethod.POST)
             .create();
 

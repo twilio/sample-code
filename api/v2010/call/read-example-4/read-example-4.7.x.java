@@ -15,7 +15,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Call> calls = Call.reader()
-            .setStartTime(Range.greaterThan(new DateTime(2009, 7, 4, 0, 0)))
+            .setStartTime(
+                Range.open(new DateTime(2009, 7, 4, 0, 0), new DateTime(2009, 7, 6, 0, 0)))
             .setStatus(Call.Status.IN_PROGRESS)
             .read();
 
