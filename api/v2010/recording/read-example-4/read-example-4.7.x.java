@@ -16,7 +16,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Recording> recordings = Recording.reader()
             .setDateCreated(
-                Range.greaterThan(new DateTime(2016, 10, 12, 0, 0)))
+                Range.open(new DateTime(2016, 10, 12, 0, 0), new DateTime(2016, 10, 15, 0, 0)))
             .read();
 
         for(Recording record : recordings) {
