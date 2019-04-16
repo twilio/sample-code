@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .usageRecords
-               .each(usageRecords => console.log(usageRecords.simSid));
+               .list()
+               .then(usageRecords => console.log(usageRecords.simSid));

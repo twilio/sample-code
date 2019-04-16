@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .entities('identity')
             .factors
-            .each(factors => console.log(factors.sid));
+            .list()
+            .then(factors => console.log(factors.sid));

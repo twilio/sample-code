@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .publishedTracks
-            .each(publishedTracks => console.log(publishedTracks.sid));
+            .list()
+            .then(publishedTracks => console.log(publishedTracks.sid));

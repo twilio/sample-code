@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .taskChannels
-                 .each(taskChannels => console.log(taskChannels.sid));
+                 .list()
+                 .then(taskChannels => console.log(taskChannels.sid));

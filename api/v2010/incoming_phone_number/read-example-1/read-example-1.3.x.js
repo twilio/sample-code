@@ -6,4 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.incomingPhoneNumbers
-      .each(incomingPhoneNumbers => console.log(incomingPhoneNumbers.sid));
+      .list()
+      .then(incomingPhoneNumbers => console.log(incomingPhoneNumbers.sid));

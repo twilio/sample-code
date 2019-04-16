@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fieldTypes('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fieldValues
-                .each(fieldValues => console.log(fieldValues.sid));
+                .list()
+                .then(fieldValues => console.log(fieldValues.sid));

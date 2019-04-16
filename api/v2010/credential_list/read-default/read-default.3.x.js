@@ -6,4 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sip.credentialLists
-          .each(credentialLists => console.log(credentialLists.sid));
+          .list()
+          .then(credentialLists => console.log(credentialLists.sid));

@@ -5,8 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.monitor.events.each({
-                        resourceSid: 'PN4aa51b930717ea83c91971b86d99018f'
-                      },
-                          events => console.log(events.sid)
-                      );
+client.monitor.events.list({resourceSid: 'PN4aa51b930717ea83c91971b86d99018f'})
+                     .then(events => console.log(events.sid));

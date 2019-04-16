@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .credentialsLists
-               .each(credentialsLists => console.log(credentialsLists.sid));
+               .list()
+               .then(credentialsLists => console.log(credentialsLists.sid));

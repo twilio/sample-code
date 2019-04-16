@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .reservations
-                 .each(reservations => console.log(reservations.sid));
+                 .list()
+                 .then(reservations => console.log(reservations.sid));

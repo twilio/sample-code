@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.hosted_numbers
               .hostedNumberOrders
-              .each(hostedNumberOrders => console.log(hostedNumberOrders.sid));
+              .list()
+              .then(hostedNumberOrders => console.log(hostedNumberOrders.sid));

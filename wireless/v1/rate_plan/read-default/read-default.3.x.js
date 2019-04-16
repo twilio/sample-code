@@ -5,4 +5,4 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.wireless.ratePlans.each(ratePlans => console.log(ratePlans.sid));
+client.wireless.ratePlans.list().then(ratePlans => console.log(ratePlans.sid));

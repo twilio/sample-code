@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .syncMapItems
-           .each(syncMapItems => console.log(syncMapItems.key));
+           .list()
+           .then(syncMapItems => console.log(syncMapItems.key));

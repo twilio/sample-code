@@ -5,4 +5,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.usage.records.allTime.each(allTime => console.log(allTime.category));
+client.usage.records.allTime
+                    .list()
+                    .then(allTime => console.log(allTime.category));

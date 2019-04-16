@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .participants
-      .each(participants => console.log(participants.callSid));
+      .list()
+      .then(participants => console.log(participants.callSid));

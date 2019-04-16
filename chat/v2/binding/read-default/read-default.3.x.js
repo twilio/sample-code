@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .bindings
-           .each(bindings => console.log(bindings.sid));
+           .list()
+           .then(bindings => console.log(bindings.sid));

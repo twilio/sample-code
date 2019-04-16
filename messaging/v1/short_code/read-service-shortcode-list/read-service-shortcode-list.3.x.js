@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MG2172dd2db502e20dd981ef0d67850e1a')
                 .shortCodes
-                .each(shortCodes => console.log(shortCodes.sid));
+                .list()
+                .then(shortCodes => console.log(shortCodes.sid));

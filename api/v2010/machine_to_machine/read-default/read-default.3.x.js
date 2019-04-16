@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.availablePhoneNumbers('US')
       .machineToMachine
-      .each(machineToMachine => console.log(machineToMachine.friendlyName));
+      .list()
+      .then(machineToMachine => console.log(machineToMachine.friendlyName));

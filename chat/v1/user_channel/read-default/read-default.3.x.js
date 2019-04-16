@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .userChannels
-              .each(userChannels => console.log(userChannels.serviceSid));
+              .list()
+              .then(userChannels => console.log(userChannels.serviceSid));

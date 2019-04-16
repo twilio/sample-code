@@ -6,9 +6,8 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.recordings
-      .each({
+      .list({
          dateCreatedBefore: new Date(Date.UTC(2016, 9, 15, 0, 0, 0)),
          dateCreatedAfter: new Date(Date.UTC(2016, 9, 12, 0, 0, 0))
-       },
-           recordings => console.log(recordings.sid)
-       );
+       })
+      .then(recordings => console.log(recordings.sid));

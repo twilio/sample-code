@@ -9,4 +9,5 @@ client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .auth
   .calls
   .ipAccessControlListMappings
-  .each(ipAccessControlListMappings => console.log(ipAccessControlListMappings.sid));
+  .list()
+  .then(ipAccessControlListMappings => console.log(ipAccessControlListMappings.sid));

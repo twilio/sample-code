@@ -6,4 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.video.compositionHooks
-            .each(compositionHooks => console.log(compositionHooks.sid));
+            .list()
+            .then(compositionHooks => console.log(compositionHooks.sid));

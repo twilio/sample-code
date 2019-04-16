@@ -6,4 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.usage.records.lastMonth
-                    .each(lastMonth => console.log(lastMonth.category));
+                    .list()
+                    .then(lastMonth => console.log(lastMonth.category));

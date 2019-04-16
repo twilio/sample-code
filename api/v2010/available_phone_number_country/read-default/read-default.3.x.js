@@ -6,4 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.availablePhoneNumbers
-  .each(availablePhoneNumbers => console.log(availablePhoneNumbers.countryCode));
+  .list()
+  .then(availablePhoneNumbers => console.log(availablePhoneNumbers.countryCode));

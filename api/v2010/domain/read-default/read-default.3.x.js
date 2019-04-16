@@ -5,4 +5,4 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.sip.domains.each(domains => console.log(domains.sid));
+client.sip.domains.list().then(domains => console.log(domains.sid));

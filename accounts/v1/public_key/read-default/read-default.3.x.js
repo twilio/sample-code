@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.accounts.credentials
                .publicKey
-               .each(publicKey => console.log(publicKey.sid));
+               .list()
+               .then(publicKey => console.log(publicKey.sid));

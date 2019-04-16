@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .taskQueues
                  .statistics
-                 .each(statistics => console.log(statistics.cumulative));
+                 .list()
+                 .then(statistics => console.log(statistics.cumulative));

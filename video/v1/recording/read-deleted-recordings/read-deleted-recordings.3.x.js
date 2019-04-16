@@ -5,8 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.video.recordings.each({
-                          status: 'deleted'
-                        },
-                            recordings => console.log(recordings.sid)
-                        );
+client.video.recordings.list({status: 'deleted'})
+                       .then(recordings => console.log(recordings.sid));

@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .deployments
-              .each(deployments => console.log(deployments.sid));
+              .list()
+              .then(deployments => console.log(deployments.sid));

@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.availablePhoneNumbers('US')
       .sharedCost
-      .each(sharedCost => console.log(sharedCost.friendlyName));
+      .list()
+      .then(sharedCost => console.log(sharedCost.friendlyName));

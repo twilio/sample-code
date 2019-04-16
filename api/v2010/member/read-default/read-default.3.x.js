@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .members
-      .each(members => console.log(members.callSid));
+      .list()
+      .then(members => console.log(members.callSid));

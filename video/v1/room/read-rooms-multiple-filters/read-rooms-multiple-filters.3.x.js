@@ -5,9 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.video.rooms.each({
-                     status: 'completed',
-                     uniqueName: 'DailyStandup'
-                   },
-                       rooms => console.log(rooms.sid)
-                   );
+client.video.rooms.list({status: 'completed', uniqueName: 'DailyStandup'})
+                  .then(rooms => console.log(rooms.sid));

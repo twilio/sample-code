@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .alphaSenders
-                .each(alphaSenders => console.log(alphaSenders.sid));
+                .list()
+                .then(alphaSenders => console.log(alphaSenders.sid));

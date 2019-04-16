@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .webhooks
-           .each(webhooks => console.log(webhooks.sid));
+           .list()
+           .then(webhooks => console.log(webhooks.sid));

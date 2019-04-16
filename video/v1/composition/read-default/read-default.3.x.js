@@ -5,4 +5,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.video.compositions.each(compositions => console.log(compositions.sid));
+client.video.compositions
+            .list()
+            .then(compositions => console.log(compositions.sid));

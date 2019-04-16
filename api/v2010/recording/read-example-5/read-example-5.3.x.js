@@ -5,8 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.recordings.each({
-                    callSid: 'CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-                  },
-                      recordings => console.log(recordings.sid)
-                  );
+client.recordings.list({callSid: 'CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
+                 .then(recordings => console.log(recordings.sid));

@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .modelBuilds
-                .each(modelBuilds => console.log(modelBuilds.sid));
+                .list()
+                .then(modelBuilds => console.log(modelBuilds.sid));

@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.availablePhoneNumbers('US')
       .national
-      .each(national => console.log(national.friendlyName));
+      .list()
+      .then(national => console.log(national.friendlyName));

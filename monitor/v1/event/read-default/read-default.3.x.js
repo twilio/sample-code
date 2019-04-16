@@ -5,4 +5,4 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.monitor.events.each(events => console.log(events.sid));
+client.monitor.events.list().then(events => console.log(events.sid));

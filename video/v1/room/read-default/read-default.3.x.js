@@ -5,4 +5,4 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.video.rooms.each(rooms => console.log(rooms.sid));
+client.video.rooms.list().then(rooms => console.log(rooms.sid));

@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.hosted_numbers
       .authorizationDocuments
-      .each(authorizationDocuments => console.log(authorizationDocuments.sid));
+      .list()
+      .then(authorizationDocuments => console.log(authorizationDocuments.sid));

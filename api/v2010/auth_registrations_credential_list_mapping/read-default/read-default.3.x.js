@@ -9,4 +9,5 @@ client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .auth
       .registrations
       .credentialListMappings
-      .each(credentialListMappings => console.log(credentialListMappings.sid));
+      .list()
+      .then(credentialListMappings => console.log(credentialListMappings.sid));

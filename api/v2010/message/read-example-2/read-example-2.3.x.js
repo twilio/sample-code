@@ -5,10 +5,10 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.messages.each({
-                  dateSent: new Date(Date.UTC(2016, 7, 31, 0, 0, 0)),
-                  from: '+15017122661',
-                  to: '+15558675310'
-                },
-                    messages => console.log(messages.sid)
-                );
+client.messages
+      .list({
+         dateSent: new Date(Date.UTC(2016, 7, 31, 0, 0, 0)),
+         from: '+15017122661',
+         to: '+15558675310'
+       })
+      .then(messages => console.log(messages.sid));

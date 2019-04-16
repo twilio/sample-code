@@ -5,4 +5,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.autopilot.assistants.each(assistants => console.log(assistants.sid));
+client.autopilot.assistants
+                .list()
+                .then(assistants => console.log(assistants.sid));

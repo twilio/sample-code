@@ -5,5 +5,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.acc_security.services
-                           .each(services => console.log(services.sid));
+client.preview.acc_security
+              .services
+              .list()
+              .then(services => console.log(services.sid));
