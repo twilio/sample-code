@@ -4,7 +4,7 @@
   "data": {
     "number": "001",
     "name": "Bulbasaur",
-    "attack": "50"
+    "attack": 50
   },
   "date_expires": "2015-07-30T21:00:00Z",
   "date_created": "2015-07-30T20:00:00Z",

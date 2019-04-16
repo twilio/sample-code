@@ -3,7 +3,7 @@
   "created_by": "created_by",
   "data": {
     "name": "Stephen Curry",
-    "level": "30",
+    "level": 30,
     "username": "spicy_curry"
   },
   "date_expires": "2015-07-30T21:00:00Z",

@@ -16,10 +16,10 @@ $notification = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                    ->notifications
                                    ->create(array(
                                                 "body" => "Knok-Knok! This is your first Notify SMS",
-                                                "toBinding" => array(
+                                                "toBinding" => json_encode(array(
                                                     "binding_type" => "sms",
                                                     "address" => "+1651000000000"
-                                                ),
+                                                )),
                                                 "identity" => array("identity")
                                             )
                                    );

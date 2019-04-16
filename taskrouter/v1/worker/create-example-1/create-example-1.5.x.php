@@ -16,9 +16,9 @@ $worker = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                  ->workers
                                  ->create("Support Worker 1", // friendlyName
                                           array(
-                                              "attributes" => array(
+                                              "attributes" => json_encode(array(
                                                   "type" => "support"
-                                              )
+                                              ))
                                           )
                                  );
 

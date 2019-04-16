@@ -21,7 +21,7 @@
         "title": "Bob alert",
         "body": "Bob, you just received a badge"
       },
-      "badge": "1"
+      "badge": 1
     }
   },
   "fcm": null,
