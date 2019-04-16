@@ -4,22 +4,22 @@
   "activity_statistics": [
     {
       "friendly_name": "Idle",
-      "workers": "0",
+      "workers": 0,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Busy",
-      "workers": "9",
+      "workers": 9,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Offline",
-      "workers": "6",
+      "workers": 6,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Reserved",
-      "workers": "0",
+      "workers": 0,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],

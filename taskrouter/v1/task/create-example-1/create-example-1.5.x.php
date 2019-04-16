@@ -15,9 +15,9 @@ $twilio = new Client($sid, $token);
 $task = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->tasks
                                ->create(array(
-                                            "attributes" => array(
+                                            "attributes" => json_encode(array(
                                                 "type" => "support"
-                                            ),
+                                            )),
                                             "workflowSid" => "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                         )
                                );

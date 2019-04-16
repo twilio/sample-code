@@ -15,9 +15,9 @@ $twilio = new Client($sid, $token);
 $worker = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->update(array(
-                                              "attributes" => array(
+                                              "attributes" => json_encode(array(
                                                   "type" => "support"
-                                              )
+                                              ))
                                           )
                                  );
 
