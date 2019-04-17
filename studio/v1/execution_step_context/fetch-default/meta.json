@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "flow_sid": "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "execution_sid": "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "step_sid": "FTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://studio.twilio.com/v1/Flows/{flow_sid}/Executions/{execution_sid}/Steps/{step_sid}/Context",
     "method": "get",

@@ -1,0 +1,21 @@
+{
+  "type": "server",
+  "title": "Update Model Build",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "unique_name"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/ModelBuilds/{sid}",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "model_build",
+    "action": "update"
+  }
+}

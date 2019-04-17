@@ -10,7 +10,7 @@
     "method": "get",
     "domain": "voice",
     "version": "v1",
-    "resource": "voice_permission_country",
+    "resource": "dialing_permissions_country",
     "action": "read"
   }
 }

@@ -3,12 +3,13 @@ require 'rubygems'
 require 'twilio-ruby'
 
 # Your Account Sid and Auth Token from twilio.com/console
+# DANGER! This is insecure. See http://twil.io/secure
 account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 bulk_country_update = @client.voice
-                             .voice_permissions
+                             .dialing_permissions
                              .bulk_country_updates
                              .create(update_request: 'update_request')
 

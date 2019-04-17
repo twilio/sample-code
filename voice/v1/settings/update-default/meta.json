@@ -1,0 +1,18 @@
+{
+  "type": "server",
+  "title": "Update Settings",
+  "_definition": {
+    "params": {
+      "required": {
+        "dialing_permissions_inheritance": true
+      },
+      "path": {}
+    },
+    "location": "https://voice.twilio.com/v1/Settings",
+    "method": "post",
+    "domain": "voice",
+    "version": "v1",
+    "resource": "dialing_permissions_settings",
+    "action": "update"
+  }
+}

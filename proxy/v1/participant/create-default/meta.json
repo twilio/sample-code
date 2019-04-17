@@ -3,8 +3,13 @@
   "title": "Create Participant",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "identifier": "identifier"
+      },
+      "path": {
+        "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "session_sid": "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://proxy.twilio.com/v1/Services/{service_sid}/Sessions/{session_sid}/Participants",
     "method": "post",

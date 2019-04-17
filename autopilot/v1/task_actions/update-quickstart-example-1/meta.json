@@ -1,0 +1,23 @@
+{
+  "title": "Update task actions",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "actions": {
+          "say": "I was going to look for my missing watch, but I could never find the time."
+        }
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "task_sid": "tell-a-joke"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks/{task_sid}/Actions",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "task_actions",
+    "action": "update"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "server",
+  "title": "Read Field Value",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "field_type_sid": "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/FieldTypes/{field_type_sid}/FieldValues",
+    "method": "get",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "field_value",
+    "action": "read"
+  }
+}

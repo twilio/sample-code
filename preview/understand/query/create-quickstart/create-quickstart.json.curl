@@ -1,4 +1,0 @@
-curl -X POST https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries \
---data-urlencode "Language=en-US" \
---data-urlencode "Query=Tell me a joke" \
--u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

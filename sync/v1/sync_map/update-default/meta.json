@@ -3,8 +3,13 @@
   "title": "Update Sync Map",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "ttl": "1"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{sid}",
     "method": "post",

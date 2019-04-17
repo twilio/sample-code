@@ -3,6 +3,7 @@
   "title": "Lookup with National Formatted Number",
   "type": "server",
   "output_property": "carrier",
+  "transaction_name": "fetch_carrier",
   "_definition": {
     "params": {
       "required": {
@@ -10,7 +11,7 @@
         "type": "carrier"
       },
       "path": {
-        "phone_number": "+15108675310"
+        "phone_number": "(510)867-5310"
       }
     },
     "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",

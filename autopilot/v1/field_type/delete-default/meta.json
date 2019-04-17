@@ -1,0 +1,19 @@
+{
+  "type": "server",
+  "title": "Delete Field Type",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/FieldTypes/{sid}",
+    "method": "delete",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "field_type",
+    "action": "delete"
+  }
+}

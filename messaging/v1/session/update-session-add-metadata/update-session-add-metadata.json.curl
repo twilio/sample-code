@@ -1,0 +1,3 @@
+curl -X POST https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+--data-urlencode "Attributes={ product-under-discussion: \"hair care\" }" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

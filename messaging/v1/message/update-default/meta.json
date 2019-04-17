@@ -1,0 +1,21 @@
+{
+  "type": "server",
+  "title": "Update Message",
+  "_definition": {
+    "params": {
+      "required": {
+        "author": "author"
+      },
+      "path": {
+        "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{session_sid}/Messages/{sid}",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_message",
+    "action": "update"
+  }
+}

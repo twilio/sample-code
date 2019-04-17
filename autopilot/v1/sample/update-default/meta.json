@@ -1,0 +1,22 @@
+{
+  "type": "server",
+  "title": "Update Sample",
+  "_definition": {
+    "params": {
+      "required": {
+        "language": "language"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "task_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks/{task_sid}/Samples/{sid}",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "sample",
+    "action": "update"
+  }
+}

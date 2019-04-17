@@ -3,8 +3,16 @@
   "title": "Update Sync Map Permission",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "read": true,
+        "write": true,
+        "manage": true
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "identity"
+      }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Permissions/{identity}",
     "method": "post",

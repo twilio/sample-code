@@ -1,0 +1,20 @@
+{
+  "original_snippet_path": "pricing/get-voice-number/get-voice-number.6.x.py",
+  "title": "Get Voice Prices for Number",
+  "type": "server",
+  "output_property": "outbound_call_prices",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "number": "+15108675310"
+      }
+    },
+    "location": "https://pricing.twilio.com/v1/Voice/Numbers/{number}",
+    "method": "get",
+    "domain": "pricing",
+    "version": "v1",
+    "resource": "voice_number",
+    "action": "fetch"
+  }
+}

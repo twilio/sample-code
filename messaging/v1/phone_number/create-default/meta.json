@@ -3,8 +3,12 @@
   "title": "Create Phone Number",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "phone_number_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://messaging.twilio.com/v1/Services/{service_sid}/PhoneNumbers",
     "method": "post",

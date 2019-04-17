@@ -1,11 +1,13 @@
 {
   "service_sid": "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "data": "body",
+  "data": {
+    "body": "some message"
+  },
   "date_created": "2015-07-30T20:00:00Z",
   "date_updated": "2015-07-30T20:00:00Z",
   "participant_sid": "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "inbound_participant_sid": "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "inbound_resource_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "inbound_participant_sid": null,
+  "inbound_resource_sid": null,
   "inbound_resource_status": null,
   "inbound_resource_type": null,
   "inbound_resource_url": null,

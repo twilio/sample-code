@@ -3,8 +3,16 @@
   "title": "Create Role",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "friendly_name": "friendly_name",
+        "type": "channel",
+        "permission": [
+          "permission"
+        ]
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://chat.twilio.com/v2/Services/{service_sid}/Roles",
     "method": "post",

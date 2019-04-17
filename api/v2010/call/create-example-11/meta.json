@@ -5,9 +5,9 @@
   "_definition": {
     "params": {
       "required": {
-        "from": "+987654321",
+        "url": "http://demo.twilio.com/docs/voice.xml",
         "to": "+123456789",
-        "url": "http://demo.twilio.com/docs/voice.xml"
+        "from": "+987654321"
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

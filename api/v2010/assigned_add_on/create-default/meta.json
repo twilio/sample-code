@@ -3,8 +3,13 @@
   "title": "Create Assigned Add On",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "installed_add_on_sid": "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "resource_sid": "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/IncomingPhoneNumbers/{resource_sid}/AssignedAddOns.json",
     "method": "post",

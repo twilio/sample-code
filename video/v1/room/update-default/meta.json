@@ -3,8 +3,12 @@
   "title": "Update Room",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "status": "in-progress"
+      },
+      "path": {
+        "sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://video.twilio.com/v1/Rooms/{sid}",
     "method": "post",

@@ -1,0 +1,22 @@
+{
+  "original_snippet_path": "video/rest/recording-settings/upload-to-external-s3/create-external-s3-config.6.x.py",
+  "title": "Creates or updates the configuration to upload to an external S3 bucket",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "aws_s3_url": "https://my-bucket.s3.amazonaws.com/recordings",
+        "aws_storage_enabled": true,
+        "aws_credentials_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "friendly_name": "Upload to external bucket"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/CompositionSettings/Default",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "composition_settings",
+    "action": "create"
+  }
+}

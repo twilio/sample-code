@@ -1,0 +1,10 @@
+ACTIONS=$(cat << EOF
+{
+    "say": "I was going to look for my missing watch, but I could never find the time."
+}
+EOF
+)
+
+curl -X POST https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks/tell-a-joke/Actions \
+--data-urlencode "Actions=$ACTIONS" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

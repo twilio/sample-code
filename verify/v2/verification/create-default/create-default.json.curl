@@ -1,0 +1,4 @@
+curl -X POST https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Verifications \
+--data-urlencode "To=+14159373912" \
+--data-urlencode "Channel=sms" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

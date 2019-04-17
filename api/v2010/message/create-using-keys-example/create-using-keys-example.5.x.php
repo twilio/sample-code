@@ -8,6 +8,7 @@ use Twilio\Rest\Client;
 
 // Find your Account Sid at twilio.com/console
 // Provision API Keys at twilio.com/console/runtime/api-keys
+// DANGER! This is insecure. See http://twil.io/secure
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $apiKey  = "SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $apiSecret  = "your_api_secret";

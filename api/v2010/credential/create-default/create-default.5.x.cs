@@ -10,14 +10,15 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
+        // DANGER! This is insecure. See http://twil.io/secure
         const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
         TwilioClient.Init(accountSid, authToken);
 
         var credential = CredentialResource.Create(
-            username: "Username",
-            password: "Password",
+            username: "username",
+            password: "password",
             pathCredentialListSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

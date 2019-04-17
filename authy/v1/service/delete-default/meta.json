@@ -1,0 +1,18 @@
+{
+  "type": "server",
+  "title": "Delete Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://authy.twilio.com/v1/Services/{sid}",
+    "method": "delete",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "service",
+    "action": "delete"
+  }
+}

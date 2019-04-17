@@ -1,0 +1,20 @@
+{
+  "type": "server",
+  "title": "Update Service",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "friendly_name"
+      },
+      "path": {
+        "sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://authy.twilio.com/v1/Services/{sid}",
+    "method": "post",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "service",
+    "action": "update"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "server",
+  "title": "Read Factor",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "identity"
+      }
+    },
+    "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors",
+    "method": "get",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "factor",
+    "action": "read"
+  }
+}

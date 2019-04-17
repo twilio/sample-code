@@ -1,5 +1,6 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
 const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
@@ -7,5 +8,4 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.marketplace
       .installedAddOns('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .fetch()
-      .then(installed_add_on => console.log(installed_add_on.friendlyName))
-      .done();
+      .then(installed_add_on => console.log(installed_add_on.friendlyName));

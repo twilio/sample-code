@@ -1,0 +1,21 @@
+{
+  "type": "server",
+  "title": "Update Query",
+  "_definition": {
+    "params": {
+      "required": {
+        "sample_sid": "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Queries/{sid}",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "query",
+    "action": "update"
+  }
+}

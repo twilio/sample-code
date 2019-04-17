@@ -1,0 +1,24 @@
+{
+  "tags": [
+      "messaging"
+  ],
+  "title": "Connect someone to a Session over SMS",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "user_address": "+1847234xxxx",
+        "twilio_address": "<YOUR COMPANY'S PHONE NUMBER VIA TWILIO>"
+      },
+      "path": {
+        "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{session_sid}/Participants",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_participant",
+    "action": "create"
+  }
+}

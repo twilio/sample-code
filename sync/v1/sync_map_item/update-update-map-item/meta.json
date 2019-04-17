@@ -5,7 +5,11 @@
   "_definition": {
     "params": {
       "required": {
-        "data": "{\"name\": \"Stephen Curry\", \"level\": 31, \"username\": \"spicy_curry\"}"
+        "data": {
+          "name": "Stephen Curry",
+          "level": 31,
+          "username": "spicy_curry"
+        }
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

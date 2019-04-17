@@ -1,0 +1,4 @@
+curl -X POST https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Fields \
+--data-urlencode "FieldType=FieldType" \
+--data-urlencode "UniqueName=UniqueName" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

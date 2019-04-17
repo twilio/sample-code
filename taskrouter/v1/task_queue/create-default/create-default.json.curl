@@ -1,5 +1,3 @@
 curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskQueues \
 --data-urlencode "FriendlyName=FriendlyName" \
---data-urlencode "ReservationActivitySid=WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
---data-urlencode "AssignmentActivitySid=WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

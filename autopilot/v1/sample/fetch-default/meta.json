@@ -1,0 +1,20 @@
+{
+  "type": "server",
+  "title": "Fetch Sample",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "task_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks/{task_sid}/Samples/{sid}",
+    "method": "get",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "sample",
+    "action": "fetch"
+  }
+}

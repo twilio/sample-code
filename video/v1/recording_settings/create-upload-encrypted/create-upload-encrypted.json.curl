@@ -1,0 +1,5 @@
+curl -X POST https://video.twilio.com/v1/RecordingSettings/Default \
+--data-urlencode "EncryptionEnabled=True" \
+--data-urlencode "EncryptionKeySid=CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "FriendlyName=Upload encrypted" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

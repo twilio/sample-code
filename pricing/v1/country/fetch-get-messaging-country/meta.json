@@ -1,0 +1,19 @@
+{
+  "original_snippet_path": "pricing/get-messaging-country/get-messaging-country.6.x.py",
+  "title": "Find Messaging Prices for Estonia",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "iso_country": "EE"
+      }
+    },
+    "location": "https://pricing.twilio.com/v1/Voice/Countries/{iso_country}",
+    "method": "get",
+    "domain": "pricing",
+    "version": "v1",
+    "resource": "voice_country",
+    "action": "fetch"
+  }
+}

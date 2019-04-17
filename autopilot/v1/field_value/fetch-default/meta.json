@@ -1,0 +1,20 @@
+{
+  "type": "server",
+  "title": "Fetch Field Value",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "field_type_sid": "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/FieldTypes/{field_type_sid}/FieldValues/{sid}",
+    "method": "get",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "field_value",
+    "action": "fetch"
+  }
+}

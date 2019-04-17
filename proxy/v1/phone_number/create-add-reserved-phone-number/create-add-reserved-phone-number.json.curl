@@ -1,0 +1,4 @@
+curl -X POST https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers \
+--data-urlencode "Sid=PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "IsReserved=True" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

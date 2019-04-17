@@ -3,8 +3,12 @@
   "title": "Update Composition Hook",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "friendly_name": "friendly_name"
+      },
+      "path": {
+        "sid": "HKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://video.twilio.com/v1/CompositionHooks/{sid}",
     "method": "post",

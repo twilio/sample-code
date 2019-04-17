@@ -1,0 +1,18 @@
+{
+  "sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "messaging_service_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "friendly_name": "friendly_name",
+  "attributes": {
+    "foo": "bar"
+  },
+  "date_created": "2015-12-16T22:18:37Z",
+  "date_updated": "2015-12-16T22:18:38Z",
+  "created_by": "creator",
+  "url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "links": {
+    "participants": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants",
+    "messages": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages"
+  }
+}

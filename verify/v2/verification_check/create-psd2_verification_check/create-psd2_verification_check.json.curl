@@ -1,0 +1,6 @@
+curl -X POST https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/VerificationCheck \
+--data-urlencode "To=+14159373912" \
+--data-urlencode "Amount=€39.99" \
+--data-urlencode "Payee=Acme Inc." \
+--data-urlencode "Code=1234" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

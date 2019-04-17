@@ -3,8 +3,14 @@
   "title": "Create Notification",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "identity": [
+          "identity"
+        ]
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://notify.twilio.com/v1/Services/{service_sid}/Notifications",
     "method": "post",

@@ -1,0 +1,6 @@
+curl -X POST https://video.twilio.com/v1/CompositionSettings/Default \
+--data-urlencode "AwsS3Url=https://my-bucket.s3.amazonaws.com/recordings" \
+--data-urlencode "AwsStorageEnabled=True" \
+--data-urlencode "AwsCredentialsSid=CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
+--data-urlencode "FriendlyName=Upload to external bucket" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

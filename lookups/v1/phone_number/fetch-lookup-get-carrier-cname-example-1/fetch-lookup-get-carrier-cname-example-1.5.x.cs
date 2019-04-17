@@ -11,6 +11,7 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
+        // DANGER! This is insecure. See http://twil.io/secure
         const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
@@ -22,7 +23,7 @@ class Program
 
         var phoneNumber = PhoneNumberResource.Fetch(
             type: type,
-            pathPhoneNumber: new Twilio.Types.PhoneNumber("15108675310")
+            pathPhoneNumber: new Twilio.Types.PhoneNumber("+15108675310")
         );
 
         Console.WriteLine(phoneNumber.Carrier);

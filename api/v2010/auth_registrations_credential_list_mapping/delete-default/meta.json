@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "domain_sid": "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SIP/Domains/{domain_sid}/Auth/Registrations/CredentialListMappings/{sid}.json",
     "method": "delete",

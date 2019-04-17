@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "participant_sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Participants/{participant_sid}/PublishedTracks/{sid}",
     "method": "get",

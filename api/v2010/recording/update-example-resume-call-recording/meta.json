@@ -7,6 +7,8 @@
         "status": "in-progress"
       },
       "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "sid": "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       }
     },

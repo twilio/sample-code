@@ -1,0 +1,23 @@
+{
+  "type": "server",
+  "title": "Update Challenge",
+  "_definition": {
+    "params": {
+      "required": {
+        "auth_payload": "auth_payload"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "identity",
+        "factor_sid": "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "sid"
+      }
+    },
+    "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors/{factor_sid}/Challenges/{sid}",
+    "method": "post",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "challenge",
+    "action": "update"
+  }
+}

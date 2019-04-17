@@ -1,0 +1,19 @@
+{
+  "original_snippet_path": "pricing/get-phone-number-country/get-phone-number-country.6.x.py",
+  "title": "Get Phone Number Prices for the US",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "iso_country": "US"
+      }
+    },
+    "location": "https://pricing.twilio.com/v1/Voice/Countries/{iso_country}",
+    "method": "get",
+    "domain": "pricing",
+    "version": "v1",
+    "resource": "voice_country",
+    "action": "fetch"
+  }
+}

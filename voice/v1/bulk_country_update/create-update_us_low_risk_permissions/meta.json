@@ -1,0 +1,18 @@
+{
+  "title": "Update voice dialing country permissions for US",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "update_request": "[ { \"iso_code\": \"US\", \"low_risk_numbers_enabled\": \"true\", \"high_risk_special_numbers_enabled\":\"false\", \"high_risk_tollfraud_numbers_enabled\": \"false\" } ]"
+      },
+      "path": {}
+    },
+    "location": "https://voice.twilio.com/v1/DialingPermissions/BulkCountryUpdates",
+    "method": "post",
+    "domain": "voice",
+    "version": "v1",
+    "resource": "dialing_permissions_country_bulk_update",
+    "action": "create"
+  }
+}

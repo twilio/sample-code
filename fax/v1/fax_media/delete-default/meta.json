@@ -4,7 +4,10 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "fax_sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://fax.twilio.com/v1/Faxes/{fax_sid}/Media/{sid}",
     "method": "delete",

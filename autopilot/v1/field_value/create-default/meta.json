@@ -1,0 +1,22 @@
+{
+  "type": "server",
+  "title": "Create Field Value",
+  "_definition": {
+    "params": {
+      "required": {
+        "language": "language",
+        "value": "value"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "field_type_sid": "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/FieldTypes/{field_type_sid}/FieldValues",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "field_value",
+    "action": "create"
+  }
+}

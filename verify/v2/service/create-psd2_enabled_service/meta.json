@@ -1,0 +1,20 @@
+{
+  "title": "Create a PSD2 Enabled Verify Service",
+  "type": "server",
+  "transaction_name": "create_psd2_enabled_service",
+  "_definition": {
+    "params": {
+      "required": {
+        "psd2_enabled": true,
+        "friendly_name": "My PSD2 Compliant Service"
+      },
+      "path": {}
+    },
+    "location": "https://verify.twilio.com/v2/Services",
+    "method": "post",
+    "domain": "verify",
+    "version": "v2",
+    "resource": "service",
+    "action": "create"
+  }
+}

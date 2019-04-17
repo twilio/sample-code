@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "page": 0,
+    "page_size": 50,
+    "first_page_url": "https://verify.twilio.com/v2/Services?PageSize=50&Page=0",
+    "previous_page_url": "https://verify.twilio.com/v2/Services?PageSize=50&Page=0",
+    "next_page_url": "https://verify.twilio.com/v2/Services?PageSize=50&Page=1",
+    "key": "services",
+    "url": "https://verify.twilio.com/v2/Services?PageSize=50&Page=0"
+  },
+  "services": [
+    {
+      "sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "friendly_name": "name",
+      "code_length": 4,
+      "lookup_enabled": false,
+      "psd2_enabled": false,
+      "skip_sms_to_landlines": false,
+      "dtmf_input_required": false,
+      "tts_name": "name",
+      "date_created": "2015-07-30T20:00:00Z",
+      "date_updated": "2015-07-30T20:00:00Z",
+      "url": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "links": {
+        "verification_checks": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/VerificationCheck",
+        "verifications": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Verifications"
+      }
+    }
+  ]
+}

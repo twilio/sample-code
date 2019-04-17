@@ -1,0 +1,22 @@
+{
+  "type": "server",
+  "title": "Update Factor",
+  "_definition": {
+    "params": {
+      "required": {
+        "auth_payload": "auth_payload"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "identity",
+        "sid": "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://authy.twilio.com/v1/Services/{service_sid}/Entities/{identity}/Factors/{sid}",
+    "method": "post",
+    "domain": "authy",
+    "version": "v1",
+    "resource": "factor",
+    "action": "update"
+  }
+}

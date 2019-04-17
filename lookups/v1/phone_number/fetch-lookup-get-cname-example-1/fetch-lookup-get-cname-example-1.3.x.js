@@ -1,10 +1,10 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
 const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.lookups.phoneNumbers('+16502530000')
               .fetch({type: 'caller-name'})
-              .then(phone_number => console.log(phone_number.callerName))
-              .done();
+              .then(phone_number => console.log(phone_number.callerName));

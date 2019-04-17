@@ -3,8 +3,13 @@
   "title": "Update Participant",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "status": "connected"
+      },
+      "path": {
+        "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://video.twilio.com/v1/Rooms/{room_sid}/Participants/{sid}",
     "method": "post",

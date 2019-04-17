@@ -6,7 +6,10 @@
     "params": {
       "required": {
         "body": "Knok-Knok! This is your first Notify SMS",
-        "to_binding": "{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}"
+        "to_binding": "{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}",
+        "identity": [
+          "identity"
+        ]
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

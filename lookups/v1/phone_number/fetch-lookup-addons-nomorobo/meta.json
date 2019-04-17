@@ -1,0 +1,21 @@
+{
+  "title": "Detect Robocallers with Lookup and Nomorobo Spam Score Add-on",
+  "type": "server",
+  "transaction_name": "fetch_addons_nomorobo",
+  "_definition": {
+    "params": {
+      "required": {
+        "add_ons": "nomorobo_spamscore"
+      },
+      "path": {
+        "phone_number": "+19892008374"
+      }
+    },
+    "location": "https://lookups.twilio.com/v1/PhoneNumbers/{phone_number}",
+    "method": "get",
+    "domain": "lookups",
+    "version": "v1",
+    "resource": "phone_number",
+    "action": "fetch"
+  }
+}

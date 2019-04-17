@@ -5,8 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "method": "POST",
-        "url": "http://demo.twilio.com/docs/voice.xml"
+        "url": "http://demo.twilio.com/docs/voice.xml",
+        "method": "POST"
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

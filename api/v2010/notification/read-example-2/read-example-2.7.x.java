@@ -2,11 +2,12 @@
 
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
-import com.twilio.converter.DateConverter;
 import com.twilio.rest.api.v2010.account.Notification;
+import org.joda.time.LocalDate;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
+    // DANGER! This is insecure. See http://twil.io/secure
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
@@ -14,7 +15,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Notification> notifications = Notification.reader()
             .setLog(1)
-            .setMessageDate(DateConverter.localDateFromString("2009-07-06"))
+            .setMessageDate(new LocalDate(2009, 7, 6))
             .read();
 
         for(Notification record : notifications) {

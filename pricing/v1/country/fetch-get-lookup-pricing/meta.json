@@ -1,0 +1,19 @@
+{
+  "original_snippet_path": "pricing/get-lookup-pricing/get-lookup-pricing.6.x.py",
+  "title": "Lookup SMS Price by Phone Number",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "iso_country": "US"
+      }
+    },
+    "location": "https://pricing.twilio.com/v1/Voice/Countries/{iso_country}",
+    "method": "get",
+    "domain": "pricing",
+    "version": "v1",
+    "resource": "voice_country",
+    "action": "fetch"
+  }
+}

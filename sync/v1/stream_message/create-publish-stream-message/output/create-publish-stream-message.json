@@ -2,7 +2,7 @@
   "sid": "TZXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "data": {
     "id": "bob",
-    "x": "256",
-    "y": "42"
+    "x": 256,
+    "y": 42
   }
 }

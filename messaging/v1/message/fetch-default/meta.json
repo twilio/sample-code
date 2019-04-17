@@ -1,0 +1,19 @@
+{
+  "type": "server",
+  "title": "Fetch Message",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "IMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{session_sid}/Messages/{sid}",
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_message",
+    "action": "fetch"
+  }
+}

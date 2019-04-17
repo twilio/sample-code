@@ -1,5 +1,6 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
 const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
@@ -9,5 +10,4 @@ client.calls.feedbackSummaries
                startDate: new Date(Date.UTC(2008, 0, 2)),
                endDate: new Date(Date.UTC(2008, 0, 2))
              })
-            .then(feedback_summary => console.log(feedback_summary.sid))
-            .done();
+            .then(feedback_summary => console.log(feedback_summary.sid));

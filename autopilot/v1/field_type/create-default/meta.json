@@ -1,0 +1,20 @@
+{
+  "type": "server",
+  "title": "Create Field Type",
+  "_definition": {
+    "params": {
+      "required": {
+        "unique_name": "unique_name"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/FieldTypes",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "field_type",
+    "action": "create"
+  }
+}

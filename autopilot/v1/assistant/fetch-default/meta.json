@@ -1,0 +1,18 @@
+{
+  "type": "server",
+  "title": "Fetch Assistant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{sid}",
+    "method": "get",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "assistant",
+    "action": "fetch"
+  }
+}

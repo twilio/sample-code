@@ -10,6 +10,7 @@ class Program
     static void Main(string[] args)
     {
         // Find your Account Sid and Token at twilio.com/console
+        // DANGER! This is insecure. See http://twil.io/secure
         const string accountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
         const string authToken = "your_auth_token";
 
@@ -17,8 +18,8 @@ class Program
 
         var trigger = TriggerResource.Create(
             callbackUrl: new Uri("https://example.com"),
-            triggerValue: "TriggerValue",
-            usageCategory: TriggerResource.UsageCategoryEnum.AnsweringMachineDetection
+            triggerValue: "triggerValue",
+            usageCategory: TriggerResource.UsageCategoryEnum.AgentConference
         );
 
         Console.WriteLine(trigger.Sid);

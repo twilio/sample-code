@@ -3,8 +3,14 @@
   "title": "Create Binding",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "identity": "identity",
+        "binding_type": "apn",
+        "address": "address"
+      },
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://notify.twilio.com/v1/Services/{service_sid}/Bindings",
     "method": "post",

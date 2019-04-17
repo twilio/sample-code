@@ -5,11 +5,11 @@
   "_definition": {
     "params": {
       "required": {
-        "from": "Jack",
         "sip_auth_password": "secret",
         "sip_auth_username": "jack",
+        "url": "http://www.example.com/sipdial.xml",
         "to": "sip:kate@example.com",
-        "url": "http://www.example.com/sipdial.xml"
+        "from": "Jack"
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

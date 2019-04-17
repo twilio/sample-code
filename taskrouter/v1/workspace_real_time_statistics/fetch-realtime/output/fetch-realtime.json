@@ -4,27 +4,28 @@
   "activity_statistics": [
     {
       "friendly_name": "Idle",
-      "workers": "0",
+      "workers": 0,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Busy",
-      "workers": "9",
+      "workers": 9,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Offline",
-      "workers": "6",
+      "workers": 6,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Reserved",
-      "workers": "0",
+      "workers": 0,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
   "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "longest_task_waiting_age": 100,
+  "longest_task_waiting_sid": "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "total_workers": 100,
   "total_tasks": 100,
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "map_sid": "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "key": "key"
+      }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Maps/{map_sid}/Items/{key}",
     "method": "delete",

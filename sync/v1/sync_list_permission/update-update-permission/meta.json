@@ -5,9 +5,9 @@
   "_definition": {
     "params": {
       "required": {
-        "manage": false,
         "read": true,
-        "write": true
+        "write": true,
+        "manage": false
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

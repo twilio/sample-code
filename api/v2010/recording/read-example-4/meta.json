@@ -5,8 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "date_created<": "2016-10-15T00:00:00Z",
-        "date_created>": "2016-10-12T00:00:00Z"
+        "date_created_before": "2016-10-15T00:00:00Z",
+        "date_created_after": "2016-10-12T00:00:00Z"
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

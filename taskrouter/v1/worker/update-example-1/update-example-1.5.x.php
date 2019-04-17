@@ -7,6 +7,7 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
@@ -14,9 +15,9 @@ $twilio = new Client($sid, $token);
 $worker = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->workers("WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->update(array(
-                                              "attributes" => array(
+                                              "attributes" => json_encode(array(
                                                   "type" => "support"
-                                              )
+                                              ))
                                           )
                                  );
 

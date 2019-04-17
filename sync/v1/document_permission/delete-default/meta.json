@@ -4,7 +4,11 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "document_sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "identity": "identity"
+      }
     },
     "location": "https://sync.twilio.com/v1/Services/{service_sid}/Documents/{document_sid}/Permissions/{identity}",
     "method": "delete",

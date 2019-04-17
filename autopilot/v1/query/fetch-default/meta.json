@@ -1,0 +1,19 @@
+{
+  "type": "server",
+  "title": "Fetch Query",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Queries/{sid}",
+    "method": "get",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "query",
+    "action": "fetch"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "original_snippet_path": "video/rest/recording-settings/upload-encrypted/create-encrypted-config.6.x.py",
+  "title": "Creates or updates the configuration to upload encrypted files",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "encryption_enabled": true,
+        "encryption_key_sid": "CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "friendly_name": "Upload encrypted"
+      },
+      "path": {}
+    },
+    "location": "https://video.twilio.com/v1/CompositionSettings/Default",
+    "method": "post",
+    "domain": "video",
+    "version": "v1",
+    "resource": "composition_settings",
+    "action": "create"
+  }
+}

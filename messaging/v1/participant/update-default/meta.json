@@ -1,0 +1,21 @@
+{
+  "type": "server",
+  "title": "Update Participant",
+  "_definition": {
+    "params": {
+      "required": {
+        "attributes": "attributes"
+      },
+      "path": {
+        "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{session_sid}/Participants/{sid}",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_participant",
+    "action": "update"
+  }
+}

@@ -9,5 +9,7 @@
   "hold": true,
   "status": "complete",
   "start_conference_on_enter": true,
+  "coaching": false,
+  "call_sid_to_coach": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants/CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
 }

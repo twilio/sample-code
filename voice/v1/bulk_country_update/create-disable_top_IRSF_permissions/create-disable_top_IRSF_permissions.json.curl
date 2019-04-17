@@ -1,3 +1,69 @@
+UPDATEREQUEST=$(cat << EOF
+[
+    {
+        "high_risk_special_numbers_enabled": false,
+        "high_risk_tollfraud_numbers_enabled": false,
+        "iso_code": "CU",
+        "low_risk_numbers_enabled": true
+    },
+    {
+        "high_risk_special_numbers_enabled": false,
+        "high_risk_tollfraud_numbers_enabled": false,
+        "iso_code": "LV",
+        "low_risk_numbers_enabled": true
+    },
+    {
+        "high_risk_special_numbers_enabled": false,
+        "high_risk_tollfraud_numbers_enabled": false,
+        "iso_code": "SO",
+        "low_risk_numbers_enabled": true
+    },
+    {
+        "high_risk_special_numbers_enabled": false,
+        "high_risk_tollfraud_numbers_enabled": false,
+        "iso_code": "LT",
+        "low_risk_numbers_enabled": true
+    },
+    {
+        "high_risk_special_numbers_enabled": false,
+        "high_risk_tollfraud_numbers_enabled": false,
+        "iso_code": "GN",
+        "low_risk_numbers_enabled": true
+    },
+    {
+        "high_risk_special_numbers_enabled": false,
+        "high_risk_tollfraud_numbers_enabled": false,
+        "iso_code": "GM",
+        "low_risk_numbers_enabled": true
+    },
+    {
+        "high_risk_special_numbers_enabled": false,
+        "high_risk_tollfraud_numbers_enabled": false,
+        "iso_code": "MV",
+        "low_risk_numbers_enabled": true
+    },
+    {
+        "high_risk_special_numbers_enabled": false,
+        "high_risk_tollfraud_numbers_enabled": false,
+        "iso_code": "EE",
+        "low_risk_numbers_enabled": true
+    },
+    {
+        "high_risk_special_numbers_enabled": false,
+        "high_risk_tollfraud_numbers_enabled": false,
+        "iso_code": "ZW",
+        "low_risk_numbers_enabled": true
+    },
+    {
+        "high_risk_special_numbers_enabled": false,
+        "high_risk_tollfraud_numbers_enabled": false,
+        "iso_code": "TN",
+        "low_risk_numbers_enabled": true
+    }
+]
+EOF
+)
+
 curl -X POST https://voice.twilio.com/v1/DialingPermissions/BulkCountryUpdates \
---data-urlencode "UpdateRequest=[{'high_risk_special_numbers_enabled': False, 'low_risk_numbers_enabled': True, 'high_risk_tollfraud_numbers_enabled': False, 'iso_code': 'CU'}, {'high_risk_special_numbers_enabled': False, 'low_risk_numbers_enabled': True, 'high_risk_tollfraud_numbers_enabled': False, 'iso_code': 'LV'}, {'high_risk_special_numbers_enabled': False, 'low_risk_numbers_enabled': True, 'high_risk_tollfraud_numbers_enabled': False, 'iso_code': 'SO'}, {'high_risk_special_numbers_enabled': False, 'low_risk_numbers_enabled': True, 'high_risk_tollfraud_numbers_enabled': False, 'iso_code': 'LT'}, {'high_risk_special_numbers_enabled': False, 'low_risk_numbers_enabled': True, 'high_risk_tollfraud_numbers_enabled': False, 'iso_code': 'GN'}, {'high_risk_special_numbers_enabled': False, 'low_risk_numbers_enabled': True, 'high_risk_tollfraud_numbers_enabled': False, 'iso_code': 'GM'}, {'high_risk_special_numbers_enabled': False, 'low_risk_numbers_enabled': True, 'high_risk_tollfraud_numbers_enabled': False, 'iso_code': 'MV'}, {'high_risk_special_numbers_enabled': False, 'low_risk_numbers_enabled': True, 'high_risk_tollfraud_numbers_enabled': False, 'iso_code': 'EE'}, {'high_risk_special_numbers_enabled': False, 'low_risk_numbers_enabled': True, 'high_risk_tollfraud_numbers_enabled': False, 'iso_code': 'ZW'}, {'high_risk_special_numbers_enabled': False, 'low_risk_numbers_enabled': True, 'high_risk_tollfraud_numbers_enabled': False, 'iso_code': 'TN'}]" \
+--data-urlencode "UpdateRequest=$UPDATEREQUEST" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

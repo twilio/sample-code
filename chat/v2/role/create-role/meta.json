@@ -6,8 +6,8 @@
     "params": {
       "required": {
         "friendly_name": "new_role",
-        "permission": "createChannel",
-        "type": "deployment"
+        "type": "deployment",
+        "permission": "createChannel"
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

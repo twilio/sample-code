@@ -1,0 +1,16 @@
+{
+  "type": "server",
+  "title": "Read Session",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions",
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session",
+    "action": "read"
+  }
+}

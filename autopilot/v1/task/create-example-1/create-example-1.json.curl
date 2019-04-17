@@ -1,0 +1,18 @@
+ACTIONS=$(cat << EOF
+{
+    "actions": [
+        {
+            "say": {
+                "speech": "I was going to look for my missing watch, but I could never find the time."
+            }
+        }
+    ]
+}
+EOF
+)
+
+curl -X POST https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks \
+--data-urlencode "FriendlyName=tell-a-joke" \
+--data-urlencode "Actions=$ACTIONS" \
+--data-urlencode "UniqueName=tell-a-joke" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

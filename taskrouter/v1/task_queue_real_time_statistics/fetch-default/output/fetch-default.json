@@ -1,32 +1,33 @@
 {
   "longest_task_waiting_age": 100,
+  "longest_task_waiting_sid": "WTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "task_queue_sid": "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "tasks_by_status": {
-    "reserved": "0",
-    "pending": "0",
-    "assigned": "0",
-    "wrapping": "0"
+    "reserved": 0,
+    "pending": 0,
+    "assigned": 0,
+    "wrapping": 0
   },
   "total_eligible_workers": 100,
   "activity_statistics": [
     {
       "friendly_name": "Idle",
-      "workers": "0",
+      "workers": 0,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Busy",
-      "workers": "9",
+      "workers": 9,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Offline",
-      "workers": "6",
+      "workers": 6,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     },
     {
       "friendly_name": "Reserved",
-      "workers": "0",
+      "workers": 0,
       "sid": "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],

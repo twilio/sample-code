@@ -3,8 +3,12 @@
   "title": "Create Short Code",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "short_code_sid": "SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://messaging.twilio.com/v1/Services/{service_sid}/ShortCodes",
     "method": "post",

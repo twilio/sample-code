@@ -5,7 +5,15 @@
   "_definition": {
     "params": {
       "required": {
-        "apn": "{\"aps\" : { \"alert\": {\"title\":\"Bob alert\",\"body\" :\"Bob, you just received a badge\"}, \"badge\" : 1 }}",
+        "apn": {
+          "aps": {
+            "alert": {
+              "title": "Bob alert",
+              "body": "Bob, you just received a badge"
+            },
+            "badge": 1
+          }
+        },
         "identity": "00000001"
       },
       "path": {

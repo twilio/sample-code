@@ -3,7 +3,9 @@
   "title": "Create Service",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "unique_name": "unique_name"
+      },
       "path": {}
     },
     "location": "https://proxy.twilio.com/v1/Services",

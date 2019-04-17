@@ -1,0 +1,18 @@
+{
+  "title": "Fetch high risk prefixes for a country",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "iso_code": "LV"
+      }
+    },
+    "location": "https://voice.twilio.com/v1/DialingPermissions/Countries/{iso_code}/HighRiskSpecialPrefixes",
+    "method": "get",
+    "domain": "voice",
+    "version": "v1",
+    "resource": "dialing_permissions_hrs_prefixes",
+    "action": "read"
+  }
+}

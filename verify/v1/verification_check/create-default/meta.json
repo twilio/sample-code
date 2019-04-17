@@ -3,8 +3,12 @@
   "title": "Create Verification Check",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "code": "code"
+      },
+      "path": {
+        "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://verify.twilio.com/v1/Services/{service_sid}/VerificationCheck",
     "method": "post",

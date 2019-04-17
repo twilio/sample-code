@@ -8,6 +8,7 @@ import org.joda.time.DateTime;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
+    // DANGER! This is insecure. See http://twil.io/secure
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
@@ -15,7 +16,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Recording> recordings = Recording.reader()
             .setDateCreated(
-                Range.greaterThan(new DateTime(2016, 10, 12, 0, 0)))
+                Range.open(new DateTime(2016, 10, 12, 0, 0), new DateTime(2016, 10, 15, 0, 0)))
             .read();
 
         for(Recording record : recordings) {

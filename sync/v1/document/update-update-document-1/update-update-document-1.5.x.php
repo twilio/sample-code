@@ -7,6 +7,7 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
@@ -17,7 +18,7 @@ $document = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                           "data" => array(
                                               "date_updated" => "2018-02-14 12:24:33.889341",
                                               "movie_title" => "On The Line",
-                                              "show_times" => None,
+                                              "show_times" => null,
                                               "starring" => array(
                                                   "Lance Bass",
                                                   "Joey Fatone"

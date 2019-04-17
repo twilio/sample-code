@@ -7,9 +7,11 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Find your Account Sid and Auth Token at twilio.com/console
-$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-$token  = "your_auth_token";
-$twilio = new Client($sid, $token);
+// DANGER! This is insecure. See http://twil.io/secure
+$sid           = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+$subaccountSid = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+$token         = "your_auth_token";
+$twilio        = new Client($sid, $token, $subaccountSid);
 
 $call = $twilio->calls
                ->create("+16518675310", // to

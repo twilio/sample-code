@@ -3,8 +3,13 @@
   "title": "Create Ip Access Control List Mapping",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "ip_access_control_list_sid": "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      },
+      "path": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "domain_sid": "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://api.twilio.com/2010-04-01/Accounts/{account_sid}/SIP/Domains/{domain_sid}/IpAccessControlListMappings.json",
     "method": "post",

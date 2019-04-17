@@ -1,0 +1,24 @@
+{
+  "tags": [
+      "messaging"
+  ],
+  "title": "Add metadata to a Participant",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {
+        "attributes": "{ customer_loyalty_tier: \"gold\" }"
+      },
+      "path": {
+        "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{session_sid}/Participants/{sid}",
+    "method": "post",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_participant",
+    "action": "update"
+  }
+}

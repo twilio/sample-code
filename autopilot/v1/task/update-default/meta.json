@@ -1,0 +1,21 @@
+{
+  "type": "server",
+  "title": "Update Task",
+  "_definition": {
+    "params": {
+      "required": {
+        "friendly_name": "friendly_name"
+      },
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/Tasks/{sid}",
+    "method": "post",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "task",
+    "action": "update"
+  }
+}

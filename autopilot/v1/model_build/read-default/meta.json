@@ -1,0 +1,18 @@
+{
+  "type": "server",
+  "title": "Read Model Build",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{assistant_sid}/ModelBuilds",
+    "method": "get",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "model_build",
+    "action": "read"
+  }
+}

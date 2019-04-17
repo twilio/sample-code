@@ -1,0 +1,18 @@
+{
+  "type": "server",
+  "title": "Delete Service",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://verify.twilio.com/v2/Services/{sid}",
+    "method": "delete",
+    "domain": "verify",
+    "version": "v2",
+    "resource": "service",
+    "action": "delete"
+  }
+}

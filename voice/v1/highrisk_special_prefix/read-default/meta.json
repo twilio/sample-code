@@ -4,13 +4,15 @@
   "_definition": {
     "params": {
       "required": {},
-      "path": {}
+      "path": {
+        "iso_code": "US"
+      }
     },
     "location": "https://voice.twilio.com/v1/DialingPermissions/Countries/{iso_code}/HighRiskSpecialPrefixes",
     "method": "get",
     "domain": "voice",
     "version": "v1",
-    "resource": "voice_permissions_hrs_prefixes",
+    "resource": "dialing_permissions_hrs_prefixes",
     "action": "read"
   }
 }

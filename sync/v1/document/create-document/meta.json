@@ -5,7 +5,9 @@
   "_definition": {
     "params": {
       "required": {
-        "data": "{\"led\": \"OFF\"}",
+        "data": {
+          "led": "OFF"
+        },
         "unique_name": "BoardLED"
       },
       "path": {

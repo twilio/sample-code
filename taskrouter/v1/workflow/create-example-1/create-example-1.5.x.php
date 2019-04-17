@@ -7,6 +7,7 @@ require_once '/path/to/vendor/autoload.php';
 use Twilio\Rest\Client;
 
 // Find your Account Sid and Auth Token at twilio.com/console
+// DANGER! This is insecure. See http://twil.io/secure
 $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
@@ -14,7 +15,7 @@ $twilio = new Client($sid, $token);
 $workflow = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->workflows
                                    ->create("Sales, Marketing, Support Workflow", // friendlyName
-                                            array(
+                                            json_encode(array(
                                                 "task_routing" => array(
                                                     "filters" => array(
                                                         array(
@@ -46,7 +47,7 @@ $workflow = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                                         "queue" => "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                                     )
                                                 )
-                                            ), // configuration
+                                            )), // configuration
                                             array(
                                                 "assignmentCallbackUrl" => "http://example.com",
                                                 "fallbackAssignmentCallbackUrl" => "http://example2.com",

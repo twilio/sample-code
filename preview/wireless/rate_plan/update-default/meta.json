@@ -3,8 +3,12 @@
   "title": "Update Rate Plan",
   "_definition": {
     "params": {
-      "required": {},
-      "path": {}
+      "required": {
+        "unique_name": "unique_name"
+      },
+      "path": {
+        "sid": "WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
     },
     "location": "https://preview.twilio.com/wireless/RatePlans/{sid}",
     "method": "post",

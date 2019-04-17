@@ -5,6 +5,7 @@
   "_definition": {
     "params": {
       "required": {
+        "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "sms_url": "http://demo.twilio.com/docs/sms.xml",
         "voice_url": "http://demo.twilio.com/docs/voice.xml"
       },

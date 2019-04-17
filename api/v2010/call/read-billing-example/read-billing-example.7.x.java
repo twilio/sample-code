@@ -7,6 +7,7 @@ import org.joda.time.DateTime;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
+    // DANGER! This is insecure. See http://twil.io/secure
     public static final String ACCOUNT_SID = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
     public static final String AUTH_TOKEN = "your_auth_token";
 
@@ -16,7 +17,7 @@ public class Example {
             .setStartTime(new DateTime(2018, 1, 15, 0, 0)).read();
 
         for(Call record : calls) {
-            System.out.println(record.getSid());
+            System.out.println(record.getPrice());
         }
     }
 }

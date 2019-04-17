@@ -1,0 +1,22 @@
+{
+  "tags": [
+      "messaging"
+  ],
+  "title": "Fetch a particular Participant",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "MBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://messaging.twilio.com/v1/Sessions/{session_sid}/Participants/{sid}",
+    "method": "get",
+    "domain": "messaging",
+    "version": "v1",
+    "resource": "session_participant",
+    "action": "fetch"
+  }
+}

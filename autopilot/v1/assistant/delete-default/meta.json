@@ -1,0 +1,18 @@
+{
+  "type": "server",
+  "title": "Delete Assistant",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {
+        "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    },
+    "location": "https://autopilot.twilio.com/v1/Assistants/{sid}",
+    "method": "delete",
+    "domain": "autopilot",
+    "version": "v1",
+    "resource": "assistant",
+    "action": "delete"
+  }
+}

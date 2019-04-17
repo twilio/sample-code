@@ -1,0 +1,19 @@
+{
+  "sid": "YCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "entity_sid": "YEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "identity": "ff483d1ff591898a9942916050d2ca3f",
+  "factor_sid": "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created": "2015-07-30T20:00:00Z",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "date_responded": "2015-07-30T20:00:00Z",
+  "expiration_date": "2015-07-30T20:00:00Z",
+  "status": "pending",
+  "responded_reason": "none",
+  "details": "Hi! Mr. John Doe, would you like to sign up?",
+  "hidden_details": "Hidden details about the sign up",
+  "factor_strength": "low",
+  "factor_type": "sms",
+  "url": "https://authy.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities/ff483d1ff591898a9942916050d2ca3f/Factors/YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Challenges/YCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}

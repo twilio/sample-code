@@ -1,0 +1,17 @@
+{
+  "original_snippet_path": "pricing/list-phone-number-countries/list-phone-number-countries.6.x.py",
+  "title": "List Countries with Twilio Numbers",
+  "type": "server",
+  "_definition": {
+    "params": {
+      "required": {},
+      "path": {}
+    },
+    "location": "https://pricing.twilio.com/v1/Voice/Countries",
+    "method": "get",
+    "domain": "pricing",
+    "version": "v1",
+    "resource": "voice_country",
+    "action": "read"
+  }
+}

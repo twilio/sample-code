@@ -1,0 +1,5 @@
+curl -X POST https://authy.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Entities/Identity/Factors \
+--data-urlencode "Binding=Binding" \
+--data-urlencode "FriendlyName=FriendlyName" \
+--data-urlencode "FactorType=app-push" \
+-u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
