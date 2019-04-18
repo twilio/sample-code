@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.acc_security
               .services
-              .list()
-              .then(services => console.log(services.sid));
+              .list({limit: 20})
+              .then(services => services.forEach(s => console.log(s.sid)));

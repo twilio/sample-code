@@ -5,5 +5,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.usage.records.yearly.list()
-                           .then(yearly => console.log(yearly.category));
+client.usage.records.yearly
+            .list({limit: 20})
+            .then(yearly => yearly.forEach(y => console.log(y.category)));

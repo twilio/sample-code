@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.bulk_exports
               .exports('resourceType')
               .days
-              .list()
-              .then(days => console.log(days.redirectTo));
+              .list({limit: 20})
+              .then(days => days.forEach(d => console.log(d.redirectTo)));

@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .addOnResults('XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .payloads
-      .list()
-      .then(payloads => console.log(payloads.sid));
+      .list({limit: 20})
+      .then(payloads => payloads.forEach(p => console.log(p.sid)));

@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .syncLists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .syncListPermissions
-  .list()
-  .then(syncListPermissions => console.log(syncListPermissions.serviceSid));
+  .list({limit: 20})
+  .then(syncListPermissions => syncListPermissions.forEach(s => console.log(s.serviceSid)));

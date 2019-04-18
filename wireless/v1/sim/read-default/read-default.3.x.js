@@ -5,4 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.wireless.sims.list().then(sims => console.log(sims.sid));
+client.wireless.sims.list({limit: 20})
+                    .then(sims => sims.forEach(s => console.log(s.sid)));

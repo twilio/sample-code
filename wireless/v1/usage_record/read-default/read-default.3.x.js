@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.wireless.sims('DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .usageRecords
-               .list()
-               .then(usageRecords => console.log(usageRecords.simSid));
+      .usageRecords
+      .list({limit: 20})
+      .then(usageRecords => usageRecords.forEach(u => console.log(u.simSid)));

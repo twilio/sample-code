@@ -9,6 +9,7 @@ client.calls
       .list({
          startTimeBefore: new Date(Date.UTC(2009, 6, 6, 0, 0, 0)),
          startTimeAfter: new Date(Date.UTC(2009, 6, 4, 0, 0, 0)),
-         status: 'in-progress'
+         status: 'in-progress',
+         limit: 20
        })
-      .then(calls => console.log(calls.sid));
+      .then(calls => calls.forEach(c => console.log(c.sid)));

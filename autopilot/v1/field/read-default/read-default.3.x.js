@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fields
-                .list()
-                .then(fields => console.log(fields.sid));
+                .list({limit: 20})
+                .then(fields => fields.forEach(f => console.log(f.sid)));

@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .credentialsLists
-               .list()
-               .then(credentialsLists => console.log(credentialsLists.sid));
+  .credentialsLists
+  .list({limit: 20})
+  .then(credentialsLists => credentialsLists.forEach(c => console.log(c.sid)));

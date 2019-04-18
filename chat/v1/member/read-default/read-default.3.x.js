@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .members
-              .list()
-              .then(members => console.log(members.sid));
+              .list({limit: 20})
+              .then(members => members.forEach(m => console.log(m.sid)));

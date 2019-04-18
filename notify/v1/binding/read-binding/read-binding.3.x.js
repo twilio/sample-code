@@ -9,6 +9,7 @@ client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .bindings
              .list({
                 startDate: new Date(Date.UTC(2015, 7, 25)),
-                tag: 'new user'
+                tag: 'new user',
+                limit: 20
               })
-             .then(bindings => console.log(bindings.sid));
+             .then(bindings => bindings.forEach(b => console.log(b.sid)));

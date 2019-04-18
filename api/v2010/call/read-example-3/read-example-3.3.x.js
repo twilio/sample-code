@@ -8,6 +8,7 @@ const client = require('twilio')(accountSid, authToken);
 client.calls
       .list({
          startTimeAfter: new Date(Date.UTC(2009, 6, 6, 0, 0, 0)),
-         status: 'completed'
+         status: 'completed',
+         limit: 20
        })
-      .then(calls => console.log(calls.sid));
+      .then(calls => calls.forEach(c => console.log(c.sid)));

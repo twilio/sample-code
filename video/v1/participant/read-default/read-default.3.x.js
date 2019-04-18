@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.video.rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .participants
-            .list()
-            .then(participants => console.log(participants.sid));
+      .participants
+      .list({limit: 20})
+      .then(participants => participants.forEach(p => console.log(p.sid)));

@@ -5,4 +5,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.accounts.credentials.aws.list().then(aws => console.log(aws.sid));
+client.accounts.credentials
+               .aws
+               .list({limit: 20})
+               .then(aws => aws.forEach(a => console.log(a.sid)));

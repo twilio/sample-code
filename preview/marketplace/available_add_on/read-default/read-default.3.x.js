@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.marketplace
-              .availableAddOns
-              .list()
-              .then(availableAddOns => console.log(availableAddOns.sid));
+  .availableAddOns
+  .list({limit: 20})
+  .then(availableAddOns => availableAddOns.forEach(a => console.log(a.sid)));

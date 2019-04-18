@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .executions('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .steps
-             .list()
-             .then(steps => console.log(steps.sid));
+             .list({limit: 20})
+             .then(steps => steps.forEach(s => console.log(s.sid)));

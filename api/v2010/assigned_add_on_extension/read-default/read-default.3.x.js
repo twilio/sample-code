@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.incomingPhoneNumbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .assignedAddOns('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .extensions
-      .list()
-      .then(extensions => console.log(extensions.sid));
+      .list({limit: 20})
+      .then(extensions => extensions.forEach(e => console.log(e.sid)));

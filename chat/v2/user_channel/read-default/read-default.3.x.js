@@ -6,7 +6,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .userChannels
-           .list()
-           .then(userChannels => console.log(userChannels.serviceSid));
+  .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  .userChannels
+  .list({limit: 20})
+  .then(userChannels => userChannels.forEach(u => console.log(u.serviceSid)));

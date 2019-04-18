@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .credentialListMappings
-      .list()
-      .then(credentialListMappings => console.log(credentialListMappings.sid));
+  .credentialListMappings
+  .list({limit: 20})
+  .then(credentialListMappings => credentialListMappings.forEach(c => console.log(c.sid)));

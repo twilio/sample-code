@@ -6,4 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.pricing.v1.voice.countries
-                       .each(countries => console.log(countries.country));
+      .list({limit: 20})
+      .then(countries => countries.forEach(c => console.log(c.country)));

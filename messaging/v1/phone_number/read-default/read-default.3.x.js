@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                .phoneNumbers
-                .list()
-                .then(phoneNumbers => console.log(phoneNumbers.sid));
+      .phoneNumbers
+      .list({limit: 20})
+      .then(phoneNumbers => phoneNumbers.forEach(p => console.log(p.sid)));

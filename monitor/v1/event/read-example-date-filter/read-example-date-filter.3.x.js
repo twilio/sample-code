@@ -8,6 +8,7 @@ const client = require('twilio')(accountSid, authToken);
 client.monitor.events
               .list({
                  endDate: new Date(Date.UTC(2015, 3, 1, 0, 0, 0)),
-                 startDate: new Date(Date.UTC(2015, 2, 1, 0, 0, 0))
+                 startDate: new Date(Date.UTC(2015, 2, 1, 0, 0, 0)),
+                 limit: 20
                })
-              .then(events => console.log(events.sid));
+              .then(events => events.forEach(e => console.log(e.sid)));

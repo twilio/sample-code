@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces
-                 .list()
-                 .then(workspaces => console.log(workspaces.sid));
+      .list({limit: 20})
+      .then(workspaces => workspaces.forEach(w => console.log(w.sid)));

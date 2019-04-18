@@ -9,6 +9,7 @@ client.notifications
       .list({
          log: 1,
          messageDateBefore: new Date(Date.UTC(2009, 6, 8)),
-         messageDateAfter: new Date(Date.UTC(2009, 6, 6))
+         messageDateAfter: new Date(Date.UTC(2009, 6, 6)),
+         limit: 20
        })
-      .then(notifications => console.log(notifications.sid));
+      .then(notifications => notifications.forEach(n => console.log(n.sid)));

@@ -5,5 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.chat.credentials.list()
-                       .then(credentials => console.log(credentials.sid));
+client.chat.credentials.list({limit: 20})
+           .then(credentials => credentials.forEach(c => console.log(c.sid)));

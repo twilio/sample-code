@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.sip.domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .ipAccessControlListMappings
-  .list()
-  .then(ipAccessControlListMappings => console.log(ipAccessControlListMappings.sid));
+  .list({limit: 20})
+  .then(ipAccessControlListMappings => ipAccessControlListMappings.forEach(i => console.log(i.sid)));

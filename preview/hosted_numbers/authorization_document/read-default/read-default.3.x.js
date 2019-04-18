@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.hosted_numbers
-      .authorizationDocuments
-      .list()
-      .then(authorizationDocuments => console.log(authorizationDocuments.sid));
+  .authorizationDocuments
+  .list({limit: 20})
+  .then(authorizationDocuments => authorizationDocuments.forEach(a => console.log(a.sid)));

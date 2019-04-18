@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-      .ipAccessControlLists
-      .list()
-      .then(ipAccessControlLists => console.log(ipAccessControlLists.sid));
+  .ipAccessControlLists
+  .list({limit: 20})
+  .then(ipAccessControlLists => ipAccessControlLists.forEach(i => console.log(i.sid)));

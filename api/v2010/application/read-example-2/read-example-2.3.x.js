@@ -5,5 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.applications.list({friendlyName: 'MyApp'})
-                   .then(applications => console.log(applications.sid));
+client.applications.list({friendlyName: 'MyApp', limit: 20})
+      .then(applications => applications.forEach(a => console.log(a.sid)));

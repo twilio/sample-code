@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.incomingPhoneNumbers
       .mobile
-      .list()
-      .then(mobile => console.log(mobile.sid));
+      .list({limit: 20})
+      .then(mobile => mobile.forEach(m => console.log(m.sid)));

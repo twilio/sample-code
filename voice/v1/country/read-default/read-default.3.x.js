@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.voice.dialingPermissions
             .countries
-            .list()
-            .then(countries => console.log(countries.name));
+            .list({limit: 20})
+            .then(countries => countries.forEach(c => console.log(c.name)));

@@ -5,5 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.outgoingCallerIds.list()
-      .then(outgoingCallerIds => console.log(outgoingCallerIds.sid));
+client.outgoingCallerIds.list({limit: 20})
+  .then(outgoingCallerIds => outgoingCallerIds.forEach(o => console.log(o.sid)));

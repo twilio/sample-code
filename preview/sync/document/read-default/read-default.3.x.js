@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                   .documents
-                   .list()
-                   .then(documents => console.log(documents.sid));
+              .documents
+              .list({limit: 20})
+              .then(documents => documents.forEach(d => console.log(d.sid)));

@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .originationUrls
-               .list()
-               .then(originationUrls => console.log(originationUrls.sid));
+  .originationUrls
+  .list({limit: 20})
+  .then(originationUrls => originationUrls.forEach(o => console.log(o.sid)));

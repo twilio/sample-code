@@ -9,6 +9,7 @@ client.monitor.alerts
               .list({
                  endDate: new Date(Date.UTC(2015, 3, 30)),
                  logLevel: 'warning',
-                 startDate: new Date(Date.UTC(2015, 3, 1))
+                 startDate: new Date(Date.UTC(2015, 3, 1)),
+                 limit: 20
                })
-              .then(alerts => console.log(alerts.sid));
+              .then(alerts => alerts.forEach(a => console.log(a.sid)));

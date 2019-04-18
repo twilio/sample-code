@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.availablePhoneNumbers('US')
       .voip
-      .list()
-      .then(voip => console.log(voip.friendlyName));
+      .list({limit: 20})
+      .then(voip => voip.forEach(v => console.log(v.friendlyName)));

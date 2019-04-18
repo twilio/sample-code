@@ -5,4 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.wireless.commands.list().then(commands => console.log(commands.sid));
+client.wireless.commands.list({limit: 20})
+               .then(commands => commands.forEach(c => console.log(c.sid)));

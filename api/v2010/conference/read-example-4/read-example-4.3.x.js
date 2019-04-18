@@ -8,6 +8,7 @@ const client = require('twilio')(accountSid, authToken);
 client.conferences
       .list({
          dateCreatedAfter: new Date(Date.UTC(2009, 6, 6)),
-         status: 'in-progress'
+         status: 'in-progress',
+         limit: 20
        })
-      .then(conferences => console.log(conferences.sid));
+      .then(conferences => conferences.forEach(c => console.log(c.sid)));

@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.incomingPhoneNumbers
       .tollFree
-      .list()
-      .then(tollFree => console.log(tollFree.sid));
+      .list({limit: 20})
+      .then(tollFree => tollFree.forEach(t => console.log(t.sid)));

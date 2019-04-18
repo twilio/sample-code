@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messaging.sessions('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .messages
-                .list()
-                .then(messages => console.log(messages.sid));
+                .list({limit: 20})
+                .then(messages => messages.forEach(m => console.log(m.sid)));

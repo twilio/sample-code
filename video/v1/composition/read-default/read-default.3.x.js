@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.video.compositions
-            .list()
-            .then(compositions => console.log(compositions.sid));
+      .list({limit: 20})
+      .then(compositions => compositions.forEach(c => console.log(c.sid)));

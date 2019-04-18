@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.autopilot.assistants
-                .list()
-                .then(assistants => console.log(assistants.sid));
+      .list({limit: 20})
+      .then(assistants => assistants.forEach(a => console.log(a.sid)));

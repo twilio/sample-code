@@ -5,5 +5,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.video.recordings.list({groupingSid: 'RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'})
-                       .then(recordings => console.log(recordings.sid));
+client.video.recordings
+            .list({groupingSid: 'RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', limit: 20})
+            .then(recordings => recordings.forEach(r => console.log(r.sid)));

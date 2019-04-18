@@ -5,5 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.shortCodes.list({shortCode: '67898'})
-                 .then(shortCodes => console.log(shortCodes.sid));
+client.shortCodes.list({shortCode: '67898', limit: 20})
+      .then(shortCodes => shortCodes.forEach(s => console.log(s.sid)));

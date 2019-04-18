@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.voice.dialingPermissions
   .countries('US')
   .highriskSpecialPrefixes
-  .list()
-  .then(highriskSpecialPrefixes => console.log(highriskSpecialPrefixes.prefix));
+  .list({limit: 20})
+  .then(highriskSpecialPrefixes => highriskSpecialPrefixes.forEach(h => console.log(h.prefix)));
