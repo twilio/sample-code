@@ -5,4 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.monitor.alerts.each(alerts => console.log(alerts.sid));
+client.monitor.alerts.list({limit: 20})
+                     .then(alerts => alerts.forEach(a => console.log(a.sid)));

@@ -6,5 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-             .engagements
-             .each(engagements => console.log(engagements.sid));
+      .engagements
+      .list({limit: 20})
+      .then(engagements => engagements.forEach(e => console.log(e.sid)));

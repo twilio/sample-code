@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages('MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
       .media
-      .each(media => console.log(media.sid));
+      .list({limit: 20})
+      .then(media => media.forEach(m => console.log(m.sid)));

@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
            .roles
-           .each(roles => console.log(roles.sid));
+           .list({limit: 20})
+           .then(roles => roles.forEach(r => console.log(r.sid)));

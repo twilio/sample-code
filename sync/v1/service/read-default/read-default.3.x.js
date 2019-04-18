@@ -5,4 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.sync.services.each(services => console.log(services.sid));
+client.sync.services.list({limit: 20})
+           .then(services => services.forEach(s => console.log(s.sid)));

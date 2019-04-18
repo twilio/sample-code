@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .shortCodes
-            .each(shortCodes => console.log(shortCodes.sid));
+            .list({limit: 20})
+            .then(shortCodes => shortCodes.forEach(s => console.log(s.sid)));

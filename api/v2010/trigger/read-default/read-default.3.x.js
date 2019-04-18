@@ -5,4 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.usage.triggers.each(triggers => console.log(triggers.sid));
+client.usage.triggers.list({limit: 20})
+            .then(triggers => triggers.forEach(t => console.log(t.sid)));

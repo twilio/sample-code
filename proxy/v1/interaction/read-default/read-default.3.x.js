@@ -6,6 +6,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .interactions
-            .each(interactions => console.log(interactions.sid));
+      .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+      .interactions
+      .list({limit: 20})
+      .then(interactions => interactions.forEach(i => console.log(i.sid)));

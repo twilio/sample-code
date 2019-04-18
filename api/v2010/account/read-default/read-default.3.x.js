@@ -5,4 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.api.accounts.each(accounts => console.log(accounts.sid));
+client.api.accounts.list({limit: 20})
+          .then(accounts => accounts.forEach(a => console.log(a.sid)));

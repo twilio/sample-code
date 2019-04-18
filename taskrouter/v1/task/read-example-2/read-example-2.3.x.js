@@ -7,8 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .tasks
-                 .each({
-                    assignmentStatus: 'pending'
-                  },
-                      tasks => console.log(tasks.sid)
-                  );
+                 .list({assignmentStatus: 'pending', limit: 20})
+                 .then(tasks => tasks.forEach(t => console.log(t.sid)));

@@ -6,5 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.availablePhoneNumbers('US')
-      .sharedCost
-      .each(sharedCost => console.log(sharedCost.friendlyName));
+  .sharedCost
+  .list({limit: 20})
+  .then(sharedCost => sharedCost.forEach(s => console.log(s.friendlyName)));

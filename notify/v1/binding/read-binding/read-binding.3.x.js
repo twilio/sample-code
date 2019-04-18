@@ -7,9 +7,9 @@ const client = require('twilio')(accountSid, authToken);
 
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .bindings
-             .each({
+             .list({
                 startDate: new Date(Date.UTC(2015, 7, 25)),
-                tag: 'new user'
-              },
-                  bindings => console.log(bindings.sid)
-              );
+                tag: 'new user',
+                limit: 20
+              })
+             .then(bindings => bindings.forEach(b => console.log(b.sid)));

@@ -5,5 +5,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.incomingPhoneNumbers.tollFree
-                           .each(tollFree => console.log(tollFree.sid));
+client.incomingPhoneNumbers
+      .tollFree
+      .list({limit: 20})
+      .then(tollFree => tollFree.forEach(t => console.log(t.sid)));

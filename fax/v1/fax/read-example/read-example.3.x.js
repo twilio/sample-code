@@ -5,4 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.fax.faxes.each(faxes => console.log(faxes.sid));
+client.fax.faxes.list({limit: 20})
+                .then(faxes => faxes.forEach(f => console.log(f.sid)));

@@ -5,9 +5,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.conferences.each({
-                     friendlyName: 'MyRoom',
-                     status: 'in-progress'
-                   },
-                       conferences => console.log(conferences.sid)
-                   );
+client.conferences
+      .list({friendlyName: 'MyRoom', status: 'in-progress', limit: 20})
+      .then(conferences => conferences.forEach(c => console.log(c.sid)));

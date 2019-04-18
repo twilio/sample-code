@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .documentPermissions
-  .each(documentPermissions => console.log(documentPermissions.serviceSid));
+  .list({limit: 20})
+  .then(documentPermissions => documentPermissions.forEach(d => console.log(d.serviceSid)));

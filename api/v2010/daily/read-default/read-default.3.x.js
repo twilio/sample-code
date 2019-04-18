@@ -5,4 +5,6 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.usage.records.daily.each(daily => console.log(daily.category));
+client.usage.records.daily
+            .list({limit: 20})
+            .then(daily => daily.forEach(d => console.log(d.category)));

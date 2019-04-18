@@ -6,11 +6,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .syncMapItems
-           .each({
-              from: 'steph_curry',
-              order: 'asc'
-            },
-                syncMapItems => console.log(syncMapItems.key)
-            );
+      .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+      .syncMapItems
+      .list({from: 'steph_curry', order: 'asc', limit: 20})
+      .then(syncMapItems => syncMapItems.forEach(s => console.log(s.key)));

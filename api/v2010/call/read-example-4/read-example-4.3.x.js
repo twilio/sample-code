@@ -5,10 +5,11 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.calls.each({
-               startTimeBefore: new Date(Date.UTC(2009, 6, 6, 0, 0, 0)),
-               startTimeAfter: new Date(Date.UTC(2009, 6, 4, 0, 0, 0)),
-               status: 'in-progress'
-             },
-                 calls => console.log(calls.sid)
-             );
+client.calls
+      .list({
+         startTimeBefore: new Date(Date.UTC(2009, 6, 6, 0, 0, 0)),
+         startTimeAfter: new Date(Date.UTC(2009, 6, 4, 0, 0, 0)),
+         status: 'in-progress',
+         limit: 20
+       })
+      .then(calls => calls.forEach(c => console.log(c.sid)));

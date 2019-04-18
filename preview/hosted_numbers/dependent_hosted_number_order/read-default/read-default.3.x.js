@@ -8,4 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.hosted_numbers
   .authorizationDocuments('PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .dependentHostedNumberOrders
-  .each(dependentHostedNumberOrders => console.log(dependentHostedNumberOrders.sid));
+  .list({limit: 20})
+  .then(dependentHostedNumberOrders => dependentHostedNumberOrders.forEach(d => console.log(d.sid)));

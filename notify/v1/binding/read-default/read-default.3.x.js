@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
              .bindings
-             .each(bindings => console.log(bindings.sid));
+             .list({limit: 20})
+             .then(bindings => bindings.forEach(b => console.log(b.sid)));

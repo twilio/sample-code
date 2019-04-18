@@ -5,4 +5,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.preview.deployed_devices.fleets.each(fleets => console.log(fleets.sid));
+client.preview.deployed_devices
+              .fleets
+              .list({limit: 20})
+              .then(fleets => fleets.forEach(f => console.log(f.sid)));

@@ -5,4 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.studio.flows.each(flows => console.log(flows.sid));
+client.studio.flows.list({limit: 20})
+                   .then(flows => flows.forEach(f => console.log(f.sid)));

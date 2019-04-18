@@ -5,4 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.chat.services.each(services => console.log(services.sid));
+client.chat.services.list({limit: 20})
+           .then(services => services.forEach(s => console.log(s.sid)));

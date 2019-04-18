@@ -7,4 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .sessions
-            .each(sessions => console.log(sessions.sid));
+            .list({limit: 20})
+            .then(sessions => sessions.forEach(s => console.log(s.sid)));

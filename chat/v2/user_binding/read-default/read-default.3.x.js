@@ -6,6 +6,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .userBindings
-           .each(userBindings => console.log(userBindings.sid));
+      .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+      .userBindings
+      .list({limit: 20})
+      .then(userBindings => userBindings.forEach(u => console.log(u.sid)));
