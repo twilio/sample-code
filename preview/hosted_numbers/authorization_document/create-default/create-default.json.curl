@@ -1,12 +1,5 @@
-HOSTEDNUMBERORDERSIDS=$(cat << EOF
-[
-    "HostedNumberOrderSids"
-]
-EOF
-)
-
 curl -X POST https://preview.twilio.com/HostedNumbers/AuthorizationDocuments \
---data-urlencode "HostedNumberOrderSids=$HOSTEDNUMBERORDERSIDS" \
+--data-urlencode "HostedNumberOrderSids=HostedNumberOrderSids" \
 --data-urlencode "AddressSid=ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" \
 --data-urlencode "Email=Email" \
 --data-urlencode "ContactTitle=ContactTitle" \
