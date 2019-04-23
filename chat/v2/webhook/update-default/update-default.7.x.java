@@ -15,7 +15,7 @@ public class Example {
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setConfigurationUrl("configurationUrl").update();
+            .setConfigurationUrl("configuration.url").update();
 
         System.out.println(webhook.getSid());
     }

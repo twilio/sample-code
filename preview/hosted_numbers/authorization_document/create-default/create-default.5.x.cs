@@ -18,11 +18,11 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var authorizationDocument = AuthorizationDocumentResource.Create(
-            hostedNumberOrderSids: Promoter.ListOfOne("hostedNumberOrderSids"),
+            hostedNumberOrderSids: Promoter.ListOfOne("hosted_number_order_sids"),
             addressSid: "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             email: "email",
-            contactTitle: "contactTitle",
-            contactPhoneNumber: "contactPhoneNumber"
+            contactTitle: "contact_title",
+            contactPhoneNumber: "contact_phone_number"
         );
 
         Console.WriteLine(authorizationDocument.Sid);

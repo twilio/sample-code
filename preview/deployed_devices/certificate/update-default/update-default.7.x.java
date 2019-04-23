@@ -14,7 +14,7 @@ public class Example {
         Certificate certificate = Certificate.updater(
                 "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(certificate.getFriendlyName());
     }

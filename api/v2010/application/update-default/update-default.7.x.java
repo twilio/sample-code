@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Application application = 
             Application.updater("APXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName")
+            .setFriendlyName("friendly_name")
             .update();
 
         System.out.println(application.getFriendlyName());

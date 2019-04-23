@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $certificate = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                 ->certificates("CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                 ->update(array(
-                                                             "friendlyName" => "friendlyName"
+                                                             "friendlyName" => "friendly_name"
                                                          )
                                                 );
 

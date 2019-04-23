@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var certificate = CertificateResource.Update(
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             pathFleetSid: "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "CYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var session = SessionResource.Create(messagingServiceSid: "messagingServiceSid");
+        var session = SessionResource.Create(messagingServiceSid: "messaging_service_sid");
 
         Console.WriteLine(session.Sid);
     }

@@ -14,7 +14,7 @@ public class Example {
         Task task = Task.updater(
                 "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(task.getFriendlyName());
     }

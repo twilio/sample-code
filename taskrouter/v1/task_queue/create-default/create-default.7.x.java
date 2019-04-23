@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         TaskQueue taskQueue = TaskQueue.creator(
                 "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "friendlyName")
+                "friendly_name")
             .create();
 
         System.out.println(taskQueue.getSid());

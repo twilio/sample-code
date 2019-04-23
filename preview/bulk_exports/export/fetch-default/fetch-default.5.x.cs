@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var export = ExportResource.Fetch(pathResourceType: "pathResourceType");
+        var export = ExportResource.Fetch(pathResourceType: "resource_type");
 
         Console.WriteLine(export.ResourceType);
     }

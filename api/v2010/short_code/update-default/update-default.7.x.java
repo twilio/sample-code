@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ShortCode shortCode = 
             ShortCode.updater("SCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName")
+            .setFriendlyName("friendly_name")
             .update();
 
         System.out.println(shortCode.getFriendlyName());

@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         IpAccessControlList ipAccessControlList = IpAccessControlList.updater(
                 "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "friendlyName")
+                "friendly_name")
             .update();
 
         System.out.println(ipAccessControlList.getFriendlyName());

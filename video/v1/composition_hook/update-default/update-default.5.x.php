@@ -13,6 +13,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $composition_hook = $twilio->video->v1->compositionHooks("HKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                      ->update("friendlyName");
+                                      ->update("friendly_name");
 
 print($composition_hook->friendlyName);

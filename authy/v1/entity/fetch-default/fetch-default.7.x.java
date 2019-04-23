@@ -11,8 +11,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Entity entity = Entity.fetcher(
-                "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",    "pathIdentity")
+        Entity entity = 
+            Entity.fetcher("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "identity")
             .fetch();
 
         System.out.println(entity.getSid());

@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var outgoingCallerId = OutgoingCallerIdResource.Update(
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             pathSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

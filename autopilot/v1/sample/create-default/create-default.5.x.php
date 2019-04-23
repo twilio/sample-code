@@ -15,6 +15,6 @@ $twilio = new Client($sid, $token);
 $sample = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->tasks("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->samples
-                                ->create("language", "taggedText");
+                                ->create("language", "tagged_text");
 
 print($sample->sid);

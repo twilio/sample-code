@@ -12,8 +12,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Verification verification = Verification.fetcher(
-                "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathSid")
+                "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",    "sid")
             .fetch();
 
         System.out.println(verification.getTo());

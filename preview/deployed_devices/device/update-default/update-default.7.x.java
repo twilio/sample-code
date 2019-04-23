@@ -14,7 +14,7 @@ public class Example {
         Device device = Device.updater(
                 "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(device.getUniqueName());
     }

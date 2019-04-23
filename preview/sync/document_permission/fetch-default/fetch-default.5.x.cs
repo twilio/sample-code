@@ -19,7 +19,7 @@ class Program
         var documentPermission = DocumentPermissionResource.Fetch(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathDocumentSid: "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity"
+            pathIdentity: "identity"
         );
 
         Console.WriteLine(documentPermission.ServiceSid);

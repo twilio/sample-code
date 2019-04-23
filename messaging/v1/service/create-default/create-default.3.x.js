@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.messaging.services
-                .create({friendlyName: 'friendlyName'})
+                .create({friendlyName: 'friendly_name'})
                 .then(service => console.log(service.sid));

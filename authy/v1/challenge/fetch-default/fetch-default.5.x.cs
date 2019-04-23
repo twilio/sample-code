@@ -18,9 +18,9 @@ class Program
 
         var challenge = ChallengeResource.Fetch(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity",
+            pathIdentity: "identity",
             pathFactorSid: "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "pathSid"
+            pathSid: "sid"
         );
 
         Console.WriteLine(challenge.Sid);

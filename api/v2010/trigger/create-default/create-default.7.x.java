@@ -15,7 +15,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Trigger trigger = Trigger.creator(
                 URI.create("https://example.com"),
-                "triggerValue",
+                "trigger_value",
                 Trigger.UsageCategory.AGENT_CONFERENCE)
             .create();
 

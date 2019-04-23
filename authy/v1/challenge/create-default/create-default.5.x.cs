@@ -18,7 +18,7 @@ class Program
 
         var challenge = ChallengeResource.Create(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity",
+            pathIdentity: "identity",
             pathFactorSid: "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

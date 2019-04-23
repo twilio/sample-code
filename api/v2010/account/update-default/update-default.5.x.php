@@ -13,6 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $account = $twilio->api->v2010->accounts("ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                              ->update(array("friendlyName" => "friendlyName"));
+                              ->update(array("friendlyName" => "friendly_name")
+                              );
 
 print($account->friendlyName);

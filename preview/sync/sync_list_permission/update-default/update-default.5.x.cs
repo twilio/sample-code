@@ -22,7 +22,7 @@ class Program
             manage: true,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathListSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity"
+            pathIdentity: "identity"
         );
 
         Console.WriteLine(syncListPermission.ServiceSid);

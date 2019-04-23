@@ -12,11 +12,11 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Address address = Address.creator(
-                "customerName",
+                "customer_name",
                 "street",
                 "city",
                 "region",
-                "postalCode",
+                "postal_code",
                 "US")
             .create();
 

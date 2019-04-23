@@ -13,9 +13,9 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Factor factor = Factor.creator(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity",
+                "identity",
                 "binding",
-                "friendlyName",
+                "friendly_name",
                 Factor.FactorTypes.APP_PUSH)
             .create();
 

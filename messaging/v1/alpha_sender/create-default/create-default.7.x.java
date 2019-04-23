@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         AlphaSender alphaSender = AlphaSender.creator(
                 "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "alphaSender")
+                "alpha_sender")
             .create();
 
         System.out.println(alphaSender.getSid());

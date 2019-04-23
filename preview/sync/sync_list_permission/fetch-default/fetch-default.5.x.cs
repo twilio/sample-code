@@ -19,7 +19,7 @@ class Program
         var syncListPermission = SyncListPermissionResource.Fetch(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathListSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity"
+            pathIdentity: "identity"
         );
 
         Console.WriteLine(syncListPermission.ServiceSid);

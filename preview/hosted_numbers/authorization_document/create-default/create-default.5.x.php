@@ -13,11 +13,11 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $authorization_document = $twilio->preview->hostedNumbers->authorizationDocuments
-                                                         ->create(array("hostedNumberOrderSids"), // hostedNumberOrderSids
+                                                         ->create(array("hosted_number_order_sids"), // hostedNumberOrderSids
                                                                   "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", // addressSid
                                                                   "email", // email
-                                                                  "contactTitle", // contactTitle
-                                                                  "contactPhoneNumber" // contactPhoneNumber
+                                                                  "contact_title", // contactTitle
+                                                                  "contact_phone_number" // contactPhoneNumber
                                                          );
 
 print($authorization_document->sid);

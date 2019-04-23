@@ -19,7 +19,7 @@ class Program
         SyncListPermissionResource.Delete(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathListSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity"
+            pathIdentity: "identity"
         );
     }
 }

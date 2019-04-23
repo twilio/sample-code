@@ -14,6 +14,7 @@ $twilio = new Client($sid, $token);
 
 $task = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->tasks("UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                              ->update(array("friendlyName" => "friendlyName"));
+                              ->update(array("friendlyName" => "friendly_name")
+                              );
 
 print($task->friendlyName);

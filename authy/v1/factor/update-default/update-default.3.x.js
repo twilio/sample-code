@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .entities('identity')
             .factors('YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .update({authPayload: 'authPayload'})
+            .update({authPayload: 'auth_payload'})
             .then(factor => console.log(factor.friendlyName));

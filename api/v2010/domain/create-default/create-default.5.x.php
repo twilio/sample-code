@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $domain = $twilio->sip
                  ->domains
-                 ->create("domainName");
+                 ->create("domain_name");
 
 print($domain->sid);

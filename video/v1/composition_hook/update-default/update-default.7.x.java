@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         CompositionHook compositionHook = CompositionHook.updater(
                 "HKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "friendlyName")
+                "friendly_name")
             .update();
 
         System.out.println(compositionHook.getFriendlyName());

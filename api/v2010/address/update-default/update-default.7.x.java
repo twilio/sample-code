@@ -12,7 +12,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Address address = Address.updater("ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(address.getCustomerName());
     }

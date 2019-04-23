@@ -14,7 +14,7 @@ public class Example {
         TaskQueue taskQueue = TaskQueue.updater(
                 "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(taskQueue.getAssignmentActivityName());
     }

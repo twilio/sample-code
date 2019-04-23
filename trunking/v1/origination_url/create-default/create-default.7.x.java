@@ -18,7 +18,7 @@ public class Example {
                 1,
                 1,
                 true,
-                "friendlyName",
+                "friendly_name",
                 URI.create("https://example.com"))
             .create();
 

@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $domain = $twilio->sip
                  ->domains("SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                 ->update(array("friendlyName" => "friendlyName"));
+                 ->update(array("friendlyName" => "friendly_name"));
 
 print($domain->domainName);

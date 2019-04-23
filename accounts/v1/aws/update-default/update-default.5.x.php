@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $aws = $twilio->accounts->v1->credentials
                             ->aws("CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                            ->update(array("friendlyName" => "friendlyName"));
+                            ->update(array("friendlyName" => "friendly_name"));
 
 print($aws->friendlyName);

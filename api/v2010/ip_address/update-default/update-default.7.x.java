@@ -14,7 +14,7 @@ public class Example {
         IpAddress ipAddress = IpAddress.updater(
                 "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setIpAddress("ipAddress").update();
+            .setIpAddress("ip_address").update();
 
         System.out.println(ipAddress.getFriendlyName());
     }

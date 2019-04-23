@@ -19,7 +19,7 @@ class Program
         SyncMapPermissionResource.Delete(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity"
+            pathIdentity: "identity"
         );
     }
 }

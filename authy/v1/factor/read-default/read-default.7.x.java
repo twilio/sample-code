@@ -13,7 +13,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Factor> factors = 
-            Factor.reader("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "pathIdentity")
+            Factor.reader("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "identity")
             .read();
 
         for(Factor record : factors) {

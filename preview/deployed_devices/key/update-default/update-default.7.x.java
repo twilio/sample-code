@@ -14,7 +14,7 @@ public class Example {
         Key key = Key.updater(
                 "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "KYXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(key.getFriendlyName());
     }

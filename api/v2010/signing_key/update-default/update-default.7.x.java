@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         SigningKey signingKey = 
             SigningKey.updater("SKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName")
+            .setFriendlyName("friendly_name")
             .update();
 
         System.out.println(signingKey.getFriendlyName());

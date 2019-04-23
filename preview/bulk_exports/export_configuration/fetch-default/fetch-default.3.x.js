@@ -6,6 +6,6 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.preview.bulk_exports
-      .exportConfiguration('resourceType')
+      .exportConfiguration('resource_type')
       .fetch()
       .then(export_configuration => console.log(export_configuration.enabled));

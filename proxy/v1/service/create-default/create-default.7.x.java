@@ -11,7 +11,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Service service = Service.creator("uniqueName").create();
+        Service service = Service.creator("unique_name").create();
 
         System.out.println(service.getSid());
     }

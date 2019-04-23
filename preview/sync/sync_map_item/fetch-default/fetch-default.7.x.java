@@ -14,7 +14,7 @@ public class Example {
         SyncMapItem syncMapItem = SyncMapItem.fetcher(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathKey")
+                "key")
             .fetch();
 
         System.out.println(syncMapItem.getKey());

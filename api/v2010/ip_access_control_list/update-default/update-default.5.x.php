@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $ip_access_control_list = $twilio->sip
                                  ->ipAccessControlLists("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                 ->update("friendlyName");
+                                 ->update("friendly_name");
 
 print($ip_access_control_list->friendlyName);

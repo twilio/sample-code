@@ -15,7 +15,7 @@ public class Example {
                 "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "language",
-                "taggedText")
+                "tagged_text")
             .create();
 
         System.out.println(sample.getSid());

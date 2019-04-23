@@ -14,7 +14,7 @@ public class Example {
         SyncMapPermission syncMapPermission = SyncMapPermission.updater(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity",
+                "identity",
                 true,
                 true,
                 true)

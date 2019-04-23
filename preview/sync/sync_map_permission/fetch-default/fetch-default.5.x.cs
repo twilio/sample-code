@@ -19,7 +19,7 @@ class Program
         var syncMapPermission = SyncMapPermissionResource.Fetch(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity"
+            pathIdentity: "identity"
         );
 
         Console.WriteLine(syncMapPermission.ServiceSid);

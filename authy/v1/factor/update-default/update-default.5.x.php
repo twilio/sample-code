@@ -15,6 +15,6 @@ $twilio = new Client($sid, $token);
 $factor = $twilio->authy->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->entities("identity")
                             ->factors("YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                            ->update(array("authPayload" => "authPayload"));
+                            ->update(array("authPayload" => "auth_payload"));
 
 print($factor->friendlyName);

@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var compositionSettings = CompositionSettingsResource.Create(
-            friendlyName: "friendlyName"
+            friendlyName: "friendly_name"
         );
 
         Console.WriteLine(compositionSettings.FriendlyName);

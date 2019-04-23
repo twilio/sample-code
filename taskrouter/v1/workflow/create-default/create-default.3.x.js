@@ -8,7 +8,7 @@ const client = require('twilio')(accountSid, authToken);
 client.taskrouter.workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .workflows
                  .create({
-                    friendlyName: 'friendlyName',
+                    friendlyName: 'friendly_name',
                     configuration: 'configuration'
                   })
                  .then(workflow => console.log(workflow.sid));

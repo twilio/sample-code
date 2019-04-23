@@ -8,10 +8,10 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.hosted_numbers
       .authorizationDocuments
       .create({
-         hostedNumberOrderSids: ['hostedNumberOrderSids'],
+         hostedNumberOrderSids: ['hosted_number_order_sids'],
          addressSid: 'ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
          email: 'email',
-         contactTitle: 'contactTitle',
-         contactPhoneNumber: 'contactPhoneNumber'
+         contactTitle: 'contact_title',
+         contactPhoneNumber: 'contact_phone_number'
        })
       .then(authorization_document => console.log(authorization_document.sid));

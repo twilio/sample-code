@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $alpha_sender = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->alphaSenders
-                                      ->create("alphaSender");
+                                      ->create("alpha_sender");
 
 print($alpha_sender->sid);

@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var task = TaskResource.Create(
-            uniqueName: "uniqueName",
+            uniqueName: "unique_name",
             pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

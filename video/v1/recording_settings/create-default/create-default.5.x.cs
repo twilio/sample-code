@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var recordingSettings = RecordingSettingsResource.Create(
-            friendlyName: "friendlyName"
+            friendlyName: "friendly_name"
         );
 
         Console.WriteLine(recordingSettings.FriendlyName);

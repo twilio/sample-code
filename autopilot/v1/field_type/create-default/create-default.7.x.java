@@ -12,7 +12,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         FieldType fieldType = FieldType.creator(
-                "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",    "uniqueName")
+                "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                "unique_name")
             .create();
 
         System.out.println(fieldType.getSid());

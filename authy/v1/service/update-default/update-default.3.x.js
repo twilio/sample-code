@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-            .update({friendlyName: 'friendlyName'})
+            .update({friendlyName: 'friendly_name'})
             .then(service => console.log(service.friendlyName));

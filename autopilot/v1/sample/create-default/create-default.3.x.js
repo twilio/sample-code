@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .samples
-                .create({language: 'language', taggedText: 'taggedText'})
+                .create({language: 'language', taggedText: 'tagged_text'})
                 .then(sample => console.log(sample.sid));

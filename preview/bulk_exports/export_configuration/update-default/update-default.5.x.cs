@@ -18,7 +18,7 @@ class Program
 
         var exportConfiguration = ExportConfigurationResource.Update(
             enabled: true,
-            pathResourceType: "pathResourceType"
+            pathResourceType: "resource_type"
         );
 
         Console.WriteLine(exportConfiguration.Enabled);

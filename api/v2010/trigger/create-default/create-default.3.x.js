@@ -8,7 +8,7 @@ const client = require('twilio')(accountSid, authToken);
 client.usage.triggers
             .create({
                callbackUrl: 'https://example.com',
-               triggerValue: 'triggerValue',
+               triggerValue: 'trigger_value',
                usageCategory: 'agent-conference'
              })
             .then(trigger => console.log(trigger.sid));

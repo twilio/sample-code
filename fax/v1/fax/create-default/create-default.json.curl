@@ -1,4 +1,4 @@
 curl -X POST https://fax.twilio.com/v1/Faxes \
---data-urlencode "To=To" \
+--data-urlencode "To=to" \
 --data-urlencode "MediaUrl=https://example.com" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

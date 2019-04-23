@@ -1,4 +1,4 @@
-curl -X POST https://preview.twilio.com/Sync/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions/Identity \
+curl -X POST https://preview.twilio.com/Sync/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Permissions/identity \
 --data-urlencode "Read=True" \
 --data-urlencode "Write=True" \
 --data-urlencode "Manage=True" \

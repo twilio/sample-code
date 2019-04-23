@@ -14,7 +14,7 @@ public class Example {
         Activity activity = Activity.updater(
                 "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "WAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(activity.getFriendlyName());
     }

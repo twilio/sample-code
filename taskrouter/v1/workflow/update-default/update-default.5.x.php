@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $workflow = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->workflows("WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->update(array(
-                                                "friendlyName" => "friendlyName"
+                                                "friendlyName" => "friendly_name"
                                             )
                                    );
 

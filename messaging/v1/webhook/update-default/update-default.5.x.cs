@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var webhook = WebhookResource.Update(webhookMethod: "webhookMethod");
+        var webhook = WebhookResource.Update(webhookMethod: "webhook_method");
 
         Console.WriteLine(webhook.ServiceSid);
     }

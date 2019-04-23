@@ -12,7 +12,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$export = $twilio->preview->bulkExports->exports("resourceType")
+$export = $twilio->preview->bulkExports->exports("resource_type")
                                        ->fetch();
 
 print($export->resourceType);

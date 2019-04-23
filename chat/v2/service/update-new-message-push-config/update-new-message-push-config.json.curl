@@ -1,5 +1,5 @@
 curl -X POST https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
 --data-urlencode "Notifications.AddedToChannel.Enabled=True" \
 --data-urlencode "Notifications.AddedToChannel.Sound=default" \
---data-urlencode "Notifications.AddedToChannel.Template=A New message in ${CHANNEL} from ${USER}: ${MESSAGE}" \
+--data-urlencode "Notifications.AddedToChannel.Template=A New message in \${CHANNEL} from \${USER}: \${MESSAGE}" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

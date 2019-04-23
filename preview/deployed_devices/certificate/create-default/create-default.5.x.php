@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $certificate = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                 ->certificates
-                                                ->create("certificateData");
+                                                ->create("certificate_data");
 
 print($certificate->sid);

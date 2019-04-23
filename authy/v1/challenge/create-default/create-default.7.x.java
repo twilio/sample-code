@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Challenge challenge = Challenge.creator(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity",
+                "identity",
                 "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .create();
 

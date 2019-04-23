@@ -11,7 +11,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Queue queue = Queue.creator("friendlyName").create();
+        Queue queue = Queue.creator("friendly_name").create();
 
         System.out.println(queue.getSid());
     }

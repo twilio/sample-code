@@ -18,7 +18,7 @@ class Program
 
         var trigger = TriggerResource.Create(
             callbackUrl: new Uri("https://example.com"),
-            triggerValue: "triggerValue",
+            triggerValue: "trigger_value",
             usageCategory: TriggerResource.UsageCategoryEnum.AgentConference
         );
 

@@ -12,7 +12,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ExportConfiguration exportConfiguration = 
-            ExportConfiguration.updater("pathResourceType")
+            ExportConfiguration.updater("resource_type")
             .setEnabled(true)
             .update();
 

@@ -14,7 +14,7 @@ public class Example {
         DocumentPermission documentPermission = DocumentPermission.fetcher(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity")
+                "identity")
             .fetch();
 
         System.out.println(documentPermission.getServiceSid());

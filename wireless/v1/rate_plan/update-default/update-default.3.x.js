@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.wireless.ratePlans('WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .update({uniqueName: 'uniqueName'})
+               .update({uniqueName: 'unique_name'})
                .then(rate_plan => console.log(rate_plan.uniqueName));

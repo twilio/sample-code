@@ -20,7 +20,7 @@ class Program
             weight: 1,
             priority: 1,
             enabled: true,
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             sipUrl: new Uri("https://example.com"),
             pathTrunkSid: "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

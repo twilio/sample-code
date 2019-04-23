@@ -13,10 +13,10 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Challenge challenge = Challenge.updater(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity",
+                "identity",
                 "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathSid")
-            .setAuthPayload("authPayload").update();
+                "sid")
+            .setAuthPayload("auth_payload").update();
 
         System.out.println(challenge.getSid());
     }

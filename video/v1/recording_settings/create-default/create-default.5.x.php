@@ -13,6 +13,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $recording_settings = $twilio->video->v1->recordingSettings()
-                                        ->create("friendlyName");
+                                        ->create("friendly_name");
 
 print($recording_settings->friendlyName);

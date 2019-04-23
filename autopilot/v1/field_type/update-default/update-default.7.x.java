@@ -14,7 +14,7 @@ public class Example {
         FieldType fieldType = FieldType.updater(
                 "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(fieldType.getFriendlyName());
     }

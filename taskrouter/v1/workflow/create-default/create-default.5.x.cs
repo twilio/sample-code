@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var workflow = WorkflowResource.Create(
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             configuration: "configuration",
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

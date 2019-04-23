@@ -12,7 +12,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         BulkCountryUpdate bulkCountryUpdate = 
-            BulkCountryUpdate.creator("updateRequest")
+            BulkCountryUpdate.creator("update_request")
             .create();
 
         System.out.println(bulkCountryUpdate.getUpdateCount());

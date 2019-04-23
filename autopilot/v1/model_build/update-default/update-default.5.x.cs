@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var modelBuild = ModelBuildResource.Update(
-            uniqueName: "uniqueName",
+            uniqueName: "unique_name",
             pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

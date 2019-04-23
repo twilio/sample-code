@@ -18,7 +18,7 @@ class Program
 
         var entity = EntityResource.Fetch(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity"
+            pathIdentity: "identity"
         );
 
         Console.WriteLine(entity.Sid);

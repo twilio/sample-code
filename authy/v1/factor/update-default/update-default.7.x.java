@@ -13,9 +13,9 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Factor factor = Factor.updater(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity",
+                "identity",
                 "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setAuthPayload("authPayload").update();
+            .setAuthPayload("auth_payload").update();
 
         System.out.println(factor.getFriendlyName());
     }

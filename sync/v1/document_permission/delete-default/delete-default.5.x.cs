@@ -19,7 +19,7 @@ class Program
         DocumentPermissionResource.Delete(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathDocumentSid: "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity"
+            pathIdentity: "identity"
         );
     }
 }

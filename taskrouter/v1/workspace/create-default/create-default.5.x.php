@@ -13,6 +13,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $workspace = $twilio->taskrouter->v1->workspaces
-                                    ->create("friendlyName");
+                                    ->create("friendly_name");
 
 print($workspace->sid);

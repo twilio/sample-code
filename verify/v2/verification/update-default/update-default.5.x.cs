@@ -19,7 +19,7 @@ class Program
         var verification = VerificationResource.Update(
             status: VerificationResource.StatusEnum.Canceled,
             pathServiceSid: "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "pathSid"
+            pathSid: "sid"
         );
 
         Console.WriteLine(verification.To);

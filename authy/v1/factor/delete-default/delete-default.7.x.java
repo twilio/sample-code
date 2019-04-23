@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Factor.deleter(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity",
+                "identity",
                 "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .delete();
     }

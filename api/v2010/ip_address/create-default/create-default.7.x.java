@@ -13,8 +13,8 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         IpAddress ipAddress = IpAddress.creator(
                 "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "friendlyName",
-                "ipAddress")
+                "friendly_name",
+                "ip_address")
             .create();
 
         System.out.println(ipAddress.getSid());

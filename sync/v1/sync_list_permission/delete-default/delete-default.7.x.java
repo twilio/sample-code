@@ -14,7 +14,7 @@ public class Example {
         SyncListPermission.deleter(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity")
+                "identity")
             .delete();
     }
 }

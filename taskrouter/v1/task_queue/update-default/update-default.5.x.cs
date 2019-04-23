@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var taskQueue = TaskQueueResource.Update(
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

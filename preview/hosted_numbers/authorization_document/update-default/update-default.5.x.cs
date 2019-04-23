@@ -18,7 +18,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var authorizationDocument = AuthorizationDocumentResource.Update(
-            hostedNumberOrderSids: Promoter.ListOfOne("hostedNumberOrderSids"),
+            hostedNumberOrderSids: Promoter.ListOfOne("hosted_number_order_sids"),
             pathSid: "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

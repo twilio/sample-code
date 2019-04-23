@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.video.recordingSettings()
-  .create({friendlyName: 'friendlyName'})
+  .create({friendlyName: 'friendly_name'})
   .then(recording_settings => console.log(recording_settings.friendlyName));

@@ -14,7 +14,7 @@ public class Example {
         DocumentPermission.deleter(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity")
+                "identity")
             .delete();
     }
 }

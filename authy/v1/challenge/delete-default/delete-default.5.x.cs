@@ -18,9 +18,9 @@ class Program
 
         ChallengeResource.Delete(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity",
+            pathIdentity: "identity",
             pathFactorSid: "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "pathSid"
+            pathSid: "sid"
         );
     }
 }

@@ -18,7 +18,7 @@ class Program
 
         var factor = FactorResource.Fetch(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity",
+            pathIdentity: "identity",
             pathSid: "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

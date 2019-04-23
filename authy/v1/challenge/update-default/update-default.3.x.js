@@ -9,5 +9,5 @@ client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .entities('identity')
             .factors('YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
             .challenges('sid')
-            .update({authPayload: 'authPayload'})
+            .update({authPayload: 'auth_payload'})
             .then(challenge => console.log(challenge.sid));

@@ -9,5 +9,5 @@ EOF
 curl -X POST https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications \
 --data-urlencode "Body=Knok-Knok! This is your first Notify SMS" \
 --data-urlencode "ToBinding=$TOBINDING" \
---data-urlencode "Identity=Identity" \
+--data-urlencode "Identity=identity" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

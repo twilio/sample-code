@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var fieldType = FieldTypeResource.Update(
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

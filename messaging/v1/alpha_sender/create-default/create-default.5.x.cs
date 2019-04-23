@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var alphaSender = AlphaSenderResource.Create(
-            alphaSender: "alphaSender",
+            alphaSender: "alpha_sender",
             pathServiceSid: "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

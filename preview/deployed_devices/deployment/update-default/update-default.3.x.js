@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.preview.deployed_devices
               .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .deployments('DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-              .update({friendlyName: 'friendlyName'})
+              .update({friendlyName: 'friendly_name'})
               .then(deployment => console.log(deployment.friendlyName));

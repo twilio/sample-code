@@ -14,7 +14,7 @@ public class Example {
         ModelBuild modelBuild = ModelBuild.updater(
                 "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setUniqueName("uniqueName").update();
+            .setUniqueName("unique_name").update();
 
         System.out.println(modelBuild.getUniqueName());
     }

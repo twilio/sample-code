@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var device = DeviceResource.Update(
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             pathFleetSid: "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "THXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

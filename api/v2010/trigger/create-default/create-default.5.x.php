@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $trigger = $twilio->usage
                   ->triggers
                   ->create("https://example.com", // callbackUrl
-                           "triggerValue", // triggerValue
+                           "trigger_value", // triggerValue
                            "agent-conference" // usageCategory
                   );
 
