@@ -16,6 +16,7 @@ public class Example {
         ResourceSet<IncomingPhoneNumber> incomingPhoneNumbers = 
             IncomingPhoneNumber.reader()
             .setPhoneNumber(new com.twilio.type.PhoneNumber("+14158675310"))
+            .limit(20)
             .read();
 
         for(IncomingPhoneNumber record : incomingPhoneNumbers) {

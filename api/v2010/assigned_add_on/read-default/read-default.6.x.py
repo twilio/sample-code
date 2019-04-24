@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 assigned_add_ons = client \
     .incoming_phone_numbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .assigned_add_ons \
-    .list()
+    .list(limit=20)
 
 for record in assigned_add_ons:
     print(record.sid)

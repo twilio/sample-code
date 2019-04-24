@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-credentials = client.notify.credentials.list()
+credentials = client.notify.credentials.list(limit=20)
 
 for record in credentials:
     print(record.sid)

@@ -7,7 +7,8 @@
       "required": {
         "date_sent": "2016-08-31T00:00:00Z",
         "from": "+15017122661",
-        "to": "+15558675310"
+        "to": "+15558675310",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

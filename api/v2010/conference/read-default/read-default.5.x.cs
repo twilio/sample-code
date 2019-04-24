@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var conferences = ConferenceResource.Read();
+        var conferences = ConferenceResource.Read(limit: 20);
 
         foreach(var record in conferences)
         {

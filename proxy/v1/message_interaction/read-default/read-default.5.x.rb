@@ -13,7 +13,7 @@ message_interactions = @client.proxy
   .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .participants('KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .message_interactions
-  .list
+  .list(limit: 20)
 
 message_interactions.each do |record|
   puts record.sid

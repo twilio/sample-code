@@ -13,7 +13,9 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Recording> recordings = Recording.reader()
-            .setStatus(Recording.Status.DELETED).read();
+            .setStatus(Recording.Status.DELETED)
+            .limit(20)
+            .read();
 
         for(Recording record : recordings) {
             System.out.println(record.getSid());

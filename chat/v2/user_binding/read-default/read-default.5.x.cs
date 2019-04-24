@@ -18,7 +18,8 @@ class Program
 
         var userBindings = UserBindingResource.Read(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathUserSid: "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathUserSid: "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in userBindings)

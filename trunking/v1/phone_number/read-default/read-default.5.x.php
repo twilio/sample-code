@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $phoneNumbers = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->phoneNumbers
-                                     ->read();
+                                     ->read(array(), 20);
 
 foreach ($phoneNumbers as $record) {
     print($record->sid);

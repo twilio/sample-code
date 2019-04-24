@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $sessions = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->sessions
-                              ->read();
+                              ->read(array(), 20);
 
 foreach ($sessions as $record) {
     print($record->sid);

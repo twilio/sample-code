@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<SyncListItem> syncListItems = SyncListItem.reader(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(SyncListItem record : syncListItems) {
             System.out.println(record.getIndex());

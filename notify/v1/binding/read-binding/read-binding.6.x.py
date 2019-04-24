@@ -11,7 +11,11 @@ client = Client(account_sid, auth_token)
 
 bindings = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .bindings \
-                        .list(start_date=date(2015, 8, 25), tag='new user')
+                        .list(
+                             start_date=date(2015, 8, 25),
+                             tag='new user',
+                             limit=20
+                         )
 
 for record in bindings:
     print(record.sid)

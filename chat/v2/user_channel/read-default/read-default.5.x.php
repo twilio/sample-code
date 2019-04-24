@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $userChannels = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->users("USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->userChannels
-                                 ->read();
+                                 ->read(array(), 20);
 
 foreach ($userChannels as $record) {
     print($record->serviceSid);

@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Event> events = Event.reader()
             .setResourceSid("PN4aa51b930717ea83c91971b86d99018f")
+            .limit(20)
             .read();
 
         for(Event record : events) {

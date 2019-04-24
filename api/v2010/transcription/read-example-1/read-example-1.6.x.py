@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-transcriptions = client.transcriptions.list()
+transcriptions = client.transcriptions.list(limit=20)
 
 for record in transcriptions:
     print(record.sid)

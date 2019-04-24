@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 credentials = @client.sip
                      .credential_lists('CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .credentials
-                     .list
+                     .list(limit: 20)
 
 credentials.each do |record|
   puts record.sid

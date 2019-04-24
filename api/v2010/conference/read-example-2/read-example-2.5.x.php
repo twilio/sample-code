@@ -16,7 +16,8 @@ $conferences = $twilio->conferences
                       ->read(array(
                                  "friendlyName" => "MyRoom",
                                  "status" => "in-progress"
-                             )
+                             ),
+                             20
                       );
 
 foreach ($conferences as $record) {

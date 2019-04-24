@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-rate_plans = client.wireless.rate_plans.list()
+rate_plans = client.wireless.rate_plans.list(limit=20)
 
 for record in rate_plans:
     print(record.sid)

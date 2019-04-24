@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 tasks = client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .tasks \
-                        .list()
+                        .list(limit=20)
 
 for record in tasks:
     print(record.sid)

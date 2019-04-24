@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $devices = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                             ->devices
-                                            ->read();
+                                            ->read(array(), 20);
 
 foreach ($devices as $record) {
     print($record->sid);

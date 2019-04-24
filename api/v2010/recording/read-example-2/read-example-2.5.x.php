@@ -13,7 +13,8 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $recordings = $twilio->recordings
-                     ->read(array("dateCreated" => new \DateTime('2016-10-18'))
+                     ->read(array("dateCreated" => new \DateTime('2016-10-18')),
+                            20
                      );
 
 foreach ($recordings as $record) {

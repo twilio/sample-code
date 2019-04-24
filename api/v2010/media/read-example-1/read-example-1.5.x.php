@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $media = $twilio->messages("MM800f449d0399ed014aae2bcc0cc2f2ec")
                 ->media
-                ->read();
+                ->read(array(), 20);
 
 foreach ($media as $record) {
     print($record->sid);

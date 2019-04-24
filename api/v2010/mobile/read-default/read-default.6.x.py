@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-mobile = client.incoming_phone_numbers.mobile.list()
+mobile = client.incoming_phone_numbers.mobile.list(limit=20)
 
 for record in mobile:
     print(record.sid)

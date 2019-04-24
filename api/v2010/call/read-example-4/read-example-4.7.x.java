@@ -18,6 +18,7 @@ public class Example {
             .setStartTime(
                 Range.open(new DateTime(2009, 7, 4, 0, 0), new DateTime(2009, 7, 6, 0, 0)))
             .setStatus(Call.Status.IN_PROGRESS)
+            .limit(20)
             .read();
 
         for(Call record : calls) {

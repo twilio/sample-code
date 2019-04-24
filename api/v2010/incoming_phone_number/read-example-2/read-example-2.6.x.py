@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 incoming_phone_numbers = client.incoming_phone_numbers \
-                               .list(phone_number='+14158675310')
+                               .list(phone_number='+14158675310', limit=20)
 
 for record in incoming_phone_numbers:
     print(record.sid)

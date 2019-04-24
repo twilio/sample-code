@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-alerts = client.monitor.alerts.list()
+alerts = client.monitor.alerts.list(limit=20)
 
 for record in alerts:
     print(record.sid)

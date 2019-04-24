@@ -3,7 +3,9 @@
   "title": "Read Subscribed Track",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "subscriber_sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

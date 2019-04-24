@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var countries = CountryResource.Read();
+        var countries = CountryResource.Read(limit: 20);
 
         foreach(var record in countries)
         {

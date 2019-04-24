@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $countries = $twilio->pricing->v2->voice
                                  ->countries
-                                 ->read();
+                                 ->read(array(), 20);
 
 foreach ($countries as $record) {
     print($record->country);

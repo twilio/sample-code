@@ -15,6 +15,7 @@ public class Example {
         ResourceSet<DependentHostedNumberOrder> dependentHostedNumberOrders = 
             DependentHostedNumberOrder.reader(
                 "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(DependentHostedNumberOrder record : dependentHostedNumberOrders) {

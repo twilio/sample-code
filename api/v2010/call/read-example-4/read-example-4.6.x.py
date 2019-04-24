@@ -12,7 +12,8 @@ client = Client(account_sid, auth_token)
 calls = client.calls.list(
                          start_time_before=datetime(2009, 7, 6, 0, 0),
                          start_time_after=datetime(2009, 7, 4, 0, 0),
-                         status='in-progress'
+                         status='in-progress',
+                         limit=20
                      )
 
 for record in calls:

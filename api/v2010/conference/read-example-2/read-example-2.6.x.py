@@ -10,7 +10,8 @@ client = Client(account_sid, auth_token)
 
 conferences = client.conferences.list(
                                      friendly_name='MyRoom',
-                                     status='in-progress'
+                                     status='in-progress',
+                                     limit=20
                                  )
 
 for record in conferences:

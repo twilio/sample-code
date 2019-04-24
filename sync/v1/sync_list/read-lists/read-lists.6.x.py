@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 sync_lists = client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .sync_lists \
-                        .list()
+                        .list(limit=20)
 
 for record in sync_lists:
     print(record.sid)

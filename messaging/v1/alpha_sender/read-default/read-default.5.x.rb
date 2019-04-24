@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 alpha_senders = @client.messaging
                        .services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .alpha_senders
-                       .list
+                       .list(limit: 20)
 
 alpha_senders.each do |record|
   puts record.sid

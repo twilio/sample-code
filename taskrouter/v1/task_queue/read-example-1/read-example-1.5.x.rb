@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 task_queues = @client.taskrouter
                      .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .task_queues
-                     .list
+                     .list(limit: 20)
 
 task_queues.each do |record|
   puts record.sid

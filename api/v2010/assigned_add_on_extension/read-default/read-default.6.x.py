@@ -12,7 +12,7 @@ extensions = client \
     .incoming_phone_numbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .assigned_add_ons('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .extensions \
-    .list()
+    .list(limit=20)
 
 for record in extensions:
     print(record.sid)

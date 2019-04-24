@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-yearly = client.usage.records.yearly.list()
+yearly = client.usage.records.yearly.list(limit=20)
 
 for record in yearly:
     print(record.category)

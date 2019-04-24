@@ -1,2 +1,2 @@
-curl -X GET 'https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json?DateCreated%3C=2016-10-15T00%3A00%3A00Z&DateCreated%3E=2016-10-12T00%3A00%3A00Z' \
+curl -X GET 'https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json?DateCreated%3C=2016-10-15T00%3A00%3A00Z&DateCreated%3E=2016-10-12T00%3A00%3A00Z&page_size=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

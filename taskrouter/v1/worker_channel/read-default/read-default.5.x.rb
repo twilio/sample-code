@@ -12,7 +12,7 @@ worker_channels = @client.taskrouter
                          .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .worker_channels
-                         .list
+                         .list(limit: 20)
 
 worker_channels.each do |record|
   puts record.sid

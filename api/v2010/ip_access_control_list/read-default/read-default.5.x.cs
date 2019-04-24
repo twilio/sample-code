@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var ipAccessControlLists = IpAccessControlListResource.Read();
+        var ipAccessControlLists = IpAccessControlListResource.Read(limit: 20);
 
         foreach(var record in ipAccessControlLists)
         {

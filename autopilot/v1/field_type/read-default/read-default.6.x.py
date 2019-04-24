@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 field_types = client.autopilot \
                     .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .field_types \
-                    .list()
+                    .list(limit=20)
 
 for record in field_types:
     print(record.sid)

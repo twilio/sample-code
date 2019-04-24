@@ -15,6 +15,7 @@ public class Example {
         ResourceSet<AvailableAddOnExtension> extensions = 
             AvailableAddOnExtension.reader(
                 "XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(AvailableAddOnExtension record : extensions) {

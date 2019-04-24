@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var media = FaxMediaResource.Read(
-            pathFaxSid: "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathFaxSid: "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in media)

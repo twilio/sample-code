@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 phone_numbers = @client.messaging
                        .services('MG2172dd2db502e20dd981ef0d67850e1a')
                        .phone_numbers
-                       .list
+                       .list(limit: 20)
 
 phone_numbers.each do |record|
   puts record.sid

@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $aws = $twilio->accounts->v1->credentials
                             ->aws
-                            ->read();
+                            ->read(array(), 20);
 
 foreach ($aws as $record) {
     print($record->sid);

@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-aws = @client.accounts.credentials.aws.list
+aws = @client.accounts.credentials.aws.list(limit: 20)
 
 aws.each do |record|
   puts record.sid

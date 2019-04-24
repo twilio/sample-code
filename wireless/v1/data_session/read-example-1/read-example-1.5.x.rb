@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 data_sessions = @client.wireless
                        .sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
                        .data_sessions
-                       .list
+                       .list(limit: 20)
 
 data_sessions.each do |record|
   puts record.sid

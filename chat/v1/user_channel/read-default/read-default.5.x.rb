@@ -13,7 +13,7 @@ user_channels = @client.chat
                        .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .user_channels
-                       .list
+                       .list(limit: 20)
 
 user_channels.each do |record|
   puts record.service_sid

@@ -16,7 +16,7 @@ $messageInteractions = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXX
                                          ->sessions("KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->participants("KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->messageInteractions
-                                         ->read();
+                                         ->read(array(), 20);
 
 foreach ($messageInteractions as $record) {
     print($record->sid);

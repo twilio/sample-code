@@ -18,7 +18,8 @@ class Program
 
         var calls = CallResource.Read(
             status: CallResource.StatusEnum.Busy,
-            to: new Twilio.Types.PhoneNumber("+15558675310")
+            to: new Twilio.Types.PhoneNumber("+15558675310"),
+            limit: 20
         );
 
         foreach(var record in calls)

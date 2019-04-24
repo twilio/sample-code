@@ -16,7 +16,8 @@ $recordings = $twilio->recordings
                      ->read(array(
                                 "dateCreatedBefore" => new \DateTime('2016-10-15'),
                                 "dateCreatedAfter" => new \DateTime('2016-10-12')
-                            )
+                            ),
+                            20
                      );
 
 foreach ($recordings as $record) {

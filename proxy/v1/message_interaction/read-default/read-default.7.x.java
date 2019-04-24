@@ -17,6 +17,7 @@ public class Example {
                 "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(MessageInteraction record : messageInteractions) {

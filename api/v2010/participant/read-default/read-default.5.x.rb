@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 participants = @client.conferences('CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .participants
-                      .list
+                      .list(limit: 20)
 
 participants.each do |record|
   puts record.call_sid

@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<Message> messages = Message.reader(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(Message record : messages) {
             System.out.println(record.getSid());

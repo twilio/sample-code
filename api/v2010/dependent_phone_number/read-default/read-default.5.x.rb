@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 dependent_phone_numbers = @client
   .addresses('ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .dependent_phone_numbers
-  .list
+  .list(limit: 20)
 
 dependent_phone_numbers.each do |record|
   puts record.sid

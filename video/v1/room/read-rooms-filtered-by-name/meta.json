@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "unique_name": "DailyStandup"
+        "unique_name": "DailyStandup",
+        "page_size": 20
       },
       "path": {}
     },

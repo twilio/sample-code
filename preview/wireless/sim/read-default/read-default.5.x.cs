@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var sims = SimResource.Read();
+        var sims = SimResource.Read(limit: 20);
 
         foreach(var record in sims)
         {

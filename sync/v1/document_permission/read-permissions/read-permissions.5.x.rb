@@ -12,7 +12,7 @@ document_permissions = @client.sync
                               .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               .documents('MyFirstDocument')
                               .document_permissions
-                              .list
+                              .list(limit: 20)
 
 document_permissions.each do |record|
   puts record.service_sid

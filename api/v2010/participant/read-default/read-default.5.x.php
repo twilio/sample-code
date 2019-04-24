@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $participants = $twilio->conferences("CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                        ->participants
-                       ->read();
+                       ->read(array(), 20);
 
 foreach ($participants as $record) {
     print($record->callSid);

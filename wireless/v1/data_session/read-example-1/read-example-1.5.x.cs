@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var dataSessions = DataSessionResource.Read(
-            pathSimSid: "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            pathSimSid: "DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            limit: 20
         );
 
         foreach(var record in dataSessions)

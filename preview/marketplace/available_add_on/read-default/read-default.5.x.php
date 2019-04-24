@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $availableAddOns = $twilio->preview->marketplace->availableAddOns
-                                                ->read();
+                                                ->read(array(), 20);
 
 foreach ($availableAddOns as $record) {
     print($record->sid);

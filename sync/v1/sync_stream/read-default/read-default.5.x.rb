@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 sync_streams = @client.sync
                       .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .sync_streams
-                      .list
+                      .list(limit: 20)
 
 sync_streams.each do |record|
   puts record.sid

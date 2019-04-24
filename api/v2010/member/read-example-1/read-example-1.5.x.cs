@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var members = MemberResource.Read(
-            pathQueueSid: "QU5ef8732a3c49700934481addd5ce1659"
+            pathQueueSid: "QU5ef8732a3c49700934481addd5ce1659",
+            limit: 20
         );
 
         foreach(var record in members)

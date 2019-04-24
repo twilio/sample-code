@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<Field> fields = Field.reader(
                 "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(Field record : fields) {
             System.out.println(record.getSid());

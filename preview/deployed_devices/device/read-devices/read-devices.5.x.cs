@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var devices = DeviceResource.Read(
-            pathFleetSid: "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathFleetSid: "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in devices)

@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $lastMonth = $twilio->usage
                     ->records
                     ->lastMonth
-                    ->read();
+                    ->read(array(), 20);
 
 foreach ($lastMonth as $record) {
     print($record->category);

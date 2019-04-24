@@ -11,7 +11,8 @@ auth_token = 'your_auth_token'
 messages = @client.messages.list(
                               date_sent: Date.new(2016, 8, 31),
                               from: '+15017122661',
-                              to: '+15558675310'
+                              to: '+15558675310',
+                              limit: 20
                             )
 
 messages.each do |record|

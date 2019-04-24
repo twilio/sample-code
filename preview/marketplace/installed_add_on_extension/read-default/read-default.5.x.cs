@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var extensions = InstalledAddOnExtensionResource.Read(
-            pathInstalledAddOnSid: "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathInstalledAddOnSid: "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in extensions)

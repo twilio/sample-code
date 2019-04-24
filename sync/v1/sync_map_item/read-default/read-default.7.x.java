@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<SyncMapItem> syncMapItems = SyncMapItem.reader(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(SyncMapItem record : syncMapItems) {
             System.out.println(record.getKey());

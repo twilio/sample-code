@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var authorizedConnectApps = AuthorizedConnectAppResource.Read();
+        var authorizedConnectApps = AuthorizedConnectAppResource.Read(limit: 20);
 
         foreach(var record in authorizedConnectApps)
         {

@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 payloads = client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                  .add_on_results('XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                  .payloads \
-                 .list()
+                 .list(limit=20)
 
 for record in payloads:
     print(record.sid)

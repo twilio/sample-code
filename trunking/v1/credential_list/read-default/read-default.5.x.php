@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $credentialsLists = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->credentialsLists
-                                         ->read();
+                                         ->read(array(), 20);
 
 foreach ($credentialsLists as $record) {
     print($record->sid);

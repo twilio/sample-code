@@ -16,6 +16,7 @@ public class Example {
             SyncListPermission.reader(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(SyncListPermission record : syncListPermissions) {

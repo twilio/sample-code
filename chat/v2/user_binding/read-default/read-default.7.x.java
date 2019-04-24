@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<UserBinding> userBindings = UserBinding.reader(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(UserBinding record : userBindings) {
             System.out.println(record.getSid());

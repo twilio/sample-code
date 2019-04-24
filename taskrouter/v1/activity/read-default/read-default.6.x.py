@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 activities = client.taskrouter \
                    .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                    .activities \
-                   .list()
+                   .list(limit=20)
 
 for record in activities:
     print(record.sid)

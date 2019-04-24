@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $workers = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                   ->workers
-                                  ->read();
+                                  ->read(array(), 20);
 
 foreach ($workers as $record) {
     print($record->sid);

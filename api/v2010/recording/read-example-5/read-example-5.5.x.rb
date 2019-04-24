@@ -9,7 +9,10 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 recordings = @client.recordings
-                    .list(call_sid: 'CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                    .list(
+                       call_sid: 'CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                       limit: 20
+                     )
 
 recordings.each do |record|
   puts record.sid

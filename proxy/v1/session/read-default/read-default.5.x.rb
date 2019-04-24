@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 sessions = @client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .sessions
-                        .list
+                        .list(limit: 20)
 
 sessions.each do |record|
   puts record.sid

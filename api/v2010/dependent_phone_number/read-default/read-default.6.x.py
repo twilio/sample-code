@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 dependent_phone_numbers = client \
     .addresses('ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .dependent_phone_numbers \
-    .list()
+    .list(limit=20)
 
 for record in dependent_phone_numbers:
     print(record.sid)

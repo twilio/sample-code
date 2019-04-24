@@ -6,7 +6,8 @@
     "params": {
       "required": {
         "friendly_name": "MyRoom",
-        "status": "in-progress"
+        "status": "in-progress",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

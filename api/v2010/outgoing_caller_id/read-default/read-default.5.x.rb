@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-outgoing_caller_ids = @client.outgoing_caller_ids.list
+outgoing_caller_ids = @client.outgoing_caller_ids.list(limit: 20)
 
 outgoing_caller_ids.each do |record|
   puts record.sid

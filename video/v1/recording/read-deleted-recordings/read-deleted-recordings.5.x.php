@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $recordings = $twilio->video->v1->recordings
-                                ->read(array("status" => "deleted"));
+                                ->read(array("status" => "deleted"), 20);
 
 foreach ($recordings as $record) {
     print($record->sid);

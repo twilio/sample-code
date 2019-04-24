@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-aws = client.accounts.credentials.aws.list()
+aws = client.accounts.credentials.aws.list(limit=20)
 
 for record in aws:
     print(record.sid)

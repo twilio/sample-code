@@ -13,7 +13,7 @@ document_permissions = client.preview \
                              .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                              .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                              .document_permissions \
-                             .list()
+                             .list(limit=20)
 
 for record in document_permissions:
     print(record.service_sid)

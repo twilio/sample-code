@@ -15,7 +15,8 @@ $twilio = new Client($sid, $token);
 $recordings = $twilio->recordings
                      ->read(array(
                                 "callSid" => "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-                            )
+                            ),
+                            20
                      );
 
 foreach ($recordings as $record) {

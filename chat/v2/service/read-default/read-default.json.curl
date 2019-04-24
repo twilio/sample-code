@@ -1,2 +1,2 @@
-curl -X GET 'https://chat.twilio.com/v2/Services' \
+curl -X GET 'https://chat.twilio.com/v2/Services?page_size=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

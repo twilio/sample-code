@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 steps = client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .steps \
-                     .list()
+                     .list(limit=20)
 
 for record in steps:
     print(record.sid)

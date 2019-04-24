@@ -12,7 +12,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ResourceSet<Day> days = Day.reader("resource_type").read();
+        ResourceSet<Day> days = Day.reader("resource_type").limit(20).read();
 
         for(Day record : days) {
             System.out.println(record.getRedirectTo());

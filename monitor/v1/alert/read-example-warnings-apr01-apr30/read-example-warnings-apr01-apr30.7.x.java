@@ -17,6 +17,7 @@ public class Example {
             .setEndDate(DateConverter.localDateFromString("2015-04-30"))
             .setLogLevel("warning")
             .setStartDate(DateConverter.localDateFromString("2015-04-01"))
+            .limit(20)
             .read();
 
         for(Alert record : alerts) {

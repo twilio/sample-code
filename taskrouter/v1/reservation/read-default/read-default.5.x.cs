@@ -18,7 +18,8 @@ class Program
 
         var reservations = ReservationResource.Read(
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathWorkerSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathWorkerSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in reservations)

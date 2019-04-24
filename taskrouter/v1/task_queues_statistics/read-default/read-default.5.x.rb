@@ -12,7 +12,7 @@ statistics = @client.taskrouter
                     .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .task_queues
                     .statistics
-                    .list
+                    .list(limit: 20)
 
 statistics.each do |record|
   puts record.cumulative

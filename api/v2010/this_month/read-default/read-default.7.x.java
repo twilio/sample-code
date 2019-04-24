@@ -12,7 +12,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ResourceSet<ThisMonth> thisMonth = ThisMonth.reader().read();
+        ResourceSet<ThisMonth> thisMonth = ThisMonth.reader().limit(20).read();
 
         for(ThisMonth record : thisMonth) {
             System.out.println(record.getCategory());

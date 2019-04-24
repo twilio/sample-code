@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 ip_addresses = client.sip \
     .ip_access_control_lists('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .ip_addresses \
-    .list()
+    .list(limit=20)
 
 for record in ip_addresses:
     print(record.sid)

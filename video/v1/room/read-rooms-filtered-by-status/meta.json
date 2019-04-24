@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "status": "completed"
+        "status": "completed",
+        "page_size": 20
       },
       "path": {}
     },

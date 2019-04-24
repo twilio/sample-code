@@ -3,7 +3,9 @@
   "title": "Read Fax Media",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "fax_sid": "FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       }

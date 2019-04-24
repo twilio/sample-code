@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-events = client.monitor.events.list()
+events = client.monitor.events.list(limit=20)
 
 for record in events:
     print(record.sid)

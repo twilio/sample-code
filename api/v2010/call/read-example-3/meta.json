@@ -6,7 +6,8 @@
     "params": {
       "required": {
         "start_time_after": "2009-07-06T00:00:00Z",
-        "status": "completed"
+        "status": "completed",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

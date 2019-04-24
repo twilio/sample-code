@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $publishedTracks = $twilio->video->v1->rooms("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->participants("PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->publishedTracks
-                                     ->read();
+                                     ->read(array(), 20);
 
 foreach ($publishedTracks as $record) {
     print($record->sid);

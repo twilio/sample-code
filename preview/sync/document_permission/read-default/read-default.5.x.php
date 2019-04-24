@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $documentPermissions = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                              ->documents("ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                              ->documentPermissions
-                                             ->read();
+                                             ->read(array(), 20);
 
 foreach ($documentPermissions as $record) {
     print($record->serviceSid);

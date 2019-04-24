@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $fieldTypes = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->fieldTypes
-                                    ->read();
+                                    ->read(array(), 20);
 
 foreach ($fieldTypes as $record) {
     print($record->sid);

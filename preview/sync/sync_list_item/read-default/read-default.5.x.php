@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $syncListItems = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        ->syncLists("ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                        ->syncListItems
-                                       ->read();
+                                       ->read(array(), 20);
 
 foreach ($syncListItems as $record) {
     print($record->index);

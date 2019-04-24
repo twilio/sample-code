@@ -12,7 +12,7 @@ certificates = @client.preview
                       .deployed_devices
                       .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .certificates
-                      .list
+                      .list(limit: 20)
 
 certificates.each do |record|
   puts record.sid

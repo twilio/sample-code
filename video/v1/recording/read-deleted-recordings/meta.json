@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "status": "deleted"
+        "status": "deleted",
+        "page_size": 20
       },
       "path": {}
     },

@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-mobile = @client.incoming_phone_numbers.mobile.list
+mobile = @client.incoming_phone_numbers.mobile.list(limit: 20)
 
 mobile.each do |record|
   puts record.sid

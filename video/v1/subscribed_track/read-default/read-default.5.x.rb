@@ -12,7 +12,7 @@ subscribed_tracks = @client.video
                            .rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .subscribed_tracks
-                           .list
+                           .list(limit: 20)
 
 subscribed_tracks.each do |record|
   puts record.sid

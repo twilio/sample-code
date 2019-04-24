@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $hostedNumberOrders = $twilio->preview->hostedNumbers->hostedNumberOrders
-                                                     ->read();
+                                                     ->read(array(), 20);
 
 foreach ($hostedNumberOrders as $record) {
     print($record->sid);

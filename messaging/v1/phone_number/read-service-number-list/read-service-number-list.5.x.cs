@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var phoneNumbers = PhoneNumberResource.Read(
-            pathServiceSid: "MG2172dd2db502e20dd981ef0d67850e1a"
+            pathServiceSid: "MG2172dd2db502e20dd981ef0d67850e1a",
+            limit: 20
         );
 
         foreach(var record in phoneNumbers)

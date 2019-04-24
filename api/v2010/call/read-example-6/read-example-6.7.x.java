@@ -16,6 +16,7 @@ public class Example {
         ResourceSet<Call> calls = Call.reader()
             .setStatus(Call.Status.BUSY)
             .setTo(new com.twilio.type.PhoneNumber("+15558675310"))
+            .limit(20)
             .read();
 
         for(Call record : calls) {

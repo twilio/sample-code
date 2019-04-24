@@ -11,7 +11,11 @@ auth_token = 'your_auth_token'
 bindings = @client.notify
                   .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                   .bindings
-                  .list(start_date: Date.new(2015, 8, 25), tag: 'new user')
+                  .list(
+                     start_date: Date.new(2015, 8, 25),
+                     tag: 'new user',
+                     limit: 20
+                   )
 
 bindings.each do |record|
   puts record.sid

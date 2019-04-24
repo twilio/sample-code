@@ -16,7 +16,8 @@ $rooms = $twilio->video->v1->rooms
                            ->read(array(
                                       "status" => "completed",
                                       "uniqueName" => "DailyStandup"
-                                  )
+                                  ),
+                                  20
                            );
 
 foreach ($rooms as $record) {

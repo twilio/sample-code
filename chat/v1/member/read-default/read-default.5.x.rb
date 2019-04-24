@@ -12,7 +12,7 @@ members = @client.chat.v1
                       .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .members
-                      .list
+                      .list(limit: 20)
 
 members.each do |record|
   puts record.sid

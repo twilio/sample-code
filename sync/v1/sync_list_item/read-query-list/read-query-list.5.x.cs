@@ -18,7 +18,8 @@ class Program
 
         var syncListItems = SyncListItemResource.Read(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathListSid: "MyCollection"
+            pathListSid: "MyCollection",
+            limit: 20
         );
 
         foreach(var record in syncListItems)

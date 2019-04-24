@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 phone_numbers = client.proxy \
                       .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .phone_numbers \
-                      .list()
+                      .list(limit=20)
 
 for record in phone_numbers:
     print(record.sid)

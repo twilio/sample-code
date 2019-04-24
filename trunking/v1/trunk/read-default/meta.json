@@ -3,7 +3,9 @@
   "title": "Read Trunk",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {}
     },
     "location": "https://trunking.twilio.com/v1/Trunks",

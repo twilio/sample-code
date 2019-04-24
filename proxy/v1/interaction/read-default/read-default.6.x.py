@@ -12,7 +12,7 @@ interactions = client.proxy \
                      .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .interactions \
-                     .list()
+                     .list(limit=20)
 
 for record in interactions:
     print(record.sid)

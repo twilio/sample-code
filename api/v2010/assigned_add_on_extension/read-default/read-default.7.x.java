@@ -16,6 +16,7 @@ public class Example {
             AssignedAddOnExtension.reader(
                 "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(AssignedAddOnExtension record : extensions) {

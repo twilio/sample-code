@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var mobile = MobileResource.Read();
+        var mobile = MobileResource.Read(limit: 20);
 
         foreach(var record in mobile)
         {

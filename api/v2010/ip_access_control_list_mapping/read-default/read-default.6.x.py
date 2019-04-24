@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 ip_access_control_list_mappings = client.sip \
     .domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .ip_access_control_list_mappings \
-    .list()
+    .list(limit=20)
 
 for record in ip_access_control_list_mappings:
     print(record.sid)

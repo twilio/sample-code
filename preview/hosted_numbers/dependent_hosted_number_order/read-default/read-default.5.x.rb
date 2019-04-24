@@ -12,7 +12,7 @@ dependent_hosted_number_orders = @client.preview
   .hosted_numbers
   .authorization_documents('PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .dependent_hosted_number_orders
-  .list
+  .list(limit: 20)
 
 dependent_hosted_number_orders.each do |record|
   puts record.sid

@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $certificates = $twilio->preview->deployedDevices->fleets("FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                  ->certificates
-                                                 ->read();
+                                                 ->read(array(), 20);
 
 foreach ($certificates as $record) {
     print($record->sid);

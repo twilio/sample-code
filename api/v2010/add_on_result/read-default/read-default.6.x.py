@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 add_on_results = client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .add_on_results \
-                       .list()
+                       .list(limit=20)
 
 for record in add_on_results:
     print(record.sid)

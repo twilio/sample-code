@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 phone_numbers = @client.trunking
                        .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .phone_numbers
-                       .list
+                       .list(limit: 20)
 
 phone_numbers.each do |record|
   puts record.sid

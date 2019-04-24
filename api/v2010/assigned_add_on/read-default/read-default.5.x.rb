@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 assigned_add_ons = @client
   .incoming_phone_numbers('PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .assigned_add_ons
-  .list
+  .list(limit: 20)
 
 assigned_add_ons.each do |record|
   puts record.sid

@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var rooms = RoomResource.Read(uniqueName: "DailyStandup");
+        var rooms = RoomResource.Read(uniqueName: "DailyStandup", limit: 20);
 
         foreach(var record in rooms)
         {

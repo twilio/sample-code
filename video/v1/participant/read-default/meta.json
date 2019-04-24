@@ -3,7 +3,9 @@
   "title": "Read Participant",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       }

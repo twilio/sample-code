@@ -12,7 +12,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ResourceSet<Voip> voip = Voip.reader("US").read();
+        ResourceSet<Voip> voip = Voip.reader("US").limit(20).read();
 
         for(Voip record : voip) {
             System.out.println(record.getFriendlyName());

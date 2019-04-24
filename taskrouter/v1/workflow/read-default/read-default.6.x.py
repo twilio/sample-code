@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 workflows = client.taskrouter \
                   .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                   .workflows \
-                  .list()
+                  .list(limit=20)
 
 for record in workflows:
     print(record.sid)

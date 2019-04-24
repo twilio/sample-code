@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $outgoingCallerIds = $twilio->outgoingCallerIds
-                            ->read(array("phoneNumber" => "+14158675310"));
+                            ->read(array("phoneNumber" => "+14158675310"), 20);
 
 foreach ($outgoingCallerIds as $record) {
     print($record->sid);

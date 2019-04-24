@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var queues = QueueResource.Read();
+        var queues = QueueResource.Read(limit: 20);
 
         foreach(var record in queues)
         {

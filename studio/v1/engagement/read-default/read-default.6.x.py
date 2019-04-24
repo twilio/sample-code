@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 engagements = client.studio \
                     .flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .engagements \
-                    .list()
+                    .list(limit=20)
 
 for record in engagements:
     print(record.sid)

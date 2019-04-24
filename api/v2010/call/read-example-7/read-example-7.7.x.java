@@ -15,6 +15,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Call> calls = Call.reader()
             .setFrom(new com.twilio.type.PhoneNumber("client:charlie"))
+            .limit(20)
             .read();
 
         for(Call record : calls) {

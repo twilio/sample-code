@@ -19,7 +19,8 @@ class Program
 
         var conferences = ConferenceResource.Read(
             dateCreatedAfter: MarshalConverter.DateTimeFromString("2009-07-06"),
-            status: ConferenceResource.StatusEnum.InProgress
+            status: ConferenceResource.StatusEnum.InProgress,
+            limit: 20
         );
 
         foreach(var record in conferences)

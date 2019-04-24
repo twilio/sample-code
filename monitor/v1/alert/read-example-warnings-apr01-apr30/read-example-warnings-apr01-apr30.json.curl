@@ -1,2 +1,2 @@
-curl -X GET 'https://monitor.twilio.com/v1/Alerts?EndDate=2015-04-30&LogLevel=warning&StartDate=2015-04-01' \
+curl -X GET 'https://monitor.twilio.com/v1/Alerts?EndDate=2015-04-30&LogLevel=warning&StartDate=2015-04-01&page_size=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

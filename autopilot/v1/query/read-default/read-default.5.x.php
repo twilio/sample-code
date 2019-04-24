@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $queries = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->queries
-                                 ->read();
+                                 ->read(array(), 20);
 
 foreach ($queries as $record) {
     print($record->sid);

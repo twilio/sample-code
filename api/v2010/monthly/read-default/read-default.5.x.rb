@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-monthly = @client.usage.records.monthly.list
+monthly = @client.usage.records.monthly.list(limit: 20)
 
 monthly.each do |record|
   puts record.category

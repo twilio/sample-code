@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 add_on_results = @client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .add_on_results
-                        .list
+                        .list(limit: 20)
 
 add_on_results.each do |record|
   puts record.sid

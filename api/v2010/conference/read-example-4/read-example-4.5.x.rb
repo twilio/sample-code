@@ -10,7 +10,8 @@ auth_token = 'your_auth_token'
 
 conferences = @client.conferences.list(
                                     date_created_after: Date.new(2009, 7, 6),
-                                    status: 'in-progress'
+                                    status: 'in-progress',
+                                    limit: 20
                                   )
 
 conferences.each do |record|

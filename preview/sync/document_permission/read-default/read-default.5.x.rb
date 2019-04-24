@@ -13,7 +13,7 @@ document_permissions = @client.preview
                               .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               .documents('ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               .document_permissions
-                              .list
+                              .list(limit: 20)
 
 document_permissions.each do |record|
   puts record.service_sid

@@ -12,7 +12,7 @@ highrisk_special_prefixes = client.voice \
                                   .dialing_permissions \
                                   .countries('US') \
                                   .highrisk_special_prefixes \
-                                  .list()
+                                  .list(limit=20)
 
 for record in highrisk_special_prefixes:
     print(record.prefix)

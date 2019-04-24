@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var publicKey = PublicKeyResource.Read();
+        var publicKey = PublicKeyResource.Read(limit: 20);
 
         foreach(var record in publicKey)
         {

@@ -8,8 +8,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-hosted_number_orders = client.preview.hosted_numbers.hosted_number_orders \
-                                                    .list()
+hosted_number_orders = client.preview \
+                             .hosted_numbers \
+                             .hosted_number_orders \
+                             .list(limit=20)
 
 for record in hosted_number_orders:
     print(record.sid)

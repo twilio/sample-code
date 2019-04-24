@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var days = DayResource.Read(pathResourceType: "resource_type");
+        var days = DayResource.Read(pathResourceType: "resource_type", limit: 20);
 
         foreach(var record in days)
         {

@@ -23,7 +23,8 @@ class Program
 
         var tasks = TaskResource.Read(
             assignmentStatus: assignmentStatus,
-            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in tasks)

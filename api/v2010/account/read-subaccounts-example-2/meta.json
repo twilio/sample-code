@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "friendly_name": "MySubaccount"
+        "friendly_name": "MySubaccount",
+        "page_size": 20
       },
       "path": {}
     },

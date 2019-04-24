@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 task_channels = client.taskrouter \
                       .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .task_channels \
-                      .list()
+                      .list(limit=20)
 
 for record in task_channels:
     print(record.sid)

@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $alerts = $twilio->monitor->v1->alerts
-                              ->read();
+                              ->read(array(), 20);
 
 foreach ($alerts as $record) {
     print($record->sid);

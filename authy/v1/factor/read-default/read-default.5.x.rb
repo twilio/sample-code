@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 factors = @client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .entities('identity')
                        .factors
-                       .list
+                       .list(limit: 20)
 
 factors.each do |record|
   puts record.sid

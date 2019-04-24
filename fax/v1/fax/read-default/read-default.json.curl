@@ -1,2 +1,2 @@
-curl -X GET 'https://fax.twilio.com/v1/Faxes' \
+curl -X GET 'https://fax.twilio.com/v1/Faxes?page_size=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

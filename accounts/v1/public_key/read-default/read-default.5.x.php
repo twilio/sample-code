@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $publicKey = $twilio->accounts->v1->credentials
                                   ->publicKey
-                                  ->read();
+                                  ->read(array(), 20);
 
 foreach ($publicKey as $record) {
     print($record->sid);

@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "status": "active"
+        "status": "active",
+        "page_size": 20
       },
       "path": {}
     },

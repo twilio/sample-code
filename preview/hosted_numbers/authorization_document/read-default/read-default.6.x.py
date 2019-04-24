@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 authorization_documents = client.preview \
                                 .hosted_numbers \
                                 .authorization_documents \
-                                .list()
+                                .list(limit=20)
 
 for record in authorization_documents:
     print(record.sid)

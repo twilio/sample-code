@@ -12,7 +12,7 @@ sync_map_items = client.sync \
                        .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .sync_map_items \
-                       .list(from_='steph_curry', order='asc')
+                       .list(from_='steph_curry', order='asc', limit=20)
 
 for record in sync_map_items:
     print(record.key)

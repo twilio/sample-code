@@ -18,7 +18,8 @@ class Program
 
         var syncMapItems = SyncMapItemResource.Read(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in syncMapItems)

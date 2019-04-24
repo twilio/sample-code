@@ -18,6 +18,7 @@ public class Example {
             Binding.reader("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setStartDate(DateConverter.localDateFromString("2015-08-25"))
             .setTag(Promoter.listOfOne("new user"))
+            .limit(20)
             .read();
 
         for(Binding record : bindings) {

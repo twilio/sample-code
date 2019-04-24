@@ -18,7 +18,8 @@ class Program
 
         var subscribedTracks = SubscribedTrackResource.Read(
             pathRoomSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSubscriberSid: "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathSubscriberSid: "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in subscribedTracks)

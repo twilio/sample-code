@@ -16,7 +16,8 @@ $events = $twilio->monitor->v1->events
                               ->read(array(
                                          "endDate" => new \DateTime('2015-4-1'),
                                          "startDate" => new \DateTime('2015-3-1')
-                                     )
+                                     ),
+                                     20
                               );
 
 foreach ($events as $record) {

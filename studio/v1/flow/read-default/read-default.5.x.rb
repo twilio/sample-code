@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-flows = @client.studio.flows.list
+flows = @client.studio.flows.list(limit: 20)
 
 flows.each do |record|
   puts record.sid

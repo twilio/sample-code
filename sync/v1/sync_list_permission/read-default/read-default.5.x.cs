@@ -18,7 +18,8 @@ class Program
 
         var syncListPermissions = SyncListPermissionResource.Read(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathListSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathListSid: "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in syncListPermissions)

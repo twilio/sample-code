@@ -11,7 +11,8 @@ client = Client(account_sid, auth_token)
 
 conferences = client.conferences.list(
                                      date_created=date(2009, 7, 6),
-                                     status='completed'
+                                     status='completed',
+                                     limit=20
                                  )
 
 for record in conferences:

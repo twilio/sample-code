@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $factors = $twilio->authy->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->entities("identity")
                              ->factors
-                             ->read();
+                             ->read(array(), 20);
 
 foreach ($factors as $record) {
     print($record->sid);

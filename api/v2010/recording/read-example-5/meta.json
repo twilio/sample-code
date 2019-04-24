@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        "call_sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

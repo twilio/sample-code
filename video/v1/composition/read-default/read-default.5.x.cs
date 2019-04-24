@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var compositions = CompositionResource.Read();
+        var compositions = CompositionResource.Read(limit: 20);
 
         foreach(var record in compositions)
         {

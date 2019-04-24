@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "phone_number": "867"
+        "phone_number": "867",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

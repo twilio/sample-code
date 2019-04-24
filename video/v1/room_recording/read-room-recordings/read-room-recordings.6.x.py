@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 recordings = client.video \
                    .rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                    .recordings \
-                   .list()
+                   .list(limit=20)
 
 for record in recordings:
     print(record.sid)

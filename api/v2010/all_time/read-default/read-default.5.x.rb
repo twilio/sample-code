@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-all_time = @client.usage.records.all_time.list
+all_time = @client.usage.records.all_time.list(limit: 20)
 
 all_time.each do |record|
   puts record.category

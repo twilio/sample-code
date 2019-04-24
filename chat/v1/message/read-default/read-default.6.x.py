@@ -12,7 +12,7 @@ messages = client.chat.v1 \
                       .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .messages \
-                      .list()
+                      .list(limit=20)
 
 for record in messages:
     print(record.sid)

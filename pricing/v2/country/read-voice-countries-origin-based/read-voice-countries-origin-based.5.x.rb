@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-countries = @client.pricing.voice.countries.list
+countries = @client.pricing.voice.countries.list(limit: 20)
 
 countries.each do |record|
   puts record.country

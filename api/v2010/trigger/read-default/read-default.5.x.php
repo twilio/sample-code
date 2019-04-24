@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $triggers = $twilio->usage
                    ->triggers
-                   ->read();
+                   ->read(array(), 20);
 
 foreach ($triggers as $record) {
     print($record->sid);

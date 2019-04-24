@@ -17,7 +17,7 @@ $credentialListMappings = $twilio->sip
                                  ->auth
                                  ->calls
                                  ->credentialListMappings
-                                 ->read();
+                                 ->read(array(), 20);
 
 foreach ($credentialListMappings as $record) {
     print($record->sid);

@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var flows = FlowResource.Read();
+        var flows = FlowResource.Read(limit: 20);
 
         foreach(var record in flows)
         {

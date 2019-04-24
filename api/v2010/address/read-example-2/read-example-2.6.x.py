@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-addresses = client.addresses.list(customer_name='Customer 123')
+addresses = client.addresses.list(customer_name='Customer 123', limit=20)
 
 for record in addresses:
     print(record.sid)

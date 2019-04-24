@@ -19,7 +19,8 @@ class Program
         var messages = MessageResource.Read(
             dateSent: new DateTime(2016, 8, 31, 0, 0, 0),
             from: new Twilio.Types.PhoneNumber("+15017122661"),
-            to: new Twilio.Types.PhoneNumber("+15558675310")
+            to: new Twilio.Types.PhoneNumber("+15558675310"),
+            limit: 20
         );
 
         foreach(var record in messages)

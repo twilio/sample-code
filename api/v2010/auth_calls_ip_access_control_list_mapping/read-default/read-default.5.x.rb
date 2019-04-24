@@ -13,7 +13,7 @@ ip_access_control_list_mappings = @client.sip
   .auth
   .calls
   .ip_access_control_list_mappings
-  .list
+  .list(limit: 20)
 
 ip_access_control_list_mappings.each do |record|
   puts record.sid

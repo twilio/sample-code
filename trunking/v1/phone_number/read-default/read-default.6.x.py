@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 phone_numbers = client.trunking \
                       .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .phone_numbers \
-                      .list()
+                      .list(limit=20)
 
 for record in phone_numbers:
     print(record.sid)

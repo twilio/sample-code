@@ -13,7 +13,9 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<CompositionHook> compositionHooks = 
-            CompositionHook.reader().read();
+            CompositionHook.reader()
+            .limit(20)
+            .read();
 
         for(CompositionHook record : compositionHooks) {
             System.out.println(record.getSid());

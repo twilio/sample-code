@@ -12,7 +12,7 @@ participants = client.proxy \
                      .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .sessions('KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .participants \
-                     .list()
+                     .list(limit=20)
 
 for record in participants:
     print(record.sid)

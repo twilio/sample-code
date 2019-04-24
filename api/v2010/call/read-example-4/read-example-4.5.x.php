@@ -17,7 +17,8 @@ $calls = $twilio->calls
                            "startTimeBefore" => new \DateTime('2009-7-6'),
                            "startTimeAfter" => new \DateTime('2009-7-4'),
                            "status" => "in-progress"
-                       )
+                       ),
+                       20
                 );
 
 foreach ($calls as $record) {

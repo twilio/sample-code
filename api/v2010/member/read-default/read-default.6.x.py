@@ -8,7 +8,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-members = client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').members.list()
+members = client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                .members \
+                .list(limit=20)
 
 for record in members:
     print(record.call_sid)

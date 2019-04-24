@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 users = @client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .users
-                       .list
+                       .list(limit: 20)
 
 users.each do |record|
   puts record.sid

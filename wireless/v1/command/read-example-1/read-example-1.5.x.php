@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $commands = $twilio->wireless->v1->commands
-                                 ->read();
+                                 ->read(array(), 20);
 
 foreach ($commands as $record) {
     print($record->sid);

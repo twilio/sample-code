@@ -18,7 +18,8 @@ class Program
 
         var workerChannels = WorkerChannelResource.Read(
             pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathWorkerSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathWorkerSid: "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in workerChannels)

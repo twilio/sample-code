@@ -18,7 +18,8 @@ class Program
 
         var workers = WorkerResource.Read(
             targetWorkersExpression: "type == 'leads'",
-            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathWorkspaceSid: "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in workers)

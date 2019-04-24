@@ -11,7 +11,8 @@ auth_token = 'your_auth_token'
 alerts = @client.monitor.alerts.list(
                                   end_date: Date.new(2015, 4, 30),
                                   log_level: 'warning',
-                                  start_date: Date.new(2015, 4, 1)
+                                  start_date: Date.new(2015, 4, 1),
+                                  limit: 20
                                 )
 
 alerts.each do |record|

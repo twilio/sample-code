@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $addOnResults = $twilio->recordings("REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                        ->addOnResults
-                       ->read();
+                       ->read(array(), 20);
 
 foreach ($addOnResults as $record) {
     print($record->sid);

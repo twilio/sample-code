@@ -16,7 +16,10 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var machineToMachine = MachineToMachineResource.Read(pathCountryCode: "US");
+        var machineToMachine = MachineToMachineResource.Read(
+            pathCountryCode: "US",
+            limit: 20
+        );
 
         foreach(var record in machineToMachine)
         {

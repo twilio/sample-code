@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 webhooks = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .webhooks
-                       .list
+                       .list(limit: 20)
 
 webhooks.each do |record|
   puts record.sid

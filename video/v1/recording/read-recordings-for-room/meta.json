@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "grouping_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        "grouping_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "page_size": 20
       },
       "path": {}
     },

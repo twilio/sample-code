@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var recordings = RecordingResource.Read(
-            status: RecordingResource.StatusEnum.Deleted
+            status: RecordingResource.StatusEnum.Deleted,
+            limit: 20
         );
 
         foreach(var record in recordings)

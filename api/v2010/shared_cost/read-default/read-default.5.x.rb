@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-shared_cost = @client.available_phone_numbers('US').shared_cost.list
+shared_cost = @client.available_phone_numbers('US').shared_cost.list(limit: 20)
 
 shared_cost.each do |record|
   puts record.friendly_name

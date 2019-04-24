@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var authorizationDocuments = AuthorizationDocumentResource.Read();
+        var authorizationDocuments = AuthorizationDocumentResource.Read(limit: 20);
 
         foreach(var record in authorizationDocuments)
         {

@@ -3,7 +3,9 @@
   "title": "Read Field",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "task_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

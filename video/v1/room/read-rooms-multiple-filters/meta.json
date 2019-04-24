@@ -6,7 +6,8 @@
     "params": {
       "required": {
         "status": "completed",
-        "unique_name": "DailyStandup"
+        "unique_name": "DailyStandup",
+        "page_size": 20
       },
       "path": {}
     },

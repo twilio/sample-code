@@ -12,7 +12,7 @@ extensions = @client.preview
                     .marketplace
                     .installed_add_ons('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .extensions
-                    .list
+                    .list(limit: 20)
 
 extensions.each do |record|
   puts record.sid

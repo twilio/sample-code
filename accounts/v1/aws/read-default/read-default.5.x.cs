@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var aws = AwsResource.Read();
+        var aws = AwsResource.Read(limit: 20);
 
         foreach(var record in aws)
         {

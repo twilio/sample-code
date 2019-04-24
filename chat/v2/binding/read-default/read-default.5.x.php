@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $bindings = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->bindings
-                             ->read();
+                             ->read(array(), 20);
 
 foreach ($bindings as $record) {
     print($record->sid);

@@ -18,7 +18,8 @@ class Program
 
         var documentPermissions = DocumentPermissionResource.Read(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathDocumentSid: "MyFirstDocument"
+            pathDocumentSid: "MyFirstDocument",
+            limit: 20
         );
 
         foreach(var record in documentPermissions)

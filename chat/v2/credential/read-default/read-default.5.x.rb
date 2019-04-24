@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-credentials = @client.chat.credentials.list
+credentials = @client.chat.credentials.list(limit: 20)
 
 credentials.each do |record|
   puts record.sid

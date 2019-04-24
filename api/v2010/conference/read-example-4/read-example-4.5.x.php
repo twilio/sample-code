@@ -16,7 +16,8 @@ $conferences = $twilio->conferences
                       ->read(array(
                                  "dateCreatedAfter" => new \DateTime('2009-07-06'),
                                  "status" => "in-progress"
-                             )
+                             ),
+                             20
                       );
 
 foreach ($conferences as $record) {

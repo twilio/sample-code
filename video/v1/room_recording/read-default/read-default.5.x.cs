@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var recordings = RoomRecordingResource.Read(
-            pathRoomSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathRoomSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in recordings)

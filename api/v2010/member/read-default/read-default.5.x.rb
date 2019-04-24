@@ -8,7 +8,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-members = @client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').members.list
+members = @client.queues('QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                 .members
+                 .list(limit: 20)
 
 members.each do |record|
   puts record.call_sid

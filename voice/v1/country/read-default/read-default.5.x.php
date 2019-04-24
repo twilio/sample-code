@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $countries = $twilio->voice->v1->dialingPermissions
                                ->countries
-                               ->read();
+                               ->read(array(), 20);
 
 foreach ($countries as $record) {
     print($record->name);

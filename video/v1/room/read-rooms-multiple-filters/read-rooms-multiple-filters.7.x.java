@@ -15,6 +15,7 @@ public class Example {
         ResourceSet<Room> rooms = Room.reader()
             .setStatus(Room.RoomStatus.COMPLETED)
             .setUniqueName("DailyStandup")
+            .limit(20)
             .read();
 
         for(Room record : rooms) {

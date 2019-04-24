@@ -12,7 +12,8 @@ client = Client(account_sid, auth_token)
 alerts = client.monitor.alerts.list(
                                    end_date=date(2015, 4, 30),
                                    log_level='warning',
-                                   start_date=date(2015, 4, 1)
+                                   start_date=date(2015, 4, 1),
+                                   limit=20
                                )
 
 for record in alerts:

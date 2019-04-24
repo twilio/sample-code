@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<Payload> payloads = Payload.reader(
                 "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(Payload record : payloads) {
             System.out.println(record.getSid());

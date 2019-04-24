@@ -12,7 +12,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ResourceSet<Domain> domains = Domain.reader().read();
+        ResourceSet<Domain> domains = Domain.reader().limit(20).read();
 
         for(Domain record : domains) {
             System.out.println(record.getSid());

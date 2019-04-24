@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 webhooks = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .webhooks \
-                      .list()
+                      .list(limit=20)
 
 for record in webhooks:
     print(record.sid)

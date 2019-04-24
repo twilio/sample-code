@@ -15,6 +15,7 @@ public class Example {
         ResourceSet<DependentPhoneNumber> dependentPhoneNumbers = 
             DependentPhoneNumber.reader(
                 "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(DependentPhoneNumber record : dependentPhoneNumbers) {

@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-domains = client.sip.domains.list()
+domains = client.sip.domains.list(limit=20)
 
 for record in domains:
     print(record.sid)

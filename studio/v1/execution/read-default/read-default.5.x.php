@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $executions = $twilio->studio->v1->flows("FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->executions
-                                 ->read();
+                                 ->read(array(), 20);
 
 foreach ($executions as $record) {
     print($record->sid);

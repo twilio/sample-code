@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $notifications = $twilio->notifications
-                        ->read();
+                        ->read(array(), 20);
 
 foreach ($notifications as $record) {
     print($record->sid);

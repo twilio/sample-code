@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $dependentPhoneNumbers = $twilio->addresses("ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->dependentPhoneNumbers
-                                ->read();
+                                ->read(array(), 20);
 
 foreach ($dependentPhoneNumbers as $record) {
     print($record->sid);

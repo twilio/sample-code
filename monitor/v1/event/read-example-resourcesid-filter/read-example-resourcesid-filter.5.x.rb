@@ -10,7 +10,8 @@ auth_token = 'your_auth_token'
 
 events = @client.monitor.events
                         .list(
-                           resource_sid: 'PN4aa51b930717ea83c91971b86d99018f'
+                           resource_sid: 'PN4aa51b930717ea83c91971b86d99018f',
+                           limit: 20
                          )
 
 events.each do |record|

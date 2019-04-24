@@ -17,7 +17,7 @@ $ipAccessControlListMappings = $twilio->sip
                                       ->auth
                                       ->calls
                                       ->ipAccessControlListMappings
-                                      ->read();
+                                      ->read(array(), 20);
 
 foreach ($ipAccessControlListMappings as $record) {
     print($record->sid);

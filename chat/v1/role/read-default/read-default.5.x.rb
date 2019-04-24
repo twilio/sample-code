@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 roles = @client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .roles
-                       .list
+                       .list(limit: 20)
 
 roles.each do |record|
   puts record.sid

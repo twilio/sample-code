@@ -17,6 +17,7 @@ public class Example {
         ResourceSet<Conference> conferences = Conference.reader()
             .setDateCreated(Range.greaterThan(new LocalDate(2009, 7, 6)))
             .setStatus(Conference.Status.IN_PROGRESS)
+            .limit(20)
             .read();
 
         for(Conference record : conferences) {

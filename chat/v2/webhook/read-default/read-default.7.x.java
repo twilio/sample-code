@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<Webhook> webhooks = Webhook.reader(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(Webhook record : webhooks) {
             System.out.println(record.getSid());

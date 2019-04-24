@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 participants = client.messaging \
                      .sessions('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .participants \
-                     .list()
+                     .list(limit=20)
 
 for record in participants:
     print(record.sid)

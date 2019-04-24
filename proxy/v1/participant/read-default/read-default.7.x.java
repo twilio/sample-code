@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<Participant> participants = Participant.reader(
                 "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(Participant record : participants) {
             System.out.println(record.getSid());

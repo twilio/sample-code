@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 messages = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .messages \
-                      .list()
+                      .list(limit=20)
 
 for record in messages:
     print(record.sid)

@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 ip_access_control_lists = @client.trunking
                                  .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                                  .ip_access_control_lists
-                                 .list
+                                 .list(limit: 20)
 
 ip_access_control_lists.each do |record|
   puts record.sid

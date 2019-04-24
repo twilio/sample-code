@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "date_created": "2016-10-18T00:00:00Z"
+        "date_created": "2016-10-18T00:00:00Z",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

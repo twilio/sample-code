@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $members = $twilio->queues("QU5ef8732a3c49700934481addd5ce1659")
                   ->members
-                  ->read();
+                  ->read(array(), 20);
 
 foreach ($members as $record) {
     print($record->callSid);

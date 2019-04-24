@@ -6,7 +6,8 @@
     "params": {
       "required": {
         "actor_sid": "USd0afd67cddff4ec7cb0022771a203cb1",
-        "resource_sid": "PN4aa51b930717ea83c91971b86d99018f"
+        "resource_sid": "PN4aa51b930717ea83c91971b86d99018f",
+        "page_size": 20
       },
       "path": {}
     },

@@ -3,7 +3,9 @@
   "title": "Read Auth Calls Ip Access Control List Mapping",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "domain_sid": "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

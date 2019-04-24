@@ -12,7 +12,7 @@ devices = @client.preview
                  .deployed_devices
                  .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                  .devices
-                 .list
+                 .list(limit: 20)
 
 devices.each do |record|
   puts record.sid

@@ -13,7 +13,7 @@ sync_map_items = @client.preview
                         .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .sync_map_items
-                        .list
+                        .list(limit: 20)
 
 sync_map_items.each do |record|
   puts record.key

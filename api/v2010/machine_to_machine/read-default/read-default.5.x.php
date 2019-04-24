@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $machineToMachine = $twilio->availablePhoneNumbers("US")
                            ->machineToMachine
-                           ->read();
+                           ->read(array(), 20);
 
 foreach ($machineToMachine as $record) {
     print($record->friendlyName);

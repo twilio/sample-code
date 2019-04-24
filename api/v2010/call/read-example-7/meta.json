@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "from": "client:charlie"
+        "from": "client:charlie",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

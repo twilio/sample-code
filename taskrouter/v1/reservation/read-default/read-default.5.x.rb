@@ -12,7 +12,7 @@ reservations = @client.taskrouter
                       .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .reservations
-                      .list
+                      .list(limit: 20)
 
 reservations.each do |record|
   puts record.sid

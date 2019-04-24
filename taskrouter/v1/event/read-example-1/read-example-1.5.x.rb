@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 events = @client.taskrouter
                 .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .events
-                .list
+                .list(limit: 20)
 
 events.each do |record|
   puts record.sid

@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 bindings = client.notify.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .bindings \
-                        .list()
+                        .list(limit=20)
 
 for record in bindings:
     print(record.sid)

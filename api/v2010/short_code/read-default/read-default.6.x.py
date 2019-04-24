@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-short_codes = client.short_codes.list()
+short_codes = client.short_codes.list(limit=20)
 
 for record in short_codes:
     print(record.sid)

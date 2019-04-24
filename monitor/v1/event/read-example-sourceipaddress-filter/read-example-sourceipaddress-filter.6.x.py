@@ -12,7 +12,8 @@ client = Client(account_sid, auth_token)
 events = client.monitor.events.list(
                                    end_date=datetime(2015, 4, 25, 0, 0),
                                    source_ip_address='104.14.155.29',
-                                   start_date=datetime(2015, 4, 25, 0, 0)
+                                   start_date=datetime(2015, 4, 25, 0, 0),
+                                   limit=20
                                )
 
 for record in events:

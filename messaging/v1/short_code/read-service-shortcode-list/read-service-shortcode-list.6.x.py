@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 short_codes = client.messaging \
                     .services('MG2172dd2db502e20dd981ef0d67850e1a') \
                     .short_codes \
-                    .list()
+                    .list(limit=20)
 
 for record in short_codes:
     print(record.sid)

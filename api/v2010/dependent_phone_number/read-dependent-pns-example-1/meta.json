@@ -4,7 +4,9 @@
   "type": "server",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "address_sid": "AD2a0747eba6abf96b7e3c3ff0b4530f6e"

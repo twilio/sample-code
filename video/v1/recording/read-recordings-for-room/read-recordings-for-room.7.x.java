@@ -16,6 +16,7 @@ public class Example {
         ResourceSet<Recording> recordings = Recording.reader()
             .setGroupingSid(
                 Promoter.listOfOne("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"))
+            .limit(20)
             .read();
 
         for(Recording record : recordings) {

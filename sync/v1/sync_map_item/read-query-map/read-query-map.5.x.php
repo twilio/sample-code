@@ -18,7 +18,8 @@ $syncMapItems = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
                                  ->read(array(
                                             "from" => "steph_curry",
                                             "order" => "asc"
-                                        )
+                                        ),
+                                        20
                                  );
 
 foreach ($syncMapItems as $record) {

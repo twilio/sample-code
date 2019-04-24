@@ -19,7 +19,8 @@ class Program
 
         var notifications = NotificationResource.Read(
             log: 1,
-            messageDate: MarshalConverter.DateTimeFromString("2009-07-06")
+            messageDate: MarshalConverter.DateTimeFromString("2009-07-06"),
+            limit: 20
         );
 
         foreach(var record in notifications)

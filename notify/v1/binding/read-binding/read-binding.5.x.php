@@ -17,7 +17,8 @@ $bindings = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->read(array(
                                           "startDate" => new \DateTime('2015-08-25'),
                                           "tag" => "new user"
-                                      )
+                                      ),
+                                      20
                                );
 
 foreach ($bindings as $record) {

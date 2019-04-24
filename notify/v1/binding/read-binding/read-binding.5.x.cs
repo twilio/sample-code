@@ -25,7 +25,8 @@ class Program
         var bindings = BindingResource.Read(
             startDate: MarshalConverter.DateTimeFromString("2015-08-25"),
             tag: tag,
-            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in bindings)

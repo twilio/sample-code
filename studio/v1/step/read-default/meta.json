@@ -3,7 +3,9 @@
   "title": "Read Step",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "flow_sid": "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "engagement_sid": "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

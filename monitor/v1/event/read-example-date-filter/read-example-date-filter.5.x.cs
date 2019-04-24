@@ -18,7 +18,8 @@ class Program
 
         var events = EventResource.Read(
             endDate: new DateTime(2015, 4, 1, 0, 0, 0),
-            startDate: new DateTime(2015, 3, 1, 0, 0, 0)
+            startDate: new DateTime(2015, 3, 1, 0, 0, 0),
+            limit: 20
         );
 
         foreach(var record in events)

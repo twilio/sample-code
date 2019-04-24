@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-events = @client.monitor.events.list
+events = @client.monitor.events.list(limit: 20)
 
 events.each do |record|
   puts record.sid

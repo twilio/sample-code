@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 factors = client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .entities('identity') \
                       .factors \
-                      .list()
+                      .list(limit=20)
 
 for record in factors:
     print(record.sid)

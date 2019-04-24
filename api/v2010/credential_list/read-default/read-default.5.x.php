@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $credentialLists = $twilio->sip
                           ->credentialLists
-                          ->read();
+                          ->read(array(), 20);
 
 foreach ($credentialLists as $record) {
     print($record->sid);

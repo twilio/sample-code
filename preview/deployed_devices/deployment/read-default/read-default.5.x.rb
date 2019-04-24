@@ -12,7 +12,7 @@ deployments = @client.preview
                      .deployed_devices
                      .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .deployments
-                     .list
+                     .list(limit: 20)
 
 deployments.each do |record|
   puts record.sid
