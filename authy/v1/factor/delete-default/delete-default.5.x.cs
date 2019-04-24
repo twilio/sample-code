@@ -18,7 +18,7 @@ class Program
 
         FactorResource.Delete(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity",
+            pathIdentity: "identity",
             pathSid: "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
     }

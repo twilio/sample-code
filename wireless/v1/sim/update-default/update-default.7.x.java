@@ -12,7 +12,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Sim sim = Sim.updater("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setUniqueName("uniqueName").update();
+            .setUniqueName("unique_name").update();
 
         System.out.println(sim.getUniqueName());
     }

@@ -14,7 +14,7 @@ public class Example {
         SyncListPermission syncListPermission = SyncListPermission.fetcher(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity")
+                "identity")
             .fetch();
 
         System.out.println(syncListPermission.getServiceSid());

@@ -1,4 +1,4 @@
 curl -X POST https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes/UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldValues \
---data-urlencode "Language=Language" \
---data-urlencode "Value=Value" \
+--data-urlencode "Language=language" \
+--data-urlencode "Value=value" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

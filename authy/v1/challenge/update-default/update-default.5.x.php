@@ -16,6 +16,6 @@ $challenge = $twilio->authy->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->entities("identity")
                                ->factors("YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->challenges("sid")
-                               ->update(array("authPayload" => "authPayload"));
+                               ->update(array("authPayload" => "auth_payload"));
 
 print($challenge->sid);

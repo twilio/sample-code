@@ -13,6 +13,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $queue = $twilio->queues
-                ->create("friendlyName");
+                ->create("friendly_name");
 
 print($queue->sid);

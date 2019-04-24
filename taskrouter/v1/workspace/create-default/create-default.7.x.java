@@ -11,7 +11,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Workspace workspace = Workspace.creator("friendlyName").create();
+        Workspace workspace = Workspace.creator("friendly_name").create();
 
         System.out.println(workspace.getSid());
     }

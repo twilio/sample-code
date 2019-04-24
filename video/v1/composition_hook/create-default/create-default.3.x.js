@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.video.compositionHooks
-            .create({friendlyName: 'friendlyName'})
+            .create({friendlyName: 'friendly_name'})
             .then(composition_hook => console.log(composition_hook.sid));

@@ -19,7 +19,7 @@ class Program
         SyncMapItemResource.Delete(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathKey: "pathKey"
+            pathKey: "key"
         );
     }
 }

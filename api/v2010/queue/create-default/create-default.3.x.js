@@ -5,5 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.queues.create({friendlyName: 'friendlyName'})
+client.queues.create({friendlyName: 'friendly_name'})
              .then(queue => console.log(queue.sid));

@@ -11,7 +11,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Session session = Session.creator("messagingServiceSid").create();
+        Session session = Session.creator("messaging_service_sid").create();
 
         System.out.println(session.getSid());
     }

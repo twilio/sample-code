@@ -17,8 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var field = FieldResource.Create(
-            fieldType: "fieldType",
-            uniqueName: "uniqueName",
+            fieldType: "field_type",
+            uniqueName: "unique_name",
             pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathTaskSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

@@ -14,8 +14,8 @@ public class Example {
         Field field = Field.creator(
                 "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "fieldType",
-                "uniqueName")
+                "field_type",
+                "unique_name")
             .create();
 
         System.out.println(field.getSid());

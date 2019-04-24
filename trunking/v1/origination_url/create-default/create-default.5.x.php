@@ -17,7 +17,7 @@ $origination_url = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                         ->create(1, // weight
                                                  1, // priority
                                                  True, // enabled
-                                                 "friendlyName", // friendlyName
+                                                 "friendly_name", // friendlyName
                                                  "https://example.com" // sipUrl
                                         );
 

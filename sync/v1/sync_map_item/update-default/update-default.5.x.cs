@@ -21,7 +21,7 @@ class Program
             data: new Dictionary<string, Object>(),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathKey: "pathKey"
+            pathKey: "key"
         );
 
         Console.WriteLine(syncMapItem.Key);

@@ -14,7 +14,7 @@ public class Example {
         Channel channel = Channel.updater(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(channel.getFriendlyName());
     }

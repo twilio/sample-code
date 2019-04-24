@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         RatePlan ratePlan = 
             RatePlan.updater("WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setUniqueName("uniqueName")
+            .setUniqueName("unique_name")
             .update();
 
         System.out.println(ratePlan.getUniqueName());

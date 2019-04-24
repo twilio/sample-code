@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.video.compositionSettings()
-  .create({friendlyName: 'friendlyName'})
+  .create({friendlyName: 'friendly_name'})
   .then(composition_settings => console.log(composition_settings.friendlyName));

@@ -12,7 +12,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         IpAccessControlList ipAccessControlList = 
-            IpAccessControlList.creator("friendlyName")
+            IpAccessControlList.creator("friendly_name")
             .create();
 
         System.out.println(ipAccessControlList.getSid());

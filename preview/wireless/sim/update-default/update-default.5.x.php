@@ -13,6 +13,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $sim = $twilio->preview->wireless->sims("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                 ->update(array("uniqueName" => "uniqueName"));
+                                 ->update(array("uniqueName" => "unique_name"));
 
 print($sim->uniqueName);

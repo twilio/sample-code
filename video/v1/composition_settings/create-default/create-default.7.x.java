@@ -12,7 +12,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         CompositionSettings compositionSettings = 
-            CompositionSettings.creator("friendlyName")
+            CompositionSettings.creator("friendly_name")
             .create();
 
         System.out.println(compositionSettings.getFriendlyName());

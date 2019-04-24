@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $webhook = $twilio->messaging->v1->webhooks()
                                  ->update(array(
-                                              "webhookMethod" => "webhookMethod"
+                                              "webhookMethod" => "webhook_method"
                                           )
                                  );
 

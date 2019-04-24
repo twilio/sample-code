@@ -11,8 +11,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Entity.deleter(
-                "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",    "pathIdentity")
+        Entity.deleter("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "identity")
             .delete();
     }
 }

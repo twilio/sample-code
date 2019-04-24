@@ -14,11 +14,11 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         AuthorizationDocument authorizationDocument = 
             AuthorizationDocument.creator(
-                Promoter.listOfOne("hostedNumberOrderSids"),
+                Promoter.listOfOne("hosted_number_order_sids"),
                 "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "email",
-                "contactTitle",
-                "contactPhoneNumber")
+                "contact_title",
+                "contact_phone_number")
             .create();
 
         System.out.println(authorizationDocument.getSid());

@@ -19,7 +19,7 @@ class Program
         var syncMapItem = SyncMapItemResource.Fetch(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathMapSid: "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathKey: "pathKey"
+            pathKey: "key"
         );
 
         Console.WriteLine(syncMapItem.Key);

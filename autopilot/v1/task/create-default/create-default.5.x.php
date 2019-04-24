@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $task = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->tasks
-                              ->create("uniqueName");
+                              ->create("unique_name");
 
 print($task->sid);

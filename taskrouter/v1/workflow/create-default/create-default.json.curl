@@ -1,4 +1,4 @@
 curl -X POST https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workflows \
---data-urlencode "FriendlyName=FriendlyName" \
---data-urlencode "Configuration=Configuration" \
+--data-urlencode "FriendlyName=friendly_name" \
+--data-urlencode "Configuration=configuration" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

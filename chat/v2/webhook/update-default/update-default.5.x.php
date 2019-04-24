@@ -16,7 +16,7 @@ $webhook = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->webhooks("WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->update(array(
-                                         "configurationUrl" => "configurationUrl"
+                                         "configurationUrl" => "configuration.url"
                                      )
                             );
 

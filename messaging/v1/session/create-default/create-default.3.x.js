@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.messaging.sessions
-                .create({messagingServiceSid: 'messagingServiceSid'})
+                .create({messagingServiceSid: 'messaging_service_sid'})
                 .then(session => console.log(session.sid));

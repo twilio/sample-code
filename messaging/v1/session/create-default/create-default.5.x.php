@@ -13,6 +13,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $session = $twilio->messaging->v1->sessions
-                                 ->create("messagingServiceSid");
+                                 ->create("messaging_service_sid");
 
 print($session->sid);

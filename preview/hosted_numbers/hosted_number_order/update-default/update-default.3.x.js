@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.preview.hosted_numbers
   .hostedNumberOrders('HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-  .update({friendlyName: 'friendlyName'})
+  .update({friendlyName: 'friendly_name'})
   .then(hosted_number_order => console.log(hosted_number_order.friendlyName));

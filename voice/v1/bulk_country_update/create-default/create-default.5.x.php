@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $bulk_country_update = $twilio->voice->v1->dialingPermissions
                                          ->bulkCountryUpdates
-                                         ->create("updateRequest");
+                                         ->create("update_request");
 
 print($bulk_country_update->updateCount);

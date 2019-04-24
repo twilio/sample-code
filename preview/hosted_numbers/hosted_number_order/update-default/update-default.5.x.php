@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $hosted_number_order = $twilio->preview->hostedNumbers->hostedNumberOrders("HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                       ->update(array(
-                                                                   "friendlyName" => "friendlyName"
+                                                                   "friendlyName" => "friendly_name"
                                                                )
                                                       );
 

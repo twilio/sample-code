@@ -14,7 +14,7 @@ public class Example {
         Workflow workflow = Workflow.updater(
                 "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "WWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(workflow.getFriendlyName());
     }

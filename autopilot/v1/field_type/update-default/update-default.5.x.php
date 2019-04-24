@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $field_type = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->fieldTypes("UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->update(array(
-                                                 "friendlyName" => "friendlyName"
+                                                 "friendlyName" => "friendly_name"
                                              )
                                     );
 

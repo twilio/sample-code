@@ -6,5 +6,5 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.messaging.webhooks()
-                .update({webhookMethod: 'webhookMethod'})
+                .update({webhookMethod: 'webhook_method'})
                 .then(webhook => console.log(webhook.serviceSid));

@@ -11,6 +11,6 @@ auth_token = 'your_auth_token'
 webhook = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .webhooks('WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                      .update(configuration_url: 'configuration_url')
+                      .update(configuration_url: 'configuration.url')
 
 puts webhook.sid

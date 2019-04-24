@@ -16,7 +16,9 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var compositionHook = CompositionHookResource.Create(friendlyName: "friendlyName");
+        var compositionHook = CompositionHookResource.Create(
+            friendlyName: "friendly_name"
+        );
 
         Console.WriteLine(compositionHook.Sid);
     }

@@ -1,15 +1,8 @@
-STATUSCALLBACKEVENT=$(cat << EOF
-[
-    "initiated",
-    "answered"
-]
-EOF
-)
-
 curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Calls.json \
 --data-urlencode "Method=GET" \
 --data-urlencode "StatusCallback=https://www.myapp.com/events" \
---data-urlencode "StatusCallbackEvent=$STATUSCALLBACKEVENT" \
+--data-urlencode "StatusCallbackEvent=initiated" \
+--data-urlencode "StatusCallbackEvent=answered" \
 --data-urlencode "StatusCallbackMethod=POST" \
 --data-urlencode "Url=http://demo.twilio.com/docs/voice.xml" \
 --data-urlencode "To=+14155551212" \

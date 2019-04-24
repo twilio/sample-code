@@ -12,7 +12,7 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$days = $twilio->preview->bulkExports->exports("resourceType")
+$days = $twilio->preview->bulkExports->exports("resource_type")
                                      ->days
                                      ->read();
 

@@ -16,7 +16,7 @@ public class Example {
             AuthorizationDocument.updater(
                 "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setHostedNumberOrderSids(
-                Promoter.listOfOne("hostedNumberOrderSids"))
+                Promoter.listOfOne("hosted_number_order_sids"))
             .update();
 
         System.out.println(authorizationDocument.getSid());

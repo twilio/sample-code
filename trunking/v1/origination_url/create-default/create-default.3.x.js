@@ -11,7 +11,7 @@ client.trunking.trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                   weight: 1,
                   priority: 1,
                   enabled: true,
-                  friendlyName: 'friendlyName',
+                  friendlyName: 'friendly_name',
                   sipUrl: 'https://example.com'
                 })
                .then(origination_url => console.log(origination_url.sid));

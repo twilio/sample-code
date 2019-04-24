@@ -11,6 +11,6 @@ client = Client(account_sid, auth_token)
 webhook = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .webhooks('WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                     .update(configuration_url='configuration_url')
+                     .update(configuration_url='configuration.url')
 
 print(webhook.sid)

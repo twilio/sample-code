@@ -13,9 +13,9 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Challenge.deleter(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity",
+                "identity",
                 "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathSid")
+                "sid")
             .delete();
     }
 }

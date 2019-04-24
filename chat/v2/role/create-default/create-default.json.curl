@@ -1,12 +1,5 @@
-PERMISSION=$(cat << EOF
-[
-    "Permission"
-]
-EOF
-)
-
 curl -X POST https://chat.twilio.com/v2/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Roles \
---data-urlencode "FriendlyName=FriendlyName" \
+--data-urlencode "FriendlyName=friendly_name" \
 --data-urlencode "Type=channel" \
---data-urlencode "Permission=$PERMISSION" \
+--data-urlencode "Permission=permission" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

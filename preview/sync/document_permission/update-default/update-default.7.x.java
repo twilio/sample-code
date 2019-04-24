@@ -14,7 +14,7 @@ public class Example {
         DocumentPermission documentPermission = DocumentPermission.updater(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity",
+                "identity",
                 true,
                 true,
                 true)

@@ -12,7 +12,8 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Activity activity = Activity.creator(
-                "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",    "friendlyName")
+                "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                "friendly_name")
             .create();
 
         System.out.println(activity.getSid());

@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fieldTypes('UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                .update({friendlyName: 'friendlyName'})
+                .update({friendlyName: 'friendly_name'})
                 .then(field_type => console.log(field_type.friendlyName));

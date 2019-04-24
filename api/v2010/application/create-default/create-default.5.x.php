@@ -13,6 +13,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $application = $twilio->applications
-                      ->create("friendlyName");
+                      ->create("friendly_name");
 
 print($application->sid);

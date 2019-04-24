@@ -14,7 +14,7 @@ public class Example {
         SyncMapPermission.deleter(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity")
+                "identity")
             .delete();
     }
 }

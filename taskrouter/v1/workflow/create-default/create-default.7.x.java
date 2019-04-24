@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Workflow workflow = Workflow.creator(
                 "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "friendlyName",
+                "friendly_name",
                 "configuration")
             .create();
 

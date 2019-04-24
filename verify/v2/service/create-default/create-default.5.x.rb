@@ -8,6 +8,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-service = @client.verify.services.create(friendly_name: 'FriendlyName')
+service = @client.verify.services.create(friendly_name: 'friendly_name')
 
 puts service.sid

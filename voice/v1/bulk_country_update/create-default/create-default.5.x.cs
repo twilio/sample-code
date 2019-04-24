@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var bulkCountryUpdate = BulkCountryUpdateResource.Create(
-            updateRequest: "updateRequest"
+            updateRequest: "update_request"
         );
 
         Console.WriteLine(bulkCountryUpdate.UpdateCount);

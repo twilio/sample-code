@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $field_type = $twilio->autopilot->v1->assistants("UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->fieldTypes
-                                    ->create("uniqueName");
+                                    ->create("unique_name");
 
 print($field_type->sid);

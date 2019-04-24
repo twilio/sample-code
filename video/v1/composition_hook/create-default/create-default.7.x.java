@@ -12,7 +12,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         CompositionHook compositionHook = 
-            CompositionHook.creator("friendlyName")
+            CompositionHook.creator("friendly_name")
             .create();
 
         System.out.println(compositionHook.getSid());

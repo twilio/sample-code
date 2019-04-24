@@ -14,7 +14,7 @@ public class Example {
         SyncListPermission syncListPermission = SyncListPermission.updater(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity",
+                "identity",
                 true,
                 true,
                 true)

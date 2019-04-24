@@ -18,7 +18,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var role = RoleResource.Create(
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             type: RoleResource.RoleTypeEnum.Channel,
             permission: Promoter.ListOfOne("permission"),
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

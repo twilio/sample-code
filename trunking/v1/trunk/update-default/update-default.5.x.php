@@ -13,6 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $trunk = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                              ->update(array("friendlyName" => "friendlyName"));
+                              ->update(array("friendlyName" => "friendly_name")
+                              );
 
 print($trunk->domainName);

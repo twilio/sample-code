@@ -6,15 +6,8 @@ TOBINDING=$(cat << EOF
 EOF
 )
 
-IDENTITY=$(cat << EOF
-[
-    "Identity"
-]
-EOF
-)
-
 curl -X POST https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications \
 --data-urlencode "Body=Hello Bob" \
 --data-urlencode "ToBinding=$TOBINDING" \
---data-urlencode "Identity=$IDENTITY" \
+--data-urlencode "Identity=identity" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

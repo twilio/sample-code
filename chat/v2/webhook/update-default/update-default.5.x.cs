@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var webhook = WebhookResource.Update(
-            configurationUrl: "configurationUrl",
+            configurationUrl: "configuration.url",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

@@ -18,7 +18,7 @@ class Program
 
         var sample = SampleResource.Create(
             language: "language",
-            taggedText: "taggedText",
+            taggedText: "tagged_text",
             pathAssistantSid: "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathTaskSid: "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

@@ -8,5 +8,5 @@ const client = require('twilio')(accountSid, authToken);
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fields
-                .create({fieldType: 'fieldType', uniqueName: 'uniqueName'})
+                .create({fieldType: 'field_type', uniqueName: 'unique_name'})
                 .then(field => console.log(field.sid));

@@ -13,6 +13,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $composition_settings = $twilio->video->v1->compositionSettings()
-                                          ->create("friendlyName");
+                                          ->create("friendly_name");
 
 print($composition_settings->friendlyName);

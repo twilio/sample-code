@@ -14,7 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Role role = Role.creator(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "friendlyName",
+                "friendly_name",
                 Role.RoleType.CHANNEL,
                 Promoter.listOfOne("permission"))
             .create();

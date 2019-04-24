@@ -8,7 +8,7 @@ const client = require('twilio')(accountSid, authToken);
 client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
               .roles
               .create({
-                 friendlyName: 'friendlyName',
+                 friendlyName: 'friendly_name',
                  type: 'channel',
                  permission: ['permission']
                })

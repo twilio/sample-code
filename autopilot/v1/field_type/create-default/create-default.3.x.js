@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fieldTypes
-                .create({uniqueName: 'uniqueName'})
+                .create({uniqueName: 'unique_name'})
                 .then(field_type => console.log(field_type.sid));

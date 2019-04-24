@@ -13,6 +13,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $service = $twilio->proxy->v1->services("KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                             ->update(array("uniqueName" => "uniqueName"));
+                             ->update(array("uniqueName" => "unique_name"));
 
 print($service->uniqueName);

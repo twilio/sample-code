@@ -13,9 +13,9 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Challenge challenge = Challenge.fetcher(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity",
+                "identity",
                 "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathSid")
+                "sid")
             .fetch();
 
         System.out.println(challenge.getSid());

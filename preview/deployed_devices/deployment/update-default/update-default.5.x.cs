@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var deployment = DeploymentResource.Update(
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             pathFleetSid: "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSid: "DLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );

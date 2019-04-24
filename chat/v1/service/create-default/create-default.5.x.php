@@ -13,6 +13,6 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $service = $twilio->chat->v1->services
-                            ->create("friendlyName");
+                            ->create("friendly_name");
 
 print($service->sid);

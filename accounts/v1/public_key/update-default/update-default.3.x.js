@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.accounts.credentials
                .publicKey('CRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-               .update({friendlyName: 'friendlyName'})
+               .update({friendlyName: 'friendly_name'})
                .then(public_key => console.log(public_key.friendlyName));

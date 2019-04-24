@@ -5,5 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.applications.create({friendlyName: 'friendlyName'})
+client.applications.create({friendlyName: 'friendly_name'})
                    .then(application => console.log(application.sid));

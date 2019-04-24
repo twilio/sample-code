@@ -18,7 +18,7 @@ class Program
 
         var verification = VerificationResource.Fetch(
             pathServiceSid: "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "pathSid"
+            pathSid: "sid"
         );
 
         Console.WriteLine(verification.To);

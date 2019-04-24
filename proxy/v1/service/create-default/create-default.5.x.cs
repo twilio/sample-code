@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var service = ServiceResource.Create(uniqueName: "uniqueName");
+        var service = ServiceResource.Create(uniqueName: "unique_name");
 
         Console.WriteLine(service.Sid);
     }

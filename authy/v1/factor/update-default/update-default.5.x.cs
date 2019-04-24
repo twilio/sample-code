@@ -17,9 +17,9 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var factor = FactorResource.Update(
-            authPayload: "authPayload",
+            authPayload: "auth_payload",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity",
+            pathIdentity: "identity",
             pathSid: "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var address = AddressResource.Update(
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             pathSid: "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

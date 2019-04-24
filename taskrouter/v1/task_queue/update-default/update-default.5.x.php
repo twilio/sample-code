@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $task_queue = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->taskQueues("WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->update(array(
-                                                  "friendlyName" => "friendlyName"
+                                                  "friendlyName" => "friendly_name"
                                               )
                                      );
 

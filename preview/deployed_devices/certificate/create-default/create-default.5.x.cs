@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var certificate = CertificateResource.Create(
-            certificateData: "certificateData",
+            certificateData: "certificate_data",
             pathFleetSid: "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

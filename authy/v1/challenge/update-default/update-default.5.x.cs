@@ -17,11 +17,11 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var challenge = ChallengeResource.Update(
-            authPayload: "authPayload",
+            authPayload: "auth_payload",
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity",
+            pathIdentity: "identity",
             pathFactorSid: "YFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSid: "pathSid"
+            pathSid: "sid"
         );
 
         Console.WriteLine(challenge.Sid);

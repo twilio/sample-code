@@ -14,7 +14,7 @@ public class Example {
         SyncMapItem.deleter(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathKey")
+                "key")
             .delete();
     }
 }

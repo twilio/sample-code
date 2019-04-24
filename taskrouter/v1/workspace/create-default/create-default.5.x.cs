@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var workspace = WorkspaceResource.Create(friendlyName: "friendlyName");
+        var workspace = WorkspaceResource.Create(friendlyName: "friendly_name");
 
         Console.WriteLine(workspace.Sid);
     }

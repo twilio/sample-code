@@ -17,8 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var ipAddress = IpAddressResource.Create(
-            friendlyName: "friendlyName",
-            ipAddress: "ipAddress",
+            friendlyName: "friendly_name",
+            ipAddress: "ip_address",
             pathIpAccessControlListSid: "ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
 

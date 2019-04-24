@@ -12,7 +12,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         RecordingSettings recordingSettings = 
-            RecordingSettings.creator("friendlyName")
+            RecordingSettings.creator("friendly_name")
             .create();
 
         System.out.println(recordingSettings.getFriendlyName());

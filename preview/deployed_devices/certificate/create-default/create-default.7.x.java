@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Certificate certificate = Certificate.creator(
                 "FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "certificateData")
+                "certificate_data")
             .create();
 
         System.out.println(certificate.getSid());

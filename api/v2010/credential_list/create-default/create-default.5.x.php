@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $credential_list = $twilio->sip
                           ->credentialLists
-                          ->create("friendlyName");
+                          ->create("friendly_name");
 
 print($credential_list->sid);

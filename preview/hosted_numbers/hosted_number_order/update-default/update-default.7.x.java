@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         HostedNumberOrder hostedNumberOrder = HostedNumberOrder.updater(
                 "HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setFriendlyName("friendlyName").update();
+            .setFriendlyName("friendly_name").update();
 
         System.out.println(hostedNumberOrder.getFriendlyName());
     }

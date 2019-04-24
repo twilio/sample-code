@@ -18,10 +18,10 @@ class Program
 
         var factor = FactorResource.Create(
             binding: "binding",
-            friendlyName: "friendlyName",
+            friendlyName: "friendly_name",
             factorType: FactorResource.FactorTypesEnum.AppPush,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity"
+            pathIdentity: "identity"
         );
 
         Console.WriteLine(factor.Sid);

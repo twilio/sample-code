@@ -13,7 +13,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         Verification verification = Verification.updater(
                 "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathSid",
+                "sid",
                 Verification.Status.CANCELED)
             .update();
 

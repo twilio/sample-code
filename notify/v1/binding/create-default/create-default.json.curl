@@ -1,5 +1,5 @@
 curl -X POST https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Bindings \
---data-urlencode "Identity=Identity" \
+--data-urlencode "Identity=identity" \
 --data-urlencode "BindingType=apn" \
---data-urlencode "Address=Address" \
+--data-urlencode "Address=address" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

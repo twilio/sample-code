@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $service = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                  ->update(array(
-                                              "friendlyName" => "friendlyName"
+                                              "friendlyName" => "friendly_name"
                                           )
                                  );
 

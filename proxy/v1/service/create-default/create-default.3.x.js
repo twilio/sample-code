@@ -5,5 +5,5 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.proxy.services.create({uniqueName: 'uniqueName'})
+client.proxy.services.create({uniqueName: 'unique_name'})
                      .then(service => console.log(service.sid));

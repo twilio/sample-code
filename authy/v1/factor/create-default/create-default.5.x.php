@@ -15,6 +15,6 @@ $twilio = new Client($sid, $token);
 $factor = $twilio->authy->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                             ->entities("identity")
                             ->factors
-                            ->create("binding", "friendlyName", "app-push");
+                            ->create("binding", "friendly_name", "app-push");
 
 print($factor->sid);

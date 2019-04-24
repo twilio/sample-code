@@ -7,5 +7,5 @@ const client = require('twilio')(accountSid, authToken);
 
 client.autopilot.assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks
-                .create({uniqueName: 'uniqueName'})
+                .create({uniqueName: 'unique_name'})
                 .then(task => console.log(task.sid));

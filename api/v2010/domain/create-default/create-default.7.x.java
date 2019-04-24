@@ -11,7 +11,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        Domain domain = Domain.creator("domainName").create();
+        Domain domain = Domain.creator("domain_name").create();
 
         System.out.println(domain.getSid());
     }

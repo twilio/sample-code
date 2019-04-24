@@ -16,7 +16,7 @@ public class Example {
         SyncMapItem syncMapItem = SyncMapItem.updater(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathKey",
+                "key",
                 new HashMap<String, Object>())
             .update();
 

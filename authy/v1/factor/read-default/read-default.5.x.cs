@@ -18,7 +18,7 @@ class Program
 
         var factors = FactorResource.Read(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "pathIdentity"
+            pathIdentity: "identity"
         );
 
         foreach(var record in factors)

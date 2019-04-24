@@ -7,11 +7,11 @@ const client = require('twilio')(accountSid, authToken);
 
 client.addresses
       .create({
-         customerName: 'customerName',
+         customerName: 'customer_name',
          street: 'street',
          city: 'city',
          region: 'region',
-         postalCode: 'postalCode',
+         postalCode: 'postal_code',
          isoCountry: 'US'
        })
       .then(address => console.log(address.sid));

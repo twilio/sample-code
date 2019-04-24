@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $role = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->roles
-                         ->create("friendlyName", // friendlyName
+                         ->create("friendly_name", // friendlyName
                                   "channel", // type
                                   array("permission") // permission
                          );

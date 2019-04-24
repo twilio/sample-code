@@ -17,7 +17,7 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var exportConfiguration = ExportConfigurationResource.Fetch(
-            pathResourceType: "pathResourceType"
+            pathResourceType: "resource_type"
         );
 
         Console.WriteLine(exportConfiguration.Enabled);

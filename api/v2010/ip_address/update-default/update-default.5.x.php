@@ -15,6 +15,6 @@ $twilio = new Client($sid, $token);
 $ip_address = $twilio->sip
                      ->ipAccessControlLists("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                      ->ipAddresses("IPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                     ->update(array("ipAddress" => "ipAddress"));
+                     ->update(array("ipAddress" => "ip_address"));
 
 print($ip_address->friendlyName);

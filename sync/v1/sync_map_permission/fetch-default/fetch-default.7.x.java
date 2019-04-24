@@ -14,7 +14,7 @@ public class Example {
         SyncMapPermission syncMapPermission = SyncMapPermission.fetcher(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "pathIdentity")
+                "identity")
             .fetch();
 
         System.out.println(syncMapPermission.getServiceSid());

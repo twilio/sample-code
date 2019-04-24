@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var application = ApplicationResource.Create(friendlyName: "friendlyName");
+        var application = ApplicationResource.Create(friendlyName: "friendly_name");
 
         Console.WriteLine(application.Sid);
     }

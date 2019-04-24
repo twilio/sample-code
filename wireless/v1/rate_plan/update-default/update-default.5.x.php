@@ -13,6 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $rate_plan = $twilio->wireless->v1->ratePlans("WPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                  ->update(array("uniqueName" => "uniqueName"));
+                                  ->update(array("uniqueName" => "unique_name")
+                                  );
 
 print($rate_plan->uniqueName);
