@@ -2,8 +2,9 @@
 
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.video.v1.Recording;
+
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -14,8 +15,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Recording> recordings = Recording.reader()
-            .setGroupingSid(
-                Promoter.listOfOne("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"))
+            .setGroupingSid(Arrays.asList("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"))
             .read();
 
         for(Recording record : recordings) {

@@ -1,8 +1,9 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.notify.v1.service.Notification;
+
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -16,8 +17,8 @@ public class Example {
             Notification.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setBody("Knok-Knok! This is your first Notify SMS")
             .setToBinding(
-                Promoter.listOfOne("{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}"))
-            .setIdentity(Promoter.listOfOne("identity"))
+                Arrays.asList("{\"binding_type\":\"sms\", \"address\":\"+1651000000000\"}"))
+            .setIdentity(Arrays.asList("identity"))
             .create();
 
         System.out.println(notification.getSid());

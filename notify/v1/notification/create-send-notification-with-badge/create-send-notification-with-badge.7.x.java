@@ -1,9 +1,9 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.notify.v1.service.Notification;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Example {
@@ -29,7 +29,7 @@ public class Example {
                         put("badge", 1);
                     }});
                 }})
-            .setIdentity(Promoter.listOfOne("00000001"))
+            .setIdentity(Arrays.asList("00000001"))
             .create();
 
         System.out.println(notification.getSid());
