@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 machine_to_machine = client.available_phone_numbers('US') \
                            .machine_to_machine \
-                           .list()
+                           .list(limit=20)
 
 for record in machine_to_machine:
     print(record.friendly_name)

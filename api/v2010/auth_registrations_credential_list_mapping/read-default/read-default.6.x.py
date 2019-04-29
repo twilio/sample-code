@@ -13,7 +13,7 @@ credential_list_mappings = client.sip \
     .auth \
     .registrations \
     .credential_list_mappings \
-    .list()
+    .list(limit=20)
 
 for record in credential_list_mappings:
     print(record.sid)

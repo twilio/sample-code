@@ -18,7 +18,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var recordings = RecordingResource.Read(
-            groupingSid: Promoter.ListOfOne("ParticipantSid")
+            groupingSid: Promoter.ListOfOne("ParticipantSid"),
+            limit: 20
         );
 
         foreach(var record in recordings)

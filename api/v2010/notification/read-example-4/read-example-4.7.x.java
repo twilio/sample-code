@@ -18,6 +18,7 @@ public class Example {
             .setLog(1)
             .setMessageDate(
                 Range.open(new LocalDate(2009, 7, 6), new LocalDate(2009, 7, 8)))
+            .limit(20)
             .read();
 
         for(Notification record : notifications) {

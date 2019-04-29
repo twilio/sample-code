@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $calls = $twilio->calls
-                ->read(array("startTime" => new \DateTime('2018-1-15')));
+                ->read(array("startTime" => new \DateTime('2018-1-15')), 20);
 
 foreach ($calls as $record) {
     print($record->price);

@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-faxes = @client.fax.faxes.list
+faxes = @client.fax.faxes.list(limit: 20)
 
 faxes.each do |record|
   puts record.sid

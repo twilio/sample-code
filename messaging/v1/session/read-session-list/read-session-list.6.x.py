@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-sessions = client.messaging.sessions.list()
+sessions = client.messaging.sessions.list(limit=20)
 
 for record in sessions:
     print(record.sid)

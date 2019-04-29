@@ -12,7 +12,8 @@ notifications = @client.notifications
                        .list(
                           log: 1,
                           message_date_before: Date.new(2009, 7, 8),
-                          message_date_after: Date.new(2009, 7, 6)
+                          message_date_after: Date.new(2009, 7, 6),
+                          limit: 20
                         )
 
 notifications.each do |record|

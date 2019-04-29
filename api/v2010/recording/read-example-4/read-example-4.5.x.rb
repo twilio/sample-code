@@ -10,7 +10,8 @@ auth_token = 'your_auth_token'
 
 recordings = @client.recordings.list(
                                   date_created_before: Date.new(2016, 10, 15),
-                                  date_created_after: Date.new(2016, 10, 12)
+                                  date_created_after: Date.new(2016, 10, 12),
+                                  limit: 20
                                 )
 
 recordings.each do |record|

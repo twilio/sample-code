@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var allTime = AllTimeResource.Read();
+        var allTime = AllTimeResource.Read(limit: 20);
 
         foreach(var record in allTime)
         {

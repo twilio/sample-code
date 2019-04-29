@@ -12,7 +12,7 @@ sync_list_items = @client.sync
                          .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .sync_lists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                          .sync_list_items
-                         .list
+                         .list(limit: 20)
 
 sync_list_items.each do |record|
   puts record.index

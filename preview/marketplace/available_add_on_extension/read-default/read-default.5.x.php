@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $extensions = $twilio->preview->marketplace->availableAddOns("XBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                            ->extensions
-                                           ->read();
+                                           ->read(array(), 20);
 
 foreach ($extensions as $record) {
     print($record->sid);

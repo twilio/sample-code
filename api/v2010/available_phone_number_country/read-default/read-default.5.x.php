@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $availablePhoneNumbers = $twilio->availablePhoneNumbers
-                                ->read();
+                                ->read(array(), 20);
 
 foreach ($availablePhoneNumbers as $record) {
     print($record->countryCode);

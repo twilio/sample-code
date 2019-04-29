@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-workspaces = @client.taskrouter.workspaces.list
+workspaces = @client.taskrouter.workspaces.list(limit: 20)
 
 workspaces.each do |record|
   puts record.sid

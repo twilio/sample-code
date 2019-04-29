@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<CredentialList> credentialsLists = 
             CredentialList.reader("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(CredentialList record : credentialsLists) {

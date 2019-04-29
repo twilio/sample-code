@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var outgoingCallerIds = OutgoingCallerIdResource.Read();
+        var outgoingCallerIds = OutgoingCallerIdResource.Read(limit: 20);
 
         foreach(var record in outgoingCallerIds)
         {

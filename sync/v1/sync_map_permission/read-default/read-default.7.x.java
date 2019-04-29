@@ -16,6 +16,7 @@ public class Example {
             SyncMapPermission.reader(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(SyncMapPermission record : syncMapPermissions) {

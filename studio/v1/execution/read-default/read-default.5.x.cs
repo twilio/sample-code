@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var executions = ExecutionResource.Read(
-            pathFlowSid: "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathFlowSid: "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in executions)

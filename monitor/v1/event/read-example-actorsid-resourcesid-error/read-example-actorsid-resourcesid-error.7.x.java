@@ -15,6 +15,7 @@ public class Example {
         ResourceSet<Event> events = Event.reader()
             .setActorSid("USd0afd67cddff4ec7cb0022771a203cb1")
             .setResourceSid("PN4aa51b930717ea83c91971b86d99018f")
+            .limit(20)
             .read();
 
         for(Event record : events) {

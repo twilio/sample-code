@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 usage_records = client.wireless \
                       .sims('DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA') \
                       .usage_records \
-                      .list()
+                      .list(limit=20)
 
 for record in usage_records:
     print(record.sim_sid)

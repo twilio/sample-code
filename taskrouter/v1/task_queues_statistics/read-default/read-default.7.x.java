@@ -15,6 +15,7 @@ public class Example {
         ResourceSet<TaskQueuesStatistics> statistics = 
             TaskQueuesStatistics.reader(
                 "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(TaskQueuesStatistics record : statistics) {

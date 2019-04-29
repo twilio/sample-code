@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $fleets = $twilio->preview->deployedDevices->fleets
-                                           ->read();
+                                           ->read(array(), 20);
 
 foreach ($fleets as $record) {
     print($record->sid);

@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-authorized_connect_apps = client.authorized_connect_apps.list()
+authorized_connect_apps = client.authorized_connect_apps.list(limit=20)
 
 for record in authorized_connect_apps:
     print(record.connect_app_company_name)

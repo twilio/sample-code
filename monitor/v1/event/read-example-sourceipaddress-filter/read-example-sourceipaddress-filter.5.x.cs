@@ -19,7 +19,8 @@ class Program
         var events = EventResource.Read(
             endDate: new DateTime(2015, 4, 25, 0, 0, 0),
             sourceIpAddress: "104.14.155.29",
-            startDate: new DateTime(2015, 4, 25, 0, 0, 0)
+            startDate: new DateTime(2015, 4, 25, 0, 0, 0),
+            limit: 20
         );
 
         foreach(var record in events)

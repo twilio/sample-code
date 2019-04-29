@@ -12,7 +12,7 @@ samples = client.autopilot \
                 .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                 .samples \
-                .list()
+                .list(limit=20)
 
 for record in samples:
     print(record.sid)

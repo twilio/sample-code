@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $days = $twilio->preview->bulkExports->exports("resource_type")
                                      ->days
-                                     ->read();
+                                     ->read(array(), 20);
 
 foreach ($days as $record) {
     print($record->redirectTo);

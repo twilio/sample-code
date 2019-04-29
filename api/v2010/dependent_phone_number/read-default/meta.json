@@ -3,7 +3,9 @@
   "title": "Read Dependent Phone Number",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "address_sid": "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

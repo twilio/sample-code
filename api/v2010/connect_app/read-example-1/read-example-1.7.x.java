@@ -12,7 +12,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ResourceSet<ConnectApp> connectApps = ConnectApp.reader().read();
+        ResourceSet<ConnectApp> connectApps = ConnectApp.reader()
+            .limit(20).read();
 
         for(ConnectApp record : connectApps) {
             System.out.println(record.getSid());

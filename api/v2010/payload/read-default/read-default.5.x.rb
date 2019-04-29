@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 payloads = @client.recordings('REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                   .add_on_results('XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                   .payloads
-                  .list
+                  .list(limit: 20)
 
 payloads.each do |record|
   puts record.sid

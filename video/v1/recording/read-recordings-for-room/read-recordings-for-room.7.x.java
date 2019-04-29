@@ -16,6 +16,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Recording> recordings = Recording.reader()
             .setGroupingSid(Arrays.asList("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"))
+            .limit(20)
             .read();
 
         for(Recording record : recordings) {

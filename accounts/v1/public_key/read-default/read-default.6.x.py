@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-public_key = client.accounts.credentials.public_key.list()
+public_key = client.accounts.credentials.public_key.list(limit=20)
 
 for record in public_key:
     print(record.sid)

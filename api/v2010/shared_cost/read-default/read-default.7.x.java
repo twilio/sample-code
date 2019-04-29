@@ -12,7 +12,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ResourceSet<SharedCost> sharedCost = SharedCost.reader("US").read();
+        ResourceSet<SharedCost> sharedCost = SharedCost.reader("US")
+            .limit(20).read();
 
         for(SharedCost record : sharedCost) {
             System.out.println(record.getFriendlyName());

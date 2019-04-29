@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $webhooks = $twilio->chat->v2->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->channels("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                              ->webhooks
-                             ->read();
+                             ->read(array(), 20);
 
 foreach ($webhooks as $record) {
     print($record->sid);

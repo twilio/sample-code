@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "short_code": "67898"
+        "short_code": "67898",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

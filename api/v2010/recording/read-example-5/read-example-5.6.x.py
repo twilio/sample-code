@@ -9,7 +9,10 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 recordings = client.recordings \
-                   .list(call_sid='CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                   .list(
+                        call_sid='CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                        limit=20
+                    )
 
 for record in recordings:
     print(record.sid)

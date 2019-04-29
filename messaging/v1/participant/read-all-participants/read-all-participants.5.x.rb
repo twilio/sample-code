@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 participants = @client.messaging
                       .sessions('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .participants
-                      .list
+                      .list(limit: 20)
 
 participants.each do |record|
   puts record.sid

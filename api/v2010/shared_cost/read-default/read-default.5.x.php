@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $sharedCost = $twilio->availablePhoneNumbers("US")
                      ->sharedCost
-                     ->read();
+                     ->read(array(), 20);
 
 foreach ($sharedCost as $record) {
     print($record->friendlyName);

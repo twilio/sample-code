@@ -18,7 +18,8 @@ class Program
 
         var members = MemberResource.Read(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in members)

@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var participants = ParticipantResource.Read(
-            pathRoomSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathRoomSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in participants)

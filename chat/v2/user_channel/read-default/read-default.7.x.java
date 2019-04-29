@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<UserChannel> userChannels = UserChannel.reader(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(UserChannel record : userChannels) {
             System.out.println(record.getServiceSid());

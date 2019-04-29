@@ -12,7 +12,7 @@ subscribed_tracks = client.video \
                           .rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                           .participants('PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                           .subscribed_tracks \
-                          .list()
+                          .list(limit=20)
 
 for record in subscribed_tracks:
     print(record.sid)

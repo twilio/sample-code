@@ -12,7 +12,7 @@ dependent_hosted_number_orders = client.preview \
     .hosted_numbers \
     .authorization_documents('PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
     .dependent_hosted_number_orders \
-    .list()
+    .list(limit=20)
 
 for record in dependent_hosted_number_orders:
     print(record.sid)

@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $allTime = $twilio->usage
                   ->records
                   ->allTime
-                  ->read();
+                  ->read(array(), 20);
 
 foreach ($allTime as $record) {
     print($record->category);

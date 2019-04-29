@@ -12,7 +12,7 @@ sync_map_permissions = @client.sync
                               .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                               .sync_map_permissions
-                              .list
+                              .list(limit: 20)
 
 sync_map_permissions.each do |record|
   puts record.service_sid

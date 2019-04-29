@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $daily = $twilio->usage
                 ->records
                 ->daily
-                ->read();
+                ->read(array(), 20);
 
 foreach ($daily as $record) {
     print($record->category);

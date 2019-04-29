@@ -9,7 +9,7 @@ auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
 incoming_phone_numbers = @client.incoming_phone_numbers
-                                .list(phone_number: '+14158675310')
+                                .list(phone_number: '+14158675310', limit: 20)
 
 incoming_phone_numbers.each do |record|
   puts record.sid

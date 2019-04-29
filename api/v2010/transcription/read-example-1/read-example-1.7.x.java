@@ -13,7 +13,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Transcription> transcriptions = Transcription.reader()
-            .read();
+            .limit(20).read();
 
         for(Transcription record : transcriptions) {
             System.out.println(record.getSid());

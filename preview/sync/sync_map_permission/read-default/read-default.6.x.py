@@ -13,7 +13,7 @@ sync_map_permissions = client.preview \
                              .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                              .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                              .sync_map_permissions \
-                             .list()
+                             .list(limit=20)
 
 for record in sync_map_permissions:
     print(record.service_sid)

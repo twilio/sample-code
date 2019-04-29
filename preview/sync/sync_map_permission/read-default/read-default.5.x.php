@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $syncMapPermissions = $twilio->preview->sync->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                             ->syncMaps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                             ->syncMapPermissions
-                                            ->read();
+                                            ->read(array(), 20);
 
 foreach ($syncMapPermissions as $record) {
     print($record->serviceSid);

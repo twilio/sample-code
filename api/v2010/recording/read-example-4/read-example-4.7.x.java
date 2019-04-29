@@ -17,6 +17,7 @@ public class Example {
         ResourceSet<Recording> recordings = Recording.reader()
             .setDateCreated(
                 Range.open(new DateTime(2016, 10, 12, 0, 0), new DateTime(2016, 10, 15, 0, 0)))
+            .limit(20)
             .read();
 
         for(Recording record : recordings) {

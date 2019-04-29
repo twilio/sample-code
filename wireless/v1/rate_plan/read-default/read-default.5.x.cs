@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var ratePlans = RatePlanResource.Read();
+        var ratePlans = RatePlanResource.Read(limit: 20);
 
         foreach(var record in ratePlans)
         {

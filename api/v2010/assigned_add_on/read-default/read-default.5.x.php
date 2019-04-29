@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $assignedAddOns = $twilio->incomingPhoneNumbers("PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->assignedAddOns
-                         ->read();
+                         ->read(array(), 20);
 
 foreach ($assignedAddOns as $record) {
     print($record->sid);

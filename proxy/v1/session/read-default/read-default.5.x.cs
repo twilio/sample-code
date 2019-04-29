@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var sessions = SessionResource.Read(
-            pathServiceSid: "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathServiceSid: "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in sessions)

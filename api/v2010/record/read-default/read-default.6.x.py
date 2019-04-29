@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-records = client.usage.records.list()
+records = client.usage.records.list(limit=20)
 
 for record in records:
     print(record.category)

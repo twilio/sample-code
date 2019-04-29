@@ -6,7 +6,8 @@
   "_definition": {
     "params": {
       "required": {
-        "start_time": "2018-01-15"
+        "start_time": "2018-01-15",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-calls = client.calls.list()
+calls = client.calls.list(limit=20)
 
 for record in calls:
     print(record.sid)

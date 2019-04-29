@@ -15,6 +15,7 @@ public class Example {
         ResourceSet<Conference> conferences = Conference.reader()
             .setFriendlyName("MyRoom")
             .setStatus(Conference.Status.IN_PROGRESS)
+            .limit(20)
             .read();
 
         for(Conference record : conferences) {

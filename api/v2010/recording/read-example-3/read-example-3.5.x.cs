@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var recordings = RecordingResource.Read(
-            dateCreatedAfter: new DateTime(2009, 7, 6, 0, 0, 0)
+            dateCreatedAfter: new DateTime(2009, 7, 6, 0, 0, 0),
+            limit: 20
         );
 
         foreach(var record in recordings)

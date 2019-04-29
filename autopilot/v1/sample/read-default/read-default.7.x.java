@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<Sample> samples = Sample.reader(
                 "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(Sample record : samples) {
             System.out.println(record.getSid());

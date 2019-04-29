@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-services = client.chat.v1.services.list()
+services = client.chat.v1.services.list(limit=20)
 
 for record in services:
     print(record.sid)

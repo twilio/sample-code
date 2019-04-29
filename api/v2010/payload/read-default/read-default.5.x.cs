@@ -18,7 +18,8 @@ class Program
 
         var payloads = PayloadResource.Read(
             pathReferenceSid: "REXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathAddOnResultSid: "XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathAddOnResultSid: "XRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in payloads)

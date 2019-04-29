@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-trunks = @client.trunking.trunks.list
+trunks = @client.trunking.trunks.list(limit: 20)
 
 trunks.each do |record|
   puts record.sid

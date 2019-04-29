@@ -14,7 +14,9 @@ $twilio = new Client($sid, $token);
 
 $tasks = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                 ->tasks
-                                ->read(array("assignmentStatus" => "pending"));
+                                ->read(array("assignmentStatus" => "pending"),
+                                       20
+                                );
 
 foreach ($tasks as $record) {
     print($record->sid);

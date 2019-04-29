@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 field_types = @client.autopilot
                      .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                      .field_types
-                     .list
+                     .list(limit: 20)
 
 field_types.each do |record|
   puts record.sid

@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 recordings = @client.video
                     .rooms('RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .recordings
-                    .list
+                    .list(limit: 20)
 
 recordings.each do |record|
   puts record.sid

@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $local = $twilio->incomingPhoneNumbers
                 ->local
-                ->read();
+                ->read(array(), 20);
 
 foreach ($local as $record) {
     print($record->sid);

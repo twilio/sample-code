@@ -1,2 +1,2 @@
-curl -X GET 'https://monitor.twilio.com/v1/Events?EndDate=2015-04-01&StartDate=2015-03-01' \
+curl -X GET 'https://monitor.twilio.com/v1/Events?EndDate=2015-04-01&StartDate=2015-03-01&page_size=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var daily = DailyResource.Read();
+        var daily = DailyResource.Read(limit: 20);
 
         foreach(var record in daily)
         {

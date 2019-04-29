@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $statistics = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->taskQueues
                                      ->statistics
-                                     ->read();
+                                     ->read(array(), 20);
 
 foreach ($statistics as $record) {
     print($record->cumulative);

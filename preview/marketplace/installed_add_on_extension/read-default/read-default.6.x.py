@@ -12,7 +12,7 @@ extensions = client.preview \
                    .marketplace \
                    .installed_add_ons('XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                    .extensions \
-                   .list()
+                   .list(limit=20)
 
 for record in extensions:
     print(record.sid)

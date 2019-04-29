@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var outgoingCallerIds = OutgoingCallerIdResource.Read(
-            phoneNumber: new Twilio.Types.PhoneNumber("+14158675310")
+            phoneNumber: new Twilio.Types.PhoneNumber("+14158675310"),
+            limit: 20
         );
 
         foreach(var record in outgoingCallerIds)

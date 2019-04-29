@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 machine_to_machine = @client.available_phone_numbers('US')
                             .machine_to_machine
-                            .list
+                            .list(limit: 20)
 
 machine_to_machine.each do |record|
   puts record.friendly_name

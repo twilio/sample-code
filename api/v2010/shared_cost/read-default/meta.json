@@ -3,7 +3,9 @@
   "title": "Read Shared Cost",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "country_code": "US"

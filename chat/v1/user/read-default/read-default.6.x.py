@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 users = client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .users \
-                      .list()
+                      .list(limit=20)
 
 for record in users:
     print(record.sid)

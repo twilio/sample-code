@@ -17,6 +17,7 @@ public class Example {
             .setEndDate(new DateTime(2015, 4, 25, 0, 0))
             .setSourceIpAddress("104.14.155.29")
             .setStartDate(new DateTime(2015, 4, 25, 0, 0))
+            .limit(20)
             .read();
 
         for(Event record : events) {

@@ -3,7 +3,9 @@
   "title": "Read Document Permission",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "document_sid": "ETXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<ShortCode> shortCodes = 
             ShortCode.reader("MG2172dd2db502e20dd981ef0d67850e1a")
+            .limit(20)
             .read();
 
         for(ShortCode record : shortCodes) {

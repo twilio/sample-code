@@ -3,7 +3,9 @@
   "title": "Read User Binding",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "user_sid": "USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

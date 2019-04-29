@@ -8,7 +8,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-roles = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').roles.list
+roles = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                    .roles
+                    .list(limit: 20)
 
 roles.each do |record|
   puts record.sid

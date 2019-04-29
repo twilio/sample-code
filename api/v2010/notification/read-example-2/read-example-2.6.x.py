@@ -9,7 +9,11 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-notifications = client.notifications.list(log=1, message_date=date(2009, 7, 6))
+notifications = client.notifications.list(
+                                         log=1,
+                                         message_date=date(2009, 7, 6),
+                                         limit=20
+                                     )
 
 for record in notifications:
     print(record.sid)

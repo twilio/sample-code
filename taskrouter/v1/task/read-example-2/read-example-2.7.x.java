@@ -17,6 +17,7 @@ public class Example {
         ResourceSet<Task> tasks = 
             Task.reader("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setAssignmentStatus(Arrays.asList("pending"))
+            .limit(20)
             .read();
 
         for(Task record : tasks) {

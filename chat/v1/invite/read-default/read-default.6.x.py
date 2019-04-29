@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 invites = client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .invites \
-                        .list()
+                        .list(limit=20)
 
 for record in invites:
     print(record.sid)

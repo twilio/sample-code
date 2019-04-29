@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 keys = @client.preview.deployed_devices
                       .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .keys
-                      .list
+                      .list(limit: 20)
 
 keys.each do |record|
   puts record.sid

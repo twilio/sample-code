@@ -12,7 +12,7 @@ user_bindings = @client.chat
                        .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .user_bindings
-                       .list
+                       .list(limit: 20)
 
 user_bindings.each do |record|
   puts record.sid

@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var tollFree = TollFreeResource.Read();
+        var tollFree = TollFreeResource.Read(limit: 20);
 
         foreach(var record in tollFree)
         {

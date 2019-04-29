@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 authorization_documents = @client.preview
                                  .hosted_numbers
                                  .authorization_documents
-                                 .list
+                                 .list(limit: 20)
 
 authorization_documents.each do |record|
   puts record.sid

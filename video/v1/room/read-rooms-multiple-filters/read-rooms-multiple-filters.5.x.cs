@@ -18,7 +18,8 @@ class Program
 
         var rooms = RoomResource.Read(
             status: RoomResource.RoomStatusEnum.Completed,
-            uniqueName: "DailyStandup"
+            uniqueName: "DailyStandup",
+            limit: 20
         );
 
         foreach(var record in rooms)

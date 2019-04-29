@@ -18,7 +18,8 @@ class Program
 
         var steps = StepResource.Read(
             pathFlowSid: "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathEngagementSid: "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathEngagementSid: "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in steps)

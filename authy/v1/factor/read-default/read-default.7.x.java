@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Factor> factors = 
             Factor.reader("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", "identity")
+            .limit(20)
             .read();
 
         for(Factor record : factors) {

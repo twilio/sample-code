@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $conferences = $twilio->conferences
-                      ->read();
+                      ->read(array(), 20);
 
 foreach ($conferences as $record) {
     print($record->sid);

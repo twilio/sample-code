@@ -16,7 +16,10 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var events = EventResource.Read(resourceSid: "PN4aa51b930717ea83c91971b86d99018f");
+        var events = EventResource.Read(
+            resourceSid: "PN4aa51b930717ea83c91971b86d99018f",
+            limit: 20
+        );
 
         foreach(var record in events)
         {

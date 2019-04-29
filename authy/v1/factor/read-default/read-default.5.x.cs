@@ -18,7 +18,8 @@ class Program
 
         var factors = FactorResource.Read(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathIdentity: "identity"
+            pathIdentity: "identity",
+            limit: 20
         );
 
         foreach(var record in factors)

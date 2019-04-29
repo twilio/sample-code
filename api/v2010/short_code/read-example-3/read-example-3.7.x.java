@@ -13,7 +13,7 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<ShortCode> shortCodes = ShortCode.reader()
-            .setShortCode("898").read();
+            .setShortCode("898").limit(20).read();
 
         for(ShortCode record : shortCodes) {
             System.out.println(record.getSid());

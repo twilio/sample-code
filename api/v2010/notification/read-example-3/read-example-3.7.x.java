@@ -17,6 +17,7 @@ public class Example {
         ResourceSet<Notification> notifications = Notification.reader()
             .setLog(1)
             .setMessageDate(Range.greaterThan(new LocalDate(2009, 7, 6)))
+            .limit(20)
             .read();
 
         for(Notification record : notifications) {

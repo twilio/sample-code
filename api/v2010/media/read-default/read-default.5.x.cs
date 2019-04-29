@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var media = MediaResource.Read(
-            pathMessageSid: "MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathMessageSid: "MMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in media)

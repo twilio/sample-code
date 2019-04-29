@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $authorizedConnectApps = $twilio->authorizedConnectApps
-                                ->read();
+                                ->read(array(), 20);
 
 foreach ($authorizedConnectApps as $record) {
     print($record->connectAppCompanyName);

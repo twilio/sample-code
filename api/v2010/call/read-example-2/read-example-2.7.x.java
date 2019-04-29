@@ -16,6 +16,7 @@ public class Example {
         ResourceSet<Call> calls = Call.reader()
             .setStartTime(new DateTime(2009, 7, 6, 0, 0))
             .setStatus(Call.Status.COMPLETED)
+            .limit(20)
             .read();
 
         for(Call record : calls) {

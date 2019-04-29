@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 queries = client.autopilot \
                 .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                 .queries \
-                .list()
+                .list(limit=20)
 
 for record in queries:
     print(record.sid)

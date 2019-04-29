@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var assignedAddOns = AssignedAddOnResource.Read(
-            pathResourceSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathResourceSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in assignedAddOns)

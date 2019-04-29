@@ -6,7 +6,8 @@
     "params": {
       "required": {
         "log": "1",
-        "message_date": "2009-07-06"
+        "message_date": "2009-07-06",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

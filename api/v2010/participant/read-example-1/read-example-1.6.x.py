@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 participants = client.conferences('CFbbe4632a3c49700934481addd5ce1659') \
                      .participants \
-                     .list()
+                     .list(limit=20)
 
 for record in participants:
     print(record.call_sid)

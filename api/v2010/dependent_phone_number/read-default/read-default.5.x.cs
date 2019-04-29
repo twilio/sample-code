@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var dependentPhoneNumbers = DependentPhoneNumberResource.Read(
-            pathAddressSid: "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathAddressSid: "ADXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in dependentPhoneNumbers)

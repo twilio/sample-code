@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 credentials_lists = @client.trunking
                            .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                            .credentials_lists
-                           .list
+                           .list(limit: 20)
 
 credentials_lists.each do |record|
   puts record.sid

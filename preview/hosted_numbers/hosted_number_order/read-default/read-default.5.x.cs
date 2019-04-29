@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var hostedNumberOrders = HostedNumberOrderResource.Read();
+        var hostedNumberOrders = HostedNumberOrderResource.Read(limit: 20);
 
         foreach(var record in hostedNumberOrders)
         {

@@ -12,7 +12,7 @@ documents = @client.preview
                    .sync
                    .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                    .documents
-                   .list
+                   .list(limit: 20)
 
 documents.each do |record|
   puts record.sid

@@ -1,2 +1,2 @@
-curl -X GET 'https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/Players/Items?From=steph_curry&Order=asc' \
+curl -X GET 'https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Maps/Players/Items?From=steph_curry&Order=asc&page_size=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

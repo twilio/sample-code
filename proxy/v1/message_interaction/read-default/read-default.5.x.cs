@@ -19,7 +19,8 @@ class Program
         var messageInteractions = MessageInteractionResource.Read(
             pathServiceSid: "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathSessionSid: "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathParticipantSid: "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathParticipantSid: "KPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in messageInteractions)

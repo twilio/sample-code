@@ -10,7 +10,8 @@ auth_token = 'your_auth_token'
 
 events = @client.monitor.events.list(
                                   end_date: Date.new(2015, 4, 1),
-                                  start_date: Date.new(2015, 3, 1)
+                                  start_date: Date.new(2015, 3, 1),
+                                  limit: 20
                                 )
 
 events.each do |record|

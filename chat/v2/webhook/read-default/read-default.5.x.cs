@@ -18,7 +18,8 @@ class Program
 
         var webhooks = WebhookResource.Read(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathChannelSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in webhooks)

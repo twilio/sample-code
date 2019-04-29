@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 origination_urls = @client.trunking
                           .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                           .origination_urls
-                          .list
+                          .list(limit: 20)
 
 origination_urls.each do |record|
   puts record.sid

@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var workspaces = WorkspaceResource.Read();
+        var workspaces = WorkspaceResource.Read(limit: 20);
 
         foreach(var record in workspaces)
         {

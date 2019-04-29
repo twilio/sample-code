@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-applications = @client.applications.list
+applications = @client.applications.list(limit: 20)
 
 applications.each do |record|
   puts record.sid

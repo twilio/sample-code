@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 tasks = @client.autopilot
                .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                .tasks
-               .list
+               .list(limit: 20)
 
 tasks.each do |record|
   puts record.sid

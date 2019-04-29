@@ -1,2 +1,2 @@
-curl -X GET 'https://pricing.twilio.com/v1/Voice/Countries' \
+curl -X GET 'https://pricing.twilio.com/v1/Voice/Countries?page_size=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

@@ -16,7 +16,8 @@ $events = $twilio->monitor->v1->events
                               ->read(array(
                                          "actorSid" => "USd0afd67cddff4ec7cb0022771a203cb1",
                                          "resourceSid" => "PN4aa51b930717ea83c91971b86d99018f"
-                                     )
+                                     ),
+                                     20
                               );
 
 foreach ($events as $record) {

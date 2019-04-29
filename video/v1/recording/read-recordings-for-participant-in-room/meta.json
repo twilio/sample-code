@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "grouping_sid": "ParticipantSid"
+        "grouping_sid": "ParticipantSid",
+        "page_size": 20
       },
       "path": {}
     },

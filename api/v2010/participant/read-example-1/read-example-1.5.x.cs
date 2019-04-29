@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var participants = ParticipantResource.Read(
-            pathConferenceSid: "CFbbe4632a3c49700934481addd5ce1659"
+            pathConferenceSid: "CFbbe4632a3c49700934481addd5ce1659",
+            limit: 20
         );
 
         foreach(var record in participants)

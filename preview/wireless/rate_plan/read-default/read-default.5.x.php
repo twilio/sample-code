@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $ratePlans = $twilio->preview->wireless->ratePlans
-                                       ->read();
+                                       ->read(array(), 20);
 
 foreach ($ratePlans as $record) {
     print($record->sid);

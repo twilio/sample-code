@@ -12,7 +12,7 @@ sync_list_items = client.sync \
                         .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .sync_lists('MyCollection') \
                         .sync_list_items \
-                        .list()
+                        .list(limit=20)
 
 for record in sync_list_items:
     print(record.index)

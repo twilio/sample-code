@@ -12,7 +12,7 @@ reservations = client.taskrouter \
                      .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .reservations \
-                     .list()
+                     .list(limit=20)
 
 for record in reservations:
     print(record.sid)

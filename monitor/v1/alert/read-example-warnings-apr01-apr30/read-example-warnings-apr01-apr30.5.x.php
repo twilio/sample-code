@@ -17,7 +17,8 @@ $alerts = $twilio->monitor->v1->alerts
                                          "endDate" => new \DateTime('2015-04-30'),
                                          "logLevel" => "warning",
                                          "startDate" => new \DateTime('2015-04-01')
-                                     )
+                                     ),
+                                     20
                               );
 
 foreach ($alerts as $record) {

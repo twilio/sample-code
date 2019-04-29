@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 origination_urls = client.trunking \
                          .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                          .origination_urls \
-                         .list()
+                         .list(limit=20)
 
 for record in origination_urls:
     print(record.sid)

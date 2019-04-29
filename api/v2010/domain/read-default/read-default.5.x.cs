@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var domains = DomainResource.Read();
+        var domains = DomainResource.Read(limit: 20);
 
         foreach(var record in domains)
         {

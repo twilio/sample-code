@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-countries = client.pricing.voice.countries.list()
+countries = client.pricing.voice.countries.list(limit=20)
 
 for record in countries:
     print(record.country)

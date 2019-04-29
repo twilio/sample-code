@@ -1,2 +1,2 @@
-curl -X GET 'https://video.twilio.com/v1/Recordings' \
+curl -X GET 'https://video.twilio.com/v1/Recordings?page_size=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

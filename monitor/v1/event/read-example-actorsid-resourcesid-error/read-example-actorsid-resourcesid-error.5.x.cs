@@ -18,7 +18,8 @@ class Program
 
         var events = EventResource.Read(
             actorSid: "USd0afd67cddff4ec7cb0022771a203cb1",
-            resourceSid: "PN4aa51b930717ea83c91971b86d99018f"
+            resourceSid: "PN4aa51b930717ea83c91971b86d99018f",
+            limit: 20
         );
 
         foreach(var record in events)

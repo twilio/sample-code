@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-toll_free = client.incoming_phone_numbers.toll_free.list()
+toll_free = client.incoming_phone_numbers.toll_free.list(limit=20)
 
 for record in toll_free:
     print(record.sid)

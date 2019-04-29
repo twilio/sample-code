@@ -16,6 +16,7 @@ public class Example {
         ResourceSet<Event> events = Event.reader()
             .setEndDate(new DateTime(2015, 4, 1, 0, 0))
             .setStartDate(new DateTime(2015, 3, 1, 0, 0))
+            .limit(20)
             .read();
 
         for(Event record : events) {

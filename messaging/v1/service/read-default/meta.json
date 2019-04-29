@@ -3,7 +3,9 @@
   "title": "Read Service",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {}
     },
     "location": "https://messaging.twilio.com/v1/Services",

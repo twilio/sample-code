@@ -10,7 +10,8 @@ auth_token = 'your_auth_token'
 
 conferences = @client.conferences.list(
                                     friendly_name: 'MyRoom',
-                                    status: 'in-progress'
+                                    status: 'in-progress',
+                                    limit: 20
                                   )
 
 conferences.each do |record|

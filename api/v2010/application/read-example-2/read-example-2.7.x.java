@@ -13,7 +13,9 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Application> applications = Application.reader()
-            .setFriendlyName("MyApp").read();
+            .setFriendlyName("MyApp")
+            .limit(20)
+            .read();
 
         for(Application record : applications) {
             System.out.println(record.getSid());

@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $ipAddresses = $twilio->sip
                       ->ipAccessControlLists("ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                       ->ipAddresses
-                      ->read();
+                      ->read(array(), 20);
 
 foreach ($ipAddresses as $record) {
     print($record->sid);

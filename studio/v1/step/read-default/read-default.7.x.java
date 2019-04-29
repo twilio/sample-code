@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<Step> steps = Step.reader(
                 "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(Step record : steps) {
             System.out.println(record.getSid());

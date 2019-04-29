@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $originationUrls = $twilio->trunking->v1->trunks("TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                         ->originationUrls
-                                        ->read();
+                                        ->read(array(), 20);
 
 foreach ($originationUrls as $record) {
     print($record->sid);

@@ -17,6 +17,7 @@ public class Example {
                 "Players")
             .setFrom("steph_curry")
             .setOrder(SyncMapItem.QueryResultOrder.ASC)
+            .limit(20)
             .read();
 
         for(SyncMapItem record : syncMapItems) {

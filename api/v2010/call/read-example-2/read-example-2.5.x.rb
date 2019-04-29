@@ -10,7 +10,8 @@ auth_token = 'your_auth_token'
 
 calls = @client.calls.list(
                         start_time: Date.new(2009, 7, 6),
-                        status: 'completed'
+                        status: 'completed',
+                        limit: 20
                       )
 
 calls.each do |record|

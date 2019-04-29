@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var messages = MessageResource.Read(
-            pathSessionSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathSessionSid: "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in messages)

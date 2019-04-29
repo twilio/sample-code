@@ -16,7 +16,8 @@ $workers = $twilio->taskrouter->v1->workspaces("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                                   ->workers
                                   ->read(array(
                                              "targetWorkersExpression" => "type == 'leads'"
-                                         )
+                                         ),
+                                         20
                                   );
 
 foreach ($workers as $record) {

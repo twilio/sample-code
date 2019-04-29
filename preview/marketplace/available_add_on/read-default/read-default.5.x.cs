@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var availableAddOns = AvailableAddOnResource.Read();
+        var availableAddOns = AvailableAddOnResource.Read(limit: 20);
 
         foreach(var record in availableAddOns)
         {

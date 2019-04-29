@@ -14,7 +14,9 @@ $twilio = new Client($sid, $token);
 
 $dependentHostedNumberOrders = $twilio->preview->hostedNumbers->authorizationDocuments("PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                                               ->dependentHostedNumberOrders
-                                                              ->read();
+                                                              ->read(array(),
+                                                                     20
+                                                              );
 
 foreach ($dependentHostedNumberOrders as $record) {
     print($record->sid);

@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 steps = @client.studio.flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .engagements('FNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                       .steps
-                      .list
+                      .list(limit: 20)
 
 steps.each do |record|
   puts record.sid

@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 sync_streams = client.sync \
                      .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .sync_streams \
-                     .list()
+                     .list(limit=20)
 
 for record in sync_streams:
     print(record.sid)

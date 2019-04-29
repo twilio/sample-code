@@ -8,7 +8,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-installed_add_ons = @client.preview.marketplace.installed_add_ons.list
+installed_add_ons = @client.preview.marketplace.installed_add_ons.list(
+                                                                    limit: 20
+                                                                  )
 
 installed_add_ons.each do |record|
   puts record.sid

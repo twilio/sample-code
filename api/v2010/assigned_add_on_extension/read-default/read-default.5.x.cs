@@ -18,7 +18,8 @@ class Program
 
         var extensions = AssignedAddOnExtensionResource.Read(
             pathResourceSid: "PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathAssignedAddOnSid: "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathAssignedAddOnSid: "XEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in extensions)

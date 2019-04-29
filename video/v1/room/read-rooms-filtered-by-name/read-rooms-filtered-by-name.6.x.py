@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-rooms = client.video.rooms.list(unique_name='DailyStandup')
+rooms = client.video.rooms.list(unique_name='DailyStandup', limit=20)
 
 for record in rooms:
     print(record.sid)

@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $workspaces = $twilio->taskrouter->v1->workspaces
-                                     ->read();
+                                     ->read(array(), 20);
 
 foreach ($workspaces as $record) {
     print($record->sid);

@@ -11,7 +11,8 @@ auth_token = 'your_auth_token'
 calls = @client.calls.list(
                         start_time_before: Date.new(2009, 7, 6),
                         start_time_after: Date.new(2009, 7, 4),
-                        status: 'in-progress'
+                        status: 'in-progress',
+                        limit: 20
                       )
 
 calls.each do |record|

@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 entities = client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .entities \
-                       .list()
+                       .list(limit=20)
 
 for record in entities:
     print(record.sid)

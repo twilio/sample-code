@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $alphaSenders = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->alphaSenders
-                                      ->read();
+                                      ->read(array(), 20);
 
 foreach ($alphaSenders as $record) {
     print($record->sid);

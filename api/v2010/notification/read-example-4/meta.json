@@ -7,7 +7,8 @@
       "required": {
         "log": "1",
         "message_date_before": "2009-07-08",
-        "message_date_after": "2009-07-06"
+        "message_date_after": "2009-07-06",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

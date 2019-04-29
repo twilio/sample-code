@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $voip = $twilio->availablePhoneNumbers("US")
                ->voip
-               ->read();
+               ->read(array(), 20);
 
 foreach ($voip as $record) {
     print($record->friendlyName);

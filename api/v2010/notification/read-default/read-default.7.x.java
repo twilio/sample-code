@@ -12,7 +12,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ResourceSet<Notification> notifications = Notification.reader().read();
+        ResourceSet<Notification> notifications = Notification.reader()
+            .limit(20).read();
 
         for(Notification record : notifications) {
             System.out.println(record.getSid());

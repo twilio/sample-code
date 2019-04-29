@@ -8,7 +8,9 @@
   "type": "server",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "service_sid": "MG2172dd2db502e20dd981ef0d67850e1a"
       }

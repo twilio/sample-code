@@ -18,7 +18,8 @@ class Program
 
         var syncMapPermissions = SyncMapPermissionResource.Read(
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathMapSid: "Players"
+            pathMapSid: "Players",
+            limit: 20
         );
 
         foreach(var record in syncMapPermissions)

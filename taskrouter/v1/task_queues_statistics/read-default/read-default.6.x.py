@@ -12,7 +12,7 @@ statistics = client.taskrouter \
                    .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                    .task_queues \
                    .statistics \
-                   .list()
+                   .list(limit=20)
 
 for record in statistics:
     print(record.cumulative)

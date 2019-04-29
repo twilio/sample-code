@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 sync_maps = client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .sync_maps \
-                       .list()
+                       .list(limit=20)
 
 for record in sync_maps:
     print(record.sid)

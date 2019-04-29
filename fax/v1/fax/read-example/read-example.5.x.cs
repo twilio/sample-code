@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var faxes = FaxResource.Read();
+        var faxes = FaxResource.Read(limit: 20);
 
         foreach(var record in faxes)
         {

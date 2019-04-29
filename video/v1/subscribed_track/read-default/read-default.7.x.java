@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<SubscribedTrack> subscribedTracks = SubscribedTrack.reader(
                 "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(SubscribedTrack record : subscribedTracks) {
             System.out.println(record.getSid());

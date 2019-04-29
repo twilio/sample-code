@@ -15,7 +15,8 @@ $twilio = new Client($sid, $token);
 $recordings = $twilio->video->v1->recordings
                                 ->read(array(
                                            "groupingSid" => "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-                                       )
+                                       ),
+                                       20
                                 );
 
 foreach ($recordings as $record) {

@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $compositions = $twilio->video->v1->compositions
-                                  ->read();
+                                  ->read(array(), 20);
 
 foreach ($compositions as $record) {
     print($record->sid);

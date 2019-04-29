@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var monthly = MonthlyResource.Read();
+        var monthly = MonthlyResource.Read(limit: 20);
 
         foreach(var record in monthly)
         {

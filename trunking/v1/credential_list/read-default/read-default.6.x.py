@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 credentials_lists = client.trunking \
                           .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                           .credentials_lists \
-                          .list()
+                          .list(limit=20)
 
 for record in credentials_lists:
     print(record.sid)

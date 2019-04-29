@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var usageRecords = UsageRecordResource.Read(
-            pathSimSid: "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathSimSid: "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in usageRecords)

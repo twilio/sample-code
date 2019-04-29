@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Media> media = 
             Media.reader("MM800f449d0399ed014aae2bcc0cc2f2ec")
+            .limit(20)
             .read();
 
         for(Media record : media) {

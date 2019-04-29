@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-services = client.preview.acc_security.services.list()
+services = client.preview.acc_security.services.list(limit=20)
 
 for record in services:
     print(record.sid)

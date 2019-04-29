@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var availablePhoneNumbers = AvailablePhoneNumberCountryResource.Read();
+        var availablePhoneNumbers = AvailablePhoneNumberCountryResource.Read(limit: 20);
 
         foreach(var record in availablePhoneNumbers)
         {

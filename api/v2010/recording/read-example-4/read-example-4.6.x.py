@@ -12,7 +12,8 @@ client = Client(account_sid, auth_token)
 recordings = client.recordings \
                    .list(
                         date_created_before=datetime(2016, 10, 15, 0, 0),
-                        date_created_after=datetime(2016, 10, 12, 0, 0)
+                        date_created_after=datetime(2016, 10, 12, 0, 0),
+                        limit=20
                     )
 
 for record in recordings:

@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 ip_access_control_list_mappings = @client.sip
   .domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .ip_access_control_list_mappings
-  .list
+  .list(limit: 20)
 
 ip_access_control_list_mappings.each do |record|
   puts record.sid

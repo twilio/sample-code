@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 task_queues = client.taskrouter \
                     .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .task_queues \
-                    .list()
+                    .list(limit=20)
 
 for record in task_queues:
     print(record.sid)

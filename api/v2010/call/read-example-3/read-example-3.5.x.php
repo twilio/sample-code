@@ -16,7 +16,8 @@ $calls = $twilio->calls
                 ->read(array(
                            "startTimeAfter" => new \DateTime('2009-7-6'),
                            "status" => "completed"
-                       )
+                       ),
+                       20
                 );
 
 foreach ($calls as $record) {

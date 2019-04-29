@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<AuthorizedConnectApp> authorizedConnectApps = 
             AuthorizedConnectApp.reader()
+            .limit(20)
             .read();
 
         for(AuthorizedConnectApp record : authorizedConnectApps) {

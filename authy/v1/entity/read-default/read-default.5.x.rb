@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 entities = @client.authy.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .entities
-                        .list
+                        .list(limit: 20)
 
 entities.each do |record|
   puts record.sid

@@ -10,7 +10,8 @@ auth_token = 'your_auth_token'
 
 notifications = @client.notifications.list(
                                         log: 1,
-                                        message_date: Date.new(2009, 7, 6)
+                                        message_date: Date.new(2009, 7, 6),
+                                        limit: 20
                                       )
 
 notifications.each do |record|

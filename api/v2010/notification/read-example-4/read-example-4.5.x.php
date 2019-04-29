@@ -17,7 +17,8 @@ $notifications = $twilio->notifications
                                    "log" => 1,
                                    "messageDateBefore" => new \DateTime('2009-07-08'),
                                    "messageDateAfter" => new \DateTime('2009-07-06')
-                               )
+                               ),
+                               20
                         );
 
 foreach ($notifications as $record) {

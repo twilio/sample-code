@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-recordings = @client.video.recordings.list
+recordings = @client.video.recordings.list(limit: 20)
 
 recordings.each do |record|
   puts record.sid

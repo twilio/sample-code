@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var alerts = AlertResource.Read();
+        var alerts = AlertResource.Read(limit: 20);
 
         foreach(var record in alerts)
         {

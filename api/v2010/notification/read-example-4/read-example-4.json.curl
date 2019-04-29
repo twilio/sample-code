@@ -1,2 +1,2 @@
-curl -X GET 'https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json?Log=1&MessageDate%3C=2009-07-08&MessageDate%3E=2009-07-06' \
+curl -X GET 'https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Notifications.json?Log=1&MessageDate%3C=2009-07-08&MessageDate%3E=2009-07-06&page_size=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

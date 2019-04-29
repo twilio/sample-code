@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 phone_numbers = client.messaging \
                       .services('MG2172dd2db502e20dd981ef0d67850e1a') \
                       .phone_numbers \
-                      .list()
+                      .list(limit=20)
 
 for record in phone_numbers:
     print(record.sid)

@@ -6,7 +6,8 @@
     "params": {
       "required": {
         "from": "steph_curry",
-        "order": "asc"
+        "order": "asc",
+        "page_size": 20
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

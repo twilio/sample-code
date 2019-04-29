@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 bindings = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .bindings
-                       .list
+                       .list(limit: 20)
 
 bindings.each do |record|
   puts record.sid

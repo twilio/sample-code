@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 sessions = client.proxy.services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                        .sessions \
-                       .list()
+                       .list(limit=20)
 
 for record in sessions:
     print(record.sid)

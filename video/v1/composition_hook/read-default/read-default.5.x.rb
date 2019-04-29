@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-composition_hooks = @client.video.composition_hooks.list
+composition_hooks = @client.video.composition_hooks.list(limit: 20)
 
 composition_hooks.each do |record|
   puts record.sid

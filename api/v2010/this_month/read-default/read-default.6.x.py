@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-this_month = client.usage.records.this_month.list()
+this_month = client.usage.records.this_month.list(limit=20)
 
 for record in this_month:
     print(record.category)

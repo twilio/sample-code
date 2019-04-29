@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 tasks = client.taskrouter \
               .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
               .tasks \
-              .list(assignment_status='pending')
+              .list(assignment_status='pending', limit=20)
 
 for record in tasks:
     print(record.sid)

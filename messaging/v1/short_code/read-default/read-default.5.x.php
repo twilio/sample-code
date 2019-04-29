@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $shortCodes = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                     ->shortCodes
-                                    ->read();
+                                    ->read(array(), 20);
 
 foreach ($shortCodes as $record) {
     print($record->sid);

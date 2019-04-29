@@ -12,7 +12,7 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ResourceSet<Service> services = Service.reader().read();
+        ResourceSet<Service> services = Service.reader().limit(20).read();
 
         for(Service record : services) {
             System.out.println(record.getSid());

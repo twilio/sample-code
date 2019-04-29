@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $addresses = $twilio->addresses
-                    ->read(array("customerName" => "Customer 123"));
+                    ->read(array("customerName" => "Customer 123"), 20);
 
 foreach ($addresses as $record) {
     print($record->sid);

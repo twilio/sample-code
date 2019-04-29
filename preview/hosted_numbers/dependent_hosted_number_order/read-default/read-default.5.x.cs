@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var dependentHostedNumberOrders = DependentHostedNumberOrderResource.Read(
-            pathSigningDocumentSid: "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathSigningDocumentSid: "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in dependentHostedNumberOrders)

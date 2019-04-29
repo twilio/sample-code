@@ -15,6 +15,7 @@ public class Example {
         ResourceSet<Worker> workers = 
             Worker.reader("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setTargetWorkersExpression("type == 'leads'")
+            .limit(20)
             .read();
 
         for(Worker record : workers) {

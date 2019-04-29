@@ -1,2 +1,2 @@
-curl -X GET 'https://wireless.twilio.com/v1/Sims/DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/DataSessions' \
+curl -X GET 'https://wireless.twilio.com/v1/Sims/DEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/DataSessions?page_size=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

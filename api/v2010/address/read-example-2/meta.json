@@ -5,7 +5,8 @@
   "_definition": {
     "params": {
       "required": {
-        "customer_name": "Customer 123"
+        "customer_name": "Customer 123",
+        "page_size": 20
       },
       "path": {
         "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

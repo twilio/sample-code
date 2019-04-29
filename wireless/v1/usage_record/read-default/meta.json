@@ -3,7 +3,9 @@
   "title": "Read Usage Record",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {
         "sim_sid": "DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       }

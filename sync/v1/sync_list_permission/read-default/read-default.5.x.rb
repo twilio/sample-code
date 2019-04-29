@@ -12,7 +12,7 @@ sync_list_permissions = @client.sync
   .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .sync_lists('ESXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .sync_list_permissions
-  .list
+  .list(limit: 20)
 
 sync_list_permissions.each do |record|
   puts record.service_sid

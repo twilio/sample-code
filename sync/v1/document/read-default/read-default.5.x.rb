@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 documents = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .documents
-                        .list
+                        .list(limit: 20)
 
 documents.each do |record|
   puts record.sid

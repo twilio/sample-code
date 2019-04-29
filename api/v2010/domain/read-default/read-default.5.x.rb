@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-domains = @client.sip.domains.list
+domains = @client.sip.domains.list(limit: 20)
 
 domains.each do |record|
   puts record.sid

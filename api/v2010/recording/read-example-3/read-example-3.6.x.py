@@ -10,7 +10,10 @@ auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
 recordings = client.recordings \
-                   .list(date_created_after=datetime(2009, 7, 6, 0, 0))
+                   .list(
+                        date_created_after=datetime(2009, 7, 6, 0, 0),
+                        limit=20
+                    )
 
 for record in recordings:
     print(record.sid)

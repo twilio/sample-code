@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 ip_access_control_lists = client.trunking \
                                 .trunks('TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                                 .ip_access_control_lists \
-                                .list()
+                                .list(limit=20)
 
 for record in ip_access_control_lists:
     print(record.sid)

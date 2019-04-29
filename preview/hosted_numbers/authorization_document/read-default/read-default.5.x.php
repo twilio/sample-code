@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $authorizationDocuments = $twilio->preview->hostedNumbers->authorizationDocuments
-                                                         ->read();
+                                                         ->read(array(), 20);
 
 foreach ($authorizationDocuments as $record) {
     print($record->sid);

@@ -18,7 +18,8 @@ class Program
 
         var publishedTracks = PublishedTrackResource.Read(
             pathRoomSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathParticipantSid: "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathParticipantSid: "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in publishedTracks)

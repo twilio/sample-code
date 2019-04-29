@@ -15,6 +15,7 @@ public class Example {
         ResourceSet<AuthCallsCredentialListMapping> credentialListMappings = 
             AuthCallsCredentialListMapping.reader(
                 "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(AuthCallsCredentialListMapping record : credentialListMappings) {

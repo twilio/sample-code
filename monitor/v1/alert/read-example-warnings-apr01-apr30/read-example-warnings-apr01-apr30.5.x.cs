@@ -20,7 +20,8 @@ class Program
         var alerts = AlertResource.Read(
             endDate: MarshalConverter.DateTimeFromString("2015-04-30"),
             logLevel: "warning",
-            startDate: MarshalConverter.DateTimeFromString("2015-04-01")
+            startDate: MarshalConverter.DateTimeFromString("2015-04-01"),
+            limit: 20
         );
 
         foreach(var record in alerts)

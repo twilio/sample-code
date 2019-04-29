@@ -8,7 +8,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-roles = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX').roles.list()
+roles = client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                   .roles \
+                   .list(limit=20)
 
 for record in roles:
     print(record.sid)

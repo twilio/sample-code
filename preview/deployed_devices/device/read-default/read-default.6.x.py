@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 devices = client.preview.deployed_devices \
                         .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .devices \
-                        .list()
+                        .list(limit=20)
 
 for record in devices:
     print(record.sid)

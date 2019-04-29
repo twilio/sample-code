@@ -3,7 +3,9 @@
   "title": "Read Fax",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {}
     },
     "location": "https://fax.twilio.com/v1/Faxes",

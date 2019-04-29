@@ -9,7 +9,10 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-recordings = client.recordings.list(date_created=datetime(2016, 10, 18, 0, 0))
+recordings = client.recordings.list(
+                                   date_created=datetime(2016, 10, 18, 0, 0),
+                                   limit=20
+                               )
 
 for record in recordings:
     print(record.sid)

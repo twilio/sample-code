@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<HostedNumberOrder> hostedNumberOrders = 
             HostedNumberOrder.reader()
+            .limit(20)
             .read();
 
         for(HostedNumberOrder record : hostedNumberOrders) {

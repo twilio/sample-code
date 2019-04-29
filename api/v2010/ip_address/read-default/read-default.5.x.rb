@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 ip_addresses = @client.sip
   .ip_access_control_lists('ALXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .ip_addresses
-  .list
+  .list(limit: 20)
 
 ip_addresses.each do |record|
   puts record.sid

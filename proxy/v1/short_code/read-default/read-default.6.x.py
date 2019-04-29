@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 short_codes = client.proxy \
                     .services('KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .short_codes \
-                    .list()
+                    .list(limit=20)
 
 for record in short_codes:
     print(record.sid)

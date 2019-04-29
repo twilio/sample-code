@@ -17,7 +17,8 @@ class Program
         TwilioClient.Init(accountSid, authToken);
 
         var credentials = CredentialResource.Read(
-            pathCredentialListSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            pathCredentialListSid: "CLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            limit: 20
         );
 
         foreach(var record in credentials)

@@ -12,7 +12,8 @@ public class Example {
 
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-        ResourceSet<Conference> conferences = Conference.reader().read();
+        ResourceSet<Conference> conferences = Conference.reader()
+            .limit(20).read();
 
         for(Conference record : conferences) {
             System.out.println(record.getSid());

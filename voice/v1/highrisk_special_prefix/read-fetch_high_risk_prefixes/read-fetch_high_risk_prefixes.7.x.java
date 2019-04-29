@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<HighriskSpecialPrefix> highriskSpecialPrefixes = 
             HighriskSpecialPrefix.reader("LV")
+            .limit(20)
             .read();
 
         for(HighriskSpecialPrefix record : highriskSpecialPrefixes) {

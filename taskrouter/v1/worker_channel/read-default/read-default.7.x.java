@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<WorkerChannel> workerChannels = WorkerChannel.reader(
                 "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(WorkerChannel record : workerChannels) {
             System.out.println(record.getSid());

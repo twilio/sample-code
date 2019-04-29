@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 sync_maps = @client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                         .sync_maps
-                        .list
+                        .list(limit: 20)
 
 sync_maps.each do |record|
   puts record.sid

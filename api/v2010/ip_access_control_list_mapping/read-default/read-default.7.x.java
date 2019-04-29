@@ -15,6 +15,7 @@ public class Example {
         ResourceSet<IpAccessControlListMapping> ipAccessControlListMappings = 
             IpAccessControlListMapping.reader(
                 "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+            .limit(20)
             .read();
 
         for(IpAccessControlListMapping record : ipAccessControlListMappings) {

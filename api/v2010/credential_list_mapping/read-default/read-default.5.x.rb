@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 credential_list_mappings = @client.sip
   .domains('SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
   .credential_list_mappings
-  .list
+  .list(limit: 20)
 
 credential_list_mappings.each do |record|
   puts record.sid

@@ -12,7 +12,7 @@ deployments = client.preview \
                     .deployed_devices \
                     .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                     .deployments \
-                    .list()
+                    .list(limit=20)
 
 for record in deployments:
     print(record.sid)

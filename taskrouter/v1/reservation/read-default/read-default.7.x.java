@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<Reservation> reservations = Reservation.reader(
                 "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(Reservation record : reservations) {
             System.out.println(record.getSid());

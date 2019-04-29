@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-compositions = client.video.compositions.list()
+compositions = client.video.compositions.list(limit=20)
 
 for record in compositions:
     print(record.sid)

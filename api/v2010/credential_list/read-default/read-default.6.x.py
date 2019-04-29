@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-credential_lists = client.sip.credential_lists.list()
+credential_lists = client.sip.credential_lists.list(limit=20)
 
 for record in credential_lists:
     print(record.sid)

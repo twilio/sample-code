@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $tollFree = $twilio->incomingPhoneNumbers
                    ->tollFree
-                   ->read();
+                   ->read(array(), 20);
 
 foreach ($tollFree as $record) {
     print($record->sid);

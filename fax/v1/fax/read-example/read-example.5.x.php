@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $faxes = $twilio->fax->v1->faxes
-                         ->read();
+                         ->read(array(), 20);
 
 foreach ($faxes as $record) {
     print($record->sid);

@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $yearly = $twilio->usage
                  ->records
                  ->yearly
-                 ->read();
+                 ->read(array(), 20);
 
 foreach ($yearly as $record) {
     print($record->category);

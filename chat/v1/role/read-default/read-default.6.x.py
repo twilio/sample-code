@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 roles = client.chat.v1.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .roles \
-                      .list()
+                      .list(limit=20)
 
 for record in roles:
     print(record.sid)

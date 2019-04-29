@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $usageRecords = $twilio->wireless->v1->sims("DEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                      ->usageRecords
-                                     ->read();
+                                     ->read(array(), 20);
 
 foreach ($usageRecords as $record) {
     print($record->simSid);

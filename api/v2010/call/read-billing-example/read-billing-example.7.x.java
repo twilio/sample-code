@@ -14,7 +14,9 @@ public class Example {
     public static void main(String[] args) {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Call> calls = Call.reader()
-            .setStartTime(new DateTime(2018, 1, 15, 0, 0)).read();
+            .setStartTime(new DateTime(2018, 1, 15, 0, 0))
+            .limit(20)
+            .read();
 
         for(Call record : calls) {
             System.out.println(record.getPrice());

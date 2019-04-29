@@ -15,7 +15,7 @@ $twilio = new Client($sid, $token);
 $highriskSpecialPrefixes = $twilio->voice->v1->dialingPermissions
                                              ->countries("US")
                                              ->highriskSpecialPrefixes
-                                             ->read();
+                                             ->read(array(), 20);
 
 foreach ($highriskSpecialPrefixes as $record) {
     print($record->prefix);

@@ -12,7 +12,7 @@ user_channels = client.chat \
                       .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .users('USXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .user_channels \
-                      .list()
+                      .list(limit=20)
 
 for record in user_channels:
     print(record.service_sid)

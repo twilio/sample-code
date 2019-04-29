@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 executions = @client.studio
                     .flows('FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                     .executions
-                    .list
+                    .list(limit: 20)
 
 executions.each do |record|
   puts record.sid

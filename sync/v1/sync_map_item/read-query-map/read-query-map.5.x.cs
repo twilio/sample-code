@@ -20,7 +20,8 @@ class Program
             from: "steph_curry",
             order: SyncMapItemResource.QueryResultOrderEnum.Asc,
             pathServiceSid: "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathMapSid: "Players"
+            pathMapSid: "Players",
+            limit: 20
         );
 
         foreach(var record in syncMapItems)

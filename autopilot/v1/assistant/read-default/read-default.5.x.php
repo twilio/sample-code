@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $assistants = $twilio->autopilot->v1->assistants
-                                    ->read();
+                                    ->read(array(), 20);
 
 foreach ($assistants as $record) {
     print($record->sid);

@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $national = $twilio->availablePhoneNumbers("US")
                    ->national
-                   ->read();
+                   ->read(array(), 20);
 
 foreach ($national as $record) {
     print($record->friendlyName);

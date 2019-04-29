@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<MachineToMachine> machineToMachine = 
             MachineToMachine.reader("US")
+            .limit(20)
             .read();
 
         for(MachineToMachine record : machineToMachine) {

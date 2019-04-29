@@ -12,7 +12,7 @@ certificates = client.preview \
                      .deployed_devices \
                      .fleets('FLXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .certificates \
-                     .list()
+                     .list(limit=20)
 
 for record in certificates:
     print(record.sid)

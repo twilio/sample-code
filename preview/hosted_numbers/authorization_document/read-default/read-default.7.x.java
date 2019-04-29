@@ -14,6 +14,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<AuthorizationDocument> authorizationDocuments = 
             AuthorizationDocument.reader()
+            .limit(20)
             .read();
 
         for(AuthorizationDocument record : authorizationDocuments) {

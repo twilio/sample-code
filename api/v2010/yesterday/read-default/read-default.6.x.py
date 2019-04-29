@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-yesterday = client.usage.records.yesterday.list()
+yesterday = client.usage.records.yesterday.list(limit=20)
 
 for record in yesterday:
     print(record.category)

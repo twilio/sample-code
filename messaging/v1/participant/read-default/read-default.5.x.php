@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $participants = $twilio->messaging->v1->sessions("CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->participants
-                                      ->read();
+                                      ->read(array(), 20);
 
 foreach ($participants as $record) {
     print($record->sid);

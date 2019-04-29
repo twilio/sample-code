@@ -8,7 +8,7 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-national = @client.available_phone_numbers('US').national.list
+national = @client.available_phone_numbers('US').national.list(limit: 20)
 
 national.each do |record|
   puts record.friendly_name

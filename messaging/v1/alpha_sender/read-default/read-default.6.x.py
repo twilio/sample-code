@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 alpha_senders = client.messaging \
                       .services('MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                       .alpha_senders \
-                      .list()
+                      .list(limit=20)
 
 for record in alpha_senders:
     print(record.sid)

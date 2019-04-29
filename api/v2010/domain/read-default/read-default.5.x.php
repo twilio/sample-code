@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $domains = $twilio->sip
                   ->domains
-                  ->read();
+                  ->read(array(), 20);
 
 foreach ($domains as $record) {
     print($record->sid);

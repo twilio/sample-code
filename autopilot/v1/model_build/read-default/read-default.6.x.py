@@ -11,7 +11,7 @@ client = Client(account_sid, auth_token)
 model_builds = client.autopilot \
                      .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                      .model_builds \
-                     .list()
+                     .list(limit=20)
 
 for record in model_builds:
     print(record.sid)

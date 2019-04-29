@@ -16,6 +16,7 @@ public class Example {
             DocumentPermission.reader(
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "MyFirstDocument")
+            .limit(20)
             .read();
 
         for(DocumentPermission record : documentPermissions) {

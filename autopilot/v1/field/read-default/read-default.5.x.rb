@@ -12,7 +12,7 @@ fields = @client.autopilot
                 .assistants('UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .tasks('UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                 .fields
-                .list
+                .list(limit: 20)
 
 fields.each do |record|
   puts record.sid

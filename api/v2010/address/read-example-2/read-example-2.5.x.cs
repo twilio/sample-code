@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var addresses = AddressResource.Read(customerName: "Customer 123");
+        var addresses = AddressResource.Read(customerName: "Customer 123", limit: 20);
 
         foreach(var record in addresses)
         {

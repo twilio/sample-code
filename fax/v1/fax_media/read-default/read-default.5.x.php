@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $media = $twilio->fax->v1->faxes("FXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                          ->media
-                         ->read();
+                         ->read(array(), 20);
 
 foreach ($media as $record) {
     print($record->sid);

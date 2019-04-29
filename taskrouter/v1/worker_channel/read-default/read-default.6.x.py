@@ -12,7 +12,7 @@ worker_channels = client.taskrouter \
                         .workspaces('WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .workers('WKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
                         .worker_channels \
-                        .list()
+                        .list(limit=20)
 
 for record in worker_channels:
     print(record.sid)

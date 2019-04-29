@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $bindings = $twilio->notify->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                ->bindings
-                               ->read();
+                               ->read(array(), 20);
 
 foreach ($bindings as $record) {
     print($record->sid);

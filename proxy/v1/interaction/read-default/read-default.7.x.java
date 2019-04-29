@@ -15,7 +15,7 @@ public class Example {
         ResourceSet<Interaction> interactions = Interaction.reader(
                 "KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "KCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .read();
+            .limit(20).read();
 
         for(Interaction record : interactions) {
             System.out.println(record.getSid());

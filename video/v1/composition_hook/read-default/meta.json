@@ -3,7 +3,9 @@
   "title": "Read Composition Hook",
   "_definition": {
     "params": {
-      "required": {},
+      "required": {
+        "page_size": 20
+      },
       "path": {}
     },
     "location": "https://video.twilio.com/v1/CompositionHooks",

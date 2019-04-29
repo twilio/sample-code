@@ -18,7 +18,8 @@ class Program
 
         var conferences = ConferenceResource.Read(
             friendlyName: "MyRoom",
-            status: ConferenceResource.StatusEnum.InProgress
+            status: ConferenceResource.StatusEnum.InProgress,
+            limit: 20
         );
 
         foreach(var record in conferences)

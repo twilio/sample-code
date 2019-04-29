@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var fleets = FleetResource.Read();
+        var fleets = FleetResource.Read(limit: 20);
 
         foreach(var record in fleets)
         {

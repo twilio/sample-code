@@ -11,7 +11,7 @@ auth_token = 'your_auth_token'
 messages = @client.chat.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .channels('CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
                        .messages
-                       .list
+                       .list(limit: 20)
 
 messages.each do |record|
   puts record.sid

@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var trunks = TrunkResource.Read();
+        var trunks = TrunkResource.Read(limit: 20);
 
         foreach(var record in trunks)
         {

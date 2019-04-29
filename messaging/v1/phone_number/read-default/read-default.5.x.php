@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $phoneNumbers = $twilio->messaging->v1->services("MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                       ->phoneNumbers
-                                      ->read();
+                                      ->read(array(), 20);
 
 foreach ($phoneNumbers as $record) {
     print($record->sid);

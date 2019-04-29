@@ -14,7 +14,7 @@ $twilio = new Client($sid, $token);
 
 $documents = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                               ->documents
-                              ->read();
+                              ->read(array(), 20);
 
 foreach ($documents as $record) {
     print($record->sid);

@@ -16,7 +16,7 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var triggers = TriggerResource.Read();
+        var triggers = TriggerResource.Read(limit: 20);
 
         foreach(var record in triggers)
         {
