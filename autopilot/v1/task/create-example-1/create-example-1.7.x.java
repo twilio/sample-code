@@ -1,9 +1,9 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.autopilot.v1.assistant.Task;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Example {
@@ -20,7 +20,7 @@ public class Example {
             .setActions(
                 new HashMap<String, Object>()
                 {{
-                    put("actions", Promoter.listOfOne(new HashMap<String, Object>()
+                    put("actions", Arrays.asList(new HashMap<String, Object>()
                     {{
                         put("say", new HashMap<String, Object>()
                         {{

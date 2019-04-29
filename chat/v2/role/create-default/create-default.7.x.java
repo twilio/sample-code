@@ -1,8 +1,9 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.chat.v2.service.Role;
+
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -16,7 +17,7 @@ public class Example {
                 "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
                 "friendly_name",
                 Role.RoleType.CHANNEL,
-                Promoter.listOfOne("permission"))
+                Arrays.asList("permission"))
             .create();
 
         System.out.println(role.getSid());

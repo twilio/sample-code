@@ -1,8 +1,9 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.lookups.v1.PhoneNumber;
+
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -14,7 +15,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         PhoneNumber phoneNumber = PhoneNumber.fetcher(
                 new com.twilio.type.PhoneNumber("+15108675310"))
-            .setType(Promoter.listOfOne("carrier")).fetch();
+            .setType(Arrays.asList("carrier")).fetch();
 
         System.out.println(phoneNumber.getCarrier());
     }

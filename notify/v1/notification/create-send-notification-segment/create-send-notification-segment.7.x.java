@@ -1,8 +1,9 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.notify.v1.service.Notification;
+
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -15,8 +16,8 @@ public class Example {
         Notification notification = 
             Notification.creator("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setBody("Hello New Users")
-            .setSegment(Promoter.listOfOne("new_user"))
-            .setIdentity(Promoter.listOfOne("identity"))
+            .setSegment(Arrays.asList("new_user"))
+            .setIdentity(Arrays.asList("identity"))
             .create();
 
         System.out.println(notification.getSid());

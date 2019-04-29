@@ -1,11 +1,11 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.api.v2010.account.Message;
 import com.twilio.type.PhoneNumber;
 
 import java.net.URI;
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -20,7 +20,7 @@ public class Example {
                 new com.twilio.type.PhoneNumber("+14158141829"),
                 "Let's grab lunch at Milliways tomorrow!")
             .setMediaUrl(
-                Promoter.listOfOne(URI.create("http://www.example.com/cheeseburger.png")))
+                Arrays.asList(URI.create("http://www.example.com/cheeseburger.png")))
             .create();
 
         System.out.println(message.getSid());
