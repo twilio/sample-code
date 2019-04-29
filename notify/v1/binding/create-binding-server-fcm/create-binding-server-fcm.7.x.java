@@ -1,8 +1,9 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.notify.v1.service.Binding;
+
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -18,7 +19,7 @@ public class Example {
                 Binding.BindingType.FCM,
                 "fcm_device_token")
             .setEndpoint("XXXXXXXXXXXXXXX")
-            .setTag(Promoter.listOfOne("preferred device"))
+            .setTag(Arrays.asList("preferred device"))
             .create();
 
         System.out.println(binding.getSid());

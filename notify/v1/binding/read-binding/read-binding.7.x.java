@@ -3,8 +3,9 @@
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
 import com.twilio.converter.DateConverter;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.notify.v1.service.Binding;
+
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -17,7 +18,7 @@ public class Example {
         ResourceSet<Binding> bindings = 
             Binding.reader("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setStartDate(DateConverter.localDateFromString("2015-08-25"))
-            .setTag(Promoter.listOfOne("new user"))
+            .setTag(Arrays.asList("new user"))
             .limit(20)
             .read();
 

@@ -1,8 +1,9 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.preview.hostedNumbers.AuthorizationDocument;
+
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -16,7 +17,7 @@ public class Example {
             AuthorizationDocument.updater(
                 "PXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
             .setHostedNumberOrderSids(
-                Promoter.listOfOne("hosted_number_order_sids"))
+                Arrays.asList("hosted_number_order_sids"))
             .update();
 
         System.out.println(authorizationDocument.getSid());

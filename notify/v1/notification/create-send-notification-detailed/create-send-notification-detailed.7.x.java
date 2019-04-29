@@ -1,9 +1,9 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.notify.v1.service.Notification;
 
+import java.util.Arrays;
 import java.util.HashMap;
 
 public class Example {
@@ -43,7 +43,7 @@ public class Example {
                         put("body", "Hello Bob!");
                     }});
                 }})
-            .setIdentity(Promoter.listOfOne("00000001"))
+            .setIdentity(Arrays.asList("00000001"))
             .setTitle("Generic loooooooong title for all Bindings")
             .create();
 

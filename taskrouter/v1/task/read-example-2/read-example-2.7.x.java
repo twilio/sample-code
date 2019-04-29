@@ -2,8 +2,9 @@
 
 import com.twilio.Twilio;
 import com.twilio.base.ResourceSet;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.taskrouter.v1.workspace.Task;
+
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -15,7 +16,7 @@ public class Example {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
         ResourceSet<Task> tasks = 
             Task.reader("WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-            .setAssignmentStatus(Promoter.listOfOne("pending"))
+            .setAssignmentStatus(Arrays.asList("pending"))
             .limit(20)
             .read();
 

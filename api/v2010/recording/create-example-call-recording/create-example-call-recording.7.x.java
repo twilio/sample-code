@@ -1,10 +1,10 @@
 // Install the Java helper library from twilio.com/docs/java/install
 
 import com.twilio.Twilio;
-import com.twilio.converter.Promoter;
 import com.twilio.rest.api.v2010.account.call.Recording;
 
 import java.net.URI;
+import java.util.Arrays;
 
 public class Example {
     // Find your Account Sid and Token at twilio.com/console
@@ -19,7 +19,7 @@ public class Example {
             .setRecordingStatusCallback(
                 URI.create("https://myapp.com/recording-events"))
             .setRecordingStatusCallbackEvent(
-                Promoter.listOfOne("in-progress completed"))
+                Arrays.asList("in-progress completed"))
             .setRecordingChannels("dual")
             .create();
 
