@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 stream_message = @client.sync
                         .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                        .sync_streams('TOXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .sync_streams('MyStream')
                         .stream_messages
                         .create(data: {
                              'id' => 'bob',

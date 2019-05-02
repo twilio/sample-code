@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $syncMapItems = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                 ->syncMaps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                 ->syncMaps("Players")
                                  ->syncMapItems
                                  ->read(array(
                                             "from" => "steph_curry",

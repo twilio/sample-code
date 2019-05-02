@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $syncMapPermissions = $twilio->sync->v1->services("ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-                                       ->syncMaps("MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                       ->syncMaps("Players")
                                        ->syncMapPermissions
                                        ->read(array(), 20);
 

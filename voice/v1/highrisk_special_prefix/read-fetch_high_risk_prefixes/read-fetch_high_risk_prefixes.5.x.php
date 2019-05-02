@@ -13,7 +13,7 @@ $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
 $highriskSpecialPrefixes = $twilio->voice->v1->dialingPermissions
-                                             ->countries("US")
+                                             ->countries("LV")
                                              ->highriskSpecialPrefixes
                                              ->read(array(), 20);
 

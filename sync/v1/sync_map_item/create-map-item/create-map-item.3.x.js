@@ -6,7 +6,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.sync.services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-           .syncMaps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+           .syncMaps('Players')
            .syncMapItems
            .create({ttl: 864000, key: 'steph_curry', data: {
                 name: 'Stephen Curry',

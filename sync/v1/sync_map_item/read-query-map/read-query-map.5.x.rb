@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 sync_map_items = @client.sync
                         .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                        .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                        .sync_maps('Players')
                         .sync_map_items
                         .list(from: 'steph_curry', order: 'asc', limit: 20)
 

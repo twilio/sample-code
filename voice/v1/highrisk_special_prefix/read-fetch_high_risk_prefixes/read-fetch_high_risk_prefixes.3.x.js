@@ -6,7 +6,7 @@ const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
 client.voice.dialingPermissions
-  .countries('US')
+  .countries('LV')
   .highriskSpecialPrefixes
   .list({limit: 20})
   .then(highriskSpecialPrefixes => highriskSpecialPrefixes.forEach(h => console.log(h.prefix)));
