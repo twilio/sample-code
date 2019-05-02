@@ -14,6 +14,6 @@ $twilio = new Client($sid, $token);
 
 $verification = $twilio->verify->v2->services("VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                    ->verifications
-                                   ->create("+14159373912", "sms");
+                                   ->create("to", "channel");
 
 print($verification->sid);

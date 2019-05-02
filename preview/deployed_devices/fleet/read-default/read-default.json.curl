@@ -1,2 +1,2 @@
-curl -X GET 'https://preview.twilio.com/DeployedDevices/Fleets?page_size=20' \
+curl -X GET 'https://preview.twilio.com/DeployedDevices/Fleets?PageSize=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

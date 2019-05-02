@@ -1,2 +1,2 @@
-curl -X GET 'https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers?TargetWorkersExpression=type+%3D%3D+%27leads%27&page_size=20' \
+curl -X GET 'https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Workers?TargetWorkersExpression=type+%3D%3D+%27leads%27&PageSize=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
