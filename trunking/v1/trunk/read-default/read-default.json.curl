@@ -1,2 +1,2 @@
-curl -X GET 'https://trunking.twilio.com/v1/Trunks?page_size=20' \
+curl -X GET 'https://trunking.twilio.com/v1/Trunks?PageSize=20' \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token
