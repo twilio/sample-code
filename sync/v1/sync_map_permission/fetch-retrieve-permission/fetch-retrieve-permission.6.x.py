@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 
 sync_map_permission = client.sync \
                             .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
-                            .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                            .sync_maps('Players') \
                             .sync_map_permissions('bob') \
                             .fetch()
 

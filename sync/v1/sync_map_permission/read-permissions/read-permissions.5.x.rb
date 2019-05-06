@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 sync_map_permissions = @client.sync
                               .services('ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
-                              .sync_maps('MPXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+                              .sync_maps('Players')
                               .sync_map_permissions
                               .list(limit: 20)
 

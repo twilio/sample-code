@@ -10,7 +10,7 @@ auth_token = 'your_auth_token'
 
 highrisk_special_prefixes = @client.voice
                                    .dialing_permissions
-                                   .countries('US')
+                                   .countries('LV')
                                    .highrisk_special_prefixes
                                    .list(limit: 20)
 
