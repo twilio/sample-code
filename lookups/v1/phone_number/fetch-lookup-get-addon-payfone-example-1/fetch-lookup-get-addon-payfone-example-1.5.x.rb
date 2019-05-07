@@ -14,4 +14,4 @@ phone_number = @client.lookups
        'payfone_tcpa_compliance.right_party_contacted_date' => 20160101
    }, type: 'carrier')
 
-puts phone_number.carrier
+puts phone_number.add_ons

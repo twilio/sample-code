@@ -18,6 +18,6 @@ public class Example {
             .setAddOns(Arrays.asList("whitepages_pro_caller_id"))
             .fetch();
 
-        System.out.println(phoneNumber.getCarrier());
+        System.out.println(phoneNumber.getAddOns());
     }
 }

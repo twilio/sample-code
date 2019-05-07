@@ -24,6 +24,6 @@ public class Example {
                 }})
             .fetch();
 
-        System.out.println(phoneNumber.getCallerName());
+        System.out.println(phoneNumber.getAddOns());
     }
 }

@@ -7,4 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.lookups.phoneNumbers('+12127363100')
               .fetch({addOns: 'whitepages_pro_caller_id'})
-              .then(phone_number => console.log(phone_number.carrier));
+              .then(phone_number => console.log(phone_number.addOns));

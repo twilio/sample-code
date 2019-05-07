@@ -9,4 +9,4 @@ client.lookups.phoneNumbers('+16502530000')
       .fetch({addOns: 'payfone_tcpa_compliance', addOnsData: {
            'payfone_tcpa_compliance.right_party_contacted_date': 20160101
        }, type: 'carrier'})
-      .then(phone_number => console.log(phone_number.carrier));
+      .then(phone_number => console.log(phone_number.addOns));

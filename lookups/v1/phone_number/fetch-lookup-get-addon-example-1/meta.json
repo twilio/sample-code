@@ -2,7 +2,7 @@
   "original_snippet_path": "lookups/lookup-get-addon-example-1/lookup-get-addon-examples-1.6.x.py",
   "title": "Get additional caller information with Lookup and Whitepages Pro Caller ID Add-on",
   "type": "server",
-  "output_property": "carrier",
+  "output_property": "add_ons",
   "transaction_name": "fetch_addons_whitepages_pro",
   "_definition": {
     "params": {
