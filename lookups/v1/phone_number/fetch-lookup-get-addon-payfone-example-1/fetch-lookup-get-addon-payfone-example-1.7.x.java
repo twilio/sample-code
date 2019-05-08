@@ -25,6 +25,6 @@ public class Example {
             .setType(Arrays.asList("carrier"))
             .fetch();
 
-        System.out.println(phoneNumber.getCarrier());
+        System.out.println(phoneNumber.getAddOns());
     }
 }

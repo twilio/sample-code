@@ -18,6 +18,6 @@ public class Example {
             .setAddOns(Arrays.asList("nomorobo_spamscore"))
             .fetch();
 
-        System.out.println(phoneNumber.getCallerName());
+        System.out.println(phoneNumber.getAddOns());
     }
 }

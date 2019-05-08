@@ -18,4 +18,4 @@ $phone_number = $twilio->lookups->v1->phoneNumbers("+12127363100")
                                             )
                                     );
 
-print($phone_number->carrier);
+print($phone_number->addOns);

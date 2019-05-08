@@ -1,6 +1,7 @@
 {
   "title": "Detect Robocallers with Lookup and Nomorobo Spam Score Add-on",
   "type": "server",
+  "output_property": "add_ons",
   "transaction_name": "fetch_addons_nomorobo",
   "_definition": {
     "params": {

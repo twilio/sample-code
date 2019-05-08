@@ -7,4 +7,4 @@ const client = require('twilio')(accountSid, authToken);
 
 client.lookups.phoneNumbers('+19892008374')
               .fetch({addOns: 'nomorobo_spamscore'})
-              .then(phone_number => console.log(phone_number.callerName));
+              .then(phone_number => console.log(phone_number.addOns));

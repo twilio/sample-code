@@ -8,7 +8,7 @@
   "testable": false,
   "title": "Deterministic TCPA Compliance with Lookup and the Payfone Add-on",
   "type": "server",
-  "output_property": "carrier",
+  "output_property": "add_ons",
   "transaction_name": "fetch_addons_payfone",
   "_definition": {
     "params": {

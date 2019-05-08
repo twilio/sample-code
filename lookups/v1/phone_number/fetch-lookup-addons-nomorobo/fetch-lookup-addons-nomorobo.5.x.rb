@@ -12,4 +12,4 @@ phone_number = @client.lookups
                       .phone_numbers('+19892008374')
                       .fetch(add_ons: 'nomorobo_spamscore')
 
-puts phone_number.caller_name
+puts phone_number.add_ons
