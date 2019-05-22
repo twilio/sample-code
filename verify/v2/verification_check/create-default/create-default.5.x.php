@@ -12,8 +12,11 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
+//Either a 'To' number or 'VerificationSid' must be specified
+$options = [];
+$options['verificationSid'] = 'VE4db3.....';
 $verification_check = $twilio->verify->v2->services("VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->verificationChecks
-                                         ->create("code");
+                                         ->create("code", $options);
 
 print($verification_check->sid);
