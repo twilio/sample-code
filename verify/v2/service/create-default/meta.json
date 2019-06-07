@@ -4,7 +4,7 @@
   "_definition": {
     "params": {
       "required": {
-        "friendly_name": "friendly_name"
+        "friendly_name": "Friendly Name"
       },
       "path": {}
     },

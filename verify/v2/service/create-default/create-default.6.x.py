@@ -8,6 +8,6 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-service = client.verify.services.create(friendly_name='friendly_name')
+service = client.verify.services.create(friendly_name='Friendly Name')
 
 print(service.sid)
