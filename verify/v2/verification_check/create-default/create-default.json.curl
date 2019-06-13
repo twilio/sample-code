@@ -1,3 +1,4 @@
 curl -X POST https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/VerificationCheck \
---data-urlencode "Code=code" \
+--data-urlencode "To=+14159373912" \
+--data-urlencode "Code=1234" \
 -u ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:your_auth_token

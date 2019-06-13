@@ -12,7 +12,8 @@ $sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $token  = "your_auth_token";
 $twilio = new Client($sid, $token);
 
-$service = $twilio->verify->v2->services
-                              ->create("Friendly Name");
+$verification = $twilio->verify->v2->services("VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+                                   ->verifications("+14159373912")
+                                   ->update("approved");
 
-print($service->sid);
+print($verification->status);

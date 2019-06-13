@@ -8,6 +8,9 @@ account_sid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 auth_token = 'your_auth_token'
 client = Client(account_sid, auth_token)
 
-service = client.verify.services.create(friendly_name='Friendly Name')
+verification = client.verify \
+                     .services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX') \
+                     .verifications('+14159373912') \
+                     .update(status='approved')
 
-print(service.sid)
+print(verification.status)

@@ -14,6 +14,8 @@ $twilio = new Client($sid, $token);
 
 $verification_check = $twilio->verify->v2->services("VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                          ->verificationChecks
-                                         ->create("code");
+                                         ->create("1234", // code
+                                                  array("to" => "+14159373912")
+                                         );
 
 print($verification_check->sid);

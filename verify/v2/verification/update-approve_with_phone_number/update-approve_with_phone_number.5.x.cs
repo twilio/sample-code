@@ -2,7 +2,7 @@
 
 using System;
 using Twilio;
-using Twilio.Rest.Verify.V2;
+using Twilio.Rest.Verify.V2.Service;
 
 
 class Program 
@@ -16,8 +16,12 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var service = ServiceResource.Create(friendlyName: "Friendly Name");
+        var verification = VerificationResource.Update(
+            status: VerificationResource.StatusEnum.Approved,
+            pathServiceSid: "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathSid: "+14159373912"
+        );
 
-        Console.WriteLine(service.Sid);
+        Console.WriteLine(verification.Status);
     }
 }

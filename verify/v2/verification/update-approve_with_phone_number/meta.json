@@ -1,0 +1,23 @@
+{
+  "type": "server",
+  "transaction_name": "approve_verification_with_pn",
+  "title": "Manually approve a verification with a phone number",
+  "output_property": "status",
+  "_definition": {
+    "params": {
+      "required": {
+        "status": "approved"
+      },
+      "path": {
+        "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "sid": "+14159373912"
+      }
+    },
+    "location": "https://verify.twilio.com/v2/Services/{service_sid}/Verifications/{sid}",
+    "method": "post",
+    "domain": "verify",
+    "version": "v2",
+    "resource": "verification",
+    "action": "update"
+  }
+}

@@ -5,5 +5,7 @@ const accountSid = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 const authToken = 'your_auth_token';
 const client = require('twilio')(accountSid, authToken);
 
-client.verify.services.create({friendlyName: 'Friendly Name'})
-                      .then(service => console.log(service.sid));
+client.verify.services('VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+             .verifications('+14159373912')
+             .update({status: 'approved'})
+             .then(verification => console.log(verification.status));
