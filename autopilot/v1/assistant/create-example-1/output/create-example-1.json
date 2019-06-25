@@ -5,6 +5,8 @@
   "friendly_name": "Styled Assistant",
   "latest_model_build_sid": null,
   "log_queries": true,
+  "development_stage": "in-development",
+  "needs_model_build": false,
   "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "unique_name": "styled-assistant",
   "links": {
@@ -14,7 +16,8 @@
     "queries": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries",
     "style_sheet": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/StyleSheet",
     "defaults": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Defaults",
-    "dialogues": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Dialogues"
+    "dialogues": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Dialogues",
+    "webhooks": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks"
   },
   "url": "https://autopilot.twilio.com/v1/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "callback_url": "https://example.com/callback_url",

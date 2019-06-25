@@ -1,27 +1,57 @@
 {
   "conferences": [
     {
-      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "api_version": "2010-04-01",
-      "date_created": "Mon, 22 Aug 2011 20:58:45 +0000",
-      "date_updated": "Mon, 22 Aug 2011 20:58:46 +0000",
-      "friendly_name": null,
-      "region": "us1",
-      "sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
       "status": "in-progress",
+      "region": "jp1",
+      "sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "date_updated": "Sat, 03 Jan 2015 11:23:45 +0000",
+      "date_created": "Sat, 03 Jan 2015 11:23:45 +0000",
       "subresource_uris": {
         "participants": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants.json",
         "recordings": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json"
       },
-      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
+      "friendly_name": "friendly_name",
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+      "api_version": "2010-04-01",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+      "status": "in-progress",
+      "region": "unknown",
+      "sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "date_updated": "Fri, 02 Jan 2015 11:23:45 +0000",
+      "date_created": "Fri, 02 Jan 2015 11:23:45 +0000",
+      "subresource_uris": {
+        "participants": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants.json",
+        "recordings": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json"
+      },
+      "friendly_name": "friendly_name",
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+      "api_version": "2010-04-01",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+      "status": "in-progress",
+      "region": "us1",
+      "sid": "CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "date_updated": "Thu, 01 Jan 2015 11:23:45 +0000",
+      "date_created": "Thu, 01 Jan 2015 11:23:45 +0000",
+      "subresource_uris": {
+        "participants": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Participants.json",
+        "recordings": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Recordings.json"
+      },
+      "friendly_name": "friendly_name",
+      "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences/CFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json",
+      "api_version": "2010-04-01",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     }
   ],
-  "end": 0,
-  "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?PageSize=1&Page=0",
-  "next_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?PageSize=1&Page=1",
+  "first_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?Status=in-progress&DateUpdated%3E=2018-11-12&DateUpdated%3C=2018-11-11&DateCreated=2008-01-03&FriendlyName=friendly_name&DateUpdated=2018-11-13&DateCreated%3C=2008-01-01&DateCreated%3E=2008-01-02&PageSize=3&Page=0",
+  "next_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?Status=in-progress&DateUpdated%3E=2018-11-12&DateUpdated%3C=2018-11-11&DateCreated=2008-01-03&FriendlyName=friendly_name&DateUpdated=2018-11-13&DateCreated%3C=2008-01-01&DateCreated%3E=2008-01-02&PageSize=3&Page=1&PageToken=PACFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "previous_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?Status=in-progress&DateUpdated%3E=2018-11-12&DateUpdated%3C=2018-11-11&DateCreated=2008-01-03&FriendlyName=friendly_name&DateUpdated=2018-11-13&DateCreated%3C=2008-01-01&DateCreated%3E=2008-01-02&PageSize=3&Page=0",
+  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?Status=in-progress&DateUpdated%3E=2018-11-12&DateUpdated%3C=2018-11-11&DateCreated=2008-01-03&FriendlyName=friendly_name&DateUpdated=2018-11-13&DateCreated%3C=2008-01-01&DateCreated%3E=2008-01-02&PageSize=3&Page=0",
   "page": 0,
-  "page_size": 1,
-  "previous_page_uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?PageSize=1&Page=0",
+  "page_size": 3,
   "start": 0,
-  "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Conferences.json?PageSize=1"
+  "end": 2
 }

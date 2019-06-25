@@ -15,8 +15,8 @@
   "iso_country": "EE",
   "outbound_prefix_prices": [
     {
-      "base_price": "0.09",
-      "current_price": "0.09",
+      "base_price": "0.090",
+      "current_price": "0.090",
       "destination_prefixes": [
         "1907"
       ],

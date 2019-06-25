@@ -23,7 +23,8 @@
         "voice_inbound": false
       },
       "url": "https://proxy.twilio.com/v1/Services/KSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/PhoneNumbers/PNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "is_reserved": false
+      "is_reserved": false,
+      "in_use": 0
     }
   ]
 }

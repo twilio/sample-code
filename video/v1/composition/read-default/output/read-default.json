@@ -2,11 +2,11 @@
   "compositions": [],
   "meta": {
     "page": 0,
-    "page_size": 50,
-    "first_page_url": "https://video.twilio.com/v1/Compositions?PageSize=50&Page=0",
-    "previous_page_url": "https://video.twilio.com/v1/Compositions?PageSize=50&Page=0",
-    "url": "https://video.twilio.com/v1/Compositions?PageSize=50&Page=0",
-    "next_page_url": "https://video.twilio.com/v1/Compositions?PageSize=50&Page=1",
+    "page_size": 10,
+    "first_page_url": "https://video.twilio.com/v1/Compositions?Status=enqueued&PageSize=10&Page=0",
+    "previous_page_url": "https://video.twilio.com/v1/Compositions?Status=enqueued&PageSize=10&Page=0",
+    "url": "https://video.twilio.com/v1/Compositions?Status=enqueued&PageSize=10&Page=0",
+    "next_page_url": "https://video.twilio.com/v1/Compositions?Status=enqueued&PageSize=10&Page=1",
     "key": "compositions"
   }
 }

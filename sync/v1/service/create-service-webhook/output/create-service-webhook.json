@@ -14,5 +14,7 @@
   "url": "https://sync.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "webhook_url": "https://example.com/sync",
   "reachability_webhooks_enabled": false,
-  "acl_enabled": true
+  "acl_enabled": true,
+  "reachability_debouncing_enabled": false,
+  "reachability_debouncing_window": 5000
 }
