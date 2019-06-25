@@ -11,7 +11,7 @@
     "task": {
       "name": "name",
       "task_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "confidence": null
+      "confidence": 0.9
     },
     "fields": [
       {

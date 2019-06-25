@@ -26,14 +26,14 @@
       },
       "data": {
         "billing_units": "USD",
-        "billed": null,
+        "billed": 0.35,
         "total": 3494609,
         "upload": 731560,
         "download": 2763049,
         "units": "bytes",
         "home": {
           "billing_units": "USD",
-          "billed": null,
+          "billed": 0.35,
           "total": 3494609,
           "upload": 731560,
           "download": 2763049,
