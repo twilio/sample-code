@@ -1,17 +1,5 @@
 {
-  "subscribed_tracks": [
-    {
-      "publisher_sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "subscriber_sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "date_created": "2015-07-30T20:00:00Z",
-      "date_updated": "2015-07-30T20:00:00Z",
-      "sid": "MTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-      "name": "bob-track",
-      "kind": "data",
-      "enabled": true
-    }
-  ],
+  "subscribed_tracks": [],
   "meta": {
     "page": 0,
     "page_size": 50,

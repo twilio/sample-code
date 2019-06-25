@@ -18,7 +18,7 @@
       "iccid": "iccid",
       "e_id": "e_id",
       "status": "new",
-      "reset_status": null,
+      "reset_status": "resetting",
       "sms_fallback_method": "http_method",
       "sms_fallback_url": "http://www.example.com",
       "sms_method": "http_method",
@@ -32,12 +32,12 @@
     }
   ],
   "meta": {
-    "first_page_url": "https://wireless.twilio.com/v1/Sims?PageSize=50&Page=0",
+    "first_page_url": "https://wireless.twilio.com/v1/Sims?Status=new&Iccid=iccid&RatePlan=rate_plan&PageSize=50&Page=0",
     "key": "sims",
-    "next_page_url": "https://wireless.twilio.com/v1/Sims?PageSize=50&Page=1",
+    "next_page_url": "https://wireless.twilio.com/v1/Sims?Status=new&Iccid=iccid&RatePlan=rate_plan&PageSize=50&Page=1",
     "page": 0,
     "page_size": 50,
-    "previous_page_url": "https://wireless.twilio.com/v1/Sims?PageSize=50&Page=0",
-    "url": "https://wireless.twilio.com/v1/Sims?PageSize=50&Page=0"
+    "previous_page_url": "https://wireless.twilio.com/v1/Sims?Status=new&Iccid=iccid&RatePlan=rate_plan&PageSize=50&Page=0",
+    "url": "https://wireless.twilio.com/v1/Sims?Status=new&Iccid=iccid&RatePlan=rate_plan&PageSize=50&Page=0"
   }
 }
