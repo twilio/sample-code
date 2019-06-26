@@ -18,7 +18,7 @@ class Program
 
         var subscribedTracks = SubscribedTrackResource.Read(
             pathRoomSid: "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-            pathSubscriberSid: "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            pathParticipantSid: "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             limit: 20
         );
 
