@@ -1,8 +1,8 @@
 // Install the C# / .NET helper library from twilio.com/docs/csharp/install
 
 using System;
+using System.Collections.Generic;
 using Twilio;
-using Twilio.Converters;
 using Twilio.Rest.Video.V1;
 
 
@@ -17,10 +17,11 @@ class Program
 
         TwilioClient.Init(accountSid, authToken);
 
-        var recordings = RecordingResource.Read(
-            groupingSid: Promoter.ListOfOne("RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"),
-            limit: 20
-        );
+        var groupingSid = new List<string> {
+            "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        };
+
+        var recordings = RecordingResource.Read(groupingSid: groupingSid, limit: 20);
 
         foreach(var record in recordings)
         {

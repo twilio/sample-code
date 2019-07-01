@@ -18,7 +18,6 @@ class Program
 
         var member = MemberResource.Update(
             url: new Uri("https://example.com"),
-            method: Twilio.Http.HttpMethod.Get,
             pathQueueSid: "QUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
             pathCallSid: "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         );
