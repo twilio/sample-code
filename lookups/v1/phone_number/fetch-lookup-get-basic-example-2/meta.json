@@ -8,7 +8,7 @@
     "params": {
       "required": {
         "country_code": "US",
-        "type": "carrier"
+        "type": ["carrier"]
       },
       "path": {
         "phone_number": "(510)867-5310"

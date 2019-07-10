@@ -7,7 +7,7 @@
   "_definition": {
     "params": {
       "required": {
-        "add_ons": "whitepages_pro_caller_id"
+        "add_ons": ["whitepages_pro_caller_id"]
       },
       "path": {
         "phone_number": "+12127363100"

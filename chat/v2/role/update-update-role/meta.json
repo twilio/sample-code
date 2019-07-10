@@ -5,7 +5,7 @@
   "_definition": {
     "params": {
       "required": {
-        "permission": "sendMediaMessage"
+        "permission": ["sendMediaMessage"]
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",

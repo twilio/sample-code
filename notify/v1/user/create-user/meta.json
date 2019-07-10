@@ -6,7 +6,7 @@
     "params": {
       "required": {
         "identity": "User0001",
-        "segment": "premium"
+        "segment": ["premium"]
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

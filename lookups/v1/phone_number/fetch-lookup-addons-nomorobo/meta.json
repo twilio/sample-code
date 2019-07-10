@@ -6,7 +6,7 @@
   "_definition": {
     "params": {
       "required": {
-        "add_ons": "nomorobo_spamscore"
+        "add_ons": ["nomorobo_spamscore"]
       },
       "path": {
         "phone_number": "+19892008374"

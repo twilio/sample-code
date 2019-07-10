@@ -1,10 +1,7 @@
 {
   "description": "Look up a phone number including the Payfone TCPA Compliance Add-on results.",
   "original_snippet_path": "lookups/lookup-get-addon-payfone-example-1/lookup-get-addon-payfone-1.6.x.py",
-  "tags": [
-      "lookup",
-      "phone number"
-  ],
+  "tags": ["lookup", "phone number"],
   "testable": false,
   "title": "Deterministic TCPA Compliance with Lookup and the Payfone Add-on",
   "type": "server",
@@ -13,7 +10,7 @@
   "_definition": {
     "params": {
       "required": {
-        "add_ons": "payfone_tcpa_compliance",
+        "add_ons": ["payfone_tcpa_compliance"],
         "add_ons_data": {
           "payfone_tcpa_compliance.right_party_contacted_date": "20160101"
         },

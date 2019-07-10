@@ -7,7 +7,7 @@
       "required": {
         "friendly_name": "new_role",
         "type": "deployment",
-        "permission": "createChannel"
+        "permission": ["createChannel"]
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
