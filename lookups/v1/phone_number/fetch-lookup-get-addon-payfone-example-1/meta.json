@@ -14,7 +14,7 @@
         "add_ons_data": {
           "payfone_tcpa_compliance.right_party_contacted_date": "20160101"
         },
-        "type": "carrier"
+        "type": ["carrier"]
       },
       "path": {
         "phone_number": "+16502530000"

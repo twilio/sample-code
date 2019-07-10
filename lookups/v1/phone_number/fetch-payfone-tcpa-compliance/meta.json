@@ -7,7 +7,7 @@
   "_definition": {
     "params": {
       "required": {
-        "add_ons": "payfone_tcpa_compliance",
+        "add_ons": ["payfone_tcpa_compliance"],
         "add_ons_data": {
           "payfone_tcpa_compliance.right_party_contacted_date": "20160101"
         }
