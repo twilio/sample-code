@@ -5,7 +5,7 @@
     "params": {
       "required": {
         "recording_status_callback": "https://myapp.com/recording-events",
-        "recording_status_callback_event": "in-progress completed",
+        "recording_status_callback_event": ["in-progress completed"],
         "recording_channels": "dual"
       },
       "path": {

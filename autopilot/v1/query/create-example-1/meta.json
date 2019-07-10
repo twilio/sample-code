@@ -1,7 +1,7 @@
 {
   "title": "Create: Perform a Query against a Model Build",
   "type": "server",
-  "output_property": "task",
+  "output_property": "sid",
   "_definition": {
     "params": {
       "required": {

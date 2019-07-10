@@ -14,7 +14,7 @@
             "badge": 1
           }
         },
-        "identity": "00000001"
+        "identity": ["00000001"]
       },
       "path": {
         "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"

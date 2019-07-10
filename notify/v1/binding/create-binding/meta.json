@@ -6,7 +6,7 @@
     "params": {
       "required": {
         "endpoint": "endpoint_id",
-        "tag": "new user",
+        "tag": ["new user"],
         "identity": "00000001",
         "binding_type": "apn",
         "address": "device_token"

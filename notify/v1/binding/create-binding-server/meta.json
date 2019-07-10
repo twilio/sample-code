@@ -6,7 +6,7 @@
     "params": {
       "required": {
         "endpoint": "XXXXXXXXXXXXXXX",
-        "tag": "premium",
+        "tag": ["premium"],
         "identity": "00000001",
         "binding_type": "gcm",
         "address": "gcm_device_token"

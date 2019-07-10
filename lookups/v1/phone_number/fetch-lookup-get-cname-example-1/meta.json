@@ -7,7 +7,7 @@
   "_definition": {
     "params": {
       "required": {
-        "type": "caller-name"
+        "type": ["caller-name"]
       },
       "path": {
         "phone_number": "+16502530000"

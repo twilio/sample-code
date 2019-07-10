@@ -6,7 +6,7 @@
     "params": {
       "required": {
         "start_date": "2015-08-25",
-        "tag": "new user",
+        "tag": ["new user"],
         "page_size": 20
       },
       "path": {
