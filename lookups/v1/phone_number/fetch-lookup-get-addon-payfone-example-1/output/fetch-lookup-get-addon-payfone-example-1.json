@@ -10,7 +10,28 @@
     "type": "landline",
     "error_code": null
   },
-  "fraud": null,
-  "add_ons": "payfone_tcpa_compliance",
+  "add_ons": {
+    "status": "successful",
+    "message": null,
+    "code": null,
+    "results": {
+      "payfone_tcpa_compliance": {
+        "status": "successful",
+        "request_sid": "XRd3a2991c9108bde3ca9589ed84d31463",
+        "message": null,
+        "code": null,
+        "result": {
+          "Status": 0,
+          "Response": {
+            "MSISDNType": "NonFixedVoIP",
+            "NumberMatch": "I",
+            "VerifyNumberTransactionId": "2019459819"
+          },
+          "RequestId": "XRd3a2991c9108bde3ca9589ed84d31463",
+          "Description": "Success."
+        }
+      }
+    }
+  },
   "url": "https://lookups.twilio.com/v1/PhoneNumbers/+16502530000?Type=carrier"
 }
