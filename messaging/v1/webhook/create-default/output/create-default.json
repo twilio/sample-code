@@ -1,0 +1,20 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "target": "webhook",
+  "configuration": {
+    "url": "dummy",
+    "method": "get",
+    "filters": [
+      "onMessageSent",
+      "onSessionDestroyed"
+    ],
+    "retry_count": 2,
+    "buffer_messages": true,
+    "buffer_window": 3000
+  },
+  "date_created": "2016-03-24T21:05:50Z",
+  "date_updated": "2016-03-24T21:05:50Z",
+  "url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks/WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}

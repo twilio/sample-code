@@ -1,0 +1,11 @@
+{
+  "sid": "ZNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "ZSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "function_sid": "ZHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "path": "test-path",
+  "visibility": "public",
+  "pre_signed_upload_url": null,
+  "date_created": "2018-11-10T20:00:00Z",
+  "url": "https://serverless.twilio.com/v1/Services/ZSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Functions/ZH00000000000000000000000000000000/Versions/ZN00000000000000000000000000000000"
+}

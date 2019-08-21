@@ -15,7 +15,6 @@
   "default_fcm_notification_protocol_version": "3",
   "default_alexa_notification_protocol_version": "3",
   "log_enabled": true,
-  "type": "S",
   "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "bindings": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Bindings",

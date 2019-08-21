@@ -2,7 +2,7 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskQueues/WQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Statistics",
   "cumulative": {
-    "avg_task_acceptance_time": null,
+    "avg_task_acceptance_time": 0.0,
     "end_time": "2015-08-18T08:42:34Z",
     "reservations_accepted": 0,
     "reservations_canceled": 0,

@@ -1,4 +1,65 @@
 {
   "update_count": 1,
-  "update_request": "[{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"CU\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"LV\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"SO\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"LT\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"GN\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"GM\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"MV\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"EE\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"ZW\"},{ \"high_risk_special_numbers_enabled\": false, \"low_risk_numbers_enabled\": true, \"high_risk_tollfraud_numbers_enabled\": false, \"iso_code\": \"TN\"}]"
+  "update_request": [
+    {
+      "high_risk_special_numbers_enabled": false,
+      "low_risk_numbers_enabled": true,
+      "high_risk_tollfraud_numbers_enabled": false,
+      "iso_code": "CU"
+    },
+    {
+      "high_risk_special_numbers_enabled": false,
+      "low_risk_numbers_enabled": true,
+      "high_risk_tollfraud_numbers_enabled": false,
+      "iso_code": "LV"
+    },
+    {
+      "high_risk_special_numbers_enabled": false,
+      "low_risk_numbers_enabled": true,
+      "high_risk_tollfraud_numbers_enabled": false,
+      "iso_code": "SO"
+    },
+    {
+      "high_risk_special_numbers_enabled": false,
+      "low_risk_numbers_enabled": true,
+      "high_risk_tollfraud_numbers_enabled": false,
+      "iso_code": "LT"
+    },
+    {
+      "high_risk_special_numbers_enabled": false,
+      "low_risk_numbers_enabled": true,
+      "high_risk_tollfraud_numbers_enabled": false,
+      "iso_code": "GN"
+    },
+    {
+      "high_risk_special_numbers_enabled": false,
+      "low_risk_numbers_enabled": true,
+      "high_risk_tollfraud_numbers_enabled": false,
+      "iso_code": "GM"
+    },
+    {
+      "high_risk_special_numbers_enabled": false,
+      "low_risk_numbers_enabled": true,
+      "high_risk_tollfraud_numbers_enabled": false,
+      "iso_code": "MV"
+    },
+    {
+      "high_risk_special_numbers_enabled": false,
+      "low_risk_numbers_enabled": true,
+      "high_risk_tollfraud_numbers_enabled": false,
+      "iso_code": "EE"
+    },
+    {
+      "high_risk_special_numbers_enabled": false,
+      "low_risk_numbers_enabled": true,
+      "high_risk_tollfraud_numbers_enabled": false,
+      "iso_code": "ZW"
+    },
+    {
+      "high_risk_special_numbers_enabled": false,
+      "low_risk_numbers_enabled": true,
+      "high_risk_tollfraud_numbers_enabled": false,
+      "iso_code": "TN"
+    }
+  ]
 }

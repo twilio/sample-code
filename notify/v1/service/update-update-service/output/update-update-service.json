@@ -15,7 +15,6 @@
   "alexa_skill_id": null,
   "facebook_messenger_page_id": "your_page_id",
   "log_enabled": true,
-  "type": "S",
   "url": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "bindings": "https://notify.twilio.com/v1/Services/ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Bindings",

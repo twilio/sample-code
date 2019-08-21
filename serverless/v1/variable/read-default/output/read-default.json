@@ -1,0 +1,12 @@
+{
+  "variables": [],
+  "meta": {
+    "first_page_url": "https://serverless.twilio.com/v1/Services/ZSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Environments/ZE00000000000000000000000000000000/Variables?PageSize=50&Page=0",
+    "key": "variables",
+    "next_page_url": "https://serverless.twilio.com/v1/Services/ZSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Environments/ZE00000000000000000000000000000000/Variables?PageSize=50&Page=1",
+    "page": 0,
+    "page_size": 50,
+    "previous_page_url": "https://serverless.twilio.com/v1/Services/ZSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Environments/ZE00000000000000000000000000000000/Variables?PageSize=50&Page=0",
+    "url": "https://serverless.twilio.com/v1/Services/ZSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Environments/ZE00000000000000000000000000000000/Variables?PageSize=50&Page=0"
+  }
+}

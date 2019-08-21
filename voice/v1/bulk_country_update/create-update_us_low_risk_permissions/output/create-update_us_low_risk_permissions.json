@@ -1,4 +1,11 @@
 {
   "update_count": 1,
-  "update_request": "[ { \"iso_code\": \"US\", \"low_risk_numbers_enabled\": \"true\", \"high_risk_special_numbers_enabled\":\"false\", \"high_risk_tollfraud_numbers_enabled\": \"false\" } ]"
+  "update_request": [
+    {
+      "iso_code": "US",
+      "low_risk_numbers_enabled": "true",
+      "high_risk_special_numbers_enabled": "false",
+      "high_risk_tollfraud_numbers_enabled": "false"
+    }
+  ]
 }

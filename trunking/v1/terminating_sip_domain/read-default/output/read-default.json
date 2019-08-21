@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "first_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TerminatingSipDomains?PageSize=50&Page=0",
+    "key": "sip_domains",
+    "next_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TerminatingSipDomains?PageSize=50&Page=1",
+    "page": 0,
+    "page_size": 50,
+    "previous_page_url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TerminatingSipDomains?PageSize=50&Page=0",
+    "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TerminatingSipDomains?PageSize=50&Page=0"
+  },
+  "sip_domains": [
+    {
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "api_version": "2010-04-01",
+      "auth_type": "IP_ACL",
+      "date_created": "2015-07-20T17:27:10Z",
+      "date_updated": "2015-10-09T11:36:32Z",
+      "domain_name": "dunder-mifflin-scranton.sip.twilio.com",
+      "friendly_name": "Scranton Office",
+      "sip_registration": true,
+      "sid": "SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "url": "https://trunking.twilio.com/v1/Trunks/TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TerminatingSipDomains/SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "voice_fallback_method": "POST",
+      "voice_fallback_url": null,
+      "voice_method": "POST",
+      "voice_status_callback_method": "POST",
+      "voice_status_callback_url": null,
+      "voice_url": "https://demo.twilio.com/welcome/voice/",
+      "trunk_sid": "TRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "links": {
+        "sip_domain": "https://api.twilio.com/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/SIP/Domains/SDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    }
+  ]
+}

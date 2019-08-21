@@ -1,0 +1,9 @@
+{
+  "sid": "CAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "from": "+15000000000",
+  "to": "+573000000000",
+  "reason": "Hello Jhon, your appointment has been confirmed.",
+  "created_at": "2019-05-01T20:00:00Z",
+  "url": "https://preview.twilio.com/TrustedComms/Business/PhoneCalls"
+}

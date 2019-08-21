@@ -41,8 +41,6 @@
   "bitrate": 0,
   "size": 0,
   "duration": 0,
-  "media_external_location": null,
-  "encryption_key": null,
   "url": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "media": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"

@@ -1,0 +1,12 @@
+{
+  "participant_sid": "PAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created": null,
+  "date_updated": null,
+  "rules": [
+    {
+      "type": "exclude",
+      "all": true
+    }
+  ]
+}

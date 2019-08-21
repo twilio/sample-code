@@ -1,0 +1,28 @@
+{
+  "language": "language",
+  "date_created": "2015-07-30T20:00:00Z",
+  "model_build_sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "query": "query",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "status": "status",
+  "sample_sid": "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "results": {
+    "task": {
+      "name": "name",
+      "task_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "confidence": 0.9
+    },
+    "entities": [
+      {
+        "name": "name",
+        "value": "value",
+        "type": "type"
+      }
+    ]
+  },
+  "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries/UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "source_channel": "sms"
+}
