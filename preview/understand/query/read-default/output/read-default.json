@@ -1,0 +1,41 @@
+{
+  "queries": [
+    {
+      "language": "language",
+      "date_created": "2015-07-30T20:00:00Z",
+      "model_build_sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "query": "query",
+      "date_updated": "2015-07-30T20:00:00Z",
+      "status": "status",
+      "sample_sid": "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "results": {
+        "task": {
+          "name": "name",
+          "task_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+          "confidence": 0.9
+        },
+        "entities": [
+          {
+            "name": "name",
+            "value": "value",
+            "type": "type"
+          }
+        ]
+      },
+      "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries/UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sid": "UHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "source_channel": null
+    }
+  ],
+  "meta": {
+    "previous_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries?Status=status&ModelBuild=UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&Language=language&PageSize=50&Page=0",
+    "next_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries?Status=status&ModelBuild=UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&Language=language&PageSize=50&Page=1",
+    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries?Status=status&ModelBuild=UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&Language=language&PageSize=50&Page=0",
+    "page": 0,
+    "key": "queries",
+    "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries?Status=status&ModelBuild=UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&Language=language&PageSize=50&Page=0",
+    "page_size": 50
+  }
+}

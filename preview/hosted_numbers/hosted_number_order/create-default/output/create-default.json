@@ -21,7 +21,7 @@
   "unique_name": null,
   "url": "https://preview.twilio.com/HostedNumbers/HostedNumberOrders/HRXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "verification_attempts": 0,
-  "verification_call_sids": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "verification_call_sids": null,
   "verification_code": null,
   "verification_document_sid": null,
   "verification_type": "phone-call"

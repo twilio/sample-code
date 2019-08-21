@@ -2,8 +2,6 @@
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "status": "processing",
   "date_created": "2015-07-30T20:00:00Z",
-  "date_updated": "2015-07-30T21:00:00Z",
-  "date_deleted": "2015-07-30T22:00:00Z",
   "sid": "RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "source_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "size": 0,
@@ -17,8 +15,6 @@
   "grouping_sids": {
     "room_sid": "RMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
   },
-  "media_external_location": "https://my-super-duper-bucket.s3.amazonaws.com/my/path/",
-  "encryption_key": "public_key",
   "links": {
     "media": "https://video.twilio.com/v1/Recordings/RTXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
   }

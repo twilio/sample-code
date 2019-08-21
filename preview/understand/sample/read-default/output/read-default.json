@@ -1,0 +1,25 @@
+{
+  "samples": [
+    {
+      "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples/UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "task_sid": "UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sid": "UFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "date_created": "2015-07-30T20:00:00Z",
+      "language": "language",
+      "tagged_text": "tagged_text",
+      "date_updated": "2015-07-30T20:00:00Z",
+      "source_channel": "sms"
+    }
+  ],
+  "meta": {
+    "first_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples?Language=language&PageSize=50&Page=0",
+    "previous_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples?Language=language&PageSize=50&Page=0",
+    "key": "samples",
+    "next_page_url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples?Language=language&PageSize=50&Page=1",
+    "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks/UDXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Samples?Language=language&PageSize=50&Page=0",
+    "page": 0,
+    "page_size": 50
+  }
+}

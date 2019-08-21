@@ -1,0 +1,13 @@
+{
+  "unique_name": "unique_name",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created": "2015-07-30T20:00:00Z",
+  "friendly_name": "friendly_name",
+  "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes/UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "links": {
+    "field_values": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes/UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldValues"
+  },
+  "sid": "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}

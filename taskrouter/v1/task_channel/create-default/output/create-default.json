@@ -1,0 +1,14 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "workspace_sid": "WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "sid": "TCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "friendly_name": "Outbound Voice",
+  "unique_name": "ovoice",
+  "date_created": "2016-04-14T17:35:54Z",
+  "date_updated": "2016-04-14T17:35:54Z",
+  "channel_optimized_routing": true,
+  "url": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/TaskChannels/TCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "links": {
+    "workspace": "https://taskrouter.twilio.com/v1/Workspaces/WSXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
+}

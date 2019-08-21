@@ -1,0 +1,12 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes/UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldValues/UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "field_type_sid": "UBXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "language": "language",
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "value": "value",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "date_created": "2015-07-30T20:00:00Z",
+  "sid": "UCXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "synonym_of": null
+}

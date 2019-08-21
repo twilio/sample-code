@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "page": 0,
+    "page_size": 50,
+    "first_page_url": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RateLimits?PageSize=50&Page=0",
+    "previous_page_url": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RateLimits?PageSize=50&Page=0",
+    "next_page_url": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RateLimits?PageSize=50&Page=1",
+    "key": "rate_limits",
+    "url": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RateLimits?PageSize=50&Page=0"
+  },
+  "rate_limits": [
+    {
+      "sid": "RKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "unique_name": "unique.name",
+      "description": "Description",
+      "date_created": "2015-07-30T20:00:00Z",
+      "date_updated": "2015-07-30T20:00:00Z",
+      "url": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RateLimits/RKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "links": {
+        "buckets": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RateLimits/RKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Buckets"
+      }
+    }
+  ]
+}

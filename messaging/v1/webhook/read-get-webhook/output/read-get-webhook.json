@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "page": 0,
+    "page_size": 5,
+    "first_page_url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks?PageSize=5&Page=0",
+    "previous_page_url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks?PageSize=5&Page=0",
+    "url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks?PageSize=5&Page=0",
+    "next_page_url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks?PageSize=5&Page=1",
+    "key": "webhooks"
+  },
+  "webhooks": [
+    {
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sid": "WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "target": "webhook",
+      "configuration": {
+        "url": "dummy",
+        "method": "get",
+        "filters": [
+          "onMessageSent",
+          "onSessionDestroyed"
+        ],
+        "retry_count": 2,
+        "buffer_messages": false
+      },
+      "date_created": "2016-03-24T21:05:50Z",
+      "date_updated": "2016-03-24T21:05:50Z",
+      "url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks/WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sid": "WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "target": "trigger",
+      "configuration": {
+        "url": "dummy",
+        "method": "post",
+        "filters": [
+          "keyword1",
+          "keyword2"
+        ],
+        "retry_count": 3,
+        "buffer_messages": true,
+        "buffer_window": 3000
+      },
+      "date_created": "2016-03-24T21:05:50Z",
+      "date_updated": "2016-03-24T21:05:50Z",
+      "url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks/WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    {
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "session_sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "sid": "WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "target": "studio",
+      "configuration": {
+        "flow_sid": "FWXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "buffer_messages": false,
+        "buffer_window": 4000
+      },
+      "date_created": "2016-03-24T21:05:50Z",
+      "date_updated": "2016-03-24T21:05:50Z",
+      "url": "https://messaging.twilio.com/v1/Sessions/CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Webhooks/WHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "assistants": [
+    {
+      "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "date_created": "2017-07-04T08:34:00Z",
+      "date_updated": "2017-07-04T08:34:00Z",
+      "friendly_name": "so so friendly",
+      "latest_model_build_sid": null,
+      "log_queries": true,
+      "sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "unique_name": "so-so-unique",
+      "links": {
+        "field_types": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FieldTypes",
+        "tasks": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Tasks",
+        "model_builds": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ModelBuilds",
+        "queries": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Queries",
+        "assistant_fallback_actions": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/FallbackActions",
+        "assistant_initiation_actions": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/InitiationActions",
+        "dialogues": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Dialogues",
+        "style_sheet": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/StyleSheet"
+      },
+      "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "callback_url": "https://example.com/callback_url",
+      "callback_events": "model_build_completed model_build_failed"
+    }
+  ],
+  "meta": {
+    "first_page_url": "https://preview.twilio.com/understand/Assistants?PageSize=50&Page=0",
+    "key": "assistants",
+    "next_page_url": "https://preview.twilio.com/understand/Assistants?PageSize=50&Page=1",
+    "page": 0,
+    "page_size": 50,
+    "previous_page_url": "https://preview.twilio.com/understand/Assistants?PageSize=50&Page=0",
+    "url": "https://preview.twilio.com/understand/Assistants?PageSize=50&Page=0"
+  }
+}

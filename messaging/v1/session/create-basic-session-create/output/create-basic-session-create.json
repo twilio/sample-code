@@ -2,7 +2,7 @@
   "sid": "CHXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "service_sid": "ISXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  "messaging_service_sid": "MG2172dd2db502e20dd981ef0d67850e1a",
+  "messaging_service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "friendly_name": "friendly_name",
   "attributes": {
     "foo": "bar"

@@ -1,0 +1,13 @@
+{
+  "sid": "RKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "service_sid": "VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "unique_name": "unique.name",
+  "description": "Description",
+  "date_created": "2015-07-30T20:00:00Z",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "url": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RateLimits/RKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "links": {
+    "buckets": "https://verify.twilio.com/v2/Services/VAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/RateLimits/RKXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Buckets"
+  }
+}

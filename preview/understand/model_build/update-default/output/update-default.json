@@ -1,0 +1,12 @@
+{
+  "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_updated": "2015-07-30T20:00:00Z",
+  "url": "https://preview.twilio.com/understand/Assistants/UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/ModelBuilds/UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "status": "completed",
+  "assistant_sid": "UAXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "date_created": "2015-07-30T20:00:00Z",
+  "sid": "UGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "unique_name": "unique_name",
+  "build_duration": 100,
+  "error_code": null
+}

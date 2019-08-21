@@ -53,8 +53,6 @@
   "size": 4,
   "duration": 6,
   "trim": true,
-  "media_external_location": null,
-  "encryption_key": null,
   "url": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "links": {
     "media": "https://video.twilio.com/v1/Compositions/CJXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media"
