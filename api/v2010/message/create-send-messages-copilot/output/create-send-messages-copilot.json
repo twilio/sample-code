@@ -8,7 +8,7 @@
   "direction": "outbound-api",
   "error_code": null,
   "error_message": null,
-  "from": "+14155552345",
+  "from": null,
   "messaging_service_sid": "MGXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "num_media": "0",
   "num_segments": "1",
